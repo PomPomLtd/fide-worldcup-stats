@@ -315,6 +315,181 @@ export interface FideFunAwards {
 }
 
 // ============================================================================
+// FUN STATS (CHESS-BASED AWARDS)
+// ============================================================================
+
+export interface FunStats {
+  fastestQueenTrade: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    white: string;
+    black: string;
+  } | null;
+  slowestQueenTrade: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    white: string;
+    black: string;
+  } | null;
+  longestCaptureSequence: {
+    length: number;
+    gameIndex: number;
+    gameId: string | null;
+    startMove: number;
+    white: string;
+    black: string;
+  } | null;
+  longestCheckSequence: {
+    length: number;
+    gameIndex: number;
+    gameId: string | null;
+    startMove: number;
+    white: string;
+    black: string;
+  } | null;
+  pawnStorm: {
+    count: number;
+    gameIndex: number;
+    gameId: string | null;
+    white: string;
+    black: string;
+  } | null;
+  pieceLoyalty: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    piece: string;
+    square: string;
+    white: string;
+    black: string;
+  } | null;
+  squareTourist: {
+    squares: number;
+    gameIndex: number;
+    gameId: string | null;
+    piece: string;
+    color: string;
+    startSquare: string;
+    white: string;
+    black: string;
+  } | null;
+  castlingRace: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    winner: string;
+    white: string;
+    black: string;
+  } | null;
+  openingHipster: {
+    gameIndex: number;
+    gameId: string | null;
+    eco: string;
+    name: string;
+    moves: string;
+    white: string;
+    black: string;
+  } | null;
+  dadbodShuffler: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  sportyQueen: {
+    distance: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  edgeLord: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  rookLift: {
+    moveNumber: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    rook: string;
+    square: string;
+    white: string;
+    black: string;
+  } | null;
+  centerStage: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    piece: string;
+    startSquare: string;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  darkLord: {
+    captures: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  chickenAward: {
+    retreats: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  slowestCastling: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  pawnCaptures: {
+    captures: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  antiOrthogonal: {
+    moves: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  comfortZone: {
+    percentage: number;
+    pieceType: string;
+    moves: number;
+    totalNonPawnMoves: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+}
+
+// ============================================================================
 // DATA INFO
 // ============================================================================
 
@@ -359,6 +534,9 @@ export interface RoundStats {
   // FIDE-specific statistics
   ratingAnalysis: RatingAnalysis;
   fideFunAwards: FideFunAwards;
+
+  // Fun Stats (chess-based awards)
+  funStats: FunStats;
 
   // Metadata
   dataInfo: DataInfo;

@@ -4,7 +4,7 @@
  * Tracks who castled the latest in the round (highest move number).
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate slowest castling (latest castling move)

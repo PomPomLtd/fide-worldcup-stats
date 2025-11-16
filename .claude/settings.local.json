@@ -12,7 +12,10 @@
       "Bash(npm run build:*)",
       "Bash(xargs node -e \"const data=require(process.argv[1]); console.log(\"\"Top-level keys:\"\", Object.keys(data).join(\"\", \"\"));\")",
       "WebSearch",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(do cp \"$f\" /Users/sgis/DEV/pompom/fide-worldcup-stats/scripts/utils/calculators/fun-stats/)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

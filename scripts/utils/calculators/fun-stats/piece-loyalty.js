@@ -5,7 +5,7 @@
  * Tracks the piece that stayed on its starting square the longest.
  */
 
-const { getPlayerNames, PIECE_NAMES } = require('../helpers');
+const { getPlayerNames, PIECE_NAMES } = require('../helpers/game-helpers');
 
 /**
  * Calculate piece loyalty (piece staying on start square longest)

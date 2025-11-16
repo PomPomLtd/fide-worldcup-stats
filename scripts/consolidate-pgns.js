@@ -194,13 +194,14 @@ function parseGameMetadata(gamePGN) {
     moves = verboseMoves.map(m => m.san).join(' ');
 
     // Create lightweight moveList (only fields we actually use)
-    // This reduces JSON size by ~70% compared to full verbose output
+    // Note: 'from' field added for fun-stats calculators
     moveList = verboseMoves.map(m => ({
       piece: m.piece,
       captured: m.captured,
       promotion: m.promotion,
       flags: m.flags,
       san: m.san,
+      from: m.from,
       to: m.to,
       color: m.color,
     }));

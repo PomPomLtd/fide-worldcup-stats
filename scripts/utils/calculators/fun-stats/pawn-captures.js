@@ -4,7 +4,7 @@
  * Tracks the game with the most captures made by pawns.
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate most pawn captures

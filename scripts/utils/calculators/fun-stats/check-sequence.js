@@ -6,7 +6,7 @@
  * Opponent moves between checks are allowed.
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate longest check sequence

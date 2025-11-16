@@ -6,7 +6,7 @@
  */
 
 const { analyzeGamePhases } = require('../../game-phases');
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate pawn storm (most pawn moves in opening)

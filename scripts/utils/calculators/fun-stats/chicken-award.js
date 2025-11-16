@@ -7,7 +7,7 @@
  * Black retreats: moving to a higher rank (closer to rank 8)
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate chicken award (most retreating moves)

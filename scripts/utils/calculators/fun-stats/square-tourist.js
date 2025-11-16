@@ -5,7 +5,7 @@
  * Tracks the piece that visited the most unique squares.
  */
 
-const { getPlayerNames, PIECE_NAMES } = require('../helpers');
+const { getPlayerNames, PIECE_NAMES } = require('../helpers/game-helpers');
 
 /**
  * Calculate square tourist (piece visiting most squares)

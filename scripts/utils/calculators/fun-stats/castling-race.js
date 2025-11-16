@@ -5,7 +5,7 @@
  * Tracks who castled first in the round.
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate castling race winner

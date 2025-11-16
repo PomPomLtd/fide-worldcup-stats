@@ -5,7 +5,7 @@
  * Tracks the queen that traveled the most distance (Manhattan distance).
  */
 
-const { getPlayerNames, calculateDistance } = require('../helpers');
+const { getPlayerNames, calculateDistance } = require('../helpers/game-helpers');
 
 /**
  * Calculate sporty queen (queen with most travel distance)

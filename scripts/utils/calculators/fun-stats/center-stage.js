@@ -5,7 +5,7 @@
  * Tracks the piece with the most moves to center squares (d4, d5, e4, e5).
  */
 
-const { getPlayerNames, CENTER_SQUARES, PIECE_NAMES } = require('../helpers');
+const { getPlayerNames, CENTER_SQUARES, PIECE_NAMES } = require('../helpers/game-helpers');
 
 /**
  * Calculate center stage (piece with most center square activity)

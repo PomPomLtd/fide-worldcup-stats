@@ -165,6 +165,63 @@ function getPlayerRatings(game) {
   };
 }
 
+/**
+ * Calculate Manhattan distance between two squares
+ * @param {string} from - Starting square (e.g., 'e4')
+ * @param {string} to - Ending square (e.g., 'e5')
+ * @returns {number} Manhattan distance
+ */
+function calculateDistance(from, to) {
+  const fromFile = from.charCodeAt(0) - 'a'.charCodeAt(0);
+  const fromRank = parseInt(from[1]) - 1;
+  const toFile = to.charCodeAt(0) - 'a'.charCodeAt(0);
+  const toRank = parseInt(to[1]) - 1;
+  return Math.abs(toFile - fromFile) + Math.abs(toRank - fromRank);
+}
+
+/**
+ * Check if a square is a dark square
+ * @param {string} square - Square notation (e.g., 'd4')
+ * @returns {boolean} True if square is dark
+ */
+function isDarkSquare(square) {
+  const file = square.charCodeAt(0) - 'a'.charCodeAt(0);
+  const rank = parseInt(square[1]) - 1;
+  return (file + rank) % 2 === 1;
+}
+
+/**
+ * Convert plies to full moves
+ * @param {number} plies - Number of half-moves
+ * @returns {number} Number of full moves
+ */
+function toFullMoves(plies) {
+  return Math.ceil(plies / 2);
+}
+
+/**
+ * Constants for piece names
+ */
+const PIECE_NAMES = {
+  p: 'Pawn',
+  n: 'Knight',
+  b: 'Bishop',
+  r: 'Rook',
+  q: 'Queen',
+  k: 'King',
+};
+
+const PIECE_NAMES_LOWERCASE = {
+  p: 'pawn',
+  n: 'knight',
+  b: 'bishop',
+  r: 'rook',
+  q: 'queen',
+  k: 'king',
+};
+
+const CENTER_SQUARES = new Set(['d4', 'd5', 'e4', 'e5']);
+
 module.exports = {
   filterGamesWithMoves,
   getPlayerName,
@@ -178,4 +235,10 @@ module.exports = {
   getWinner,
   getPlayerRating,
   getPlayerRatings,
+  calculateDistance,
+  isDarkSquare,
+  toFullMoves,
+  PIECE_NAMES,
+  PIECE_NAMES_LOWERCASE,
+  CENTER_SQUARES,
 };

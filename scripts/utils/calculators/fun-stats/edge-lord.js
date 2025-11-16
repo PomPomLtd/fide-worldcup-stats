@@ -5,7 +5,7 @@
  * Tracks the player with the most moves on edge files (a/h).
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate edge lord (most edge file moves)

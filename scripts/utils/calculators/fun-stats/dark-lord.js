@@ -5,7 +5,7 @@
  * Tracks the player with the most captures on dark squares.
  */
 
-const { getPlayerNames, isDarkSquare } = require('../helpers');
+const { getPlayerNames, isDarkSquare } = require('../helpers/game-helpers');
 
 /**
  * Calculate dark lord (most dark square captures)

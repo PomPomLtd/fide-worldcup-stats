@@ -6,7 +6,7 @@
  * A queen trade occurs when both queens are captured.
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate fastest and slowest queen trades

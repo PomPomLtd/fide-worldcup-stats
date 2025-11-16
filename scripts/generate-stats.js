@@ -30,6 +30,7 @@ const { calculateAwards } = require('./utils/calculators/awards');
 const { calculateMatchStats } = require('./utils/calculators/match-stats');
 const { calculateRatingAnalysis } = require('./utils/calculators/rating-analysis');
 const { calculateFideFunAwards } = require('./utils/calculators/fide-fun-awards');
+const { calculateFunStats } = require('./utils/calculators/fun-stats');
 
 /**
  * Extract all games from matches
@@ -185,6 +186,11 @@ function generateStatsForRound(roundNum) {
   const fideFunAwards = calculateFideFunAwards(enrichedData.matches, ratingAnalysis);
   console.log('    ✓ FIDE-specific statistics complete');
 
+  // Fun Stats (chess-based awards)
+  console.log('\n  Calculating Fun Stats...');
+  const funStats = calculateFunStats(allGames);
+  console.log('    ✓ Fun Stats complete');
+
   // Compile final output
   const statsOutput = {
     // Metadata
@@ -206,6 +212,9 @@ function generateStatsForRound(roundNum) {
 
     // FIDE fun awards
     fideFunAwards,
+
+    // Fun Stats (chess-based awards)
+    funStats,
 
     // Raw data info
     dataInfo: {

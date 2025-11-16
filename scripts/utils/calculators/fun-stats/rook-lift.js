@@ -6,7 +6,7 @@
  * (first time a rook leaves its back rank).
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate rook lift (earliest rook leaving back rank)

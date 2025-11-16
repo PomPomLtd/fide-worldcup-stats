@@ -4,7 +4,7 @@
  * Tracks the player with the most diagonal moves (bishops and queens moving diagonally).
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate most diagonal moves

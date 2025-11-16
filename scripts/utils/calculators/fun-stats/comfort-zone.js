@@ -4,7 +4,7 @@
  * Tracks the player who used one piece type the most (as % of their non-pawn moves).
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate most-used piece type percentage (excluding pawns)

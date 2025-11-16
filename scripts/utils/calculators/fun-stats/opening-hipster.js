@@ -7,7 +7,7 @@
  */
 
 const { getOpeningName } = require('../../chess-openings');
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate opening hipster (most obscure opening)

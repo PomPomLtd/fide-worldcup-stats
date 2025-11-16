@@ -5,7 +5,7 @@
  * Tracks the most active king (most king moves in a game).
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate dadbod shuffler (most king moves)

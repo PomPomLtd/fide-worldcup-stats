@@ -5,7 +5,7 @@
  * Tracks the longest consecutive capture sequence in any game.
  */
 
-const { getPlayerNames } = require('../helpers');
+const { getPlayerNames } = require('../helpers/game-helpers');
 
 /**
  * Calculate longest capture sequence
