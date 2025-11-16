@@ -350,55 +350,49 @@ This is 100% reliable and simpler than parsing TimeControl strings!
 }
 ```
 
-#### ⏳ Task 2.3: Write TimeControl Parser Module
+#### ⏳ Task 2.3: Write Time Control Classifier Module
 **Status:** PENDING
 **Location:** `scripts/utils/time-control-classifier.js`
 
-**Module API:**
+**Module API (SIMPLIFIED - Uses Round Field):**
 ```javascript
 /**
- * Parse TimeControl string and classify
- * @param {string} timeControl - Raw TimeControl field from PGN
- * @returns {Object} { type: 'CLASSICAL'|'RAPID'|'BLITZ'|'UNKNOWN', parsed: {...} }
+ * Classify game by Round field
+ * @param {string} roundField - Round field from PGN (e.g., "3.2", "7.1")
+ * @returns {Object} { type, tier, timeControl }
  */
-function classifyTimeControl(timeControl) {
-  // Implementation
+function classifyByRoundField(roundField) {
+  const gameNum = parseInt(roundField.split('.')[0]);
+
+  if (gameNum >= 1 && gameNum <= 2) {
+    return { type: 'CLASSICAL', tier: null, timeControl: '90+30' };
+  } else if (gameNum >= 3 && gameNum <= 4) {
+    return { type: 'RAPID', tier: 1, timeControl: '15+10' };
+  } else if (gameNum >= 5 && gameNum <= 6) {
+    return { type: 'RAPID', tier: 2, timeControl: '10+10' };
+  } else if (gameNum >= 7 && gameNum <= 8) {
+    return { type: 'BLITZ', tier: 1, timeControl: '5+3' };
+  } else if (gameNum >= 9 && gameNum <= 10) {
+    return { type: 'BLITZ', tier: 2, timeControl: '3+2' };
+  } else if (gameNum === 11) {
+    return { type: 'ARMAGEDDON', tier: null, timeControl: 'armageddon' };
+  } else {
+    return { type: 'UNKNOWN', tier: null, timeControl: null };
+  }
 }
 
-module.exports = { classifyTimeControl };
+module.exports = { classifyByRoundField };
 ```
 
-**Classification Logic (Based on Official FIDE Rules):**
-```javascript
-1. Normalize string (trim, lowercase for matching)
+**Classification Logic (MUCH SIMPLER!):**
+1. Extract game number from Round field (first number before dot)
+2. Map game number to type via simple range checks
+3. Return classification with tier info and time control label
 
-2. Try exact/pattern matching:
-   a) If contains "90 minutes for" or "90 minutes for 40 moves"
-      → CLASSICAL
-
-   b) Parse "XX+YY" or "XX minutes + YY seconds" format:
-      - "15+10" or "15 minutes + 10 seconds" → RAPID (tier 1)
-      - "10+10" or "10 minutes + 10 seconds" → RAPID (tier 2)
-      - "5+3"  or "5 minutes + 3 seconds"   → BLITZ (tier 1)
-      - "3+2"  or "3 minutes + 2 seconds"   → BLITZ (tier 2)
-
-   c) If "sudden death" or other special indicators → ARMAGEDDON
-
-3. If unparseable → UNKNOWN (log for manual review)
-
-4. Return: {
-     type: 'CLASSICAL'|'RAPID'|'BLITZ'|'ARMAGEDDON'|'UNKNOWN',
-     tier: 1|2|null,  // For rapid/blitz tiers
-     baseMinutes: number,
-     increment: number
-   }
-```
-
-**Edge Cases:**
-- Missing TimeControl → UNKNOWN
-- Malformed strings → UNKNOWN
-- Non-standard formats → UNKNOWN (investigate manually)
-- Armageddon (if exists) → Mark as ARMAGEDDON type
+**No Edge Cases!**
+- Round field is always present and well-formatted in our data
+- 100% reliable mapping based on official FIDE structure
+- No string parsing complexity
 
 #### ⏳ Task 2.4: Calculate Match Outcomes
 **Status:** PENDING
