@@ -54,12 +54,12 @@ export function Navigation() {
               <Link href="/" className="flex items-center gap-3 text-white font-bold text-xl hover:opacity-90 transition-opacity">
                 <Image
                   src="/favicon.svg"
-                  alt="Lichess 4545 Logo"
+                  alt="FIDE World Cup Logo"
                   width={32}
                   height={32}
                   className="w-8 h-8"
                 />
-                <span>Lichess 4545 Stats</span>
+                <span>FIDE World Cup 2025</span>
               </Link>
             </div>
             <div className="hidden lg:block">
