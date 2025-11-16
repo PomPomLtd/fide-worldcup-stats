@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Semi-finals)",
-  "generatedAt": "2025-11-16T22:59:55.046Z",
+  "generatedAt": "2025-11-16T23:10:05.130Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 0,
@@ -961,14 +961,14 @@
       "black": "Le, Quang Liem"
     },
     "openingHipster": {
-      "gameIndex": 9,
+      "gameIndex": 20,
       "gameId": null,
-      "eco": "E60",
-      "name": "King's Indian Defense: Fianchetto Variation, Immediate Fianchetto",
-      "moves": "d4 Nf6 c4 g6 g3 c6",
-      "obscurityScore": 85,
-      "white": "Le, Quang Liem",
-      "black": "Donchenko, Alexander"
+      "eco": "A06",
+      "name": "Nimzo-Larsen Attack: Classical Variation",
+      "moves": "Nf3 d5 b3 c5 e3 Nf6",
+      "obscurityScore": 90,
+      "white": "Grebnev, Aleksey",
+      "black": "Esipenko, Andrey"
     },
     "dadbodShuffler": {
       "moves": 31,

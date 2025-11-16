@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-16T22:59:28.810Z",
+  "generatedAt": "2025-11-16T23:09:39.016Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 0,
@@ -4634,7 +4634,7 @@
       "eco": "A22",
       "name": "English Opening: King's English Variation, Two Knights Variation",
       "moves": "c4 e5 Nc3 Nf6 e3 Nc6",
-      "obscurityScore": 84,
+      "obscurityScore": 104,
       "white": "Mamedyarov, Shakhriyar",
       "black": "Kantor, Gergely"
     },

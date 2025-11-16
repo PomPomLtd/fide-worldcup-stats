@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-16T22:59:51.179Z",
+  "generatedAt": "2025-11-16T23:10:01.240Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -1318,14 +1318,14 @@
       "black": "Esipenko, Andrey"
     },
     "openingHipster": {
-      "gameIndex": 57,
+      "gameIndex": 24,
       "gameId": null,
-      "eco": "B31",
-      "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
-      "moves": "e4 c5 Nf3 Nc6 Bb5 g6",
-      "obscurityScore": 90,
-      "white": "Shankland, Sam",
-      "black": "Rapport, Richard"
+      "eco": "A16",
+      "name": "English Opening: Anglo-Indian Defense, Queen's Knight Variation",
+      "moves": "c4 Nf6 Nc3 c5 Nf3 e6",
+      "obscurityScore": 103,
+      "white": "Maghsoodloo, Parham",
+      "black": "Wei, Yi"
     },
     "dadbodShuffler": {
       "moves": 35,

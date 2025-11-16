@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T22:58:57.181Z",
+  "generatedAt": "2025-11-16T23:09:07.107Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -6625,14 +6625,14 @@
       "black": "Qin, Oscar Shu Xuan"
     },
     "openingHipster": {
-      "gameIndex": 14,
+      "gameIndex": 98,
       "gameId": null,
-      "eco": "B31",
-      "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
-      "moves": "e4 c5 Nf3 Nc6 Bb5 g6",
-      "obscurityScore": 90,
-      "white": "Gledura, Benjamin",
-      "black": "Amdouni, Zoubaier"
+      "eco": "A28",
+      "name": "English Opening: King's English Variation, Four Knights Variation",
+      "moves": "c4 e5 Nc3 Nf6 Nf3 Nc6",
+      "obscurityScore": 105,
+      "white": "Meier, Georg",
+      "black": "Neelash, Saha"
     },
     "dadbodShuffler": {
       "moves": 44,

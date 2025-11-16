@@ -1,7 +1,7 @@
 {
   "roundNumber": 3,
   "roundName": "Round 3 (Round of 16)",
-  "generatedAt": "2025-11-16T22:59:41.874Z",
+  "generatedAt": "2025-11-16T23:09:52.059Z",
   "matchStats": {
     "totalMatches": 32,
     "decidedInClassical": 0,
@@ -1789,14 +1789,14 @@
       "black": "Gukesh, D"
     },
     "openingHipster": {
-      "gameIndex": 0,
+      "gameIndex": 18,
       "gameId": null,
-      "eco": "B31",
-      "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
-      "moves": "e4 c5 Nf3 Nc6 Bb5 g6",
-      "obscurityScore": 90,
-      "white": "Svane, Frederik",
-      "black": "Gukesh, D"
+      "eco": "A16",
+      "name": "English Opening: Anglo-Indian Defense, Queen's Knight Variation",
+      "moves": "c4 Nf6 Nc3 e5 g3 Bb4",
+      "obscurityScore": 103,
+      "white": "Mamedyarov, Shakhriyar",
+      "black": "Grandelius, Nils"
     },
     "dadbodShuffler": {
       "moves": 45,
