@@ -103,13 +103,16 @@ function calculateTactics(games) {
       }
     });
 
-    // Track bloodiest and quietest games
-    if (sm.totalCaptures > bloodiestGame.captures) {
-      bloodiestGame = { captures: sm.totalCaptures, game };
-    }
+    // Track bloodiest and quietest games (only for games with 5+ moves to exclude forfeits)
+    const moveCount = game.moveCount || moveList.length;
+    if (moveCount >= 5) {
+      if (sm.totalCaptures > bloodiestGame.captures) {
+        bloodiestGame = { captures: sm.totalCaptures, game };
+      }
 
-    if (sm.totalCaptures < quietestGame.captures) {
-      quietestGame = { captures: sm.totalCaptures, game };
+      if (sm.totalCaptures < quietestGame.captures) {
+        quietestGame = { captures: sm.totalCaptures, game };
+      }
     }
 
     // Find longest non-capture streak

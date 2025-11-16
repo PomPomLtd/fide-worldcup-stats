@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T19:15:19.507Z",
+  "generatedAt": "2025-11-16T19:39:45.386Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -132,10 +132,10 @@
       "gameId": "1.22"
     },
     "quietestGame": {
-      "captures": 0,
-      "white": "Svane, Frederik",
-      "black": "Husbands, Orlando",
-      "gameId": "1.14"
+      "captures": 4,
+      "white": "Aronyak, Ghosh",
+      "black": "Bartel, Mateusz",
+      "gameId": "3.11"
     },
     "longestNonCaptureStreak": {
       "moves": 124,
@@ -2231,10 +2231,10 @@
       "gameId": "1.22"
     },
     "pacifist": {
-      "captures": 0,
-      "white": "Svane, Frederik",
-      "black": "Husbands, Orlando",
-      "gameId": "1.14"
+      "captures": 4,
+      "white": "Aronyak, Ghosh",
+      "black": "Bartel, Mateusz",
+      "gameId": "3.11"
     },
     "speedDemon": {
       "moves": 17,
@@ -2345,10 +2345,10 @@
           "gameId": "1.22"
         },
         "quietestGame": {
-          "captures": 0,
-          "white": "Svane, Frederik",
-          "black": "Husbands, Orlando",
-          "gameId": "1.14"
+          "captures": 5,
+          "white": "Erdogmus, Yagiz Kaan",
+          "black": "Abugenda, Nagi",
+          "gameId": "2.1"
         },
         "longestNonCaptureStreak": {
           "moves": 73,
@@ -4083,10 +4083,10 @@
           "gameId": "1.22"
         },
         "pacifist": {
-          "captures": 0,
-          "white": "Svane, Frederik",
-          "black": "Husbands, Orlando",
-          "gameId": "1.14"
+          "captures": 5,
+          "white": "Erdogmus, Yagiz Kaan",
+          "black": "Abugenda, Nagi",
+          "gameId": "2.1"
         },
         "speedDemon": {
           "moves": 17,

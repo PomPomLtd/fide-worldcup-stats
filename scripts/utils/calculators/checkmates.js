@@ -59,6 +59,8 @@ function calculateCheckmates(games) {
 
   gamesWithMoves.forEach((game) => {
     const checkmates = findCheckmates(game);
+    const moveList = game.moveList || [];
+    const moveCount = game.moveCount || moveList.length;
 
     checkmates.forEach((mate) => {
       totalCheckmates++;
@@ -68,7 +70,8 @@ function calculateCheckmates(games) {
         byPiece[pieceName]++;
       }
 
-      if (mate.moveNumber < fastestMate.moves) {
+      // Only consider games with 5+ moves for fastest mate (exclude forfeits)
+      if (moveCount >= 5 && mate.moveNumber < fastestMate.moves) {
         fastestMate = {
           moves: mate.moveNumber,
           game,
