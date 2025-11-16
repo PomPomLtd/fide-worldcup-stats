@@ -776,8 +776,153 @@ export interface RoundStats {
   // Time Awards (time-based awards)
   timeAwards: TimeAwards;
 
+  // Stockfish Analysis (optional - only if --analyze flag was used)
+  analysis: Analysis | null;
+
   // Metadata
   dataInfo: DataInfo;
+}
+
+// ============================================================================
+// STOCKFISH ANALYSIS (ACCURACY & BLUNDERS)
+// ============================================================================
+
+export interface Analysis {
+  games: Array<{
+    gameIndex: number;
+    white: string;
+    black: string;
+    whiteACPL: number;
+    blackACPL: number;
+    whiteAccuracy: number;
+    blackAccuracy: number;
+    whiteMoveQuality: {
+      blunders: number;
+      mistakes: number;
+      inaccuracies: number;
+      good: number;
+      excellent: number;
+    };
+    blackMoveQuality: {
+      blunders: number;
+      mistakes: number;
+      inaccuracies: number;
+      good: number;
+      excellent: number;
+    };
+    biggestBlunder: {
+      moveNumber: number;
+      player: string;
+      cpLoss: number;
+      winLoss: number;
+      severity: number;
+      move: string;
+      evalBefore: number;
+      evalAfter: number;
+    } | null;
+  }>;
+  summary: {
+    accuracyKing: {
+      player: string;
+      accuracy: number;
+      acpl: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    biggestBlunder: {
+      moveNumber: number;
+      player: string;
+      cpLoss: number;
+      winLoss: number;
+      severity: number;
+      move: string;
+      evalBefore: number;
+      evalAfter: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    lowestACPL: {
+      player: string;
+      acpl: number;
+      accuracy: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    highestACPL: {
+      player: string;
+      acpl: number;
+      accuracy: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    lowestCombinedACPL: {
+      combinedACPL: number;
+      whiteACPL: number;
+      blackACPL: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    highestCombinedACPL: {
+      combinedACPL: number;
+      whiteACPL: number;
+      blackACPL: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    comebackKing: {
+      player: string;
+      swing: number;
+      evalFrom: number;
+      evalTo: number;
+      moveNumber: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    luckyEscape: {
+      player: string;
+      blunderSeverity: number;
+      opponentMissedWin: number;
+      blunderMove: string;
+      missedMove: string;
+      moveNumber: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    stockfishBuddy: {
+      player: string;
+      engineMoves: number;
+      totalMoves: number;
+      percentage: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+    inaccuracyKing: {
+      player: string;
+      inaccuracies: number;
+      white: string;
+      black: string;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
+  };
 }
 
 // ============================================================================

@@ -1,144 +1,17 @@
 import { StatCard } from './stat-card'
 import { StatBox } from './stat-box'
 import { PlayerName, PlayerVs } from './player-name'
-
-interface AnalysisData {
-  games: Array<{
-    gameIndex: number
-    white: string
-    black: string
-    whiteACPL: number
-    blackACPL: number
-    whiteAccuracy: number
-    blackAccuracy: number
-    whiteMoveQuality: {
-      blunders: number
-      mistakes: number
-      inaccuracies: number
-      good: number
-      excellent: number
-    }
-    blackMoveQuality: {
-      blunders: number
-      mistakes: number
-      inaccuracies: number
-      good: number
-      excellent: number
-    }
-    biggestBlunder: {
-      moveNumber: number
-      player: string
-      cpLoss: number
-      move: string
-      evalBefore: number
-      evalAfter: number
-    } | null
-  }>
-  summary: {
-    accuracyKing: {
-      player: string
-      accuracy: number
-      acpl: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    biggestBlunder: {
-      moveNumber: number
-      player: string
-      cpLoss: number
-      move: string
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    lowestACPL: {
-      player: string
-      acpl: number
-      accuracy: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    highestACPL: {
-      player: string
-      acpl: number
-      accuracy: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    lowestCombinedACPL: {
-      combinedACPL: number
-      whiteACPL: number
-      blackACPL: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    highestCombinedACPL: {
-      combinedACPL: number
-      whiteACPL: number
-      blackACPL: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    comebackKing: {
-      player: string
-      swing: number
-      evalFrom: number
-      evalTo: number
-      moveNumber: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    luckyEscape: {
-      player: string
-      escapeAmount: number
-      evalBefore: number
-      evalAfter: number
-      moveNumber: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    stockfishBuddy: {
-      player: string
-      engineMoves: number
-      totalMoves: number
-      percentage: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-    inaccuracyKing: {
-      player: string
-      inaccuracies: number
-      totalMoves: number
-      white: string
-      black: string
-      gameIndex: number
-      gameId: string | null
-    } | null
-  }
-}
+import { Analysis } from '@/app/stats/types'
 
 interface AnalysisSectionProps {
-  analysis: AnalysisData
+  analysis: Analysis | null
 }
 
 export function AnalysisSection({ analysis }: AnalysisSectionProps) {
+  if (!analysis || !analysis.summary) {
+    return null
+  }
+
   const { summary, games } = analysis
 
   // Calculate average accuracy across all games
@@ -215,8 +88,8 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             player={<PlayerName name={summary.luckyEscape.player === 'white' ? summary.luckyEscape.white : summary.luckyEscape.black} />}
             details={
               <div className="flex flex-col gap-1">
-                <span>Escaped: <strong className="text-indigo-900 dark:text-indigo-200">{summary.luckyEscape.escapeAmount} cp</strong></span>
-                <span className="text-xs">Opponent missed advantage</span>
+                <span>Opponent missed: <strong className="text-indigo-900 dark:text-indigo-200">{summary.luckyEscape.opponentMissedWin.toFixed(0)} cp</strong></span>
+                <span className="text-xs">After {summary.luckyEscape.blunderMove}</span>
               </div>
             }
             colorScheme="indigo"
@@ -250,7 +123,7 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             details={
               <div className="flex flex-col gap-1">
                 <span><strong className="text-orange-900 dark:text-orange-200">{summary.inaccuracyKing.inaccuracies}</strong> inaccuracies</span>
-                <span className="text-xs">Could be improved</span>
+                <span className="text-xs">Inaccuracimpressive!</span>
               </div>
             }
             colorScheme="orange"

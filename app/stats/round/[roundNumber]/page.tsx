@@ -6,6 +6,7 @@ import { useParams } from 'next/navigation'
 import type { RoundStats } from '@/app/stats/types'
 import { formatPlayerName, formatPlayerVs } from '@/lib/utils'
 import { TimeAwardsSection } from '@/components/stats/time-awards'
+import { AnalysisSection } from '@/components/stats/analysis-section'
 
 // Helper to format player rating display
 function formatRating(rating: number | null | undefined): string {
@@ -815,6 +816,9 @@ export default function RoundPage() {
 
         {/* Time Awards */}
         <TimeAwardsSection timeAwards={stats.timeAwards} />
+
+        {/* Stockfish Analysis */}
+        <AnalysisSection analysis={stats.analysis} />
 
         {/* Game Phases */}
         {stats.gamePhases && (
