@@ -891,28 +891,13 @@ export default function RoundPage() {
             </div>
 
             {stats.ratingAnalysis.biggestUpset && (
-              <div className="bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 border border-red-200 dark:border-red-800 rounded-lg p-6">
-                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">🏆 Biggest Upset</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400 mb-1">Underdog</div>
-                    <div className="text-xl font-bold text-green-700 dark:text-green-400">
-                      {formatPlayerName(stats.ratingAnalysis.biggestUpset.underdog)}
-                    </div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400">Rating: {stats.ratingAnalysis.biggestUpset.underdogRating}</div>
-                  </div>
-                  <div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400 mb-1">Favorite (defeated)</div>
-                    <div className="text-xl font-bold text-gray-700 dark:text-gray-300">
-                      {formatPlayerName(stats.ratingAnalysis.biggestUpset.favorite)}
-                    </div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400">Rating: {stats.ratingAnalysis.biggestUpset.favoriteRating}</div>
-                  </div>
+              <div className="border border-red-200 dark:border-red-700 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
+                <div className="text-sm font-semibold text-red-900 dark:text-red-300 mb-2">🏆 Biggest Upset</div>
+                <div className="text-gray-900 dark:text-white text-sm mb-1">
+                  {formatPlayerName(stats.ratingAnalysis.biggestUpset.underdog)} defeated {formatPlayerName(stats.ratingAnalysis.biggestUpset.favorite)}
                 </div>
-                <div className="mt-4 text-center">
-                  <span className="inline-block bg-red-600 text-white px-4 py-2 rounded-full font-bold text-lg">
-                    +{stats.ratingAnalysis.biggestUpset.eloDifference} Elo Upset
-                  </span>
+                <div className="text-sm text-gray-600 dark:text-gray-400">
+                  +{stats.ratingAnalysis.biggestUpset.eloDifference} rating point upset ({stats.ratingAnalysis.biggestUpset.underdogRating} vs {stats.ratingAnalysis.biggestUpset.favoriteRating})
                 </div>
               </div>
             )}
