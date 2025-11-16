@@ -1,0 +1,5239 @@
+{
+  "roundNumber": 1,
+  "roundName": "Round 1",
+  "timeControlType": "CLASSICAL",
+  "timeControlLabel": "Classical",
+  "totalMatches": 78,
+  "totalGames": 156,
+  "tierStats": null,
+  "matches": [
+    {
+      "matchId": "round-1-match-1",
+      "matchNumber": 1,
+      "pairingKey": "Abugenda, Nagi vs Erdogmus, Yagiz Kaan",
+      "players": [
+        {
+          "name": "Abugenda, Nagi",
+          "fideId": "9202544",
+          "elo": 1972
+        },
+        {
+          "name": "Erdogmus, Yagiz Kaan",
+          "fideId": "44599790",
+          "elo": 2651
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Abugenda, Nagi",
+          "black": "Erdogmus, Yagiz Kaan",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Erdogmus, Yagiz Kaan",
+          "black": "Abugenda, Nagi",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Erdogmus, Yagiz Kaan",
+        "advancingPlayer": "Erdogmus, Yagiz Kaan",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Abugenda, Nagi": 0,
+          "Erdogmus, Yagiz Kaan": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-2",
+      "matchNumber": 2,
+      "pairingKey": "Li, Yiheng vs Xiong, Jeffery",
+      "players": [
+        {
+          "name": "Li, Yiheng",
+          "fideId": "6006760",
+          "elo": 1994
+        },
+        {
+          "name": "Xiong, Jeffery",
+          "fideId": "2047640",
+          "elo": 2648
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Xiong, Jeffery",
+          "black": "Li, Yiheng",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Li, Yiheng",
+          "black": "Xiong, Jeffery",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Xiong, Jeffery",
+        "advancingPlayer": "Xiong, Jeffery",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Li, Yiheng": 0.5,
+          "Xiong, Jeffery": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-3",
+      "matchNumber": 3,
+      "pairingKey": "Qin, Oscar Shu Xuan vs Rodshtein, Maxim",
+      "players": [
+        {
+          "name": "Qin, Oscar Shu Xuan",
+          "fideId": "4304314",
+          "elo": 2078
+        },
+        {
+          "name": "Rodshtein, Maxim",
+          "fideId": "2806851",
+          "elo": 2647
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Qin, Oscar Shu Xuan",
+          "black": "Rodshtein, Maxim",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Rodshtein, Maxim",
+          "black": "Qin, Oscar Shu Xuan",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Rodshtein, Maxim",
+        "advancingPlayer": "Rodshtein, Maxim",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Qin, Oscar Shu Xuan": 0,
+          "Rodshtein, Maxim": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-4",
+      "matchNumber": 4,
+      "pairingKey": "Artemiev, Vladislav vs Ndahangwapo, Heskiel",
+      "players": [
+        {
+          "name": "Artemiev, Vladislav",
+          "fideId": "24101605",
+          "elo": 2646
+        },
+        {
+          "name": "Ndahangwapo, Heskiel",
+          "fideId": "15202020",
+          "elo": 2093
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Artemiev, Vladislav",
+          "black": "Ndahangwapo, Heskiel",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Ndahangwapo, Heskiel",
+          "black": "Artemiev, Vladislav",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Artemiev, Vladislav",
+        "advancingPlayer": "Artemiev, Vladislav",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Artemiev, Vladislav": 2,
+          "Ndahangwapo, Heskiel": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-5",
+      "matchNumber": 5,
+      "pairingKey": "Adams, Michael vs Alrehaili, Ahmed Abdullah S",
+      "players": [
+        {
+          "name": "Adams, Michael",
+          "fideId": "400041",
+          "elo": 2646
+        },
+        {
+          "name": "Alrehaili, Ahmed Abdullah S",
+          "fideId": "21518840",
+          "elo": 2109
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Alrehaili, Ahmed Abdullah S",
+          "black": "Adams, Michael",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Adams, Michael",
+          "black": "Alrehaili, Ahmed Abdullah S",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Adams, Michael",
+        "advancingPlayer": "Adams, Michael",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Adams, Michael": 2,
+          "Alrehaili, Ahmed Abdullah S": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-6",
+      "matchNumber": 6,
+      "pairingKey": "Allam, Mohamed vs Grandelius, Nils",
+      "players": [
+        {
+          "name": "Allam, Mohamed",
+          "fideId": "11501731",
+          "elo": 2112
+        },
+        {
+          "name": "Grandelius, Nils",
+          "fideId": "1710400",
+          "elo": 2645
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Grandelius, Nils",
+          "black": "Allam, Mohamed",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Allam, Mohamed",
+          "black": "Grandelius, Nils",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Grandelius, Nils",
+        "advancingPlayer": "Grandelius, Nils",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Allam, Mohamed": 0.5,
+          "Grandelius, Nils": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-7",
+      "matchNumber": 7,
+      "pairingKey": "Huh, Isaak vs Martinez Alcantara, Jose Eduardo",
+      "players": [
+        {
+          "name": "Huh, Isaak",
+          "fideId": "13209590",
+          "elo": 2139
+        },
+        {
+          "name": "Martinez Alcantara, Jose Eduardo",
+          "fideId": "3805662",
+          "elo": 2644
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Huh, Isaak",
+          "black": "Martinez Alcantara, Jose Eduardo",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Martinez Alcantara, Jose Eduardo",
+          "black": "Huh, Isaak",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Martinez Alcantara, Jose Eduardo",
+        "advancingPlayer": "Martinez Alcantara, Jose Eduardo",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Huh, Isaak": 0,
+          "Martinez Alcantara, Jose Eduardo": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-8",
+      "matchNumber": 8,
+      "pairingKey": "Amdouni, Zoubaier vs Gledura, Benjamin",
+      "players": [
+        {
+          "name": "Amdouni, Zoubaier",
+          "fideId": "5500419",
+          "elo": 2186
+        },
+        {
+          "name": "Gledura, Benjamin",
+          "fideId": "712779",
+          "elo": 2643
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Gledura, Benjamin",
+          "black": "Amdouni, Zoubaier",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Amdouni, Zoubaier",
+          "black": "Gledura, Benjamin",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Gledura, Benjamin",
+        "advancingPlayer": "Gledura, Benjamin",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Amdouni, Zoubaier": 0,
+          "Gledura, Benjamin": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-9",
+      "matchNumber": 9,
+      "pairingKey": "Kollars, Dmitrij vs Salih, Akar Ali Salih",
+      "players": [
+        {
+          "name": "Kollars, Dmitrij",
+          "fideId": "12909572",
+          "elo": 2642
+        },
+        {
+          "name": "Salih, Akar Ali Salih",
+          "fideId": "4800575",
+          "elo": 2212
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Salih, Akar Ali Salih",
+          "black": "Kollars, Dmitrij",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.9",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Kollars, Dmitrij",
+          "black": "Salih, Akar Ali Salih",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.9",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Kollars, Dmitrij",
+        "advancingPlayer": "Kollars, Dmitrij",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Kollars, Dmitrij": 2,
+          "Salih, Akar Ali Salih": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-10",
+      "matchNumber": 10,
+      "pairingKey": "Boulrens, Ala Eddine vs Pranav, V",
+      "players": [
+        {
+          "name": "Boulrens, Ala Eddine",
+          "fideId": "7907559",
+          "elo": 2214
+        },
+        {
+          "name": "Pranav, V",
+          "fideId": "25060783",
+          "elo": 2641
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Pranav, V",
+          "black": "Boulrens, Ala Eddine",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.10",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Boulrens, Ala Eddine",
+          "black": "Pranav, V",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.10",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Pranav, V",
+        "advancingPlayer": "Pranav, V",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Boulrens, Ala Eddine": 0,
+          "Pranav, V": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-11",
+      "matchNumber": 11,
+      "pairingKey": "Donchenko, Alexander vs Kigigha, Bomo Lovet",
+      "players": [
+        {
+          "name": "Donchenko, Alexander",
+          "fideId": "24603295",
+          "elo": 2641
+        },
+        {
+          "name": "Kigigha, Bomo Lovet",
+          "fideId": "8500037",
+          "elo": 2263
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Kigigha, Bomo Lovet",
+          "black": "Donchenko, Alexander",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.11",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Donchenko, Alexander",
+          "black": "Kigigha, Bomo Lovet",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.11",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Donchenko, Alexander",
+        "advancingPlayer": "Donchenko, Alexander",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Donchenko, Alexander": 2,
+          "Kigigha, Bomo Lovet": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-12",
+      "matchNumber": 12,
+      "pairingKey": "Barrish, Daniel vs Sadhwani, Raunak",
+      "players": [
+        {
+          "name": "Barrish, Daniel",
+          "fideId": "14304600",
+          "elo": 2284
+        },
+        {
+          "name": "Sadhwani, Raunak",
+          "fideId": "35093487",
+          "elo": 2641
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Sadhwani, Raunak",
+          "black": "Barrish, Daniel",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.12",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Barrish, Daniel",
+          "black": "Sadhwani, Raunak",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.12",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Sadhwani, Raunak",
+        "advancingPlayer": "Sadhwani, Raunak",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Barrish, Daniel": 0.5,
+          "Sadhwani, Raunak": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-13",
+      "matchNumber": 13,
+      "pairingKey": "Ilkhomi, Jaloliddin vs Vokhidov, Shamsiddin",
+      "players": [
+        {
+          "name": "Ilkhomi, Jaloliddin",
+          "fideId": "14700948",
+          "elo": 2289
+        },
+        {
+          "name": "Vokhidov, Shamsiddin",
+          "fideId": "14204223",
+          "elo": 2640
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Ilkhomi, Jaloliddin",
+          "black": "Vokhidov, Shamsiddin",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.13",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Vokhidov, Shamsiddin",
+          "black": "Ilkhomi, Jaloliddin",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.13",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Vokhidov, Shamsiddin",
+        "advancingPlayer": "Vokhidov, Shamsiddin",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Ilkhomi, Jaloliddin": 0,
+          "Vokhidov, Shamsiddin": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-14",
+      "matchNumber": 14,
+      "pairingKey": "Husbands, Orlando vs Svane, Frederik",
+      "players": [
+        {
+          "name": "Husbands, Orlando",
+          "fideId": "11101644",
+          "elo": 2291
+        },
+        {
+          "name": "Svane, Frederik",
+          "fideId": "12923044",
+          "elo": 2638
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Svane, Frederik",
+          "black": "Husbands, Orlando",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.14",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Husbands, Orlando",
+          "black": "Svane, Frederik",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.14",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Svane, Frederik",
+        "advancingPlayer": "Svane, Frederik",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Husbands, Orlando": 0,
+          "Svane, Frederik": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-15",
+      "matchNumber": 15,
+      "pairingKey": "Efimov, Igor vs Gurel, Ediz",
+      "players": [
+        {
+          "name": "Efimov, Igor",
+          "fideId": "806404",
+          "elo": 2331
+        },
+        {
+          "name": "Gurel, Ediz",
+          "fideId": "44507356",
+          "elo": 2634
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Efimov, Igor",
+          "black": "Gurel, Ediz",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.15",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Gurel, Ediz",
+          "black": "Efimov, Igor",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.15",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Gurel, Ediz",
+        "advancingPlayer": "Gurel, Ediz",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Efimov, Igor": 0,
+          "Gurel, Ediz": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-16",
+      "matchNumber": 16,
+      "pairingKey": "Chigaev, Maksim vs Elbilia, Jacques",
+      "players": [
+        {
+          "name": "Chigaev, Maksim",
+          "fideId": "4108116",
+          "elo": 2634
+        },
+        {
+          "name": "Elbilia, Jacques",
+          "fideId": "9000127",
+          "elo": 2332
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Chigaev, Maksim",
+          "black": "Elbilia, Jacques",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.16",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Elbilia, Jacques",
+          "black": "Chigaev, Maksim",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.16",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Chigaev, Maksim",
+        "advancingPlayer": "Chigaev, Maksim",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Chigaev, Maksim": 1.5,
+          "Elbilia, Jacques": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-17",
+      "matchNumber": 17,
+      "pairingKey": "Hovhannisyan, Robert vs Kavin, Mohan",
+      "players": [
+        {
+          "name": "Hovhannisyan, Robert",
+          "fideId": "13302507",
+          "elo": 2633
+        },
+        {
+          "name": "Kavin, Mohan",
+          "fideId": "5739047",
+          "elo": 2346
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Kavin, Mohan",
+          "black": "Hovhannisyan, Robert",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.17",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Hovhannisyan, Robert",
+          "black": "Kavin, Mohan",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.17",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Hovhannisyan, Robert",
+        "advancingPlayer": "Hovhannisyan, Robert",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Hovhannisyan, Robert": 2.5,
+          "Kavin, Mohan": 1.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-18",
+      "matchNumber": 18,
+      "pairingKey": "Anton Guijarro, David vs Silva, David",
+      "players": [
+        {
+          "name": "Anton Guijarro, David",
+          "fideId": "2285525",
+          "elo": 2631
+        },
+        {
+          "name": "Silva, David",
+          "fideId": "10101314",
+          "elo": 2347
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Anton Guijarro, David",
+          "black": "Silva, David",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.18",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Silva, David",
+          "black": "Anton Guijarro, David",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.18",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Anton Guijarro, David",
+        "advancingPlayer": "Anton Guijarro, David",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Anton Guijarro, David": 2,
+          "Silva, David": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-19",
+      "matchNumber": 19,
+      "pairingKey": "Manon, Reja Neer vs Tari, Aryan",
+      "players": [
+        {
+          "name": "Manon, Reja Neer",
+          "fideId": "10224009",
+          "elo": 2369
+        },
+        {
+          "name": "Tari, Aryan",
+          "fideId": "1510045",
+          "elo": 2631
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Manon, Reja Neer",
+          "black": "Tari, Aryan",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.19",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Tari, Aryan",
+          "black": "Manon, Reja Neer",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.19",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Tari, Aryan",
+        "advancingPlayer": "Tari, Aryan",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Manon, Reja Neer": 0.5,
+          "Tari, Aryan": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-20",
+      "matchNumber": 20,
+      "pairingKey": "Akhmedinov, Satbek vs Pranesh, M",
+      "players": [
+        {
+          "name": "Akhmedinov, Satbek",
+          "fideId": "13714287",
+          "elo": 2372
+        },
+        {
+          "name": "Pranesh, M",
+          "fideId": "35028600",
+          "elo": 2630
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Pranesh, M",
+          "black": "Akhmedinov, Satbek",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.20",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Akhmedinov, Satbek",
+          "black": "Pranesh, M",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.20",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Pranesh, M",
+        "advancingPlayer": "Pranesh, M",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Akhmedinov, Satbek": 0.5,
+          "Pranesh, M": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-21",
+      "matchNumber": 21,
+      "pairingKey": "Amin, Bassem vs Mandizha, Farai",
+      "players": [
+        {
+          "name": "Amin, Bassem",
+          "fideId": "10601457",
+          "elo": 2629
+        },
+        {
+          "name": "Mandizha, Farai",
+          "fideId": "11000430",
+          "elo": 2375
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Mandizha, Farai",
+          "black": "Amin, Bassem",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.21",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Amin, Bassem",
+          "black": "Mandizha, Farai",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.21",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Amin, Bassem",
+        "advancingPlayer": "Amin, Bassem",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Amin, Bassem": 2,
+          "Mandizha, Farai": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-22",
+      "matchNumber": 22,
+      "pairingKey": "Ivic, Velimir vs Orozbaev, Eldiyar",
+      "players": [
+        {
+          "name": "Ivic, Velimir",
+          "fideId": "950122",
+          "elo": 2628
+        },
+        {
+          "name": "Orozbaev, Eldiyar",
+          "fideId": "13802240",
+          "elo": 2375
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Ivic, Velimir",
+          "black": "Orozbaev, Eldiyar",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.22",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Orozbaev, Eldiyar",
+          "black": "Ivic, Velimir",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.22",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Ivic, Velimir",
+        "advancingPlayer": "Ivic, Velimir",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Ivic, Velimir": 2,
+          "Orozbaev, Eldiyar": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-23",
+      "matchNumber": 23,
+      "pairingKey": "Bacrot, Etienne vs Mwali, Chitumbo",
+      "players": [
+        {
+          "name": "Bacrot, Etienne",
+          "fideId": "605506",
+          "elo": 2627
+        },
+        {
+          "name": "Mwali, Chitumbo",
+          "fideId": "8700265",
+          "elo": 2392
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Mwali, Chitumbo",
+          "black": "Bacrot, Etienne",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.23",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Bacrot, Etienne",
+          "black": "Mwali, Chitumbo",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.23",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Bacrot, Etienne",
+        "advancingPlayer": "Bacrot, Etienne",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Bacrot, Etienne": 2,
+          "Mwali, Chitumbo": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-24",
+      "matchNumber": 24,
+      "pairingKey": "Cheparinov, Ivan vs Cordoba Roa, Angel Gabriel",
+      "players": [
+        {
+          "name": "Cheparinov, Ivan",
+          "fideId": "2905540",
+          "elo": 2626
+        },
+        {
+          "name": "Cordoba Roa, Angel Gabriel",
+          "fideId": "3957624",
+          "elo": 2392
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Cheparinov, Ivan",
+          "black": "Cordoba Roa, Angel Gabriel",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.24",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Cordoba Roa, Angel Gabriel",
+          "black": "Cheparinov, Ivan",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.24",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Cheparinov, Ivan",
+        "advancingPlayer": "Cheparinov, Ivan",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Cheparinov, Ivan": 1.5,
+          "Cordoba Roa, Angel Gabriel": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-25",
+      "matchNumber": 25,
+      "pairingKey": "Cahaya, Satria Duta vs Martirosyan, Haik M.",
+      "players": [
+        {
+          "name": "Cahaya, Satria Duta",
+          "fideId": "7124252",
+          "elo": 2393
+        },
+        {
+          "name": "Martirosyan, Haik M.",
+          "fideId": "13306553",
+          "elo": 2626
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Cahaya, Satria Duta",
+          "black": "Martirosyan, Haik M.",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.25",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Martirosyan, Haik M.",
+          "black": "Cahaya, Satria Duta",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.25",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Martirosyan, Haik M.",
+        "advancingPlayer": "Martirosyan, Haik M.",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Cahaya, Satria Duta": 0.5,
+          "Martirosyan, Haik M.": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-26",
+      "matchNumber": 26,
+      "pairingKey": "Liyanage, Ranindu Dilshan vs Sargissian, Gabriel",
+      "players": [
+        {
+          "name": "Liyanage, Ranindu Dilshan",
+          "fideId": "9915834",
+          "elo": 2401
+        },
+        {
+          "name": "Sargissian, Gabriel",
+          "fideId": "13300881",
+          "elo": 2624
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Sargissian, Gabriel",
+          "black": "Liyanage, Ranindu Dilshan",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.26",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Liyanage, Ranindu Dilshan",
+          "black": "Sargissian, Gabriel",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.26",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Sargissian, Gabriel",
+        "advancingPlayer": "Sargissian, Gabriel",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Liyanage, Ranindu Dilshan": 0.5,
+          "Sargissian, Gabriel": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-27",
+      "matchNumber": 27,
+      "pairingKey": "Thavandiran, Shiyam vs Yuffa, Daniil",
+      "players": [
+        {
+          "name": "Thavandiran, Shiyam",
+          "fideId": "2605058",
+          "elo": 2402
+        },
+        {
+          "name": "Yuffa, Daniil",
+          "fideId": "24131423",
+          "elo": 2621
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Thavandiran, Shiyam",
+          "black": "Yuffa, Daniil",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.27",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Yuffa, Daniil",
+          "black": "Thavandiran, Shiyam",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.27",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Yuffa, Daniil",
+        "advancingPlayer": "Yuffa, Daniil",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Thavandiran, Shiyam": 3,
+          "Yuffa, Daniil": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-28",
+      "matchNumber": 28,
+      "pairingKey": "Mendonca, Leon Luke vs Wang, Shixu B",
+      "players": [
+        {
+          "name": "Mendonca, Leon Luke",
+          "fideId": "35028561",
+          "elo": 2620
+        },
+        {
+          "name": "Wang, Shixu B",
+          "fideId": "8610665",
+          "elo": 2402
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Mendonca, Leon Luke",
+          "black": "Wang, Shixu B",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.28",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Wang, Shixu B",
+          "black": "Mendonca, Leon Luke",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.28",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Wang, Shixu B",
+        "advancingPlayer": "Wang, Shixu B",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Mendonca, Leon Luke": 0.5,
+          "Wang, Shixu B": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-29",
+      "matchNumber": 29,
+      "pairingKey": "Salem, A.R. Saleh vs Tran, Thanh Tu",
+      "players": [
+        {
+          "name": "Salem, A.R. Saleh",
+          "fideId": "9301348",
+          "elo": 2620
+        },
+        {
+          "name": "Tran, Thanh Tu",
+          "fideId": "12401404",
+          "elo": 2407
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Tran, Thanh Tu",
+          "black": "Salem, A.R. Saleh",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.29",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Salem, A.R. Saleh",
+          "black": "Tran, Thanh Tu",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.29",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Salem, A.R. Saleh",
+        "advancingPlayer": "Salem, A.R. Saleh",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Salem, A.R. Saleh": 2,
+          "Tran, Thanh Tu": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-30",
+      "matchNumber": 30,
+      "pairingKey": "Indjic, Aleksandar vs Schnaider, Ilan",
+      "players": [
+        {
+          "name": "Indjic, Aleksandar",
+          "fideId": "911925",
+          "elo": 2618
+        },
+        {
+          "name": "Schnaider, Ilan",
+          "fideId": "169013",
+          "elo": 2413
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Indjic, Aleksandar",
+          "black": "Schnaider, Ilan",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.30",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Schnaider, Ilan",
+          "black": "Indjic, Aleksandar",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.30",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Indjic, Aleksandar",
+        "advancingPlayer": "Indjic, Aleksandar",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Indjic, Aleksandar": 1.5,
+          "Schnaider, Ilan": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-31",
+      "matchNumber": 31,
+      "pairingKey": "Narayanan, S vs Rojas Salas, Steven",
+      "players": [
+        {
+          "name": "Narayanan, S",
+          "fideId": "5058422",
+          "elo": 2617
+        },
+        {
+          "name": "Rojas Salas, Steven",
+          "fideId": "3819434",
+          "elo": 2413
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Rojas Salas, Steven",
+          "black": "Narayanan, S",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.31",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Narayanan, S",
+          "black": "Rojas Salas, Steven",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.31",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Narayanan, S",
+        "advancingPlayer": "Narayanan, S",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Narayanan, S": 3,
+          "Rojas Salas, Steven": 1
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-32",
+      "matchNumber": 32,
+      "pairingKey": "Amartuvshin, Ganzorig vs Lagarde, Maxime",
+      "players": [
+        {
+          "name": "Amartuvshin, Ganzorig",
+          "fideId": "4902548",
+          "elo": 2415
+        },
+        {
+          "name": "Lagarde, Maxime",
+          "fideId": "662399",
+          "elo": 2617
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Lagarde, Maxime",
+          "black": "Amartuvshin, Ganzorig",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.32",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Amartuvshin, Ganzorig",
+          "black": "Lagarde, Maxime",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.32",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Lagarde, Maxime",
+        "advancingPlayer": "Lagarde, Maxime",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Amartuvshin, Ganzorig": 0.5,
+          "Lagarde, Maxime": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-33",
+      "matchNumber": 33,
+      "pairingKey": "Ivanchuk, Vasyl vs Mohammad Fahad, Rahman",
+      "players": [
+        {
+          "name": "Ivanchuk, Vasyl",
+          "fideId": "14100010",
+          "elo": 2616
+        },
+        {
+          "name": "Mohammad Fahad, Rahman",
+          "fideId": "10207791",
+          "elo": 2416
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Mohammad Fahad, Rahman",
+          "black": "Ivanchuk, Vasyl",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.33",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Ivanchuk, Vasyl",
+          "black": "Mohammad Fahad, Rahman",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.33",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Ivanchuk, Vasyl",
+        "advancingPlayer": "Ivanchuk, Vasyl",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Ivanchuk, Vasyl": 1.5,
+          "Mohammad Fahad, Rahman": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-34",
+      "matchNumber": 34,
+      "pairingKey": "Laohawirapap, Prin vs Suleymanli, Aydin",
+      "players": [
+        {
+          "name": "Laohawirapap, Prin",
+          "fideId": "6205003",
+          "elo": 2417
+        },
+        {
+          "name": "Suleymanli, Aydin",
+          "fideId": "13413937",
+          "elo": 2614
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Suleymanli, Aydin",
+          "black": "Laohawirapap, Prin",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.34",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Laohawirapap, Prin",
+          "black": "Suleymanli, Aydin",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.34",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Suleymanli, Aydin",
+        "advancingPlayer": "Suleymanli, Aydin",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Laohawirapap, Prin": 0,
+          "Suleymanli, Aydin": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-35",
+      "matchNumber": 35,
+      "pairingKey": "Divya, Deshmukh vs Kourkoulos-Arditis, Stamatis",
+      "players": [
+        {
+          "name": "Divya, Deshmukh",
+          "fideId": "35006916",
+          "elo": 2498
+        },
+        {
+          "name": "Kourkoulos-Arditis, Stamatis",
+          "fideId": "4221990",
+          "elo": 2583
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Divya, Deshmukh",
+          "black": "Kourkoulos-Arditis, Stamatis",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.35",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Kourkoulos-Arditis, Stamatis",
+          "black": "Divya, Deshmukh",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.35",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Kourkoulos-Arditis, Stamatis",
+        "advancingPlayer": "Kourkoulos-Arditis, Stamatis",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Divya, Deshmukh": 0,
+          "Kourkoulos-Arditis, Stamatis": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-36",
+      "matchNumber": 36,
+      "pairingKey": "Svane, Rasmus vs Vazquez, Facundo",
+      "players": [
+        {
+          "name": "Svane, Rasmus",
+          "fideId": "4657101",
+          "elo": 2614
+        },
+        {
+          "name": "Vazquez, Facundo",
+          "fideId": "3007669",
+          "elo": 2419
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Vazquez, Facundo",
+          "black": "Svane, Rasmus",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.36",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Svane, Rasmus",
+          "black": "Vazquez, Facundo",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.36",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Svane, Rasmus",
+        "advancingPlayer": "Svane, Rasmus",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Svane, Rasmus": 1.5,
+          "Vazquez, Facundo": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-37",
+      "matchNumber": 37,
+      "pairingKey": "Grebnev, Aleksey vs Quizon, Daniel",
+      "players": [
+        {
+          "name": "Grebnev, Aleksey",
+          "fideId": "34189030",
+          "elo": 2611
+        },
+        {
+          "name": "Quizon, Daniel",
+          "fideId": "5217911",
+          "elo": 2420
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Grebnev, Aleksey",
+          "black": "Quizon, Daniel",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Quizon, Daniel",
+          "black": "Grebnev, Aleksey",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Grebnev, Aleksey",
+        "advancingPlayer": "Grebnev, Aleksey",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Grebnev, Aleksey": 1.5,
+          "Quizon, Daniel": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-38",
+      "matchNumber": 38,
+      "pairingKey": "Najer, Evgeniy vs Rakotomaharo, Fy Antenaina",
+      "players": [
+        {
+          "name": "Najer, Evgeniy",
+          "fideId": "4118987",
+          "elo": 2613
+        },
+        {
+          "name": "Rakotomaharo, Fy Antenaina",
+          "fideId": "13100050",
+          "elo": 2435
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Rakotomaharo, Fy Antenaina",
+          "black": "Najer, Evgeniy",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Najer, Evgeniy",
+          "black": "Rakotomaharo, Fy Antenaina",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Najer, Evgeniy",
+        "advancingPlayer": "Najer, Evgeniy",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Najer, Evgeniy": 1.5,
+          "Rakotomaharo, Fy Antenaina": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-39",
+      "matchNumber": 39,
+      "pairingKey": "Banh, Gia Huy vs Dardha, Daniel",
+      "players": [
+        {
+          "name": "Banh, Gia Huy",
+          "fideId": "12424714",
+          "elo": 2440
+        },
+        {
+          "name": "Dardha, Daniel",
+          "fideId": "240990",
+          "elo": 2624
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Dardha, Daniel",
+          "black": "Banh, Gia Huy",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Banh, Gia Huy",
+          "black": "Dardha, Daniel",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Dardha, Daniel",
+        "advancingPlayer": "Dardha, Daniel",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Banh, Gia Huy": 0,
+          "Dardha, Daniel": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-40",
+      "matchNumber": 40,
+      "pairingKey": "Agibileg, Uurtsaikh vs Henriquez Villagra, Cristobal",
+      "players": [
+        {
+          "name": "Agibileg, Uurtsaikh",
+          "fideId": "4901606",
+          "elo": 2448
+        },
+        {
+          "name": "Henriquez Villagra, Cristobal",
+          "fideId": "3409350",
+          "elo": 2594
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Agibileg, Uurtsaikh",
+          "black": "Henriquez Villagra, Cristobal",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Henriquez Villagra, Cristobal",
+          "black": "Agibileg, Uurtsaikh",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Henriquez Villagra, Cristobal",
+        "advancingPlayer": "Henriquez Villagra, Cristobal",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Agibileg, Uurtsaikh": 1.5,
+          "Henriquez Villagra, Cristobal": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-41",
+      "matchNumber": 41,
+      "pairingKey": "Daneshvar, Bardiya vs Salinas Herrera, Pablo",
+      "players": [
+        {
+          "name": "Daneshvar, Bardiya",
+          "fideId": "12576468",
+          "elo": 2598
+        },
+        {
+          "name": "Salinas Herrera, Pablo",
+          "fideId": "3407128",
+          "elo": 2451
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Daneshvar, Bardiya",
+          "black": "Salinas Herrera, Pablo",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Salinas Herrera, Pablo",
+          "black": "Daneshvar, Bardiya",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Daneshvar, Bardiya",
+        "advancingPlayer": "Daneshvar, Bardiya",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Daneshvar, Bardiya": 1.5,
+          "Salinas Herrera, Pablo": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-42",
+      "matchNumber": 42,
+      "pairingKey": "Cori Quispe, Kevin Joel vs Idani, Pouya",
+      "players": [
+        {
+          "name": "Cori Quispe, Kevin Joel",
+          "fideId": "3814017",
+          "elo": 2451
+        },
+        {
+          "name": "Idani, Pouya",
+          "fideId": "12510130",
+          "elo": 2601
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Cori Quispe, Kevin Joel",
+          "black": "Idani, Pouya",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Idani, Pouya",
+          "black": "Cori Quispe, Kevin Joel",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Idani, Pouya",
+        "advancingPlayer": "Idani, Pouya",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Cori Quispe, Kevin Joel": 0,
+          "Idani, Pouya": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-43",
+      "matchNumber": 43,
+      "pairingKey": "Berdayes Ason, Dylan Isidro vs Iniyan, Pa",
+      "players": [
+        {
+          "name": "Berdayes Ason, Dylan Isidro",
+          "fideId": "3516016",
+          "elo": 2453
+        },
+        {
+          "name": "Iniyan, Pa",
+          "fideId": "25002767",
+          "elo": 2599
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Iniyan, Pa",
+          "black": "Berdayes Ason, Dylan Isidro",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Berdayes Ason, Dylan Isidro",
+          "black": "Iniyan, Pa",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Iniyan, Pa",
+        "advancingPlayer": "Iniyan, Pa",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Berdayes Ason, Dylan Isidro": 0.5,
+          "Iniyan, Pa": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-44",
+      "matchNumber": 44,
+      "pairingKey": "Pantsulaia, Levan vs Zemlyanskii, Ivan",
+      "players": [
+        {
+          "name": "Pantsulaia, Levan",
+          "fideId": "13602071",
+          "elo": 2457
+        },
+        {
+          "name": "Zemlyanskii, Ivan",
+          "fideId": "24249971",
+          "elo": 2586
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Pantsulaia, Levan",
+          "black": "Zemlyanskii, Ivan",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Zemlyanskii, Ivan",
+          "black": "Pantsulaia, Levan",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Zemlyanskii, Ivan",
+        "advancingPlayer": "Zemlyanskii, Ivan",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Pantsulaia, Levan": 0.5,
+          "Zemlyanskii, Ivan": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-45",
+      "matchNumber": 45,
+      "pairingKey": "Meier, Georg vs Neelash, Saha",
+      "players": [
+        {
+          "name": "Meier, Georg",
+          "fideId": "4675789",
+          "elo": 2596
+        },
+        {
+          "name": "Neelash, Saha",
+          "fideId": "5094160",
+          "elo": 2466
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Meier, Georg",
+          "black": "Neelash, Saha",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.9",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Neelash, Saha",
+          "black": "Meier, Georg",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.9",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Meier, Georg",
+        "advancingPlayer": "Meier, Georg",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Meier, Georg": 1.5,
+          "Neelash, Saha": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-46",
+      "matchNumber": 46,
+      "pairingKey": "Cheng, Bobby vs Siddharth, Jagadeesh",
+      "players": [
+        {
+          "name": "Cheng, Bobby",
+          "fideId": "4300033",
+          "elo": 2596
+        },
+        {
+          "name": "Siddharth, Jagadeesh",
+          "fideId": "5818320",
+          "elo": 2467
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Siddharth, Jagadeesh",
+          "black": "Cheng, Bobby",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.10",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Cheng, Bobby",
+          "black": "Siddharth, Jagadeesh",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.10",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Cheng, Bobby",
+        "advancingPlayer": "Cheng, Bobby",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Cheng, Bobby": 1.5,
+          "Siddharth, Jagadeesh": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-47",
+      "matchNumber": 47,
+      "pairingKey": "Ansat, Aldiyar vs Cori, Jorge",
+      "players": [
+        {
+          "name": "Ansat, Aldiyar",
+          "fideId": "13715658",
+          "elo": 2470
+        },
+        {
+          "name": "Cori, Jorge",
+          "fideId": "3802272",
+          "elo": 2594
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Cori, Jorge",
+          "black": "Ansat, Aldiyar",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.11",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Ansat, Aldiyar",
+          "black": "Cori, Jorge",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.11",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Cori, Jorge",
+        "advancingPlayer": "Cori, Jorge",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Ansat, Aldiyar": 1,
+          "Cori, Jorge": 3
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-48",
+      "matchNumber": 48,
+      "pairingKey": "Harshavardhan, G B vs Yilmaz, Mustafa",
+      "players": [
+        {
+          "name": "Harshavardhan, G B",
+          "fideId": "25059009",
+          "elo": 2476
+        },
+        {
+          "name": "Yilmaz, Mustafa",
+          "fideId": "6302718",
+          "elo": 2591
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Harshavardhan, G B",
+          "black": "Yilmaz, Mustafa",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.12",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Yilmaz, Mustafa",
+          "black": "Harshavardhan, G B",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.12",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Yilmaz, Mustafa",
+        "advancingPlayer": "Yilmaz, Mustafa",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Harshavardhan, G B": 0.5,
+          "Yilmaz, Mustafa": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-49",
+      "matchNumber": 49,
+      "pairingKey": "Gusain, Himal vs Woodward, Andy",
+      "players": [
+        {
+          "name": "Gusain, Himal",
+          "fideId": "5033861",
+          "elo": 2476
+        },
+        {
+          "name": "Woodward, Andy",
+          "fideId": "30953499",
+          "elo": 2557
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Woodward, Andy",
+          "black": "Gusain, Himal",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.13",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Gusain, Himal",
+          "black": "Woodward, Andy",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.13",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Woodward, Andy",
+        "advancingPlayer": "Woodward, Andy",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Gusain, Himal": 0,
+          "Woodward, Andy": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-50",
+      "matchNumber": 50,
+      "pairingKey": "Bai, Jinshi vs Fawzy, Adham",
+      "players": [
+        {
+          "name": "Bai, Jinshi",
+          "fideId": "8602280",
+          "elo": 2590
+        },
+        {
+          "name": "Fawzy, Adham",
+          "fideId": "10613129",
+          "elo": 2476
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Fawzy, Adham",
+          "black": "Bai, Jinshi",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.14",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Bai, Jinshi",
+          "black": "Fawzy, Adham",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.14",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Bai, Jinshi",
+        "advancingPlayer": "Bai, Jinshi",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Bai, Jinshi": 1.5,
+          "Fawzy, Adham": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-51",
+      "matchNumber": 51,
+      "pairingKey": "Adly, Ahmed vs Grigoryan, Karen H.",
+      "players": [
+        {
+          "name": "Adly, Ahmed",
+          "fideId": "10601619",
+          "elo": 2589
+        },
+        {
+          "name": "Grigoryan, Karen H.",
+          "fideId": "13301004",
+          "elo": 2481
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Adly, Ahmed",
+          "black": "Grigoryan, Karen H.",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.15",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Grigoryan, Karen H.",
+          "black": "Adly, Ahmed",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.15",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Adly, Ahmed",
+        "advancingPlayer": "Adly, Ahmed",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Adly, Ahmed": 4.5,
+          "Grigoryan, Karen H.": 3.5
+        },
+        "totalGames": 8,
+        "finalScore": "4.5-3.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-52",
+      "matchNumber": 52,
+      "pairingKey": "Bellahcene, Bilel vs Huschenbeth, Niclas",
+      "players": [
+        {
+          "name": "Bellahcene, Bilel",
+          "fideId": "696358",
+          "elo": 2485
+        },
+        {
+          "name": "Huschenbeth, Niclas",
+          "fideId": "24604747",
+          "elo": 2587
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Bellahcene, Bilel",
+          "black": "Huschenbeth, Niclas",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.16",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Huschenbeth, Niclas",
+          "black": "Bellahcene, Bilel",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.16",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Huschenbeth, Niclas",
+        "advancingPlayer": "Huschenbeth, Niclas",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Bellahcene, Bilel": 0.5,
+          "Huschenbeth, Niclas": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-53",
+      "matchNumber": 53,
+      "pairingKey": "Abasov, Nijat vs Suyarov, Mukhammadzokhid",
+      "players": [
+        {
+          "name": "Abasov, Nijat",
+          "fideId": "13402960",
+          "elo": 2587
+        },
+        {
+          "name": "Suyarov, Mukhammadzokhid",
+          "fideId": "14210495",
+          "elo": 2482
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Abasov, Nijat",
+          "black": "Suyarov, Mukhammadzokhid",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.17",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Suyarov, Mukhammadzokhid",
+          "black": "Abasov, Nijat",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.17",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Abasov, Nijat",
+        "advancingPlayer": "Abasov, Nijat",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Abasov, Nijat": 2,
+          "Suyarov, Mukhammadzokhid": 0
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-54",
+      "matchNumber": 54,
+      "pairingKey": "Avila Pavas, Santiago vs Motylev, Alexander",
+      "players": [
+        {
+          "name": "Avila Pavas, Santiago",
+          "fideId": "4437128",
+          "elo": 2490
+        },
+        {
+          "name": "Motylev, Alexander",
+          "fideId": "4121830",
+          "elo": 2586
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Avila Pavas, Santiago",
+          "black": "Motylev, Alexander",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.18",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Motylev, Alexander",
+          "black": "Avila Pavas, Santiago",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.18",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Motylev, Alexander",
+        "advancingPlayer": "Motylev, Alexander",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Avila Pavas, Santiago": 0,
+          "Motylev, Alexander": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-55",
+      "matchNumber": 55,
+      "pairingKey": "Neiksans, Arturs vs Suleymenov, Alisher",
+      "players": [
+        {
+          "name": "Neiksans, Arturs",
+          "fideId": "11601388",
+          "elo": 2585
+        },
+        {
+          "name": "Suleymenov, Alisher",
+          "fideId": "13707833",
+          "elo": 2491
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Neiksans, Arturs",
+          "black": "Suleymenov, Alisher",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.19",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Suleymenov, Alisher",
+          "black": "Neiksans, Arturs",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.19",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Suleymenov, Alisher",
+        "advancingPlayer": "Suleymenov, Alisher",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Neiksans, Arturs": 1.5,
+          "Suleymenov, Alisher": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-56",
+      "matchNumber": 56,
+      "pairingKey": "Atabayev, Saparmyrat vs Nesterov, Arseniy",
+      "players": [
+        {
+          "name": "Atabayev, Saparmyrat",
+          "fideId": "14000571",
+          "elo": 2494
+        },
+        {
+          "name": "Nesterov, Arseniy",
+          "fideId": "24198455",
+          "elo": 2584
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Atabayev, Saparmyrat",
+          "black": "Nesterov, Arseniy",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.20",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Nesterov, Arseniy",
+          "black": "Atabayev, Saparmyrat",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.20",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Nesterov, Arseniy",
+        "advancingPlayer": "Nesterov, Arseniy",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Atabayev, Saparmyrat": 0.5,
+          "Nesterov, Arseniy": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-57",
+      "matchNumber": 57,
+      "pairingKey": "Lashkin, Jegor vs Tin, Jingyao",
+      "players": [
+        {
+          "name": "Lashkin, Jegor",
+          "fideId": "13907808",
+          "elo": 2497
+        },
+        {
+          "name": "Tin, Jingyao",
+          "fideId": "5804418",
+          "elo": 2583
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Tin, Jingyao",
+          "black": "Lashkin, Jegor",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.21",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Lashkin, Jegor",
+          "black": "Tin, Jingyao",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.21",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Tin, Jingyao",
+        "advancingPlayer": "Tin, Jingyao",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Lashkin, Jegor": 1,
+          "Tin, Jingyao": 3
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-58",
+      "matchNumber": 58,
+      "pairingKey": "Lalit, Babu M R vs Warmerdam, Max",
+      "players": [
+        {
+          "name": "Lalit, Babu M R",
+          "fideId": "5024595",
+          "elo": 2502
+        },
+        {
+          "name": "Warmerdam, Max",
+          "fideId": "1048104",
+          "elo": 2591
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Warmerdam, Max",
+          "black": "Lalit, Babu M R",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.22",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Lalit, Babu M R",
+          "black": "Warmerdam, Max",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.22",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Warmerdam, Max",
+        "advancingPlayer": "Warmerdam, Max",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Lalit, Babu M R": 3,
+          "Warmerdam, Max": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-59",
+      "matchNumber": 59,
+      "pairingKey": "Garcia Pantoja, Roberto vs Karthik, Venkataraman",
+      "players": [
+        {
+          "name": "Garcia Pantoja, Roberto",
+          "fideId": "3509265",
+          "elo": 2502
+        },
+        {
+          "name": "Karthik, Venkataraman",
+          "fideId": "25006479",
+          "elo": 2579
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Garcia Pantoja, Roberto",
+          "black": "Karthik, Venkataraman",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.23",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Karthik, Venkataraman",
+          "black": "Garcia Pantoja, Roberto",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.23",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Karthik, Venkataraman",
+        "advancingPlayer": "Karthik, Venkataraman",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Garcia Pantoja, Roberto": 0.5,
+          "Karthik, Venkataraman": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-60",
+      "matchNumber": 60,
+      "pairingKey": "Brkic, Ante vs Oro, Faustino",
+      "players": [
+        {
+          "name": "Brkic, Ante",
+          "fideId": "14506688",
+          "elo": 2578
+        },
+        {
+          "name": "Oro, Faustino",
+          "fideId": "20000197",
+          "elo": 2509
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Brkic, Ante",
+          "black": "Oro, Faustino",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.24",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Oro, Faustino",
+          "black": "Brkic, Ante",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.24",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Oro, Faustino",
+        "advancingPlayer": "Oro, Faustino",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Brkic, Ante": 3,
+          "Oro, Faustino": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-61",
+      "matchNumber": 61,
+      "pairingKey": "Fier, Alexandr vs Parligras, Mircea-Emilian",
+      "players": [
+        {
+          "name": "Fier, Alexandr",
+          "fideId": "2107139",
+          "elo": 2577
+        },
+        {
+          "name": "Parligras, Mircea-Emilian",
+          "fideId": "1204297",
+          "elo": 2510
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Parligras, Mircea-Emilian",
+          "black": "Fier, Alexandr",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.25",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Fier, Alexandr",
+          "black": "Parligras, Mircea-Emilian",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.25",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Fier, Alexandr",
+        "advancingPlayer": "Fier, Alexandr",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Fier, Alexandr": 1.5,
+          "Parligras, Mircea-Emilian": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-62",
+      "matchNumber": 62,
+      "pairingKey": "Blohberger, Felix vs Lupulescu, Constantin",
+      "players": [
+        {
+          "name": "Blohberger, Felix",
+          "fideId": "1632051",
+          "elo": 2513
+        },
+        {
+          "name": "Lupulescu, Constantin",
+          "fideId": "1207822",
+          "elo": 2577
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Lupulescu, Constantin",
+          "black": "Blohberger, Felix",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.26",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Blohberger, Felix",
+          "black": "Lupulescu, Constantin",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.26",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Blohberger, Felix",
+        "advancingPlayer": "Blohberger, Felix",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Blohberger, Felix": 1.5,
+          "Lupulescu, Constantin": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-63",
+      "matchNumber": 63,
+      "pairingKey": "Ghazarian, Kirk vs Petrov, Nikita",
+      "players": [
+        {
+          "name": "Ghazarian, Kirk",
+          "fideId": "30908604",
+          "elo": 2513
+        },
+        {
+          "name": "Petrov, Nikita",
+          "fideId": "4101286",
+          "elo": 2576
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Ghazarian, Kirk",
+          "black": "Petrov, Nikita",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.27",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Petrov, Nikita",
+          "black": "Ghazarian, Kirk",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.27",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Petrov, Nikita",
+        "advancingPlayer": "Petrov, Nikita",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Ghazarian, Kirk": 0,
+          "Petrov, Nikita": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-64",
+      "matchNumber": 64,
+      "pairingKey": "Aronyak, Ghosh vs Bartel, Mateusz",
+      "players": [
+        {
+          "name": "Aronyak, Ghosh",
+          "fideId": "25072846",
+          "elo": 2514
+        },
+        {
+          "name": "Bartel, Mateusz",
+          "fideId": "1112635",
+          "elo": 2581
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 6,
+      "gameDetails": [
+        {
+          "white": "Bartel, Mateusz",
+          "black": "Aronyak, Ghosh",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.28",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Aronyak, Ghosh",
+          "black": "Bartel, Mateusz",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.28",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Aronyak, Ghosh",
+        "advancingPlayer": "Aronyak, Ghosh",
+        "tiebreakType": "RAPID_TIER_2",
+        "scores": {
+          "Aronyak, Ghosh": 4,
+          "Bartel, Mateusz": 2
+        },
+        "totalGames": 6,
+        "finalScore": "4-2"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-65",
+      "matchNumber": 65,
+      "pairingKey": "Galaviz Medina, Sion Radamantys vs Supi, Luis Paulo",
+      "players": [
+        {
+          "name": "Galaviz Medina, Sion Radamantys",
+          "fideId": "5123119",
+          "elo": 2515
+        },
+        {
+          "name": "Supi, Luis Paulo",
+          "fideId": "2106388",
+          "elo": 2575
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Galaviz Medina, Sion Radamantys",
+          "black": "Supi, Luis Paulo",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.29",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Supi, Luis Paulo",
+          "black": "Galaviz Medina, Sion Radamantys",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.29",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Supi, Luis Paulo",
+        "advancingPlayer": "Supi, Luis Paulo",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Galaviz Medina, Sion Radamantys": 1.5,
+          "Supi, Luis Paulo": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-66",
+      "matchNumber": 66,
+      "pairingKey": "Cardoso Cardoso, Jose Gabriel vs Jobava, Baadur",
+      "players": [
+        {
+          "name": "Cardoso Cardoso, Jose Gabriel",
+          "fideId": "4430492",
+          "elo": 2518
+        },
+        {
+          "name": "Jobava, Baadur",
+          "fideId": "13601520",
+          "elo": 2590
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Jobava, Baadur",
+          "black": "Cardoso Cardoso, Jose Gabriel",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.30",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Cardoso Cardoso, Jose Gabriel",
+          "black": "Jobava, Baadur",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.30",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Jobava, Baadur",
+        "advancingPlayer": "Jobava, Baadur",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Cardoso Cardoso, Jose Gabriel": 1.5,
+          "Jobava, Baadur": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-67",
+      "matchNumber": 67,
+      "pairingKey": "Ghosh, Diptayan vs Peng, Xiongjian",
+      "players": [
+        {
+          "name": "Ghosh, Diptayan",
+          "fideId": "5045207",
+          "elo": 2573
+        },
+        {
+          "name": "Peng, Xiongjian",
+          "fideId": "8610550",
+          "elo": 2521
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Peng, Xiongjian",
+          "black": "Ghosh, Diptayan",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.31",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Ghosh, Diptayan",
+          "black": "Peng, Xiongjian",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.31",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Ghosh, Diptayan",
+        "advancingPlayer": "Ghosh, Diptayan",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Ghosh, Diptayan": 3,
+          "Peng, Xiongjian": 1
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-68",
+      "matchNumber": 68,
+      "pairingKey": "Ahmadzada, Ahmad vs Ganguly, Surya Shekhar",
+      "players": [
+        {
+          "name": "Ahmadzada, Ahmad",
+          "fideId": "13413007",
+          "elo": 2523
+        },
+        {
+          "name": "Ganguly, Surya Shekhar",
+          "fideId": "5002150",
+          "elo": 2573
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Ganguly, Surya Shekhar",
+          "black": "Ahmadzada, Ahmad",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.32",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Ahmadzada, Ahmad",
+          "black": "Ganguly, Surya Shekhar",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.32",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Ganguly, Surya Shekhar",
+        "advancingPlayer": "Ganguly, Surya Shekhar",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Ahmadzada, Ahmad": 0,
+          "Ganguly, Surya Shekhar": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-69",
+      "matchNumber": 69,
+      "pairingKey": "Lodici, Lorenzo vs Samadov, Read",
+      "players": [
+        {
+          "name": "Lodici, Lorenzo",
+          "fideId": "884189",
+          "elo": 2560
+        },
+        {
+          "name": "Samadov, Read",
+          "fideId": "13417444",
+          "elo": 2523
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Samadov, Read",
+          "black": "Lodici, Lorenzo",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.33",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Lodici, Lorenzo",
+          "black": "Samadov, Read",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.33",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Lodici, Lorenzo",
+        "advancingPlayer": "Lodici, Lorenzo",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Lodici, Lorenzo": 1.5,
+          "Samadov, Read": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-70",
+      "matchNumber": 70,
+      "pairingKey": "Kantor, Gergely vs Rodrigue-Lemieux, Shawn",
+      "players": [
+        {
+          "name": "Kantor, Gergely",
+          "fideId": "751499",
+          "elo": 2559
+        },
+        {
+          "name": "Rodrigue-Lemieux, Shawn",
+          "fideId": "2620049",
+          "elo": 2524
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Kantor, Gergely",
+          "black": "Rodrigue-Lemieux, Shawn",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.34",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Rodrigue-Lemieux, Shawn",
+          "black": "Kantor, Gergely",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.34",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Kantor, Gergely",
+        "advancingPlayer": "Kantor, Gergely",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Kantor, Gergely": 1.5,
+          "Rodrigue-Lemieux, Shawn": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-71",
+      "matchNumber": 71,
+      "pairingKey": "Flores, Diego vs Makhnev, Denis",
+      "players": [
+        {
+          "name": "Flores, Diego",
+          "fideId": "108049",
+          "elo": 2558
+        },
+        {
+          "name": "Makhnev, Denis",
+          "fideId": "13707647",
+          "elo": 2525
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Makhnev, Denis",
+          "black": "Flores, Diego",
+          "result": "1-0",
+          "date": "2025.11.01",
+          "round": "1.35",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Flores, Diego",
+          "black": "Makhnev, Denis",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.35",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Makhnev, Denis",
+        "advancingPlayer": "Makhnev, Denis",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Flores, Diego": 1.5,
+          "Makhnev, Denis": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-72",
+      "matchNumber": 72,
+      "pairingKey": "Lobanov, Sergei vs Piorun, Kacper",
+      "players": [
+        {
+          "name": "Lobanov, Sergei",
+          "fideId": "24183750",
+          "elo": 2526
+        },
+        {
+          "name": "Piorun, Kacper",
+          "fideId": "1130420",
+          "elo": 2557
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Piorun, Kacper",
+          "black": "Lobanov, Sergei",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.36",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Lobanov, Sergei",
+          "black": "Piorun, Kacper",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.36",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Piorun, Kacper",
+        "advancingPlayer": "Piorun, Kacper",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Lobanov, Sergei": 1.5,
+          "Piorun, Kacper": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-73",
+      "matchNumber": 73,
+      "pairingKey": "Kovalev, Vladislav vs Velten, Paul",
+      "players": [
+        {
+          "name": "Kovalev, Vladislav",
+          "fideId": "13504398",
+          "elo": 2557
+        },
+        {
+          "name": "Velten, Paul",
+          "fideId": "681091",
+          "elo": 2530
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Velten, Paul",
+          "black": "Kovalev, Vladislav",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.37",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Kovalev, Vladislav",
+          "black": "Velten, Paul",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.37",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Kovalev, Vladislav",
+        "advancingPlayer": "Kovalev, Vladislav",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Kovalev, Vladislav": 1.5,
+          "Velten, Paul": 0.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-74",
+      "matchNumber": 74,
+      "pairingKey": "Bogner, Sebastian vs Stremavicius, Titas",
+      "players": [
+        {
+          "name": "Bogner, Sebastian",
+          "fideId": "4692055",
+          "elo": 2555
+        },
+        {
+          "name": "Stremavicius, Titas",
+          "fideId": "12804444",
+          "elo": 2531
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Bogner, Sebastian",
+          "black": "Stremavicius, Titas",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.38",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Stremavicius, Titas",
+          "black": "Bogner, Sebastian",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.38",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Stremavicius, Titas",
+        "advancingPlayer": "Stremavicius, Titas",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Bogner, Sebastian": 1.5,
+          "Stremavicius, Titas": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-75",
+      "matchNumber": 75,
+      "pairingKey": "Can, Emre vs Maksimovic, Bojan",
+      "players": [
+        {
+          "name": "Can, Emre",
+          "fideId": "6302181",
+          "elo": 2552
+        },
+        {
+          "name": "Maksimovic, Bojan",
+          "fideId": "14408120",
+          "elo": 2532
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Maksimovic, Bojan",
+          "black": "Can, Emre",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.39",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Can, Emre",
+          "black": "Maksimovic, Bojan",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.39",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Maksimovic, Bojan",
+        "advancingPlayer": "Maksimovic, Bojan",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Can, Emre": 1,
+          "Maksimovic, Bojan": 3
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-76",
+      "matchNumber": 76,
+      "pairingKey": "Kuybokarov, Temur vs Subelj, Jan",
+      "players": [
+        {
+          "name": "Kuybokarov, Temur",
+          "fideId": "14203049",
+          "elo": 2535
+        },
+        {
+          "name": "Subelj, Jan",
+          "fideId": "14618583",
+          "elo": 2545
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Subelj, Jan",
+          "black": "Kuybokarov, Temur",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.40",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Kuybokarov, Temur",
+          "black": "Subelj, Jan",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.40",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Kuybokarov, Temur",
+        "advancingPlayer": "Kuybokarov, Temur",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Kuybokarov, Temur": 3,
+          "Subelj, Jan": 1
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-77",
+      "matchNumber": 77,
+      "pairingKey": "Mekhitarian, Krikor Sevag vs Petrov, Martin",
+      "players": [
+        {
+          "name": "Mekhitarian, Krikor Sevag",
+          "fideId": "2107660",
+          "elo": 2545
+        },
+        {
+          "name": "Petrov, Martin",
+          "fideId": "2911086",
+          "elo": 2540
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 2,
+      "gameDetails": [
+        {
+          "white": "Petrov, Martin",
+          "black": "Mekhitarian, Krikor Sevag",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.41",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Mekhitarian, Krikor Sevag",
+          "black": "Petrov, Martin",
+          "result": "0-1",
+          "date": "2025.11.02",
+          "round": "2.41",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Petrov, Martin",
+        "advancingPlayer": "Petrov, Martin",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Mekhitarian, Krikor Sevag": 0.5,
+          "Petrov, Martin": 1.5
+        },
+        "totalGames": 2,
+        "finalScore": "1.5-0.5"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-78",
+      "matchNumber": 78,
+      "pairingKey": "Nogerbek, Kazybek vs Raja, Rithvik R",
+      "players": [
+        {
+          "name": "Nogerbek, Kazybek",
+          "fideId": "13710427",
+          "elo": 2543
+        },
+        {
+          "name": "Raja, Rithvik R",
+          "fideId": "35007394",
+          "elo": 2541
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Nogerbek, Kazybek",
+          "black": "Raja, Rithvik R",
+          "result": "1/2-1/2",
+          "date": "2025.11.01",
+          "round": "1.42",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Raja, Rithvik R",
+          "black": "Nogerbek, Kazybek",
+          "result": "1/2-1/2",
+          "date": "2025.11.02",
+          "round": "2.42",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "outcome": {
+        "winner": "Nogerbek, Kazybek",
+        "advancingPlayer": "Nogerbek, Kazybek",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Nogerbek, Kazybek": 5,
+          "Raja, Rithvik R": 3
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India"
+    }
+  ],
+  "generatedAt": "2025-11-16T15:36:20.453Z",
+  "sourceFile": "round-1-classified.json"
+}

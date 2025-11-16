@@ -293,21 +293,25 @@ Round "11.X" = Game 11 = ARMAGEDDON [not in Round 1]
 Extract the first number from Round field (before the dot), map to game type.
 This is 100% reliable and simpler than parsing TimeControl strings!
 
-#### ⏳ Task 2.2: Create classify-games.js Script
-**Status:** PENDING
+#### ✅ Task 2.2: Create classify-games.js Script
+**Status:** COMPLETE
 **Location:** `scripts/classify-games.js`
 
-**Requirements:**
-1. Read consolidated match data (e.g., round-1-matches.json)
-2. For each game in each match:
-   - Parse TimeControl string
-   - Classify as: CLASSICAL, RAPID, BLITZ, or UNKNOWN
-   - Add `timeControlType` field
-3. Calculate match-level statistics:
-   - Games by time control
-   - Match outcome (who won, how)
-   - Tiebreak type (if applicable)
-4. Output classified data
+**Implementation:**
+- Created comprehensive classification script
+- Uses `time-control-classifier` utility for game classification
+- Calculates match outcomes (winner, advancing player, tiebreak type)
+- Generates summary statistics at round level
+- Outputs to `data/classified/round-N-classified.json`
+
+**Features Implemented:**
+1. ✅ Read consolidated match data
+2. ✅ Classify each game using Round field
+3. ✅ Add `classification` and `timeControlLabel` fields to each game
+4. ✅ Calculate match outcomes with detailed scoring
+5. ✅ Group games by time control type
+6. ✅ Generate time control summary per match
+7. ✅ Generate round-level statistics
 
 **Output Schema:**
 ```javascript
@@ -350,8 +354,8 @@ This is 100% reliable and simpler than parsing TimeControl strings!
 }
 ```
 
-#### ⏳ Task 2.3: Write Time Control Classifier Module
-**Status:** PENDING
+#### ✅ Task 2.3: Write Time Control Classifier Module
+**Status:** COMPLETE
 **Location:** `scripts/utils/time-control-classifier.js`
 
 **Module API (SIMPLIFIED - Uses Round Field):**
@@ -394,8 +398,10 @@ module.exports = { classifyByRoundField };
 - 100% reliable mapping based on official FIDE structure
 - No string parsing complexity
 
-#### ⏳ Task 2.4: Calculate Match Outcomes
-**Status:** PENDING
+#### ✅ Task 2.4: Calculate Match Outcomes
+**Status:** COMPLETE
+
+**Implemented in:** `classify-games.js` - `analyzeMatchOutcome()` function
 
 **Logic (Based on Official Tiebreak Structure):**
 ```javascript
@@ -428,50 +434,129 @@ For each match:
    - advancingPlayer: winner name (for bracket tracking)
 ```
 
-#### ⏳ Task 2.5: Test on Round 1 Data
-**Status:** PENDING
+#### ✅ Task 2.5: Test on Round 1 Data
+**Status:** COMPLETE
 
-**Test Cases:**
-1. Match with 2 classical games (no tiebreak):
-   - Example: Match 2 (Li vs Xiong: 1-0, 1/2-1/2 → Xiong wins)
-2. Match with rapid tiebreaks:
-   - Example: Match 17 (Hovhannisyan vs Kavin: 4 games)
-3. Match with blitz tiebreaks:
-   - Example: Match 27 (Thavandiran vs Yuffa: 8 games)
+**Test Results:**
+```
+Round 1 Classification Summary:
+✅ Total Matches: 78
+✅ Total Games: 218
+✅ All games successfully classified
+✅ Zero UNKNOWN classifications
 
-**Validation:**
-- [ ] All 218 games classified
-- [ ] 0 UNKNOWN classifications (or investigate any)
-- [ ] Match outcomes correct (spot-check 10 matches)
-- [ ] Tiebreak detection accurate
+Match Outcome Distribution:
+- Decided in classical: 58 matches (74.4%)
+- Decided in rapid: 15 matches (19.2%)
+- Decided in blitz: 5 matches (6.4%)
+- Decided in armageddon: 0 matches (0%)
 
-#### ⏳ Task 2.6: Generate Separate Time Control Files (Optional)
-**Status:** PENDING
+Time Control Distribution:
+- Classical: 156 games (78 matches × 2)
+- Rapid Tier 1 (15+10): 40 games
+- Rapid Tier 2 (10+10): 12 games
+- Blitz Tier 1 (5+3): 10 games
+- Blitz Tier 2 (3+2): 0 games
+- Armageddon: 0 games
+```
+
+**Verified Test Cases:**
+1. ✅ Match with 2 classical games (no tiebreak): Working correctly
+2. ✅ Match with rapid tiebreaks:
+   - Example: Hovhannisyan vs Kavin (4 games)
+   - Winner: Hovhannisyan, Robert
+   - Tiebreak Type: RAPID_TIER_1
+   - Score: 2.5-1.5
+3. ✅ Match with blitz tiebreaks: 5 matches went to blitz tier 1
+
+**Validation Checklist:**
+- ✅ All 218 games classified
+- ✅ 0 UNKNOWN classifications
+- ✅ Match outcomes verified correct
+- ✅ Tiebreak detection accurate
+
+#### ✅ Task 2.6: Generate Separate Time Control Files
+**Status:** COMPLETE
+**Priority:** Required (per user request)
+**Script:** `scripts/generate-time-control-splits.js`
 
 **Goal:** Create filtered datasets for each time control
 
-**Outputs:**
+**Implementation:**
+Created script that:
+- Reads classified data for each round
+- Filters matches/games by time control type (CLASSICAL, RAPID, BLITZ)
+- Generates separate JSON files for each type
+- Includes tier statistics for RAPID and BLITZ
+- Maintains full match outcome context
+
+**Round 1 Results:**
 ```
 data/classified/
-├── round-1-classified.json     # Full dataset
-├── round-1-classical.json      # Classical games only
-├── round-1-rapid.json          # Rapid games only
-└── round-1-blitz.json          # Blitz games only
+├── round-1-classified.json     # Full dataset (78 matches, 218 games)
+├── round-1-classical.json      # 78 matches, 156 games
+├── round-1-rapid.json          # 20 matches, 52 games (Tier 1: 40, Tier 2: 12)
+└── round-1-blitz.json          # 5 matches, 10 games (Tier 1: 10, Tier 2: 0)
 ```
 
 **Use Case:** Stage 4 stats generation can process each time control separately
 
 #### ⏳ Task 2.7: Commit Stage 2
-**Status:** PENDING
+**Status:** READY
 
 **Deliverables:**
-- [ ] classify-games.js script
-- [ ] time-control-classifier.js utility
-- [ ] data/classified/round-1-classified.json
-- [ ] Documentation of TimeControl formats found
-- [ ] Updated IMPLEMENTATION_PLAN.md
+- ✅ `scripts/classify-games.js` - Main classification script
+- ✅ `scripts/utils/time-control-classifier.js` - Time control classification utility
+- ✅ `scripts/generate-time-control-splits.js` - Time control split generator
+- ✅ `data/classified/round-1-classified.json` - Full classified data
+- ✅ `data/classified/round-1-classical.json` - Classical games only
+- ✅ `data/classified/round-1-rapid.json` - Rapid games only
+- ✅ `data/classified/round-1-blitz.json` - Blitz games only
+- ✅ Documentation of TimeControl field analysis
+- ✅ Updated IMPLEMENTATION_PLAN.md with all results
 
 ---
+
+## Stage 2: Summary
+
+**Status:** ✅ COMPLETE
+
+**Achievements:**
+1. ✅ Analyzed TimeControl field format (discovered it's static, not updated for tiebreaks)
+2. ✅ Designed classification strategy using Round field instead
+3. ✅ Created time-control-classifier utility module
+4. ✅ Implemented classify-games script with match outcome analysis
+5. ✅ Tested on Round 1 data (100% classification success)
+6. ✅ Generated separate time control files (classical/rapid/blitz)
+
+**Key Statistics (Round 1):**
+- Total Matches: 78
+- Total Games: 218
+- All games successfully classified (0 UNKNOWN)
+- Match Outcome Distribution:
+  - Classical: 58 matches (74.4%)
+  - Rapid: 15 matches (19.2%)
+  - Blitz: 5 matches (6.4%)
+  - Armageddon: 0 matches
+
+**Time Control Distribution:**
+- Classical: 156 games (78 matches × 2)
+- Rapid Tier 1 (15+10): 40 games
+- Rapid Tier 2 (10+10): 12 games
+- Blitz Tier 1 (5+3): 10 games
+- Blitz Tier 2 (3+2): 0 games
+- Armageddon: 0 games
+
+**Files Created:**
+- `scripts/classify-games.js` (8.6KB)
+- `scripts/utils/time-control-classifier.js` (6.3KB)
+- `scripts/generate-time-control-splits.js` (8.0KB)
+- `data/classified/round-1-classified.json` (337KB)
+- `data/classified/round-1-classical.json` (156KB)
+- `data/classified/round-1-rapid.json` (46KB)
+- `data/classified/round-1-blitz.json` (10KB)
+
+**Next Stage:** Stage 3 - Opening Enrichment
 
 ---
 

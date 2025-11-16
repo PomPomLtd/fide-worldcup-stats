@@ -1,0 +1,1524 @@
+{
+  "roundNumber": 1,
+  "roundName": "Round 1",
+  "timeControlType": "RAPID",
+  "timeControlLabel": "Rapid",
+  "totalMatches": 20,
+  "totalGames": 52,
+  "tierStats": {
+    "tier1": {
+      "games": 40,
+      "matches": 20,
+      "timeControl": "15+10"
+    },
+    "tier2": {
+      "games": 12,
+      "matches": 6,
+      "timeControl": "10+10"
+    }
+  },
+  "matches": [
+    {
+      "matchId": "round-1-match-17",
+      "matchNumber": 17,
+      "pairingKey": "Hovhannisyan, Robert vs Kavin, Mohan",
+      "players": [
+        {
+          "name": "Hovhannisyan, Robert",
+          "fideId": "13302507",
+          "elo": 2633
+        },
+        {
+          "name": "Kavin, Mohan",
+          "fideId": "5739047",
+          "elo": 2346
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Hovhannisyan, Robert",
+          "black": "Kavin, Mohan",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "3.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Kavin, Mohan",
+          "black": "Hovhannisyan, Robert",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Hovhannisyan, Robert",
+        "advancingPlayer": "Hovhannisyan, Robert",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Hovhannisyan, Robert": 2.5,
+          "Kavin, Mohan": 1.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-27",
+      "matchNumber": 27,
+      "pairingKey": "Thavandiran, Shiyam vs Yuffa, Daniil",
+      "players": [
+        {
+          "name": "Thavandiran, Shiyam",
+          "fideId": "2605058",
+          "elo": 2402
+        },
+        {
+          "name": "Yuffa, Daniil",
+          "fideId": "24131423",
+          "elo": 2621
+        }
+      ],
+      "totalGamesInTimeControl": 4,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Yuffa, Daniil",
+          "black": "Thavandiran, Shiyam",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "3.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Thavandiran, Shiyam",
+          "black": "Yuffa, Daniil",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "4.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Thavandiran, Shiyam",
+          "black": "Yuffa, Daniil",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "5.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 5
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        },
+        {
+          "white": "Yuffa, Daniil",
+          "black": "Thavandiran, Shiyam",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "6.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 6
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Yuffa, Daniil",
+        "advancingPlayer": "Yuffa, Daniil",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Thavandiran, Shiyam": 3,
+          "Yuffa, Daniil": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-31",
+      "matchNumber": 31,
+      "pairingKey": "Narayanan, S vs Rojas Salas, Steven",
+      "players": [
+        {
+          "name": "Narayanan, S",
+          "fideId": "5058422",
+          "elo": 2617
+        },
+        {
+          "name": "Rojas Salas, Steven",
+          "fideId": "3819434",
+          "elo": 2413
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Rojas Salas, Steven",
+          "black": "Narayanan, S",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "3.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Narayanan, S",
+          "black": "Rojas Salas, Steven",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "4.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Narayanan, S",
+        "advancingPlayer": "Narayanan, S",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Narayanan, S": 3,
+          "Rojas Salas, Steven": 1
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-40",
+      "matchNumber": 40,
+      "pairingKey": "Agibileg, Uurtsaikh vs Henriquez Villagra, Cristobal",
+      "players": [
+        {
+          "name": "Agibileg, Uurtsaikh",
+          "fideId": "4901606",
+          "elo": 2448
+        },
+        {
+          "name": "Henriquez Villagra, Cristobal",
+          "fideId": "3409350",
+          "elo": 2594
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Henriquez Villagra, Cristobal",
+          "black": "Agibileg, Uurtsaikh",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "3.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Agibileg, Uurtsaikh",
+          "black": "Henriquez Villagra, Cristobal",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Henriquez Villagra, Cristobal",
+        "advancingPlayer": "Henriquez Villagra, Cristobal",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Agibileg, Uurtsaikh": 1.5,
+          "Henriquez Villagra, Cristobal": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-47",
+      "matchNumber": 47,
+      "pairingKey": "Ansat, Aldiyar vs Cori, Jorge",
+      "players": [
+        {
+          "name": "Ansat, Aldiyar",
+          "fideId": "13715658",
+          "elo": 2470
+        },
+        {
+          "name": "Cori, Jorge",
+          "fideId": "3802272",
+          "elo": 2594
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Cori, Jorge",
+          "black": "Ansat, Aldiyar",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Ansat, Aldiyar",
+          "black": "Cori, Jorge",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Cori, Jorge",
+        "advancingPlayer": "Cori, Jorge",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Ansat, Aldiyar": 1,
+          "Cori, Jorge": 3
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-51",
+      "matchNumber": 51,
+      "pairingKey": "Adly, Ahmed vs Grigoryan, Karen H.",
+      "players": [
+        {
+          "name": "Adly, Ahmed",
+          "fideId": "10601619",
+          "elo": 2589
+        },
+        {
+          "name": "Grigoryan, Karen H.",
+          "fideId": "13301004",
+          "elo": 2481
+        }
+      ],
+      "totalGamesInTimeControl": 4,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Grigoryan, Karen H.",
+          "black": "Adly, Ahmed",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "3.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Adly, Ahmed",
+          "black": "Grigoryan, Karen H.",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Grigoryan, Karen H.",
+          "black": "Adly, Ahmed",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "5.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 5
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        },
+        {
+          "white": "Adly, Ahmed",
+          "black": "Grigoryan, Karen H.",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "6.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 6
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Adly, Ahmed",
+        "advancingPlayer": "Adly, Ahmed",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Adly, Ahmed": 4.5,
+          "Grigoryan, Karen H.": 3.5
+        },
+        "totalGames": 8,
+        "finalScore": "4.5-3.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-55",
+      "matchNumber": 55,
+      "pairingKey": "Neiksans, Arturs vs Suleymenov, Alisher",
+      "players": [
+        {
+          "name": "Neiksans, Arturs",
+          "fideId": "11601388",
+          "elo": 2585
+        },
+        {
+          "name": "Suleymenov, Alisher",
+          "fideId": "13707833",
+          "elo": 2491
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Neiksans, Arturs",
+          "black": "Suleymenov, Alisher",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "3.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Suleymenov, Alisher",
+          "black": "Neiksans, Arturs",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "4.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Suleymenov, Alisher",
+        "advancingPlayer": "Suleymenov, Alisher",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Neiksans, Arturs": 1.5,
+          "Suleymenov, Alisher": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-57",
+      "matchNumber": 57,
+      "pairingKey": "Lashkin, Jegor vs Tin, Jingyao",
+      "players": [
+        {
+          "name": "Lashkin, Jegor",
+          "fideId": "13907808",
+          "elo": 2497
+        },
+        {
+          "name": "Tin, Jingyao",
+          "fideId": "5804418",
+          "elo": 2583
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Tin, Jingyao",
+          "black": "Lashkin, Jegor",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Lashkin, Jegor",
+          "black": "Tin, Jingyao",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Tin, Jingyao",
+        "advancingPlayer": "Tin, Jingyao",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Lashkin, Jegor": 1,
+          "Tin, Jingyao": 3
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-58",
+      "matchNumber": 58,
+      "pairingKey": "Lalit, Babu M R vs Warmerdam, Max",
+      "players": [
+        {
+          "name": "Lalit, Babu M R",
+          "fideId": "5024595",
+          "elo": 2502
+        },
+        {
+          "name": "Warmerdam, Max",
+          "fideId": "1048104",
+          "elo": 2591
+        }
+      ],
+      "totalGamesInTimeControl": 4,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Lalit, Babu M R",
+          "black": "Warmerdam, Max",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.9",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Warmerdam, Max",
+          "black": "Lalit, Babu M R",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "4.9",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Warmerdam, Max",
+          "black": "Lalit, Babu M R",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "5.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 5
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        },
+        {
+          "white": "Lalit, Babu M R",
+          "black": "Warmerdam, Max",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "6.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 6
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Warmerdam, Max",
+        "advancingPlayer": "Warmerdam, Max",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Lalit, Babu M R": 3,
+          "Warmerdam, Max": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-60",
+      "matchNumber": 60,
+      "pairingKey": "Brkic, Ante vs Oro, Faustino",
+      "players": [
+        {
+          "name": "Brkic, Ante",
+          "fideId": "14506688",
+          "elo": 2578
+        },
+        {
+          "name": "Oro, Faustino",
+          "fideId": "20000197",
+          "elo": 2509
+        }
+      ],
+      "totalGamesInTimeControl": 4,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Brkic, Ante",
+          "black": "Oro, Faustino",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.10",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Oro, Faustino",
+          "black": "Brkic, Ante",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "4.10",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Brkic, Ante",
+          "black": "Oro, Faustino",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "5.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 5
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        },
+        {
+          "white": "Oro, Faustino",
+          "black": "Brkic, Ante",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "6.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 6
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Oro, Faustino",
+        "advancingPlayer": "Oro, Faustino",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Brkic, Ante": 3,
+          "Oro, Faustino": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-64",
+      "matchNumber": 64,
+      "pairingKey": "Aronyak, Ghosh vs Bartel, Mateusz",
+      "players": [
+        {
+          "name": "Aronyak, Ghosh",
+          "fideId": "25072846",
+          "elo": 2514
+        },
+        {
+          "name": "Bartel, Mateusz",
+          "fideId": "1112635",
+          "elo": 2581
+        }
+      ],
+      "totalGamesInTimeControl": 4,
+      "totalGamesOverall": 6,
+      "gameDetails": [
+        {
+          "white": "Aronyak, Ghosh",
+          "black": "Bartel, Mateusz",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.11",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Bartel, Mateusz",
+          "black": "Aronyak, Ghosh",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "4.11",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Aronyak, Ghosh",
+          "black": "Bartel, Mateusz",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "5.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 5
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        },
+        {
+          "white": "Bartel, Mateusz",
+          "black": "Aronyak, Ghosh",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "6.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 6
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Aronyak, Ghosh",
+        "advancingPlayer": "Aronyak, Ghosh",
+        "tiebreakType": "RAPID_TIER_2",
+        "scores": {
+          "Aronyak, Ghosh": 4,
+          "Bartel, Mateusz": 2
+        },
+        "totalGames": 6,
+        "finalScore": "4-2"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-65",
+      "matchNumber": 65,
+      "pairingKey": "Galaviz Medina, Sion Radamantys vs Supi, Luis Paulo",
+      "players": [
+        {
+          "name": "Galaviz Medina, Sion Radamantys",
+          "fideId": "5123119",
+          "elo": 2515
+        },
+        {
+          "name": "Supi, Luis Paulo",
+          "fideId": "2106388",
+          "elo": 2575
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Supi, Luis Paulo",
+          "black": "Galaviz Medina, Sion Radamantys",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "3.12",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Galaviz Medina, Sion Radamantys",
+          "black": "Supi, Luis Paulo",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.12",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Supi, Luis Paulo",
+        "advancingPlayer": "Supi, Luis Paulo",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Galaviz Medina, Sion Radamantys": 1.5,
+          "Supi, Luis Paulo": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-66",
+      "matchNumber": 66,
+      "pairingKey": "Cardoso Cardoso, Jose Gabriel vs Jobava, Baadur",
+      "players": [
+        {
+          "name": "Cardoso Cardoso, Jose Gabriel",
+          "fideId": "4430492",
+          "elo": 2518
+        },
+        {
+          "name": "Jobava, Baadur",
+          "fideId": "13601520",
+          "elo": 2590
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Jobava, Baadur",
+          "black": "Cardoso Cardoso, Jose Gabriel",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "3.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Cardoso Cardoso, Jose Gabriel",
+          "black": "Jobava, Baadur",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Jobava, Baadur",
+        "advancingPlayer": "Jobava, Baadur",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Cardoso Cardoso, Jose Gabriel": 1.5,
+          "Jobava, Baadur": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-67",
+      "matchNumber": 67,
+      "pairingKey": "Ghosh, Diptayan vs Peng, Xiongjian",
+      "players": [
+        {
+          "name": "Ghosh, Diptayan",
+          "fideId": "5045207",
+          "elo": 2573
+        },
+        {
+          "name": "Peng, Xiongjian",
+          "fideId": "8610550",
+          "elo": 2521
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Ghosh, Diptayan",
+          "black": "Peng, Xiongjian",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Peng, Xiongjian",
+          "black": "Ghosh, Diptayan",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Ghosh, Diptayan",
+        "advancingPlayer": "Ghosh, Diptayan",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Ghosh, Diptayan": 3,
+          "Peng, Xiongjian": 1
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-71",
+      "matchNumber": 71,
+      "pairingKey": "Flores, Diego vs Makhnev, Denis",
+      "players": [
+        {
+          "name": "Flores, Diego",
+          "fideId": "108049",
+          "elo": 2558
+        },
+        {
+          "name": "Makhnev, Denis",
+          "fideId": "13707647",
+          "elo": 2525
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Makhnev, Denis",
+          "black": "Flores, Diego",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Flores, Diego",
+          "black": "Makhnev, Denis",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "4.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Makhnev, Denis",
+        "advancingPlayer": "Makhnev, Denis",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Flores, Diego": 1.5,
+          "Makhnev, Denis": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-72",
+      "matchNumber": 72,
+      "pairingKey": "Lobanov, Sergei vs Piorun, Kacper",
+      "players": [
+        {
+          "name": "Lobanov, Sergei",
+          "fideId": "24183750",
+          "elo": 2526
+        },
+        {
+          "name": "Piorun, Kacper",
+          "fideId": "1130420",
+          "elo": 2557
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Piorun, Kacper",
+          "black": "Lobanov, Sergei",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Lobanov, Sergei",
+          "black": "Piorun, Kacper",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "4.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Piorun, Kacper",
+        "advancingPlayer": "Piorun, Kacper",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Lobanov, Sergei": 1.5,
+          "Piorun, Kacper": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-74",
+      "matchNumber": 74,
+      "pairingKey": "Bogner, Sebastian vs Stremavicius, Titas",
+      "players": [
+        {
+          "name": "Bogner, Sebastian",
+          "fideId": "4692055",
+          "elo": 2555
+        },
+        {
+          "name": "Stremavicius, Titas",
+          "fideId": "12804444",
+          "elo": 2531
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Bogner, Sebastian",
+          "black": "Stremavicius, Titas",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "3.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Stremavicius, Titas",
+          "black": "Bogner, Sebastian",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "4.5",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Stremavicius, Titas",
+        "advancingPlayer": "Stremavicius, Titas",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Bogner, Sebastian": 1.5,
+          "Stremavicius, Titas": 2.5
+        },
+        "totalGames": 4,
+        "finalScore": "2.5-1.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-75",
+      "matchNumber": 75,
+      "pairingKey": "Can, Emre vs Maksimovic, Bojan",
+      "players": [
+        {
+          "name": "Can, Emre",
+          "fideId": "6302181",
+          "elo": 2552
+        },
+        {
+          "name": "Maksimovic, Bojan",
+          "fideId": "14408120",
+          "elo": 2532
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Can, Emre",
+          "black": "Maksimovic, Bojan",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "3.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Maksimovic, Bojan",
+          "black": "Can, Emre",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "4.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Maksimovic, Bojan",
+        "advancingPlayer": "Maksimovic, Bojan",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Can, Emre": 1,
+          "Maksimovic, Bojan": 3
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-76",
+      "matchNumber": 76,
+      "pairingKey": "Kuybokarov, Temur vs Subelj, Jan",
+      "players": [
+        {
+          "name": "Kuybokarov, Temur",
+          "fideId": "14203049",
+          "elo": 2535
+        },
+        {
+          "name": "Subelj, Jan",
+          "fideId": "14618583",
+          "elo": 2545
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 4,
+      "gameDetails": [
+        {
+          "white": "Kuybokarov, Temur",
+          "black": "Subelj, Jan",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "3.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Subelj, Jan",
+          "black": "Kuybokarov, Temur",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.7",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Kuybokarov, Temur",
+        "advancingPlayer": "Kuybokarov, Temur",
+        "tiebreakType": "RAPID_TIER_1",
+        "scores": {
+          "Kuybokarov, Temur": 3,
+          "Subelj, Jan": 1
+        },
+        "totalGames": 4,
+        "finalScore": "3-1"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-78",
+      "matchNumber": 78,
+      "pairingKey": "Nogerbek, Kazybek vs Raja, Rithvik R",
+      "players": [
+        {
+          "name": "Nogerbek, Kazybek",
+          "fideId": "13710427",
+          "elo": 2543
+        },
+        {
+          "name": "Raja, Rithvik R",
+          "fideId": "35007394",
+          "elo": 2541
+        }
+      ],
+      "totalGamesInTimeControl": 4,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Raja, Rithvik R",
+          "black": "Nogerbek, Kazybek",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "3.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 3
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Nogerbek, Kazybek",
+          "black": "Raja, Rithvik R",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "4.8",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 1,
+            "timeControl": "15+10",
+            "gameNumber": 4
+          },
+          "timeControlLabel": "Rapid Tier 1 (15+10)"
+        },
+        {
+          "white": "Raja, Rithvik R",
+          "black": "Nogerbek, Kazybek",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "5.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 5
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        },
+        {
+          "white": "Nogerbek, Kazybek",
+          "black": "Raja, Rithvik R",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "6.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "RAPID",
+            "tier": 2,
+            "timeControl": "10+10",
+            "gameNumber": 6
+          },
+          "timeControlLabel": "Rapid Tier 2 (10+10)"
+        }
+      ],
+      "outcome": {
+        "winner": "Nogerbek, Kazybek",
+        "advancingPlayer": "Nogerbek, Kazybek",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Nogerbek, Kazybek": 5,
+          "Raja, Rithvik R": 3
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    }
+  ],
+  "generatedAt": "2025-11-16T15:36:20.456Z",
+  "sourceFile": "round-1-classified.json"
+}

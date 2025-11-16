@@ -1,0 +1,354 @@
+{
+  "roundNumber": 1,
+  "roundName": "Round 1",
+  "timeControlType": "BLITZ",
+  "timeControlLabel": "Blitz",
+  "totalMatches": 5,
+  "totalGames": 10,
+  "tierStats": {
+    "tier1": {
+      "games": 10,
+      "matches": 5,
+      "timeControl": "5+3"
+    },
+    "tier2": {
+      "games": 0,
+      "matches": 0,
+      "timeControl": null
+    }
+  },
+  "matches": [
+    {
+      "matchId": "round-1-match-27",
+      "matchNumber": 27,
+      "pairingKey": "Thavandiran, Shiyam vs Yuffa, Daniil",
+      "players": [
+        {
+          "name": "Thavandiran, Shiyam",
+          "fideId": "2605058",
+          "elo": 2402
+        },
+        {
+          "name": "Yuffa, Daniil",
+          "fideId": "24131423",
+          "elo": 2621
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Thavandiran, Shiyam",
+          "black": "Yuffa, Daniil",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "7.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 7
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        },
+        {
+          "white": "Yuffa, Daniil",
+          "black": "Thavandiran, Shiyam",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "8.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 8
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        }
+      ],
+      "outcome": {
+        "winner": "Yuffa, Daniil",
+        "advancingPlayer": "Yuffa, Daniil",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Thavandiran, Shiyam": 3,
+          "Yuffa, Daniil": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-51",
+      "matchNumber": 51,
+      "pairingKey": "Adly, Ahmed vs Grigoryan, Karen H.",
+      "players": [
+        {
+          "name": "Adly, Ahmed",
+          "fideId": "10601619",
+          "elo": 2589
+        },
+        {
+          "name": "Grigoryan, Karen H.",
+          "fideId": "13301004",
+          "elo": 2481
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Grigoryan, Karen H.",
+          "black": "Adly, Ahmed",
+          "result": "1/2-1/2",
+          "date": "2025.11.03",
+          "round": "7.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 7
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        },
+        {
+          "white": "Adly, Ahmed",
+          "black": "Grigoryan, Karen H.",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "8.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 8
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        }
+      ],
+      "outcome": {
+        "winner": "Adly, Ahmed",
+        "advancingPlayer": "Adly, Ahmed",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Adly, Ahmed": 4.5,
+          "Grigoryan, Karen H.": 3.5
+        },
+        "totalGames": 8,
+        "finalScore": "4.5-3.5"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-58",
+      "matchNumber": 58,
+      "pairingKey": "Lalit, Babu M R vs Warmerdam, Max",
+      "players": [
+        {
+          "name": "Lalit, Babu M R",
+          "fideId": "5024595",
+          "elo": 2502
+        },
+        {
+          "name": "Warmerdam, Max",
+          "fideId": "1048104",
+          "elo": 2591
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Lalit, Babu M R",
+          "black": "Warmerdam, Max",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "7.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 7
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        },
+        {
+          "white": "Warmerdam, Max",
+          "black": "Lalit, Babu M R",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "8.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 8
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        }
+      ],
+      "outcome": {
+        "winner": "Warmerdam, Max",
+        "advancingPlayer": "Warmerdam, Max",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Lalit, Babu M R": 3,
+          "Warmerdam, Max": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-60",
+      "matchNumber": 60,
+      "pairingKey": "Brkic, Ante vs Oro, Faustino",
+      "players": [
+        {
+          "name": "Brkic, Ante",
+          "fideId": "14506688",
+          "elo": 2578
+        },
+        {
+          "name": "Oro, Faustino",
+          "fideId": "20000197",
+          "elo": 2509
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Oro, Faustino",
+          "black": "Brkic, Ante",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "7.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 7
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        },
+        {
+          "white": "Brkic, Ante",
+          "black": "Oro, Faustino",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "8.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 8
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        }
+      ],
+      "outcome": {
+        "winner": "Oro, Faustino",
+        "advancingPlayer": "Oro, Faustino",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Brkic, Ante": 3,
+          "Oro, Faustino": 5
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    },
+    {
+      "matchId": "round-1-match-78",
+      "matchNumber": 78,
+      "pairingKey": "Nogerbek, Kazybek vs Raja, Rithvik R",
+      "players": [
+        {
+          "name": "Nogerbek, Kazybek",
+          "fideId": "13710427",
+          "elo": 2543
+        },
+        {
+          "name": "Raja, Rithvik R",
+          "fideId": "35007394",
+          "elo": 2541
+        }
+      ],
+      "totalGamesInTimeControl": 2,
+      "totalGamesOverall": 8,
+      "gameDetails": [
+        {
+          "white": "Nogerbek, Kazybek",
+          "black": "Raja, Rithvik R",
+          "result": "1-0",
+          "date": "2025.11.03",
+          "round": "7.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 7
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        },
+        {
+          "white": "Raja, Rithvik R",
+          "black": "Nogerbek, Kazybek",
+          "result": "0-1",
+          "date": "2025.11.03",
+          "round": "8.6",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "classification": {
+            "type": "BLITZ",
+            "tier": 1,
+            "timeControl": "5+3",
+            "gameNumber": 8
+          },
+          "timeControlLabel": "Blitz Tier 1 (5+3)"
+        }
+      ],
+      "outcome": {
+        "winner": "Nogerbek, Kazybek",
+        "advancingPlayer": "Nogerbek, Kazybek",
+        "tiebreakType": "BLITZ_TIER_1",
+        "scores": {
+          "Nogerbek, Kazybek": 5,
+          "Raja, Rithvik R": 3
+        },
+        "totalGames": 8,
+        "finalScore": "5-3"
+      },
+      "dates": [
+        "2025.11.03"
+      ],
+      "site": "Goa, India"
+    }
+  ],
+  "generatedAt": "2025-11-16T15:36:20.456Z",
+  "sourceFile": "round-1-classified.json"
+}
