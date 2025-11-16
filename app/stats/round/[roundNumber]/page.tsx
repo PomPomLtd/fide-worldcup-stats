@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 import type { RoundStats } from '@/app/stats/types'
@@ -94,7 +95,7 @@ export default function RoundPage() {
         {/* Page Header */}
         <div className="mb-8">
           <nav className="text-sm text-gray-600 dark:text-gray-400 mb-2">
-            <a href="/" className="hover:text-blue-600 dark:hover:text-blue-400">Home</a>
+            <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400">Home</Link>
             <span className="mx-2">/</span>
             <span>Round {roundNumber}</span>
           </nav>
@@ -458,6 +459,275 @@ export default function RoundPage() {
             )}
           </div>
         </div>
+
+        {/* Fun Stats */}
+        {stats.funStats && (
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">🎉 Fun Stats</h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
+              Entertaining patterns and achievements from this round
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* Queen Trades */}
+              {stats.funStats.fastestQueenTrade && (
+                <div className="border border-slate-200 dark:border-slate-700 rounded-lg p-4 bg-slate-50 dark:bg-slate-900/20">
+                  <div className="text-sm font-semibold text-slate-900 dark:text-slate-300 mb-2">💼 Strategic Downsizing</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.fastestQueenTrade.white, stats.funStats.fastestQueenTrade.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    Queens traded by move {stats.funStats.fastestQueenTrade.moves}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.slowestQueenTrade && (
+                <div className="border border-amber-200 dark:border-amber-700 rounded-lg p-4 bg-amber-50 dark:bg-amber-900/20">
+                  <div className="text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">🕰️ Separation Anxiety</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.slowestQueenTrade.white, stats.funStats.slowestQueenTrade.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    Queens kept until move {stats.funStats.slowestQueenTrade.moves}
+                  </div>
+                </div>
+              )}
+
+              {/* Sequences */}
+              {stats.funStats.longestCaptureSequence && (
+                <div className="border border-red-200 dark:border-red-700 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
+                  <div className="text-sm font-semibold text-red-900 dark:text-red-300 mb-2">🔪 Longest Capture Spree</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.longestCaptureSequence.white, stats.funStats.longestCaptureSequence.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.longestCaptureSequence.length} consecutive captures starting move {stats.funStats.longestCaptureSequence.startMove}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.longestCheckSequence && (
+                <div className="border border-orange-200 dark:border-orange-700 rounded-lg p-4 bg-orange-50 dark:bg-orange-900/20">
+                  <div className="text-sm font-semibold text-orange-900 dark:text-orange-300 mb-2">👑 Longest King Hunt</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.longestCheckSequence.white, stats.funStats.longestCheckSequence.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.longestCheckSequence.length} checks starting move {stats.funStats.longestCheckSequence.startMove}
+                  </div>
+                </div>
+              )}
+
+              {/* Opening Phase */}
+              {stats.funStats.pawnStorm && (
+                <div className="border border-cyan-200 dark:border-cyan-700 rounded-lg p-4 bg-cyan-50 dark:bg-cyan-900/20">
+                  <div className="text-sm font-semibold text-cyan-900 dark:text-cyan-300 mb-2">🌪️ Pawn Storm</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.pawnStorm.white, stats.funStats.pawnStorm.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.pawnStorm.count} pawn moves in the opening
+                  </div>
+                </div>
+              )}
+
+              {/* Piece Movement */}
+              {stats.funStats.pieceLoyalty && (
+                <div className="border border-indigo-200 dark:border-indigo-700 rounded-lg p-4 bg-indigo-50 dark:bg-indigo-900/20">
+                  <div className="text-sm font-semibold text-indigo-900 dark:text-indigo-300 mb-2">🏠 Piece Loyalty</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.pieceLoyalty.white, stats.funStats.pieceLoyalty.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.pieceLoyalty.piece} stayed on {stats.funStats.pieceLoyalty.square} for {stats.funStats.pieceLoyalty.moves} moves
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.squareTourist && (
+                <div className="border border-teal-200 dark:border-teal-700 rounded-lg p-4 bg-teal-50 dark:bg-teal-900/20">
+                  <div className="text-sm font-semibold text-teal-900 dark:text-teal-300 mb-2">✈️ Square Tourist</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.squareTourist.white, stats.funStats.squareTourist.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.squareTourist.color} {stats.funStats.squareTourist.piece} visited {stats.funStats.squareTourist.squares} different squares
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.sportyQueen && (
+                <div className="border border-pink-200 dark:border-pink-700 rounded-lg p-4 bg-pink-50 dark:bg-pink-900/20">
+                  <div className="text-sm font-semibold text-pink-900 dark:text-pink-300 mb-2">👸 Sporty Queen</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.sportyQueen.white, stats.funStats.sportyQueen.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.sportyQueen.color} queen traveled {Math.round(stats.funStats.sportyQueen.distance)} squares (~{(stats.funStats.sportyQueen.distance * 0.82 * 5.5).toFixed(0)} cm, or {(stats.funStats.sportyQueen.distance * 0.82 * 5.5 * 18.54 / 100).toFixed(0)}m at human scale)
+                  </div>
+                </div>
+              )}
+
+              {/* Castling */}
+              {stats.funStats.castlingRace && (
+                <div className="border border-purple-200 dark:border-purple-700 rounded-lg p-4 bg-purple-50 dark:bg-purple-900/20">
+                  <div className="text-sm font-semibold text-purple-900 dark:text-purple-300 mb-2">🏁 Castling Race Winner</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.castlingRace.white, stats.funStats.castlingRace.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.castlingRace.winner === 'white' ? formatPlayerName(stats.funStats.castlingRace.white) : formatPlayerName(stats.funStats.castlingRace.black)} castled first on move {stats.funStats.castlingRace.moves}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.slowestCastling && (
+                <div className="border border-slate-200 dark:border-slate-700 rounded-lg p-4 bg-slate-50 dark:bg-slate-900/20">
+                  <div className="text-sm font-semibold text-slate-900 dark:text-slate-300 mb-2">🏰 Castle Commitment Issues</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.slowestCastling.white, stats.funStats.slowestCastling.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.slowestCastling.color} castled on move {stats.funStats.slowestCastling.moves}
+                  </div>
+                </div>
+              )}
+
+              {/* Special Patterns */}
+              {stats.funStats.openingHipster && (
+                <div className="border border-blue-200 dark:border-blue-700 rounded-lg p-4 bg-blue-50 dark:bg-blue-900/20">
+                  <div className="text-sm font-semibold text-blue-900 dark:text-blue-300 mb-2">🎩 Opening Hipster</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.openingHipster.white, stats.funStats.openingHipster.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.openingHipster.eco} {stats.funStats.openingHipster.name}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.dadbodShuffler && (
+                <div className="border border-yellow-200 dark:border-yellow-700 rounded-lg p-4 bg-yellow-50 dark:bg-yellow-900/20">
+                  <div className="text-sm font-semibold text-yellow-900 dark:text-yellow-300 mb-2">👑 Dadbod Shuffler</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.dadbodShuffler.white, stats.funStats.dadbodShuffler.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.dadbodShuffler.color} king moved {stats.funStats.dadbodShuffler.moves} times
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.edgeLord && (
+                <div className="border border-slate-200 dark:border-slate-700 rounded-lg p-4 bg-slate-50 dark:bg-slate-900/20">
+                  <div className="text-sm font-semibold text-slate-900 dark:text-slate-300 mb-2">📐 Professional Edger</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.edgeLord.white, stats.funStats.edgeLord.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.edgeLord.color} made {stats.funStats.edgeLord.moves} moves on edge files
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.rookLift && (
+                <div className="border border-emerald-200 dark:border-emerald-700 rounded-lg p-4 bg-emerald-50 dark:bg-emerald-900/20">
+                  <div className="text-sm font-semibold text-emerald-900 dark:text-emerald-300 mb-2">🚀 Rook Lift</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.rookLift.white, stats.funStats.rookLift.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.rookLift.color} {stats.funStats.rookLift.rook} activated on move {stats.funStats.rookLift.moveNumber}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.centerStage && (
+                <div className="border border-violet-200 dark:border-violet-700 rounded-lg p-4 bg-violet-50 dark:bg-violet-900/20">
+                  <div className="text-sm font-semibold text-violet-900 dark:text-violet-300 mb-2">⭐ Center Stage</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.centerStage.white, stats.funStats.centerStage.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.centerStage.color} {stats.funStats.centerStage.piece} dominated the center with {stats.funStats.centerStage.moves} moves
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.darkLord && (
+                <div className="border border-gray-700 dark:border-gray-600 rounded-lg p-4 bg-gray-800 dark:bg-gray-950">
+                  <div className="text-sm font-semibold text-gray-100 dark:text-gray-200 mb-2">🌑 Dark Mode Enthusiast</div>
+                  <div className="text-gray-200 dark:text-gray-300 text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.darkLord.white, stats.funStats.darkLord.black)}
+                  </div>
+                  <div className="text-sm text-gray-300 dark:text-gray-400">
+                    {stats.funStats.darkLord.color} captured {stats.funStats.darkLord.captures} pieces on dark squares
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.lightLord && (
+                <div className="border border-amber-300 dark:border-amber-600 rounded-lg p-4 bg-amber-50 dark:bg-amber-900/20">
+                  <div className="text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">☀️ Day Mode Warrior</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.lightLord.white, stats.funStats.lightLord.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.lightLord.color} captured {stats.funStats.lightLord.captures} pieces on light squares
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.chickenAward && (
+                <div className="border border-lime-200 dark:border-lime-700 rounded-lg p-4 bg-lime-50 dark:bg-lime-900/20">
+                  <div className="text-sm font-semibold text-lime-900 dark:text-lime-300 mb-2">🐔 Chicken Award</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.chickenAward.white, stats.funStats.chickenAward.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.chickenAward.color} made {stats.funStats.chickenAward.retreats} retreating moves
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.pawnCaptures && (
+                <div className="border border-red-200 dark:border-red-700 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
+                  <div className="text-sm font-semibold text-red-900 dark:text-red-300 mb-2">🏴 Peasant Uprising</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.pawnCaptures.white, stats.funStats.pawnCaptures.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.pawnCaptures.color} pawns captured {stats.funStats.pawnCaptures.captures} {stats.funStats.pawnCaptures.captures === 1 ? 'piece' : 'pieces'}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.antiOrthogonal && (
+                <div className="border border-purple-200 dark:border-purple-700 rounded-lg p-4 bg-purple-50 dark:bg-purple-900/20">
+                  <div className="text-sm font-semibold text-purple-900 dark:text-purple-300 mb-2">✖️ Anti-Orthogonal Activist</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.antiOrthogonal.white, stats.funStats.antiOrthogonal.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.antiOrthogonal.color} made {stats.funStats.antiOrthogonal.moves} diagonal {stats.funStats.antiOrthogonal.moves === 1 ? 'move' : 'moves'}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.comfortZone && (
+                <div className="border border-cyan-200 dark:border-cyan-700 rounded-lg p-4 bg-cyan-50 dark:bg-cyan-900/20">
+                  <div className="text-sm font-semibold text-cyan-900 dark:text-cyan-300 mb-2">✨ Comfort Zone Champion</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerVs(stats.funStats.comfortZone.white, stats.funStats.comfortZone.black)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.comfortZone.color} used {stats.funStats.comfortZone.pieceType} for {stats.funStats.comfortZone.percentage}% of non-pawn moves
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Game Phases */}
         {stats.gamePhases && (

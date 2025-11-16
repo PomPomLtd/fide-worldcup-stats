@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-16T20:31:02.235Z",
+  "generatedAt": "2025-11-16T21:17:55.244Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 0,
@@ -4569,6 +4569,177 @@
     "upsetArtist": {
       "player": "Svane, Rasmus",
       "upsets": 4
+    }
+  },
+  "funStats": {
+    "fastestQueenTrade": {
+      "moves": 8,
+      "gameIndex": 58,
+      "gameId": null,
+      "white": "Aravindh, Chithambaram Vr.",
+      "black": "Karthik, Venkataraman"
+    },
+    "slowestQueenTrade": {
+      "moves": 65,
+      "gameIndex": 96,
+      "gameId": null,
+      "white": "Sargsyan, Shant",
+      "black": "Cori, Jorge"
+    },
+    "longestCaptureSequence": {
+      "length": 10,
+      "gameIndex": 127,
+      "gameId": null,
+      "startMove": 32,
+      "white": "Svane, Rasmus",
+      "black": "Mamedov, Rauf"
+    },
+    "longestCheckSequence": {
+      "length": 12,
+      "gameIndex": 90,
+      "gameId": null,
+      "startMove": 65,
+      "white": "Bu, Xiangzhi",
+      "black": "Yilmaz, Mustafa"
+    },
+    "pawnStorm": {
+      "count": 20,
+      "gameIndex": 161,
+      "gameId": null,
+      "white": "Mishra, Abhimanyu",
+      "black": "Salem, A.R. Saleh"
+    },
+    "pieceLoyalty": null,
+    "squareTourist": {
+      "squares": 30,
+      "gameIndex": 49,
+      "gameId": null,
+      "piece": "Rook",
+      "color": "Black",
+      "startSquare": "f8",
+      "white": "Yu, Yangyi",
+      "black": "Blohberger, Felix"
+    },
+    "castlingRace": {
+      "moves": 4,
+      "gameIndex": 8,
+      "gameId": null,
+      "winner": "white",
+      "white": "Praggnanandhaa, R",
+      "black": "Kuybokarov, Temur"
+    },
+    "openingHipster": {
+      "gameIndex": 24,
+      "gameId": null,
+      "eco": "A22",
+      "name": "English Opening: King's English Variation, Two Knights Variation",
+      "moves": "c4 e5 Nc3 Nf6 e3 Nc6",
+      "obscurityScore": 84,
+      "white": "Mamedyarov, Shakhriyar",
+      "black": "Kantor, Gergely"
+    },
+    "dadbodShuffler": {
+      "moves": 45,
+      "gameIndex": 49,
+      "gameId": null,
+      "color": "White",
+      "white": "Yu, Yangyi",
+      "black": "Blohberger, Felix"
+    },
+    "sportyQueen": {
+      "distance": 93,
+      "gameIndex": 20,
+      "gameId": null,
+      "color": "White",
+      "white": "Makhnev, Denis",
+      "black": "Abdusattorov, Nodirbek"
+    },
+    "edgeLord": {
+      "moves": 52,
+      "gameIndex": 49,
+      "gameId": null,
+      "color": "Black",
+      "white": "Yu, Yangyi",
+      "black": "Blohberger, Felix"
+    },
+    "rookLift": {
+      "moveNumber": 8,
+      "gameIndex": 54,
+      "gameId": null,
+      "color": "White",
+      "rook": "White's e1 Rook",
+      "square": "e1",
+      "white": "Oro, Faustino",
+      "black": "Vidit, Santosh Gujrathi"
+    },
+    "centerStage": {
+      "moves": 17,
+      "gameIndex": 111,
+      "gameId": null,
+      "piece": "Black's c6 King",
+      "startSquare": "c6",
+      "color": "Black",
+      "white": "Karthikeyan, Murali",
+      "black": "Idani, Pouya"
+    },
+    "darkLord": {
+      "captures": 11,
+      "gameIndex": 45,
+      "gameId": null,
+      "color": "White",
+      "white": "Blohberger, Felix",
+      "black": "Yu, Yangyi"
+    },
+    "lightLord": {
+      "captures": 11,
+      "gameIndex": 47,
+      "gameId": null,
+      "color": "White",
+      "white": "Blohberger, Felix",
+      "black": "Yu, Yangyi"
+    },
+    "chickenAward": {
+      "retreats": 39,
+      "gameIndex": 111,
+      "gameId": null,
+      "color": "White",
+      "white": "Karthikeyan, Murali",
+      "black": "Idani, Pouya"
+    },
+    "slowestCastling": {
+      "moves": 41,
+      "gameIndex": 63,
+      "gameId": null,
+      "color": "white",
+      "white": "Kourkoulos-Arditis, Stamatis",
+      "black": "Nihal, Sarin"
+    },
+    "pawnCaptures": {
+      "captures": 9,
+      "gameIndex": 110,
+      "gameId": null,
+      "color": "black",
+      "white": "Idani, Pouya",
+      "black": "Karthikeyan, Murali"
+    },
+    "antiOrthogonal": {
+      "moves": 65,
+      "gameIndex": 111,
+      "gameId": null,
+      "color": "white",
+      "white": "Karthikeyan, Murali",
+      "black": "Idani, Pouya"
+    },
+    "comfortZone": {
+      "percentage": 62,
+      "pieceType": "bishops",
+      "moves": 8,
+      "totalNonPawnMoves": 13,
+      "gameIndex": 190,
+      "gameId": null,
+      "color": "black",
+      "white": "Martinez Alcantara, Jose Eduardo",
+      "black": "Ivic, Velimir"
     }
   },
   "dataInfo": {

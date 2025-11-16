@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T20:30:54.056Z",
+  "generatedAt": "2025-11-16T21:17:43.771Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -6565,6 +6565,177 @@
     "upsetArtist": {
       "player": "Aronyak, Ghosh",
       "upsets": 4
+    }
+  },
+  "funStats": {
+    "fastestQueenTrade": {
+      "moves": 8,
+      "gameIndex": 100,
+      "gameId": null,
+      "white": "Siddharth, Jagadeesh",
+      "black": "Cheng, Bobby"
+    },
+    "slowestQueenTrade": {
+      "moves": 82,
+      "gameIndex": 47,
+      "gameId": null,
+      "white": "Cordoba Roa, Angel Gabriel",
+      "black": "Cheparinov, Ivan"
+    },
+    "longestCaptureSequence": {
+      "length": 8,
+      "gameIndex": 44,
+      "gameId": null,
+      "startMove": 36,
+      "white": "Orozbaev, Eldiyar",
+      "black": "Ivic, Velimir"
+    },
+    "longestCheckSequence": {
+      "length": 13,
+      "gameIndex": 32,
+      "gameId": null,
+      "startMove": 10,
+      "white": "Kavin, Mohan",
+      "black": "Hovhannisyan, Robert"
+    },
+    "pawnStorm": {
+      "count": 20,
+      "gameIndex": 149,
+      "gameId": null,
+      "white": "Oro, Faustino",
+      "black": "Brkic, Ante"
+    },
+    "pieceLoyalty": null,
+    "squareTourist": {
+      "squares": 27,
+      "gameIndex": 117,
+      "gameId": null,
+      "piece": "Rook",
+      "color": "White",
+      "startSquare": "f1",
+      "white": "Adly, Ahmed",
+      "black": "Grigoryan, Karen H."
+    },
+    "castlingRace": {
+      "moves": 4,
+      "gameIndex": 5,
+      "gameId": null,
+      "winner": "white",
+      "white": "Rodshtein, Maxim",
+      "black": "Qin, Oscar Shu Xuan"
+    },
+    "openingHipster": {
+      "gameIndex": 14,
+      "gameId": null,
+      "eco": "B31",
+      "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+      "moves": "e4 c5 Nf3 Nc6 Bb5 g6",
+      "obscurityScore": 90,
+      "white": "Gledura, Benjamin",
+      "black": "Amdouni, Zoubaier"
+    },
+    "dadbodShuffler": {
+      "moves": 44,
+      "gameIndex": 195,
+      "gameId": null,
+      "color": "Black",
+      "white": "Bogner, Sebastian",
+      "black": "Stremavicius, Titas"
+    },
+    "sportyQueen": {
+      "distance": 139,
+      "gameIndex": 195,
+      "gameId": null,
+      "color": "White",
+      "white": "Bogner, Sebastian",
+      "black": "Stremavicius, Titas"
+    },
+    "edgeLord": {
+      "moves": 45,
+      "gameIndex": 117,
+      "gameId": null,
+      "color": "Black",
+      "white": "Adly, Ahmed",
+      "black": "Grigoryan, Karen H."
+    },
+    "rookLift": {
+      "moveNumber": 8,
+      "gameIndex": 133,
+      "gameId": null,
+      "color": "White",
+      "rook": "White's e1 Rook",
+      "square": "e1",
+      "white": "Lashkin, Jegor",
+      "black": "Tin, Jingyao"
+    },
+    "centerStage": {
+      "moves": 11,
+      "gameIndex": 116,
+      "gameId": null,
+      "piece": "Black's f4 Rook",
+      "startSquare": "f4",
+      "color": "Black",
+      "white": "Grigoryan, Karen H.",
+      "black": "Adly, Ahmed"
+    },
+    "darkLord": {
+      "captures": 10,
+      "gameIndex": 106,
+      "gameId": null,
+      "color": "Black",
+      "white": "Harshavardhan, G B",
+      "black": "Yilmaz, Mustafa"
+    },
+    "lightLord": {
+      "captures": 12,
+      "gameIndex": 150,
+      "gameId": null,
+      "color": "White",
+      "white": "Brkic, Ante",
+      "black": "Oro, Faustino"
+    },
+    "chickenAward": {
+      "retreats": 37,
+      "gameIndex": 117,
+      "gameId": null,
+      "color": "White",
+      "white": "Adly, Ahmed",
+      "black": "Grigoryan, Karen H."
+    },
+    "slowestCastling": {
+      "moves": 29,
+      "gameIndex": 189,
+      "gameId": null,
+      "color": "white",
+      "white": "Piorun, Kacper",
+      "black": "Lobanov, Sergei"
+    },
+    "pawnCaptures": {
+      "captures": 7,
+      "gameIndex": 23,
+      "gameId": null,
+      "color": "white",
+      "white": "Barrish, Daniel",
+      "black": "Sadhwani, Raunak"
+    },
+    "antiOrthogonal": {
+      "moves": 46,
+      "gameIndex": 34,
+      "gameId": null,
+      "color": "white",
+      "white": "Hovhannisyan, Robert",
+      "black": "Kavin, Mohan"
+    },
+    "comfortZone": {
+      "percentage": 100,
+      "pieceType": "knights",
+      "moves": 1,
+      "totalNonPawnMoves": 1,
+      "gameIndex": 42,
+      "gameId": null,
+      "color": "white",
+      "white": "Amin, Bassem",
+      "black": "Mandizha, Farai"
     }
   },
   "dataInfo": {

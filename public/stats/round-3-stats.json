@@ -1,7 +1,7 @@
 {
   "roundNumber": 3,
   "roundName": "Round 3 (Round of 16)",
-  "generatedAt": "2025-11-16T20:31:05.144Z",
+  "generatedAt": "2025-11-16T21:17:59.608Z",
   "matchStats": {
     "totalMatches": 32,
     "decidedInClassical": 0,
@@ -1729,6 +1729,177 @@
     "upsetArtist": {
       "player": "Sarana, Alexey",
       "upsets": 3
+    }
+  },
+  "funStats": {
+    "fastestQueenTrade": {
+      "moves": 8,
+      "gameIndex": 77,
+      "gameId": null,
+      "white": "Idani, Pouya",
+      "black": "Esipenko, Andrey"
+    },
+    "slowestQueenTrade": {
+      "moves": 109,
+      "gameIndex": 43,
+      "gameId": null,
+      "white": "Narayanan, S",
+      "black": "Yu, Yangyi"
+    },
+    "longestCaptureSequence": {
+      "length": 10,
+      "gameIndex": 45,
+      "gameId": null,
+      "startMove": 52,
+      "white": "Yu, Yangyi",
+      "black": "Narayanan, S"
+    },
+    "longestCheckSequence": {
+      "length": 15,
+      "gameIndex": 64,
+      "gameId": null,
+      "startMove": 115,
+      "white": "Najer, Evgeniy",
+      "black": "Sevian, Samuel"
+    },
+    "pawnStorm": {
+      "count": 18,
+      "gameIndex": 7,
+      "gameId": null,
+      "white": "Donchenko, Alexander",
+      "black": "Giri, Anish"
+    },
+    "pieceLoyalty": null,
+    "squareTourist": {
+      "squares": 32,
+      "gameIndex": 43,
+      "gameId": null,
+      "piece": "Queen",
+      "color": "White",
+      "startSquare": "d1",
+      "white": "Narayanan, S",
+      "black": "Yu, Yangyi"
+    },
+    "castlingRace": {
+      "moves": 4,
+      "gameIndex": 0,
+      "gameId": null,
+      "winner": "white",
+      "white": "Svane, Frederik",
+      "black": "Gukesh, D"
+    },
+    "openingHipster": {
+      "gameIndex": 0,
+      "gameId": null,
+      "eco": "B31",
+      "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+      "moves": "e4 c5 Nf3 Nc6 Bb5 g6",
+      "obscurityScore": 90,
+      "white": "Svane, Frederik",
+      "black": "Gukesh, D"
+    },
+    "dadbodShuffler": {
+      "moves": 45,
+      "gameIndex": 43,
+      "gameId": null,
+      "color": "Black",
+      "white": "Narayanan, S",
+      "black": "Yu, Yangyi"
+    },
+    "sportyQueen": {
+      "distance": 151,
+      "gameIndex": 43,
+      "gameId": null,
+      "color": "White",
+      "white": "Narayanan, S",
+      "black": "Yu, Yangyi"
+    },
+    "edgeLord": {
+      "moves": 34,
+      "gameIndex": 43,
+      "gameId": null,
+      "color": "White",
+      "white": "Narayanan, S",
+      "black": "Yu, Yangyi"
+    },
+    "rookLift": {
+      "moveNumber": 11,
+      "gameIndex": 75,
+      "gameId": null,
+      "color": "Black",
+      "rook": "Black's a8 Rook",
+      "square": "a8",
+      "white": "Esipenko, Andrey",
+      "black": "Idani, Pouya"
+    },
+    "centerStage": {
+      "moves": 15,
+      "gameIndex": 45,
+      "gameId": null,
+      "piece": "Black's e7 Queen",
+      "startSquare": "e7",
+      "color": "Black",
+      "white": "Yu, Yangyi",
+      "black": "Narayanan, S"
+    },
+    "darkLord": {
+      "captures": 11,
+      "gameIndex": 32,
+      "gameId": null,
+      "color": "Black",
+      "white": "Ghosh, Diptayan",
+      "black": "Sargissian, Gabriel"
+    },
+    "lightLord": {
+      "captures": 11,
+      "gameIndex": 26,
+      "gameId": null,
+      "color": "Black",
+      "white": "Artemiev, Vladislav",
+      "black": "Vachier-Lagrave, Maxime"
+    },
+    "chickenAward": {
+      "retreats": 32,
+      "gameIndex": 43,
+      "gameId": null,
+      "color": "Black",
+      "white": "Narayanan, S",
+      "black": "Yu, Yangyi"
+    },
+    "slowestCastling": {
+      "moves": 23,
+      "gameIndex": 2,
+      "gameId": null,
+      "color": "white",
+      "white": "Erigaisi, Arjun",
+      "black": "Vokhidov, Shamsiddin"
+    },
+    "pawnCaptures": {
+      "captures": 7,
+      "gameIndex": 10,
+      "gameId": null,
+      "color": "white",
+      "white": "Keymer, Vincent",
+      "black": "Pranesh, M"
+    },
+    "antiOrthogonal": {
+      "moves": 30,
+      "gameIndex": 54,
+      "gameId": null,
+      "color": "black",
+      "white": "Karthik, Venkataraman",
+      "black": "Deac, Bogdan-Daniel"
+    },
+    "comfortZone": {
+      "percentage": 67,
+      "pieceType": "knights",
+      "moves": 2,
+      "totalNonPawnMoves": 3,
+      "gameIndex": 88,
+      "gameId": null,
+      "color": "white",
+      "white": "Dubov, Daniil",
+      "black": "Meier, Georg"
     }
   },
   "dataInfo": {

@@ -187,6 +187,17 @@ function calculateDistance(from, to) {
 function isDarkSquare(square) {
   const file = square.charCodeAt(0) - 'a'.charCodeAt(0);
   const rank = parseInt(square[1]) - 1;
+  return (file + rank) % 2 === 0;
+}
+
+/**
+ * Check if a square is a light square
+ * @param {string} square - Square notation (e.g., 'e4')
+ * @returns {boolean} True if square is light
+ */
+function isLightSquare(square) {
+  const file = square.charCodeAt(0) - 'a'.charCodeAt(0);
+  const rank = parseInt(square[1]) - 1;
   return (file + rank) % 2 === 1;
 }
 
@@ -237,6 +248,7 @@ module.exports = {
   getPlayerRatings,
   calculateDistance,
   isDarkSquare,
+  isLightSquare,
   toFullMoves,
   PIECE_NAMES,
   PIECE_NAMES_LOWERCASE,

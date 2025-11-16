@@ -24,6 +24,7 @@ export interface AwardWithCaptures extends GameReference {
 }
 
 export interface AwardWithMoves extends GameReference {
+  moves?: number;
   endgameMoves?: number;
   openingMoves?: number;
 }
@@ -205,7 +206,10 @@ export interface HeatmapStats {
     visits: number;
     description: string;
   };
-  quietestSquares: Array<any>;
+  quietestSquares: Array<{
+    square: string;
+    visits: number;
+  }>;
   top5Bloodiest: Array<{
     square: string;
     captures: number;
@@ -437,6 +441,14 @@ export interface FunStats {
     black: string;
   } | null;
   darkLord: {
+    captures: number;
+    gameIndex: number;
+    gameId: string | null;
+    color: string;
+    white: string;
+    black: string;
+  } | null;
+  lightLord: {
     captures: number;
     gameIndex: number;
     gameId: string | null;

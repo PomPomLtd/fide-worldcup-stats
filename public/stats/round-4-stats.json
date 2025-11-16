@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-16T20:31:07.206Z",
+  "generatedAt": "2025-11-16T21:18:02.747Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -1258,6 +1258,177 @@
     "upsetArtist": {
       "player": "Lodici, Lorenzo",
       "upsets": 3
+    }
+  },
+  "funStats": {
+    "fastestQueenTrade": {
+      "moves": 7,
+      "gameIndex": 23,
+      "gameId": null,
+      "white": "Maghsoodloo, Parham",
+      "black": "Wei, Yi"
+    },
+    "slowestQueenTrade": {
+      "moves": 72,
+      "gameIndex": 43,
+      "gameId": null,
+      "white": "Lodici, Lorenzo",
+      "black": "Sevian, Samuel"
+    },
+    "longestCaptureSequence": {
+      "length": 9,
+      "gameIndex": 46,
+      "gameId": null,
+      "startMove": 39,
+      "white": "Sevian, Samuel",
+      "black": "Lodici, Lorenzo"
+    },
+    "longestCheckSequence": {
+      "length": 19,
+      "gameIndex": 66,
+      "gameId": null,
+      "startMove": 192,
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi"
+    },
+    "pawnStorm": {
+      "count": 20,
+      "gameIndex": 62,
+      "gameId": null,
+      "white": "Wojtaszek, Radoslaw",
+      "black": "Aronian, Levon"
+    },
+    "pieceLoyalty": null,
+    "squareTourist": {
+      "squares": 27,
+      "gameIndex": 24,
+      "gameId": null,
+      "piece": "Rook",
+      "color": "White",
+      "startSquare": "f1",
+      "white": "Maghsoodloo, Parham",
+      "black": "Wei, Yi"
+    },
+    "castlingRace": {
+      "moves": 4,
+      "gameIndex": 21,
+      "gameId": null,
+      "winner": "white",
+      "white": "Keymer, Vincent",
+      "black": "Esipenko, Andrey"
+    },
+    "openingHipster": {
+      "gameIndex": 57,
+      "gameId": null,
+      "eco": "B31",
+      "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+      "moves": "e4 c5 Nf3 Nc6 Bb5 g6",
+      "obscurityScore": 90,
+      "white": "Shankland, Sam",
+      "black": "Rapport, Richard"
+    },
+    "dadbodShuffler": {
+      "moves": 35,
+      "gameIndex": 66,
+      "gameId": null,
+      "color": "White",
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi"
+    },
+    "sportyQueen": {
+      "distance": 197,
+      "gameIndex": 66,
+      "gameId": null,
+      "color": "Black",
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi"
+    },
+    "edgeLord": {
+      "moves": 35,
+      "gameIndex": 66,
+      "gameId": null,
+      "color": "Black",
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi"
+    },
+    "rookLift": {
+      "moveNumber": 11,
+      "gameIndex": 51,
+      "gameId": null,
+      "color": "Black",
+      "rook": "Black's a8 Rook",
+      "square": "a8",
+      "white": "Liang, Awonder",
+      "black": "Sargissian, Gabriel"
+    },
+    "centerStage": {
+      "moves": 8,
+      "gameIndex": 37,
+      "gameId": null,
+      "piece": "White's d7 Rook",
+      "startSquare": "d7",
+      "color": "White",
+      "white": "Lodici, Lorenzo",
+      "black": "Sevian, Samuel"
+    },
+    "darkLord": {
+      "captures": 9,
+      "gameIndex": 2,
+      "gameId": null,
+      "color": "White",
+      "white": "Svane, Frederik",
+      "black": "Sargsyan, Shant"
+    },
+    "lightLord": {
+      "captures": 9,
+      "gameIndex": 7,
+      "gameId": null,
+      "color": "White",
+      "white": "Erigaisi, Arjun",
+      "black": "Leko, Peter"
+    },
+    "chickenAward": {
+      "retreats": 34,
+      "gameIndex": 66,
+      "gameId": null,
+      "color": "Black",
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi"
+    },
+    "slowestCastling": {
+      "moves": 19,
+      "gameIndex": 44,
+      "gameId": null,
+      "color": "white",
+      "white": "Lodici, Lorenzo",
+      "black": "Sevian, Samuel"
+    },
+    "pawnCaptures": {
+      "captures": 6,
+      "gameIndex": 53,
+      "gameId": null,
+      "color": "white",
+      "white": "Sargissian, Gabriel",
+      "black": "Liang, Awonder"
+    },
+    "antiOrthogonal": {
+      "moves": 44,
+      "gameIndex": 51,
+      "gameId": null,
+      "color": "black",
+      "white": "Liang, Awonder",
+      "black": "Sargissian, Gabriel"
+    },
+    "comfortZone": {
+      "percentage": 62,
+      "pieceType": "queen",
+      "moves": 29,
+      "totalNonPawnMoves": 47,
+      "gameIndex": 25,
+      "gameId": null,
+      "color": "white",
+      "white": "Wei, Yi",
+      "black": "Maghsoodloo, Parham"
     }
   },
   "dataInfo": {

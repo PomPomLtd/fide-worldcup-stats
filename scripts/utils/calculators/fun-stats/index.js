@@ -19,6 +19,7 @@ const { calculateEdgeLord } = require('./edge-lord');
 const { calculateRookLift } = require('./rook-lift');
 const { calculateCenterStage } = require('./center-stage');
 const { calculateDarkLord } = require('./dark-lord');
+const { calculateLightLord } = require('./light-lord');
 const { calculateChickenAward } = require('./chicken-award');
 const { calculateSlowestCastling } = require('./slowest-castling');
 const { calculatePawnCaptures } = require('./pawn-captures');
@@ -56,6 +57,7 @@ function calculateFunStats(games) {
     rookLift: calculateRookLift(gamesWithMoves),
     centerStage: calculateCenterStage(gamesWithMoves),
     darkLord: calculateDarkLord(gamesWithMoves),
+    lightLord: calculateLightLord(gamesWithMoves),
     chickenAward: calculateChickenAward(gamesWithMoves),
     slowestCastling: calculateSlowestCastling(gamesWithMoves),
     pawnCaptures: calculatePawnCaptures(gamesWithMoves),
