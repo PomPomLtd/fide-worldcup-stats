@@ -3,7 +3,10 @@
     "allow": [
       "Bash(for:*)",
       "Bash(done)",
-      "Bash(do grep -c '^\\[Event ' \"$f\")"
+      "Bash(do grep -c '^\\[Event ' \"$f\")",
+      "Bash(npm install)",
+      "Bash(node scripts/consolidate-pgns.js:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []

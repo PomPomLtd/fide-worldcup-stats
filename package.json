@@ -1,0 +1,45 @@
+{
+  "name": "fide-worldcup-stats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Comprehensive statistics platform for the FIDE World Cup 2025",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PomPomLtd/fide-worldcup-stats.git"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "prebuild": "node scripts/generate-build-info.js",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "consolidate": "node scripts/consolidate-pgns.js",
+    "classify": "node scripts/classify-games.js",
+    "enrich": "node scripts/enrich-openings.js",
+    "generate:stats": "node scripts/generate-stats.js",
+    "generate:overview": "node scripts/generate-overview.js",
+    "analyze": "python3 scripts/analyze-pgn.py",
+    "process:round": "npm run consolidate && npm run classify && npm run enrich && npm run generate:stats",
+    "process:all": "npm run process:round && npm run analyze && npm run generate:overview"
+  },
+  "dependencies": {
+    "@mliebelt/pgn-parser": "^1.4.18",
+    "chess.js": "^1.4.0",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "recharts": "^3.2.1",
+    "stockfish": "^17.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
