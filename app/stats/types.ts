@@ -790,6 +790,7 @@ export interface RoundStats {
 export interface Analysis {
   games: Array<{
     gameIndex: number;
+    gameId: string | null;
     white: string;
     black: string;
     whiteACPL: number;
@@ -810,6 +811,8 @@ export interface Analysis {
       good: number;
       excellent: number;
     };
+    whiteEngineMoves: number;
+    blackEngineMoves: number;
     biggestBlunder: {
       moveNumber: number;
       player: string;
@@ -819,6 +822,20 @@ export interface Analysis {
       move: string;
       evalBefore: number;
       evalAfter: number;
+    } | null;
+    biggestComeback: {
+      player: string;
+      swing: number;
+      evalFrom: number;
+      evalTo: number;
+      moveNumber: number;
+    } | null;
+    luckyEscape: {
+      player: string;
+      escapeAmount: number;
+      evalBefore: number;
+      evalAfter: number;
+      moveNumber: number;
     } | null;
   }>;
   summary: {
@@ -894,10 +911,9 @@ export interface Analysis {
     } | null;
     luckyEscape: {
       player: string;
-      blunderSeverity: number;
-      opponentMissedWin: number;
-      blunderMove: string;
-      missedMove: string;
+      escapeAmount: number;
+      evalBefore: number;
+      evalAfter: number;
       moveNumber: number;
       white: string;
       black: string;

@@ -88,8 +88,8 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             player={<PlayerName name={summary.luckyEscape.player === 'white' ? summary.luckyEscape.white : summary.luckyEscape.black} />}
             details={
               <div className="flex flex-col gap-1">
-                <span>Opponent missed: <strong className="text-indigo-900 dark:text-indigo-200">{summary.luckyEscape.opponentMissedWin.toFixed(0)} cp</strong></span>
-                <span className="text-xs">After {summary.luckyEscape.blunderMove}</span>
+                <span>Opponent missed: <strong className="text-indigo-900 dark:text-indigo-200">{summary.luckyEscape.escapeAmount} cp</strong></span>
+                <span className="text-xs">At move {summary.luckyEscape.moveNumber}</span>
               </div>
             }
             colorScheme="indigo"
