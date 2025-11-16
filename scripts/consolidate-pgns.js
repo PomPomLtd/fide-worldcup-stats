@@ -21,6 +21,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { Chess } = require('chess.js');
 
 // Configuration
 const SOURCE_DIR = path.join(__dirname, '../_SRC/cup2025');
@@ -98,25 +99,132 @@ function splitPGNGames(pgnContent) {
 }
 
 /**
- * Parse a single game's headers and basic info
+ * Normalize PGN for chess.js parsing
+ * Removes annotations and FIDE-specific headers that cause parsing issues
+ * @param {string} pgnString - Raw PGN string
+ * @returns {string} Normalized PGN
+ */
+function normalizePGN(pgnString) {
+  // Remove [ePGN "..."] header (not standard, causes issues)
+  let normalized = pgnString.replace(/^\[ePGN\s+"[^"]*"\]\n?/gm, '');
+
+  // Remove all brace comments (clock times, move times, etc.)
+  // Format: {[%clk 01:30:54]} {[%emt 00:00:05]}
+  // Use character-by-character parsing to handle nested braces
+  let result = '';
+  let braceDepth = 0;
+  let inHeader = false;
+
+  for (let i = 0; i < normalized.length; i++) {
+    const char = normalized[i];
+
+    // Track when we're inside PGN headers (don't strip braces from headers)
+    if (char === '[' && braceDepth === 0) {
+      inHeader = true;
+      result += char;
+    } else if (char === ']' && inHeader && braceDepth === 0) {
+      inHeader = false;
+      result += char;
+    } else if (inHeader) {
+      // Inside header - keep everything
+      result += char;
+    } else if (char === '{') {
+      // Start of brace comment
+      braceDepth++;
+    } else if (char === '}' && braceDepth > 0) {
+      // End of brace comment
+      braceDepth--;
+    } else if (braceDepth === 0) {
+      // Not in comment - keep the character
+      result += char;
+    }
+  }
+
+  normalized = result;
+
+  // Ensure blank line between headers and moves
+  const lines = normalized.split('\n');
+  const finalResult = [];
+  let lastHeaderIndex = -1;
+
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].match(/^\[[\w]+\s+"[^"]*"\]/)) {
+      lastHeaderIndex = i;
+    }
+  }
+
+  for (let i = 0; i < lines.length; i++) {
+    finalResult.push(lines[i]);
+    if (i === lastHeaderIndex && i + 1 < lines.length) {
+      const nextLine = lines[i + 1].trim();
+      if (nextLine.match(/^1\.\s/)) {
+        finalResult.push(''); // Add blank line
+      }
+    }
+  }
+
+  return finalResult.join('\n');
+}
+
+/**
+ * Parse a single game's headers, moves, and timing data
  * @param {string} gamePGN - Single game PGN string
- * @returns {Object} Game metadata
+ * @returns {Object} Game metadata with move data
  */
 function parseGameMetadata(gamePGN) {
   const headers = extractPGNHeaders(gamePGN);
+  const chess = new Chess();
+
+  let moveList = [];
+  let moves = '';
+  let moveCount = 0;
+  let pgn = '';
+
+  try {
+    // Normalize and load PGN into chess.js
+    const normalizedPGN = normalizePGN(gamePGN);
+    chess.loadPgn(normalizedPGN);
+
+    // Get move history (verbose for detailed info)
+    moveList = chess.history({ verbose: true });
+    moveCount = moveList.length;
+
+    // Get clean move sequence for opening matching
+    // Format: "e4 e5 Nf3 Nc6 Bb5 a6" (space-separated SAN)
+    moves = moveList.map(m => m.san).join(' ');
+
+    // Get normalized PGN from chess.js (clean, no annotations)
+    pgn = chess.pgn();
+
+  } catch (error) {
+    // If parsing fails, log warning but continue with partial data
+    console.warn(`   ⚠️  Move parsing failed for ${headers.White} vs ${headers.Black}: ${error.message}`);
+  }
 
   return {
+    // Player info
     white: headers.White || 'Unknown',
     black: headers.Black || 'Unknown',
     whiteFideId: headers.WhiteFideId || null,
     blackFideId: headers.BlackFideId || null,
     whiteElo: headers.WhiteElo ? parseInt(headers.WhiteElo, 10) : null,
     blackElo: headers.BlackElo ? parseInt(headers.BlackElo, 10) : null,
+
+    // Game outcome
     result: headers.Result || '*',
     date: headers.Date || null,
     round: headers.Round || null,
     timeControl: headers.TimeControl || null,
     site: headers.Site || 'Goa, India',
+
+    // NEW: Move data
+    moves,                // Clean move sequence for opening matching
+    moveCount,            // Number of moves
+    moveList,             // Full verbose move history from chess.js
+
+    // NEW: PGN data
+    pgn,                  // Normalized PGN from chess.js
+    rawPgn: gamePGN.trim(), // Original PGN with clock times for time analysis
   };
 }
 
@@ -250,12 +358,22 @@ function processRound(roundNum) {
       })),
       totalGames: pairing.games.length,
       gameDetails: pairing.games.map(g => ({
+        // Player info
         white: g.white,
         black: g.black,
         result: g.result,
         date: g.date,
         round: g.round,
         timeControl: g.timeControl,
+
+        // NEW: Move data
+        moves: g.moves || '',
+        moveCount: g.moveCount || 0,
+        moveList: g.moveList || [],
+
+        // NEW: PGN data (includes timing annotations)
+        pgn: g.pgn || '',
+        rawPgn: g.rawPgn || '',
       })),
       dates: [...new Set(pairing.games.map(g => g.date).filter(d => d))],
       site: pairing.games[0].site,

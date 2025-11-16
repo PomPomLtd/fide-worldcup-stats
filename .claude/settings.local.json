@@ -6,7 +6,10 @@
       "Bash(do grep -c '^\\[Event ' \"$f\")",
       "Bash(npm install)",
       "Bash(node scripts/consolidate-pgns.js:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(node:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
