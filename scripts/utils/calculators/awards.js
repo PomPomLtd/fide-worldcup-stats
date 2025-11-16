@@ -30,14 +30,28 @@ function calculateAwards(games, precomputedStats = null) {
     };
   }
 
+  // Filter out forfeits (games with <5 moves) for all awards
+  const realGames = gamesWithMoves.filter((g) => {
+    const moveCount = g.moveCount || (g.moveList || []).length;
+    return moveCount >= 5;
+  });
+
+  if (realGames.length === 0) {
+    return {
+      bloodbath: null,
+      pacifist: null,
+      speedDemon: null,
+      endgameWizard: null,
+      openingSprinter: null,
+    };
+  }
+
   // Use precomputed stats if available, otherwise calculate
   const tactics = precomputedStats?.tactics || calculateTactics(games);
   const checkmates = precomputedStats?.checkmates || calculateCheckmates(games);
 
-  // Only analyze phases if not precomputed
-  const phases = precomputedStats?.phases
-    ? precomputedStats.phases
-    : gamesWithMoves.map((g) => analyzeGamePhases(g.moveList, g.pgn));
+  // Only analyze phases for real games (no forfeits)
+  const phases = realGames.map((g) => analyzeGamePhases(g.moveList, g.pgn));
 
   const longestEndgame = phases.reduce(
     (longest, phase, idx) => {
@@ -54,9 +68,9 @@ function calculateAwards(games, precomputedStats = null) {
     { moves: Infinity, gameIndex: 0 }
   );
 
-  // Get games for awards
-  const endgameGame = gamesWithMoves[longestEndgame.gameIndex];
-  const openingGame = shortestOpening.moves !== Infinity ? gamesWithMoves[shortestOpening.gameIndex] : null;
+  // Get games for awards (from realGames, not gamesWithMoves)
+  const endgameGame = realGames[longestEndgame.gameIndex];
+  const openingGame = shortestOpening.moves !== Infinity ? realGames[shortestOpening.gameIndex] : null;
 
   return {
     bloodbath: tactics.bloodiestGame,
