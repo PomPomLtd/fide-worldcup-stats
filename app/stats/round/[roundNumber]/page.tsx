@@ -387,14 +387,12 @@ export default function RoundPage() {
             {stats.fideFunAwards.rapidFire && (
               <div className="border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 bg-yellow-50 dark:bg-yellow-900/20">
                 <div className="text-sm font-semibold text-yellow-900 dark:text-yellow-300 mb-2">⚡ Rapid Fire</div>
-                <div className="text-gray-900 dark:text-white font-medium">
-                  {formatPlayerName(stats.fideFunAwards.rapidFire.winner)}
+                <div className="text-gray-900 dark:text-white font-medium text-sm">
+                  {formatPlayerName(stats.fideFunAwards.rapidFire.winner)} beat{' '}
+                  {formatPlayerName(stats.fideFunAwards.rapidFire.white === stats.fideFunAwards.rapidFire.winner ? stats.fideFunAwards.rapidFire.black : stats.fideFunAwards.rapidFire.white)}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
-                  {stats.fideFunAwards.rapidFire.moves} moves (rapid)
-                </div>
-                <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-                  vs {formatPlayerName(stats.fideFunAwards.rapidFire.white === stats.fideFunAwards.rapidFire.winner ? stats.fideFunAwards.rapidFire.black : stats.fideFunAwards.rapidFire.white)}
+                  Fastest rapid win: {stats.fideFunAwards.rapidFire.moves} moves
                 </div>
               </div>
             )}

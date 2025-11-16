@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T20:27:04.199Z",
+  "generatedAt": "2025-11-16T20:30:54.056Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -6550,10 +6550,7 @@
       "player": "Yuffa, Daniil",
       "blitzWins": 2
     },
-    "classicalPurist": {
-      "player": "Erdogmus, Yagiz Kaan",
-      "classicalWins": 1
-    },
+    "classicalPurist": null,
     "marathonMaster": {
       "players": "Adly, Ahmed vs Grigoryan, Karen H.",
       "totalGames": 8,

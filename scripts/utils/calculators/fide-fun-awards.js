@@ -142,30 +142,10 @@ function calculateBlitzWizard(matches) {
 }
 
 /**
- * Classical Purist - Won match in classical games without needing tiebreaks
- * @param {Array<Object>} matches - Match objects
- * @returns {Object|null} Award winner
+ * Classical Purist - REMOVED
+ * This award was not meaningful as most matches (74%+) are decided in classical.
+ * Winning in classical is the norm, not an achievement.
  */
-function calculateClassicalPurist(matches) {
-  const classicalWinners = matches
-    .filter((m) => m.outcome?.tiebreakType === 'CLASSICAL')
-    .map((m) => m.outcome.winner)
-    .filter(Boolean);
-
-  if (classicalWinners.length === 0) return null;
-
-  // Count occurrences
-  const counts = {};
-  classicalWinners.forEach((p) => {
-    counts[p] = (counts[p] || 0) + 1;
-  });
-
-  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-  return {
-    player: sorted[0][0],
-    classicalWins: sorted[0][1],
-  };
-}
 
 /**
  * Marathon Master - Longest total match (most plies across all games)
@@ -257,7 +237,7 @@ function calculateFideFunAwards(matches, ratingAnalysis) {
     giantSlayer: calculateGiantSlayer(ratingAnalysis),
     rapidFire: calculateRapidFire(matches),
     blitzWizard: calculateBlitzWizard(matches),
-    classicalPurist: calculateClassicalPurist(matches),
+    classicalPurist: null, // Removed - not meaningful (most matches decided in classical)
     marathonMaster: calculateMarathonMaster(matches),
     fortressBuilder: calculateFortressBuilder(matches),
     upsetArtist: calculateUpsetArtist(ratingAnalysis),
