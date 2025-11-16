@@ -14,6 +14,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 // Calculators
 const { calculateResults } = require('./utils/calculators/results');
@@ -67,6 +68,55 @@ function filterByTimeControl(games, type, tier = null) {
 }
 
 /**
+ * Run Stockfish analysis on all games
+ * @param {Array<Object>} games - Games with PGN data
+ * @param {number} depth - Stockfish search depth
+ * @param {number} sampleRate - Analyze every Nth move (1 = all moves)
+ * @returns {Object|null} Analysis results or null if analysis fails
+ */
+function runStockfishAnalysis(games, depth = 15, sampleRate = 1) {
+  console.log(`\n  Running Stockfish Analysis...`);
+  console.log(`    → Depth: ${depth}, Sample rate: every ${sampleRate} move(s)`);
+  console.log(`    → Analyzing ${games.length} games...`);
+
+  // Extract PGN data
+  const pgnData = games.map(g => g.pgn).filter(p => p).join('\n\n');
+
+  if (!pgnData) {
+    console.log('    ⚠️  No PGN data found, skipping analysis');
+    return null;
+  }
+
+  const pythonPath = path.join(process.cwd(), 'venv', 'bin', 'python3');
+  const scriptPath = path.join(process.cwd(), 'scripts', 'analyze-pgn.py');
+
+  try {
+    const startTime = Date.now();
+    const output = execSync(
+      `${pythonPath} ${scriptPath} --depth ${depth} --sample ${sampleRate}`,
+      {
+        input: pgnData,
+        encoding: 'utf8',
+        maxBuffer: 50 * 1024 * 1024, // 50MB buffer for large outputs
+        cwd: process.cwd(),
+        stdio: ['pipe', 'pipe', 'inherit'] // Show progress on stderr
+      }
+    );
+
+    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    const results = JSON.parse(output);
+
+    console.log(`    ✓ Stockfish analysis complete in ${elapsed}s`);
+    return results;
+
+  } catch (error) {
+    console.error('    ❌ Stockfish analysis failed:', error.message);
+    console.error('    Continuing without analysis data...');
+    return null;
+  }
+}
+
+/**
  * Generate statistics for a set of games
  * @param {Array<Object>} games - Games to analyze
  * @param {Object} options - Generation options
@@ -113,7 +163,7 @@ function generateStatsForGames(games, options = {}) {
  * Generate statistics for a round
  * @param {number} roundNum - Round number
  */
-function generateStatsForRound(roundNum) {
+function generateStatsForRound(roundNum, options = {}) {
   console.log(`\n=== Generating Statistics for Round ${roundNum} ===\n`);
 
   // Read enriched data
@@ -197,6 +247,12 @@ function generateStatsForRound(roundNum) {
   const timeAwards = calculateTimeAwards(allGames);
   console.log('    ✓ Time Awards complete');
 
+  // Stockfish Analysis (optional, if --analyze flag is set)
+  let analysis = null;
+  if (options.analyze) {
+    analysis = runStockfishAnalysis(allGames, options.depth || 15, options.sample || 1);
+  }
+
   // Compile final output
   const statsOutput = {
     // Metadata
@@ -224,6 +280,9 @@ function generateStatsForRound(roundNum) {
 
     // Time Awards (time-based awards)
     timeAwards,
+
+    // Stockfish Analysis (optional)
+    analysis,
 
     // Raw data info
     dataInfo: {
@@ -257,6 +316,15 @@ function generateStatsForRound(roundNum) {
 function main() {
   const args = process.argv.slice(2);
   const roundArg = args.find((arg) => arg.startsWith('--round='));
+  const analyzeFlag = args.includes('--analyze');
+  const depthArg = args.find((arg) => arg.startsWith('--depth='));
+  const sampleArg = args.find((arg) => arg.startsWith('--sample='));
+
+  const options = {
+    analyze: analyzeFlag,
+    depth: depthArg ? parseInt(depthArg.split('=')[1]) : 15,
+    sample: sampleArg ? parseInt(sampleArg.split('=')[1]) : 1
+  };
 
   if (roundArg) {
     const roundNum = parseInt(roundArg.split('=')[1]);
@@ -264,7 +332,7 @@ function main() {
       console.error('❌ Invalid round number');
       process.exit(1);
     }
-    generateStatsForRound(roundNum);
+    generateStatsForRound(roundNum, options);
   } else {
     // Generate for all available rounds
     const enrichedDir = path.join(process.cwd(), 'data', 'enriched');
@@ -290,7 +358,10 @@ function main() {
     }
 
     console.log(`Found ${rounds.length} round(s) to process: ${rounds.join(', ')}`);
-    rounds.forEach((round) => generateStatsForRound(round));
+    if (options.analyze) {
+      console.log(`⚙️  Stockfish analysis enabled (depth: ${options.depth}, sample: every ${options.sample} move)`);
+    }
+    rounds.forEach((round) => generateStatsForRound(round, options));
   }
 
   console.log('\n✅ Statistics generation complete!\n');

@@ -55,3 +55,4 @@ data/enriched/          # Intermediate processed data
 
 # Generated stats files ARE committed for Vercel deployment
 !public/stats/.gitkeep
+venv/
