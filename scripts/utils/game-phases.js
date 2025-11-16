@@ -72,8 +72,14 @@ function detectOpeningEnd(history, pgn) {
   let whiteCastled = false;
   let blackCastled = false;
 
+  // Create chess instance ONCE and replay incrementally
+  const chess = new Chess();
+
   for (let i = 0; i < history.length; i++) {
     const move = history[i];
+
+    // Play this move
+    chess.move(move.san);
 
     // Check for castling
     if (move.color === 'w' && (move.flags.includes('k') || move.flags.includes('q'))) {
@@ -83,12 +89,8 @@ function detectOpeningEnd(history, pgn) {
       blackCastled = true;
     }
 
-    // Replay to current position and check piece count
-    const tempChess = new Chess();
-    for (let j = 0; j <= i; j++) {
-      tempChess.move(history[j].san);
-    }
-    const pieceCount = countMinorMajorPieces(tempChess.board());
+    // Check piece count at current position
+    const pieceCount = countMinorMajorPieces(chess.board());
 
     // Opening ends when: both castled OR move 20 OR piece count ≤ 10
     if ((whiteCastled && blackCastled) || i >= 20 || pieceCount <= 10) {
@@ -112,21 +114,18 @@ function detectOpeningEnd(history, pgn) {
  * @returns {number} Move number when endgame starts
  */
 function detectEndgameStart(history, pgn) {
+  // Replay game ONCE and store piece counts for each position
   const chess = new Chess();
+  const pieceCounts = [];
+
+  for (let i = 0; i < history.length; i++) {
+    chess.move(history[i].san);
+    pieceCounts[i] = countMinorMajorPieces(chess.board());
+  }
 
   // Work backwards from end to find when endgame started
   for (let i = history.length - 1; i >= 0; i--) {
-    // Reset and replay to this position
-    chess.reset();
-    chess.loadPgn(pgn);
-
-    // Remove moves after position i
-    const tempChess = new Chess();
-    for (let j = 0; j <= i; j++) {
-      tempChess.move(history[j].san);
-    }
-
-    const pieceCount = countMinorMajorPieces(tempChess.board());
+    const pieceCount = pieceCounts[i];
 
     // Endgame threshold: 6 or fewer minor/major pieces (Lichess standard)
     if (pieceCount <= 6) {

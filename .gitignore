@@ -53,6 +53,5 @@ data/consolidated/       # Intermediate processed data
 data/classified/         # Intermediate processed data
 data/enriched/          # Intermediate processed data
 
-# Keep only final generated stats
-public/stats/*.json
+# Generated stats files ARE committed for Vercel deployment
 !public/stats/.gitkeep

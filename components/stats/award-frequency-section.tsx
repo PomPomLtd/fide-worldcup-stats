@@ -1,5 +1,5 @@
 import { AwardFrequencyData } from '@/app/stats/overview-types'
-import { StatCard } from '../stat-card'
+import { StatCard } from './stat-card'
 
 interface AwardFrequencySectionProps {
   awardFrequency: AwardFrequencyData

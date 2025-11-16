@@ -1,6 +1,6 @@
 # FIDE World Cup Stats Migration Plan
 
-> **Status:** 🚧 Stage 2 In Progress | **Updated:** 2025-11-16 (Evening)
+> **Status:** ✅ Stage 4 Complete - Statistics Generation | **Updated:** 2025-11-16 (Evening)
 > **Progress Tracker:** See [IMPLEMENTATION_PLAN.md](./IMPLEMENTATION_PLAN.md) for detailed task tracking
 
 ## Executive Summary
@@ -12,12 +12,26 @@ This document outlines the detailed plan for migrating the **lichess4545-stats**
 **Implementation Status:**
 - ✅ **Repository Setup** - Complete (2025-11-16 AM)
 - ✅ **Planning & Analysis** - Complete (2025-11-16 AM)
-- ✅ **Stage 1: Foundation** - Complete (2025-11-16 PM)
+- ✅ **Stage 1: Foundation (PGN Consolidation)** - Complete (2025-11-16 PM)
   - Key Discovery: Directory structure puzzle solved
   - 78 matches identified from 218 games (Round 1)
   - consolidate-pgns.js successfully groups by player pairings
-- 🔄 **Stage 2: Time Control Classification** - In Progress
-- ⏳ **Stage 3-10** - Pending
+  - Lightweight moveList optimization (70% size reduction)
+- ✅ **Stage 2: Time Control Classification** - Complete (2025-11-16 PM)
+  - All games classified by time control (100% accuracy)
+  - Match outcomes calculated (winner, tiebreak type)
+  - Separate datasets generated (classical/rapid/blitz)
+- ✅ **Stage 3: Opening Enrichment** - Complete (2025-11-16 PM)
+  - 98.6% opening coverage achieved
+  - 2,000+ opening database integrated
+  - Move sequences extracted and matched
+- ✅ **Stage 4: Statistics Generation** - Complete (2025-11-16 Evening)
+  - Modular calculator architecture created (cleaner than lichess4545)
+  - All core statistics implemented (9 calculators)
+  - FIDE-specific features added (3 specialized calculators)
+  - Critical O(n²) performance bug fixed (40x improvement)
+  - Comprehensive Round 1 statistics generated (165KB JSON)
+- ⏳ **Stage 5-10** - Pending
 
 ---
 

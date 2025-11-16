@@ -60,7 +60,7 @@ export default function HomePage() {
       <div className="mt-12 p-6 bg-gray-50 dark:bg-gray-900 rounded-lg">
         <h3 className="text-xl font-bold mb-4">About FIDE World Cup 2025</h3>
         <p className="text-gray-700 dark:text-gray-300 mb-4">
-          The FIDE World Cup is a single-elimination knockout tournament featuring 128 of the world's top chess players.
+          The FIDE World Cup is a single-elimination knockout tournament featuring 128 of the world&apos;s top chess players.
           Each match consists of classical games (90+30 time control), with rapid and blitz tiebreaks if needed.
           The tournament is held in Goa, India from November 1-15, 2025.
         </p>

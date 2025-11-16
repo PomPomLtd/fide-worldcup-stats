@@ -67,12 +67,15 @@ function filterByTimeControl(games, type, tier = null) {
 /**
  * Generate statistics for a set of games
  * @param {Array<Object>} games - Games to analyze
+ * @param {Object} options - Generation options
  * @returns {Object} Statistics for these games
  */
-function generateStatsForGames(games) {
+function generateStatsForGames(games, options = {}) {
   if (!games || games.length === 0) {
     return null;
   }
+
+  const { skipGamePhases = false } = options;
 
   // Calculate stats in order, reusing results where possible
   const overview = calculateOverview(games);
@@ -81,7 +84,11 @@ function generateStatsForGames(games) {
   const pieces = calculatePieceStats(games);
   const checkmates = calculateCheckmates(games);
   const heatmap = calculateBoardHeatmap(games);
-  const gamePhases = calculateGamePhases(games);
+
+  // Game phases is VERY slow (replays all games with chess.js)
+  // Skip it for per-time-control stats - only calculate for overall
+  const gamePhases = skipGamePhases ? null : calculateGamePhases(games);
+
   const openings = calculateOpenings(games);
 
   // Pass precomputed stats to awards to avoid recalculation
@@ -145,25 +152,28 @@ function generateStatsForRound(roundNum) {
 
   const byTimeControl = {};
 
+  // Skip game phases for time-control stats (very slow, not that useful broken down)
+  const skipPhases = { skipGamePhases: true };
+
   if (classical.length > 0) {
     console.log('    → Processing classical games...');
-    byTimeControl.classical = generateStatsForGames(classical);
+    byTimeControl.classical = generateStatsForGames(classical, skipPhases);
   }
   if (rapidTier1.length > 0) {
     console.log('    → Processing rapid tier 1 games...');
-    byTimeControl.rapidTier1 = generateStatsForGames(rapidTier1);
+    byTimeControl.rapidTier1 = generateStatsForGames(rapidTier1, skipPhases);
   }
   if (rapidTier2.length > 0) {
     console.log('    → Processing rapid tier 2 games...');
-    byTimeControl.rapidTier2 = generateStatsForGames(rapidTier2);
+    byTimeControl.rapidTier2 = generateStatsForGames(rapidTier2, skipPhases);
   }
   if (blitzTier1.length > 0) {
     console.log('    → Processing blitz tier 1 games...');
-    byTimeControl.blitzTier1 = generateStatsForGames(blitzTier1);
+    byTimeControl.blitzTier1 = generateStatsForGames(blitzTier1, skipPhases);
   }
   if (blitzTier2.length > 0) {
     console.log('    → Processing blitz tier 2 games...');
-    byTimeControl.blitzTier2 = generateStatsForGames(blitzTier2);
+    byTimeControl.blitzTier2 = generateStatsForGames(blitzTier2, skipPhases);
   }
 
   console.log('    ✓ Time control statistics complete');

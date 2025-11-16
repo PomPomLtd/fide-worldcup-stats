@@ -50,10 +50,10 @@ function calculateMatchStats(matches) {
 
     // Count matches by decision type
     if (tiebreakType === 'CLASSICAL') decidedInClassical++;
-    else if (tiebreakType === 'RAPID_TIER1') decidedInRapidTier1++;
-    else if (tiebreakType === 'RAPID_TIER2') decidedInRapidTier2++;
-    else if (tiebreakType === 'BLITZ_TIER1') decidedInBlitzTier1++;
-    else if (tiebreakType === 'BLITZ_TIER2') decidedInBlitzTier2++;
+    else if (tiebreakType === 'RAPID_TIER_1') decidedInRapidTier1++;
+    else if (tiebreakType === 'RAPID_TIER_2') decidedInRapidTier2++;
+    else if (tiebreakType === 'BLITZ_TIER_1') decidedInBlitzTier1++;
+    else if (tiebreakType === 'BLITZ_TIER_2') decidedInBlitzTier2++;
     else if (tiebreakType === 'ARMAGEDDON') decidedInArmageddon++;
 
     // Collect move counts for decisive games in each time control

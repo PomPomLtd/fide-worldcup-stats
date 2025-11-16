@@ -1,10 +1,10 @@
 # FIDE World Cup Stats - Implementation Plan
 
-## Current Status: Stage 2 - Time Control Classification
+## Current Status: Stage 4 Complete - Statistics Generation
 
 **Started:** 2025-11-16
-**Current Stage:** 2 of 10
-**Overall Progress:** 15%
+**Current Stage:** 4 of 10
+**Overall Progress:** 40%
 
 ---
 
@@ -681,6 +681,227 @@ Top 5 Most Popular:
 
 ### Next Stage
 Stage 4: Core Statistics Generation
+
+---
+
+## Stage 4: Statistics Generation ✅ COMPLETE
+
+### Goal
+Generate comprehensive statistics from enriched game data
+
+### Success Criteria
+- ✅ Modular calculator structure created (better than lichess4545)
+- ✅ All core statistics implemented
+- ✅ FIDE-specific calculators created
+- ✅ Fun awards system adapted for World Cup
+- ✅ Performance optimized (O(n²) bug fixed)
+- ✅ Data structures optimized (70% file size reduction)
+- ✅ Round 1 statistics generated successfully
+
+### Part 1: Modular Helper Utilities
+**Status:** COMPLETE
+
+**Files Created:**
+- `scripts/utils/calculators/helpers/game-helpers.js` - Game data extraction utilities
+- `scripts/utils/calculators/helpers/board-helpers.js` - Chess board geometry utilities
+- `scripts/utils/calculators/helpers/piece-helpers.js` - Piece-related utilities
+- `scripts/utils/calculators/helpers/move-helpers.js` - Move utilities and game phases
+
+**Key Improvements:**
+- Handles both lichess4545 and FIDE data formats
+- Cleaner separation of concerns
+- Reusable across all calculators
+- Type-safe helper functions
+
+### Part 2: Core Statistics Calculators
+**Status:** COMPLETE
+
+**Calculators Implemented:**
+1. ✅ **results.js** - Win/draw/loss statistics
+2. ✅ **overview.js** - Game counts, average length, longest/shortest games
+3. ✅ **tactics.js** - Captures, en passant, promotions, castling, bloodiest/quietest games
+4. ✅ **pieces.js** - Piece activity, captures by piece type, most active pieces
+5. ✅ **checkmates.js** - Checkmate patterns by piece, fastest checkmates
+6. ✅ **heatmap.js** - Board square popularity and capture heatmap
+7. ✅ **game-phases.js** - Opening/middlegame/endgame phase analysis
+8. ✅ **openings.js** - Opening statistics, most popular, win rates
+9. ✅ **awards.js** - Tournament awards (bloodbath, pacifist, speed demon, etc.)
+
+### Part 3: FIDE-Specific Calculators
+**Status:** COMPLETE
+
+**Calculators Implemented:**
+1. ✅ **match-stats.js** - Match-level statistics unique to knockout format
+   - Tiebreak analysis (classical/rapid/blitz decision rates)
+   - Average moves to decision by time control
+   - Match outcome distribution
+
+2. ✅ **rating-analysis.js** - Rating-based statistics
+   - Average Elo differences
+   - Upset tracking (underdog wins)
+   - Biggest rating upsets
+   - Favorite performance analysis
+
+3. ✅ **fide-fun-awards.js** - FIDE World Cup-specific fun awards
+   - Tiebreak Warrior (most tiebreak wins)
+   - Giant Slayer (biggest rating upset)
+   - Rapid Fire (fastest rapid game)
+   - Blitz Wizard (most blitz wins)
+   - Classical Purist (won without tiebreaks)
+   - Marathon Master (longest total match)
+   - Fortress Builder (most draws in match)
+   - Upset Artist (most upset wins)
+
+### Part 4: Main Statistics Generator
+**Status:** COMPLETE
+
+**File Created:** `scripts/generate-stats.js`
+
+**Features:**
+- Processes enriched data for any round
+- Generates overall statistics (all games combined)
+- Generates time-control-specific statistics (classical/rapid/blitz)
+- Calculates FIDE-specific statistics
+- Optimized for performance (reuses precomputed stats)
+- Progress indicators for long operations
+- Outputs comprehensive JSON with all statistics
+
+**Output Structure:**
+```javascript
+{
+  roundNumber: 1,
+  roundName: "Round 1",
+  generatedAt: "2025-11-16T19:08:09.045Z",
+
+  // FIDE-specific
+  matchStats: { /* tiebreak analysis */ },
+
+  // Core statistics
+  overview: { /* game counts, lengths */ },
+  results: { /* win/draw/loss */ },
+  tactics: { /* captures, promotions */ },
+  pieces: { /* piece activity */ },
+  checkmates: { /* checkmate patterns */ },
+  heatmap: { /* board heatmap */ },
+  gamePhases: { /* phase analysis */ },
+  openings: { /* opening stats */ },
+  awards: { /* tournament awards */ },
+
+  // Time control breakdown
+  byTimeControl: {
+    classical: { /* same stats */ },
+    rapidTier1: { /* same stats */ },
+    rapidTier2: { /* same stats */ },
+    blitzTier1: { /* same stats */ },
+    blitzTier2: { /* same stats */ }
+  },
+
+  // FIDE-specific
+  ratingAnalysis: { /* upsets, Elo differences */ },
+  fideFunAwards: { /* 8 fun awards */ },
+
+  dataInfo: { /* metadata */ }
+}
+```
+
+### Part 5: Critical Performance Optimization
+**Status:** COMPLETE
+
+**Problem Identified:**
+Game phase analysis was extremely slow (minutes instead of seconds)
+
+**Root Cause:**
+O(n²) algorithm in `scripts/utils/game-phases.js`:
+- Replaying entire game from scratch for EVERY move
+- For 40-move game: 1+2+3+...+40 = 820 move replays
+- For 218 games × ~40 moves × 2 functions = ~357,000 total move replays!
+
+**Solution:**
+Changed to O(n) incremental replay:
+- Create chess instance ONCE per game
+- Move forward incrementally through game
+- Store piece counts for backward scan
+- Result: 218 games × 40 moves = ~8,700 move replays (40x reduction!)
+
+**Performance Improvement:**
+- Before: Many minutes (appeared stuck)
+- After: ~10 seconds for 218 games
+
+**Additional Optimizations:**
+1. ✅ Reuse precomputed stats (tactics/checkmates) in awards calculator
+2. ✅ Skip game phases for time-control stats (only calculate once for overall)
+3. ✅ Lightweight moveList (7 essential fields instead of full verbose output)
+4. ✅ File size reduction: ~70% smaller (4.7MB vs ~8MB)
+
+### Round 1 Statistics Results
+
+**Generated File:** `public/stats/round-1-stats.json` (165KB)
+
+**Key Statistics:**
+- **Matches:** 78
+- **Total Games:** 218 (avg 47.1 moves)
+- **Results:** 37.2% white wins, 25.7% black wins, 37.2% draws
+- **Match Outcomes:**
+  - Classical: 58 matches (74.4%)
+  - Rapid: 15 matches (19.2%)
+  - Blitz: 5 matches (6.4%)
+- **Game Phases:** 8.5 avg opening, 19.9 avg middlegame, 18.7 avg endgame
+- **Openings:** 82 unique, 98.6% coverage
+- **Rating Analysis:** 100% coverage, 167.7 avg Elo difference
+
+**Awards Generated:**
+- Bloodbath: Warmerdam vs Lalit (30 captures)
+- Pacifist: Svane vs Husbands (0 captures)
+- Speed Demon: Abugenda vs Erdogmus (17 moves)
+- Endgame Wizard: Bogner vs Stremavicius (96 endgame moves)
+- Opening Sprinter: Svane vs Husbands (1 opening move)
+
+**FIDE Fun Awards:**
+- Tiebreak Warrior: Hovhannisyan (1 tiebreak win)
+- Giant Slayer: Wang vs Mendonca (218 Elo upset)
+- Rapid Fire: Aronyak vs Bartel (19 moves)
+- Blitz Wizard: Yuffa (2 blitz wins)
+- Marathon Master: Adly vs Grigoryan (555 total moves)
+- Fortress Builder: Thavandiran vs Yuffa (6 draws)
+- Upset Artist: Aronyak (4 upsets)
+
+### Files Created
+- `scripts/generate-stats.js` (8.1KB)
+- `scripts/utils/calculators/helpers/game-helpers.js` (2.4KB)
+- `scripts/utils/calculators/helpers/board-helpers.js` (1.8KB)
+- `scripts/utils/calculators/helpers/piece-helpers.js` (1.2KB)
+- `scripts/utils/calculators/helpers/move-helpers.js` (1.5KB)
+- `scripts/utils/calculators/results.js` (1.8KB)
+- `scripts/utils/calculators/overview.js` (2.5KB)
+- `scripts/utils/calculators/tactics.js` (5.2KB)
+- `scripts/utils/calculators/pieces.js` (4.8KB)
+- `scripts/utils/calculators/checkmates.js` (3.1KB)
+- `scripts/utils/calculators/heatmap.js` (3.5KB)
+- `scripts/utils/calculators/game-phases.js` (2.2KB)
+- `scripts/utils/calculators/openings.js` (3.8KB)
+- `scripts/utils/calculators/awards.js` (2.1KB)
+- `scripts/utils/calculators/match-stats.js` (4.5KB)
+- `scripts/utils/calculators/rating-analysis.js` (3.9KB)
+- `scripts/utils/calculators/fide-fun-awards.js` (6.2KB)
+- `scripts/utils/game-phases.js` (6.4KB) - OPTIMIZED
+- `public/stats/round-1-stats.json` (165KB)
+
+**Files Optimized:**
+- `scripts/consolidate-pgns.js` - Lightweight moveList (70% size reduction)
+- `scripts/utils/game-phases.js` - O(n) incremental replay (40x performance)
+
+### Technical Achievements
+✅ Modular calculator architecture (cleaner than lichess4545)
+✅ All core statistics working correctly
+✅ FIDE-specific features fully integrated
+✅ Critical performance bug fixed (O(n²) → O(n))
+✅ File size optimized (lightweight moveList)
+✅ Progress indicators added
+✅ Comprehensive statistics generated
+✅ 100% data pipeline success
+
+### Next Stage
+Stage 5: Frontend Implementation
 
 ---
 

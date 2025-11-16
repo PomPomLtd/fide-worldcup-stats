@@ -1,5 +1,5 @@
 import { StatCard } from './stat-card'
-import { PlayerVs, PlayerName } from './player-name'
+import { PlayerVs } from './player-name'
 
 interface FunStatsProps {
   funStats?: {
