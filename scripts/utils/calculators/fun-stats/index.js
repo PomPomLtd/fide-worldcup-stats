@@ -25,6 +25,7 @@ const { calculateSlowestCastling } = require('./slowest-castling');
 const { calculatePawnCaptures } = require('./pawn-captures');
 const { calculateAntiOrthogonal } = require('./anti-orthogonal');
 const { calculateComfortZone } = require('./comfort-zone');
+const { calculateTerritoryInvasion } = require('./territory-invasion');
 const { filterGamesWithMoves } = require('../helpers/game-helpers');
 
 /**
@@ -40,6 +41,7 @@ function calculateFunStats(games) {
 
   const queenTrades = calculateQueenTrades(gamesWithMoves);
   const pieceLoyalty = calculatePieceLoyalty(gamesWithMoves);
+  const territoryInvasion = calculateTerritoryInvasion(gamesWithMoves);
 
   const funStats = {
     fastestQueenTrade: queenTrades?.fastest || null,
@@ -63,6 +65,10 @@ function calculateFunStats(games) {
     pawnCaptures: calculatePawnCaptures(gamesWithMoves),
     antiOrthogonal: calculateAntiOrthogonal(gamesWithMoves),
     comfortZone: calculateComfortZone(gamesWithMoves),
+    lateBloomer: territoryInvasion.lateBloomer,
+    quickDraw: territoryInvasion.quickDraw,
+    homebody: territoryInvasion.homebody,
+    deepStrike: territoryInvasion.deepStrike,
   };
 
   return funStats;

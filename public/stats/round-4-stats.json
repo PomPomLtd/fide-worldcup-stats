@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-16T22:24:35.420Z",
+  "generatedAt": "2025-11-16T22:46:02.333Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -1429,6 +1429,34 @@
       "color": "white",
       "white": "Wei, Yi",
       "black": "Maghsoodloo, Parham"
+    },
+    "lateBloomer": {
+      "white": "Sargsyan, Shant",
+      "black": "Svane, Frederik",
+      "player": "Svane, Frederik",
+      "color": "black",
+      "moveNumber": 43
+    },
+    "quickDraw": {
+      "white": "Leko, Peter",
+      "black": "Erigaisi, Arjun",
+      "player": "Leko, Peter",
+      "color": "white",
+      "moveNumber": 4
+    },
+    "homebody": {
+      "white": "Esipenko, Andrey",
+      "black": "Keymer, Vincent",
+      "player": "Keymer, Vincent",
+      "color": "black",
+      "count": 1
+    },
+    "deepStrike": {
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi",
+      "player": "Sindarov, Javokhir",
+      "color": "white",
+      "count": 49
     }
   },
   "timeAwards": {

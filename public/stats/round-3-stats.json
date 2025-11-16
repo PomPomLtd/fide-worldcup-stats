@@ -1,7 +1,7 @@
 {
   "roundNumber": 3,
   "roundName": "Round 3 (Round of 16)",
-  "generatedAt": "2025-11-16T22:24:32.305Z",
+  "generatedAt": "2025-11-16T22:45:59.219Z",
   "matchStats": {
     "totalMatches": 32,
     "decidedInClassical": 0,
@@ -1900,6 +1900,34 @@
       "color": "white",
       "white": "Dubov, Daniil",
       "black": "Meier, Georg"
+    },
+    "lateBloomer": {
+      "white": "Deac, Bogdan-Daniel",
+      "black": "Karthik, Venkataraman",
+      "player": "Deac, Bogdan-Daniel",
+      "color": "white",
+      "moveNumber": 42
+    },
+    "quickDraw": {
+      "white": "Sarana, Alexey",
+      "black": "Van Foreest, Jorden",
+      "player": "Van Foreest, Jorden",
+      "color": "black",
+      "moveNumber": 3
+    },
+    "homebody": {
+      "white": "Sevian, Samuel",
+      "black": "Najer, Evgeniy",
+      "player": "Najer, Evgeniy",
+      "color": "black",
+      "count": 2
+    },
+    "deepStrike": {
+      "white": "Pranav, V",
+      "black": "Stremavicius, Titas",
+      "player": "Stremavicius, Titas",
+      "color": "black",
+      "count": 43
     }
   },
   "timeAwards": {

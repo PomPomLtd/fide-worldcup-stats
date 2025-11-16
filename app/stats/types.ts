@@ -499,6 +499,50 @@ export interface FunStats {
     white: string;
     black: string;
   } | null;
+  lateBloomer: {
+    moveNumber: number;
+    gameIndex: number;
+    gameId: string | null;
+    player: string;
+    color: string;
+    white: string;
+    black: string;
+    whiteElo?: number | null;
+    blackElo?: number | null;
+  } | null;
+  quickDraw: {
+    moveNumber: number;
+    gameIndex: number;
+    gameId: string | null;
+    player: string;
+    color: string;
+    white: string;
+    black: string;
+    whiteElo?: number | null;
+    blackElo?: number | null;
+  } | null;
+  homebody: {
+    count: number;
+    gameIndex: number;
+    gameId: string | null;
+    player: string;
+    color: string;
+    white: string;
+    black: string;
+    whiteElo?: number | null;
+    blackElo?: number | null;
+  } | null;
+  deepStrike: {
+    count: number;
+    gameIndex: number;
+    gameId: string | null;
+    player: string;
+    color: string;
+    white: string;
+    black: string;
+    whiteElo?: number | null;
+    blackElo?: number | null;
+  } | null;
 }
 
 // ============================================================================

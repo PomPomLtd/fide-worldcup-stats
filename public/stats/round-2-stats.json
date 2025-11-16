@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-16T22:24:27.926Z",
+  "generatedAt": "2025-11-16T22:45:54.805Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 0,
@@ -4740,6 +4740,34 @@
       "color": "black",
       "white": "Martinez Alcantara, Jose Eduardo",
       "black": "Ivic, Velimir"
+    },
+    "lateBloomer": {
+      "white": "Motylev, Alexander",
+      "black": "Maghsoodloo, Parham",
+      "player": "Motylev, Alexander",
+      "color": "white",
+      "moveNumber": 82
+    },
+    "quickDraw": {
+      "white": "Maksimovic, Bojan",
+      "black": "Giri, Anish",
+      "player": "Maksimovic, Bojan",
+      "color": "white",
+      "moveNumber": 2
+    },
+    "homebody": {
+      "white": "Yu, Yangyi",
+      "black": "Blohberger, Felix",
+      "player": "Yu, Yangyi",
+      "color": "white",
+      "count": 1
+    },
+    "deepStrike": {
+      "white": "Yu, Yangyi",
+      "black": "Blohberger, Felix",
+      "player": "Yu, Yangyi",
+      "color": "white",
+      "count": 45
     }
   },
   "timeAwards": {

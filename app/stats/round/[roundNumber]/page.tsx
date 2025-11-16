@@ -726,6 +726,55 @@ export default function RoundPage() {
                   </div>
                 </div>
               )}
+
+              {/* Territory Invasion Awards */}
+              {stats.funStats.lateBloomer && (
+                <div className="border border-orange-200 dark:border-orange-700 rounded-lg p-4 bg-orange-50 dark:bg-orange-900/20">
+                  <div className="text-sm font-semibold text-orange-900 dark:text-orange-300 mb-2">🌱 Late Bloomer</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerName(stats.funStats.lateBloomer.player)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    Waited until move {Math.floor(stats.funStats.lateBloomer.moveNumber / 2) + 1} to cross into enemy territory
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.quickDraw && (
+                <div className="border border-red-200 dark:border-red-700 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
+                  <div className="text-sm font-semibold text-red-900 dark:text-red-300 mb-2">🔫 Quick Draw</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerName(stats.funStats.quickDraw.player)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    Invaded enemy territory on move {Math.floor(stats.funStats.quickDraw.moveNumber / 2) + 1}
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.homebody && (
+                <div className="border border-blue-200 dark:border-blue-700 rounded-lg p-4 bg-blue-50 dark:bg-blue-900/20">
+                  <div className="text-sm font-semibold text-blue-900 dark:text-blue-300 mb-2">🏠 Homebody</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerName(stats.funStats.homebody.player)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    Only {stats.funStats.homebody.count} {stats.funStats.homebody.count === 1 ? 'piece' : 'pieces'} crossed into enemy territory
+                  </div>
+                </div>
+              )}
+
+              {stats.funStats.deepStrike && (
+                <div className="border border-purple-200 dark:border-purple-700 rounded-lg p-4 bg-purple-50 dark:bg-purple-900/20">
+                  <div className="text-sm font-semibold text-purple-900 dark:text-purple-300 mb-2">⚔️ Deep Strike</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {formatPlayerName(stats.funStats.deepStrike.player)}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.deepStrike.count} {stats.funStats.deepStrike.count === 1 ? 'piece' : 'pieces'} crossed into enemy territory
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         )}

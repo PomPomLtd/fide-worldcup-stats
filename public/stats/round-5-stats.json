@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Semi-finals)",
-  "generatedAt": "2025-11-16T22:24:36.673Z",
+  "generatedAt": "2025-11-16T22:46:03.588Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 0,
@@ -1072,6 +1072,34 @@
       "color": "black",
       "white": "Harikrishna, Pentala",
       "black": "Martinez Alcantara, Jose Eduardo"
+    },
+    "lateBloomer": {
+      "white": "Grebnev, Aleksey",
+      "black": "Esipenko, Andrey",
+      "player": "Esipenko, Andrey",
+      "color": "black",
+      "moveNumber": 77
+    },
+    "quickDraw": {
+      "white": "Grebnev, Aleksey",
+      "black": "Esipenko, Andrey",
+      "player": "Esipenko, Andrey",
+      "color": "black",
+      "moveNumber": 3
+    },
+    "homebody": {
+      "white": "Grebnev, Aleksey",
+      "black": "Esipenko, Andrey",
+      "player": "Grebnev, Aleksey",
+      "color": "white",
+      "count": 1
+    },
+    "deepStrike": {
+      "white": "Grebnev, Aleksey",
+      "black": "Esipenko, Andrey",
+      "player": "Grebnev, Aleksey",
+      "color": "white",
+      "count": 34
     }
   },
   "timeAwards": {

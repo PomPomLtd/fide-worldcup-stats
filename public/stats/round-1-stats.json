@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T22:24:16.426Z",
+  "generatedAt": "2025-11-16T22:45:43.278Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -6736,6 +6736,34 @@
       "color": "white",
       "white": "Amin, Bassem",
       "black": "Mandizha, Farai"
+    },
+    "lateBloomer": {
+      "white": "Kourkoulos-Arditis, Stamatis",
+      "black": "Divya, Deshmukh",
+      "player": "Divya, Deshmukh",
+      "color": "black",
+      "moveNumber": 69
+    },
+    "quickDraw": {
+      "white": "Thavandiran, Shiyam",
+      "black": "Yuffa, Daniil",
+      "player": "Thavandiran, Shiyam",
+      "color": "white",
+      "moveNumber": 2
+    },
+    "homebody": {
+      "white": "Amdouni, Zoubaier",
+      "black": "Gledura, Benjamin",
+      "player": "Amdouni, Zoubaier",
+      "color": "white",
+      "count": 1
+    },
+    "deepStrike": {
+      "white": "Adly, Ahmed",
+      "black": "Grigoryan, Karen H.",
+      "player": "Adly, Ahmed",
+      "color": "white",
+      "count": 44
     }
   },
   "timeAwards": {
