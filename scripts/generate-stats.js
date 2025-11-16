@@ -1,0 +1,271 @@
+#!/usr/bin/env node
+
+/**
+ * Generate Statistics
+ *
+ * Main statistics generation script for FIDE World Cup.
+ * Reads enriched data and generates comprehensive statistics for each round.
+ *
+ * Usage:
+ *   node scripts/generate-stats.js [--round=N]
+ *   npm run stats:round1
+ *   npm run stats:all
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+// Calculators
+const { calculateResults } = require('./utils/calculators/results');
+const { calculateOverview } = require('./utils/calculators/overview');
+const { calculateTactics } = require('./utils/calculators/tactics');
+const { calculatePieceStats } = require('./utils/calculators/pieces');
+const { calculateCheckmates } = require('./utils/calculators/checkmates');
+const { calculateBoardHeatmap } = require('./utils/calculators/heatmap');
+const { calculateGamePhases } = require('./utils/calculators/game-phases');
+const { calculateOpenings } = require('./utils/calculators/openings');
+const { calculateAwards } = require('./utils/calculators/awards');
+
+// FIDE-specific calculators
+const { calculateMatchStats } = require('./utils/calculators/match-stats');
+const { calculateRatingAnalysis } = require('./utils/calculators/rating-analysis');
+const { calculateFideFunAwards } = require('./utils/calculators/fide-fun-awards');
+
+/**
+ * Extract all games from matches
+ * @param {Array<Object>} matches - Match objects
+ * @returns {Array<Object>} Flat array of all games
+ */
+function extractGamesFromMatches(matches) {
+  const games = [];
+  matches.forEach((match) => {
+    const gameDetails = match.gameDetails || [];
+    gameDetails.forEach((game) => {
+      games.push(game);
+    });
+  });
+  return games;
+}
+
+/**
+ * Filter games by time control type
+ * @param {Array<Object>} games - All games
+ * @param {string} type - Time control type (CLASSICAL, RAPID, BLITZ)
+ * @param {number|null} tier - Tier number (for rapid/blitz)
+ * @returns {Array<Object>} Filtered games
+ */
+function filterByTimeControl(games, type, tier = null) {
+  return games.filter((game) => {
+    const classification = game.classification || {};
+    if (tier !== null) {
+      return classification.type === type && classification.tier === tier;
+    }
+    return classification.type === type;
+  });
+}
+
+/**
+ * Generate statistics for a set of games
+ * @param {Array<Object>} games - Games to analyze
+ * @returns {Object} Statistics for these games
+ */
+function generateStatsForGames(games) {
+  if (!games || games.length === 0) {
+    return null;
+  }
+
+  // Calculate stats in order, reusing results where possible
+  const overview = calculateOverview(games);
+  const results = calculateResults(games);
+  const tactics = calculateTactics(games);
+  const pieces = calculatePieceStats(games);
+  const checkmates = calculateCheckmates(games);
+  const heatmap = calculateBoardHeatmap(games);
+  const gamePhases = calculateGamePhases(games);
+  const openings = calculateOpenings(games);
+
+  // Pass precomputed stats to awards to avoid recalculation
+  const awards = calculateAwards(games, { tactics, checkmates });
+
+  return {
+    overview,
+    results,
+    tactics,
+    pieces,
+    checkmates,
+    heatmap,
+    gamePhases,
+    openings,
+    awards,
+  };
+}
+
+/**
+ * Generate statistics for a round
+ * @param {number} roundNum - Round number
+ */
+function generateStatsForRound(roundNum) {
+  console.log(`\n=== Generating Statistics for Round ${roundNum} ===\n`);
+
+  // Read enriched data
+  const enrichedPath = path.join(process.cwd(), 'data', 'enriched', `round-${roundNum}-enriched.json`);
+
+  if (!fs.existsSync(enrichedPath)) {
+    console.error(`❌ Enriched data not found: ${enrichedPath}`);
+    console.error('   Run Stage 3 (opening enrichment) first!');
+    process.exit(1);
+  }
+
+  const enrichedData = JSON.parse(fs.readFileSync(enrichedPath, 'utf-8'));
+  console.log(`✓ Loaded enriched data: ${enrichedData.totalGames} games in ${enrichedData.totalMatches} matches`);
+
+  // Extract all games from matches
+  const allGames = extractGamesFromMatches(enrichedData.matches);
+  console.log(`✓ Extracted ${allGames.length} games`);
+
+  // Overall statistics (all games)
+  console.log('\n  Calculating overall statistics...');
+  console.log('    → Overview, results, tactics...');
+  const overallStats = generateStatsForGames(allGames);
+  console.log('    ✓ Overall statistics complete');
+
+  // Statistics by time control
+  console.log('\n  Calculating time-control-specific statistics...');
+  const classical = filterByTimeControl(allGames, 'CLASSICAL');
+  const rapidTier1 = filterByTimeControl(allGames, 'RAPID', 1);
+  const rapidTier2 = filterByTimeControl(allGames, 'RAPID', 2);
+  const blitzTier1 = filterByTimeControl(allGames, 'BLITZ', 1);
+  const blitzTier2 = filterByTimeControl(allGames, 'BLITZ', 2);
+
+  console.log(`    - Classical: ${classical.length} games`);
+  console.log(`    - Rapid Tier 1: ${rapidTier1.length} games`);
+  console.log(`    - Rapid Tier 2: ${rapidTier2.length} games`);
+  console.log(`    - Blitz Tier 1: ${blitzTier1.length} games`);
+  console.log(`    - Blitz Tier 2: ${blitzTier2.length} games`);
+
+  const byTimeControl = {};
+
+  if (classical.length > 0) {
+    console.log('    → Processing classical games...');
+    byTimeControl.classical = generateStatsForGames(classical);
+  }
+  if (rapidTier1.length > 0) {
+    console.log('    → Processing rapid tier 1 games...');
+    byTimeControl.rapidTier1 = generateStatsForGames(rapidTier1);
+  }
+  if (rapidTier2.length > 0) {
+    console.log('    → Processing rapid tier 2 games...');
+    byTimeControl.rapidTier2 = generateStatsForGames(rapidTier2);
+  }
+  if (blitzTier1.length > 0) {
+    console.log('    → Processing blitz tier 1 games...');
+    byTimeControl.blitzTier1 = generateStatsForGames(blitzTier1);
+  }
+  if (blitzTier2.length > 0) {
+    console.log('    → Processing blitz tier 2 games...');
+    byTimeControl.blitzTier2 = generateStatsForGames(blitzTier2);
+  }
+
+  console.log('    ✓ Time control statistics complete');
+
+  // FIDE-specific statistics
+  console.log('\n  Calculating FIDE-specific statistics...');
+  const matchStats = calculateMatchStats(enrichedData.matches);
+  const ratingAnalysis = calculateRatingAnalysis(enrichedData.matches);
+  const fideFunAwards = calculateFideFunAwards(enrichedData.matches, ratingAnalysis);
+  console.log('    ✓ FIDE-specific statistics complete');
+
+  // Compile final output
+  const statsOutput = {
+    // Metadata
+    roundNumber: roundNum,
+    roundName: enrichedData.roundName || `Round ${roundNum}`,
+    generatedAt: new Date().toISOString(),
+
+    // Match-level stats (FIDE-specific)
+    matchStats,
+
+    // Overall stats (all games combined)
+    ...overallStats,
+
+    // Time control breakdown
+    byTimeControl,
+
+    // Rating analysis (FIDE-specific)
+    ratingAnalysis,
+
+    // FIDE fun awards
+    fideFunAwards,
+
+    // Raw data info
+    dataInfo: {
+      totalMatches: enrichedData.totalMatches,
+      totalGames: enrichedData.totalGames,
+      openingCoverage: enrichedData.openingStats?.coverageRate || 0,
+    },
+  };
+
+  // Write output
+  const outputDir = path.join(process.cwd(), 'public', 'stats');
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  const outputPath = path.join(outputDir, `round-${roundNum}-stats.json`);
+  fs.writeFileSync(outputPath, JSON.stringify(statsOutput, null, 2));
+
+  const sizeKB = (fs.statSync(outputPath).size / 1024).toFixed(1);
+  console.log(`\n✓ Statistics generated: ${outputPath}`);
+  console.log(`  File size: ${sizeKB} KB`);
+  console.log(`  Matches: ${matchStats.totalMatches}`);
+  console.log(`  Games: ${overallStats.overview.totalGames}`);
+  console.log(`  Unique openings: ${overallStats.openings.totalUnique}`);
+  console.log(`  Opening coverage: ${overallStats.openings.coverage}%`);
+}
+
+/**
+ * Main execution
+ */
+function main() {
+  const args = process.argv.slice(2);
+  const roundArg = args.find((arg) => arg.startsWith('--round='));
+
+  if (roundArg) {
+    const roundNum = parseInt(roundArg.split('=')[1]);
+    if (isNaN(roundNum)) {
+      console.error('❌ Invalid round number');
+      process.exit(1);
+    }
+    generateStatsForRound(roundNum);
+  } else {
+    // Generate for all available rounds
+    const enrichedDir = path.join(process.cwd(), 'data', 'enriched');
+    if (!fs.existsSync(enrichedDir)) {
+      console.error('❌ Enriched data directory not found');
+      console.error('   Run Stage 3 (opening enrichment) first!');
+      process.exit(1);
+    }
+
+    const files = fs.readdirSync(enrichedDir).filter((f) => f.endsWith('-enriched.json'));
+    const rounds = files
+      .map((f) => {
+        const match = f.match(/round-(\d+)-enriched\.json/);
+        return match ? parseInt(match[1]) : null;
+      })
+      .filter((r) => r !== null)
+      .sort((a, b) => a - b);
+
+    if (rounds.length === 0) {
+      console.error('❌ No enriched data found');
+      console.error('   Run Stage 3 (opening enrichment) first!');
+      process.exit(1);
+    }
+
+    console.log(`Found ${rounds.length} round(s) to process: ${rounds.join(', ')}`);
+    rounds.forEach((round) => generateStatsForRound(round));
+  }
+
+  console.log('\n✅ Statistics generation complete!\n');
+}
+
+main();

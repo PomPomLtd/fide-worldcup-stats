@@ -1,60 +1,79 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Overview Statistics Calculator
  *
  * Calculates basic game overview stats: total games, total moves,
  * average game length, longest/shortest games.
+ * Handles both lichess4545-style and FIDE-style game data.
  */
 
-const { getPlayerNames, toFullMoves } = require('./helpers');
+const { filterGamesWithMoves, getPlayerNames, getMoveCount, getGameId, getResult } = require('./helpers/game-helpers');
+const { toFullMoves } = require('./helpers/move-helpers');
 
 /**
  * Calculate overview statistics
- * Note: chess.js history.length gives us half-moves (plies), so we divide by 2 for full moves
+ * Note: chess.js history.length gives us half-moves (plies)
  * Note: Games with 0 moves (forfeits with no play) are excluded from move statistics
  *
- * @param {Array} games - Array of parsed game objects
+ * @param {Array<Object>} games - Array of game objects
  * @returns {Object} Overview statistics
  */
 function calculateOverview(games) {
+  if (!games || games.length === 0) {
+    return {
+      totalGames: 0,
+      totalMoves: 0,
+      averageGameLength: 0,
+      longestGame: null,
+      shortestGame: null,
+    };
+  }
+
   // Filter out games with no moves for statistics that require moves
-  const gamesWithMoves = games.filter(g => g.moves > 0);
+  const gamesWithMoves = filterGamesWithMoves(games);
 
-  const totalMoves = gamesWithMoves.reduce((sum, g) => sum + g.moves, 0);
+  if (gamesWithMoves.length === 0) {
+    return {
+      totalGames: games.length,
+      totalMoves: 0,
+      averageGameLength: 0,
+      longestGame: null,
+      shortestGame: null,
+    };
+  }
 
-  const longestGame = gamesWithMoves.reduce((longest, game, idx) => {
-    return game.moves > longest.moves ? { moves: game.moves, gameIndex: idx, game } : longest;
-  }, { moves: 0, gameIndex: 0, game: null });
+  const totalMoves = gamesWithMoves.reduce((sum, g) => sum + getMoveCount(g), 0);
 
-  const shortestGame = gamesWithMoves.reduce((shortest, game, idx) => {
-    return game.moves < shortest.moves ? { moves: game.moves, gameIndex: idx, game } : shortest;
-  }, { moves: Infinity, gameIndex: 0, game: null });
+  const longestGame = gamesWithMoves.reduce((longest, game) => {
+    const moves = getMoveCount(game);
+    return moves > longest.moves ? { moves, game } : longest;
+  }, { moves: 0, game: null });
+
+  const shortestGame = gamesWithMoves.reduce((shortest, game) => {
+    const moves = getMoveCount(game);
+    return moves < shortest.moves ? { moves, game } : shortest;
+  }, { moves: Infinity, game: null });
 
   const longestPlayers = getPlayerNames(longestGame.game);
   const shortestPlayers = getPlayerNames(shortestGame.game);
 
-  // Extract gameIds
-  const longestGameId = longestGame.game.headers?.GameId || longestGame.game.headers?.Site?.split('/').pop() || null;
-  const shortestGameId = shortestGame.game.headers?.GameId || shortestGame.game.headers?.Site?.split('/').pop() || null;
-
   return {
     totalGames: games.length, // Count all games including forfeits
     totalMoves,
-    averageGameLength: gamesWithMoves.length > 0 ? totalMoves / gamesWithMoves.length / 2 : 0, // Divide by 2 for full moves
+    averageGameLength: parseFloat((totalMoves / gamesWithMoves.length / 2).toFixed(1)), // Divide by 2 for full moves
     longestGame: {
       moves: toFullMoves(longestGame.moves),
       white: longestPlayers.white,
       black: longestPlayers.black,
-      result: longestGame.game.result,
-      gameId: longestGameId
+      result: getResult(longestGame.game),
+      gameId: getGameId(longestGame.game),
     },
     shortestGame: {
       moves: toFullMoves(shortestGame.moves),
       white: shortestPlayers.white,
       black: shortestPlayers.black,
-      result: shortestGame.game.result,
-      gameId: shortestGameId
-    }
+      result: getResult(shortestGame.game),
+      gameId: getGameId(shortestGame.game),
+    },
   };
 }
 

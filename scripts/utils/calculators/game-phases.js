@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Game Phases Calculator
  *
@@ -7,62 +6,77 @@
  */
 
 const { analyzeGamePhases, getPhaseStatistics } = require('../game-phases');
-const { getPlayerNames, toFullMoves, filterGamesWithMoves } = require('./helpers');
+const { filterGamesWithMoves, getPlayerNames, getGameId } = require('./helpers/game-helpers');
+const { toFullMoves } = require('./helpers/move-helpers');
 
 /**
  * Calculate game phase statistics
  * Note: Phase lengths are in half-moves, so we divide by 2 for full moves
- * @param {Array} games - Array of parsed game objects
+ * @param {Array<Object>} games - Array of game objects
  * @returns {Object} Phase statistics including averages and longest phases
  */
 function calculateGamePhases(games) {
   const gamesWithMoves = filterGamesWithMoves(games);
 
-  const allPhases = gamesWithMoves.map(g => analyzeGamePhases(g.moveList, g.pgn));
+  if (gamesWithMoves.length === 0) {
+    return {
+      averageOpening: 0,
+      averageMiddlegame: 0,
+      averageEndgame: 0,
+      longestWaitTillCapture: null,
+      longestMiddlegame: null,
+      longestEndgame: null,
+    };
+  }
+
+  // Analyze phases with progress indicator
+  const allPhases = gamesWithMoves.map((g, idx) => {
+    if ((idx + 1) % 50 === 0 || idx === 0 || idx === gamesWithMoves.length - 1) {
+      process.stdout.write(`\r      Analyzing game phases: ${idx + 1}/${gamesWithMoves.length} games...`);
+    }
+    return analyzeGamePhases(g.moveList, g.pgn);
+  });
+  if (gamesWithMoves.length > 0) {
+    process.stdout.write('\n');
+  }
+
   const phaseStats = getPhaseStatistics(allPhases);
 
   // Find longest wait until first capture
   let longestWaitTillCapture = { moves: 0, gameIndex: 0 };
   gamesWithMoves.forEach((game, idx) => {
-    const firstCaptureIndex = game.moveList.findIndex(move => move.captured);
-    const movesBeforeCapture = firstCaptureIndex === -1 ? game.moveList.length : firstCaptureIndex;
+    const moveList = game.moveList || [];
+    const firstCaptureIndex = moveList.findIndex((move) => move.captured);
+    const movesBeforeCapture = firstCaptureIndex === -1 ? moveList.length : firstCaptureIndex;
     if (movesBeforeCapture > longestWaitTillCapture.moves) {
       longestWaitTillCapture = { moves: movesBeforeCapture, gameIndex: idx };
     }
   });
 
-  // Extract gameIds
+  // Get games for longest stats
   const waitGame = gamesWithMoves[longestWaitTillCapture.gameIndex];
-  const waitGameId = waitGame.headers?.GameId || waitGame.headers?.Site?.split('/').pop() || null;
-
   const middleGame = gamesWithMoves[phaseStats.longestMiddlegame.gameIndex];
-  const middleGameId = middleGame.headers?.GameId || middleGame.headers?.Site?.split('/').pop() || null;
-
   const endGame = gamesWithMoves[phaseStats.longestEndgame.gameIndex];
-  const endGameId = endGame.headers?.GameId || endGame.headers?.Site?.split('/').pop() || null;
 
   return {
-    averageOpening: phaseStats.averageOpening / 2,
-    averageMiddlegame: phaseStats.averageMiddlegame / 2,
-    averageEndgame: phaseStats.averageEndgame / 2,
+    averageOpening: parseFloat((phaseStats.averageOpening / 2).toFixed(1)),
+    averageMiddlegame: parseFloat((phaseStats.averageMiddlegame / 2).toFixed(1)),
+    averageEndgame: parseFloat((phaseStats.averageEndgame / 2).toFixed(1)),
     longestWaitTillCapture: {
       moves: toFullMoves(longestWaitTillCapture.moves),
       ...getPlayerNames(waitGame),
-      game: `${waitGame.headers.White} vs ${waitGame.headers.Black}`,
-      gameId: waitGameId
+      gameId: getGameId(waitGame),
     },
     longestMiddlegame: {
       moves: toFullMoves(phaseStats.longestMiddlegame.moves),
       ...getPlayerNames(middleGame),
-      game: `${middleGame.headers.White} vs ${middleGame.headers.Black}`,
-      gameId: middleGameId
+      gameId: getGameId(middleGame),
     },
     longestEndgame: {
       moves: toFullMoves(phaseStats.longestEndgame.moves),
       ...getPlayerNames(endGame),
-      game: `${endGame.headers.White} vs ${endGame.headers.Black}`,
-      gameId: endGameId
-    }
+      gameId: getGameId(endGame),
+    },
   };
 }
 

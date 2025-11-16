@@ -186,12 +186,24 @@ function parseGameMetadata(gamePGN) {
     chess.loadPgn(normalizedPGN);
 
     // Get move history (verbose for detailed info)
-    moveList = chess.history({ verbose: true });
-    moveCount = moveList.length;
+    const verboseMoves = chess.history({ verbose: true });
+    moveCount = verboseMoves.length;
 
     // Get clean move sequence for opening matching
     // Format: "e4 e5 Nf3 Nc6 Bb5 a6" (space-separated SAN)
-    moves = moveList.map(m => m.san).join(' ');
+    moves = verboseMoves.map(m => m.san).join(' ');
+
+    // Create lightweight moveList (only fields we actually use)
+    // This reduces JSON size by ~70% compared to full verbose output
+    moveList = verboseMoves.map(m => ({
+      piece: m.piece,
+      captured: m.captured,
+      promotion: m.promotion,
+      flags: m.flags,
+      san: m.san,
+      to: m.to,
+      color: m.color,
+    }));
 
     // Get normalized PGN from chess.js (clean, no annotations)
     pgn = chess.pgn();

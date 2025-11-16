@@ -18,8 +18,11 @@
     "enrich": "node scripts/enrich-openings.js",
     "generate:stats": "node scripts/generate-stats.js",
     "generate:overview": "node scripts/generate-overview.js",
+    "stats:round1": "node scripts/generate-stats.js --round=1",
+    "stats:all": "node scripts/generate-stats.js",
     "analyze": "python3 scripts/analyze-pgn.py",
     "process:round": "npm run consolidate && npm run classify && npm run enrich && npm run generate:stats",
+    "process:round1": "npm run consolidate && npm run classify && npm run enrich && npm run stats:round1",
     "process:all": "npm run process:round && npm run analyze && npm run generate:overview"
   },
   "dependencies": {

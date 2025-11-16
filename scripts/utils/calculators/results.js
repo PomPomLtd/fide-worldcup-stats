@@ -1,36 +1,57 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Results Calculator
  *
  * Calculates win/loss/draw statistics and percentages.
+ * Handles both lichess4545-style and FIDE-style game data.
  */
+
+const { isWhiteWin, isBlackWin, isDraw } = require('./helpers/game-helpers');
 
 /**
  * Calculate win/loss/draw statistics
- * @param {Array} games - Array of parsed game objects
+ * @param {Array<Object>} games - Array of game objects
  * @returns {Object} Results statistics with counts and percentages
  */
 function calculateResults(games) {
+  if (!games || games.length === 0) {
+    return {
+      totalGames: 0,
+      whiteWins: 0,
+      blackWins: 0,
+      draws: 0,
+      whiteWinPercentage: 0,
+      blackWinPercentage: 0,
+      drawPercentage: 0,
+      decisivePercentage: 0,
+    };
+  }
+
   let whiteWins = 0;
   let blackWins = 0;
   let draws = 0;
 
-  games.forEach(game => {
-    const result = game.result;
-    if (result === '1-0') whiteWins++;
-    else if (result === '0-1') blackWins++;
-    else if (result === '1/2-1/2') draws++;
+  games.forEach((game) => {
+    if (isWhiteWin(game)) {
+      whiteWins++;
+    } else if (isBlackWin(game)) {
+      blackWins++;
+    } else if (isDraw(game)) {
+      draws++;
+    }
   });
 
   const total = games.length;
+  const decisive = whiteWins + blackWins;
 
   return {
+    totalGames: total,
     whiteWins,
     blackWins,
     draws,
-    whiteWinPercentage: (whiteWins / total) * 100,
-    blackWinPercentage: (blackWins / total) * 100,
-    drawPercentage: (draws / total) * 100
+    whiteWinPercentage: parseFloat(((whiteWins / total) * 100).toFixed(1)),
+    blackWinPercentage: parseFloat(((blackWins / total) * 100).toFixed(1)),
+    drawPercentage: parseFloat(((draws / total) * 100).toFixed(1)),
+    decisivePercentage: parseFloat(((decisive / total) * 100).toFixed(1)),
   };
 }
 

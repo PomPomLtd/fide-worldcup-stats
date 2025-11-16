@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Checkmates Calculator
  *
@@ -6,59 +5,97 @@
  * and tracks the fastest checkmate in the round.
  */
 
-const { getPlayerNames, filterGamesWithMoves } = require('./helpers');
+const { filterGamesWithMoves, getPlayerNames, getGameId, getResult } = require('./helpers/game-helpers');
+const { isCheckmate, getMoveNumber } = require('./helpers/move-helpers');
+const { getPieceName } = require('./helpers/piece-helpers');
 
 /**
- * Map chess.js piece codes to full names
- * Note: King is excluded as it cannot deliver checkmate
+ * Find checkmates in a game
+ * @param {Object} game - Game object with moveList
+ * @returns {Array} Array of checkmate objects
  */
-const PIECE_MAP = {
-  'q': 'queen',
-  'r': 'rook',
-  'b': 'bishop',
-  'n': 'knight',
-  'p': 'pawn'
-};
+function findCheckmates(game) {
+  // If pre-computed, use it
+  if (game.specialMoves?.checkmates) {
+    return game.specialMoves.checkmates;
+  }
+
+  const moveList = game.moveList || [];
+  const checkmates = [];
+
+  moveList.forEach((move, idx) => {
+    if (isCheckmate(move.san)) {
+      checkmates.push({
+        piece: move.piece,
+        moveNumber: getMoveNumber(idx, true),
+        color: move.color,
+        san: move.san,
+      });
+    }
+  });
+
+  return checkmates;
+}
 
 /**
  * Calculate checkmate statistics
- * @param {Array} games - Array of parsed game objects
+ * @param {Array<Object>} games - Array of game objects
  * @returns {Object} Checkmate statistics including by piece and fastest mate
  */
 function calculateCheckmates(games) {
   const gamesWithMoves = filterGamesWithMoves(games);
 
+  if (gamesWithMoves.length === 0) {
+    return {
+      total: 0,
+      byPiece: {},
+      fastest: null,
+    };
+  }
+
   const byPiece = { queen: 0, rook: 0, bishop: 0, knight: 0, pawn: 0 };
-  let fastestMate = { moves: Infinity, gameIndex: 0 };
+  let fastestMate = { moves: Infinity, game: null };
+  let totalCheckmates = 0;
 
-  gamesWithMoves.forEach((game, idx) => {
-    game.specialMoves.checkmates.forEach(mate => {
-      const pieceCode = mate.piece;
-      const pieceName = PIECE_MAP[pieceCode];
+  gamesWithMoves.forEach((game) => {
+    const checkmates = findCheckmates(game);
 
-      if (pieceName && byPiece[pieceName] !== undefined) {
+    checkmates.forEach((mate) => {
+      totalCheckmates++;
+      const pieceName = getPieceName(mate.piece, true); // lowercase
+
+      if (byPiece[pieceName] !== undefined) {
         byPiece[pieceName]++;
       }
 
       if (mate.moveNumber < fastestMate.moves) {
-        const players = getPlayerNames(game);
-        const gameId = game.headers?.GameId || game.headers?.Site?.split('/').pop() || null;
         fastestMate = {
-          moves: mate.moveNumber, // Already in full moves from PGN parser
-          gameIndex: idx,
-          gameId,
-          white: players.white,
-          black: players.black,
-          winner: mate.color === 'w' ? 'White' : 'Black'
+          moves: mate.moveNumber,
+          game,
+          mateMove: mate,
         };
       }
     });
   });
 
+  // Format fastest mate output
+  let fastestMateOutput = null;
+  if (fastestMate.moves !== Infinity) {
+    const players = getPlayerNames(fastestMate.game);
+    fastestMateOutput = {
+      moves: fastestMate.moves,
+      white: players.white,
+      black: players.black,
+      winner: fastestMate.mateMove.color === 'w' ? 'White' : 'Black',
+      gameId: getGameId(fastestMate.game),
+    };
+  }
+
   return {
+    total: totalCheckmates,
     byPiece,
-    fastest: fastestMate.moves !== Infinity ? fastestMate : null
+    fastest: fastestMateOutput,
   };
 }
 
-module.exports = { calculateCheckmates };
+module.exports = { calculateCheckmates, findCheckmates };
