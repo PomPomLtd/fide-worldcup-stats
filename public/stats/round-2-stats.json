@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-16T22:45:54.805Z",
+  "generatedAt": "2025-11-16T22:51:06.109Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 0,
@@ -4756,18 +4756,18 @@
       "moveNumber": 2
     },
     "homebody": {
-      "white": "Yu, Yangyi",
-      "black": "Blohberger, Felix",
-      "player": "Yu, Yangyi",
+      "white": "Nogerbek, Kazybek",
+      "black": "Gukesh, D",
+      "player": "Nogerbek, Kazybek",
       "color": "white",
       "count": 1
     },
     "deepStrike": {
-      "white": "Yu, Yangyi",
-      "black": "Blohberger, Felix",
-      "player": "Yu, Yangyi",
-      "color": "white",
-      "count": 45
+      "white": "Sargissian, Gabriel",
+      "black": "Rodshtein, Maxim",
+      "player": "Rodshtein, Maxim",
+      "color": "black",
+      "count": 6
     }
   },
   "timeAwards": {

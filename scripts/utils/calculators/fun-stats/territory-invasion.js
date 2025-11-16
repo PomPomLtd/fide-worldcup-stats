@@ -35,38 +35,70 @@ function calculateTerritoryInvasion(games) {
   for (const game of games) {
     if (!game.moveList || game.moveList.length === 0) continue;
 
-    // Track first invasion and total unique invaders
+    // Track first invasion and max simultaneous invaders
     const invasionTracking = {
       white: {
         firstInvasion: null,
-        invadedSquares: new Set(),
-        uniquePiecesInvaded: new Set()
+        maxSimultaneousInvaders: 0
       },
       black: {
         firstInvasion: null,
-        invadedSquares: new Set(),
-        uniquePiecesInvaded: new Set()
+        maxSimultaneousInvaders: 0
       }
     };
+
+    // Track current piece positions (to know what's in enemy territory)
+    const piecePositions = {
+      white: new Map(), // square -> piece type
+      black: new Map()
+    };
+
+    // Initialize starting positions (pawns and pieces)
+    const initRanks = { white: ['1', '2'], black: ['7', '8'] };
+    for (const color of ['white', 'black']) {
+      const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+      const ranks = initRanks[color];
+      for (const file of files) {
+        for (const rank of ranks) {
+          piecePositions[color].set(`${file}${rank}`, 'p'); // Simplified initialization
+        }
+      }
+    }
 
     // Iterate through moves and track invasions
     for (let i = 0; i < game.moveList.length; i++) {
       const move = game.moveList[i];
-      if (!move || !move.to || !move.color) continue;
+      if (!move || !move.to || !move.color || !move.from) continue;
 
       const movingColor = move.color === 'w' ? 'white' : 'black';
+      const opponentColor = movingColor === 'white' ? 'black' : 'white';
       const tracking = invasionTracking[movingColor];
 
-      // Check if piece is now in enemy territory
-      if (isInEnemyTerritory(move.to, movingColor)) {
-        // Record first invasion
-        if (tracking.firstInvasion === null) {
-          tracking.firstInvasion = i;
-        }
+      // Update piece positions
+      piecePositions[movingColor].delete(move.from);
+      piecePositions[movingColor].set(move.to, move.piece);
 
-        // Track unique pieces that invaded (piece type + starting square)
-        const pieceKey = `${move.piece}${move.from}`;
-        tracking.uniquePiecesInvaded.add(pieceKey);
+      // Handle captures
+      if (move.captured) {
+        piecePositions[opponentColor].delete(move.to);
+      }
+
+      // Count pieces in enemy territory for this color
+      let invasionCount = 0;
+      for (const square of piecePositions[movingColor].keys()) {
+        if (isInEnemyTerritory(square, movingColor)) {
+          invasionCount++;
+        }
+      }
+
+      // Record first invasion
+      if (invasionCount > 0 && tracking.firstInvasion === null) {
+        tracking.firstInvasion = i;
+      }
+
+      // Update max simultaneous invaders
+      if (invasionCount > tracking.maxSimultaneousInvaders) {
+        tracking.maxSimultaneousInvaders = invasionCount;
       }
     }
 
@@ -109,8 +141,8 @@ function calculateTerritoryInvasion(games) {
         }
       }
 
-      // Homebody: Least unique pieces invaded
-      const invaderCount = tracking.uniquePiecesInvaded.size;
+      // Homebody: Least simultaneous pieces in enemy territory
+      const invaderCount = tracking.maxSimultaneousInvaders;
       if (tracking.firstInvasion !== null) { // Only count if they invaded at all
         if (!leastInvaders || invaderCount < leastInvaders.count) {
           leastInvaders = {
@@ -127,7 +159,7 @@ function calculateTerritoryInvasion(games) {
         }
       }
 
-      // Deep Strike: Most unique pieces invaded
+      // Deep Strike: Most simultaneous pieces in enemy territory
       if (invaderCount > 0) {
         if (!mostInvaders || invaderCount > mostInvaders.count) {
           mostInvaders = {

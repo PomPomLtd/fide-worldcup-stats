@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Semi-finals)",
-  "generatedAt": "2025-11-16T22:46:03.588Z",
+  "generatedAt": "2025-11-16T22:51:14.981Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 0,
@@ -1088,18 +1088,18 @@
       "moveNumber": 3
     },
     "homebody": {
-      "white": "Grebnev, Aleksey",
-      "black": "Esipenko, Andrey",
-      "player": "Grebnev, Aleksey",
+      "white": "Erigaisi, Arjun",
+      "black": "Aronian, Levon",
+      "player": "Erigaisi, Arjun",
       "color": "white",
       "count": 1
     },
     "deepStrike": {
-      "white": "Grebnev, Aleksey",
-      "black": "Esipenko, Andrey",
-      "player": "Grebnev, Aleksey",
+      "white": "Sindarov, Javokhir",
+      "black": "Svane, Frederik",
+      "player": "Sindarov, Javokhir",
       "color": "white",
-      "count": 34
+      "count": 5
     }
   },
   "timeAwards": {
