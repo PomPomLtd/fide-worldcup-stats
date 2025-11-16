@@ -1,7 +1,7 @@
 {
   "roundNumber": 3,
   "roundName": "Round 3 (Round of 16)",
-  "generatedAt": "2025-11-16T22:51:10.547Z",
+  "generatedAt": "2025-11-16T22:59:41.874Z",
   "matchStats": {
     "totalMatches": 32,
     "decidedInClassical": 0,
@@ -1928,6 +1928,26 @@
       "player": "Yakubboev, Nodirbek",
       "color": "white",
       "count": 6
+    },
+    "crosshairs": {
+      "white": "Hovhannisyan, Robert",
+      "black": "Praggnanandhaa, R",
+      "square": "e4",
+      "attackers": 7,
+      "whiteAttackers": 4,
+      "blackAttackers": 3,
+      "moveNumber": 26,
+      "move": "Nc5"
+    },
+    "longestTension": {
+      "white": "Dubov, Daniil",
+      "black": "Meier, Georg",
+      "moves": 32,
+      "squares": "c4-d5",
+      "piece1": "wp",
+      "piece2": "bp",
+      "startMove": 6,
+      "endMove": 37
     }
   },
   "timeAwards": {

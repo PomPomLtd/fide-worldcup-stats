@@ -543,6 +543,34 @@ export interface FunStats {
     whiteElo?: number | null;
     blackElo?: number | null;
   } | null;
+  crosshairs: {
+    square: string;
+    attackers: number;
+    whiteAttackers: number;
+    blackAttackers: number;
+    moveNumber: number;
+    move: string;
+    gameIndex: number;
+    gameId: string | null;
+    white: string;
+    black: string;
+    whiteElo?: number | null;
+    blackElo?: number | null;
+  } | null;
+  longestTension: {
+    moves: number;
+    squares: string;
+    piece1: string;
+    piece2: string;
+    startMove: number;
+    endMove: number;
+    gameIndex: number;
+    gameId: string | null;
+    white: string;
+    black: string;
+    whiteElo?: number | null;
+    blackElo?: number | null;
+  } | null;
 }
 
 // ============================================================================

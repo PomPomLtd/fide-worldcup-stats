@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Semi-finals)",
-  "generatedAt": "2025-11-16T22:51:14.981Z",
+  "generatedAt": "2025-11-16T22:59:55.046Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 0,
@@ -1100,6 +1100,26 @@
       "player": "Sindarov, Javokhir",
       "color": "white",
       "count": 5
+    },
+    "crosshairs": {
+      "white": "Aronian, Levon",
+      "black": "Erigaisi, Arjun",
+      "square": "e4",
+      "attackers": 7,
+      "whiteAttackers": 3,
+      "blackAttackers": 4,
+      "moveNumber": 75,
+      "move": "Re1"
+    },
+    "longestTension": {
+      "white": "Sindarov, Javokhir",
+      "black": "Svane, Frederik",
+      "moves": 34,
+      "squares": "d4-e5",
+      "piece1": "wp",
+      "piece2": "bp",
+      "startMove": 21,
+      "endMove": 54
     }
   },
   "timeAwards": {

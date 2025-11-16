@@ -26,6 +26,8 @@ const { calculatePawnCaptures } = require('./pawn-captures');
 const { calculateAntiOrthogonal } = require('./anti-orthogonal');
 const { calculateComfortZone } = require('./comfort-zone');
 const { calculateTerritoryInvasion } = require('./territory-invasion');
+const { calculateCrosshairs } = require('./crosshairs');
+const { calculateLongestTension } = require('./longest-tension');
 const { filterGamesWithMoves } = require('../helpers/game-helpers');
 
 /**
@@ -69,6 +71,8 @@ function calculateFunStats(games) {
     quickDraw: territoryInvasion.quickDraw,
     homebody: territoryInvasion.homebody,
     deepStrike: territoryInvasion.deepStrike,
+    crosshairs: calculateCrosshairs(gamesWithMoves),
+    longestTension: calculateLongestTension(gamesWithMoves),
   };
 
   return funStats;

@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T22:50:54.507Z",
+  "generatedAt": "2025-11-16T22:58:57.181Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -6764,6 +6764,26 @@
       "player": "Sargissian, Gabriel",
       "color": "white",
       "count": 6
+    },
+    "crosshairs": {
+      "white": "Qin, Oscar Shu Xuan",
+      "black": "Rodshtein, Maxim",
+      "square": "d4",
+      "attackers": 8,
+      "whiteAttackers": 3,
+      "blackAttackers": 5,
+      "moveNumber": 49,
+      "move": "Qb6"
+    },
+    "longestTension": {
+      "white": "Amartuvshin, Ganzorig",
+      "black": "Lagarde, Maxime",
+      "moves": 35,
+      "squares": "d6-e5",
+      "piece1": "bp",
+      "piece2": "wp",
+      "startMove": 27,
+      "endMove": 61
     }
   },
   "timeAwards": {

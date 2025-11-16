@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-16T22:51:06.109Z",
+  "generatedAt": "2025-11-16T22:59:28.810Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 0,
@@ -4768,6 +4768,26 @@
       "player": "Rodshtein, Maxim",
       "color": "black",
       "count": 6
+    },
+    "crosshairs": {
+      "white": "Blohberger, Felix",
+      "black": "Yu, Yangyi",
+      "square": "d5",
+      "attackers": 8,
+      "whiteAttackers": 3,
+      "blackAttackers": 5,
+      "moveNumber": 22,
+      "move": "Nb6"
+    },
+    "longestTension": {
+      "white": "Motylev, Alexander",
+      "black": "Maghsoodloo, Parham",
+      "moves": 32,
+      "squares": "e5-f4",
+      "piece1": "bp",
+      "piece2": "wp",
+      "startMove": 46,
+      "endMove": 77
     }
   },
   "timeAwards": {

@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-16T22:51:13.711Z",
+  "generatedAt": "2025-11-16T22:59:51.179Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -1457,6 +1457,26 @@
       "player": "Maghsoodloo, Parham",
       "color": "black",
       "count": 5
+    },
+    "crosshairs": {
+      "white": "Bluebaum, Matthias",
+      "black": "Donchenko, Alexander",
+      "square": "d4",
+      "attackers": 8,
+      "whiteAttackers": 4,
+      "blackAttackers": 4,
+      "moveNumber": 19,
+      "move": "Be3"
+    },
+    "longestTension": {
+      "white": "Rapport, Richard",
+      "black": "Shankland, Sam",
+      "moves": 49,
+      "squares": "e5-f6",
+      "piece1": "wp",
+      "piece2": "bp",
+      "startMove": 38,
+      "endMove": 86
     }
   },
   "timeAwards": {

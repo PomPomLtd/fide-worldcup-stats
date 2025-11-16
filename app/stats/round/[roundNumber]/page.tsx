@@ -775,6 +775,40 @@ export default function RoundPage() {
                   </div>
                 </div>
               )}
+
+              {stats.funStats.crosshairs && (
+                <div className="border border-red-200 dark:border-red-700 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
+                  <div className="text-sm font-semibold text-red-900 dark:text-red-300 mb-2">🎯 Crosshairs</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {stats.funStats.crosshairs.white} vs {stats.funStats.crosshairs.black}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.crosshairs.square.toUpperCase()} under attack by {stats.funStats.crosshairs.attackers} pieces
+                  </div>
+                  {stats.funStats.crosshairs.whiteElo && stats.funStats.crosshairs.blackElo && (
+                    <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                      ({stats.funStats.crosshairs.whiteElo} vs {stats.funStats.crosshairs.blackElo})
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {stats.funStats.longestTension && (
+                <div className="border border-yellow-200 dark:border-yellow-700 rounded-lg p-4 bg-yellow-50 dark:bg-yellow-900/20">
+                  <div className="text-sm font-semibold text-yellow-900 dark:text-yellow-300 mb-2">⚡ Longest Tension</div>
+                  <div className="text-gray-900 dark:text-white text-sm mb-1">
+                    {stats.funStats.longestTension.white} vs {stats.funStats.longestTension.black}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
+                    {stats.funStats.longestTension.moves} moves of tension between {stats.funStats.longestTension.squares}
+                  </div>
+                  {stats.funStats.longestTension.whiteElo && stats.funStats.longestTension.blackElo && (
+                    <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                      ({stats.funStats.longestTension.whiteElo} vs {stats.funStats.longestTension.blackElo})
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         )}
