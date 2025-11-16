@@ -15,7 +15,8 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(do cp \"$f\" /Users/sgis/DEV/pompom/fide-worldcup-stats/scripts/utils/calculators/fun-stats/)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(xargs ls:*)"
     ],
     "deny": [],
     "ask": []
