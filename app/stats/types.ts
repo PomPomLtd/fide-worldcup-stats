@@ -8,8 +8,10 @@
 export interface GameReference {
   white: string;
   black: string;
-  result: string;
+  result?: string;
   gameId: string;
+  whiteElo?: number | null;
+  blackElo?: number | null;
 }
 
 export interface AwardWithGame extends GameReference {
@@ -22,7 +24,8 @@ export interface AwardWithCaptures extends GameReference {
 }
 
 export interface AwardWithMoves extends GameReference {
-  moves: number;
+  endgameMoves?: number;
+  openingMoves?: number;
 }
 
 // ============================================================================

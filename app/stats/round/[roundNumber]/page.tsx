@@ -5,6 +5,12 @@ import { useParams } from 'next/navigation'
 import type { RoundStats } from '@/app/stats/types'
 import { formatPlayerName, formatPlayerVs } from '@/lib/utils'
 
+// Helper to format player rating display
+function formatRating(rating: number | null | undefined): string {
+  if (!rating) return '';
+  return ` (${rating})`;
+}
+
 export default function RoundPage() {
   const params = useParams()
   const roundNumber = parseInt(params.roundNumber as string)
@@ -282,8 +288,10 @@ export default function RoundPage() {
             {stats.awards.bloodbath && (
               <div className="border border-red-200 dark:border-red-800 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
                 <div className="text-sm font-semibold text-red-900 dark:text-red-300 mb-2">🔪 Bloodbath</div>
-                <div className="text-gray-900 dark:text-white font-medium">
-                  {formatPlayerVs(stats.awards.bloodbath.white, stats.awards.bloodbath.black)}
+                <div className="text-gray-900 dark:text-white font-medium text-sm">
+                  {formatPlayerName(stats.awards.bloodbath.white)}{formatRating(stats.awards.bloodbath.whiteElo)}
+                  {' vs '}
+                  {formatPlayerName(stats.awards.bloodbath.black)}{formatRating(stats.awards.bloodbath.blackElo)}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">{stats.awards.bloodbath.captures} captures</div>
               </div>
@@ -292,8 +300,10 @@ export default function RoundPage() {
             {stats.awards.pacifist && (
               <div className="border border-green-200 dark:border-green-800 rounded-lg p-4 bg-green-50 dark:bg-green-900/20">
                 <div className="text-sm font-semibold text-green-900 dark:text-green-300 mb-2">☮️ Pacifist</div>
-                <div className="text-gray-900 dark:text-white font-medium">
-                  {formatPlayerVs(stats.awards.pacifist.white, stats.awards.pacifist.black)}
+                <div className="text-gray-900 dark:text-white font-medium text-sm">
+                  {formatPlayerName(stats.awards.pacifist.white)}{formatRating(stats.awards.pacifist.whiteElo)}
+                  {' vs '}
+                  {formatPlayerName(stats.awards.pacifist.black)}{formatRating(stats.awards.pacifist.blackElo)}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">{stats.awards.pacifist.captures} captures</div>
               </div>
@@ -302,8 +312,10 @@ export default function RoundPage() {
             {stats.awards.speedDemon && (
               <div className="border border-blue-200 dark:border-blue-800 rounded-lg p-4 bg-blue-50 dark:bg-blue-900/20">
                 <div className="text-sm font-semibold text-blue-900 dark:text-blue-300 mb-2">⚡ Speed Demon</div>
-                <div className="text-gray-900 dark:text-white font-medium">
-                  {formatPlayerVs(stats.awards.speedDemon.white, stats.awards.speedDemon.black)}
+                <div className="text-gray-900 dark:text-white font-medium text-sm">
+                  {formatPlayerName(stats.awards.speedDemon.white)}{formatRating(stats.awards.speedDemon.whiteElo)}
+                  {' vs '}
+                  {formatPlayerName(stats.awards.speedDemon.black)}{formatRating(stats.awards.speedDemon.blackElo)}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">{stats.awards.speedDemon.moves} moves ({stats.awards.speedDemon.winner} wins)</div>
               </div>
@@ -312,8 +324,10 @@ export default function RoundPage() {
             {stats.awards.endgameWizard && (
               <div className="border border-purple-200 dark:border-purple-800 rounded-lg p-4 bg-purple-50 dark:bg-purple-900/20">
                 <div className="text-sm font-semibold text-purple-900 dark:text-purple-300 mb-2">🧙 Endgame Wizard</div>
-                <div className="text-gray-900 dark:text-white font-medium">
-                  {formatPlayerVs(stats.awards.endgameWizard.white, stats.awards.endgameWizard.black)}
+                <div className="text-gray-900 dark:text-white font-medium text-sm">
+                  {formatPlayerName(stats.awards.endgameWizard.white)}{formatRating(stats.awards.endgameWizard.whiteElo)}
+                  {' vs '}
+                  {formatPlayerName(stats.awards.endgameWizard.black)}{formatRating(stats.awards.endgameWizard.blackElo)}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">{stats.awards.endgameWizard.endgameMoves} endgame moves</div>
               </div>
@@ -322,8 +336,10 @@ export default function RoundPage() {
             {stats.awards.openingSprinter && (
               <div className="border border-cyan-200 dark:border-cyan-800 rounded-lg p-4 bg-cyan-50 dark:bg-cyan-900/20">
                 <div className="text-sm font-semibold text-cyan-900 dark:text-cyan-300 mb-2">🏃 Opening Sprinter</div>
-                <div className="text-gray-900 dark:text-white font-medium">
-                  {formatPlayerVs(stats.awards.openingSprinter.white, stats.awards.openingSprinter.black)}
+                <div className="text-gray-900 dark:text-white font-medium text-sm">
+                  {formatPlayerName(stats.awards.openingSprinter.white)}{formatRating(stats.awards.openingSprinter.whiteElo)}
+                  {' vs '}
+                  {formatPlayerName(stats.awards.openingSprinter.black)}{formatRating(stats.awards.openingSprinter.blackElo)}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">{stats.awards.openingSprinter.openingMoves} opening moves</div>
               </div>
