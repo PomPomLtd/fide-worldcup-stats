@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T19:49:16.043Z",
+  "generatedAt": "2025-11-16T20:22:32.904Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -319,8 +319,8 @@
     }
   },
   "gamePhases": {
-    "averageOpening": 8.5,
-    "averageMiddlegame": 19.9,
+    "averageOpening": 12.2,
+    "averageMiddlegame": 16.3,
     "averageEndgame": 18.7,
     "longestWaitTillCapture": {
       "moves": 18,
@@ -329,10 +329,10 @@
       "gameId": "6.2"
     },
     "longestMiddlegame": {
-      "moves": 44,
-      "white": "Adly, Ahmed",
-      "black": "Grigoryan, Karen H.",
-      "gameId": "6.2"
+      "moves": 40,
+      "white": "Subelj, Jan",
+      "black": "Kuybokarov, Temur",
+      "gameId": "4.7"
     },
     "longestEndgame": {
       "moves": 96,
@@ -2250,10 +2250,10 @@
       "gameId": "3.5"
     },
     "openingSprinter": {
-      "white": "Dardha, Daniel",
-      "black": "Banh, Gia Huy",
-      "openingMoves": 4,
-      "gameId": "1.3"
+      "white": "Hovhannisyan, Robert",
+      "black": "Kavin, Mohan",
+      "openingMoves": 7,
+      "gameId": "3.1"
     }
   },
   "byTimeControl": {
@@ -4102,10 +4102,10 @@
           "gameId": "2.24"
         },
         "openingSprinter": {
-          "white": "Dardha, Daniel",
-          "black": "Banh, Gia Huy",
-          "openingMoves": 4,
-          "gameId": "1.3"
+          "white": "Neelash, Saha",
+          "black": "Meier, Georg",
+          "openingMoves": 7,
+          "gameId": "2.9"
         }
       }
     },
@@ -5032,10 +5032,10 @@
           "gameId": "3.5"
         },
         "openingSprinter": {
-          "white": "Cori, Jorge",
-          "black": "Ansat, Aldiyar",
-          "openingMoves": 5,
-          "gameId": "3.5"
+          "white": "Hovhannisyan, Robert",
+          "black": "Kavin, Mohan",
+          "openingMoves": 7,
+          "gameId": "3.1"
         }
       }
     },
@@ -5614,10 +5614,10 @@
           "gameId": "5.2"
         },
         "openingSprinter": {
-          "white": "Yuffa, Daniil",
-          "black": "Thavandiran, Shiyam",
-          "openingMoves": 5,
-          "gameId": "6.1"
+          "white": "Oro, Faustino",
+          "black": "Brkic, Ante",
+          "openingMoves": 8,
+          "gameId": "6.4"
         }
       }
     },
@@ -6161,10 +6161,10 @@
           "gameId": "8.2"
         },
         "openingSprinter": {
-          "white": "Nogerbek, Kazybek",
-          "black": "Raja, Rithvik R",
-          "openingMoves": 5,
-          "gameId": "7.6"
+          "white": "Lalit, Babu M R",
+          "black": "Warmerdam, Max",
+          "openingMoves": 8,
+          "gameId": "7.3"
         }
       }
     }

@@ -10,7 +10,9 @@
       "Bash(node:*)",
       "Bash(npm run lint:*)",
       "Bash(npm run build:*)",
-      "Bash(xargs node -e \"const data=require(process.argv[1]); console.log(\"\"Top-level keys:\"\", Object.keys(data).join(\"\", \"\"));\")"
+      "Bash(xargs node -e \"const data=require(process.argv[1]); console.log(\"\"Top-level keys:\"\", Object.keys(data).join(\"\", \"\"));\")",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []

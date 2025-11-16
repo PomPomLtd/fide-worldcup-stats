@@ -1,0 +1,699 @@
+{
+  "roundNumber": 5,
+  "roundName": "Round 5 (Semi-finals)",
+  "generatedAt": "2025-11-16T20:22:46.520Z",
+  "matchStats": {
+    "totalMatches": 8,
+    "decidedInClassical": 0,
+    "decidedInRapidTier1": 0,
+    "decidedInRapidTier2": 0,
+    "decidedInBlitzTier1": 0,
+    "decidedInBlitzTier2": 0,
+    "decidedInArmageddon": 0,
+    "tiebreakAnalysis": {
+      "classicalDecisiveRate": 0,
+      "wentToTiebreak": 8,
+      "tiebreakRate": 100,
+      "rapidTier1NeededRate": 0,
+      "rapidTier2Needed": 0,
+      "blitzNeeded": 0
+    },
+    "averageMovesToDecision": {}
+  },
+  "overview": {
+    "totalGames": 16,
+    "totalMoves": 1465,
+    "averageGameLength": 45.8,
+    "longestGame": {
+      "moves": 75,
+      "white": "Le, Quang Liem",
+      "black": "Donchenko, Alexander",
+      "result": "1/2-1/2",
+      "gameId": "43.4"
+    },
+    "shortestGame": {
+      "moves": 30,
+      "white": "Grebnev, Aleksey",
+      "black": "Esipenko, Andrey",
+      "result": "1/2-1/2",
+      "gameId": "43.6"
+    }
+  },
+  "results": {
+    "totalGames": 16,
+    "whiteWins": 3,
+    "blackWins": 1,
+    "draws": 12,
+    "whiteWinPercentage": 18.8,
+    "blackWinPercentage": 6.3,
+    "drawPercentage": 75,
+    "decisivePercentage": 25
+  },
+  "tactics": {
+    "totalCaptures": 300,
+    "averageCapturesPerGame": 18.8,
+    "enPassantGames": [
+      {
+        "white": "Svane, Frederik",
+        "black": "Sindarov, Javokhir",
+        "count": 1
+      }
+    ],
+    "promotions": 0,
+    "castling": {
+      "kingside": 30,
+      "queenside": 1,
+      "total": 31
+    },
+    "bloodiestGame": {
+      "captures": 30,
+      "white": "Le, Quang Liem",
+      "black": "Donchenko, Alexander",
+      "gameId": "43.4"
+    },
+    "quietestGame": {
+      "captures": 5,
+      "white": "Esipenko, Andrey",
+      "black": "Grebnev, Aleksey",
+      "gameId": "42.6"
+    },
+    "longestNonCaptureStreak": {
+      "moves": 38,
+      "white": "Shankland, Sam",
+      "black": "Dubov, Daniil",
+      "gameId": "42.3"
+    },
+    "totalUnderpromotions": 0,
+    "underpromotions": []
+  },
+  "pieces": {
+    "activity": {
+      "pawns": 348,
+      "knights": 257,
+      "bishops": 239,
+      "rooks": 281,
+      "queens": 131,
+      "kings": 209
+    },
+    "captured": {
+      "pawns": 147,
+      "knights": 48,
+      "bishops": 40,
+      "rooks": 41,
+      "queens": 24
+    },
+    "survivalRate": {}
+  },
+  "checkmates": {
+    "total": 0,
+    "byPiece": {
+      "queen": 0,
+      "rook": 0,
+      "bishop": 0,
+      "knight": 0,
+      "pawn": 0
+    },
+    "fastest": null
+  },
+  "heatmap": {
+    "bloodiestSquare": {
+      "square": "e4",
+      "captures": 23,
+      "description": "e4 saw 23 captures"
+    },
+    "mostPopularSquare": {
+      "square": "e4",
+      "visits": 55,
+      "description": "e4 was visited 55 times"
+    },
+    "leastPopularSquare": {
+      "square": "a8",
+      "visits": 2,
+      "description": "a8 was only visited 2 times"
+    },
+    "quietestSquares": [
+      "a1"
+    ],
+    "top5Bloodiest": [
+      {
+        "square": "e4",
+        "captures": 23
+      },
+      {
+        "square": "c6",
+        "captures": 20
+      },
+      {
+        "square": "d4",
+        "captures": 17
+      },
+      {
+        "square": "d5",
+        "captures": 16
+      },
+      {
+        "square": "c4",
+        "captures": 15
+      }
+    ],
+    "top5Popular": [
+      {
+        "square": "e4",
+        "visits": 55
+      },
+      {
+        "square": "c6",
+        "visits": 54
+      },
+      {
+        "square": "d5",
+        "visits": 52
+      },
+      {
+        "square": "c4",
+        "visits": 51
+      },
+      {
+        "square": "f3",
+        "visits": 46
+      }
+    ],
+    "data": {
+      "a1": 0,
+      "b1": 8,
+      "c1": 20,
+      "d1": 21,
+      "e1": 23,
+      "f1": 12,
+      "g1": 18,
+      "h1": 3,
+      "a2": 4,
+      "b2": 11,
+      "c2": 15,
+      "d2": 27,
+      "e2": 19,
+      "f2": 16,
+      "g2": 15,
+      "h2": 6,
+      "a3": 20,
+      "b3": 22,
+      "c3": 39,
+      "d3": 36,
+      "e3": 23,
+      "f3": 46,
+      "g3": 24,
+      "h3": 14,
+      "a4": 24,
+      "b4": 28,
+      "c4": 51,
+      "d4": 44,
+      "e4": 55,
+      "f4": 36,
+      "g4": 22,
+      "h4": 21,
+      "a5": 26,
+      "b5": 19,
+      "c5": 42,
+      "d5": 52,
+      "e5": 41,
+      "f5": 30,
+      "g5": 27,
+      "h5": 16,
+      "a6": 22,
+      "b6": 19,
+      "c6": 54,
+      "d6": 33,
+      "e6": 38,
+      "f6": 45,
+      "g6": 23,
+      "h6": 18,
+      "a7": 10,
+      "b7": 12,
+      "c7": 17,
+      "d7": 36,
+      "e7": 39,
+      "f7": 12,
+      "g7": 11,
+      "h7": 8,
+      "a8": 2,
+      "b8": 6,
+      "c8": 14,
+      "d8": 17,
+      "e8": 18,
+      "f8": 9,
+      "g8": 20,
+      "h8": 6
+    }
+  },
+  "gamePhases": {
+    "averageOpening": 12.2,
+    "averageMiddlegame": 13.5,
+    "averageEndgame": 20.1,
+    "longestWaitTillCapture": {
+      "moves": 15,
+      "white": "Sindarov, Javokhir",
+      "black": "Svane, Frederik",
+      "gameId": "42.1"
+    },
+    "longestMiddlegame": {
+      "moves": 25,
+      "white": "Sindarov, Javokhir",
+      "black": "Svane, Frederik",
+      "gameId": "42.1"
+    },
+    "longestEndgame": {
+      "moves": 60,
+      "white": "Le, Quang Liem",
+      "black": "Donchenko, Alexander",
+      "gameId": "43.4"
+    }
+  },
+  "openings": {
+    "totalGames": 16,
+    "totalUnique": 15,
+    "coverage": 100,
+    "firstMoves": {
+      "e4": {
+        "count": 8,
+        "percentage": 50,
+        "whiteWinRate": 25
+      },
+      "d4": {
+        "count": 6,
+        "percentage": 37.5,
+        "whiteWinRate": 16.7
+      },
+      "c4": {
+        "count": 1,
+        "percentage": 6.3,
+        "whiteWinRate": 0
+      },
+      "Nf3": {
+        "count": 1,
+        "percentage": 6.3,
+        "whiteWinRate": 0
+      }
+    },
+    "byEco": [
+      {
+        "eco": "C50",
+        "name": "Italian Game: Giuoco Pianissimo, Normal",
+        "count": 1,
+        "whiteWins": 1,
+        "draws": 0,
+        "blackWins": 0,
+        "confidence": "medium",
+        "whiteWinRate": 100,
+        "blackWinRate": 0,
+        "drawRate": 0,
+        "decisiveRate": 100
+      },
+      {
+        "eco": "C83",
+        "name": "Ruy Lopez: Open, Classical Defense",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "D30",
+        "name": "Queen's Gambit Declined",
+        "count": 2,
+        "whiteWins": 1,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 50,
+        "blackWinRate": 0,
+        "drawRate": 50,
+        "decisiveRate": 50
+      },
+      {
+        "eco": "C54",
+        "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 0,
+        "blackWins": 1,
+        "confidence": "medium",
+        "whiteWinRate": 0,
+        "blackWinRate": 100,
+        "drawRate": 0,
+        "decisiveRate": 100
+      },
+      {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed, Anti-Marshall",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "D90",
+        "name": "Grünfeld Defense: Three Knights Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "medium",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "A30",
+        "name": "English Opening: Symmetrical Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "E60",
+        "name": "King's Indian Defense: Fianchetto Variation, Immediate Fianchetto",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "A46",
+        "name": "Indian Defense: Knights Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "C42",
+        "name": "Petrov's Defense: Nimzowitsch Attack",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "medium",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "D26",
+        "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "C42",
+        "name": "Petrov's Defense: Millennium Attack",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "medium",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "C49",
+        "name": "Four Knights Game: Spanish Variation, Nimzowitsch Variation",
+        "count": 1,
+        "whiteWins": 1,
+        "draws": 0,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 100,
+        "blackWinRate": 0,
+        "drawRate": 0,
+        "decisiveRate": 100
+      },
+      {
+        "eco": "C58",
+        "name": "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "A07",
+        "name": "King's Indian Attack",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      }
+    ],
+    "mostPopular": [
+      {
+        "eco": "D30",
+        "name": "Queen's Gambit Declined",
+        "count": 2,
+        "whiteWins": 1,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 50,
+        "blackWinRate": 0,
+        "drawRate": 50,
+        "decisiveRate": 50
+      },
+      {
+        "eco": "C50",
+        "name": "Italian Game: Giuoco Pianissimo, Normal",
+        "count": 1,
+        "whiteWins": 1,
+        "draws": 0,
+        "blackWins": 0,
+        "confidence": "medium",
+        "whiteWinRate": 100,
+        "blackWinRate": 0,
+        "drawRate": 0,
+        "decisiveRate": 100
+      },
+      {
+        "eco": "C83",
+        "name": "Ruy Lopez: Open, Classical Defense",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "C54",
+        "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 0,
+        "blackWins": 1,
+        "confidence": "medium",
+        "whiteWinRate": 0,
+        "blackWinRate": 100,
+        "drawRate": 0,
+        "decisiveRate": 100
+      },
+      {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed, Anti-Marshall",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "D90",
+        "name": "Grünfeld Defense: Three Knights Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "medium",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "A30",
+        "name": "English Opening: Symmetrical Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "E60",
+        "name": "King's Indian Defense: Fianchetto Variation, Immediate Fianchetto",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "A46",
+        "name": "Indian Defense: Knights Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "C42",
+        "name": "Petrov's Defense: Nimzowitsch Attack",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "medium",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      }
+    ],
+    "bestForWhite": null,
+    "bestForBlack": null,
+    "mostDecisive": null
+  },
+  "awards": {
+    "bloodbath": {
+      "captures": 30,
+      "white": "Le, Quang Liem",
+      "black": "Donchenko, Alexander",
+      "gameId": "43.4"
+    },
+    "pacifist": {
+      "captures": 5,
+      "white": "Esipenko, Andrey",
+      "black": "Grebnev, Aleksey",
+      "gameId": "42.6"
+    },
+    "speedDemon": null,
+    "endgameWizard": {
+      "white": "Le, Quang Liem",
+      "black": "Donchenko, Alexander",
+      "endgameMoves": 60,
+      "gameId": "43.4"
+    },
+    "openingSprinter": {
+      "white": "Wei, Yi",
+      "black": "Sevian, Samuel",
+      "openingMoves": 7,
+      "gameId": "43.7"
+    }
+  },
+  "byTimeControl": {},
+  "ratingAnalysis": {
+    "hasRatingData": true,
+    "totalGames": 16,
+    "gamesWithRatings": 16,
+    "coverage": 100,
+    "averageEloDifference": 63.5,
+    "upsets": [],
+    "upsetCount": 0,
+    "upsetRate": 0,
+    "biggestUpset": null,
+    "favoritePerformance": {
+      "wins": 4,
+      "draws": 12,
+      "losses": 0,
+      "winRate": 25
+    }
+  },
+  "fideFunAwards": {
+    "tiebreakWarrior": null,
+    "giantSlayer": null,
+    "rapidFire": null,
+    "blitzWizard": null,
+    "classicalPurist": null,
+    "marathonMaster": {
+      "players": "Sevian, Samuel vs Wei, Yi",
+      "totalGames": 2,
+      "totalMoves": 133,
+      "winner": "Wei, Yi"
+    },
+    "fortressBuilder": {
+      "players": "Dubov, Daniil vs Shankland, Sam",
+      "draws": 2,
+      "totalGames": 2
+    },
+    "upsetArtist": null
+  },
+  "dataInfo": {
+    "totalMatches": 8,
+    "totalGames": 16,
+    "openingCoverage": "100.0"
+  }
+}

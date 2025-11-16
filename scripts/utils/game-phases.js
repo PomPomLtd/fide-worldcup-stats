@@ -3,11 +3,14 @@
  * Game Phase Detection Utility
  *
  * Detects opening, middlegame, and endgame phases in chess games.
- * Based on Lichess's implementation with simplified heuristics.
+ * Based on Lichess's Divider.scala implementation.
  *
- * Phase definitions (inspired by Lichess's Divider.scala):
- * - Opening: Game start until pieces are developed (both castled OR move 20 OR piece count ≤ 10)
- * - Middlegame: From opening end until endgame starts
+ * Phase definitions (from Lichess's Divider.scala):
+ * - Opening: Game start until middlegame conditions are met
+ * - Middlegame: Starts when ANY of:
+ *   1. Majors+Minors (Q+R+B+N) ≤ 10 pieces
+ *   2. Back rank sparse (< 4 pieces on rank 1 or rank 8)
+ *   3. Mixedness score > 150 (not implemented - requires complex position analysis)
  * - Endgame: When 6 or fewer minor/major pieces remain (queens, rooks, bishops, knights)
  *
  * @module game-phases
@@ -57,21 +60,38 @@ function analyzeGamePhases(history, pgn) {
 }
 
 /**
+ * Check if back rank is sparse (< 4 pieces on rank 1 or rank 8)
+ * Matches Lichess's backrankSparse() function
+ *
+ * @param {Array} board - Chess.js board array
+ * @returns {boolean} True if either back rank has fewer than 4 pieces
+ */
+function isBackrankSparse(board) {
+  // Count pieces on White's back rank (rank 1 = index 7 in chess.js board)
+  const whiteBackrank = board[7].filter(square => square !== null).length;
+
+  // Count pieces on Black's back rank (rank 8 = index 0 in chess.js board)
+  const blackBackrank = board[0].filter(square => square !== null).length;
+
+  return whiteBackrank < 4 || blackBackrank < 4;
+}
+
+/**
  * Detect when the opening phase ends (middlegame starts)
  *
- * Based on Lichess's approach with simplified heuristics:
- * - Both sides have castled, OR
- * - Move 20 reached, OR
- * - Piece count drops to 10 or fewer minor/major pieces
+ * Based on Lichess's Divider.scala implementation:
+ * Middlegame starts when ANY of these conditions is met:
+ * 1. Majors+Minors (Q+R+B+N) ≤ 10
+ * 2. Back rank sparse (< 4 pieces on either player's back rank)
+ * 3. Mixedness score > 150 (not implemented - computationally expensive)
+ *
+ * Fallback: If none trigger, opening ends at move 20 or 15 (whichever is shorter)
  *
  * @param {Array} history - Move history
  * @param {string} pgn - Original PGN for position replay
  * @returns {number} Move number when opening ends
  */
 function detectOpeningEnd(history, pgn) {
-  let whiteCastled = false;
-  let blackCastled = false;
-
   // Create chess instance ONCE and replay incrementally
   const chess = new Chess();
 
@@ -81,25 +101,21 @@ function detectOpeningEnd(history, pgn) {
     // Play this move
     chess.move(move.san);
 
-    // Check for castling
-    if (move.color === 'w' && (move.flags.includes('k') || move.flags.includes('q'))) {
-      whiteCastled = true;
-    }
-    if (move.color === 'b' && (move.flags.includes('k') || move.flags.includes('q'))) {
-      blackCastled = true;
-    }
+    const board = chess.board();
 
-    // Check piece count at current position
-    const pieceCount = countMinorMajorPieces(chess.board());
+    // Check Lichess conditions
+    const pieceCount = countMinorMajorPieces(board);
+    const backrankSparse = isBackrankSparse(board);
 
-    // Opening ends when: both castled OR move 20 OR piece count ≤ 10
-    if ((whiteCastled && blackCastled) || i >= 20 || pieceCount <= 10) {
+    // Middlegame starts when: piece count ≤ 10 OR back rank sparse
+    // Note: Mixedness > 150 not implemented (requires complex position analysis)
+    if (pieceCount <= 10 || backrankSparse) {
       return i;
     }
   }
 
-  // Default: opening ends around move 15
-  return Math.min(15, history.length);
+  // Fallback: opening ends around move 15-20
+  return Math.min(20, history.length);
 }
 
 /**
@@ -142,10 +158,11 @@ function detectEndgameStart(history, pgn) {
 }
 
 /**
- * Count minor and major pieces (excluding pawns and kings)
+ * Count minor and major pieces (Q+R+B+N, excluding pawns and kings)
+ * Matches Lichess's majorsAndMinors() function
  *
  * @param {Array} board - Chess.js board array
- * @returns {number} Count of minor/major pieces
+ * @returns {number} Count of Q+R+B+N pieces
  */
 function countMinorMajorPieces(board) {
   let count = 0;
@@ -238,5 +255,6 @@ module.exports = {
   detectEndgameStart,
   getMovePhase,
   getPhaseStatistics,
-  countMinorMajorPieces
+  countMinorMajorPieces,
+  isBackrankSparse
 };
