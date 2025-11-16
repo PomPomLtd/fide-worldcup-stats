@@ -256,32 +256,42 @@ Before implementing, we must:
 
 ### Implementation Tasks
 
-#### ⏳ Task 2.1: Analyze TimeControl Field Format
-**Status:** PENDING
+#### ✅ Task 2.1: Analyze TimeControl Field Format
+**Status:** COMPLETE
 **Goal:** Understand all TimeControl string formats in our data
 
-**Steps:**
-1. Extract all unique TimeControl values from Round 1 data
-2. Identify patterns and variations
-3. Document format examples
-4. Define classification rules
+**Key Finding: TimeControl Field is NOT Updated for Tiebreaks!**
 
-**Expected Formats (Based on Official Rules):**
+**Analysis Results:**
+- All 218 games have IDENTICAL TimeControl: `: 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1`
+- The PGN TimeControl field is not updated for rapid/blitz tiebreaks
+- **Solution:** Use the **Round field** instead!
+
+**Round Field Pattern (CONFIRMED):**
 ```
-Classical:       "90 minutes for the first 40 moves, followed by 30 minutes...with an increment of 30 seconds per move"
-Rapid Tier 1:    "15 minutes + 10 seconds" or "15+10"
-Rapid Tier 2:    "10 minutes + 10 seconds" or "10+10"
-Blitz Tier 1:    "5 minutes + 3 seconds" or "5+3"
-Blitz Tier 2:    "3 minutes + 2 seconds" or "3+2"
-Armageddon:      Special format (if exists)
+Round "1.X" = Game 1 = CLASSICAL
+Round "2.X" = Game 2 = CLASSICAL
+Round "3.X" = Game 3 = RAPID Tier 1 (15+10)
+Round "4.X" = Game 4 = RAPID Tier 1 (15+10)
+Round "5.X" = Game 5 = RAPID Tier 2 (10+10)
+Round "6.X" = Game 6 = RAPID Tier 2 (10+10)
+Round "7.X" = Game 7 = BLITZ Tier 1 (5+3)
+Round "8.X" = Game 8 = BLITZ Tier 1 (5+3)
+Round "9.X" = Game 9 = BLITZ Tier 2 (3+2)  [not in Round 1]
+Round "10.X" = Game 10 = BLITZ Tier 2 (3+2) [not in Round 1]
+Round "11.X" = Game 11 = ARMAGEDDON [not in Round 1]
 ```
 
-**Questions to Answer:**
-- Do all classical games use exact "90 minutes for 40 moves" wording?
-- How are rapid/blitz formatted: "XX+YY" or "XX minutes + YY seconds"?
-- Are there any Armageddon games in Round 1? (max 8 games observed, so probably not)
-- Any games with missing/malformed TimeControl?
-- Does the format change between game directories?
+**Round 1 Distribution:**
+- Rounds 1-2: 156 games (78 matches × 2) = ALL CLASSICAL
+- Rounds 3-4: 40 games (20 matches) = RAPID tier 1 (15+10)
+- Rounds 5-6: 12 games (6 matches) = RAPID tier 2 (10+10)
+- Rounds 7-8: 10 games (5 matches) = BLITZ tier 1 (5+3)
+- **No rounds 9-11** = No blitz tier 2 or Armageddon in Round 1
+
+**Classification Strategy:**
+Extract the first number from Round field (before the dot), map to game type.
+This is 100% reliable and simpler than parsing TimeControl strings!
 
 #### ⏳ Task 2.2: Create classify-games.js Script
 **Status:** PENDING
