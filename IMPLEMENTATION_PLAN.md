@@ -224,12 +224,35 @@ Accurately classify games by time control (classical/rapid/blitz)
 - [ ] Match statistics include time control breakdown
 - [ ] Validation: 90%+ accuracy on sample checks
 
+### Official FIDE World Cup Tiebreak Structure
+
+**Classical Games (Regular):** 2 games
+- Time Control: 90 minutes for 40 moves + 30 minutes + 30 seconds/move
+
+**If tied after classical (1-1), tiebreak sequence:**
+
+1. **Rapid Tiebreak 1:** 2 games at **15+10**
+2. **Rapid Tiebreak 2:** 2 games at **10+10** (if still tied)
+3. **Blitz Tiebreak 1:** 2 games at **5+3** (if still tied)
+4. **Blitz Tiebreak 2:** 2 games at **3+2** (if still tied)
+5. **Armageddon:** 1 sudden death game (if still tied)
+
+**Maximum Games Per Match:**
+- Minimum: 2 (classical decides)
+- Maximum without Armageddon: 10 games
+- Maximum with Armageddon: 11 games
+
+**Observed in Round 1:**
+- Longest match: 8 games (e.g., Thavandiran vs Yuffa)
+  - = 2 classical + 2 rapid (15+10) + 2 rapid (10+10) + 2 blitz (5+3)
+  - Winner determined in 5+3 blitz, no need for 3+2
+
 ### Background Analysis Needed
 Before implementing, we must:
 1. Analyze TimeControl field format from actual PGN data
-2. Identify all format variations (classical, rapid, blitz, armageddon?)
-3. Define classification thresholds
-4. Handle edge cases (unknown/missing TimeControl)
+2. Verify formats match official structure (above)
+3. Identify any edge cases or format variations
+4. Handle missing/malformed TimeControl fields
 
 ### Implementation Tasks
 
@@ -243,18 +266,22 @@ Before implementing, we must:
 3. Document format examples
 4. Define classification rules
 
-**Expected Formats:**
+**Expected Formats (Based on Official Rules):**
 ```
-Classical: "90 minutes for the first 40 moves, followed by 30 minutes..."
-Rapid:     "25 minutes + 10 seconds", "15+10", "10+0"
-Blitz:     "5+3", "3+2", "3+0"
+Classical:       "90 minutes for the first 40 moves, followed by 30 minutes...with an increment of 30 seconds per move"
+Rapid Tier 1:    "15 minutes + 10 seconds" or "15+10"
+Rapid Tier 2:    "10 minutes + 10 seconds" or "10+10"
+Blitz Tier 1:    "5 minutes + 3 seconds" or "5+3"
+Blitz Tier 2:    "3 minutes + 2 seconds" or "3+2"
+Armageddon:      Special format (if exists)
 ```
 
 **Questions to Answer:**
-- Do all classical games use the "90 minutes for 40 moves" format?
-- What rapid/blitz formats exist in the data?
-- Are there Armageddon games?
+- Do all classical games use exact "90 minutes for 40 moves" wording?
+- How are rapid/blitz formatted: "XX+YY" or "XX minutes + YY seconds"?
+- Are there any Armageddon games in Round 1? (max 8 games observed, so probably not)
 - Any games with missing/malformed TimeControl?
+- Does the format change between game directories?
 
 #### ⏳ Task 2.2: Create classify-games.js Script
 **Status:** PENDING
@@ -331,44 +358,70 @@ function classifyTimeControl(timeControl) {
 module.exports = { classifyTimeControl };
 ```
 
-**Classification Logic:**
+**Classification Logic (Based on Official FIDE Rules):**
 ```javascript
-1. Normalize string (remove extra spaces, lowercase)
-2. Try to parse time format:
-   - "90 minutes for 40 moves..." → CLASSICAL
-   - "XX+YY" format → Parse base time + increment
-     - If base >= 15 minutes → RAPID
-     - If base < 15 minutes → BLITZ
-   - "XX minutes + YY seconds" → Parse and classify
+1. Normalize string (trim, lowercase for matching)
+
+2. Try exact/pattern matching:
+   a) If contains "90 minutes for" or "90 minutes for 40 moves"
+      → CLASSICAL
+
+   b) Parse "XX+YY" or "XX minutes + YY seconds" format:
+      - "15+10" or "15 minutes + 10 seconds" → RAPID (tier 1)
+      - "10+10" or "10 minutes + 10 seconds" → RAPID (tier 2)
+      - "5+3"  or "5 minutes + 3 seconds"   → BLITZ (tier 1)
+      - "3+2"  or "3 minutes + 2 seconds"   → BLITZ (tier 2)
+
+   c) If "sudden death" or other special indicators → ARMAGEDDON
+
 3. If unparseable → UNKNOWN (log for manual review)
+
+4. Return: {
+     type: 'CLASSICAL'|'RAPID'|'BLITZ'|'ARMAGEDDON'|'UNKNOWN',
+     tier: 1|2|null,  // For rapid/blitz tiers
+     baseMinutes: number,
+     increment: number
+   }
 ```
 
 **Edge Cases:**
 - Missing TimeControl → UNKNOWN
 - Malformed strings → UNKNOWN
-- Armageddon games (white gets more time) → Special handling
+- Non-standard formats → UNKNOWN (investigate manually)
+- Armageddon (if exists) → Mark as ARMAGEDDON type
 
 #### ⏳ Task 2.4: Calculate Match Outcomes
 **Status:** PENDING
 
-**Logic:**
+**Logic (Based on Official Tiebreak Structure):**
 ```javascript
 For each match:
-1. Count classical game results:
-   - If one player has 1.5+ points → Winner (no tiebreak)
-   - If tied 1-1 → Tiebreak needed
+1. Identify classical games (first 2 games, always CLASSICAL type)
+   - Count results (wins/draws per player)
+   - Calculate score (0, 0.5, 1 per game)
+   - If score != 1-1 → Winner determined, no tiebreak needed
 
-2. If tiebreak needed:
-   - Find first non-draw in rapid games → Rapid winner
-   - If all rapid drawn → Find first non-draw in blitz
-   - Determine tiebreak type used
+2. If classical score is 1-1 → Tiebreak sequence:
+   a) Check rapid tier 1 games (15+10, up to 2 games)
+      - If winner found → rapid tier 1 decided
+   b) Check rapid tier 2 games (10+10, up to 2 games)
+      - If winner found → rapid tier 2 decided
+   c) Check blitz tier 1 games (5+3, up to 2 games)
+      - If winner found → blitz tier 1 decided
+   d) Check blitz tier 2 games (3+2, up to 2 games)
+      - If winner found → blitz tier 2 decided
+   e) Check for Armageddon game
+      - If exists → Armageddon decided
 
-3. Output:
+3. Output enhanced match outcome:
    - winner: player name
-   - score: "X-Y" (classical score)
+   - loser: player name
+   - classicalScore: "1-1" | "1.5-0.5" | "2-0" | "0.5-1.5" | "0-2"
    - tiebreakNeeded: boolean
-   - tiebreakType: null | 'rapid' | 'blitz'
-   - advancingPlayer: winner name
+   - tiebreakType: null | 'rapid-15+10' | 'rapid-10+10' | 'blitz-5+3' | 'blitz-3+2' | 'armageddon'
+   - decidingGame: game number that determined winner
+   - totalGames: number
+   - advancingPlayer: winner name (for bracket tracking)
 ```
 
 #### ⏳ Task 2.5: Test on Round 1 Data
