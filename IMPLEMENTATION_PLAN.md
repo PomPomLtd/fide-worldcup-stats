@@ -1,14 +1,14 @@
 # FIDE World Cup Stats - Implementation Plan
 
-## Current Status: Stage 1 - Foundation
+## Current Status: Stage 2 - Time Control Classification
 
 **Started:** 2025-11-16
-**Current Stage:** 1 of 10
-**Overall Progress:** 5%
+**Current Stage:** 2 of 10
+**Overall Progress:** 15%
 
 ---
 
-## Stage 1: Foundation (In Progress)
+## Stage 1: Foundation (✅ COMPLETE)
 
 ### Goal
 Set up project structure and basic PGN processing
@@ -194,35 +194,227 @@ lichess4545-stats/
 - Match 27: Thavandiran vs Yuffa (8 games: many tiebreaks)
 - Match 58: Lalit vs Warmerdam (8 games: extensive tiebreaks)
 
-#### 🔄 Task 1.7: Verify and Commit
-**Status:** IN PROGRESS
+#### ✅ Task 1.7: Verify and Commit
+**Status:** COMPLETE
 **Steps:**
 1. ✅ Run basic tests - All passed
 2. ✅ Verify data/consolidated/round-1-matches.json - Valid JSON, correct structure
 3. ✅ Update this implementation plan - Complete
-4. 🔄 Commit with clear message - In progress
-5. ⏳ Update migration.md progress - Pending
+4. ✅ Commit with clear message - Done (commit a42a2ff)
+5. ✅ Push to GitHub - Successfully pushed
+
+**Stage 1 Summary:**
+- Duration: ~3 hours
+- Files created: 105
+- Lines of code: 36,300+
+- Key achievement: Discovered and solved directory structure puzzle
+- Output: Clean match data for 78 pairings, 218 games
 
 ---
 
-## Stage 2: Time Control Classification (Not Started)
+## Stage 2: Time Control Classification (🔄 IN PROGRESS)
 
 ### Goal
-Accurately classify games by time control
+Accurately classify games by time control (classical/rapid/blitz)
 
 ### Success Criteria
 - [ ] All games tagged as classical/rapid/blitz correctly
-- [ ] TimeControl parser handles all formats
-- [ ] Classified datasets generated
+- [ ] TimeControl parser handles FIDE format variations
+- [ ] Classified datasets generated per round
+- [ ] Match statistics include time control breakdown
+- [ ] Validation: 90%+ accuracy on sample checks
 
-### Tasks (Planned)
-- Create classify-games.js script
-- Write TimeControl parser
-- Tag each game with control type
-- Split games into separate datasets
-- Validate classification accuracy
+### Background Analysis Needed
+Before implementing, we must:
+1. Analyze TimeControl field format from actual PGN data
+2. Identify all format variations (classical, rapid, blitz, armageddon?)
+3. Define classification thresholds
+4. Handle edge cases (unknown/missing TimeControl)
 
-**Estimated Start:** After Stage 1 complete
+### Implementation Tasks
+
+#### ⏳ Task 2.1: Analyze TimeControl Field Format
+**Status:** PENDING
+**Goal:** Understand all TimeControl string formats in our data
+
+**Steps:**
+1. Extract all unique TimeControl values from Round 1 data
+2. Identify patterns and variations
+3. Document format examples
+4. Define classification rules
+
+**Expected Formats:**
+```
+Classical: "90 minutes for the first 40 moves, followed by 30 minutes..."
+Rapid:     "25 minutes + 10 seconds", "15+10", "10+0"
+Blitz:     "5+3", "3+2", "3+0"
+```
+
+**Questions to Answer:**
+- Do all classical games use the "90 minutes for 40 moves" format?
+- What rapid/blitz formats exist in the data?
+- Are there Armageddon games?
+- Any games with missing/malformed TimeControl?
+
+#### ⏳ Task 2.2: Create classify-games.js Script
+**Status:** PENDING
+**Location:** `scripts/classify-games.js`
+
+**Requirements:**
+1. Read consolidated match data (e.g., round-1-matches.json)
+2. For each game in each match:
+   - Parse TimeControl string
+   - Classify as: CLASSICAL, RAPID, BLITZ, or UNKNOWN
+   - Add `timeControlType` field
+3. Calculate match-level statistics:
+   - Games by time control
+   - Match outcome (who won, how)
+   - Tiebreak type (if applicable)
+4. Output classified data
+
+**Output Schema:**
+```javascript
+// data/classified/round-1-classified.json
+{
+  "roundNumber": 1,
+  "roundName": "Round 1",
+  "totalMatches": 78,
+  "totalGames": 218,
+  "gamesByTimeControl": {
+    "classical": 156,  // 78 matches × 2 games
+    "rapid": 45,
+    "blitz": 17,
+    "unknown": 0
+  },
+  "matches": [
+    {
+      "matchId": "round-1-match-1",
+      "players": [...],
+      "games": [
+        {
+          "white": "...",
+          "black": "...",
+          "result": "0-1",
+          "timeControl": "90 minutes...",
+          "timeControlType": "CLASSICAL",  // NEW
+          "date": "2025.11.01"
+        }
+      ],
+      "classicalGames": 2,      // NEW
+      "rapidGames": 0,          // NEW
+      "blitzGames": 0,          // NEW
+      "matchOutcome": {         // NEW
+        "winner": "Erdogmus, Yagiz Kaan",
+        "score": "1.5-0.5",
+        "tiebreakNeeded": false
+      }
+    }
+  ]
+}
+```
+
+#### ⏳ Task 2.3: Write TimeControl Parser Module
+**Status:** PENDING
+**Location:** `scripts/utils/time-control-classifier.js`
+
+**Module API:**
+```javascript
+/**
+ * Parse TimeControl string and classify
+ * @param {string} timeControl - Raw TimeControl field from PGN
+ * @returns {Object} { type: 'CLASSICAL'|'RAPID'|'BLITZ'|'UNKNOWN', parsed: {...} }
+ */
+function classifyTimeControl(timeControl) {
+  // Implementation
+}
+
+module.exports = { classifyTimeControl };
+```
+
+**Classification Logic:**
+```javascript
+1. Normalize string (remove extra spaces, lowercase)
+2. Try to parse time format:
+   - "90 minutes for 40 moves..." → CLASSICAL
+   - "XX+YY" format → Parse base time + increment
+     - If base >= 15 minutes → RAPID
+     - If base < 15 minutes → BLITZ
+   - "XX minutes + YY seconds" → Parse and classify
+3. If unparseable → UNKNOWN (log for manual review)
+```
+
+**Edge Cases:**
+- Missing TimeControl → UNKNOWN
+- Malformed strings → UNKNOWN
+- Armageddon games (white gets more time) → Special handling
+
+#### ⏳ Task 2.4: Calculate Match Outcomes
+**Status:** PENDING
+
+**Logic:**
+```javascript
+For each match:
+1. Count classical game results:
+   - If one player has 1.5+ points → Winner (no tiebreak)
+   - If tied 1-1 → Tiebreak needed
+
+2. If tiebreak needed:
+   - Find first non-draw in rapid games → Rapid winner
+   - If all rapid drawn → Find first non-draw in blitz
+   - Determine tiebreak type used
+
+3. Output:
+   - winner: player name
+   - score: "X-Y" (classical score)
+   - tiebreakNeeded: boolean
+   - tiebreakType: null | 'rapid' | 'blitz'
+   - advancingPlayer: winner name
+```
+
+#### ⏳ Task 2.5: Test on Round 1 Data
+**Status:** PENDING
+
+**Test Cases:**
+1. Match with 2 classical games (no tiebreak):
+   - Example: Match 2 (Li vs Xiong: 1-0, 1/2-1/2 → Xiong wins)
+2. Match with rapid tiebreaks:
+   - Example: Match 17 (Hovhannisyan vs Kavin: 4 games)
+3. Match with blitz tiebreaks:
+   - Example: Match 27 (Thavandiran vs Yuffa: 8 games)
+
+**Validation:**
+- [ ] All 218 games classified
+- [ ] 0 UNKNOWN classifications (or investigate any)
+- [ ] Match outcomes correct (spot-check 10 matches)
+- [ ] Tiebreak detection accurate
+
+#### ⏳ Task 2.6: Generate Separate Time Control Files (Optional)
+**Status:** PENDING
+
+**Goal:** Create filtered datasets for each time control
+
+**Outputs:**
+```
+data/classified/
+├── round-1-classified.json     # Full dataset
+├── round-1-classical.json      # Classical games only
+├── round-1-rapid.json          # Rapid games only
+└── round-1-blitz.json          # Blitz games only
+```
+
+**Use Case:** Stage 4 stats generation can process each time control separately
+
+#### ⏳ Task 2.7: Commit Stage 2
+**Status:** PENDING
+
+**Deliverables:**
+- [ ] classify-games.js script
+- [ ] time-control-classifier.js utility
+- [ ] data/classified/round-1-classified.json
+- [ ] Documentation of TimeControl formats found
+- [ ] Updated IMPLEMENTATION_PLAN.md
+
+---
 
 ---
 
