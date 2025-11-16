@@ -1,7 +1,7 @@
 {
   "roundNumber": 3,
   "roundName": "Round 3 (Round of 16)",
-  "generatedAt": "2025-11-16T21:17:59.608Z",
+  "generatedAt": "2025-11-16T22:24:32.305Z",
   "matchStats": {
     "totalMatches": 32,
     "decidedInClassical": 0,
@@ -1901,6 +1901,91 @@
       "white": "Dubov, Daniil",
       "black": "Meier, Georg"
     }
+  },
+  "timeAwards": {
+    "longestThink": {
+      "white": "Leko, Peter",
+      "black": "Alekseenko, Kirill",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Leko, Peter",
+      "color": "white",
+      "timeSpent": 5794,
+      "moveNumber": 1,
+      "move": "e4",
+      "timeControl": "classical"
+    },
+    "zeitnotAddict": {
+      "white": "Yu, Yangyi",
+      "black": "Narayanan, S",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Yu, Yangyi",
+      "color": "white",
+      "count": 74,
+      "minClock": 12,
+      "timeControl": "classical"
+    },
+    "timeScrambleSurvivor": {
+      "white": "Vachier-Lagrave, Maxime",
+      "black": "Artemiev, Vladislav",
+      "whiteElo": null,
+      "blackElo": null,
+      "winner": "Artemiev, Vladislav",
+      "color": "black",
+      "minClock": 5,
+      "criticalMoves": 23,
+      "timeControl": "classical",
+      "result": "0-1"
+    },
+    "bulletSpeed": {
+      "white": "Vachier-Lagrave, Maxime",
+      "black": "Artemiev, Vladislav",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Vachier-Lagrave, Maxime",
+      "color": "white",
+      "avgTime": 5.441860465116279,
+      "moveCount": 43,
+      "timeControl": "classical"
+    },
+    "openingBlitzer": {
+      "white": "Artemiev, Vladislav",
+      "black": "Vachier-Lagrave, Maxime",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Artemiev, Vladislav",
+      "color": "white",
+      "avgTime": 1.5,
+      "moveCount": 10,
+      "timeControl": "classical"
+    },
+    "premoveMaster": null,
+    "tiebreakPressureKing": null,
+    "classicalTimeBurner": {
+      "white": "Deac, Bogdan-Daniel",
+      "black": "Karthik, Venkataraman",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Deac, Bogdan-Daniel",
+      "color": "white",
+      "finalClock": 14,
+      "totalMoves": 41,
+      "result": "0-1"
+    },
+    "incrementFarmer": {
+      "white": "Vidit, Santosh Gujrathi",
+      "black": "Shankland, Sam",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Shankland, Sam",
+      "color": "black",
+      "netTime": -10,
+      "finalClock": 5390,
+      "totalMoves": 65,
+      "incrementGained": 1950
+    },
+    "timeControlSpecialist": null
   },
   "dataInfo": {
     "totalMatches": 32,

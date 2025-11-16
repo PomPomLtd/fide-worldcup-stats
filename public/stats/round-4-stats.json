@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-16T21:18:02.747Z",
+  "generatedAt": "2025-11-16T22:24:35.420Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -1430,6 +1430,91 @@
       "white": "Wei, Yi",
       "black": "Maghsoodloo, Parham"
     }
+  },
+  "timeAwards": {
+    "longestThink": {
+      "white": "Svane, Frederik",
+      "black": "Sargsyan, Shant",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Svane, Frederik",
+      "color": "white",
+      "timeSpent": 5681,
+      "moveNumber": 1,
+      "move": "e4",
+      "timeControl": "classical"
+    },
+    "zeitnotAddict": {
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Sindarov, Javokhir",
+      "color": "white",
+      "count": 95,
+      "minClock": 15,
+      "timeControl": "classical"
+    },
+    "timeScrambleSurvivor": {
+      "white": "Lodici, Lorenzo",
+      "black": "Sevian, Samuel",
+      "whiteElo": null,
+      "blackElo": null,
+      "winner": "Lodici, Lorenzo",
+      "color": "white",
+      "minClock": 4,
+      "criticalMoves": 36,
+      "timeControl": "classical",
+      "result": "1-0"
+    },
+    "bulletSpeed": {
+      "white": "Maghsoodloo, Parham",
+      "black": "Wei, Yi",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Maghsoodloo, Parham",
+      "color": "white",
+      "avgTime": 2.4545454545454546,
+      "moveCount": 22,
+      "timeControl": "classical"
+    },
+    "openingBlitzer": {
+      "white": "Maghsoodloo, Parham",
+      "black": "Wei, Yi",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Maghsoodloo, Parham",
+      "color": "white",
+      "avgTime": 1.25,
+      "moveCount": 8,
+      "timeControl": "classical"
+    },
+    "premoveMaster": null,
+    "tiebreakPressureKing": null,
+    "classicalTimeBurner": {
+      "white": "Sindarov, Javokhir",
+      "black": "Yu, Yangyi",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Yu, Yangyi",
+      "color": "black",
+      "finalClock": 0,
+      "totalMoves": 114,
+      "result": "1-0"
+    },
+    "incrementFarmer": {
+      "white": "Leko, Peter",
+      "black": "Erigaisi, Arjun",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Erigaisi, Arjun",
+      "color": "black",
+      "netTime": 229,
+      "finalClock": 5629,
+      "totalMoves": 19,
+      "incrementGained": 570
+    },
+    "timeControlSpecialist": null
   },
   "dataInfo": {
     "totalMatches": 16,

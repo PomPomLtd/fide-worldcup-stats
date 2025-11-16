@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 import type { RoundStats } from '@/app/stats/types'
 import { formatPlayerName, formatPlayerVs } from '@/lib/utils'
+import { TimeAwardsSection } from '@/components/stats/time-awards'
 
 // Helper to format player rating display
 function formatRating(rating: number | null | undefined): string {
@@ -728,6 +729,9 @@ export default function RoundPage() {
             </div>
           </div>
         )}
+
+        {/* Time Awards */}
+        <TimeAwardsSection timeAwards={stats.timeAwards} />
 
         {/* Game Phases */}
         {stats.gamePhases && (

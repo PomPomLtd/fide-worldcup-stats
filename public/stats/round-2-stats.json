@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-16T21:17:55.244Z",
+  "generatedAt": "2025-11-16T22:24:27.926Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 0,
@@ -4740,6 +4740,115 @@
       "color": "black",
       "white": "Martinez Alcantara, Jose Eduardo",
       "black": "Ivic, Velimir"
+    }
+  },
+  "timeAwards": {
+    "longestThink": {
+      "white": "Pranesh, M",
+      "black": "Kollars, Dmitrij",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Pranesh, M",
+      "color": "white",
+      "timeSpent": 5556,
+      "moveNumber": 1,
+      "move": "e4",
+      "timeControl": "classical"
+    },
+    "zeitnotAddict": {
+      "white": "Yu, Yangyi",
+      "black": "Blohberger, Felix",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Yu, Yangyi",
+      "color": "white",
+      "count": 102,
+      "minClock": 5,
+      "timeControl": "classical"
+    },
+    "timeScrambleSurvivor": {
+      "white": "Karthikeyan, Murali",
+      "black": "Idani, Pouya",
+      "whiteElo": null,
+      "blackElo": null,
+      "winner": "Karthikeyan, Murali",
+      "color": "white",
+      "minClock": 0,
+      "criticalMoves": 12,
+      "timeControl": "classical",
+      "result": "1-0"
+    },
+    "bulletSpeed": {
+      "white": "Adams, Michael",
+      "black": "Cheparinov, Ivan",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Adams, Michael",
+      "color": "white",
+      "avgTime": 4.583333333333333,
+      "moveCount": 36,
+      "timeControl": "classical"
+    },
+    "openingBlitzer": {
+      "white": "Adams, Michael",
+      "black": "Cheparinov, Ivan",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Adams, Michael",
+      "color": "white",
+      "avgTime": 1.5714285714285714,
+      "moveCount": 7,
+      "timeControl": "classical"
+    },
+    "premoveMaster": null,
+    "tiebreakPressureKing": null,
+    "classicalTimeBurner": {
+      "white": "Idani, Pouya",
+      "black": "Karthikeyan, Murali",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Karthikeyan, Murali",
+      "color": "black",
+      "finalClock": 4,
+      "totalMoves": 18,
+      "result": "1-0"
+    },
+    "incrementFarmer": {
+      "white": "Kuybokarov, Temur",
+      "black": "Praggnanandhaa, R",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Praggnanandhaa, R",
+      "color": "black",
+      "netTime": -4614,
+      "finalClock": 786,
+      "totalMoves": 28,
+      "incrementGained": 840
+    },
+    "timeControlSpecialist": {
+      "player": "Lagarde, Maxime",
+      "specialist": "blitz",
+      "stats": {
+        "classical": {
+          "games": 2,
+          "avgFinalClock": 167,
+          "avgMoves": 46,
+          "ratio": 3.67032967032967
+        },
+        "rapid": {
+          "games": 0,
+          "avgFinalClock": 0,
+          "avgMoves": 0,
+          "ratio": 0
+        },
+        "blitz": {
+          "games": 2,
+          "avgFinalClock": 4855,
+          "avgMoves": 12,
+          "ratio": 404.5833333333333
+        }
+      },
+      "variance": 400.9130036630036
     }
   },
   "dataInfo": {

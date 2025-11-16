@@ -2,6 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git Commit Guidelines
+
+**IMPORTANT:** No AI attribution in commit messages
+- Do NOT add "Generated with Claude Code" or similar
+- Do NOT add "Co-Authored-By: Claude" or AI co-author tags
+- Keep commit messages clean and focused on technical changes
+
 ## Project Overview
 
 FIDE World Cup 2025 Statistics Platform - A Next.js-based static site generator that processes chess tournament PGN files to create comprehensive statistics with beautiful visualizations. Adapted from lichess4545-stats architecture for knockout tournament format.
@@ -148,6 +155,7 @@ scripts/
         ├── match-stats.js        # Match outcomes, tiebreaks
         ├── rating-analysis.js    # Elo-based insights
         ├── fide-fun-awards.js    # Tournament-specific awards
+        ├── time-awards.js        # 10 time-based awards
         └── fun-stats/            # 19+ creative awards
             ├── index.js          # Award orchestrator
             ├── queen-trades.js
@@ -429,6 +437,47 @@ Currently at Stage 4 (Statistics Generation) complete. Stages 5-10 remaining:
 - Round 4 = Quarter-finals
 - Round 5 = Semi-finals
 - Round 6 = Final
+
+## Time-Based Awards
+
+FIDE World Cup PGNs include clock annotations:
+- `[%clk HH:MM:SS]` - Time remaining on clock
+- `[%emt HH:MM:SS]` - Elapsed move time (direct measurement)
+
+**Analyzer:** `scripts/utils/time-analyzer-fide.js`
+- Extracts `%clk` and `%emt` from FIDE PGN annotations
+- Direct time measurement (better than Lichess which requires calculation)
+- Adaptive thresholds by time control (classical/rapid/blitz)
+
+**Calculator:** `scripts/utils/calculators/time-awards.js`
+
+**10 Time Awards:**
+
+*Core Awards (6):*
+1. **🤔 Longest Think** - Most time spent on a single move
+2. **⏰ Zeitnot Addict** - Most moves in time pressure
+3. **🏆 Time Scramble Survivor** - Won while under extreme time pressure
+4. **⚡ Bullet Speed** - Fastest average move time (min 15-20 moves)
+5. **📚 Opening Blitzer** - Fastest average time in opening (first 8-10 moves)
+6. **🏃 Premove Master** - Most instant moves (< 1s classical, < 0.5s rapid/blitz)
+
+*FIDE-Specific Awards (4):*
+7. **🔥 Tiebreak Pressure King** - Won tiebreaks with critical time pressure
+8. **📉 Classical Time Burner** - Used least time in classical games
+9. **🌾 Increment Farmer** - Gained most time from increments (net positive)
+10. **🎯 Time Control Specialist** - Best time management in specific time control
+
+**Adaptive Thresholds:**
+```javascript
+classical:   { zeitnot: 300s, extreme: 120s, critical: 60s, premove: 1.0s }
+rapidTier1:  { zeitnot: 120s, extreme: 60s,  critical: 30s, premove: 0.5s }
+blitzTier1:  { zeitnot: 60s,  extreme: 30s,  critical: 10s, premove: 0.5s }
+```
+
+**Frontend:** `components/stats/time-awards.tsx`
+- Beautiful card-based display with color coding
+- Proper player name formatting via `formatPlayerName()`
+- Time formatting helpers for MM:SS and HH:MM:SS display
 
 ## Known Issues & Gotchas
 

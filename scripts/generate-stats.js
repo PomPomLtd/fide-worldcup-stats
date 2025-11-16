@@ -31,6 +31,7 @@ const { calculateMatchStats } = require('./utils/calculators/match-stats');
 const { calculateRatingAnalysis } = require('./utils/calculators/rating-analysis');
 const { calculateFideFunAwards } = require('./utils/calculators/fide-fun-awards');
 const { calculateFunStats } = require('./utils/calculators/fun-stats');
+const { calculateTimeAwards } = require('./utils/calculators/time-awards');
 
 /**
  * Extract all games from matches
@@ -191,6 +192,11 @@ function generateStatsForRound(roundNum) {
   const funStats = calculateFunStats(allGames);
   console.log('    ✓ Fun Stats complete');
 
+  // Time Awards (time-based awards)
+  console.log('\n  Calculating Time Awards...');
+  const timeAwards = calculateTimeAwards(allGames);
+  console.log('    ✓ Time Awards complete');
+
   // Compile final output
   const statsOutput = {
     // Metadata
@@ -215,6 +221,9 @@ function generateStatsForRound(roundNum) {
 
     // Fun Stats (chess-based awards)
     funStats,
+
+    // Time Awards (time-based awards)
+    timeAwards,
 
     // Raw data info
     dataInfo: {

@@ -502,6 +502,157 @@ export interface FunStats {
 }
 
 // ============================================================================
+// TIME AWARDS (TIME-BASED AWARDS)
+// ============================================================================
+
+export interface TimeAwards {
+  longestThink: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    player: string;
+    color: 'white' | 'black';
+    timeSpent: number;
+    moveNumber: number;
+    move: string;
+    timeControl: string;
+    gameIndex?: number;
+  } | null;
+
+  zeitnotAddict: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    player: string;
+    color: 'white' | 'black';
+    count: number;
+    minClock: number;
+    timeControl: string;
+    gameIndex?: number;
+  } | null;
+
+  timeScrambleSurvivor: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    winner: string;
+    color: 'white' | 'black';
+    minClock: number;
+    criticalMoves: number;
+    timeControl: string;
+    gameIndex?: number;
+    result: string;
+  } | null;
+
+  bulletSpeed: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    player: string;
+    color: 'white' | 'black';
+    avgTime: number;
+    moveCount: number;
+    timeControl: string;
+    gameIndex?: number;
+  } | null;
+
+  openingBlitzer: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    player: string;
+    color: 'white' | 'black';
+    avgTime: number;
+    moveCount: number;
+    timeControl: string;
+    gameIndex?: number;
+  } | null;
+
+  premoveMaster: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    player: string;
+    color: 'white' | 'black';
+    count: number;
+    timeControl: string;
+    gameIndex?: number;
+  } | null;
+
+  tiebreakPressureKing: {
+    player: string;
+    tiebreakWins: number;
+    criticalWins: number;
+    minClock: number;
+    games: Array<{
+      white: string;
+      black: string;
+      timeControl: string;
+      minClock: number;
+    }>;
+  } | null;
+
+  classicalTimeBurner: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    player: string;
+    color: 'white' | 'black';
+    finalClock: number;
+    totalMoves: number;
+    result: string;
+    gameIndex?: number;
+  } | null;
+
+  incrementFarmer: {
+    white: string;
+    black: string;
+    whiteElo: number | null;
+    blackElo: number | null;
+    player: string;
+    color: 'white' | 'black';
+    netTime: number;
+    finalClock: number;
+    totalMoves: number;
+    incrementGained: number;
+    gameIndex?: number;
+  } | null;
+
+  timeControlSpecialist: {
+    player: string;
+    specialist: 'classical' | 'rapid' | 'blitz';
+    stats: {
+      classical: {
+        games: number;
+        avgFinalClock: number;
+        avgMoves: number;
+        ratio: number;
+      };
+      rapid: {
+        games: number;
+        avgFinalClock: number;
+        avgMoves: number;
+        ratio: number;
+      };
+      blitz: {
+        games: number;
+        avgFinalClock: number;
+        avgMoves: number;
+        ratio: number;
+      };
+    };
+    variance: number;
+  } | null;
+}
+
+// ============================================================================
 // DATA INFO
 // ============================================================================
 
@@ -549,6 +700,9 @@ export interface RoundStats {
 
   // Fun Stats (chess-based awards)
   funStats: FunStats;
+
+  // Time Awards (time-based awards)
+  timeAwards: TimeAwards;
 
   // Metadata
   dataInfo: DataInfo;

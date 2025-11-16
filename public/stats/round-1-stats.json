@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T21:17:43.771Z",
+  "generatedAt": "2025-11-16T22:24:16.426Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -6736,6 +6736,134 @@
       "color": "white",
       "white": "Amin, Bassem",
       "black": "Mandizha, Farai"
+    }
+  },
+  "timeAwards": {
+    "longestThink": {
+      "white": "Neelash, Saha",
+      "black": "Meier, Georg",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Neelash, Saha",
+      "color": "white",
+      "timeSpent": 2847,
+      "moveNumber": 33,
+      "move": "c4",
+      "timeControl": "classical"
+    },
+    "zeitnotAddict": {
+      "white": "Bogner, Sebastian",
+      "black": "Stremavicius, Titas",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Stremavicius, Titas",
+      "color": "black",
+      "count": 81,
+      "minClock": 14,
+      "timeControl": "rapidTier1"
+    },
+    "timeScrambleSurvivor": {
+      "white": "Nogerbek, Kazybek",
+      "black": "Raja, Rithvik R",
+      "whiteElo": null,
+      "blackElo": null,
+      "winner": "Nogerbek, Kazybek",
+      "color": "white",
+      "minClock": 4,
+      "criticalMoves": 15,
+      "timeControl": "blitzTier1",
+      "result": "1-0"
+    },
+    "bulletSpeed": {
+      "white": "Adly, Ahmed",
+      "black": "Grigoryan, Karen H.",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Grigoryan, Karen H.",
+      "color": "black",
+      "avgTime": 6.430769230769231,
+      "moveCount": 65,
+      "timeControl": "blitzTier1"
+    },
+    "openingBlitzer": {
+      "white": "Ansat, Aldiyar",
+      "black": "Cori, Jorge",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Ansat, Aldiyar",
+      "color": "white",
+      "avgTime": 1.3333333333333333,
+      "moveCount": 6,
+      "timeControl": "rapidTier1"
+    },
+    "premoveMaster": null,
+    "tiebreakPressureKing": {
+      "player": "Cori, Jorge",
+      "tiebreakWins": 2,
+      "criticalWins": 2,
+      "minClock": 14,
+      "games": [
+        {
+          "white": "Cori, Jorge",
+          "black": "Ansat, Aldiyar",
+          "timeControl": "rapidTier1",
+          "minClock": 18
+        },
+        {
+          "white": "Ansat, Aldiyar",
+          "black": "Cori, Jorge",
+          "timeControl": "rapidTier1",
+          "minClock": 14
+        }
+      ]
+    },
+    "classicalTimeBurner": {
+      "white": "Karthik, Venkataraman",
+      "black": "Garcia Pantoja, Roberto",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Garcia Pantoja, Roberto",
+      "color": "black",
+      "finalClock": 2,
+      "totalMoves": 39,
+      "result": "1-0"
+    },
+    "incrementFarmer": {
+      "white": "Bellahcene, Bilel",
+      "black": "Huschenbeth, Niclas",
+      "whiteElo": null,
+      "blackElo": null,
+      "player": "Bellahcene, Bilel",
+      "color": "white",
+      "netTime": 390,
+      "finalClock": 5790,
+      "totalMoves": 23,
+      "incrementGained": 690
+    },
+    "timeControlSpecialist": {
+      "player": "Stremavicius, Titas",
+      "specialist": "classical",
+      "stats": {
+        "classical": {
+          "games": 2,
+          "avgFinalClock": 2640,
+          "avgMoves": 38,
+          "ratio": 70.38666666666667
+        },
+        "rapid": {
+          "games": 2,
+          "avgFinalClock": 33,
+          "avgMoves": 73,
+          "ratio": 0.45517241379310347
+        },
+        "blitz": {
+          "games": 0,
+          "avgFinalClock": 0,
+          "avgMoves": 0,
+          "ratio": 0
+        }
+      },
+      "variance": 69.93149425287356
     }
   },
   "dataInfo": {
