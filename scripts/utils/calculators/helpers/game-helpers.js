@@ -125,6 +125,46 @@ function getWinner(game) {
   return null;
 }
 
+/**
+ * Get player rating from game object
+ * @param {Object} game - Game object
+ * @param {string} color - 'white' or 'black'
+ * @returns {number|null} Player rating or null if not available
+ */
+function getPlayerRating(game, color) {
+  // Try PGN headers first (lichess4545 format)
+  if (game.headers) {
+    const elo = color === 'white' ? game.headers.WhiteElo : game.headers.BlackElo;
+    if (elo) return parseInt(elo, 10);
+  }
+
+  // Try direct fields (enriched data)
+  if (game.whiteElo && color === 'white') return game.whiteElo;
+  if (game.blackElo && color === 'black') return game.blackElo;
+
+  // Parse from PGN string (FIDE data format)
+  if (game.pgn) {
+    const headerName = color === 'white' ? 'WhiteElo' : 'BlackElo';
+    const regex = new RegExp(`\\[${headerName} "([0-9]+)"\\]`);
+    const match = game.pgn.match(regex);
+    if (match) return parseInt(match[1], 10);
+  }
+
+  return null;
+}
+
+/**
+ * Get both player ratings from game object
+ * @param {Object} game - Game object
+ * @returns {Object} Object with whiteElo and blackElo (may be null)
+ */
+function getPlayerRatings(game) {
+  return {
+    whiteElo: getPlayerRating(game, 'white'),
+    blackElo: getPlayerRating(game, 'black'),
+  };
+}
+
 module.exports = {
   filterGamesWithMoves,
   getPlayerName,
@@ -136,4 +176,6 @@ module.exports = {
   isWhiteWin,
   isBlackWin,
   getWinner,
+  getPlayerRating,
+  getPlayerRatings,
 };

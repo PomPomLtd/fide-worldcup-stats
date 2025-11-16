@@ -1,7 +1,7 @@
 {
   "roundNumber": 3,
   "roundName": "Round 3 (Round of 16)",
-  "generatedAt": "2025-11-16T20:22:44.019Z",
+  "generatedAt": "2025-11-16T20:27:15.311Z",
   "matchStats": {
     "totalMatches": 32,
     "decidedInClassical": 0,
@@ -89,18 +89,24 @@
       "captures": 30,
       "white": "Artemiev, Vladislav",
       "black": "Vachier-Lagrave, Maxime",
+      "whiteElo": 2646,
+      "blackElo": 2737,
       "gameId": "23.2"
     },
     "quietestGame": {
       "captures": 0,
       "white": "Dubov, Daniil",
       "black": "Meier, Georg",
+      "whiteElo": 2684,
+      "blackElo": 2596,
       "gameId": "23.11"
     },
     "longestNonCaptureStreak": {
       "moves": 91,
       "white": "Narayanan, S",
       "black": "Yu, Yangyi",
+      "whiteElo": 2617,
+      "blackElo": 2720,
       "gameId": "20.17"
     },
     "totalUnderpromotions": 0,
@@ -1440,24 +1446,32 @@
       "captures": 30,
       "white": "Artemiev, Vladislav",
       "black": "Vachier-Lagrave, Maxime",
+      "whiteElo": 2646,
+      "blackElo": 2737,
       "gameId": "23.2"
     },
     "pacifist": {
       "captures": 0,
       "white": "Dubov, Daniil",
       "black": "Meier, Georg",
+      "whiteElo": 2684,
+      "blackElo": 2596,
       "gameId": "23.11"
     },
     "speedDemon": null,
     "endgameWizard": {
       "white": "Narayanan, S",
       "black": "Yu, Yangyi",
+      "whiteElo": 2617,
+      "blackElo": 2720,
       "endgameMoves": 99,
       "gameId": "20.17"
     },
     "openingSprinter": {
       "white": "Dubov, Daniil",
       "black": "Meier, Georg",
+      "whiteElo": 2684,
+      "blackElo": 2596,
       "openingMoves": 6,
       "gameId": "23.11"
     }

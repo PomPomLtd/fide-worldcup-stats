@@ -6,7 +6,7 @@
  */
 
 const { analyzeGamePhases } = require('../game-phases');
-const { filterGamesWithMoves, getPlayerNames, getGameId } = require('./helpers/game-helpers');
+const { filterGamesWithMoves, getPlayerNames, getGameId, getPlayerRatings } = require('./helpers/game-helpers');
 const { toFullMoves } = require('./helpers/move-helpers');
 const { calculateTactics } = require('./tactics');
 const { calculateCheckmates } = require('./checkmates');
@@ -78,12 +78,14 @@ function calculateAwards(games, precomputedStats = null) {
     speedDemon: checkmates.fastest,
     endgameWizard: {
       ...getPlayerNames(endgameGame),
+      ...getPlayerRatings(endgameGame),
       endgameMoves: toFullMoves(longestEndgame.moves),
       gameId: getGameId(endgameGame),
     },
     openingSprinter: openingGame
       ? {
           ...getPlayerNames(openingGame),
+          ...getPlayerRatings(openingGame),
           openingMoves: toFullMoves(shortestOpening.moves),
           gameId: getGameId(openingGame),
         }

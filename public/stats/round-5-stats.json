@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Semi-finals)",
-  "generatedAt": "2025-11-16T20:22:46.520Z",
+  "generatedAt": "2025-11-16T20:27:17.819Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 0,
@@ -69,18 +69,24 @@
       "captures": 30,
       "white": "Le, Quang Liem",
       "black": "Donchenko, Alexander",
+      "whiteElo": 2729,
+      "blackElo": 2641,
       "gameId": "43.4"
     },
     "quietestGame": {
       "captures": 5,
       "white": "Esipenko, Andrey",
       "black": "Grebnev, Aleksey",
+      "whiteElo": 2693,
+      "blackElo": 2611,
       "gameId": "42.6"
     },
     "longestNonCaptureStreak": {
       "moves": 38,
       "white": "Shankland, Sam",
       "black": "Dubov, Daniil",
+      "whiteElo": 2654,
+      "blackElo": 2684,
       "gameId": "42.3"
     },
     "totalUnderpromotions": 0,
@@ -632,24 +638,32 @@
       "captures": 30,
       "white": "Le, Quang Liem",
       "black": "Donchenko, Alexander",
+      "whiteElo": 2729,
+      "blackElo": 2641,
       "gameId": "43.4"
     },
     "pacifist": {
       "captures": 5,
       "white": "Esipenko, Andrey",
       "black": "Grebnev, Aleksey",
+      "whiteElo": 2693,
+      "blackElo": 2611,
       "gameId": "42.6"
     },
     "speedDemon": null,
     "endgameWizard": {
       "white": "Le, Quang Liem",
       "black": "Donchenko, Alexander",
+      "whiteElo": 2729,
+      "blackElo": 2641,
       "endgameMoves": 60,
       "gameId": "43.4"
     },
     "openingSprinter": {
       "white": "Wei, Yi",
       "black": "Sevian, Samuel",
+      "whiteElo": 2754,
+      "blackElo": 2698,
       "openingMoves": 7,
       "gameId": "43.7"
     }

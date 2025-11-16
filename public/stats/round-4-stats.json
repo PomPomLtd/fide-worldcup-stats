@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-16T20:22:46.081Z",
+  "generatedAt": "2025-11-16T20:27:17.377Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -69,18 +69,24 @@
       "captures": 28,
       "white": "Maghsoodloo, Parham",
       "black": "Wei, Yi",
+      "whiteElo": 2697,
+      "blackElo": 2754,
       "gameId": "32.7"
     },
     "quietestGame": {
       "captures": 6,
       "white": "Dubov, Daniil",
       "black": "Praggnanandhaa, R",
+      "whiteElo": 2684,
+      "blackElo": 2771,
       "gameId": "33.3"
     },
     "longestNonCaptureStreak": {
       "moves": 124,
       "white": "Sindarov, Javokhir",
       "black": "Yu, Yangyi",
+      "whiteElo": 2721,
+      "blackElo": 2720,
       "gameId": "34.11"
     },
     "totalUnderpromotions": 1,
@@ -1039,24 +1045,32 @@
       "captures": 28,
       "white": "Maghsoodloo, Parham",
       "black": "Wei, Yi",
+      "whiteElo": 2697,
+      "blackElo": 2754,
       "gameId": "32.7"
     },
     "pacifist": {
       "captures": 6,
       "white": "Dubov, Daniil",
       "black": "Praggnanandhaa, R",
+      "whiteElo": 2684,
+      "blackElo": 2771,
       "gameId": "33.3"
     },
     "speedDemon": null,
     "endgameWizard": {
       "white": "Sindarov, Javokhir",
       "black": "Yu, Yangyi",
+      "whiteElo": 2721,
+      "blackElo": 2720,
       "endgameMoves": 99,
       "gameId": "34.11"
     },
     "openingSprinter": {
       "white": "Esipenko, Andrey",
       "black": "Keymer, Vincent",
+      "whiteElo": 2693,
+      "blackElo": 2755,
       "openingMoves": 6,
       "gameId": "35.1"
     }

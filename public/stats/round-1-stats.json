@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-16T20:22:32.904Z",
+  "generatedAt": "2025-11-16T20:27:04.199Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -129,18 +129,24 @@
       "captures": 30,
       "white": "Warmerdam, Max",
       "black": "Lalit, Babu M R",
+      "whiteElo": 2591,
+      "blackElo": 2502,
       "gameId": "1.22"
     },
     "quietestGame": {
       "captures": 4,
       "white": "Aronyak, Ghosh",
       "black": "Bartel, Mateusz",
+      "whiteElo": 2514,
+      "blackElo": 2575,
       "gameId": "3.11"
     },
     "longestNonCaptureStreak": {
       "moves": 124,
       "white": "Adly, Ahmed",
       "black": "Grigoryan, Karen H.",
+      "whiteElo": 2589,
+      "blackElo": 2481,
       "gameId": "6.2"
     },
     "totalUnderpromotions": 1,
@@ -186,6 +192,8 @@
       "moves": 17,
       "white": "Abugenda, Nagi",
       "black": "Erdogmus, Yagiz Kaan",
+      "whiteElo": 1972,
+      "blackElo": 2651,
       "winner": "Black",
       "gameId": "1.1"
     }
@@ -2228,30 +2236,40 @@
       "captures": 30,
       "white": "Warmerdam, Max",
       "black": "Lalit, Babu M R",
+      "whiteElo": 2591,
+      "blackElo": 2502,
       "gameId": "1.22"
     },
     "pacifist": {
       "captures": 4,
       "white": "Aronyak, Ghosh",
       "black": "Bartel, Mateusz",
+      "whiteElo": 2514,
+      "blackElo": 2575,
       "gameId": "3.11"
     },
     "speedDemon": {
       "moves": 17,
       "white": "Abugenda, Nagi",
       "black": "Erdogmus, Yagiz Kaan",
+      "whiteElo": 1972,
+      "blackElo": 2651,
       "winner": "Black",
       "gameId": "1.1"
     },
     "endgameWizard": {
       "white": "Bogner, Sebastian",
       "black": "Stremavicius, Titas",
+      "whiteElo": 2555,
+      "blackElo": 2531,
       "endgameMoves": 96,
       "gameId": "3.5"
     },
     "openingSprinter": {
       "white": "Hovhannisyan, Robert",
       "black": "Kavin, Mohan",
+      "whiteElo": 2633,
+      "blackElo": 2346,
       "openingMoves": 7,
       "gameId": "3.1"
     }
@@ -2342,18 +2360,24 @@
           "captures": 30,
           "white": "Warmerdam, Max",
           "black": "Lalit, Babu M R",
+          "whiteElo": 2591,
+          "blackElo": 2502,
           "gameId": "1.22"
         },
         "quietestGame": {
           "captures": 5,
           "white": "Erdogmus, Yagiz Kaan",
           "black": "Abugenda, Nagi",
+          "whiteElo": 2651,
+          "blackElo": 1972,
           "gameId": "2.1"
         },
         "longestNonCaptureStreak": {
           "moves": 73,
           "white": "Cordoba Roa, Angel Gabriel",
           "black": "Cheparinov, Ivan",
+          "whiteElo": 2392,
+          "blackElo": 2626,
           "gameId": "2.24"
         },
         "totalUnderpromotions": 0,
@@ -2390,6 +2414,8 @@
           "moves": 17,
           "white": "Abugenda, Nagi",
           "black": "Erdogmus, Yagiz Kaan",
+          "whiteElo": 1972,
+          "blackElo": 2651,
           "winner": "Black",
           "gameId": "1.1"
         }
@@ -4080,30 +4106,40 @@
           "captures": 30,
           "white": "Warmerdam, Max",
           "black": "Lalit, Babu M R",
+          "whiteElo": 2591,
+          "blackElo": 2502,
           "gameId": "1.22"
         },
         "pacifist": {
           "captures": 5,
           "white": "Erdogmus, Yagiz Kaan",
           "black": "Abugenda, Nagi",
+          "whiteElo": 2651,
+          "blackElo": 1972,
           "gameId": "2.1"
         },
         "speedDemon": {
           "moves": 17,
           "white": "Abugenda, Nagi",
           "black": "Erdogmus, Yagiz Kaan",
+          "whiteElo": 1972,
+          "blackElo": 2651,
           "winner": "Black",
           "gameId": "1.1"
         },
         "endgameWizard": {
           "white": "Cordoba Roa, Angel Gabriel",
           "black": "Cheparinov, Ivan",
+          "whiteElo": 2392,
+          "blackElo": 2626,
           "endgameMoves": 56,
           "gameId": "2.24"
         },
         "openingSprinter": {
           "white": "Neelash, Saha",
           "black": "Meier, Georg",
+          "whiteElo": 2466,
+          "blackElo": 2596,
           "openingMoves": 7,
           "gameId": "2.9"
         }
@@ -4164,18 +4200,24 @@
           "captures": 28,
           "white": "Flores, Diego",
           "black": "Makhnev, Denis",
+          "whiteElo": 2558,
+          "blackElo": 2525,
           "gameId": "4.3"
         },
         "quietestGame": {
           "captures": 4,
           "white": "Aronyak, Ghosh",
           "black": "Bartel, Mateusz",
+          "whiteElo": 2514,
+          "blackElo": 2575,
           "gameId": "3.11"
         },
         "longestNonCaptureStreak": {
           "moves": 103,
           "white": "Bogner, Sebastian",
           "black": "Stremavicius, Titas",
+          "whiteElo": 2555,
+          "blackElo": 2531,
           "gameId": "3.5"
         },
         "totalUnderpromotions": 0,
@@ -4212,6 +4254,8 @@
           "moves": 52,
           "white": "Subelj, Jan",
           "black": "Kuybokarov, Temur",
+          "whiteElo": 2545,
+          "blackElo": 2535,
           "winner": "Black",
           "gameId": "4.7"
         }
@@ -5010,30 +5054,40 @@
           "captures": 28,
           "white": "Flores, Diego",
           "black": "Makhnev, Denis",
+          "whiteElo": 2558,
+          "blackElo": 2525,
           "gameId": "4.3"
         },
         "pacifist": {
           "captures": 4,
           "white": "Aronyak, Ghosh",
           "black": "Bartel, Mateusz",
+          "whiteElo": 2514,
+          "blackElo": 2575,
           "gameId": "3.11"
         },
         "speedDemon": {
           "moves": 52,
           "white": "Subelj, Jan",
           "black": "Kuybokarov, Temur",
+          "whiteElo": 2545,
+          "blackElo": 2535,
           "winner": "Black",
           "gameId": "4.7"
         },
         "endgameWizard": {
           "white": "Bogner, Sebastian",
           "black": "Stremavicius, Titas",
+          "whiteElo": 2555,
+          "blackElo": 2531,
           "endgameMoves": 96,
           "gameId": "3.5"
         },
         "openingSprinter": {
           "white": "Hovhannisyan, Robert",
           "black": "Kavin, Mohan",
+          "whiteElo": 2633,
+          "blackElo": 2346,
           "openingMoves": 7,
           "gameId": "3.1"
         }
@@ -5089,18 +5143,24 @@
           "captures": 30,
           "white": "Brkic, Ante",
           "black": "Oro, Faustino",
+          "whiteElo": 2578,
+          "blackElo": 2509,
           "gameId": "5.5"
         },
         "quietestGame": {
           "captures": 8,
           "white": "Bartel, Mateusz",
           "black": "Aronyak, Ghosh",
+          "whiteElo": 2575,
+          "blackElo": 2514,
           "gameId": "6.5"
         },
         "longestNonCaptureStreak": {
           "moves": 124,
           "white": "Adly, Ahmed",
           "black": "Grigoryan, Karen H.",
+          "whiteElo": 2589,
+          "blackElo": 2481,
           "gameId": "6.2"
         },
         "totalUnderpromotions": 1,
@@ -5598,24 +5658,32 @@
           "captures": 30,
           "white": "Brkic, Ante",
           "black": "Oro, Faustino",
+          "whiteElo": 2578,
+          "blackElo": 2509,
           "gameId": "5.5"
         },
         "pacifist": {
           "captures": 8,
           "white": "Bartel, Mateusz",
           "black": "Aronyak, Ghosh",
+          "whiteElo": 2575,
+          "blackElo": 2514,
           "gameId": "6.5"
         },
         "speedDemon": null,
         "endgameWizard": {
           "white": "Grigoryan, Karen H.",
           "black": "Adly, Ahmed",
+          "whiteElo": 2481,
+          "blackElo": 2589,
           "endgameMoves": 80,
           "gameId": "5.2"
         },
         "openingSprinter": {
           "white": "Oro, Faustino",
           "black": "Brkic, Ante",
+          "whiteElo": 2509,
+          "blackElo": 2578,
           "openingMoves": 8,
           "gameId": "6.4"
         }
@@ -5671,18 +5739,24 @@
           "captures": 27,
           "white": "Adly, Ahmed",
           "black": "Grigoryan, Karen H.",
+          "whiteElo": 2589,
+          "blackElo": 2481,
           "gameId": "8.2"
         },
         "quietestGame": {
           "captures": 15,
           "white": "Oro, Faustino",
           "black": "Brkic, Ante",
+          "whiteElo": 2509,
+          "blackElo": 2578,
           "gameId": "7.4"
         },
         "longestNonCaptureStreak": {
           "moves": 73,
           "white": "Adly, Ahmed",
           "black": "Grigoryan, Karen H.",
+          "whiteElo": 2589,
+          "blackElo": 2481,
           "gameId": "8.2"
         },
         "totalUnderpromotions": 0,
@@ -6145,24 +6219,32 @@
           "captures": 27,
           "white": "Adly, Ahmed",
           "black": "Grigoryan, Karen H.",
+          "whiteElo": 2589,
+          "blackElo": 2481,
           "gameId": "8.2"
         },
         "pacifist": {
           "captures": 15,
           "white": "Oro, Faustino",
           "black": "Brkic, Ante",
+          "whiteElo": 2509,
+          "blackElo": 2578,
           "gameId": "7.4"
         },
         "speedDemon": null,
         "endgameWizard": {
           "white": "Adly, Ahmed",
           "black": "Grigoryan, Karen H.",
+          "whiteElo": 2589,
+          "blackElo": 2481,
           "endgameMoves": 53,
           "gameId": "8.2"
         },
         "openingSprinter": {
           "white": "Lalit, Babu M R",
           "black": "Warmerdam, Max",
+          "whiteElo": 2502,
+          "blackElo": 2582,
           "openingMoves": 8,
           "gameId": "7.3"
         }

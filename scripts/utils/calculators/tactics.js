@@ -6,7 +6,7 @@
  * Calculates all statistics from moveList for maximum flexibility.
  */
 
-const { filterGamesWithMoves, getPlayerNames, getGameId } = require('./helpers/game-helpers');
+const { filterGamesWithMoves, getPlayerNames, getGameId, getPlayerRatings } = require('./helpers/game-helpers');
 const { isCapture, isPromotion, isCastling, isEnPassant, getCastlingSide, getMoveNumber } = require('./helpers/move-helpers');
 const { getPieceName } = require('./helpers/piece-helpers');
 
@@ -134,8 +134,11 @@ function calculateTactics(games) {
 
   // Format bloodiest game output
   const bloodiestPlayers = getPlayerNames(bloodiestGame.game);
+  const bloodiestRatings = getPlayerRatings(bloodiestGame.game);
   const quietestPlayers = getPlayerNames(quietestGame.game);
+  const quietestRatings = getPlayerRatings(quietestGame.game);
   const streakPlayers = getPlayerNames(longestNonCaptureStreak.game);
+  const streakRatings = getPlayerRatings(longestNonCaptureStreak.game);
 
   return {
     totalCaptures,
@@ -151,18 +154,24 @@ function calculateTactics(games) {
       captures: bloodiestGame.captures,
       white: bloodiestPlayers.white,
       black: bloodiestPlayers.black,
+      whiteElo: bloodiestRatings.whiteElo,
+      blackElo: bloodiestRatings.blackElo,
       gameId: getGameId(bloodiestGame.game),
     },
     quietestGame: {
       captures: quietestGame.captures,
       white: quietestPlayers.white,
       black: quietestPlayers.black,
+      whiteElo: quietestRatings.whiteElo,
+      blackElo: quietestRatings.blackElo,
       gameId: getGameId(quietestGame.game),
     },
     longestNonCaptureStreak: {
       moves: longestNonCaptureStreak.moves,
       white: streakPlayers.white,
       black: streakPlayers.black,
+      whiteElo: streakRatings.whiteElo,
+      blackElo: streakRatings.blackElo,
       gameId: getGameId(longestNonCaptureStreak.game),
     },
     totalUnderpromotions,

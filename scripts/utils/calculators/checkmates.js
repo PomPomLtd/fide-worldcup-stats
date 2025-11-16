@@ -5,7 +5,7 @@
  * and tracks the fastest checkmate in the round.
  */
 
-const { filterGamesWithMoves, getPlayerNames, getGameId, getResult } = require('./helpers/game-helpers');
+const { filterGamesWithMoves, getPlayerNames, getGameId, getResult, getPlayerRatings } = require('./helpers/game-helpers');
 const { isCheckmate, getMoveNumber } = require('./helpers/move-helpers');
 const { getPieceName } = require('./helpers/piece-helpers');
 
@@ -85,10 +85,13 @@ function calculateCheckmates(games) {
   let fastestMateOutput = null;
   if (fastestMate.moves !== Infinity) {
     const players = getPlayerNames(fastestMate.game);
+    const ratings = getPlayerRatings(fastestMate.game);
     fastestMateOutput = {
       moves: fastestMate.moves,
       white: players.white,
       black: players.black,
+      whiteElo: ratings.whiteElo,
+      blackElo: ratings.blackElo,
       winner: fastestMate.mateMove.color === 'w' ? 'White' : 'Black',
       gameId: getGameId(fastestMate.game),
     };

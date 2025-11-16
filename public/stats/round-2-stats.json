@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-16T20:22:41.101Z",
+  "generatedAt": "2025-11-16T20:27:12.400Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 0,
@@ -111,18 +111,24 @@
       "captures": 30,
       "white": "Gukesh, D",
       "black": "Nogerbek, Kazybek",
+      "whiteElo": 2752,
+      "blackElo": 2543,
       "gameId": "9.1"
     },
     "quietestGame": {
       "captures": 0,
       "white": "Lagarde, Maxime",
       "black": "Wojtaszek, Radoslaw",
+      "whiteElo": 2609,
+      "blackElo": 2661,
       "gameId": "10.47"
     },
     "longestNonCaptureStreak": {
       "moves": 126,
       "white": "Martinez Alcantara, Jose Eduardo",
       "black": "Ivic, Velimir",
+      "whiteElo": 2644,
+      "blackElo": 2628,
       "gameId": "11.23"
     },
     "totalUnderpromotions": 0,
@@ -159,6 +165,8 @@
       "moves": 40,
       "white": "Zemlyanskii, Ivan",
       "black": "Robson, Ray",
+      "whiteElo": 2596,
+      "blackElo": 2664,
       "winner": "White",
       "gameId": "9.36"
     }
@@ -2326,30 +2334,40 @@
       "captures": 30,
       "white": "Gukesh, D",
       "black": "Nogerbek, Kazybek",
+      "whiteElo": 2752,
+      "blackElo": 2543,
       "gameId": "9.1"
     },
     "pacifist": {
       "captures": 0,
       "white": "Lagarde, Maxime",
       "black": "Wojtaszek, Radoslaw",
+      "whiteElo": 2609,
+      "blackElo": 2661,
       "gameId": "10.47"
     },
     "speedDemon": {
       "moves": 40,
       "white": "Zemlyanskii, Ivan",
       "black": "Robson, Ray",
+      "whiteElo": 2596,
+      "blackElo": 2664,
       "winner": "White",
       "gameId": "9.36"
     },
     "endgameWizard": {
       "white": "Yu, Yangyi",
       "black": "Blohberger, Felix",
+      "whiteElo": 2720,
+      "blackElo": 2513,
       "endgameMoves": 105,
       "gameId": "15.2"
     },
     "openingSprinter": {
       "white": "Xiong, Jeffery",
       "black": "Yuffa, Daniil",
+      "whiteElo": 2640,
+      "blackElo": 2648,
       "openingMoves": 7,
       "gameId": "10.52"
     }
@@ -2440,18 +2458,24 @@
           "captures": 30,
           "white": "Gukesh, D",
           "black": "Nogerbek, Kazybek",
+          "whiteElo": 2752,
+          "blackElo": 2543,
           "gameId": "9.1"
         },
         "quietestGame": {
           "captures": 0,
           "white": "Lagarde, Maxime",
           "black": "Wojtaszek, Radoslaw",
+          "whiteElo": 2609,
+          "blackElo": 2661,
           "gameId": "10.47"
         },
         "longestNonCaptureStreak": {
           "moves": 105,
           "white": "Anton Guijarro, David",
           "black": "Donchenko, Alexander",
+          "whiteElo": 2625,
+          "blackElo": 2624,
           "gameId": "10.61"
         },
         "totalUnderpromotions": 0,
@@ -2488,6 +2512,8 @@
           "moves": 40,
           "white": "Zemlyanskii, Ivan",
           "black": "Robson, Ray",
+          "whiteElo": 2596,
+          "blackElo": 2664,
           "winner": "White",
           "gameId": "9.36"
         }
@@ -4074,30 +4100,40 @@
           "captures": 30,
           "white": "Gukesh, D",
           "black": "Nogerbek, Kazybek",
+          "whiteElo": 2752,
+          "blackElo": 2543,
           "gameId": "9.1"
         },
         "pacifist": {
           "captures": 0,
           "white": "Lagarde, Maxime",
           "black": "Wojtaszek, Radoslaw",
+          "whiteElo": 2609,
+          "blackElo": 2661,
           "gameId": "10.47"
         },
         "speedDemon": {
           "moves": 40,
           "white": "Zemlyanskii, Ivan",
           "black": "Robson, Ray",
+          "whiteElo": 2596,
+          "blackElo": 2664,
           "winner": "White",
           "gameId": "9.36"
         },
         "endgameWizard": {
           "white": "Yu, Yangyi",
           "black": "Blohberger, Felix",
+          "whiteElo": 2720,
+          "blackElo": 2513,
           "endgameMoves": 87,
           "gameId": "9.17"
         },
         "openingSprinter": {
           "white": "Xiong, Jeffery",
           "black": "Yuffa, Daniil",
+          "whiteElo": 2640,
+          "blackElo": 2648,
           "openingMoves": 7,
           "gameId": "10.52"
         }
