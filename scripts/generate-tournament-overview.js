@@ -79,8 +79,8 @@ function aggregateTotals(rounds) {
       }
     }
 
-    // Find shortest game
-    if (round.overview?.shortestGame) {
+    // Find shortest game (exclude forfeits - games with less than 10 moves)
+    if (round.overview?.shortestGame && round.overview.shortestGame.moves >= 10) {
       if (!shortestGame || round.overview.shortestGame.moves < shortestGame.moves) {
         shortestGame = {
           ...round.overview.shortestGame,
@@ -91,12 +91,18 @@ function aggregateTotals(rounds) {
 
     // Aggregate piece captures
     if (round.pieces?.captured) {
-      piecesCaptured.pawns += round.pieces.captured.pawns || 0;
-      piecesCaptured.knights += round.pieces.captured.knights || 0;
-      piecesCaptured.bishops += round.pieces.captured.bishops || 0;
-      piecesCaptured.rooks += round.pieces.captured.rooks || 0;
-      piecesCaptured.queens += round.pieces.captured.queens || 0;
-      piecesCaptured.total += (round.pieces.captured.total || 0);
+      const pawns = round.pieces.captured.pawns || 0;
+      const knights = round.pieces.captured.knights || 0;
+      const bishops = round.pieces.captured.bishops || 0;
+      const rooks = round.pieces.captured.rooks || 0;
+      const queens = round.pieces.captured.queens || 0;
+
+      piecesCaptured.pawns += pawns;
+      piecesCaptured.knights += knights;
+      piecesCaptured.bishops += bishops;
+      piecesCaptured.rooks += rooks;
+      piecesCaptured.queens += queens;
+      piecesCaptured.total += pawns + knights + bishops + rooks + queens;
     }
   });
 
@@ -170,9 +176,15 @@ function findHallOfFame(rounds) {
   rounds.forEach(round => {
     if (round.ratingAnalysis?.biggestUpset) {
       const upset = round.ratingAnalysis.biggestUpset;
-      if (!biggestUpset || upset.ratingDiff > biggestUpset.ratingDiff) {
+      const ratingDiff = upset.eloDifference || upset.ratingDiff || 0;
+
+      if (!biggestUpset || ratingDiff > biggestUpset.ratingDiff) {
         biggestUpset = {
-          ...upset,
+          winner: upset.underdog,
+          loser: upset.favorite,
+          winnerRating: upset.underdogRating,
+          loserRating: upset.favoriteRating,
+          ratingDiff: ratingDiff,
           roundNumber: round.roundNumber
         };
       }

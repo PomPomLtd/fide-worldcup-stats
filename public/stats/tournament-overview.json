@@ -3,7 +3,7 @@
   "location": "Goa, India",
   "totalRounds": 7,
   "roundsCompleted": 5,
-  "generatedAt": "2025-11-17T09:44:27.575Z",
+  "generatedAt": "2025-11-17T10:23:05.747Z",
   "overall": {
     "totalGames": 635,
     "totalMatches": 198,
@@ -18,12 +18,12 @@
       "roundNumber": 5
     },
     "shortestGame": {
-      "moves": 1,
-      "white": "Svane, Frederik",
-      "black": "Husbands, Orlando",
-      "result": "1-0",
-      "gameId": "1.14",
-      "roundNumber": 1
+      "moves": 12,
+      "white": "Dubov, Daniil",
+      "black": "Praggnanandhaa, R",
+      "result": "1/2-1/2",
+      "gameId": "33.3",
+      "roundNumber": 4
     },
     "piecesCaptured": {
       "pawns": 5566,
@@ -31,7 +31,7 @@
       "bishops": 1904,
       "rooks": 1402,
       "queens": 803,
-      "total": 0
+      "total": 11652
     }
   },
   "byRound": [
@@ -98,15 +98,12 @@
   ],
   "hallOfFame": {
     "biggestUpset": {
-      "underdog": "Wang, Shixu B",
-      "underdogRating": 2402,
-      "favorite": "Mendonca, Leon Luke",
-      "favoriteRating": 2620,
-      "eloDifference": 218,
-      "result": "1-0",
-      "white": "Wang, Shixu B",
-      "black": "Mendonca, Leon Luke",
-      "roundNumber": 1
+      "winner": "Kuybokarov, Temur",
+      "loser": "Praggnanandhaa, R",
+      "winnerRating": 2535,
+      "loserRating": 2771,
+      "ratingDiff": 236,
+      "roundNumber": 2
     }
   },
   "awardFrequency": {
