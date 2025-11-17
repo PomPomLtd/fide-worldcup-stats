@@ -134,15 +134,54 @@ function analyzeMatchOutcome(match) {
   }
 
   // Determine tiebreak type based on when match was decided
-  if (lastClassification) {
-    if (gameDetails.length === 2 && lastClassification.type === 'CLASSICAL') {
-      tiebreakType = 'CLASSICAL'; // Decided in classical games
-    } else if (lastClassification.type === 'RAPID') {
-      tiebreakType = `RAPID_TIER_${lastClassification.tier}`;
-    } else if (lastClassification.type === 'BLITZ') {
-      tiebreakType = `BLITZ_TIER_${lastClassification.tier}`;
-    } else if (lastClassification.type === 'ARMAGEDDON') {
-      tiebreakType = 'ARMAGEDDON';
+  // Find at which game the match was actually decided
+  let decisiveGameIndex = -1;
+  let runningScores = { [player1]: 0, [player2]: 0 };
+
+  for (let i = 0; i < gameDetails.length; i++) {
+    const game = gameDetails[i];
+    const whiteScore = getScoreForColor(game.result, 'white');
+    const blackScore = getScoreForColor(game.result, 'black');
+
+    if (whiteScore !== null) {
+      runningScores[game.white] = (runningScores[game.white] || 0) + whiteScore;
+    }
+    if (blackScore !== null) {
+      runningScores[game.black] = (runningScores[game.black] || 0) + blackScore;
+    }
+
+    // Check if match is decided (one player has more points than opponent can catch)
+    const gamesLeft = gameDetails.length - (i + 1);
+    const score1 = runningScores[player1] || 0;
+    const score2 = runningScores[player2] || 0;
+    const leadNeeded = gamesLeft; // Maximum points opponent can still score
+
+    if (Math.abs(score1 - score2) > leadNeeded) {
+      decisiveGameIndex = i;
+      break;
+    }
+  }
+
+  // If match went to the end without being mathematically decided earlier
+  if (decisiveGameIndex === -1 && winner) {
+    decisiveGameIndex = gameDetails.length - 1;
+  }
+
+  // Set tiebreak type based on the decisive game
+  if (decisiveGameIndex >= 0) {
+    const decisiveGame = gameDetails[decisiveGameIndex];
+    const decisiveClassification = classifyByRoundField(decisiveGame.round);
+
+    if (decisiveClassification) {
+      if (decisiveClassification.type === 'CLASSICAL') {
+        tiebreakType = 'CLASSICAL';
+      } else if (decisiveClassification.type === 'RAPID') {
+        tiebreakType = `RAPID_TIER_${decisiveClassification.tier}`;
+      } else if (decisiveClassification.type === 'BLITZ') {
+        tiebreakType = `BLITZ_TIER_${decisiveClassification.tier}`;
+      } else if (decisiveClassification.type === 'ARMAGEDDON') {
+        tiebreakType = 'ARMAGEDDON';
+      }
     }
   }
 
