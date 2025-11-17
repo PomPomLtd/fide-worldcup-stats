@@ -1005,6 +1005,17 @@ export interface TournamentOverview {
     } | null;
   };
   awardFrequency: Record<string, number>;
+  playerLeaderboard: Array<{
+    name: string;
+    totalAwards: number;
+    byCategory: Record<string, number>;
+    awards: Array<{
+      category: string;
+      awardKey: string;
+      roundNumber: number;
+      roundName: string;
+    }>;
+  }>;
   trends: {
     avgGameLengthByRound: number[];
     whiteWinRateByRound: number[];

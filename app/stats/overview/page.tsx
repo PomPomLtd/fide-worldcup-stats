@@ -5,6 +5,7 @@ import type { TournamentOverview } from '@/app/stats/types'
 import { TournamentHero } from '@/components/stats/overview/tournament-hero'
 import { RoundSummaryTable } from '@/components/stats/overview/round-summary-table'
 import { HallOfFame } from '@/components/stats/overview/hall-of-fame'
+import { PlayerLeaderboard } from '@/components/stats/overview/player-leaderboard'
 
 export default function TournamentOverviewPage() {
   const [overview, setOverview] = useState<TournamentOverview | null>(null)
@@ -59,6 +60,7 @@ export default function TournamentOverviewPage() {
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         <TournamentHero overview={overview} />
         <HallOfFame hallOfFame={overview.hallOfFame} overall={overview.overall} />
+        <PlayerLeaderboard players={overview.playerLeaderboard} />
         <RoundSummaryTable rounds={overview.byRound} />
       </div>
     </div>

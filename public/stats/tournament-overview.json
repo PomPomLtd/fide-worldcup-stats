@@ -3,7 +3,7 @@
   "location": "Goa, India",
   "totalRounds": 7,
   "roundsCompleted": 5,
-  "generatedAt": "2025-11-17T10:23:05.747Z",
+  "generatedAt": "2025-11-17T10:50:23.474Z",
   "overall": {
     "totalGames": 635,
     "totalMatches": 198,
@@ -147,8 +147,6 @@
     "funStats.deepStrike": 5,
     "funStats.crosshairs": 5,
     "funStats.longestTension": 5,
-    "analysis.games": 5,
-    "analysis.summary": 5,
     "timeAwards.longestThink": 5,
     "timeAwards.zeitnotAddict": 5,
     "timeAwards.timeScrambleSurvivor": 5,
@@ -157,10 +155,1688 @@
     "timeAwards.premoveMaster": 5,
     "timeAwards.tiebreakPressureKing": 5,
     "timeAwards.classicalTimeBurner": 5,
-    "timeAwards.incrementFarmer": 5,
-    "timeAwards.timeControlSpecialist": 5,
-    "timeAwards.sadTimes": 2
+    "timeAwards.timeControlSpecialist": 5
   },
+  "playerLeaderboard": [
+    {
+      "name": "Yu, Yangyi",
+      "totalAwards": 31,
+      "byCategory": {
+        "awards": 3,
+        "fideFunAwards": 2,
+        "funStats": 19,
+        "timeAwards": 7
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "darkLord",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lightLord",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "crosshairs",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestQueenTrade",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCaptureSequence",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "sportyQueen",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCheckSequence",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "sportyQueen",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Donchenko, Alexander",
+      "totalAwards": 21,
+      "byCategory": {
+        "fideFunAwards": 5,
+        "funStats": 8,
+        "awards": 1,
+        "timeAwards": 7
+      },
+      "awards": [
+        {
+          "category": "fideFunAwards",
+          "awardKey": "giantSlayer",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "pawnStorm",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "crosshairs",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "bloodbath",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "giantSlayer",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "upsetArtist",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCaptureSequence",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCheckSequence",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "pawnStorm",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "castlingRace",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "sportyQueen",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lightLord",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Esipenko, Andrey",
+      "totalAwards": 19,
+      "byCategory": {
+        "funStats": 14,
+        "awards": 3,
+        "timeAwards": 2
+      },
+      "awards": [
+        {
+          "category": "funStats",
+          "awardKey": "fastestQueenTrade",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "rookLift",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "openingSprinter",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "castlingRace",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "pacifist",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestQueenTrade",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "openingHipster",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "rookLift",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lateBloomer",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lateBloomer",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "quickDraw",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "quickDraw",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Sindarov, Javokhir",
+      "totalAwards": 14,
+      "byCategory": {
+        "awards": 1,
+        "funStats": 10,
+        "timeAwards": 3
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCheckSequence",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "sportyQueen",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "darkLord",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "antiOrthogonal",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "deepStrike",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "deepStrike",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestTension",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Maghsoodloo, Parham",
+      "totalAwards": 13,
+      "byCategory": {
+        "funStats": 7,
+        "awards": 1,
+        "fideFunAwards": 1,
+        "timeAwards": 4
+      },
+      "awards": [
+        {
+          "category": "funStats",
+          "awardKey": "lateBloomer",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestTension",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "awards",
+          "awardKey": "bloodbath",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "fortressBuilder",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "fastestQueenTrade",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "comfortZone",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "deepStrike",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "deepStrike",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Svane, Frederik",
+      "totalAwards": 13,
+      "byCategory": {
+        "funStats": 11,
+        "timeAwards": 2
+      },
+      "awards": [
+        {
+          "category": "funStats",
+          "awardKey": "castlingRace",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "homebody",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "darkLord",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lateBloomer",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lateBloomer",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "homebody",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "homebody",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "longestThink",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "longestThink",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "darkLord",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "antiOrthogonal",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "deepStrike",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestTension",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Le, Quang Liem",
+      "totalAwards": 13,
+      "byCategory": {
+        "awards": 1,
+        "fideFunAwards": 1,
+        "funStats": 6,
+        "timeAwards": 5
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "bloodbath",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCaptureSequence",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCheckSequence",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "pawnStorm",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "castlingRace",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "sportyQueen",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lightLord",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Grebnev, Aleksey",
+      "totalAwards": 12,
+      "byCategory": {
+        "awards": 2,
+        "funStats": 9,
+        "timeAwards": 1
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "pacifist",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestQueenTrade",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "openingHipster",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "rookLift",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lateBloomer",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "quickDraw",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Narayanan, S",
+      "totalAwards": 10,
+      "byCategory": {
+        "awards": 1,
+        "funStats": 8,
+        "timeAwards": 1
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestQueenTrade",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCaptureSequence",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "sportyQueen",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        }
+      ]
+    },
+    {
+      "name": "Sevian, Samuel",
+      "totalAwards": 10,
+      "byCategory": {
+        "funStats": 6,
+        "fideFunAwards": 2,
+        "timeAwards": 1,
+        "awards": 1
+      },
+      "awards": [
+        {
+          "category": "funStats",
+          "awardKey": "longestCheckSequence",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestQueenTrade",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCaptureSequence",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestCastling",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "openingSprinter",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Wei, Yi",
+      "totalAwards": 10,
+      "byCategory": {
+        "awards": 2,
+        "fideFunAwards": 1,
+        "funStats": 5,
+        "timeAwards": 2
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "bloodbath",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "fortressBuilder",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "fastestQueenTrade",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "comfortZone",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "deepStrike",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "openingSprinter",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Blohberger, Felix",
+      "totalAwards": 9,
+      "byCategory": {
+        "awards": 1,
+        "fideFunAwards": 1,
+        "funStats": 6,
+        "timeAwards": 1
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "endgameWizard",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "dadbodShuffler",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "darkLord",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lightLord",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "crosshairs",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "zeitnotAddict",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        }
+      ]
+    },
+    {
+      "name": "Artemiev, Vladislav",
+      "totalAwards": 9,
+      "byCategory": {
+        "awards": 1,
+        "fideFunAwards": 2,
+        "funStats": 1,
+        "timeAwards": 5
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "bloodbath",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "fortressBuilder",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lightLord",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        }
+      ]
+    },
+    {
+      "name": "Dubov, Daniil",
+      "totalAwards": 9,
+      "byCategory": {
+        "awards": 3,
+        "funStats": 5,
+        "timeAwards": 1
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "pacifist",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "openingSprinter",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "comfortZone",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestTension",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "awards",
+          "awardKey": "pacifist",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "fastestQueenTrade",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestCastling",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "pawnCaptures",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "longestThink",
+          "roundNumber": 5,
+          "roundName": "Round 5 (Semi-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Lodici, Lorenzo",
+      "totalAwards": 9,
+      "byCategory": {
+        "fideFunAwards": 3,
+        "funStats": 4,
+        "timeAwards": 2
+      },
+      "awards": [
+        {
+          "category": "fideFunAwards",
+          "awardKey": "giantSlayer",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "upsetArtist",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestQueenTrade",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "longestCaptureSequence",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "slowestCastling",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 4,
+          "roundName": "Round 4 (Quarter-finals)"
+        }
+      ]
+    },
+    {
+      "name": "Adly, Ahmed",
+      "totalAwards": 8,
+      "byCategory": {
+        "fideFunAwards": 2,
+        "funStats": 5,
+        "timeAwards": 1
+      },
+      "awards": [
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "openingHipster",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        }
+      ]
+    },
+    {
+      "name": "Grigoryan, Karen H.",
+      "totalAwards": 8,
+      "byCategory": {
+        "fideFunAwards": 1,
+        "funStats": 5,
+        "timeAwards": 2
+      },
+      "awards": [
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "squareTourist",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "openingHipster",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "edgeLord",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 1,
+          "roundName": "Round 1"
+        }
+      ]
+    },
+    {
+      "name": "Karthikeyan, Murali",
+      "totalAwards": 8,
+      "byCategory": {
+        "funStats": 4,
+        "timeAwards": 4
+      },
+      "awards": [
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "pawnCaptures",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "antiOrthogonal",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        }
+      ]
+    },
+    {
+      "name": "Idani, Pouya",
+      "totalAwards": 8,
+      "byCategory": {
+        "funStats": 6,
+        "timeAwards": 2
+      },
+      "awards": [
+        {
+          "category": "funStats",
+          "awardKey": "centerStage",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "chickenAward",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "pawnCaptures",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "antiOrthogonal",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "classicalTimeBurner",
+          "roundNumber": 2,
+          "roundName": "Round 2"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "fastestQueenTrade",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "rookLift",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        }
+      ]
+    },
+    {
+      "name": "Vachier-Lagrave, Maxime",
+      "totalAwards": 8,
+      "byCategory": {
+        "awards": 1,
+        "fideFunAwards": 2,
+        "funStats": 1,
+        "timeAwards": 4
+      },
+      "awards": [
+        {
+          "category": "awards",
+          "awardKey": "bloodbath",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "marathonMaster",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "fideFunAwards",
+          "awardKey": "fortressBuilder",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "funStats",
+          "awardKey": "lightLord",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "timeScrambleSurvivor",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "bulletSpeed",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        },
+        {
+          "category": "timeAwards",
+          "awardKey": "openingBlitzer",
+          "roundNumber": 3,
+          "roundName": "Round 3 (Round of 16)"
+        }
+      ]
+    }
+  ],
   "trends": {
     "avgGameLengthByRound": [
       47.1,

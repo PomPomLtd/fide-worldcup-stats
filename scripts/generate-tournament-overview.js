@@ -148,10 +148,34 @@ function calculateUpsetRate(round) {
 }
 
 /**
- * Find Hall of Fame entries across all rounds
+ * Extract player name from award data
  */
-function findHallOfFame(rounds) {
-  const allAwards = [];
+function extractPlayerNames(awardData) {
+  const players = [];
+
+  // Check various fields where player names might be
+  if (awardData.player) players.push(awardData.player);
+  if (awardData.playerName) players.push(awardData.playerName);
+  if (awardData.winner) players.push(awardData.winner);
+
+  // For game awards (white vs black)
+  if (awardData.white) players.push(awardData.white);
+  if (awardData.black) players.push(awardData.black);
+
+  // For match awards (split "Player1 vs Player2")
+  if (awardData.players && typeof awardData.players === 'string') {
+    const split = awardData.players.split(' vs ');
+    players.push(...split.map(p => p.trim()));
+  }
+
+  return players;
+}
+
+/**
+ * Calculate player award leaderboard
+ */
+function calculatePlayerAwards(rounds) {
+  const playerAwards = {};
 
   rounds.forEach(round => {
     // Collect all awards from different categories
@@ -159,11 +183,33 @@ function findHallOfFame(rounds) {
       if (round[category]) {
         Object.entries(round[category]).forEach(([awardKey, awardData]) => {
           if (awardData && typeof awardData === 'object') {
-            allAwards.push({
-              category,
-              awardKey,
-              roundNumber: round.roundNumber,
-              ...awardData
+            const players = extractPlayerNames(awardData);
+
+            players.forEach(player => {
+              if (player && player !== 'Unknown') {
+                if (!playerAwards[player]) {
+                  playerAwards[player] = {
+                    name: player,
+                    totalAwards: 0,
+                    byCategory: {},
+                    awards: []
+                  };
+                }
+
+                playerAwards[player].totalAwards++;
+
+                if (!playerAwards[player].byCategory[category]) {
+                  playerAwards[player].byCategory[category] = 0;
+                }
+                playerAwards[player].byCategory[category]++;
+
+                playerAwards[player].awards.push({
+                  category,
+                  awardKey,
+                  roundNumber: round.roundNumber,
+                  roundName: round.roundName
+                });
+              }
             });
           }
         });
@@ -171,6 +217,18 @@ function findHallOfFame(rounds) {
     });
   });
 
+  // Convert to array and sort by total awards
+  const leaderboard = Object.values(playerAwards)
+    .sort((a, b) => b.totalAwards - a.totalAwards)
+    .slice(0, 20); // Top 20 players
+
+  return leaderboard;
+}
+
+/**
+ * Find Hall of Fame entries across all rounds
+ */
+function findHallOfFame(rounds) {
   // Find biggest upset
   let biggestUpset = null;
   rounds.forEach(round => {
@@ -296,6 +354,9 @@ async function main() {
     console.log('  - Analyzing award frequency...');
     const awardFrequency = analyzeAwardFrequency(rounds);
 
+    console.log('  - Calculating player leaderboard...');
+    const playerLeaderboard = calculatePlayerAwards(rounds);
+
     console.log('  - Analyzing openings...');
     const openings = analyzeOpenings(rounds);
 
@@ -311,6 +372,7 @@ async function main() {
       byRound,
       hallOfFame,
       awardFrequency,
+      playerLeaderboard,
       trends,
       openings,
 
