@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-16T23:25:23.213Z",
+  "generatedAt": "2025-11-17T03:08:42.041Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -1571,26 +1571,28 @@
         "gameId": "Goa, India",
         "white": "Svane, Frederik",
         "black": "Sargsyan, Shant",
-        "whiteACPL": 15.7,
-        "blackACPL": 23.4,
-        "whiteAccuracy": 90.4,
-        "blackAccuracy": 86,
+        "whiteRating": 2638,
+        "blackRating": 2667,
+        "whiteACPL": 5.8,
+        "blackACPL": 4.8,
+        "whiteAccuracy": 97.6,
+        "blackAccuracy": 98,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 5,
-          "excellent": 12
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 38
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 4,
-          "good": 5,
-          "excellent": 10
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 1,
+          "excellent": 38
         },
-        "whiteEngineMoves": 12,
-        "blackEngineMoves": 10,
+        "whiteEngineMoves": 38,
+        "blackEngineMoves": 38,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -1600,26 +1602,28 @@
         "gameId": "Goa, India",
         "white": "Sargsyan, Shant",
         "black": "Svane, Frederik",
-        "whiteACPL": 19.3,
-        "blackACPL": 23.6,
-        "whiteAccuracy": 88.4,
-        "blackAccuracy": 86.1,
+        "whiteRating": 2667,
+        "blackRating": 2638,
+        "whiteACPL": 11.4,
+        "blackACPL": 9.5,
+        "whiteAccuracy": 95.4,
+        "blackAccuracy": 96.2,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 4,
-          "excellent": 8
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 26
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 2,
+          "mistakes": 0,
           "inaccuracies": 2,
           "good": 1,
-          "excellent": 11
+          "excellent": 28
         },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 11,
+        "whiteEngineMoves": 26,
+        "blackEngineMoves": 28,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -1629,26 +1633,28 @@
         "gameId": "Goa, India",
         "white": "Svane, Frederik",
         "black": "Sargsyan, Shant",
-        "whiteACPL": 14.3,
-        "blackACPL": 26.6,
-        "whiteAccuracy": 94.3,
-        "blackAccuracy": 92,
+        "whiteRating": 2638,
+        "blackRating": 2667,
+        "whiteACPL": 11.3,
+        "blackACPL": 17.4,
+        "whiteAccuracy": 96.5,
+        "blackAccuracy": 94.6,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 5,
-          "excellent": 21
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 49
         },
         "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 5,
-          "good": 4,
-          "excellent": 19
+          "inaccuracies": 4,
+          "good": 8,
+          "excellent": 43
         },
-        "whiteEngineMoves": 21,
-        "blackEngineMoves": 19,
+        "whiteEngineMoves": 49,
+        "blackEngineMoves": 43,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -1658,26 +1664,28 @@
         "gameId": "Goa, India",
         "white": "Sargsyan, Shant",
         "black": "Svane, Frederik",
-        "whiteACPL": 16.1,
-        "blackACPL": 16.2,
-        "whiteAccuracy": 90.7,
-        "blackAccuracy": 91,
+        "whiteRating": 2667,
+        "blackRating": 2638,
+        "whiteACPL": 13.1,
+        "blackACPL": 8.5,
+        "whiteAccuracy": 95,
+        "blackAccuracy": 96.8,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
           "inaccuracies": 2,
-          "good": 7,
-          "excellent": 11
+          "good": 6,
+          "excellent": 31
         },
         "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
           "inaccuracies": 2,
-          "good": 6,
-          "excellent": 12
+          "good": 2,
+          "excellent": 35
         },
-        "whiteEngineMoves": 11,
-        "blackEngineMoves": 12,
+        "whiteEngineMoves": 31,
+        "blackEngineMoves": 35,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -1687,757 +1695,24 @@
         "gameId": "Goa, India",
         "white": "Leko, Peter",
         "black": "Erigaisi, Arjun",
-        "whiteACPL": 11.2,
-        "blackACPL": 16,
-        "whiteAccuracy": 93.3,
-        "blackAccuracy": 90.6,
+        "whiteRating": 2666,
+        "blackRating": 2773,
+        "whiteACPL": 5.8,
+        "blackACPL": 6.3,
+        "whiteAccuracy": 97.7,
+        "blackAccuracy": 97.5,
         "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 1,
-          "good": 1,
-          "excellent": 8
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 0,
-          "good": 2,
-          "excellent": 7
-        },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 7,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 5,
-        "gameId": "Goa, India",
-        "white": "Erigaisi, Arjun",
-        "black": "Leko, Peter",
-        "whiteACPL": 18.7,
-        "blackACPL": 14.1,
-        "whiteAccuracy": 89,
-        "blackAccuracy": 91.4,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 6,
-          "excellent": 10
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 0,
-          "good": 7,
-          "excellent": 10
-        },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 10,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 6,
-        "gameId": "Goa, India",
-        "white": "Leko, Peter",
-        "black": "Erigaisi, Arjun",
-        "whiteACPL": 26.3,
-        "blackACPL": 23.4,
-        "whiteAccuracy": 87,
-        "blackAccuracy": 88,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 7,
-          "excellent": 10
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 5,
-          "good": 4,
-          "excellent": 11
-        },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 11,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 7,
-        "gameId": "Goa, India",
-        "white": "Erigaisi, Arjun",
-        "black": "Leko, Peter",
-        "whiteACPL": 22.1,
-        "blackACPL": 31.1,
-        "whiteAccuracy": 86.8,
-        "blackAccuracy": 84.3,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 6,
-          "excellent": 18
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 4,
-          "inaccuracies": 4,
-          "good": 6,
-          "excellent": 15
-        },
-        "whiteEngineMoves": 18,
-        "blackEngineMoves": 15,
-        "biggestBlunder": {
-          "moveNumber": 25,
-          "player": "white",
-          "cpLoss": 271,
-          "winLoss": 30.178228236229707,
-          "severity": 38.32634986001173,
-          "move": "Ne4",
-          "evalBefore": 308,
-          "evalAfter": 37
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 178,
-          "evalBefore": 215,
-          "evalAfter": 37,
-          "moveNumber": 25
-        }
-      },
-      {
-        "gameIndex": 8,
-        "gameId": "Goa, India",
-        "white": "Praggnanandhaa, R",
-        "black": "Dubov, Daniil",
-        "whiteACPL": 43.5,
-        "blackACPL": 40,
-        "whiteAccuracy": 76.8,
-        "blackAccuracy": 78.5,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 5,
-          "inaccuracies": 4,
-          "good": 3,
-          "excellent": 8
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 4,
-          "inaccuracies": 2,
-          "good": 4,
-          "excellent": 9
-        },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 9,
-        "biggestBlunder": {
-          "moveNumber": 27,
-          "player": "black",
-          "cpLoss": 246,
-          "winLoss": 22.036294632702976,
-          "severity": 31.566992061347015,
-          "move": "Nh5",
-          "evalBefore": -373,
-          "evalAfter": -127
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 9,
-        "gameId": "Goa, India",
-        "white": "Dubov, Daniil",
-        "black": "Praggnanandhaa, R",
-        "whiteACPL": 30.1,
-        "blackACPL": 32.3,
-        "whiteAccuracy": 82.6,
-        "blackAccuracy": 83.2,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 4,
-          "excellent": 7
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 0,
-          "good": 5,
-          "excellent": 7
-        },
-        "whiteEngineMoves": 7,
-        "blackEngineMoves": 7,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 297,
-          "evalBefore": 302,
-          "evalAfter": 5,
-          "moveNumber": 13
-        }
-      },
-      {
-        "gameIndex": 10,
-        "gameId": "Goa, India",
-        "white": "Dubov, Daniil",
-        "black": "Praggnanandhaa, R",
-        "whiteACPL": 7,
-        "blackACPL": 0.5,
-        "whiteAccuracy": 95.6,
-        "blackAccuracy": 99.7,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 0,
-          "good": 1,
-          "excellent": 5
-        },
-        "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
           "inaccuracies": 0,
           "good": 0,
-          "excellent": 6
-        },
-        "whiteEngineMoves": 5,
-        "blackEngineMoves": 6,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 11,
-        "gameId": "Goa, India",
-        "white": "Praggnanandhaa, R",
-        "black": "Dubov, Daniil",
-        "whiteACPL": 36.3,
-        "blackACPL": 23.6,
-        "whiteAccuracy": 83.4,
-        "blackAccuracy": 87.8,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 6,
-          "good": 5,
-          "excellent": 13
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 6,
-          "excellent": 17
-        },
-        "whiteEngineMoves": 13,
-        "blackEngineMoves": 17,
-        "biggestBlunder": {
-          "moveNumber": 31,
-          "player": "black",
-          "cpLoss": 189,
-          "winLoss": 25.44362101640558,
-          "severity": 25.44362101640558,
-          "move": "d5",
-          "evalBefore": -169,
-          "evalAfter": 20
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 12,
-        "gameId": "Goa, India",
-        "white": "Bluebaum, Matthias",
-        "black": "Donchenko, Alexander",
-        "whiteACPL": 26.6,
-        "blackACPL": 25.1,
-        "whiteAccuracy": 84.2,
-        "blackAccuracy": 85.2,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 5,
-          "good": 6,
-          "excellent": 5
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 5,
-          "good": 6,
-          "excellent": 5
-        },
-        "whiteEngineMoves": 5,
-        "blackEngineMoves": 5,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 13,
-        "gameId": "Goa, India",
-        "white": "Donchenko, Alexander",
-        "black": "Bluebaum, Matthias",
-        "whiteACPL": 22.8,
-        "blackACPL": 27.1,
-        "whiteAccuracy": 86.2,
-        "blackAccuracy": 87,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 4,
-          "excellent": 14
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 7,
-          "good": 4,
-          "excellent": 10
-        },
-        "whiteEngineMoves": 14,
-        "blackEngineMoves": 10,
-        "biggestBlunder": {
-          "moveNumber": 19,
-          "player": "white",
-          "cpLoss": 214,
-          "winLoss": 25.775318695736587,
-          "severity": 28.86835693922498,
-          "move": "f4",
-          "evalBefore": 248,
-          "evalAfter": 34
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 14,
-        "gameId": "Goa, India",
-        "white": "Pranav, V",
-        "black": "Yakubboev, Nodirbek",
-        "whiteACPL": 16.1,
-        "blackACPL": 21.7,
-        "whiteAccuracy": 90.1,
-        "blackAccuracy": 86.1,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 9,
-          "excellent": 27
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 6,
-          "good": 12,
-          "excellent": 21
-        },
-        "whiteEngineMoves": 27,
-        "blackEngineMoves": 21,
-        "biggestBlunder": {
-          "moveNumber": 73,
-          "player": "black",
-          "cpLoss": 249,
-          "winLoss": 30.796663452626056,
-          "severity": 34.492263066941184,
-          "move": "Bc5+",
-          "evalBefore": -248,
-          "evalAfter": 1
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "white",
-          "escapeAmount": 247,
-          "evalBefore": -248,
-          "evalAfter": 1,
-          "moveNumber": 73
-        }
-      },
-      {
-        "gameIndex": 15,
-        "gameId": "Goa, India",
-        "white": "Yakubboev, Nodirbek",
-        "black": "Pranav, V",
-        "whiteACPL": 24.6,
-        "blackACPL": 34.1,
-        "whiteAccuracy": 88.9,
-        "blackAccuracy": 83.5,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 4,
-          "good": 2,
-          "excellent": 12
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 7,
-          "good": 4,
-          "excellent": 7
-        },
-        "whiteEngineMoves": 12,
-        "blackEngineMoves": 7,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 16,
-        "gameId": "Goa, India",
-        "white": "Esipenko, Andrey",
-        "black": "Keymer, Vincent",
-        "whiteACPL": 27.9,
-        "blackACPL": 31.6,
-        "whiteAccuracy": 83.5,
-        "blackAccuracy": 75.4,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 4,
-          "good": 6,
-          "excellent": 5
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 0,
-          "inaccuracies": 6,
-          "good": 3,
-          "excellent": 5
-        },
-        "whiteEngineMoves": 5,
-        "blackEngineMoves": 5,
-        "biggestBlunder": {
-          "moveNumber": 15,
-          "player": "black",
-          "cpLoss": 686,
-          "winLoss": 47.442085108870366,
-          "severity": 47.442085108870366,
-          "move": "exd4",
-          "evalBefore": 5,
-          "evalAfter": 691
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 677,
-          "evalBefore": 691,
-          "evalAfter": -14,
-          "moveNumber": 17
-        }
-      },
-      {
-        "gameIndex": 17,
-        "gameId": "Goa, India",
-        "white": "Keymer, Vincent",
-        "black": "Esipenko, Andrey",
-        "whiteACPL": 24.4,
-        "blackACPL": 28,
-        "whiteAccuracy": 85.6,
-        "blackAccuracy": 81.3,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 5,
-          "good": 5,
-          "excellent": 16
-        },
-        "blackMoveQuality": {
-          "blunders": 2,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 9,
-          "excellent": 15
-        },
-        "whiteEngineMoves": 16,
-        "blackEngineMoves": 15,
-        "biggestBlunder": {
-          "moveNumber": 35,
-          "player": "black",
-          "cpLoss": 394,
-          "winLoss": 39.658884729934655,
-          "severity": 39.658884729934655,
-          "move": "f6",
-          "evalBefore": 10,
-          "evalAfter": 404
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 380,
-          "evalBefore": 404,
-          "evalAfter": 24,
-          "moveNumber": 37
-        }
-      },
-      {
-        "gameIndex": 18,
-        "gameId": "Goa, India",
-        "white": "Keymer, Vincent",
-        "black": "Esipenko, Andrey",
-        "whiteACPL": 31.9,
-        "blackACPL": 31.2,
-        "whiteAccuracy": 82,
-        "blackAccuracy": 82.4,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 8,
-          "good": 2,
-          "excellent": 8
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 6,
-          "good": 4,
-          "excellent": 7
-        },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 7,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 19,
-        "gameId": "Goa, India",
-        "white": "Esipenko, Andrey",
-        "black": "Keymer, Vincent",
-        "whiteACPL": 15.5,
-        "blackACPL": 17.4,
-        "whiteAccuracy": 90.5,
-        "blackAccuracy": 89.5,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 4,
-          "excellent": 6
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 4,
-          "excellent": 6
-        },
-        "whiteEngineMoves": 6,
-        "blackEngineMoves": 6,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 20,
-        "gameId": "Goa, India",
-        "white": "Esipenko, Andrey",
-        "black": "Keymer, Vincent",
-        "whiteACPL": 18.3,
-        "blackACPL": 30.4,
-        "whiteAccuracy": 89.9,
-        "blackAccuracy": 84.2,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 5,
-          "good": 4,
-          "excellent": 26
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 7,
-          "inaccuracies": 2,
-          "good": 10,
-          "excellent": 17
-        },
-        "whiteEngineMoves": 26,
-        "blackEngineMoves": 17,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 21,
-        "gameId": "Goa, India",
-        "white": "Keymer, Vincent",
-        "black": "Esipenko, Andrey",
-        "whiteACPL": 32.1,
-        "blackACPL": 32.6,
-        "whiteAccuracy": 83.7,
-        "blackAccuracy": 81.7,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 5,
-          "good": 3,
-          "excellent": 10
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 7,
-          "good": 5,
-          "excellent": 6
-        },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 6,
-        "biggestBlunder": {
-          "moveNumber": 37,
-          "player": "white",
-          "cpLoss": 209,
-          "winLoss": 25.3732421783081,
-          "severity": 25.3732421783081,
-          "move": "Qg4",
-          "evalBefore": -33,
-          "evalAfter": -242
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 22,
-        "gameId": "Goa, India",
-        "white": "Wei, Yi",
-        "black": "Maghsoodloo, Parham",
-        "whiteACPL": 20.6,
-        "blackACPL": 19.3,
-        "whiteAccuracy": 87.9,
-        "blackAccuracy": 83.3,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 4,
-          "excellent": 8
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 0,
-          "inaccuracies": 1,
-          "good": 3,
-          "excellent": 10
-        },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 10,
-        "biggestBlunder": {
-          "moveNumber": 9,
-          "player": "black",
-          "cpLoss": 471,
-          "winLoss": 40.96712126210225,
-          "severity": 40.96712126210225,
-          "move": "Nxd3+",
-          "evalBefore": 25,
-          "evalAfter": 496
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 465,
-          "evalBefore": 496,
-          "evalAfter": 31,
-          "moveNumber": 11
-        }
-      },
-      {
-        "gameIndex": 23,
-        "gameId": "Goa, India",
-        "white": "Maghsoodloo, Parham",
-        "black": "Wei, Yi",
-        "whiteACPL": 14.2,
-        "blackACPL": 14,
-        "whiteAccuracy": 91.5,
-        "blackAccuracy": 91.6,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 8,
-          "excellent": 18
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 8,
-          "excellent": 18
-        },
-        "whiteEngineMoves": 18,
-        "blackEngineMoves": 18,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 24,
-        "gameId": "Goa, India",
-        "white": "Maghsoodloo, Parham",
-        "black": "Wei, Yi",
-        "whiteACPL": 16.3,
-        "blackACPL": 12.3,
-        "whiteAccuracy": 90,
-        "blackAccuracy": 91.7,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 2,
-          "inaccuracies": 5,
-          "good": 9,
-          "excellent": 36
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 13,
-          "excellent": 36
-        },
-        "whiteEngineMoves": 36,
-        "blackEngineMoves": 36,
-        "biggestBlunder": {
-          "moveNumber": 25,
-          "player": "black",
-          "cpLoss": 211,
-          "winLoss": 29.41842302050638,
-          "severity": 29.41842302050638,
-          "move": "Nd8",
-          "evalBefore": -91,
-          "evalAfter": 120
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 25,
-        "gameId": "Goa, India",
-        "white": "Wei, Yi",
-        "black": "Maghsoodloo, Parham",
-        "whiteACPL": 13.8,
-        "blackACPL": 15.5,
-        "whiteAccuracy": 91.5,
-        "blackAccuracy": 90.5,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 6,
           "excellent": 20
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 4,
-          "good": 7,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
           "excellent": 18
         },
         "whiteEngineMoves": 20,
@@ -2447,74 +1722,738 @@
         "luckyEscape": null
       },
       {
+        "gameIndex": 5,
+        "gameId": "Goa, India",
+        "white": "Erigaisi, Arjun",
+        "black": "Leko, Peter",
+        "whiteRating": 2773,
+        "blackRating": 2666,
+        "whiteACPL": 11.7,
+        "blackACPL": 11.1,
+        "whiteAccuracy": 95.3,
+        "blackAccuracy": 95.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 29
+        },
+        "whiteEngineMoves": 30,
+        "blackEngineMoves": 29,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 6,
+        "gameId": "Goa, India",
+        "white": "Leko, Peter",
+        "black": "Erigaisi, Arjun",
+        "whiteRating": 2666,
+        "blackRating": 2773,
+        "whiteACPL": 15.6,
+        "blackACPL": 9.5,
+        "whiteAccuracy": 94.4,
+        "blackAccuracy": 96.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 4,
+          "excellent": 33
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 35
+        },
+        "whiteEngineMoves": 33,
+        "blackEngineMoves": 35,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 7,
+        "gameId": "Goa, India",
+        "white": "Erigaisi, Arjun",
+        "black": "Leko, Peter",
+        "whiteRating": 2773,
+        "blackRating": 2666,
+        "whiteACPL": 12.2,
+        "blackACPL": 16.5,
+        "whiteAccuracy": 95.3,
+        "blackAccuracy": 94.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 1,
+          "good": 7,
+          "excellent": 47
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 6,
+          "good": 7,
+          "excellent": 44
+        },
+        "whiteEngineMoves": 47,
+        "blackEngineMoves": 44,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 8,
+        "gameId": "Goa, India",
+        "white": "Praggnanandhaa, R",
+        "black": "Dubov, Daniil",
+        "whiteRating": 2771,
+        "blackRating": 2684,
+        "whiteACPL": 24.3,
+        "blackACPL": 21.6,
+        "whiteAccuracy": 89.9,
+        "blackAccuracy": 90.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 3,
+          "inaccuracies": 3,
+          "good": 4,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 10,
+          "excellent": 26
+        },
+        "whiteEngineMoves": 31,
+        "blackEngineMoves": 26,
+        "biggestBlunder": {
+          "moveNumber": 39,
+          "player": "black",
+          "cpLoss": 238,
+          "winLoss": 20.27083957017004,
+          "severity": 23.210111307844695,
+          "move": "Qf5",
+          "evalBefore": -258,
+          "evalAfter": -20
+        },
+        "biggestComeback": null,
+        "luckyEscape": {
+          "player": "white",
+          "escapeAmount": 238,
+          "evalBefore": -258,
+          "evalAfter": -20,
+          "moveNumber": 39
+        }
+      },
+      {
+        "gameIndex": 9,
+        "gameId": "Goa, India",
+        "white": "Dubov, Daniil",
+        "black": "Praggnanandhaa, R",
+        "whiteRating": 2684,
+        "blackRating": 2771,
+        "whiteACPL": 9.6,
+        "blackACPL": 9,
+        "whiteAccuracy": 96.1,
+        "blackAccuracy": 96.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 2,
+          "excellent": 27
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 26
+        },
+        "whiteEngineMoves": 27,
+        "blackEngineMoves": 26,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 10,
+        "gameId": "Goa, India",
+        "white": "Dubov, Daniil",
+        "black": "Praggnanandhaa, R",
+        "whiteRating": 2684,
+        "blackRating": 2771,
+        "whiteACPL": 4.4,
+        "blackACPL": 3.7,
+        "whiteAccuracy": 98.2,
+        "blackAccuracy": 98.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 12
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 11
+        },
+        "whiteEngineMoves": 12,
+        "blackEngineMoves": 11,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 11,
+        "gameId": "Goa, India",
+        "white": "Praggnanandhaa, R",
+        "black": "Dubov, Daniil",
+        "whiteRating": 2771,
+        "blackRating": 2684,
+        "whiteACPL": 25.5,
+        "blackACPL": 17.2,
+        "whiteAccuracy": 91.9,
+        "blackAccuracy": 94.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 13,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 11,
+          "excellent": 39
+        },
+        "whiteEngineMoves": 35,
+        "blackEngineMoves": 39,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 12,
+        "gameId": "Goa, India",
+        "white": "Bluebaum, Matthias",
+        "black": "Donchenko, Alexander",
+        "whiteRating": 2687,
+        "blackRating": 2641,
+        "whiteACPL": 7.9,
+        "blackACPL": 8.1,
+        "whiteAccuracy": 96.8,
+        "blackAccuracy": 96.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 28
+        },
+        "whiteEngineMoves": 30,
+        "blackEngineMoves": 28,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 13,
+        "gameId": "Goa, India",
+        "white": "Donchenko, Alexander",
+        "black": "Bluebaum, Matthias",
+        "whiteRating": 2641,
+        "blackRating": 2687,
+        "whiteACPL": 10.2,
+        "blackACPL": 16.2,
+        "whiteAccuracy": 96.5,
+        "blackAccuracy": 94.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 4,
+          "excellent": 38
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 4,
+          "good": 6,
+          "excellent": 33
+        },
+        "whiteEngineMoves": 38,
+        "blackEngineMoves": 33,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 14,
+        "gameId": "Goa, India",
+        "white": "Pranav, V",
+        "black": "Yakubboev, Nodirbek",
+        "whiteRating": 2641,
+        "blackRating": 2689,
+        "whiteACPL": 7.3,
+        "blackACPL": 6.6,
+        "whiteAccuracy": 97,
+        "blackAccuracy": 97.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 75
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 11,
+          "excellent": 71
+        },
+        "whiteEngineMoves": 75,
+        "blackEngineMoves": 71,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 15,
+        "gameId": "Goa, India",
+        "white": "Yakubboev, Nodirbek",
+        "black": "Pranav, V",
+        "whiteRating": 2689,
+        "blackRating": 2641,
+        "whiteACPL": 14.3,
+        "blackACPL": 26,
+        "whiteAccuracy": 95.2,
+        "blackAccuracy": 90.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 3,
+          "excellent": 33
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 3,
+          "inaccuracies": 2,
+          "good": 5,
+          "excellent": 27
+        },
+        "whiteEngineMoves": 33,
+        "blackEngineMoves": 27,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 16,
+        "gameId": "Goa, India",
+        "white": "Esipenko, Andrey",
+        "black": "Keymer, Vincent",
+        "whiteRating": 2693,
+        "blackRating": 2755,
+        "whiteACPL": 7.5,
+        "blackACPL": 7.9,
+        "whiteAccuracy": 96.9,
+        "blackAccuracy": 96.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 27
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 4,
+          "excellent": 25
+        },
+        "whiteEngineMoves": 27,
+        "blackEngineMoves": 25,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 17,
+        "gameId": "Goa, India",
+        "white": "Keymer, Vincent",
+        "black": "Esipenko, Andrey",
+        "whiteRating": 2755,
+        "blackRating": 2693,
+        "whiteACPL": 6.8,
+        "blackACPL": 6.5,
+        "whiteAccuracy": 97.2,
+        "blackAccuracy": 97.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 52
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 6,
+          "excellent": 51
+        },
+        "whiteEngineMoves": 52,
+        "blackEngineMoves": 51,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 18,
+        "gameId": "Goa, India",
+        "white": "Keymer, Vincent",
+        "black": "Esipenko, Andrey",
+        "whiteRating": 2755,
+        "blackRating": 2693,
+        "whiteACPL": 11.3,
+        "blackACPL": 8.8,
+        "whiteAccuracy": 95.5,
+        "blackAccuracy": 96.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 1,
+          "excellent": 34
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 33
+        },
+        "whiteEngineMoves": 34,
+        "blackEngineMoves": 33,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 19,
+        "gameId": "Goa, India",
+        "white": "Esipenko, Andrey",
+        "black": "Keymer, Vincent",
+        "whiteRating": 2693,
+        "blackRating": 2755,
+        "whiteACPL": 3.9,
+        "blackACPL": 2.5,
+        "whiteAccuracy": 98.4,
+        "blackAccuracy": 99,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 23
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 22
+        },
+        "whiteEngineMoves": 23,
+        "blackEngineMoves": 22,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 20,
+        "gameId": "Goa, India",
+        "white": "Esipenko, Andrey",
+        "black": "Keymer, Vincent",
+        "whiteRating": 2693,
+        "blackRating": 2755,
+        "whiteACPL": 12.4,
+        "blackACPL": 16.5,
+        "whiteAccuracy": 95.4,
+        "blackAccuracy": 93.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 9,
+          "excellent": 60
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 3,
+          "good": 9,
+          "excellent": 58
+        },
+        "whiteEngineMoves": 60,
+        "blackEngineMoves": 58,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 21,
+        "gameId": "Goa, India",
+        "white": "Keymer, Vincent",
+        "black": "Esipenko, Andrey",
+        "whiteRating": 2755,
+        "blackRating": 2693,
+        "whiteACPL": 25.4,
+        "blackACPL": 13.5,
+        "whiteAccuracy": 90.2,
+        "blackAccuracy": 94.9,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 5,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 9,
+          "excellent": 29
+        },
+        "whiteEngineMoves": 28,
+        "blackEngineMoves": 29,
+        "biggestBlunder": {
+          "moveNumber": 37,
+          "player": "white",
+          "cpLoss": 261,
+          "winLoss": 20.954199691029014,
+          "severity": 20.954199691029014,
+          "move": "Qg4",
+          "evalBefore": -63,
+          "evalAfter": -324
+        },
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 22,
+        "gameId": "Goa, India",
+        "white": "Wei, Yi",
+        "black": "Maghsoodloo, Parham",
+        "whiteRating": 2754,
+        "blackRating": 2697,
+        "whiteACPL": 5,
+        "blackACPL": 4.4,
+        "whiteAccuracy": 97.9,
+        "blackAccuracy": 98.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 27
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 28
+        },
+        "whiteEngineMoves": 27,
+        "blackEngineMoves": 28,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 23,
+        "gameId": "Goa, India",
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "whiteRating": 2697,
+        "blackRating": 2754,
+        "whiteACPL": 10.9,
+        "blackACPL": 11.5,
+        "whiteAccuracy": 95.7,
+        "blackAccuracy": 95.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 12,
+          "excellent": 47
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 7,
+          "excellent": 51
+        },
+        "whiteEngineMoves": 47,
+        "blackEngineMoves": 51,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 24,
+        "gameId": "Goa, India",
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "whiteRating": 2697,
+        "blackRating": 2754,
+        "whiteACPL": 6.1,
+        "blackACPL": 5.8,
+        "whiteAccuracy": 97.5,
+        "blackAccuracy": 97.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 13,
+          "excellent": 92
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 9,
+          "excellent": 94
+        },
+        "whiteEngineMoves": 92,
+        "blackEngineMoves": 94,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 25,
+        "gameId": "Goa, India",
+        "white": "Wei, Yi",
+        "black": "Maghsoodloo, Parham",
+        "whiteRating": 2754,
+        "blackRating": 2697,
+        "whiteACPL": 4.2,
+        "blackACPL": 3.9,
+        "whiteAccuracy": 98.3,
+        "blackAccuracy": 98.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 55
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 54
+        },
+        "whiteEngineMoves": 55,
+        "blackEngineMoves": 54,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
         "gameIndex": 26,
         "gameId": "Goa, India",
         "white": "Wei, Yi",
         "black": "Maghsoodloo, Parham",
-        "whiteACPL": 23.4,
-        "blackACPL": 32.6,
-        "whiteAccuracy": 86,
-        "blackAccuracy": 75.9,
+        "whiteRating": 2754,
+        "blackRating": 2697,
+        "whiteACPL": 10.4,
+        "blackACPL": 11,
+        "whiteAccuracy": 95.8,
+        "blackAccuracy": 95.6,
         "whiteMoveQuality": {
           "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 3,
-          "good": 6,
-          "excellent": 7
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 30
         },
         "blackMoveQuality": {
-          "blunders": 1,
+          "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 6,
-          "good": 4,
-          "excellent": 7
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 28
         },
-        "whiteEngineMoves": 7,
-        "blackEngineMoves": 7,
-        "biggestBlunder": {
-          "moveNumber": 29,
-          "player": "black",
-          "cpLoss": 552,
-          "winLoss": 47.45041132858402,
-          "severity": 47.45041132858402,
-          "move": "Nd5",
-          "evalBefore": -12,
-          "evalAfter": 540
-        },
+        "whiteEngineMoves": 30,
+        "blackEngineMoves": 28,
+        "biggestBlunder": null,
         "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 540,
-          "evalBefore": 540,
-          "evalAfter": 0,
-          "moveNumber": 31
-        }
+        "luckyEscape": null
       },
       {
         "gameIndex": 27,
         "gameId": "Goa, India",
         "white": "Maghsoodloo, Parham",
         "black": "Wei, Yi",
-        "whiteACPL": 25.1,
-        "blackACPL": 20.3,
-        "whiteAccuracy": 85.2,
-        "blackAccuracy": 87.9,
+        "whiteRating": 2697,
+        "blackRating": 2754,
+        "whiteACPL": 6.2,
+        "blackACPL": 6.5,
+        "whiteAccuracy": 97.5,
+        "blackAccuracy": 97.3,
         "whiteMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 4,
-          "excellent": 5
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 21
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 1,
-          "excellent": 8
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 21
         },
-        "whiteEngineMoves": 5,
-        "blackEngineMoves": 8,
+        "whiteEngineMoves": 21,
+        "blackEngineMoves": 21,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2524,35 +2463,37 @@
         "gameId": "Goa, India",
         "white": "Maghsoodloo, Parham",
         "black": "Wei, Yi",
-        "whiteACPL": 28.6,
-        "blackACPL": 18.3,
-        "whiteAccuracy": 79.3,
-        "blackAccuracy": 90.1,
+        "whiteRating": 2697,
+        "blackRating": 2754,
+        "whiteACPL": 19.8,
+        "blackACPL": 10.8,
+        "whiteAccuracy": 92.1,
+        "blackAccuracy": 95.9,
         "whiteMoveQuality": {
           "blunders": 1,
-          "mistakes": 0,
-          "inaccuracies": 6,
-          "good": 3,
-          "excellent": 13
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 2,
+          "excellent": 38
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 1,
-          "good": 4,
-          "excellent": 16
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 5,
+          "excellent": 39
         },
-        "whiteEngineMoves": 13,
-        "blackEngineMoves": 16,
+        "whiteEngineMoves": 38,
+        "blackEngineMoves": 39,
         "biggestBlunder": {
           "moveNumber": 41,
           "player": "white",
-          "cpLoss": 470,
-          "winLoss": 55.691461229331814,
-          "severity": 55.691461229331814,
+          "cpLoss": 270,
+          "winLoss": 20.482588469488654,
+          "severity": 20.482588469488654,
           "move": "g4",
-          "evalBefore": 133,
-          "evalAfter": -337
+          "evalBefore": -101,
+          "evalAfter": -371
         },
         "biggestComeback": null,
         "luckyEscape": null
@@ -2562,26 +2503,28 @@
         "gameId": "Goa, India",
         "white": "Wei, Yi",
         "black": "Maghsoodloo, Parham",
-        "whiteACPL": 26.2,
-        "blackACPL": 27.1,
-        "whiteAccuracy": 90.3,
-        "blackAccuracy": 89.8,
+        "whiteRating": 2754,
+        "blackRating": 2697,
+        "whiteACPL": 16.8,
+        "blackACPL": 26.8,
+        "whiteAccuracy": 94.8,
+        "blackAccuracy": 91.6,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 2,
+          "inaccuracies": 1,
           "good": 7,
-          "excellent": 8
+          "excellent": 26
         },
         "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
           "inaccuracies": 3,
-          "good": 3,
-          "excellent": 11
+          "good": 8,
+          "excellent": 22
         },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 11,
+        "whiteEngineMoves": 26,
+        "blackEngineMoves": 22,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2591,26 +2534,28 @@
         "gameId": "Goa, India",
         "white": "Sarana, Alexey",
         "black": "Martinez Alcantara, Jose Eduardo",
-        "whiteACPL": 37.5,
-        "blackACPL": 37.1,
-        "whiteAccuracy": 81.6,
-        "blackAccuracy": 81.5,
+        "whiteRating": 2661,
+        "blackRating": 2644,
+        "whiteACPL": 21.2,
+        "blackACPL": 12.1,
+        "whiteAccuracy": 92.2,
+        "blackAccuracy": 95.4,
         "whiteMoveQuality": {
           "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 5,
-          "good": 2,
-          "excellent": 10
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 5,
+          "excellent": 29
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 6,
-          "good": 2,
-          "excellent": 9
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 8,
+          "excellent": 31
         },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 9,
+        "whiteEngineMoves": 29,
+        "blackEngineMoves": 31,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2620,26 +2565,28 @@
         "gameId": "Goa, India",
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Sarana, Alexey",
-        "whiteACPL": 8.2,
-        "blackACPL": 23.8,
-        "whiteAccuracy": 95.8,
-        "blackAccuracy": 90.2,
+        "whiteRating": 2644,
+        "blackRating": 2661,
+        "whiteACPL": 10.8,
+        "blackACPL": 21.4,
+        "whiteAccuracy": 96.2,
+        "blackAccuracy": 92.5,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 1,
-          "good": 1,
-          "excellent": 8
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 18
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 0,
-          "good": 3,
-          "excellent": 6
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 2,
+          "excellent": 16
         },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 6,
+        "whiteEngineMoves": 18,
+        "blackEngineMoves": 16,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2649,26 +2596,28 @@
         "gameId": "Goa, India",
         "white": "Grandelius, Nils",
         "black": "Harikrishna, Pentala",
-        "whiteACPL": 16.2,
-        "blackACPL": 15.4,
-        "whiteAccuracy": 90.1,
-        "blackAccuracy": 90.6,
+        "whiteRating": 2645,
+        "blackRating": 2697,
+        "whiteACPL": 5.6,
+        "blackACPL": 4.2,
+        "whiteAccuracy": 97.7,
+        "blackAccuracy": 98.3,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 3,
-          "excellent": 11
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 31
         },
         "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 3,
-          "good": 3,
-          "excellent": 10
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 31
         },
-        "whiteEngineMoves": 11,
-        "blackEngineMoves": 10,
+        "whiteEngineMoves": 31,
+        "blackEngineMoves": 31,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2678,26 +2627,28 @@
         "gameId": "Goa, India",
         "white": "Harikrishna, Pentala",
         "black": "Grandelius, Nils",
-        "whiteACPL": 17.5,
-        "blackACPL": 10.4,
-        "whiteAccuracy": 89.7,
-        "blackAccuracy": 93.7,
+        "whiteRating": 2697,
+        "blackRating": 2645,
+        "whiteACPL": 7,
+        "blackACPL": 5.9,
+        "whiteAccuracy": 97.2,
+        "blackAccuracy": 97.6,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 6,
-          "excellent": 11
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 37
         },
         "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 4,
-          "excellent": 13
+          "inaccuracies": 1,
+          "good": 2,
+          "excellent": 35
         },
-        "whiteEngineMoves": 11,
-        "blackEngineMoves": 13,
+        "whiteEngineMoves": 37,
+        "blackEngineMoves": 35,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2707,26 +2658,28 @@
         "gameId": "Goa, India",
         "white": "Grandelius, Nils",
         "black": "Harikrishna, Pentala",
-        "whiteACPL": 19.4,
-        "blackACPL": 14.9,
-        "whiteAccuracy": 88.7,
-        "blackAccuracy": 91.2,
+        "whiteRating": 2645,
+        "blackRating": 2697,
+        "whiteACPL": 13.8,
+        "blackACPL": 12.1,
+        "whiteAccuracy": 94.6,
+        "blackAccuracy": 95.2,
         "whiteMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
+          "mistakes": 0,
           "inaccuracies": 2,
-          "good": 5,
-          "excellent": 10
+          "good": 6,
+          "excellent": 27
         },
         "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 3,
-          "good": 4,
-          "excellent": 11
+          "inaccuracies": 1,
+          "good": 7,
+          "excellent": 27
         },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 11,
+        "whiteEngineMoves": 27,
+        "blackEngineMoves": 27,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2736,26 +2689,28 @@
         "gameId": "Goa, India",
         "white": "Harikrishna, Pentala",
         "black": "Grandelius, Nils",
-        "whiteACPL": 13.3,
-        "blackACPL": 24.7,
-        "whiteAccuracy": 93.3,
-        "blackAccuracy": 89.1,
+        "whiteRating": 2697,
+        "blackRating": 2645,
+        "whiteACPL": 10.6,
+        "blackACPL": 20.3,
+        "whiteAccuracy": 96.2,
+        "blackAccuracy": 92.6,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 3,
-          "excellent": 12
+          "inaccuracies": 1,
+          "good": 2,
+          "excellent": 31
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 6,
-          "excellent": 7
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 8,
+          "excellent": 22
         },
-        "whiteEngineMoves": 12,
-        "blackEngineMoves": 7,
+        "whiteEngineMoves": 31,
+        "blackEngineMoves": 22,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -2765,961 +2720,24 @@
         "gameId": "Goa, India",
         "white": "Sevian, Samuel",
         "black": "Lodici, Lorenzo",
-        "whiteACPL": 19.4,
-        "blackACPL": 19.2,
-        "whiteAccuracy": 88.6,
-        "blackAccuracy": 88.8,
+        "whiteRating": 2698,
+        "blackRating": 2560,
+        "whiteACPL": 9.8,
+        "blackACPL": 7.6,
+        "whiteAccuracy": 96.1,
+        "blackAccuracy": 96.9,
         "whiteMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 4,
-          "excellent": 9
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
+          "mistakes": 0,
           "inaccuracies": 0,
-          "good": 5,
-          "excellent": 9
-        },
-        "whiteEngineMoves": 9,
-        "blackEngineMoves": 9,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 37,
-        "gameId": "Goa, India",
-        "white": "Lodici, Lorenzo",
-        "black": "Sevian, Samuel",
-        "whiteACPL": 19.3,
-        "blackACPL": 27.7,
-        "whiteAccuracy": 90.9,
-        "blackAccuracy": 89.3,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 6,
+          "good": 4,
           "excellent": 26
         },
         "blackMoveQuality": {
           "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 3,
-          "good": 9,
-          "excellent": 20
-        },
-        "whiteEngineMoves": 26,
-        "blackEngineMoves": 20,
-        "biggestBlunder": {
-          "moveNumber": 31,
-          "player": "white",
-          "cpLoss": 166,
-          "winLoss": 21.597984297276604,
-          "severity": 21.597984297276604,
-          "move": "Re5",
-          "evalBefore": 186,
-          "evalAfter": 20
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 38,
-        "gameId": "Goa, India",
-        "white": "Lodici, Lorenzo",
-        "black": "Sevian, Samuel",
-        "whiteACPL": 44.9,
-        "blackACPL": 37.2,
-        "whiteAccuracy": 81.7,
-        "blackAccuracy": 86.8,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 3,
-          "inaccuracies": 1,
-          "good": 4,
-          "excellent": 12
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 0,
-          "inaccuracies": 3,
-          "good": 6,
-          "excellent": 11
-        },
-        "whiteEngineMoves": 12,
-        "blackEngineMoves": 11,
-        "biggestBlunder": {
-          "moveNumber": 21,
-          "player": "white",
-          "cpLoss": 252,
-          "winLoss": 25.367858387590935,
-          "severity": 25.367858387590935,
-          "move": "g5",
-          "evalBefore": -86,
-          "evalAfter": -338
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 39,
-        "gameId": "Goa, India",
-        "white": "Lodici, Lorenzo",
-        "black": "Sevian, Samuel",
-        "whiteACPL": 9.4,
-        "blackACPL": 8.4,
-        "whiteAccuracy": 94.1,
-        "blackAccuracy": 94.7,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 1,
-          "good": 3,
-          "excellent": 12
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 1,
-          "excellent": 13
-        },
-        "whiteEngineMoves": 12,
-        "blackEngineMoves": 13,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 40,
-        "gameId": "Goa, India",
-        "white": "Lodici, Lorenzo",
-        "black": "Sevian, Samuel",
-        "whiteACPL": 28.7,
-        "blackACPL": 41.4,
-        "whiteAccuracy": 83.7,
-        "blackAccuracy": 76.3,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 12,
-          "good": 10,
-          "excellent": 13
-        },
-        "blackMoveQuality": {
-          "blunders": 3,
-          "mistakes": 4,
-          "inaccuracies": 6,
-          "good": 7,
-          "excellent": 16
-        },
-        "whiteEngineMoves": 13,
-        "blackEngineMoves": 16,
-        "biggestBlunder": {
-          "moveNumber": 67,
-          "player": "black",
-          "cpLoss": 246,
-          "winLoss": 29.751711864604424,
-          "severity": 29.751711864604424,
-          "move": "Ke6",
-          "evalBefore": 13,
-          "evalAfter": 259
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 295,
-          "evalBefore": 305,
-          "evalAfter": 10,
-          "moveNumber": 61
-        }
-      },
-      {
-        "gameIndex": 41,
-        "gameId": "Goa, India",
-        "white": "Sevian, Samuel",
-        "black": "Lodici, Lorenzo",
-        "whiteACPL": 38.2,
-        "blackACPL": 29.6,
-        "whiteAccuracy": 77.7,
-        "blackAccuracy": 83,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 4,
-          "inaccuracies": 2,
-          "good": 6,
-          "excellent": 7
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 3,
-          "good": 4,
-          "excellent": 10
-        },
-        "whiteEngineMoves": 7,
-        "blackEngineMoves": 10,
-        "biggestBlunder": {
-          "moveNumber": 25,
-          "player": "white",
-          "cpLoss": 184,
-          "winLoss": 24.99948295304526,
-          "severity": 24.99948295304526,
-          "move": "h4",
-          "evalBefore": 25,
-          "evalAfter": -159
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 42,
-        "gameId": "Goa, India",
-        "white": "Sevian, Samuel",
-        "black": "Lodici, Lorenzo",
-        "whiteACPL": 20.9,
-        "blackACPL": 28.2,
-        "whiteAccuracy": 90.8,
-        "blackAccuracy": 87.1,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 6,
-          "good": 5,
-          "excellent": 31
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 3,
-          "inaccuracies": 4,
-          "good": 8,
-          "excellent": 27
-        },
-        "whiteEngineMoves": 31,
-        "blackEngineMoves": 27,
-        "biggestBlunder": {
-          "moveNumber": 37,
-          "player": "black",
-          "cpLoss": 231,
-          "winLoss": 28.88257066250847,
-          "severity": 31.40979559547796,
-          "move": "Ndf4",
-          "evalBefore": -235,
-          "evalAfter": -4
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "white",
-          "escapeAmount": 231,
-          "evalBefore": -235,
-          "evalAfter": -4,
-          "moveNumber": 37
-        }
-      },
-      {
-        "gameIndex": 43,
-        "gameId": "Goa, India",
-        "white": "Lodici, Lorenzo",
-        "black": "Sevian, Samuel",
-        "whiteACPL": 23.6,
-        "blackACPL": 26.6,
-        "whiteAccuracy": 89.8,
-        "blackAccuracy": 88.4,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 2,
-          "good": 12,
-          "excellent": 24
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 5,
-          "good": 9,
-          "excellent": 24
-        },
-        "whiteEngineMoves": 24,
-        "blackEngineMoves": 24,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 44,
-        "gameId": "Goa, India",
-        "white": "Lodici, Lorenzo",
-        "black": "Sevian, Samuel",
-        "whiteACPL": 48.5,
-        "blackACPL": 42.6,
-        "whiteAccuracy": 75.8,
-        "blackAccuracy": 78.2,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 8,
-          "inaccuracies": 6,
-          "good": 10,
-          "excellent": 15
-        },
-        "blackMoveQuality": {
-          "blunders": 4,
-          "mistakes": 4,
-          "inaccuracies": 5,
-          "good": 8,
-          "excellent": 19
-        },
-        "whiteEngineMoves": 15,
-        "blackEngineMoves": 19,
-        "biggestBlunder": {
-          "moveNumber": 73,
-          "player": "black",
-          "cpLoss": 329,
-          "winLoss": 36.444004642918685,
-          "severity": 36.444004642918685,
-          "move": "Qd6+",
-          "evalBefore": 6,
-          "evalAfter": 335
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 470,
-          "evalBefore": 498,
-          "evalAfter": 28,
-          "moveNumber": 45
-        }
-      },
-      {
-        "gameIndex": 45,
-        "gameId": "Goa, India",
-        "white": "Sevian, Samuel",
-        "black": "Lodici, Lorenzo",
-        "whiteACPL": 21.1,
-        "blackACPL": 29.8,
-        "whiteAccuracy": 87.9,
-        "blackAccuracy": 85.6,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 0,
-          "inaccuracies": 1,
-          "good": 9,
-          "excellent": 11
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 5,
-          "good": 6,
-          "excellent": 10
-        },
-        "whiteEngineMoves": 11,
-        "blackEngineMoves": 10,
-        "biggestBlunder": {
-          "moveNumber": 39,
-          "player": "white",
-          "cpLoss": 219,
-          "winLoss": 21.40291119174769,
-          "severity": 28.46587188502443,
-          "move": "Qc6",
-          "evalBefore": 332,
-          "evalAfter": 113
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 46,
-        "gameId": "Goa, India",
-        "white": "Sevian, Samuel",
-        "black": "Lodici, Lorenzo",
-        "whiteACPL": 17.7,
-        "blackACPL": 17.8,
-        "whiteAccuracy": 93.7,
-        "blackAccuracy": 92.5,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 0,
-          "good": 8,
-          "excellent": 8
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 1,
-          "good": 3,
-          "excellent": 11
-        },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 11,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 47,
-        "gameId": "Goa, India",
-        "white": "Vachier-Lagrave, Maxime",
-        "black": "Grebnev, Aleksey",
-        "whiteACPL": 18.2,
-        "blackACPL": 20.3,
-        "whiteAccuracy": 89.1,
-        "blackAccuracy": 88.1,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 3,
-          "good": 3,
-          "excellent": 8
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 4,
-          "excellent": 7
-        },
-        "whiteEngineMoves": 8,
-        "blackEngineMoves": 7,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 48,
-        "gameId": "Goa, India",
-        "white": "Grebnev, Aleksey",
-        "black": "Vachier-Lagrave, Maxime",
-        "whiteACPL": 17.4,
-        "blackACPL": 15.8,
-        "whiteAccuracy": 89.4,
-        "blackAccuracy": 90.5,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 0,
-          "good": 5,
-          "excellent": 10
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 2,
-          "excellent": 10
-        },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 10,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 49,
-        "gameId": "Goa, India",
-        "white": "Grebnev, Aleksey",
-        "black": "Vachier-Lagrave, Maxime",
-        "whiteACPL": 23,
-        "blackACPL": 31.2,
-        "whiteAccuracy": 88.4,
-        "blackAccuracy": 86,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 3,
-          "inaccuracies": 3,
-          "good": 11,
-          "excellent": 18
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 2,
-          "inaccuracies": 5,
-          "good": 10,
-          "excellent": 17
-        },
-        "whiteEngineMoves": 18,
-        "blackEngineMoves": 17,
-        "biggestBlunder": {
-          "moveNumber": 47,
-          "player": "black",
-          "cpLoss": 161,
-          "winLoss": 20.53195288176599,
-          "severity": 20.53195288176599,
-          "move": "Nd5+",
-          "evalBefore": 35,
-          "evalAfter": 196
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 50,
-        "gameId": "Goa, India",
-        "white": "Vachier-Lagrave, Maxime",
-        "black": "Grebnev, Aleksey",
-        "whiteACPL": 17.7,
-        "blackACPL": 19.7,
-        "whiteAccuracy": 89.3,
-        "blackAccuracy": 88.1,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 0,
-          "excellent": 7
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 3,
-          "good": 2,
-          "excellent": 5
-        },
-        "whiteEngineMoves": 7,
-        "blackEngineMoves": 5,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 51,
-        "gameId": "Goa, India",
-        "white": "Liang, Awonder",
-        "black": "Sargissian, Gabriel",
-        "whiteACPL": 23.6,
-        "blackACPL": 23.4,
-        "whiteAccuracy": 86.4,
-        "blackAccuracy": 86.8,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 6,
-          "inaccuracies": 5,
-          "good": 10,
-          "excellent": 30
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 4,
-          "inaccuracies": 4,
-          "good": 12,
-          "excellent": 30
-        },
-        "whiteEngineMoves": 30,
-        "blackEngineMoves": 30,
-        "biggestBlunder": {
-          "moveNumber": 71,
-          "player": "black",
-          "cpLoss": 155,
-          "winLoss": 20.40618848328952,
-          "severity": 20.40618848328952,
-          "move": "Kc7",
-          "evalBefore": 19,
-          "evalAfter": 174
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 52,
-        "gameId": "Goa, India",
-        "white": "Sargissian, Gabriel",
-        "black": "Liang, Awonder",
-        "whiteACPL": 5.2,
-        "blackACPL": 9.8,
-        "whiteAccuracy": 96.7,
-        "blackAccuracy": 94,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 0,
-          "good": 3,
-          "excellent": 12
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 1,
-          "good": 3,
-          "excellent": 11
-        },
-        "whiteEngineMoves": 12,
-        "blackEngineMoves": 11,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 53,
-        "gameId": "Goa, India",
-        "white": "Sargissian, Gabriel",
-        "black": "Liang, Awonder",
-        "whiteACPL": 27.9,
-        "blackACPL": 32,
-        "whiteAccuracy": 84.6,
-        "blackAccuracy": 83.3,
-        "whiteMoveQuality": {
-          "blunders": 2,
-          "mistakes": 1,
-          "inaccuracies": 7,
-          "good": 5,
-          "excellent": 21
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 2,
-          "inaccuracies": 7,
-          "good": 12,
-          "excellent": 13
-        },
-        "whiteEngineMoves": 21,
-        "blackEngineMoves": 13,
-        "biggestBlunder": {
-          "moveNumber": 37,
-          "player": "white",
-          "cpLoss": 178,
-          "winLoss": 23.523083296560777,
-          "severity": 23.523083296560777,
-          "move": "Bg6",
-          "evalBefore": 180,
-          "evalAfter": 2
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 320,
-          "evalBefore": 365,
-          "evalAfter": 45,
-          "moveNumber": 61
-        }
-      },
-      {
-        "gameIndex": 54,
-        "gameId": "Goa, India",
-        "white": "Liang, Awonder",
-        "black": "Sargissian, Gabriel",
-        "whiteACPL": 20.2,
-        "blackACPL": 28.4,
-        "whiteAccuracy": 87.9,
-        "blackAccuracy": 82.6,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 10,
-          "good": 6,
-          "excellent": 23
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 5,
-          "inaccuracies": 4,
-          "good": 10,
-          "excellent": 20
-        },
-        "whiteEngineMoves": 23,
-        "blackEngineMoves": 20,
-        "biggestBlunder": {
-          "moveNumber": 55,
-          "player": "black",
-          "cpLoss": 242,
-          "winLoss": 31.642444147925758,
-          "severity": 31.642444147925758,
-          "move": "Rb3",
-          "evalBefore": -33,
-          "evalAfter": 209
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 55,
-        "gameId": "Goa, India",
-        "white": "Le, Quang Liem",
-        "black": "Karthik, Venkataraman",
-        "whiteACPL": 5.6,
-        "blackACPL": 6.4,
-        "whiteAccuracy": 96.4,
-        "blackAccuracy": 96,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 0,
-          "good": 3,
-          "excellent": 15
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
           "mistakes": 0,
           "inaccuracies": 0,
           "good": 4,
-          "excellent": 14
-        },
-        "whiteEngineMoves": 15,
-        "blackEngineMoves": 14,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 56,
-        "gameId": "Goa, India",
-        "white": "Karthik, Venkataraman",
-        "black": "Le, Quang Liem",
-        "whiteACPL": 28.1,
-        "blackACPL": 20.1,
-        "whiteAccuracy": 86.3,
-        "blackAccuracy": 91.3,
-        "whiteMoveQuality": {
-          "blunders": 1,
-          "mistakes": 2,
-          "inaccuracies": 2,
-          "good": 8,
-          "excellent": 21
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 10,
-          "excellent": 21
-        },
-        "whiteEngineMoves": 21,
-        "blackEngineMoves": 21,
-        "biggestBlunder": {
-          "moveNumber": 41,
-          "player": "white",
-          "cpLoss": 199,
-          "winLoss": 22.63954556159581,
-          "severity": 22.63954556159581,
-          "move": "Nxa2",
-          "evalBefore": -68,
-          "evalAfter": -267
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 57,
-        "gameId": "Goa, India",
-        "white": "Shankland, Sam",
-        "black": "Rapport, Richard",
-        "whiteACPL": 16.4,
-        "blackACPL": 19.5,
-        "whiteAccuracy": 90.2,
-        "blackAccuracy": 88.4,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 5,
-          "excellent": 12
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 6,
-          "good": 5,
-          "excellent": 10
-        },
-        "whiteEngineMoves": 12,
-        "blackEngineMoves": 10,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 58,
-        "gameId": "Goa, India",
-        "white": "Rapport, Richard",
-        "black": "Shankland, Sam",
-        "whiteACPL": 15.6,
-        "blackACPL": 16.6,
-        "whiteAccuracy": 90.7,
-        "blackAccuracy": 90.2,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 2,
-          "excellent": 17
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 3,
-          "excellent": 16
-        },
-        "whiteEngineMoves": 17,
-        "blackEngineMoves": 16,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 59,
-        "gameId": "Goa, India",
-        "white": "Rapport, Richard",
-        "black": "Shankland, Sam",
-        "whiteACPL": 18,
-        "blackACPL": 12,
-        "whiteAccuracy": 89.9,
-        "blackAccuracy": 92.8,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 5,
-          "excellent": 13
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 3,
-          "excellent": 17
-        },
-        "whiteEngineMoves": 13,
-        "blackEngineMoves": 17,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 60,
-        "gameId": "Goa, India",
-        "white": "Shankland, Sam",
-        "black": "Rapport, Richard",
-        "whiteACPL": 20.5,
-        "blackACPL": 39.3,
-        "whiteAccuracy": 92.8,
-        "blackAccuracy": 86.9,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 0,
-          "inaccuracies": 2,
-          "good": 1,
-          "excellent": 10
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 2,
-          "excellent": 7
-        },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 7,
-        "biggestBlunder": null,
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 61,
-        "gameId": "Goa, India",
-        "white": "Aronian, Levon",
-        "black": "Wojtaszek, Radoslaw",
-        "whiteACPL": 21.6,
-        "blackACPL": 29.8,
-        "whiteAccuracy": 88,
-        "blackAccuracy": 79.7,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 4,
-          "good": 4,
-          "excellent": 10
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 0,
-          "inaccuracies": 4,
-          "good": 5,
-          "excellent": 8
-        },
-        "whiteEngineMoves": 10,
-        "blackEngineMoves": 8,
-        "biggestBlunder": {
-          "moveNumber": 9,
-          "player": "black",
-          "cpLoss": 437,
-          "winLoss": 42.41846047425033,
-          "severity": 42.41846047425033,
-          "move": "O-O",
-          "evalBefore": 1,
-          "evalAfter": 438
-        },
-        "biggestComeback": null,
-        "luckyEscape": {
-          "player": "black",
-          "escapeAmount": 423,
-          "evalBefore": 438,
-          "evalAfter": 15,
-          "moveNumber": 11
-        }
-      },
-      {
-        "gameIndex": 62,
-        "gameId": "Goa, India",
-        "white": "Wojtaszek, Radoslaw",
-        "black": "Aronian, Levon",
-        "whiteACPL": 35.8,
-        "blackACPL": 29.8,
-        "whiteAccuracy": 79.5,
-        "blackAccuracy": 82.3,
-        "whiteMoveQuality": {
-          "blunders": 2,
-          "mistakes": 1,
-          "inaccuracies": 3,
-          "good": 3,
-          "excellent": 9
-        },
-        "blackMoveQuality": {
-          "blunders": 1,
-          "mistakes": 1,
-          "inaccuracies": 2,
-          "good": 4,
-          "excellent": 9
-        },
-        "whiteEngineMoves": 9,
-        "blackEngineMoves": 9,
-        "biggestBlunder": {
-          "moveNumber": 31,
-          "player": "black",
-          "cpLoss": 175,
-          "winLoss": 23.952991925701355,
-          "severity": 23.952991925701355,
-          "move": "Bb4",
-          "evalBefore": -149,
-          "evalAfter": 26
-        },
-        "biggestComeback": null,
-        "luckyEscape": null
-      },
-      {
-        "gameIndex": 63,
-        "gameId": "Goa, India",
-        "white": "Yu, Yangyi",
-        "black": "Sindarov, Javokhir",
-        "whiteACPL": 13.6,
-        "blackACPL": 15.2,
-        "whiteAccuracy": 91.6,
-        "blackAccuracy": 90.8,
-        "whiteMoveQuality": {
-          "blunders": 0,
-          "mistakes": 1,
-          "inaccuracies": 4,
-          "good": 6,
-          "excellent": 26
-        },
-        "blackMoveQuality": {
-          "blunders": 0,
-          "mistakes": 2,
-          "inaccuracies": 3,
-          "good": 6,
           "excellent": 26
         },
         "whiteEngineMoves": 26,
@@ -3729,40 +2747,927 @@
         "luckyEscape": null
       },
       {
-        "gameIndex": 64,
+        "gameIndex": 37,
         "gameId": "Goa, India",
-        "white": "Sindarov, Javokhir",
-        "black": "Yu, Yangyi",
-        "whiteACPL": 11,
-        "blackACPL": 14.1,
-        "whiteAccuracy": 93.3,
-        "blackAccuracy": 91.4,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteRating": 2560,
+        "blackRating": 2698,
+        "whiteACPL": 18.9,
+        "blackACPL": 22.9,
+        "whiteAccuracy": 93.9,
+        "blackAccuracy": 91.5,
         "whiteMoveQuality": {
           "blunders": 0,
           "mistakes": 1,
-          "inaccuracies": 1,
-          "good": 6,
-          "excellent": 22
+          "inaccuracies": 5,
+          "good": 8,
+          "excellent": 55
         },
         "blackMoveQuality": {
           "blunders": 1,
           "mistakes": 1,
+          "inaccuracies": 5,
+          "good": 11,
+          "excellent": 50
+        },
+        "whiteEngineMoves": 55,
+        "blackEngineMoves": 50,
+        "biggestBlunder": {
+          "moveNumber": 44,
+          "player": "black",
+          "cpLoss": 333,
+          "winLoss": 26.828807974341466,
+          "severity": 26.828807974341466,
+          "move": "Rh2",
+          "evalBefore": 17,
+          "evalAfter": 350
+        },
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 38,
+        "gameId": "Goa, India",
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteRating": 2560,
+        "blackRating": 2698,
+        "whiteACPL": 32,
+        "blackACPL": 23.5,
+        "whiteAccuracy": 89.2,
+        "blackAccuracy": 92.7,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 7,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 7,
+          "excellent": 30
+        },
+        "whiteEngineMoves": 28,
+        "blackEngineMoves": 30,
+        "biggestBlunder": {
+          "moveNumber": 21,
+          "player": "white",
+          "cpLoss": 293,
+          "winLoss": 22.814564667153427,
+          "severity": 22.814564667153427,
+          "move": "g5",
+          "evalBefore": -69,
+          "evalAfter": -362
+        },
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 39,
+        "gameId": "Goa, India",
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteRating": 2560,
+        "blackRating": 2698,
+        "whiteACPL": 3.8,
+        "blackACPL": 2.7,
+        "whiteAccuracy": 98.4,
+        "blackAccuracy": 98.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 32
+        },
+        "whiteEngineMoves": 31,
+        "blackEngineMoves": 32,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 40,
+        "gameId": "Goa, India",
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteRating": 2560,
+        "blackRating": 2698,
+        "whiteACPL": 19.1,
+        "blackACPL": 20.6,
+        "whiteAccuracy": 92.6,
+        "blackAccuracy": 92.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 7,
+          "good": 9,
+          "excellent": 56
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 3,
+          "inaccuracies": 6,
+          "good": 11,
+          "excellent": 52
+        },
+        "whiteEngineMoves": 56,
+        "blackEngineMoves": 52,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 41,
+        "gameId": "Goa, India",
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteRating": 2698,
+        "blackRating": 2560,
+        "whiteACPL": 20.1,
+        "blackACPL": 18.4,
+        "whiteAccuracy": 92,
+        "blackAccuracy": 92.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 2,
+          "good": 8,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 6,
+          "good": 4,
+          "excellent": 29
+        },
+        "whiteEngineMoves": 28,
+        "blackEngineMoves": 29,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 42,
+        "gameId": "Goa, India",
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteRating": 2698,
+        "blackRating": 2560,
+        "whiteACPL": 24.8,
+        "blackACPL": 31.6,
+        "whiteAccuracy": 91.9,
+        "blackAccuracy": 90.4,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 1,
+          "inaccuracies": 10,
+          "good": 10,
+          "excellent": 64
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 4,
+          "inaccuracies": 10,
+          "good": 13,
+          "excellent": 58
+        },
+        "whiteEngineMoves": 64,
+        "blackEngineMoves": 58,
+        "biggestBlunder": {
+          "moveNumber": 34,
+          "player": "white",
+          "cpLoss": 330,
+          "winLoss": 29.181521309400964,
+          "severity": 30.786504981418016,
+          "move": "Rxe6",
+          "evalBefore": 222,
+          "evalAfter": -108
+        },
+        "biggestComeback": null,
+        "luckyEscape": {
+          "player": "black",
+          "escapeAmount": 114,
+          "evalBefore": 222,
+          "evalAfter": -108,
+          "moveNumber": 34
+        }
+      },
+      {
+        "gameIndex": 43,
+        "gameId": "Goa, India",
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteRating": 2560,
+        "blackRating": 2698,
+        "whiteACPL": 17.4,
+        "blackACPL": 18.9,
+        "whiteAccuracy": 94.4,
+        "blackAccuracy": 93.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 6,
+          "good": 9,
+          "excellent": 64
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 15,
+          "excellent": 60
+        },
+        "whiteEngineMoves": 64,
+        "blackEngineMoves": 60,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 44,
+        "gameId": "Goa, India",
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteRating": 2560,
+        "blackRating": 2698,
+        "whiteACPL": 31,
+        "blackACPL": 38.4,
+        "whiteAccuracy": 86.7,
+        "blackAccuracy": 85.2,
+        "whiteMoveQuality": {
+          "blunders": 3,
+          "mistakes": 3,
+          "inaccuracies": 9,
+          "good": 13,
+          "excellent": 52
+        },
+        "blackMoveQuality": {
+          "blunders": 2,
+          "mistakes": 9,
+          "inaccuracies": 7,
+          "good": 10,
+          "excellent": 51
+        },
+        "whiteEngineMoves": 52,
+        "blackEngineMoves": 51,
+        "biggestBlunder": {
+          "moveNumber": 45,
+          "player": "white",
+          "cpLoss": 382,
+          "winLoss": 26.575281131288335,
+          "severity": 45.04510151753372,
+          "move": "Bc4",
+          "evalBefore": 478,
+          "evalAfter": 96
+        },
+        "biggestComeback": null,
+        "luckyEscape": {
+          "player": "black",
+          "escapeAmount": 359,
+          "evalBefore": 366,
+          "evalAfter": 7,
+          "moveNumber": 71
+        }
+      },
+      {
+        "gameIndex": 45,
+        "gameId": "Goa, India",
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteRating": 2698,
+        "blackRating": 2560,
+        "whiteACPL": 15.8,
+        "blackACPL": 22.4,
+        "whiteAccuracy": 93.8,
+        "blackAccuracy": 92.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
           "inaccuracies": 1,
+          "good": 8,
+          "excellent": 34
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 8,
+          "excellent": 30
+        },
+        "whiteEngineMoves": 34,
+        "blackEngineMoves": 30,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 46,
+        "gameId": "Goa, India",
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteRating": 2698,
+        "blackRating": 2560,
+        "whiteACPL": 8.1,
+        "blackACPL": 18.4,
+        "whiteAccuracy": 97.3,
+        "blackAccuracy": 94,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 4,
+          "excellent": 24
+        },
+        "whiteEngineMoves": 30,
+        "blackEngineMoves": 24,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 47,
+        "gameId": "Goa, India",
+        "white": "Vachier-Lagrave, Maxime",
+        "black": "Grebnev, Aleksey",
+        "whiteRating": 2737,
+        "blackRating": 2611,
+        "whiteACPL": 7.9,
+        "blackACPL": 6.3,
+        "whiteAccuracy": 96.8,
+        "blackAccuracy": 97.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 25
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 25
+        },
+        "whiteEngineMoves": 25,
+        "blackEngineMoves": 25,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 48,
+        "gameId": "Goa, India",
+        "white": "Grebnev, Aleksey",
+        "black": "Vachier-Lagrave, Maxime",
+        "whiteRating": 2611,
+        "blackRating": 2737,
+        "whiteACPL": 6.5,
+        "blackACPL": 5.1,
+        "whiteAccuracy": 97.4,
+        "blackAccuracy": 97.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 29
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 30
+        },
+        "whiteEngineMoves": 29,
+        "blackEngineMoves": 30,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 49,
+        "gameId": "Goa, India",
+        "white": "Grebnev, Aleksey",
+        "black": "Vachier-Lagrave, Maxime",
+        "whiteRating": 2611,
+        "blackRating": 2737,
+        "whiteACPL": 14.9,
+        "blackACPL": 18.5,
+        "whiteAccuracy": 94.8,
+        "blackAccuracy": 93.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 4,
+          "good": 12,
+          "excellent": 54
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 5,
+          "good": 10,
+          "excellent": 53
+        },
+        "whiteEngineMoves": 54,
+        "blackEngineMoves": 53,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 50,
+        "gameId": "Goa, India",
+        "white": "Vachier-Lagrave, Maxime",
+        "black": "Grebnev, Aleksey",
+        "whiteRating": 2737,
+        "blackRating": 2611,
+        "whiteACPL": 4.4,
+        "blackACPL": 4.8,
+        "whiteAccuracy": 98.2,
+        "blackAccuracy": 98,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 20
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 19
+        },
+        "whiteEngineMoves": 20,
+        "blackEngineMoves": 19,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 51,
+        "gameId": "Goa, India",
+        "white": "Liang, Awonder",
+        "black": "Sargissian, Gabriel",
+        "whiteRating": 2710,
+        "blackRating": 2624,
+        "whiteACPL": 13.5,
+        "blackACPL": 12.5,
+        "whiteAccuracy": 94.8,
+        "blackAccuracy": 95.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 7,
+          "good": 10,
+          "excellent": 83
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 17,
+          "excellent": 79
+        },
+        "whiteEngineMoves": 83,
+        "blackEngineMoves": 79,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 52,
+        "gameId": "Goa, India",
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "whiteRating": 2624,
+        "blackRating": 2710,
+        "whiteACPL": 2.7,
+        "blackACPL": 1.6,
+        "whiteAccuracy": 98.9,
+        "blackAccuracy": 99.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 30
+        },
+        "whiteEngineMoves": 30,
+        "blackEngineMoves": 30,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 53,
+        "gameId": "Goa, India",
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "whiteRating": 2624,
+        "blackRating": 2710,
+        "whiteACPL": 19,
+        "blackACPL": 23.4,
+        "whiteAccuracy": 93,
+        "blackAccuracy": 91.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 3,
+          "inaccuracies": 4,
+          "good": 7,
+          "excellent": 57
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 1,
+          "inaccuracies": 7,
+          "good": 12,
+          "excellent": 49
+        },
+        "whiteEngineMoves": 57,
+        "blackEngineMoves": 49,
+        "biggestBlunder": {
+          "moveNumber": 62,
+          "player": "black",
+          "cpLoss": 243,
+          "winLoss": 20.694534079098666,
+          "severity": 20.694534079098666,
+          "move": "Rh1",
+          "evalBefore": 17,
+          "evalAfter": 260
+        },
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 54,
+        "gameId": "Goa, India",
+        "white": "Liang, Awonder",
+        "black": "Sargissian, Gabriel",
+        "whiteRating": 2710,
+        "blackRating": 2624,
+        "whiteACPL": 12.5,
+        "blackACPL": 12.5,
+        "whiteAccuracy": 95,
+        "blackAccuracy": 95,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 11,
+          "excellent": 64
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 10,
+          "excellent": 66
+        },
+        "whiteEngineMoves": 64,
+        "blackEngineMoves": 66,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 55,
+        "gameId": "Goa, India",
+        "white": "Le, Quang Liem",
+        "black": "Karthik, Venkataraman",
+        "whiteRating": 2729,
+        "blackRating": 2579,
+        "whiteACPL": 4.1,
+        "blackACPL": 4.2,
+        "whiteAccuracy": 98.3,
+        "blackAccuracy": 98.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 34
+        },
+        "whiteEngineMoves": 35,
+        "blackEngineMoves": 34,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 56,
+        "gameId": "Goa, India",
+        "white": "Karthik, Venkataraman",
+        "black": "Le, Quang Liem",
+        "whiteRating": 2579,
+        "blackRating": 2729,
+        "whiteACPL": 25.6,
+        "blackACPL": 21.4,
+        "whiteAccuracy": 91.5,
+        "blackAccuracy": 92.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 6,
+          "good": 16,
+          "excellent": 44
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 5,
+          "good": 13,
+          "excellent": 49
+        },
+        "whiteEngineMoves": 44,
+        "blackEngineMoves": 49,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 57,
+        "gameId": "Goa, India",
+        "white": "Shankland, Sam",
+        "black": "Rapport, Richard",
+        "whiteRating": 2654,
+        "blackRating": 2724,
+        "whiteACPL": 9.5,
+        "blackACPL": 9.5,
+        "whiteAccuracy": 96.1,
+        "blackAccuracy": 96.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 6,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 34
+        },
+        "whiteEngineMoves": 35,
+        "blackEngineMoves": 34,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 58,
+        "gameId": "Goa, India",
+        "white": "Rapport, Richard",
+        "black": "Shankland, Sam",
+        "whiteRating": 2724,
+        "blackRating": 2654,
+        "whiteACPL": 5,
+        "blackACPL": 4.1,
+        "whiteAccuracy": 98,
+        "blackAccuracy": 98.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 45
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 45
+        },
+        "whiteEngineMoves": 45,
+        "blackEngineMoves": 45,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 59,
+        "gameId": "Goa, India",
+        "white": "Rapport, Richard",
+        "black": "Shankland, Sam",
+        "whiteRating": 2724,
+        "blackRating": 2654,
+        "whiteACPL": 19.8,
+        "blackACPL": 12,
+        "whiteAccuracy": 92.5,
+        "blackAccuracy": 95.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 8,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 8,
+          "excellent": 35
+        },
+        "whiteEngineMoves": 31,
+        "blackEngineMoves": 35,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 60,
+        "gameId": "Goa, India",
+        "white": "Shankland, Sam",
+        "black": "Rapport, Richard",
+        "whiteRating": 2654,
+        "blackRating": 2724,
+        "whiteACPL": 8,
+        "blackACPL": 23.2,
+        "whiteAccuracy": 97.5,
+        "blackAccuracy": 92.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 22
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 5,
+          "excellent": 17
+        },
+        "whiteEngineMoves": 22,
+        "blackEngineMoves": 17,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 61,
+        "gameId": "Goa, India",
+        "white": "Aronian, Levon",
+        "black": "Wojtaszek, Radoslaw",
+        "whiteRating": 2722,
+        "blackRating": 2654,
+        "whiteACPL": 8,
+        "blackACPL": 13,
+        "whiteAccuracy": 96.9,
+        "blackAccuracy": 95.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 33
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 5,
+          "excellent": 29
+        },
+        "whiteEngineMoves": 33,
+        "blackEngineMoves": 29,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 62,
+        "gameId": "Goa, India",
+        "white": "Wojtaszek, Radoslaw",
+        "black": "Aronian, Levon",
+        "whiteRating": 2654,
+        "blackRating": 2722,
+        "whiteACPL": 23.9,
+        "blackACPL": 19.6,
+        "whiteAccuracy": 90.7,
+        "blackAccuracy": 91.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 7,
           "good": 3,
           "excellent": 24
         },
-        "whiteEngineMoves": 22,
-        "blackEngineMoves": 24,
-        "biggestBlunder": {
-          "moveNumber": 17,
-          "player": "black",
-          "cpLoss": 169,
-          "winLoss": 21.05607344949378,
-          "severity": 21.05607344949378,
-          "move": "Qxe6",
-          "evalBefore": 43,
-          "evalAfter": 212
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 2,
+          "good": 4,
+          "excellent": 26
         },
+        "whiteEngineMoves": 24,
+        "blackEngineMoves": 26,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 63,
+        "gameId": "Goa, India",
+        "white": "Yu, Yangyi",
+        "black": "Sindarov, Javokhir",
+        "whiteRating": 2720,
+        "blackRating": 2721,
+        "whiteACPL": 7.7,
+        "blackACPL": 6.8,
+        "whiteAccuracy": 96.9,
+        "blackAccuracy": 97.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 7,
+          "excellent": 65
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 66
+        },
+        "whiteEngineMoves": 65,
+        "blackEngineMoves": 66,
+        "biggestBlunder": null,
+        "biggestComeback": null,
+        "luckyEscape": null
+      },
+      {
+        "gameIndex": 64,
+        "gameId": "Goa, India",
+        "white": "Sindarov, Javokhir",
+        "black": "Yu, Yangyi",
+        "whiteRating": 2721,
+        "blackRating": 2720,
+        "whiteACPL": 5.4,
+        "blackACPL": 4.6,
+        "whiteAccuracy": 97.8,
+        "blackAccuracy": 98.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 56
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 58
+        },
+        "whiteEngineMoves": 56,
+        "blackEngineMoves": 58,
+        "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
       },
@@ -3771,26 +3676,28 @@
         "gameId": "Goa, India",
         "white": "Yu, Yangyi",
         "black": "Sindarov, Javokhir",
-        "whiteACPL": 14.4,
-        "blackACPL": 14.6,
-        "whiteAccuracy": 91.3,
-        "blackAccuracy": 91.1,
+        "whiteRating": 2720,
+        "blackRating": 2721,
+        "whiteACPL": 7.8,
+        "blackACPL": 7.1,
+        "whiteAccuracy": 96.8,
+        "blackAccuracy": 97.1,
         "whiteMoveQuality": {
           "blunders": 0,
-          "mistakes": 1,
+          "mistakes": 0,
           "inaccuracies": 1,
-          "good": 4,
-          "excellent": 11
+          "good": 3,
+          "excellent": 29
         },
         "blackMoveQuality": {
           "blunders": 0,
           "mistakes": 0,
-          "inaccuracies": 2,
+          "inaccuracies": 0,
           "good": 5,
-          "excellent": 9
+          "excellent": 27
         },
-        "whiteEngineMoves": 11,
-        "blackEngineMoves": 9,
+        "whiteEngineMoves": 29,
+        "blackEngineMoves": 27,
         "biggestBlunder": null,
         "biggestComeback": null,
         "luckyEscape": null
@@ -3800,87 +3707,89 @@
         "gameId": "Goa, India",
         "white": "Sindarov, Javokhir",
         "black": "Yu, Yangyi",
-        "whiteACPL": 19,
-        "blackACPL": 19.7,
-        "whiteAccuracy": 88.6,
-        "blackAccuracy": 88.1,
+        "whiteRating": 2721,
+        "blackRating": 2720,
+        "whiteACPL": 13.4,
+        "blackACPL": 15.2,
+        "whiteAccuracy": 94.5,
+        "blackAccuracy": 93.7,
         "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 3,
+          "inaccuracies": 3,
+          "good": 12,
+          "excellent": 106
+        },
+        "blackMoveQuality": {
           "blunders": 1,
           "mistakes": 4,
           "inaccuracies": 4,
-          "good": 14,
-          "excellent": 40
+          "good": 9,
+          "excellent": 107
         },
-        "blackMoveQuality": {
-          "blunders": 2,
-          "mistakes": 3,
-          "inaccuracies": 3,
-          "good": 13,
-          "excellent": 42
-        },
-        "whiteEngineMoves": 40,
-        "blackEngineMoves": 42,
+        "whiteEngineMoves": 106,
+        "blackEngineMoves": 107,
         "biggestBlunder": {
-          "moveNumber": 75,
-          "player": "black",
-          "cpLoss": 206,
-          "winLoss": 27.481236424166198,
-          "severity": 27.481236424166198,
-          "move": "Qf7+",
-          "evalBefore": -182,
-          "evalAfter": 24
+          "moveNumber": 119,
+          "player": "white",
+          "cpLoss": 272,
+          "winLoss": 22.205168411863525,
+          "severity": 28.533641409244627,
+          "move": "Qg3+",
+          "evalBefore": 314,
+          "evalAfter": 42
         },
         "biggestComeback": null,
         "luckyEscape": {
           "player": "black",
-          "escapeAmount": 191,
-          "evalBefore": 224,
-          "evalAfter": 33,
-          "moveNumber": 93
+          "escapeAmount": 272,
+          "evalBefore": 314,
+          "evalAfter": 42,
+          "moveNumber": 119
         }
       }
     ],
     "summary": {
       "accuracyKing": {
         "player": "black",
-        "accuracy": 99.7,
-        "acpl": 0.5,
-        "white": "Dubov, Daniil",
-        "black": "Praggnanandhaa, R",
-        "gameIndex": 10,
+        "accuracy": 99.3,
+        "acpl": 1.6,
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "gameIndex": 52,
         "gameId": "Goa, India"
       },
       "biggestBlunder": {
-        "moveNumber": 41,
+        "moveNumber": 45,
         "player": "white",
-        "cpLoss": 470,
-        "winLoss": 55.691461229331814,
-        "severity": 55.691461229331814,
-        "move": "g4",
-        "evalBefore": 133,
-        "evalAfter": -337,
-        "white": "Maghsoodloo, Parham",
-        "black": "Wei, Yi",
-        "gameIndex": 28,
+        "cpLoss": 382,
+        "winLoss": 26.575281131288335,
+        "severity": 45.04510151753372,
+        "move": "Bc4",
+        "evalBefore": 478,
+        "evalAfter": 96,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "gameIndex": 44,
         "gameId": "Goa, India"
       },
       "comebackKing": null,
       "luckyEscape": {
         "player": "black",
-        "escapeAmount": 677,
-        "evalBefore": 691,
-        "evalAfter": -14,
-        "moveNumber": 17,
-        "white": "Esipenko, Andrey",
-        "black": "Keymer, Vincent",
-        "gameIndex": 16,
+        "escapeAmount": 359,
+        "evalBefore": 366,
+        "evalAfter": 7,
+        "moveNumber": 71,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "gameIndex": 44,
         "gameId": "Goa, India"
       },
       "stockfishBuddy": {
         "player": "black",
-        "engineMoves": 42,
-        "totalMoves": 63,
-        "percentage": 66.7,
+        "engineMoves": 107,
+        "totalMoves": 125,
+        "percentage": 85.6,
         "white": "Sindarov, Javokhir",
         "black": "Yu, Yangyi",
         "gameIndex": 66,
@@ -3888,47 +3797,65 @@
       },
       "inaccuracyKing": {
         "player": "white",
-        "inaccuracies": 12,
-        "totalMoves": 37,
-        "white": "Lodici, Lorenzo",
-        "black": "Sevian, Samuel",
-        "gameIndex": 40,
+        "inaccuracies": 10,
+        "totalMoves": 86,
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "gameIndex": 42,
         "gameId": "Goa, India"
       },
       "lowestACPL": {
         "player": "black",
-        "acpl": 0.5,
-        "accuracy": 99.7,
-        "white": "Dubov, Daniil",
-        "black": "Praggnanandhaa, R",
-        "gameIndex": 10,
+        "acpl": 1.6,
+        "accuracy": 99.3,
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "gameIndex": 52,
         "gameId": "Goa, India"
       },
       "highestACPL": {
-        "player": "white",
-        "acpl": 48.5,
-        "accuracy": 75.8,
+        "player": "black",
+        "acpl": 38.4,
+        "accuracy": 85.2,
         "white": "Lodici, Lorenzo",
         "black": "Sevian, Samuel",
         "gameIndex": 44,
         "gameId": "Goa, India"
       },
       "lowestCombinedACPL": {
-        "combinedACPL": 7.5,
-        "whiteACPL": 7,
-        "blackACPL": 0.5,
-        "white": "Dubov, Daniil",
-        "black": "Praggnanandhaa, R",
-        "gameIndex": 10,
+        "combinedACPL": 4.300000000000001,
+        "whiteACPL": 2.7,
+        "blackACPL": 1.6,
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "gameIndex": 52,
         "gameId": "Goa, India"
       },
       "highestCombinedACPL": {
-        "combinedACPL": 91.1,
-        "whiteACPL": 48.5,
-        "blackACPL": 42.6,
+        "combinedACPL": 69.4,
+        "whiteACPL": 31,
+        "blackACPL": 38.4,
         "white": "Lodici, Lorenzo",
         "black": "Sevian, Samuel",
         "gameIndex": 44,
+        "gameId": "Goa, India"
+      },
+      "notSoSuperGM": {
+        "moveNumber": 119,
+        "player": "white",
+        "cpLoss": 272,
+        "winLoss": 22.205168411863525,
+        "severity": 28.533641409244627,
+        "move": "Qg3+",
+        "evalBefore": 314,
+        "evalAfter": 42,
+        "rating": 2721,
+        "playerName": "Sindarov, Javokhir",
+        "white": "Sindarov, Javokhir",
+        "black": "Yu, Yangyi",
+        "whiteRating": 2721,
+        "blackRating": 2720,
+        "gameIndex": 66,
         "gameId": "Goa, India"
       }
     }
