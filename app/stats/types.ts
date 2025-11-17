@@ -955,3 +955,76 @@ export interface LoadingState {
   isLoading: boolean;
   error: string | null;
 }
+
+// ============================================================================
+// TOURNAMENT OVERVIEW TYPES
+// ============================================================================
+
+export interface TournamentOverview {
+  tournamentName: string;
+  location: string;
+  totalRounds: number;
+  roundsCompleted: number;
+  generatedAt: string;
+  overall: {
+    totalGames: number;
+    totalMatches: number;
+    totalMoves: number;
+    averageGameLength: number;
+    longestGame: GameReference & { moves: number; roundNumber: number } | null;
+    shortestGame: GameReference & { moves: number; roundNumber: number } | null;
+    piecesCaptured: {
+      pawns: number;
+      knights: number;
+      bishops: number;
+      rooks: number;
+      queens: number;
+      total: number;
+    };
+  };
+  byRound: Array<{
+    roundNumber: number;
+    roundName: string;
+    matches: number;
+    games: number;
+    avgGameLength: number;
+    tiebreakRate: number;
+    upsetRate: number;
+    classicalGames: number;
+    rapidGames: number;
+    blitzGames: number;
+  }>;
+  hallOfFame: {
+    biggestUpset?: {
+      winner: string;
+      loser: string;
+      ratingDiff: number;
+      winnerRating: number;
+      loserRating: number;
+      roundNumber: number;
+    } | null;
+  };
+  awardFrequency: Record<string, number>;
+  trends: {
+    avgGameLengthByRound: number[];
+    whiteWinRateByRound: number[];
+    drawRateByRound: number[];
+    tiebreakRateByRound: number[];
+    upsetRateByRound: number[];
+    totalGamesByRound: number[];
+  };
+  openings: {
+    mostPopular: Array<{
+      name: string;
+      count: number;
+      wins: number;
+      draws: number;
+      losses: number;
+    }>;
+  };
+  players: {
+    startingPlayers: number;
+    remainingPlayers: number;
+    eliminatedPlayers: number;
+  };
+}

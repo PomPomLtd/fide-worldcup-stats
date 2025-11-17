@@ -99,6 +99,8 @@ export default function RoundPage() {
           <nav className="text-sm text-gray-600 dark:text-gray-400 mb-2">
             <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400">Home</Link>
             <span className="mx-2">/</span>
+            <Link href="/stats/overview" className="hover:text-blue-600 dark:hover:text-blue-400">Overview</Link>
+            <span className="mx-2">/</span>
             <span>Round {roundNumber}</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">

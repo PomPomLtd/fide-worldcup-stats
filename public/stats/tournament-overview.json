@@ -1,0 +1,290 @@
+{
+  "tournamentName": "FIDE World Cup 2025",
+  "location": "Goa, India",
+  "totalRounds": 7,
+  "roundsCompleted": 5,
+  "generatedAt": "2025-11-17T09:44:27.575Z",
+  "overall": {
+    "totalGames": 635,
+    "totalMatches": 198,
+    "totalMoves": 59680,
+    "averageGameLength": 94,
+    "longestGame": {
+      "moves": 145,
+      "white": "Grebnev, Aleksey",
+      "black": "Esipenko, Andrey",
+      "result": "1/2-1/2",
+      "gameId": "45.3",
+      "roundNumber": 5
+    },
+    "shortestGame": {
+      "moves": 1,
+      "white": "Svane, Frederik",
+      "black": "Husbands, Orlando",
+      "result": "1-0",
+      "gameId": "1.14",
+      "roundNumber": 1
+    },
+    "piecesCaptured": {
+      "pawns": 5566,
+      "knights": 1977,
+      "bishops": 1904,
+      "rooks": 1402,
+      "queens": 803,
+      "total": 0
+    }
+  },
+  "byRound": [
+    {
+      "roundNumber": 1,
+      "roundName": "Round 1",
+      "matches": 78,
+      "games": 218,
+      "avgGameLength": 47.1,
+      "tiebreakRate": 0,
+      "upsetRate": 11.5,
+      "classicalGames": 156,
+      "rapidGames": 0,
+      "blitzGames": 0
+    },
+    {
+      "roundNumber": 2,
+      "roundName": "Round 2",
+      "matches": 64,
+      "games": 221,
+      "avgGameLength": 48.2,
+      "tiebreakRate": 0,
+      "upsetRate": 16.7,
+      "classicalGames": 0,
+      "rapidGames": 0,
+      "blitzGames": 0
+    },
+    {
+      "roundNumber": 3,
+      "roundName": "Round 3 (Round of 16)",
+      "matches": 32,
+      "games": 99,
+      "avgGameLength": 48.5,
+      "tiebreakRate": 0,
+      "upsetRate": 20.2,
+      "classicalGames": 0,
+      "rapidGames": 0,
+      "blitzGames": 0
+    },
+    {
+      "roundNumber": 4,
+      "roundName": "Round 4 (Quarter-finals)",
+      "matches": 16,
+      "games": 67,
+      "avgGameLength": 47,
+      "tiebreakRate": 0,
+      "upsetRate": 19.4,
+      "classicalGames": 0,
+      "rapidGames": 0,
+      "blitzGames": 0
+    },
+    {
+      "roundNumber": 5,
+      "roundName": "Round 5 (Semi-finals)",
+      "matches": 8,
+      "games": 30,
+      "avgGameLength": 47.9,
+      "tiebreakRate": 0,
+      "upsetRate": 20,
+      "classicalGames": 0,
+      "rapidGames": 0,
+      "blitzGames": 0
+    }
+  ],
+  "hallOfFame": {
+    "biggestUpset": {
+      "underdog": "Wang, Shixu B",
+      "underdogRating": 2402,
+      "favorite": "Mendonca, Leon Luke",
+      "favoriteRating": 2620,
+      "eloDifference": 218,
+      "result": "1-0",
+      "white": "Wang, Shixu B",
+      "black": "Mendonca, Leon Luke",
+      "roundNumber": 1
+    }
+  },
+  "awardFrequency": {
+    "awards.bloodbath": 5,
+    "awards.pacifist": 5,
+    "awards.speedDemon": 5,
+    "awards.endgameWizard": 5,
+    "awards.openingSprinter": 5,
+    "fideFunAwards.tiebreakWarrior": 5,
+    "fideFunAwards.giantSlayer": 5,
+    "fideFunAwards.rapidFire": 5,
+    "fideFunAwards.blitzWizard": 5,
+    "fideFunAwards.classicalPurist": 5,
+    "fideFunAwards.marathonMaster": 5,
+    "fideFunAwards.fortressBuilder": 5,
+    "fideFunAwards.upsetArtist": 5,
+    "funStats.fastestQueenTrade": 5,
+    "funStats.slowestQueenTrade": 5,
+    "funStats.longestCaptureSequence": 5,
+    "funStats.longestCheckSequence": 5,
+    "funStats.pawnStorm": 5,
+    "funStats.pieceLoyalty": 5,
+    "funStats.squareTourist": 5,
+    "funStats.castlingRace": 5,
+    "funStats.openingHipster": 5,
+    "funStats.dadbodShuffler": 5,
+    "funStats.sportyQueen": 5,
+    "funStats.edgeLord": 5,
+    "funStats.rookLift": 5,
+    "funStats.centerStage": 5,
+    "funStats.darkLord": 5,
+    "funStats.lightLord": 5,
+    "funStats.chickenAward": 5,
+    "funStats.slowestCastling": 5,
+    "funStats.pawnCaptures": 5,
+    "funStats.antiOrthogonal": 5,
+    "funStats.comfortZone": 5,
+    "funStats.lateBloomer": 5,
+    "funStats.quickDraw": 5,
+    "funStats.homebody": 5,
+    "funStats.deepStrike": 5,
+    "funStats.crosshairs": 5,
+    "funStats.longestTension": 5,
+    "analysis.games": 5,
+    "analysis.summary": 5,
+    "timeAwards.longestThink": 5,
+    "timeAwards.zeitnotAddict": 5,
+    "timeAwards.timeScrambleSurvivor": 5,
+    "timeAwards.bulletSpeed": 5,
+    "timeAwards.openingBlitzer": 5,
+    "timeAwards.premoveMaster": 5,
+    "timeAwards.tiebreakPressureKing": 5,
+    "timeAwards.classicalTimeBurner": 5,
+    "timeAwards.incrementFarmer": 5,
+    "timeAwards.timeControlSpecialist": 5,
+    "timeAwards.sadTimes": 2
+  },
+  "trends": {
+    "avgGameLengthByRound": [
+      47.1,
+      48.2,
+      48.5,
+      47,
+      47.9
+    ],
+    "whiteWinRateByRound": [
+      37.2,
+      29.9,
+      26.3,
+      26.9,
+      20
+    ],
+    "drawRateByRound": [
+      37.2,
+      52.5,
+      49.5,
+      59.7,
+      56.7
+    ],
+    "tiebreakRateByRound": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "upsetRateByRound": [
+      11.5,
+      16.7,
+      20.2,
+      19.4,
+      20
+    ],
+    "totalGamesByRound": [
+      218,
+      221,
+      99,
+      67,
+      30
+    ]
+  },
+  "openings": {
+    "mostPopular": [
+      {
+        "name": "English Opening: Agincourt Defense",
+        "count": 28,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+        "count": 20,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "King's Indian Attack",
+        "count": 14,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Indian Defense: Knights Variation",
+        "count": 11,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Queen's Gambit Declined",
+        "count": 9,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Italian Game: Giuoco Pianissimo",
+        "count": 9,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Ruy Lopez: Berlin Defense",
+        "count": 7,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Ruy Lopez: Closed, Anti-Marshall",
+        "count": 7,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Italian Game: Giuoco Pianissimo, Normal",
+        "count": 7,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "name": "Zukertort Opening",
+        "count": 6,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      }
+    ]
+  },
+  "players": {
+    "startingPlayers": 128,
+    "remainingPlayers": 4,
+    "eliminatedPlayers": 124
+  }
+}
