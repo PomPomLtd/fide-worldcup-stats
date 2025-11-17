@@ -7,7 +7,7 @@ interface OpeningPopularityChartProps {
     firstMoves: Record<string, {
       count: number
       percentage: number
-      winRate: number
+      whiteWinRate: number
     }>
   }
 }
@@ -18,7 +18,7 @@ export function OpeningPopularityChart({ openings }: OpeningPopularityChartProps
     .map(([move, stats]) => ({
       move,
       games: stats.count,
-      winRate: Math.round(stats.winRate),
+      winRate: Math.round(stats.whiteWinRate),
       percentage: Math.round(stats.percentage)
     }))
     .sort((a, b) => b.games - a.games) // Sort by popularity

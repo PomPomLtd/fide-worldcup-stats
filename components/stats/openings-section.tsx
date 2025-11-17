@@ -9,10 +9,10 @@ interface OpeningsSectionProps {
     firstMoves: Record<string, {
       count: number
       percentage: number
-      winRate: number
+      whiteWinRate: number
     }>
     popularSequences: Array<{
-      moves: string
+      moves?: string
       count: number
       eco: string | null
       name: string | null
@@ -71,7 +71,7 @@ export function OpeningsSection({ openings }: OpeningsSectionProps) {
                     <span className="text-sm font-semibold text-gray-900 dark:text-white">{data.count}</span>
                   </div>
                   <div className="text-xs text-gray-600 dark:text-gray-400">
-                    {data.percentage.toFixed(0)}% popularity • {data.winRate.toFixed(0)}% win rate
+                    {data.percentage.toFixed(0)}% popularity • {data.whiteWinRate.toFixed(0)}% win rate
                   </div>
                 </div>
               ))}
@@ -103,9 +103,11 @@ export function OpeningsSection({ openings }: OpeningsSectionProps) {
                           {seq.name}
                         </div>
                       )}
-                      <div className="font-mono text-xs text-gray-600 dark:text-gray-400">
-                        {formatMoves(seq.moves)}
-                      </div>
+                      {seq.moves && (
+                        <div className="font-mono text-xs text-gray-600 dark:text-gray-400">
+                          {formatMoves(seq.moves)}
+                        </div>
+                      )}
                     </div>
                     <div className="text-xs font-semibold text-gray-500 dark:text-gray-500">
                       {seq.count} {seq.count === 1 ? 'game' : 'games'}

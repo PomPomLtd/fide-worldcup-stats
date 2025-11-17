@@ -7,6 +7,10 @@ import type { RoundStats } from '@/app/stats/types'
 import { formatPlayerName, formatPlayerVs } from '@/lib/utils'
 import { TimeAwardsSection } from '@/components/stats/time-awards'
 import { AnalysisSection } from '@/components/stats/analysis-section'
+import { TacticalStatsSection } from '@/components/stats/tactical-stats-section'
+import { PieceActivitySection } from '@/components/stats/piece-activity-section'
+import { CheckmatesSection } from '@/components/stats/checkmates-section'
+import { OpeningsSection } from '@/components/stats/openings-section'
 
 // Helper to format player rating display
 function formatRating(rating: number | null | undefined): string {
@@ -797,6 +801,28 @@ export default function RoundPage() {
 
         {/* Stockfish Analysis */}
         <AnalysisSection analysis={stats.analysis} />
+
+        {/* Tactical Stats */}
+        <TacticalStatsSection tactics={stats.tactics} />
+
+        {/* Piece Activity */}
+        <PieceActivitySection pieces={stats.pieces as unknown as {
+          activity: { pawns: number; knights: number; bishops: number; rooks: number; queens: number; kings: number }
+          captured: { pawns: number; knights: number; bishops: number; rooks: number; queens: number }
+        }} />
+
+        {/* Checkmates */}
+        <CheckmatesSection checkmates={stats.checkmates} />
+
+        {/* Opening Moves */}
+        <OpeningsSection openings={{
+          firstMoves: (stats.openings as unknown as Record<string, unknown>).firstMoves as Record<string, { count: number; percentage: number; whiteWinRate: number }>,
+          popularSequences: stats.openings.mostPopular?.slice(0, 10).map(opening => ({
+            count: opening.count,
+            eco: opening.eco,
+            name: opening.name
+          })) || []
+        }} />
 
         {/* Game Phases */}
         {stats.gamePhases && (

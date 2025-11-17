@@ -4,32 +4,35 @@ import { AwardCard } from './award-card'
 
 interface CheckmatesSectionProps {
   checkmates: {
-    byPiece: Record<string, number>
+    byPiece?: Record<string, number>
     fastest: {
       moves: number
-      gameIndex: number
-      gameId: string | null
+      gameIndex?: number
+      gameId?: string | null
       white: string
       black: string
-      winner: string
+      winner?: string
     } | null
   }
 }
 
 export function CheckmatesSection({ checkmates }: CheckmatesSectionProps) {
+  const pieces = ['queen', 'rook', 'bishop', 'knight', 'pawn'] as const
+
   return (
     <StatCard title="☠️ Checkmates">
       <div>
         <h4 className="font-semibold text-gray-900 dark:text-white mb-3">By Piece</h4>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-4">
-          {Object.entries(checkmates.byPiece)
-            .filter(([piece]) => piece !== 'king')
-            .map(([piece, count]) => (
-            <div key={piece} className="text-center p-2 bg-gray-50 dark:bg-gray-900/20 rounded">
-              <div className="font-bold text-gray-900 dark:text-white">{count}</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400 capitalize">{piece}</div>
-            </div>
-          ))}
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
+          {pieces.map((piece) => {
+            const count = checkmates.byPiece?.[piece] || 0
+            return (
+              <div key={piece} className="text-center p-3 bg-gray-50 dark:bg-gray-900/20 rounded-lg">
+                <div className="text-2xl font-bold text-gray-900 dark:text-white">{count}</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 capitalize">{piece}</div>
+              </div>
+            )
+          })}
         </div>
       </div>
 
@@ -41,7 +44,7 @@ export function CheckmatesSection({ checkmates }: CheckmatesSectionProps) {
               <PlayerVs white={checkmates.fastest.white} black={checkmates.fastest.black} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
-              {checkmates.fastest.moves} moves • Winner: {checkmates.fastest.winner}
+              {checkmates.fastest.moves} moves{checkmates.fastest.winner && ` • Winner: ${checkmates.fastest.winner}`}
             </div>
           </AwardCard>
         </div>
