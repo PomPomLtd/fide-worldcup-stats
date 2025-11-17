@@ -20,35 +20,48 @@ function getEcoExoticismBonus(eco) {
   const letter = eco[0];
   const number = parseInt(eco.substring(1, 3));
 
-  // A00-A03: Very exotic unusual first moves (Grob, Polish, Anderssen, etc.)
-  if (letter === 'A' && number <= 3) return 40;
+  // A00-A03: EXTREMELY exotic unusual first moves (Grob, Polish, Anderssen, Sodium Attack)
+  if (letter === 'A' && number <= 3) return 200;
 
-  // A04-A09: Exotic (Reti, King's Indian Attack variations)
-  if (letter === 'A' && number <= 9) return 30;
+  // A04-A09: Very exotic (Reti, King's Indian Attack variations)
+  if (letter === 'A' && number <= 9) return 100;
 
-  // A10-A39: Uncommon (English, unusual lines)
-  if (letter === 'A' && number <= 39) return 20;
+  // A10-A39: English Opening - common at high level, so LOW score
+  if (letter === 'A' && number <= 39) return 5;
 
-  // A40-A99: Less common responses
-  if (letter === 'A' && number <= 79) return 15;
-  if (letter === 'A') return 10;
+  // A40-A99: Queen's Pawn unusual responses
+  if (letter === 'A' && number <= 49) return 80;
+  if (letter === 'A' && number <= 79) return 60;
+  if (letter === 'A') return 40;
 
-  // B00-B09: Rare defenses (Owen, St. George, etc.)
-  if (letter === 'B' && number <= 9) return 25;
+  // B00-B09: RARE defenses (Owen, St. George, Nimzowitsch, Borg)
+  if (letter === 'B' && number <= 9) return 150;
+
+  // B10-B19: Caro-Kann rare lines
+  if (letter === 'B' && number <= 19) return 30;
+
+  // B20-B99: Sicilian (COMMON - low score)
+  if (letter === 'B') return 3;
 
   // C00-C19: French and Caro-Kann exotic lines
-  if (letter === 'C' && number <= 19) return 10;
+  if (letter === 'C' && number <= 19) return 50;
 
-  // C20-C29: Rare open games
-  if (letter === 'C' && number <= 29) return 15;
+  // C20-C99: Open games (1.e4 e5) - VERY common
+  if (letter === 'C') return 2;
 
   // D00-D05: Uncommon Queen's Pawn lines
-  if (letter === 'D' && number <= 5) return 15;
+  if (letter === 'D' && number <= 5) return 70;
+
+  // D06-D99: Queen's Gambit family - common
+  if (letter === 'D') return 4;
 
   // E00-E09: Catalan and rare Indian lines
-  if (letter === 'E' && number <= 9) return 10;
+  if (letter === 'E' && number <= 9) return 50;
 
-  // Everything else is relatively common
+  // E10-E99: Indian defenses - moderately common
+  if (letter === 'E') return 8;
+
+  // Everything else
   return 0;
 }
 
@@ -68,11 +81,13 @@ function calculateOpeningHipster(games) {
       const opening = getOpeningName(sequence);
 
       if (opening && opening.name) {
-        // Calculate obscurity score: length of name + specificity (has colon) + ECO exoticism
+        // Calculate obscurity score: ECO exoticism (heavily weighted) + specificity + name length (minimal)
         const hasColon = opening.name.includes(':');
         const nameLength = opening.name.length;
         const ecoBonus = getEcoExoticismBonus(opening.eco);
-        const obscurityScore = nameLength + (hasColon ? 20 : 0) + ecoBonus;
+
+        // Weight ECO exoticism heavily, name length minimally (so weird ECOs dominate)
+        const obscurityScore = (ecoBonus * 3) + (hasColon ? 30 : 0) + (nameLength * 0.3);
 
         if (obscurityScore > openingHipster.obscurityScore) {
           const players = getPlayerNames(game);
