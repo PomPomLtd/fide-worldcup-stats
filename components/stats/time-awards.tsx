@@ -1,5 +1,4 @@
 import { StatCard } from './stat-card'
-import { PlayerVs } from './player-name'
 import { formatPlayerName } from '@/lib/utils'
 import type { TimeAwards as TimeAwardsType } from '@/app/stats/types'
 
@@ -122,7 +121,7 @@ export function TimeAwardsSection({ timeAwards }: TimeAwardsProps) {
           <AwardCard
             emoji="🏆"
             title="Time Scramble Survivor"
-            player={formatPlayerName(timeAwards.timeScrambleSurvivor.winner)}
+            player={timeAwards.timeScrambleSurvivor.winner}
             description={`Won with ${timeAwards.timeScrambleSurvivor.criticalMoves} critical moves, clock at ${formatTime(timeAwards.timeScrambleSurvivor.minClock)}`}
             game={`${formatPlayerName(timeAwards.timeScrambleSurvivor.white)} vs ${formatPlayerName(timeAwards.timeScrambleSurvivor.black)} (${formatTimeControl(timeAwards.timeScrambleSurvivor.timeControl)})`}
             color="green"

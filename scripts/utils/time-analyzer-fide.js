@@ -215,8 +215,8 @@ function analyzeGameTime(game, timeControl = 'classical') {
     gameIndex: game.gameIndex,
     white,
     black,
-    whiteElo: game.whiteElo || (game.headers?.WhiteElo ? parseInt(game.headers.WhiteElo) : null),
-    blackElo: game.blackElo || (game.headers?.BlackElo ? parseInt(game.headers.BlackElo) : null),
+    whiteRating: game.whiteRating || (game.headers?.WhiteElo ? parseInt(game.headers.WhiteElo) : null),
+    blackRating: game.blackRating || (game.headers?.BlackElo ? parseInt(game.headers.BlackElo) : null),
     result,
     timeControl,
     premoves: {

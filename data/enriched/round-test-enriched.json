@@ -1,0 +1,4738 @@
+{
+  "roundNumber": 1,
+  "roundName": "Round 1",
+  "totalMatches": 1,
+  "totalGames": 2,
+  "matches": [
+    {
+      "matchId": "round-1-match-1",
+      "matchNumber": 1,
+      "pairingKey": "Abugenda, Nagi vs Erdogmus, Yagiz Kaan",
+      "players": [
+        {
+          "name": "Abugenda, Nagi",
+          "fideId": "9202544",
+          "elo": 1972
+        },
+        {
+          "name": "Erdogmus, Yagiz Kaan",
+          "fideId": "44599790",
+          "elo": 2651
+        }
+      ],
+      "totalGames": 2,
+      "gameDetails": [
+        {
+          "white": "Abugenda, Nagi",
+          "black": "Erdogmus, Yagiz Kaan",
+          "result": "0-1",
+          "date": "2025.11.01",
+          "round": "1.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "moves": "e4 e6 d4 d5 exd5 exd5 Bd3 Nc6 c3 Bd6 h3 Nge7 Qf3 O-O Ne2 Ng6 h4 Re8 g3 Nce5 dxe5 Nxe5 Qxd5 Be6 Qe4 f5 Qe3 Bd5 Kf1 Bxh1 Bxf5 Bc5 Qg5 Qd1#",
+          "moveCount": 34,
+          "moveList": [
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "e4",
+              "from": "e2",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e6",
+              "from": "e7",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d4",
+              "from": "d2",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d5",
+              "from": "d7",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "exd5",
+              "from": "e4",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "exd5",
+              "from": "e6",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bd3",
+              "from": "f1",
+              "to": "d3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc6",
+              "from": "b8",
+              "to": "c6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "c3",
+              "from": "c2",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bd6",
+              "from": "f8",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h3",
+              "from": "h2",
+              "to": "h3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nge7",
+              "from": "g8",
+              "to": "e7",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qf3",
+              "from": "d1",
+              "to": "f3",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e8",
+              "to": "g8",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne2",
+              "from": "g1",
+              "to": "e2",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ng6",
+              "from": "e7",
+              "to": "g6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h4",
+              "from": "h3",
+              "to": "h4",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re8",
+              "from": "f8",
+              "to": "e8",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "g3",
+              "from": "g2",
+              "to": "g3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nce5",
+              "from": "c6",
+              "to": "e5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "n",
+              "flags": "c",
+              "san": "dxe5",
+              "from": "d4",
+              "to": "e5",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "captured": "p",
+              "flags": "c",
+              "san": "Nxe5",
+              "from": "g6",
+              "to": "e5",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "captured": "p",
+              "flags": "c",
+              "san": "Qxd5",
+              "from": "f3",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be6",
+              "from": "c8",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qe4",
+              "from": "d5",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "f5",
+              "from": "f7",
+              "to": "f5",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qe3",
+              "from": "e4",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bd5",
+              "from": "e6",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kf1",
+              "from": "e1",
+              "to": "f1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "r",
+              "flags": "c",
+              "san": "Bxh1",
+              "from": "d5",
+              "to": "h1",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "p",
+              "flags": "c",
+              "san": "Bxf5",
+              "from": "d3",
+              "to": "f5",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bc5",
+              "from": "d6",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qg5",
+              "from": "e3",
+              "to": "g5",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd1#",
+              "from": "d8",
+              "to": "d1",
+              "color": "b"
+            }
+          ],
+          "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.01\"]\n[Round \"1.1\"]\n[White \"Abugenda, Nagi\"]\n[Black \"Erdogmus, Yagiz Kaan\"]\n[Result \"0-1\"]\n[WhiteElo \"1972\"]\n[BlackElo \"2651\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"9202544\"]\n[BlackFideId \"44599790\"]\n\n1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. h3 Nge7 7. Qf3 O-O 8. Ne2 Ng6 9. h4 Re8 10. g3 Nce5 11. dxe5 Nxe5 12. Qxd5 Be6 13. Qe4 f5 14. Qe3 Bd5 15. Kf1 Bxh1 16. Bxf5 Bc5 17. Qg5 Qd1# 0-1",
+          "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.01\"]\r\n[Round \"1.1\"]\r\n[White \"Abugenda, Nagi\"]\r\n[Black \"Erdogmus, Yagiz Kaan\"]\r\n[Result \"0-1\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"9202544\"]\r\n[BlackFideId \"44599790\"]\r\n[WhiteElo \"1972\"]\r\n[BlackElo \"2651\"]\r\n\r\n1. e4 {[%clk 01:30:54]} {[%emt 00:00:05]} e6 {[%clk 01:30:57]} {[%emt\r\n00:00:03]} 2. d4 {[%clk 01:24:53]} {[%emt 00:06:31]} d5 {[%clk 01:31:15]}\r\n{[%emt 00:00:12]} 3. exd5 {[%clk 01:25:07]} {[%emt 00:00:16]} exd5 {[%clk\r\n01:31:40]} {[%emt 00:00:06]} 4. Bd3 {[%clk 01:24:41]} {[%emt 00:00:54]} Nc6\r\n{[%clk 01:31:24]} {[%emt 00:00:46]} 5. c3 {[%clk 01:24:06]} {[%emt 00:01:05]}\r\nBd6 {[%clk 01:31:34]} {[%emt 00:00:20]} 6. h3 {[%clk 01:23:27]} {[%emt\r\n00:01:09]} Nge7 {[%clk 01:18:13]} {[%emt 00:13:52]} 7. Qf3 {[%clk 01:18:40]}\r\n{[%emt 00:05:16]} O-O {[%clk 01:03:04]} {[%emt 00:15:40]} 8. Ne2 {[%clk\r\n01:15:29]} {[%emt 00:03:39]} Ng6 {[%clk 01:01:45]} {[%emt 00:01:51]} 9. h4\r\n{[%clk 00:59:39]} {[%emt 00:16:21]} Re8 {[%clk 00:50:39]} {[%emt 00:11:36]} 10.\r\ng3 {[%clk 00:53:52]} {[%emt 00:06:16]} Nce5 {[%clk 00:44:23]} {[%emt 00:06:46]}\r\n11. dxe5 {[%clk 00:46:23]} {[%emt 00:08:00]} Nxe5 {[%clk 00:44:50]} {[%emt\r\n00:00:01]} 12. Qxd5 {[%clk 00:37:28]} {[%emt 00:09:26]} Be6 {[%clk 00:37:37]}\r\n{[%emt 00:07:43]} 13. Qe4 {[%clk 00:25:17]} {[%emt 00:12:41]} f5 {[%clk\r\n00:38:02]} {[%emt 00:00:04]} 14. Qe3 {[%clk 00:02:29]} {[%emt 00:23:18]} Bd5\r\n{[%clk 00:38:28]} {[%emt 00:00:04]} 15. Kf1 {[%clk 00:01:51]} {[%emt 00:01:09]}\r\nBxh1 {[%clk 00:36:01]} {[%emt 00:02:58]} 16. Bxf5 {[%clk 00:00:34]} {[%emt\r\n00:01:46]} Bc5 {[%clk 00:36:13]} {[%emt 00:00:18]} 17. Qg5 {[%clk 00:00:31]}\r\n{[%emt 00:00:32]} Qd1# {[%clk 00:36:09]} {[%emt 00:00:02]} 0-1",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)"
+        },
+        {
+          "white": "Erdogmus, Yagiz Kaan",
+          "black": "Abugenda, Nagi",
+          "result": "1-0",
+          "date": "2025.11.02",
+          "round": "2.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "moves": "d4 Nf6 c4 g6 g3 d5 cxd5 Nxd5 Bg2 Bg7 e4 Nb6 Ne2 O-O O-O Nc6 d5 Na5 Nbc3 c6 b3 cxd5 exd5 Bg4 f3 Bf5 Be3 Qd6 g4 Bd7 Ne4 Qb4 Bc5 Qb5 Rb1 Nc8 Bf2 b6 N2c3 Qa6 Qd2 Rd8 Rfe1 Be8 Bf1 b5 Nc5 Qf6 N3e4 Qxf3 h3 Nd6 Bg2",
+          "moveCount": 53,
+          "moveList": [
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d4",
+              "from": "d2",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf6",
+              "from": "g8",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "c4",
+              "from": "c2",
+              "to": "c4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "g6",
+              "from": "g7",
+              "to": "g6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "g3",
+              "from": "g2",
+              "to": "g3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d5",
+              "from": "d7",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "cxd5",
+              "from": "c4",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "captured": "p",
+              "flags": "c",
+              "san": "Nxd5",
+              "from": "f6",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg2",
+              "from": "f1",
+              "to": "g2",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg7",
+              "from": "f8",
+              "to": "g7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "e4",
+              "from": "e2",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nb6",
+              "from": "d5",
+              "to": "b6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne2",
+              "from": "g1",
+              "to": "e2",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e8",
+              "to": "g8",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e1",
+              "to": "g1",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc6",
+              "from": "b8",
+              "to": "c6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "d5",
+              "from": "d4",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Na5",
+              "from": "c6",
+              "to": "a5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nbc3",
+              "from": "b1",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "c6",
+              "from": "c7",
+              "to": "c6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "b3",
+              "from": "b2",
+              "to": "b3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "cxd5",
+              "from": "c6",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "exd5",
+              "from": "e4",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg4",
+              "from": "c8",
+              "to": "g4",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "f3",
+              "from": "f2",
+              "to": "f3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf5",
+              "from": "g4",
+              "to": "f5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be3",
+              "from": "c1",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd6",
+              "from": "d8",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "g4",
+              "from": "g3",
+              "to": "g4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bd7",
+              "from": "f5",
+              "to": "d7",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne4",
+              "from": "c3",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qb4",
+              "from": "d6",
+              "to": "b4",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bc5",
+              "from": "e3",
+              "to": "c5",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qb5",
+              "from": "b4",
+              "to": "b5",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb1",
+              "from": "a1",
+              "to": "b1",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc8",
+              "from": "b6",
+              "to": "c8",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf2",
+              "from": "c5",
+              "to": "f2",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "b6",
+              "from": "b7",
+              "to": "b6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "N2c3",
+              "from": "e2",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qa6",
+              "from": "b5",
+              "to": "a6",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd2",
+              "from": "d1",
+              "to": "d2",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd8",
+              "from": "f8",
+              "to": "d8",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rfe1",
+              "from": "f1",
+              "to": "e1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be8",
+              "from": "d7",
+              "to": "e8",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf1",
+              "from": "g2",
+              "to": "f1",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "b5",
+              "from": "b6",
+              "to": "b5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc5",
+              "from": "e4",
+              "to": "c5",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qf6",
+              "from": "a6",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "N3e4",
+              "from": "c3",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "captured": "p",
+              "flags": "c",
+              "san": "Qxf3",
+              "from": "f6",
+              "to": "f3",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h3",
+              "from": "h2",
+              "to": "h3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd6",
+              "from": "c8",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg2",
+              "from": "f1",
+              "to": "g2",
+              "color": "w"
+            }
+          ],
+          "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.02\"]\n[Round \"2.1\"]\n[White \"Erdogmus, Yagiz Kaan\"]\n[Black \"Abugenda, Nagi\"]\n[Result \"1-0\"]\n[WhiteElo \"2651\"]\n[BlackElo \"1972\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"44599790\"]\n[BlackFideId \"9202544\"]\n\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Bg7 6. e4 Nb6 7. Ne2 O-O 8. O-O Nc6 9. d5 Na5 10. Nbc3 c6 11. b3 cxd5 12. exd5 Bg4 13. f3 Bf5 14. Be3 Qd6 15. g4 Bd7 16. Ne4 Qb4 17. Bc5 Qb5 18. Rb1 Nc8 19. Bf2 b6 20. N2c3 Qa6 21. Qd2 Rd8 22. Rfe1 Be8 23. Bf1 b5 24. Nc5 Qf6 25. N3e4 Qxf3 26. h3 Nd6 27. Bg2 1-0",
+          "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.02\"]\r\n[Round \"2.1\"]\r\n[White \"Erdogmus, Yagiz Kaan\"]\r\n[Black \"Abugenda, Nagi\"]\r\n[Result \"1-0\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"44599790\"]\r\n[BlackFideId \"9202544\"]\r\n[WhiteElo \"2651\"]\r\n[BlackElo \"1972\"]\r\n\r\n1. d4 {[%clk 01:30:57]} {[%emt 00:00:03]} Nf6 {[%clk 01:30:27]} {[%emt\r\n00:00:33]} 2. c4 {[%clk 01:31:22]} {[%emt 00:00:06]} g6 {[%clk 01:30:20]}\r\n{[%emt 00:00:36]} 3. g3 {[%clk 01:30:04]} {[%emt 00:01:49]} d5 {[%clk\r\n01:29:50]} {[%emt 00:00:58]} 4. cxd5 {[%clk 01:27:20]} {[%emt 00:03:15]} Nxd5\r\n{[%clk 01:28:44]} {[%emt 00:01:35]} 5. Bg2 {[%clk 01:25:42]} {[%emt 00:02:08]}\r\nBg7 {[%clk 01:27:59]} {[%emt 00:01:16]} 6. e4 {[%clk 01:19:08]} {[%emt\r\n00:07:04]} Nb6 {[%clk 01:27:13]} {[%emt 00:01:16]} 7. Ne2 {[%clk 01:19:30]}\r\n{[%emt 00:00:08]} O-O {[%clk 01:26:29]} {[%emt 00:01:14]} 8. O-O {[%clk\r\n01:17:41]} {[%emt 00:02:19]} Nc6 {[%clk 01:20:51]} {[%emt 00:06:08]} 9. d5\r\n{[%clk 01:10:20]} {[%emt 00:07:51]} Na5 {[%clk 01:16:01]} {[%emt 00:05:20]} 10.\r\nNbc3 {[%clk 01:00:11]} {[%emt 00:10:40]} c6 {[%clk 01:11:45]} {[%emt 00:04:45]}\r\n11. b3 {[%clk 00:56:26]} {[%emt 00:04:15]} cxd5 {[%clk 01:06:42]} {[%emt\r\n00:05:33]} 12. exd5 {[%clk 00:56:49]} {[%emt 00:00:06]} Bg4 {[%clk 01:02:23]}\r\n{[%emt 00:04:51]} 13. f3 {[%clk 00:53:25]} {[%emt 00:03:54]} Bf5 {[%clk\r\n00:56:38]} {[%emt 00:06:14]} 14. Be3 {[%emt 00:28:49]} Qd6 {[%clk 00:45:43]} 15.\r\ng4 {[%clk 00:25:50]} {[%emt 00:11:12]} Bd7 {[%clk 00:39:08]} {[%emt 00:07:04]}\r\n16. Ne4 {[%clk 00:23:20]} {[%emt 00:03:01]} Qb4 {[%clk 00:15:44]} {[%emt\r\n00:23:54]} 17. Bc5 {[%clk 00:22:01]} {[%emt 00:01:49]} Qb5 {[%clk 00:14:27]}\r\n{[%emt 00:01:48]} 18. Rb1 {[%clk 00:20:17]} {[%emt 00:02:13]} Nc8 {[%clk\r\n00:08:17]} {[%emt 00:06:40]} 19. Bf2 {[%clk 00:15:02]} {[%emt 00:05:45]} b6\r\n{[%clk 00:07:05]} {[%emt 00:01:42]} 20. N2c3 {[%clk 00:13:43]} {[%emt\r\n00:01:49]} Qa6 {[%clk 00:06:55]} {[%emt 00:00:40]} 21. Qd2 {[%clk 00:11:01]}\r\n{[%emt 00:03:12]} Rd8 {[%clk 00:05:39]} {[%emt 00:01:45]} 22. Rfe1 {[%clk\r\n00:11:16]} {[%emt 00:00:16]} Be8 {[%clk 00:04:20]} {[%emt 00:01:49]} 23. Bf1\r\n{[%clk 00:11:42]} {[%emt 00:00:04]} b5 {[%clk 00:03:18]} {[%emt 00:01:32]} 24.\r\nNc5 {[%clk 00:11:10]} {[%emt 00:01:02]} Qf6 {[%clk 00:01:10]} {[%emt 00:02:36]}\r\n25. N3e4 {[%clk 00:11:33]} {[%emt 00:00:09]} Qxf3 {[%clk 00:00:58]} {[%emt\r\n00:00:41]} 26. h3 {[%clk 00:10:45]} {[%emt 00:01:20]} Nd6 {[%clk 00:00:37]}\r\n{[%emt 00:00:52]} 27. Bg2 {[%clk 00:11:05]} {[%emt 00:00:09]} 1-0",
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 2
+          },
+          "timeControlLabel": "Classical (90+30)"
+        }
+      ],
+      "dates": [
+        "2025.11.01",
+        "2025.11.02"
+      ],
+      "site": "Goa, India",
+      "gamesByTimeControl": {
+        "CLASSICAL": [
+          {
+            "white": "Abugenda, Nagi",
+            "black": "Erdogmus, Yagiz Kaan",
+            "result": "0-1",
+            "date": "2025.11.01",
+            "round": "1.1",
+            "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+            "moves": "e4 e6 d4 d5 exd5 exd5 Bd3 Nc6 c3 Bd6 h3 Nge7 Qf3 O-O Ne2 Ng6 h4 Re8 g3 Nce5 dxe5 Nxe5 Qxd5 Be6 Qe4 f5 Qe3 Bd5 Kf1 Bxh1 Bxf5 Bc5 Qg5 Qd1#",
+            "moveCount": 34,
+            "moveList": [
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "e4",
+                "from": "e2",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e6",
+                "from": "e7",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d4",
+                "from": "d2",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d5",
+                "from": "d7",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "exd5",
+                "from": "e4",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "exd5",
+                "from": "e6",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bd3",
+                "from": "f1",
+                "to": "d3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc6",
+                "from": "b8",
+                "to": "c6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "c3",
+                "from": "c2",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bd6",
+                "from": "f8",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h3",
+                "from": "h2",
+                "to": "h3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nge7",
+                "from": "g8",
+                "to": "e7",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qf3",
+                "from": "d1",
+                "to": "f3",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e8",
+                "to": "g8",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne2",
+                "from": "g1",
+                "to": "e2",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ng6",
+                "from": "e7",
+                "to": "g6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h4",
+                "from": "h3",
+                "to": "h4",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re8",
+                "from": "f8",
+                "to": "e8",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "g3",
+                "from": "g2",
+                "to": "g3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nce5",
+                "from": "c6",
+                "to": "e5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "n",
+                "flags": "c",
+                "san": "dxe5",
+                "from": "d4",
+                "to": "e5",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "captured": "p",
+                "flags": "c",
+                "san": "Nxe5",
+                "from": "g6",
+                "to": "e5",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "captured": "p",
+                "flags": "c",
+                "san": "Qxd5",
+                "from": "f3",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be6",
+                "from": "c8",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qe4",
+                "from": "d5",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "f5",
+                "from": "f7",
+                "to": "f5",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qe3",
+                "from": "e4",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bd5",
+                "from": "e6",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kf1",
+                "from": "e1",
+                "to": "f1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "r",
+                "flags": "c",
+                "san": "Bxh1",
+                "from": "d5",
+                "to": "h1",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "p",
+                "flags": "c",
+                "san": "Bxf5",
+                "from": "d3",
+                "to": "f5",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bc5",
+                "from": "d6",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qg5",
+                "from": "e3",
+                "to": "g5",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd1#",
+                "from": "d8",
+                "to": "d1",
+                "color": "b"
+              }
+            ],
+            "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.01\"]\n[Round \"1.1\"]\n[White \"Abugenda, Nagi\"]\n[Black \"Erdogmus, Yagiz Kaan\"]\n[Result \"0-1\"]\n[WhiteElo \"1972\"]\n[BlackElo \"2651\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"9202544\"]\n[BlackFideId \"44599790\"]\n\n1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. h3 Nge7 7. Qf3 O-O 8. Ne2 Ng6 9. h4 Re8 10. g3 Nce5 11. dxe5 Nxe5 12. Qxd5 Be6 13. Qe4 f5 14. Qe3 Bd5 15. Kf1 Bxh1 16. Bxf5 Bc5 17. Qg5 Qd1# 0-1",
+            "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.01\"]\r\n[Round \"1.1\"]\r\n[White \"Abugenda, Nagi\"]\r\n[Black \"Erdogmus, Yagiz Kaan\"]\r\n[Result \"0-1\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"9202544\"]\r\n[BlackFideId \"44599790\"]\r\n[WhiteElo \"1972\"]\r\n[BlackElo \"2651\"]\r\n\r\n1. e4 {[%clk 01:30:54]} {[%emt 00:00:05]} e6 {[%clk 01:30:57]} {[%emt\r\n00:00:03]} 2. d4 {[%clk 01:24:53]} {[%emt 00:06:31]} d5 {[%clk 01:31:15]}\r\n{[%emt 00:00:12]} 3. exd5 {[%clk 01:25:07]} {[%emt 00:00:16]} exd5 {[%clk\r\n01:31:40]} {[%emt 00:00:06]} 4. Bd3 {[%clk 01:24:41]} {[%emt 00:00:54]} Nc6\r\n{[%clk 01:31:24]} {[%emt 00:00:46]} 5. c3 {[%clk 01:24:06]} {[%emt 00:01:05]}\r\nBd6 {[%clk 01:31:34]} {[%emt 00:00:20]} 6. h3 {[%clk 01:23:27]} {[%emt\r\n00:01:09]} Nge7 {[%clk 01:18:13]} {[%emt 00:13:52]} 7. Qf3 {[%clk 01:18:40]}\r\n{[%emt 00:05:16]} O-O {[%clk 01:03:04]} {[%emt 00:15:40]} 8. Ne2 {[%clk\r\n01:15:29]} {[%emt 00:03:39]} Ng6 {[%clk 01:01:45]} {[%emt 00:01:51]} 9. h4\r\n{[%clk 00:59:39]} {[%emt 00:16:21]} Re8 {[%clk 00:50:39]} {[%emt 00:11:36]} 10.\r\ng3 {[%clk 00:53:52]} {[%emt 00:06:16]} Nce5 {[%clk 00:44:23]} {[%emt 00:06:46]}\r\n11. dxe5 {[%clk 00:46:23]} {[%emt 00:08:00]} Nxe5 {[%clk 00:44:50]} {[%emt\r\n00:00:01]} 12. Qxd5 {[%clk 00:37:28]} {[%emt 00:09:26]} Be6 {[%clk 00:37:37]}\r\n{[%emt 00:07:43]} 13. Qe4 {[%clk 00:25:17]} {[%emt 00:12:41]} f5 {[%clk\r\n00:38:02]} {[%emt 00:00:04]} 14. Qe3 {[%clk 00:02:29]} {[%emt 00:23:18]} Bd5\r\n{[%clk 00:38:28]} {[%emt 00:00:04]} 15. Kf1 {[%clk 00:01:51]} {[%emt 00:01:09]}\r\nBxh1 {[%clk 00:36:01]} {[%emt 00:02:58]} 16. Bxf5 {[%clk 00:00:34]} {[%emt\r\n00:01:46]} Bc5 {[%clk 00:36:13]} {[%emt 00:00:18]} 17. Qg5 {[%clk 00:00:31]}\r\n{[%emt 00:00:32]} Qd1# {[%clk 00:36:09]} {[%emt 00:00:02]} 0-1",
+            "classification": {
+              "type": "CLASSICAL",
+              "tier": null,
+              "timeControl": "90+30",
+              "gameNumber": 1
+            },
+            "timeControlLabel": "Classical (90+30)"
+          },
+          {
+            "white": "Erdogmus, Yagiz Kaan",
+            "black": "Abugenda, Nagi",
+            "result": "1-0",
+            "date": "2025.11.02",
+            "round": "2.1",
+            "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+            "moves": "d4 Nf6 c4 g6 g3 d5 cxd5 Nxd5 Bg2 Bg7 e4 Nb6 Ne2 O-O O-O Nc6 d5 Na5 Nbc3 c6 b3 cxd5 exd5 Bg4 f3 Bf5 Be3 Qd6 g4 Bd7 Ne4 Qb4 Bc5 Qb5 Rb1 Nc8 Bf2 b6 N2c3 Qa6 Qd2 Rd8 Rfe1 Be8 Bf1 b5 Nc5 Qf6 N3e4 Qxf3 h3 Nd6 Bg2",
+            "moveCount": 53,
+            "moveList": [
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d4",
+                "from": "d2",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf6",
+                "from": "g8",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "c4",
+                "from": "c2",
+                "to": "c4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "g6",
+                "from": "g7",
+                "to": "g6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "g3",
+                "from": "g2",
+                "to": "g3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d5",
+                "from": "d7",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "cxd5",
+                "from": "c4",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "captured": "p",
+                "flags": "c",
+                "san": "Nxd5",
+                "from": "f6",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg2",
+                "from": "f1",
+                "to": "g2",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg7",
+                "from": "f8",
+                "to": "g7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "e4",
+                "from": "e2",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nb6",
+                "from": "d5",
+                "to": "b6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne2",
+                "from": "g1",
+                "to": "e2",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e8",
+                "to": "g8",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e1",
+                "to": "g1",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc6",
+                "from": "b8",
+                "to": "c6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "d5",
+                "from": "d4",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Na5",
+                "from": "c6",
+                "to": "a5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nbc3",
+                "from": "b1",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "c6",
+                "from": "c7",
+                "to": "c6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "b3",
+                "from": "b2",
+                "to": "b3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "cxd5",
+                "from": "c6",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "exd5",
+                "from": "e4",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg4",
+                "from": "c8",
+                "to": "g4",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "f3",
+                "from": "f2",
+                "to": "f3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf5",
+                "from": "g4",
+                "to": "f5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be3",
+                "from": "c1",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd6",
+                "from": "d8",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "g4",
+                "from": "g3",
+                "to": "g4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bd7",
+                "from": "f5",
+                "to": "d7",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne4",
+                "from": "c3",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qb4",
+                "from": "d6",
+                "to": "b4",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bc5",
+                "from": "e3",
+                "to": "c5",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qb5",
+                "from": "b4",
+                "to": "b5",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb1",
+                "from": "a1",
+                "to": "b1",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc8",
+                "from": "b6",
+                "to": "c8",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf2",
+                "from": "c5",
+                "to": "f2",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "b6",
+                "from": "b7",
+                "to": "b6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "N2c3",
+                "from": "e2",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qa6",
+                "from": "b5",
+                "to": "a6",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd2",
+                "from": "d1",
+                "to": "d2",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd8",
+                "from": "f8",
+                "to": "d8",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rfe1",
+                "from": "f1",
+                "to": "e1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be8",
+                "from": "d7",
+                "to": "e8",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf1",
+                "from": "g2",
+                "to": "f1",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "b5",
+                "from": "b6",
+                "to": "b5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc5",
+                "from": "e4",
+                "to": "c5",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qf6",
+                "from": "a6",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "N3e4",
+                "from": "c3",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "captured": "p",
+                "flags": "c",
+                "san": "Qxf3",
+                "from": "f6",
+                "to": "f3",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h3",
+                "from": "h2",
+                "to": "h3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd6",
+                "from": "c8",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg2",
+                "from": "f1",
+                "to": "g2",
+                "color": "w"
+              }
+            ],
+            "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.02\"]\n[Round \"2.1\"]\n[White \"Erdogmus, Yagiz Kaan\"]\n[Black \"Abugenda, Nagi\"]\n[Result \"1-0\"]\n[WhiteElo \"2651\"]\n[BlackElo \"1972\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"44599790\"]\n[BlackFideId \"9202544\"]\n\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Bg7 6. e4 Nb6 7. Ne2 O-O 8. O-O Nc6 9. d5 Na5 10. Nbc3 c6 11. b3 cxd5 12. exd5 Bg4 13. f3 Bf5 14. Be3 Qd6 15. g4 Bd7 16. Ne4 Qb4 17. Bc5 Qb5 18. Rb1 Nc8 19. Bf2 b6 20. N2c3 Qa6 21. Qd2 Rd8 22. Rfe1 Be8 23. Bf1 b5 24. Nc5 Qf6 25. N3e4 Qxf3 26. h3 Nd6 27. Bg2 1-0",
+            "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.02\"]\r\n[Round \"2.1\"]\r\n[White \"Erdogmus, Yagiz Kaan\"]\r\n[Black \"Abugenda, Nagi\"]\r\n[Result \"1-0\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"44599790\"]\r\n[BlackFideId \"9202544\"]\r\n[WhiteElo \"2651\"]\r\n[BlackElo \"1972\"]\r\n\r\n1. d4 {[%clk 01:30:57]} {[%emt 00:00:03]} Nf6 {[%clk 01:30:27]} {[%emt\r\n00:00:33]} 2. c4 {[%clk 01:31:22]} {[%emt 00:00:06]} g6 {[%clk 01:30:20]}\r\n{[%emt 00:00:36]} 3. g3 {[%clk 01:30:04]} {[%emt 00:01:49]} d5 {[%clk\r\n01:29:50]} {[%emt 00:00:58]} 4. cxd5 {[%clk 01:27:20]} {[%emt 00:03:15]} Nxd5\r\n{[%clk 01:28:44]} {[%emt 00:01:35]} 5. Bg2 {[%clk 01:25:42]} {[%emt 00:02:08]}\r\nBg7 {[%clk 01:27:59]} {[%emt 00:01:16]} 6. e4 {[%clk 01:19:08]} {[%emt\r\n00:07:04]} Nb6 {[%clk 01:27:13]} {[%emt 00:01:16]} 7. Ne2 {[%clk 01:19:30]}\r\n{[%emt 00:00:08]} O-O {[%clk 01:26:29]} {[%emt 00:01:14]} 8. O-O {[%clk\r\n01:17:41]} {[%emt 00:02:19]} Nc6 {[%clk 01:20:51]} {[%emt 00:06:08]} 9. d5\r\n{[%clk 01:10:20]} {[%emt 00:07:51]} Na5 {[%clk 01:16:01]} {[%emt 00:05:20]} 10.\r\nNbc3 {[%clk 01:00:11]} {[%emt 00:10:40]} c6 {[%clk 01:11:45]} {[%emt 00:04:45]}\r\n11. b3 {[%clk 00:56:26]} {[%emt 00:04:15]} cxd5 {[%clk 01:06:42]} {[%emt\r\n00:05:33]} 12. exd5 {[%clk 00:56:49]} {[%emt 00:00:06]} Bg4 {[%clk 01:02:23]}\r\n{[%emt 00:04:51]} 13. f3 {[%clk 00:53:25]} {[%emt 00:03:54]} Bf5 {[%clk\r\n00:56:38]} {[%emt 00:06:14]} 14. Be3 {[%emt 00:28:49]} Qd6 {[%clk 00:45:43]} 15.\r\ng4 {[%clk 00:25:50]} {[%emt 00:11:12]} Bd7 {[%clk 00:39:08]} {[%emt 00:07:04]}\r\n16. Ne4 {[%clk 00:23:20]} {[%emt 00:03:01]} Qb4 {[%clk 00:15:44]} {[%emt\r\n00:23:54]} 17. Bc5 {[%clk 00:22:01]} {[%emt 00:01:49]} Qb5 {[%clk 00:14:27]}\r\n{[%emt 00:01:48]} 18. Rb1 {[%clk 00:20:17]} {[%emt 00:02:13]} Nc8 {[%clk\r\n00:08:17]} {[%emt 00:06:40]} 19. Bf2 {[%clk 00:15:02]} {[%emt 00:05:45]} b6\r\n{[%clk 00:07:05]} {[%emt 00:01:42]} 20. N2c3 {[%clk 00:13:43]} {[%emt\r\n00:01:49]} Qa6 {[%clk 00:06:55]} {[%emt 00:00:40]} 21. Qd2 {[%clk 00:11:01]}\r\n{[%emt 00:03:12]} Rd8 {[%clk 00:05:39]} {[%emt 00:01:45]} 22. Rfe1 {[%clk\r\n00:11:16]} {[%emt 00:00:16]} Be8 {[%clk 00:04:20]} {[%emt 00:01:49]} 23. Bf1\r\n{[%clk 00:11:42]} {[%emt 00:00:04]} b5 {[%clk 00:03:18]} {[%emt 00:01:32]} 24.\r\nNc5 {[%clk 00:11:10]} {[%emt 00:01:02]} Qf6 {[%clk 00:01:10]} {[%emt 00:02:36]}\r\n25. N3e4 {[%clk 00:11:33]} {[%emt 00:00:09]} Qxf3 {[%clk 00:00:58]} {[%emt\r\n00:00:41]} 26. h3 {[%clk 00:10:45]} {[%emt 00:01:20]} Nd6 {[%clk 00:00:37]}\r\n{[%emt 00:00:52]} 27. Bg2 {[%clk 00:11:05]} {[%emt 00:00:09]} 1-0",
+            "classification": {
+              "type": "CLASSICAL",
+              "tier": null,
+              "timeControl": "90+30",
+              "gameNumber": 2
+            },
+            "timeControlLabel": "Classical (90+30)"
+          }
+        ]
+      },
+      "outcome": {
+        "winner": "Erdogmus, Yagiz Kaan",
+        "advancingPlayer": "Erdogmus, Yagiz Kaan",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Abugenda, Nagi": 0,
+          "Erdogmus, Yagiz Kaan": 2
+        },
+        "totalGames": 2,
+        "finalScore": "2-0"
+      },
+      "timeControlSummary": {
+        "classical": 2,
+        "rapidTier1": 0,
+        "rapidTier2": 0,
+        "blitzTier1": 0,
+        "blitzTier2": 0,
+        "armageddon": 0
+      }
+    }
+  ],
+  "generatedAt": "2025-11-16T20:59:42.915Z",
+  "sourceDirectory": "_SRC/cup2025/",
+  "summary": {
+    "totalMatches": 78,
+    "totalGames": 218,
+    "decidedInClassical": 58,
+    "decidedInRapid": 15,
+    "decidedInBlitz": 5,
+    "decidedInArmageddon": 0,
+    "timeControlDistribution": {
+      "classical": 156,
+      "rapidTier1": 40,
+      "rapidTier2": 12,
+      "blitzTier1": 10,
+      "blitzTier2": 0,
+      "armageddon": 0
+    }
+  },
+  "classifiedAt": "2025-11-16T20:59:58.494Z",
+  "openingStats": {
+    "totalGames": 218,
+    "gamesWithOpenings": 215,
+    "gamesUnknown": 3,
+    "coverageRate": "98.6",
+    "byEco": {
+      "C01": {
+        "eco": "C01",
+        "name": "French Defense: Exchange Variation",
+        "count": 2,
+        "games": [
+          {
+            "white": "Abugenda, Nagi",
+            "black": "Erdogmus, Yagiz Kaan",
+            "result": "0-1"
+          },
+          {
+            "white": "Kovalev, Vladislav",
+            "black": "Velten, Paul",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "D70": {
+        "eco": "D70",
+        "name": "Neo-Grünfeld Defense: with g3",
+        "count": 1,
+        "games": [
+          {
+            "white": "Erdogmus, Yagiz Kaan",
+            "black": "Abugenda, Nagi",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B90": {
+        "eco": "B90",
+        "name": "Sicilian Defense: Najdorf Variation, Adams Attack",
+        "count": 5,
+        "games": [
+          {
+            "white": "Xiong, Jeffery",
+            "black": "Li, Yiheng",
+            "result": "1-0"
+          },
+          {
+            "white": "Tran, Thanh Tu",
+            "black": "Salem, A.R. Saleh",
+            "result": "0-1"
+          },
+          {
+            "white": "Cori Quispe, Kevin Joel",
+            "black": "Idani, Pouya",
+            "result": "0-1"
+          },
+          {
+            "white": "Fier, Alexandr",
+            "black": "Parligras, Mircea-Emilian",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Petrov, Martin",
+            "black": "Mekhitarian, Krikor Sevag",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "B50": {
+        "eco": "B50",
+        "name": "Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order",
+        "count": 4,
+        "games": [
+          {
+            "white": "Li, Yiheng",
+            "black": "Xiong, Jeffery",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Rojas Salas, Steven",
+            "black": "Narayanan, S",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Rojas Salas, Steven",
+            "black": "Narayanan, S",
+            "result": "0-1"
+          },
+          {
+            "white": "Lodici, Lorenzo",
+            "black": "Samadov, Read",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "B40": {
+        "eco": "B40",
+        "name": "Sicilian Defense: French Variation, Westerinen Attack",
+        "count": 3,
+        "games": [
+          {
+            "white": "Qin, Oscar Shu Xuan",
+            "black": "Rodshtein, Maxim",
+            "result": "0-1"
+          },
+          {
+            "white": "Tari, Aryan",
+            "black": "Manon, Reja Neer",
+            "result": "1-0"
+          },
+          {
+            "white": "Idani, Pouya",
+            "black": "Cori Quispe, Kevin Joel",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A07": {
+        "eco": "A07",
+        "name": "King's Indian Attack",
+        "count": 10,
+        "games": [
+          {
+            "white": "Rodshtein, Maxim",
+            "black": "Qin, Oscar Shu Xuan",
+            "result": "1-0"
+          },
+          {
+            "white": "Grandelius, Nils",
+            "black": "Allam, Mohamed",
+            "result": "1-0"
+          },
+          {
+            "white": "Silva, David",
+            "black": "Anton Guijarro, David",
+            "result": "0-1"
+          },
+          {
+            "white": "Ivic, Velimir",
+            "black": "Orozbaev, Eldiyar",
+            "result": "1-0"
+          },
+          {
+            "white": "Neiksans, Arturs",
+            "black": "Suleymenov, Alisher",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Lashkin, Jegor",
+            "black": "Tin, Jingyao",
+            "result": "0-1"
+          },
+          {
+            "white": "Flores, Diego",
+            "black": "Makhnev, Denis",
+            "result": "1-0"
+          },
+          {
+            "white": "Subelj, Jan",
+            "black": "Kuybokarov, Temur",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Subelj, Jan",
+            "black": "Kuybokarov, Temur",
+            "result": "0-1"
+          },
+          {
+            "white": "Nogerbek, Kazybek",
+            "black": "Raja, Rithvik R",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A16": {
+        "eco": "A16",
+        "name": "English Opening: Anglo-Grünfeld Defense",
+        "count": 3,
+        "games": [
+          {
+            "white": "Artemiev, Vladislav",
+            "black": "Ndahangwapo, Heskiel",
+            "result": "1-0"
+          },
+          {
+            "white": "Berdayes Ason, Dylan Isidro",
+            "black": "Iniyan, Pa",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Tin, Jingyao",
+            "black": "Lashkin, Jegor",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B47": {
+        "eco": "B47",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Ndahangwapo, Heskiel",
+            "black": "Artemiev, Vladislav",
+            "result": "0-1"
+          }
+        ]
+      },
+      "C55": {
+        "eco": "C55",
+        "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+        "count": 3,
+        "games": [
+          {
+            "white": "Alrehaili, Ahmed Abdullah S",
+            "black": "Adams, Michael",
+            "result": "0-1"
+          },
+          {
+            "white": "Boulrens, Ala Eddine",
+            "black": "Pranav, V",
+            "result": "0-1"
+          },
+          {
+            "white": "Martirosyan, Haik M.",
+            "black": "Cahaya, Satria Duta",
+            "result": "1-0"
+          }
+        ]
+      },
+      "C72": {
+        "eco": "C72",
+        "name": "Ruy Lopez: Morphy Defense, Modern Steinitz Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Adams, Michael",
+            "black": "Alrehaili, Ahmed Abdullah S",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A45": {
+        "eco": "A45",
+        "name": "Indian Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Allam, Mohamed",
+            "black": "Grandelius, Nils",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "C77": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Huh, Isaak",
+            "black": "Martinez Alcantara, Jose Eduardo",
+            "result": "0-1"
+          }
+        ]
+      },
+      "A08": {
+        "eco": "A08",
+        "name": "Zukertort Opening: Reversed Grünfeld",
+        "count": 3,
+        "games": [
+          {
+            "white": "Martinez Alcantara, Jose Eduardo",
+            "black": "Huh, Isaak",
+            "result": "1-0"
+          },
+          {
+            "white": "Raja, Rithvik R",
+            "black": "Nogerbek, Kazybek",
+            "result": "0-1"
+          },
+          {
+            "white": "Raja, Rithvik R",
+            "black": "Nogerbek, Kazybek",
+            "result": "0-1"
+          }
+        ]
+      },
+      "B31": {
+        "eco": "B31",
+        "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+        "count": 2,
+        "games": [
+          {
+            "white": "Gledura, Benjamin",
+            "black": "Amdouni, Zoubaier",
+            "result": "1-0"
+          },
+          {
+            "white": "Suyarov, Mukhammadzokhid",
+            "black": "Abasov, Nijat",
+            "result": "0-1"
+          }
+        ]
+      },
+      "C00": {
+        "eco": "C00",
+        "name": "French Defense: Schlechter Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Amdouni, Zoubaier",
+            "black": "Gledura, Benjamin",
+            "result": "0-1"
+          }
+        ]
+      },
+      "C78": {
+        "eco": "C78",
+        "name": "Ruy Lopez: Morphy Defense",
+        "count": 2,
+        "games": [
+          {
+            "white": "Salih, Akar Ali Salih",
+            "black": "Kollars, Dmitrij",
+            "result": "0-1"
+          },
+          {
+            "white": "Cheparinov, Ivan",
+            "black": "Cordoba Roa, Angel Gabriel",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B30": {
+        "eco": "B30",
+        "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack",
+        "count": 3,
+        "games": [
+          {
+            "white": "Kollars, Dmitrij",
+            "black": "Salih, Akar Ali Salih",
+            "result": "1-0"
+          },
+          {
+            "white": "Manon, Reja Neer",
+            "black": "Tari, Aryan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Supi, Luis Paulo",
+            "black": "Galaviz Medina, Sion Radamantys",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "A46": {
+        "eco": "A46",
+        "name": "Indian Defense: Knights Variation",
+        "count": 7,
+        "games": [
+          {
+            "white": "Pranav, V",
+            "black": "Boulrens, Ala Eddine",
+            "result": "1-0"
+          },
+          {
+            "white": "Cori, Jorge",
+            "black": "Ansat, Aldiyar",
+            "result": "1-0"
+          },
+          {
+            "white": "Oro, Faustino",
+            "black": "Brkic, Ante",
+            "result": "1-0"
+          },
+          {
+            "white": "Oro, Faustino",
+            "black": "Brkic, Ante",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Aronyak, Ghosh",
+            "black": "Bartel, Mateusz",
+            "result": "1-0"
+          },
+          {
+            "white": "Aronyak, Ghosh",
+            "black": "Bartel, Mateusz",
+            "result": "1-0"
+          },
+          {
+            "white": "Stremavicius, Titas",
+            "black": "Bogner, Sebastian",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "A06": {
+        "eco": "A06",
+        "name": "Zukertort Opening",
+        "count": 2,
+        "games": [
+          {
+            "white": "Kigigha, Bomo Lovet",
+            "black": "Donchenko, Alexander",
+            "result": "0-1"
+          },
+          {
+            "white": "Efimov, Igor",
+            "black": "Gurel, Ediz",
+            "result": "0-1"
+          }
+        ]
+      },
+      "D35": {
+        "eco": "D35",
+        "name": "Queen's Gambit Declined: Normal Defense",
+        "count": 4,
+        "games": [
+          {
+            "white": "Donchenko, Alexander",
+            "black": "Kigigha, Bomo Lovet",
+            "result": "1-0"
+          },
+          {
+            "white": "Rakotomaharo, Fy Antenaina",
+            "black": "Najer, Evgeniy",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Cori, Jorge",
+            "black": "Ansat, Aldiyar",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Bogner, Sebastian",
+            "black": "Stremavicius, Titas",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "B12": {
+        "eco": "B12",
+        "name": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
+        "count": 7,
+        "games": [
+          {
+            "white": "Sadhwani, Raunak",
+            "black": "Barrish, Daniel",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Vokhidov, Shamsiddin",
+            "black": "Ilkhomi, Jaloliddin",
+            "result": "1-0"
+          },
+          {
+            "white": "Suleymenov, Alisher",
+            "black": "Neiksans, Arturs",
+            "result": "1-0"
+          },
+          {
+            "white": "Brkic, Ante",
+            "black": "Oro, Faustino",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Bartel, Mateusz",
+            "black": "Aronyak, Ghosh",
+            "result": "0-1"
+          },
+          {
+            "white": "Jobava, Baadur",
+            "black": "Cardoso Cardoso, Jose Gabriel",
+            "result": "1-0"
+          },
+          {
+            "white": "Kantor, Gergely",
+            "black": "Rodrigue-Lemieux, Shawn",
+            "result": "1-0"
+          }
+        ]
+      },
+      "E38": {
+        "eco": "E38",
+        "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Barrish, Daniel",
+            "black": "Sadhwani, Raunak",
+            "result": "0-1"
+          }
+        ]
+      },
+      "E01": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed",
+        "count": 1,
+        "games": [
+          {
+            "white": "Ilkhomi, Jaloliddin",
+            "black": "Vokhidov, Shamsiddin",
+            "result": "0-1"
+          }
+        ]
+      },
+      "B00": {
+        "eco": "B00",
+        "name": "King's Pawn Game",
+        "count": 4,
+        "games": [
+          {
+            "white": "Svane, Frederik",
+            "black": "Husbands, Orlando",
+            "result": "1-0"
+          },
+          {
+            "white": "Bacrot, Etienne",
+            "black": "Mwali, Chitumbo",
+            "result": "1-0"
+          },
+          {
+            "white": "Petrov, Nikita",
+            "black": "Ghazarian, Kirk",
+            "result": "1-0"
+          },
+          {
+            "white": "Cardoso Cardoso, Jose Gabriel",
+            "black": "Jobava, Baadur",
+            "result": "0-1"
+          }
+        ]
+      },
+      "C44": {
+        "eco": "C44",
+        "name": "Scotch Game: Scotch Gambit, Advance Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Husbands, Orlando",
+            "black": "Svane, Frederik",
+            "result": "0-1"
+          }
+        ]
+      },
+      "B41": {
+        "eco": "B41",
+        "name": "Sicilian Defense: Kan Variation, Maróczy Bind, Hedgehog Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Gurel, Ediz",
+            "black": "Efimov, Igor",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A05": {
+        "eco": "A05",
+        "name": "Zukertort Opening",
+        "count": 8,
+        "games": [
+          {
+            "white": "Chigaev, Maksim",
+            "black": "Elbilia, Jacques",
+            "result": "1-0"
+          },
+          {
+            "white": "Amartuvshin, Ganzorig",
+            "black": "Lagarde, Maxime",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Quizon, Daniel",
+            "black": "Grebnev, Aleksey",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Dardha, Daniel",
+            "black": "Banh, Gia Huy",
+            "result": "1-0"
+          },
+          {
+            "white": "Pantsulaia, Levan",
+            "black": "Zemlyanskii, Ivan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Bai, Jinshi",
+            "black": "Fawzy, Adham",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Abasov, Nijat",
+            "black": "Suyarov, Mukhammadzokhid",
+            "result": "1-0"
+          },
+          {
+            "white": "Flores, Diego",
+            "black": "Makhnev, Denis",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "A48": {
+        "eco": "A48",
+        "name": "Torre Attack: Fianchetto Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Elbilia, Jacques",
+            "black": "Chigaev, Maksim",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "E10": {
+        "eco": "E10",
+        "name": "Indian Defense: Anti-Nimzo-Indian",
+        "count": 3,
+        "games": [
+          {
+            "white": "Kavin, Mohan",
+            "black": "Hovhannisyan, Robert",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Iniyan, Pa",
+            "black": "Berdayes Ason, Dylan Isidro",
+            "result": "1-0"
+          },
+          {
+            "white": "Nesterov, Arseniy",
+            "black": "Atabayev, Saparmyrat",
+            "result": "1-0"
+          }
+        ]
+      },
+      "C42": {
+        "eco": "C42",
+        "name": "Petrov's Defense: Three Knights Game",
+        "count": 8,
+        "games": [
+          {
+            "white": "Hovhannisyan, Robert",
+            "black": "Kavin, Mohan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Siddharth, Jagadeesh",
+            "black": "Cheng, Bobby",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Fawzy, Adham",
+            "black": "Bai, Jinshi",
+            "result": "0-1"
+          },
+          {
+            "white": "Bellahcene, Bilel",
+            "black": "Huschenbeth, Niclas",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Neiksans, Arturs",
+            "black": "Suleymenov, Alisher",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Atabayev, Saparmyrat",
+            "black": "Nesterov, Arseniy",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Parligras, Mircea-Emilian",
+            "black": "Fier, Alexandr",
+            "result": "0-1"
+          },
+          {
+            "white": "Bartel, Mateusz",
+            "black": "Aronyak, Ghosh",
+            "result": "1-0"
+          }
+        ]
+      },
+      "C43": {
+        "eco": "C43",
+        "name": "Petrov's Defense: Modern Attack, Center Variation",
+        "count": 4,
+        "games": [
+          {
+            "white": "Hovhannisyan, Robert",
+            "black": "Kavin, Mohan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Najer, Evgeniy",
+            "black": "Rakotomaharo, Fy Antenaina",
+            "result": "1-0"
+          },
+          {
+            "white": "Neelash, Saha",
+            "black": "Meier, Georg",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Bartel, Mateusz",
+            "black": "Aronyak, Ghosh",
+            "result": "1-0"
+          }
+        ]
+      },
+      "E11": {
+        "eco": "E11",
+        "name": "Bogo-Indian Defense: Exchange Variation",
+        "count": 4,
+        "games": [
+          {
+            "white": "Kavin, Mohan",
+            "black": "Hovhannisyan, Robert",
+            "result": "0-1"
+          },
+          {
+            "white": "Vazquez, Facundo",
+            "black": "Svane, Rasmus",
+            "result": "0-1"
+          },
+          {
+            "white": "Grigoryan, Karen H.",
+            "black": "Adly, Ahmed",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Grigoryan, Karen H.",
+            "black": "Adly, Ahmed",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "D06": {
+        "eco": "D06",
+        "name": "Queen's Gambit Declined: Austrian Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Anton Guijarro, David",
+            "black": "Silva, David",
+            "result": "1-0"
+          }
+        ]
+      },
+      "C80": {
+        "eco": "C80",
+        "name": "Ruy Lopez: Open, Main Line",
+        "count": 1,
+        "games": [
+          {
+            "white": "Pranesh, M",
+            "black": "Akhmedinov, Satbek",
+            "result": "1-0"
+          }
+        ]
+      },
+      "C45": {
+        "eco": "C45",
+        "name": "Scotch Game: Schmidt Variation",
+        "count": 3,
+        "games": [
+          {
+            "white": "Akhmedinov, Satbek",
+            "black": "Pranesh, M",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Peng, Xiongjian",
+            "black": "Ghosh, Diptayan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Peng, Xiongjian",
+            "black": "Ghosh, Diptayan",
+            "result": "0-1"
+          }
+        ]
+      },
+      "A04": {
+        "eco": "A04",
+        "name": "Zukertort Opening",
+        "count": 5,
+        "games": [
+          {
+            "white": "Amin, Bassem",
+            "black": "Mandizha, Farai",
+            "result": "1-0"
+          },
+          {
+            "white": "Kourkoulos-Arditis, Stamatis",
+            "black": "Divya, Deshmukh",
+            "result": "1-0"
+          },
+          {
+            "white": "Warmerdam, Max",
+            "black": "Lalit, Babu M R",
+            "result": "1-0"
+          },
+          {
+            "white": "Oro, Faustino",
+            "black": "Brkic, Ante",
+            "result": "1-0"
+          },
+          {
+            "white": "Maksimovic, Bojan",
+            "black": "Can, Emre",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B33": {
+        "eco": "B33",
+        "name": "Sicilian Defense: Lasker-Pelikan Variation",
+        "count": 3,
+        "games": [
+          {
+            "white": "Orozbaev, Eldiyar",
+            "black": "Ivic, Velimir",
+            "result": "0-1"
+          },
+          {
+            "white": "Thavandiran, Shiyam",
+            "black": "Yuffa, Daniil",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Supi, Luis Paulo",
+            "black": "Galaviz Medina, Sion Radamantys",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "C84": {
+        "eco": "C84",
+        "name": "Ruy Lopez: Closed, Martinez Variation",
+        "count": 4,
+        "games": [
+          {
+            "white": "Cordoba Roa, Angel Gabriel",
+            "black": "Cheparinov, Ivan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Laohawirapap, Prin",
+            "black": "Suleymanli, Aydin",
+            "result": "0-1"
+          },
+          {
+            "white": "Kuybokarov, Temur",
+            "black": "Subelj, Jan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Kuybokarov, Temur",
+            "black": "Subelj, Jan",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A29": {
+        "eco": "A29",
+        "name": "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line",
+        "count": 2,
+        "games": [
+          {
+            "white": "Cahaya, Satria Duta",
+            "black": "Martirosyan, Haik M.",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Meier, Georg",
+            "black": "Neelash, Saha",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A13": {
+        "eco": "A13",
+        "name": "English Opening: Agincourt Defense",
+        "count": 12,
+        "games": [
+          {
+            "white": "Sargissian, Gabriel",
+            "black": "Liyanage, Ranindu Dilshan",
+            "result": "1-0"
+          },
+          {
+            "white": "Yuffa, Daniil",
+            "black": "Thavandiran, Shiyam",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Yuffa, Daniil",
+            "black": "Thavandiran, Shiyam",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Mendonca, Leon Luke",
+            "black": "Wang, Shixu B",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Schnaider, Ilan",
+            "black": "Indjic, Aleksandar",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Lagarde, Maxime",
+            "black": "Amartuvshin, Ganzorig",
+            "result": "1-0"
+          },
+          {
+            "white": "Grigoryan, Karen H.",
+            "black": "Adly, Ahmed",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Ghosh, Diptayan",
+            "black": "Peng, Xiongjian",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Lobanov, Sergei",
+            "black": "Piorun, Kacper",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Mekhitarian, Krikor Sevag",
+            "black": "Petrov, Martin",
+            "result": "0-1"
+          },
+          {
+            "white": "Raja, Rithvik R",
+            "black": "Nogerbek, Kazybek",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Raja, Rithvik R",
+            "black": "Nogerbek, Kazybek",
+            "result": "0-1"
+          }
+        ]
+      },
+      "C58": {
+        "eco": "C58",
+        "name": "Italian Game: Two Knights Defense, Blackburne Variation",
+        "count": 2,
+        "games": [
+          {
+            "white": "Liyanage, Ranindu Dilshan",
+            "black": "Sargissian, Gabriel",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Lupulescu, Constantin",
+            "black": "Blohberger, Felix",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "A40": {
+        "eco": "A40",
+        "name": "Horwitz Defense",
+        "count": 5,
+        "games": [
+          {
+            "white": "Yuffa, Daniil",
+            "black": "Thavandiran, Shiyam",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Yilmaz, Mustafa",
+            "black": "Harshavardhan, G B",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Adly, Ahmed",
+            "black": "Grigoryan, Karen H.",
+            "result": "0-1"
+          },
+          {
+            "white": "Adly, Ahmed",
+            "black": "Grigoryan, Karen H.",
+            "result": "1-0"
+          },
+          {
+            "white": "Lobanov, Sergei",
+            "black": "Piorun, Kacper",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "B10": {
+        "eco": "B10",
+        "name": "Caro-Kann Defense: Endgame Offer",
+        "count": 3,
+        "games": [
+          {
+            "white": "Thavandiran, Shiyam",
+            "black": "Yuffa, Daniil",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Thavandiran, Shiyam",
+            "black": "Yuffa, Daniil",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Makhnev, Denis",
+            "black": "Flores, Diego",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B03": {
+        "eco": "B03",
+        "name": "Alekhine Defense: Four Pawns Attack, Main Line",
+        "count": 1,
+        "games": [
+          {
+            "white": "Thavandiran, Shiyam",
+            "black": "Yuffa, Daniil",
+            "result": "0-1"
+          }
+        ]
+      },
+      "A20": {
+        "eco": "A20",
+        "name": "English Opening: King's English Variation",
+        "count": 3,
+        "games": [
+          {
+            "white": "Yuffa, Daniil",
+            "black": "Thavandiran, Shiyam",
+            "result": "1-0"
+          },
+          {
+            "white": "Tin, Jingyao",
+            "black": "Lashkin, Jegor",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Stremavicius, Titas",
+            "black": "Bogner, Sebastian",
+            "result": "1-0"
+          }
+        ]
+      },
+      "E12": {
+        "eco": "E12",
+        "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Petrosian Attack",
+        "count": 2,
+        "games": [
+          {
+            "white": "Wang, Shixu B",
+            "black": "Mendonca, Leon Luke",
+            "result": "1-0"
+          },
+          {
+            "white": "Mohammad Fahad, Rahman",
+            "black": "Ivanchuk, Vasyl",
+            "result": "0-1"
+          }
+        ]
+      },
+      "E62": {
+        "eco": "E62",
+        "name": "King's Indian Defense: Fianchetto Variation, Carlsbad Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Salem, A.R. Saleh",
+            "black": "Tran, Thanh Tu",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A30": {
+        "eco": "A30",
+        "name": "English Opening: Symmetrical Variation",
+        "count": 3,
+        "games": [
+          {
+            "white": "Indjic, Aleksandar",
+            "black": "Schnaider, Ilan",
+            "result": "1-0"
+          },
+          {
+            "white": "Ghosh, Diptayan",
+            "black": "Peng, Xiongjian",
+            "result": "1-0"
+          },
+          {
+            "white": "Maksimovic, Bojan",
+            "black": "Can, Emre",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "D30": {
+        "eco": "D30",
+        "name": "Queen's Gambit Declined",
+        "count": 7,
+        "games": [
+          {
+            "white": "Narayanan, S",
+            "black": "Rojas Salas, Steven",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Narayanan, S",
+            "black": "Rojas Salas, Steven",
+            "result": "1-0"
+          },
+          {
+            "white": "Ivanchuk, Vasyl",
+            "black": "Mohammad Fahad, Rahman",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Agibileg, Uurtsaikh",
+            "black": "Henriquez Villagra, Cristobal",
+            "result": "1-0"
+          },
+          {
+            "white": "Agibileg, Uurtsaikh",
+            "black": "Henriquez Villagra, Cristobal",
+            "result": "0-1"
+          },
+          {
+            "white": "Suleymenov, Alisher",
+            "black": "Neiksans, Arturs",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Bogner, Sebastian",
+            "black": "Stremavicius, Titas",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "C50": {
+        "eco": "C50",
+        "name": "Italian Game: Giuoco Pianissimo, Normal",
+        "count": 5,
+        "games": [
+          {
+            "white": "Suleymanli, Aydin",
+            "black": "Laohawirapap, Prin",
+            "result": "1-0"
+          },
+          {
+            "white": "Gusain, Himal",
+            "black": "Woodward, Andy",
+            "result": "0-1"
+          },
+          {
+            "white": "Avila Pavas, Santiago",
+            "black": "Motylev, Alexander",
+            "result": "0-1"
+          },
+          {
+            "white": "Rodrigue-Lemieux, Shawn",
+            "black": "Kantor, Gergely",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Piorun, Kacper",
+            "black": "Lobanov, Sergei",
+            "result": "1-0"
+          }
+        ]
+      },
+      "E28": {
+        "eco": "E28",
+        "name": "Nimzo-Indian Defense: Sämisch Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Divya, Deshmukh",
+            "black": "Kourkoulos-Arditis, Stamatis",
+            "result": "0-1"
+          }
+        ]
+      },
+      "D37": {
+        "eco": "D37",
+        "name": "Queen's Gambit Declined: Barmen Variation",
+        "count": 5,
+        "games": [
+          {
+            "white": "Svane, Rasmus",
+            "black": "Vazquez, Facundo",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Samadov, Read",
+            "black": "Lodici, Lorenzo",
+            "result": "0-1"
+          },
+          {
+            "white": "Velten, Paul",
+            "black": "Kovalev, Vladislav",
+            "result": "0-1"
+          },
+          {
+            "white": "Nogerbek, Kazybek",
+            "black": "Raja, Rithvik R",
+            "result": "0-1"
+          },
+          {
+            "white": "Nogerbek, Kazybek",
+            "black": "Raja, Rithvik R",
+            "result": "0-1"
+          }
+        ]
+      },
+      "B27": {
+        "eco": "B27",
+        "name": "Sicilian Defense: Hyperaccelerated Dragon",
+        "count": 2,
+        "games": [
+          {
+            "white": "Grebnev, Aleksey",
+            "black": "Quizon, Daniel",
+            "result": "1-0"
+          },
+          {
+            "white": "Blohberger, Felix",
+            "black": "Lupulescu, Constantin",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B52": {
+        "eco": "B52",
+        "name": "Sicilian Defense: Moscow Variation, Main Line",
+        "count": 4,
+        "games": [
+          {
+            "white": "Banh, Gia Huy",
+            "black": "Dardha, Daniel",
+            "result": "0-1"
+          },
+          {
+            "white": "Ansat, Aldiyar",
+            "black": "Cori, Jorge",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Huschenbeth, Niclas",
+            "black": "Bellahcene, Bilel",
+            "result": "1-0"
+          },
+          {
+            "white": "Garcia Pantoja, Roberto",
+            "black": "Karthik, Venkataraman",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "C02": {
+        "eco": "C02",
+        "name": "French Defense: Advance Variation, Paulsen Attack",
+        "count": 3,
+        "games": [
+          {
+            "white": "Henriquez Villagra, Cristobal",
+            "black": "Agibileg, Uurtsaikh",
+            "result": "1-0"
+          },
+          {
+            "white": "Henriquez Villagra, Cristobal",
+            "black": "Agibileg, Uurtsaikh",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Ahmadzada, Ahmad",
+            "black": "Ganguly, Surya Shekhar",
+            "result": "0-1"
+          }
+        ]
+      },
+      "C79": {
+        "eco": "C79",
+        "name": "Ruy Lopez: Morphy Defense, Steinitz Deferred",
+        "count": 1,
+        "games": [
+          {
+            "white": "Daneshvar, Bardiya",
+            "black": "Salinas Herrera, Pablo",
+            "result": "1-0"
+          }
+        ]
+      },
+      "D11": {
+        "eco": "D11",
+        "name": "Slav Defense: Modern Line",
+        "count": 1,
+        "games": [
+          {
+            "white": "Salinas Herrera, Pablo",
+            "black": "Daneshvar, Bardiya",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "A56": {
+        "eco": "A56",
+        "name": "Benoni Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Zemlyanskii, Ivan",
+            "black": "Pantsulaia, Levan",
+            "result": "1-0"
+          }
+        ]
+      },
+      "E21": {
+        "eco": "E21",
+        "name": "Nimzo-Indian Defense: Three Knights Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Cheng, Bobby",
+            "black": "Siddharth, Jagadeesh",
+            "result": "1-0"
+          }
+        ]
+      },
+      "C67": {
+        "eco": "C67",
+        "name": "Ruy Lopez: Berlin Defense, Rio Gambit Accepted",
+        "count": 2,
+        "games": [
+          {
+            "white": "Ansat, Aldiyar",
+            "black": "Cori, Jorge",
+            "result": "0-1"
+          },
+          {
+            "white": "Lashkin, Jegor",
+            "black": "Tin, Jingyao",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "B95": {
+        "eco": "B95",
+        "name": "Sicilian Defense: Najdorf Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Harshavardhan, G B",
+            "black": "Yilmaz, Mustafa",
+            "result": "0-1"
+          }
+        ]
+      },
+      "D20": {
+        "eco": "D20",
+        "name": "Queen's Gambit Accepted: Central Variation, McDonnell Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Woodward, Andy",
+            "black": "Gusain, Himal",
+            "result": "1-0"
+          }
+        ]
+      },
+      "D02": {
+        "eco": "D02",
+        "name": "Queen's Pawn Game: Symmetrical Variation",
+        "count": 2,
+        "games": [
+          {
+            "white": "Adly, Ahmed",
+            "black": "Grigoryan, Karen H.",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Lalit, Babu M R",
+            "black": "Warmerdam, Max",
+            "result": "0-1"
+          }
+        ]
+      },
+      "A00": {
+        "eco": "A00",
+        "name": "Hungarian Opening: Indian Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Grigoryan, Karen H.",
+            "black": "Adly, Ahmed",
+            "result": "0-1"
+          }
+        ]
+      },
+      "E60": {
+        "eco": "E60",
+        "name": "King's Indian Defense: Normal Variation, King's Knight Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Adly, Ahmed",
+            "black": "Grigoryan, Karen H.",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "B51": {
+        "eco": "B51",
+        "name": "Sicilian Defense: Moscow Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Motylev, Alexander",
+            "black": "Avila Pavas, Santiago",
+            "result": "1-0"
+          }
+        ]
+      },
+      "D04": {
+        "eco": "D04",
+        "name": "Queen's Pawn Game: Colle System, Anti-Colle",
+        "count": 1,
+        "games": [
+          {
+            "white": "Warmerdam, Max",
+            "black": "Lalit, Babu M R",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "D00": {
+        "eco": "D00",
+        "name": "Queen's Pawn Game: Levitsky Attack",
+        "count": 2,
+        "games": [
+          {
+            "white": "Lalit, Babu M R",
+            "black": "Warmerdam, Max",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Lalit, Babu M R",
+            "black": "Warmerdam, Max",
+            "result": "1-0"
+          }
+        ]
+      },
+      "D03": {
+        "eco": "D03",
+        "name": "Queen's Pawn Game: Torre Attack, Gossip Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Lalit, Babu M R",
+            "black": "Warmerdam, Max",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A09": {
+        "eco": "A09",
+        "name": "Réti Opening",
+        "count": 2,
+        "games": [
+          {
+            "white": "Warmerdam, Max",
+            "black": "Lalit, Babu M R",
+            "result": "1-0"
+          },
+          {
+            "white": "Warmerdam, Max",
+            "black": "Lalit, Babu M R",
+            "result": "1-0"
+          }
+        ]
+      },
+      "A11": {
+        "eco": "A11",
+        "name": "English Opening: Caro-Kann Defensive System",
+        "count": 1,
+        "games": [
+          {
+            "white": "Karthik, Venkataraman",
+            "black": "Garcia Pantoja, Roberto",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B23": {
+        "eco": "B23",
+        "name": "Sicilian Defense: Closed, Traditional",
+        "count": 1,
+        "games": [
+          {
+            "white": "Oro, Faustino",
+            "black": "Brkic, Ante",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "B13": {
+        "eco": "B13",
+        "name": "Caro-Kann Defense: Exchange Variation",
+        "count": 3,
+        "games": [
+          {
+            "white": "Brkic, Ante",
+            "black": "Oro, Faustino",
+            "result": "1-0"
+          },
+          {
+            "white": "Brkic, Ante",
+            "black": "Oro, Faustino",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Brkic, Ante",
+            "black": "Oro, Faustino",
+            "result": "0-1"
+          }
+        ]
+      },
+      "E32": {
+        "eco": "E32",
+        "name": "Nimzo-Indian Defense: Classical Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Aronyak, Ghosh",
+            "black": "Bartel, Mateusz",
+            "result": "1-0"
+          }
+        ]
+      },
+      "E20": {
+        "eco": "E20",
+        "name": "Nimzo-Indian Defense: Kmoch Variation",
+        "count": 2,
+        "games": [
+          {
+            "white": "Galaviz Medina, Sion Radamantys",
+            "black": "Supi, Luis Paulo",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Galaviz Medina, Sion Radamantys",
+            "black": "Supi, Luis Paulo",
+            "result": "0-1"
+          }
+        ]
+      },
+      "B72": {
+        "eco": "B72",
+        "name": "Sicilian Defense: Dragon Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Cardoso Cardoso, Jose Gabriel",
+            "black": "Jobava, Baadur",
+            "result": "1-0"
+          }
+        ]
+      },
+      "B91": {
+        "eco": "B91",
+        "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Jobava, Baadur",
+            "black": "Cardoso Cardoso, Jose Gabriel",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "C85": {
+        "eco": "C85",
+        "name": "Ruy Lopez: Closed, Delayed Exchange",
+        "count": 1,
+        "games": [
+          {
+            "white": "Ganguly, Surya Shekhar",
+            "black": "Ahmadzada, Ahmad",
+            "result": "1-0"
+          }
+        ]
+      },
+      "E70": {
+        "eco": "E70",
+        "name": "King's Indian Defense: Normal Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Makhnev, Denis",
+            "black": "Flores, Diego",
+            "result": "1-0"
+          }
+        ]
+      },
+      "C47": {
+        "eco": "C47",
+        "name": "Four Knights Game",
+        "count": 1,
+        "games": [
+          {
+            "white": "Piorun, Kacper",
+            "black": "Lobanov, Sergei",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "E73": {
+        "eco": "E73",
+        "name": "King's Indian Defense: Normal Variation, Standard Development",
+        "count": 2,
+        "games": [
+          {
+            "white": "Can, Emre",
+            "black": "Maksimovic, Bojan",
+            "result": "1/2-1/2"
+          },
+          {
+            "white": "Can, Emre",
+            "black": "Maksimovic, Bojan",
+            "result": "0-1"
+          }
+        ]
+      },
+      "C69": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Gligoric Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Nogerbek, Kazybek",
+            "black": "Raja, Rithvik R",
+            "result": "1/2-1/2"
+          }
+        ]
+      }
+    },
+    "byName": {
+      "French Defense: Exchange Variation": {
+        "name": "French Defense: Exchange Variation",
+        "eco": "C01",
+        "count": 2
+      },
+      "Neo-Grünfeld Defense: with g3": {
+        "name": "Neo-Grünfeld Defense: with g3",
+        "eco": "D70",
+        "count": 1
+      },
+      "Sicilian Defense: Najdorf Variation, Adams Attack": {
+        "name": "Sicilian Defense: Najdorf Variation, Adams Attack",
+        "eco": "B90",
+        "count": 2
+      },
+      "Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order": {
+        "name": "Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order",
+        "eco": "B50",
+        "count": 1
+      },
+      "Sicilian Defense: French Variation, Westerinen Attack": {
+        "name": "Sicilian Defense: French Variation, Westerinen Attack",
+        "eco": "B40",
+        "count": 1
+      },
+      "King's Indian Attack": {
+        "name": "King's Indian Attack",
+        "eco": "A07",
+        "count": 9
+      },
+      "English Opening: Anglo-Grünfeld Defense": {
+        "name": "English Opening: Anglo-Grünfeld Defense",
+        "eco": "A16",
+        "count": 1
+      },
+      "Sicilian Defense: Taimanov Variation, Bastrikov Variation": {
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation",
+        "eco": "B47",
+        "count": 1
+      },
+      "Italian Game: Two Knights Defense, Modern Bishop's Opening": {
+        "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+        "eco": "C55",
+        "count": 3
+      },
+      "Ruy Lopez: Morphy Defense, Modern Steinitz Defense": {
+        "name": "Ruy Lopez: Morphy Defense, Modern Steinitz Defense",
+        "eco": "C72",
+        "count": 1
+      },
+      "Indian Defense": {
+        "name": "Indian Defense",
+        "eco": "A45",
+        "count": 1
+      },
+      "Ruy Lopez: Morphy Defense, Anderssen Variation": {
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+        "eco": "C77",
+        "count": 1
+      },
+      "Zukertort Opening: Reversed Grünfeld": {
+        "name": "Zukertort Opening: Reversed Grünfeld",
+        "eco": "A08",
+        "count": 3
+      },
+      "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation": {
+        "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+        "eco": "B31",
+        "count": 2
+      },
+      "French Defense: Schlechter Variation": {
+        "name": "French Defense: Schlechter Variation",
+        "eco": "C00",
+        "count": 1
+      },
+      "Ruy Lopez: Morphy Defense": {
+        "name": "Ruy Lopez: Morphy Defense",
+        "eco": "C78",
+        "count": 1
+      },
+      "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack": {
+        "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack",
+        "eco": "B30",
+        "count": 2
+      },
+      "Indian Defense: Knights Variation": {
+        "name": "Indian Defense: Knights Variation",
+        "eco": "A46",
+        "count": 4
+      },
+      "Zukertort Opening": {
+        "name": "Zukertort Opening",
+        "eco": "A06",
+        "count": 7
+      },
+      "Queen's Gambit Declined: Normal Defense": {
+        "name": "Queen's Gambit Declined: Normal Defense",
+        "eco": "D35",
+        "count": 2
+      },
+      "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense": {
+        "name": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
+        "eco": "B12",
+        "count": 4
+      },
+      "Nimzo-Indian Defense: Classical Variation, Berlin Variation": {
+        "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation",
+        "eco": "E38",
+        "count": 1
+      },
+      "Catalan Opening: Closed": {
+        "name": "Catalan Opening: Closed",
+        "eco": "E01",
+        "count": 1
+      },
+      "King's Pawn Game": {
+        "name": "King's Pawn Game",
+        "eco": "B00",
+        "count": 3
+      },
+      "Scotch Game: Scotch Gambit, Advance Variation": {
+        "name": "Scotch Game: Scotch Gambit, Advance Variation",
+        "eco": "C44",
+        "count": 1
+      },
+      "Sicilian Defense: Kan Variation, Maróczy Bind, Hedgehog Variation": {
+        "name": "Sicilian Defense: Kan Variation, Maróczy Bind, Hedgehog Variation",
+        "eco": "B41",
+        "count": 1
+      },
+      "Torre Attack: Fianchetto Defense": {
+        "name": "Torre Attack: Fianchetto Defense",
+        "eco": "A48",
+        "count": 1
+      },
+      "Indian Defense: Anti-Nimzo-Indian": {
+        "name": "Indian Defense: Anti-Nimzo-Indian",
+        "eco": "E10",
+        "count": 3
+      },
+      "Petrov's Defense: Three Knights Game": {
+        "name": "Petrov's Defense: Three Knights Game",
+        "eco": "C42",
+        "count": 3
+      },
+      "Petrov's Defense: Modern Attack, Center Variation": {
+        "name": "Petrov's Defense: Modern Attack, Center Variation",
+        "eco": "C43",
+        "count": 4
+      },
+      "Bogo-Indian Defense: Exchange Variation": {
+        "name": "Bogo-Indian Defense: Exchange Variation",
+        "eco": "E11",
+        "count": 1
+      },
+      "Queen's Gambit Declined: Austrian Defense": {
+        "name": "Queen's Gambit Declined: Austrian Defense",
+        "eco": "D06",
+        "count": 1
+      },
+      "Sicilian Defense: French Variation": {
+        "name": "Sicilian Defense: French Variation",
+        "eco": "B40",
+        "count": 1
+      },
+      "Ruy Lopez: Open, Main Line": {
+        "name": "Ruy Lopez: Open, Main Line",
+        "eco": "C80",
+        "count": 1
+      },
+      "Scotch Game: Schmidt Variation": {
+        "name": "Scotch Game: Schmidt Variation",
+        "eco": "C45",
+        "count": 1
+      },
+      "Sicilian Defense: Lasker-Pelikan Variation": {
+        "name": "Sicilian Defense: Lasker-Pelikan Variation",
+        "eco": "B33",
+        "count": 1
+      },
+      "Ruy Lopez: Morphy Defense, Neo-Arkhangelsk Variation": {
+        "name": "Ruy Lopez: Morphy Defense, Neo-Arkhangelsk Variation",
+        "eco": "C78",
+        "count": 1
+      },
+      "Ruy Lopez: Closed, Martinez Variation": {
+        "name": "Ruy Lopez: Closed, Martinez Variation",
+        "eco": "C84",
+        "count": 4
+      },
+      "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line": {
+        "name": "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line",
+        "eco": "A29",
+        "count": 2
+      },
+      "English Opening: Agincourt Defense": {
+        "name": "English Opening: Agincourt Defense",
+        "eco": "A13",
+        "count": 12
+      },
+      "Italian Game: Two Knights Defense, Blackburne Variation": {
+        "name": "Italian Game: Two Knights Defense, Blackburne Variation",
+        "eco": "C58",
+        "count": 1
+      },
+      "Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation": {
+        "name": "Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation",
+        "eco": "B33",
+        "count": 1
+      },
+      "Horwitz Defense": {
+        "name": "Horwitz Defense",
+        "eco": "A40",
+        "count": 2
+      },
+      "Caro-Kann Defense: Endgame Offer": {
+        "name": "Caro-Kann Defense: Endgame Offer",
+        "eco": "B10",
+        "count": 2
+      },
+      "Alekhine Defense: Four Pawns Attack, Main Line": {
+        "name": "Alekhine Defense: Four Pawns Attack, Main Line",
+        "eco": "B03",
+        "count": 1
+      },
+      "English Opening: King's English Variation": {
+        "name": "English Opening: King's English Variation",
+        "eco": "A20",
+        "count": 2
+      },
+      "Queen's Indian Defense: Kasparov-Petrosian Variation, Petrosian Attack": {
+        "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Petrosian Attack",
+        "eco": "E12",
+        "count": 1
+      },
+      "King's Indian Defense: Fianchetto Variation, Carlsbad Variation": {
+        "name": "King's Indian Defense: Fianchetto Variation, Carlsbad Variation",
+        "eco": "E62",
+        "count": 1
+      },
+      "English Opening: Symmetrical Variation": {
+        "name": "English Opening: Symmetrical Variation",
+        "eco": "A30",
+        "count": 3
+      },
+      "Sicilian Defense: Delayed Alapin Variation, with d6": {
+        "name": "Sicilian Defense: Delayed Alapin Variation, with d6",
+        "eco": "B50",
+        "count": 2
+      },
+      "Queen's Gambit Declined": {
+        "name": "Queen's Gambit Declined",
+        "eco": "D30",
+        "count": 7
+      },
+      "Queen's Indian Defense: Kasparov-Petrosian Variation, Main Line": {
+        "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Main Line",
+        "eco": "E12",
+        "count": 1
+      },
+      "Italian Game: Giuoco Pianissimo, Normal": {
+        "name": "Italian Game: Giuoco Pianissimo, Normal",
+        "eco": "C50",
+        "count": 2
+      },
+      "Nimzo-Indian Defense: Sämisch Variation": {
+        "name": "Nimzo-Indian Defense: Sämisch Variation",
+        "eco": "E28",
+        "count": 1
+      },
+      "Zukertort Opening: Kingside Fianchetto": {
+        "name": "Zukertort Opening: Kingside Fianchetto",
+        "eco": "A04",
+        "count": 2
+      },
+      "Bogo-Indian Defense: Retreat Variation": {
+        "name": "Bogo-Indian Defense: Retreat Variation",
+        "eco": "E11",
+        "count": 1
+      },
+      "Queen's Gambit Declined: Barmen Variation": {
+        "name": "Queen's Gambit Declined: Barmen Variation",
+        "eco": "D37",
+        "count": 2
+      },
+      "Sicilian Defense: Hyperaccelerated Dragon": {
+        "name": "Sicilian Defense: Hyperaccelerated Dragon",
+        "eco": "B27",
+        "count": 2
+      },
+      "Queen's Gambit Declined: Exchange Variation, Positional Variation": {
+        "name": "Queen's Gambit Declined: Exchange Variation, Positional Variation",
+        "eco": "D35",
+        "count": 2
+      },
+      "King's Indian Attack: Symmetrical Defense": {
+        "name": "King's Indian Attack: Symmetrical Defense",
+        "eco": "A05",
+        "count": 2
+      },
+      "Sicilian Defense: Moscow Variation, Main Line": {
+        "name": "Sicilian Defense: Moscow Variation, Main Line",
+        "eco": "B52",
+        "count": 3
+      },
+      "French Defense: Advance Variation, Paulsen Attack": {
+        "name": "French Defense: Advance Variation, Paulsen Attack",
+        "eco": "C02",
+        "count": 2
+      },
+      "Ruy Lopez: Morphy Defense, Steinitz Deferred": {
+        "name": "Ruy Lopez: Morphy Defense, Steinitz Deferred",
+        "eco": "C79",
+        "count": 1
+      },
+      "Slav Defense: Modern Line": {
+        "name": "Slav Defense: Modern Line",
+        "eco": "D11",
+        "count": 1
+      },
+      "Sicilian Defense: Najdorf Variation, Lipnitsky Attack": {
+        "name": "Sicilian Defense: Najdorf Variation, Lipnitsky Attack",
+        "eco": "B90",
+        "count": 1
+      },
+      "Sicilian Defense: French Variation, Normal": {
+        "name": "Sicilian Defense: French Variation, Normal",
+        "eco": "B40",
+        "count": 1
+      },
+      "English Opening: Anglo-Indian Defense, Queen's Knight Variation": {
+        "name": "English Opening: Anglo-Indian Defense, Queen's Knight Variation",
+        "eco": "A16",
+        "count": 2
+      },
+      "Benoni Defense": {
+        "name": "Benoni Defense",
+        "eco": "A56",
+        "count": 1
+      },
+      "Petrov's Defense: Karklins-Martinovsky Variation": {
+        "name": "Petrov's Defense: Karklins-Martinovsky Variation",
+        "eco": "C42",
+        "count": 1
+      },
+      "Nimzo-Indian Defense: Three Knights Variation": {
+        "name": "Nimzo-Indian Defense: Three Knights Variation",
+        "eco": "E21",
+        "count": 1
+      },
+      "Yusupov-Rubinstein System": {
+        "name": "Yusupov-Rubinstein System",
+        "eco": "A46",
+        "count": 1
+      },
+      "Ruy Lopez: Berlin Defense, Rio Gambit Accepted": {
+        "name": "Ruy Lopez: Berlin Defense, Rio Gambit Accepted",
+        "eco": "C67",
+        "count": 2
+      },
+      "Sicilian Defense: Najdorf Variation": {
+        "name": "Sicilian Defense: Najdorf Variation",
+        "eco": "B95",
+        "count": 2
+      },
+      "Kangaroo Defense": {
+        "name": "Kangaroo Defense",
+        "eco": "A40",
+        "count": 1
+      },
+      "Queen's Gambit Accepted: Central Variation, McDonnell Defense": {
+        "name": "Queen's Gambit Accepted: Central Variation, McDonnell Defense",
+        "eco": "D20",
+        "count": 1
+      },
+      "Italian Game: Giuoco Pianissimo": {
+        "name": "Italian Game: Giuoco Pianissimo",
+        "eco": "C50",
+        "count": 2
+      },
+      "King's Indian Attack: Spassky Variation": {
+        "name": "King's Indian Attack: Spassky Variation",
+        "eco": "A05",
+        "count": 1
+      },
+      "Queen's Pawn Game: Symmetrical Variation": {
+        "name": "Queen's Pawn Game: Symmetrical Variation",
+        "eco": "D02",
+        "count": 1
+      },
+      "Hungarian Opening: Indian Defense": {
+        "name": "Hungarian Opening: Indian Defense",
+        "eco": "A00",
+        "count": 1
+      },
+      "Queen's Pawn Game: Modern Defense": {
+        "name": "Queen's Pawn Game: Modern Defense",
+        "eco": "A40",
+        "count": 2
+      },
+      "Bogo-Indian Defense: Nimzowitsch Variation": {
+        "name": "Bogo-Indian Defense: Nimzowitsch Variation",
+        "eco": "E11",
+        "count": 1
+      },
+      "King's Indian Defense: Normal Variation, King's Knight Variation": {
+        "name": "King's Indian Defense: Normal Variation, King's Knight Variation",
+        "eco": "E60",
+        "count": 1
+      },
+      "Bogo-Indian Defense: Vitolins Variation": {
+        "name": "Bogo-Indian Defense: Vitolins Variation",
+        "eco": "E11",
+        "count": 1
+      },
+      "Sicilian Defense: Moscow Variation, Sokolsky Variation": {
+        "name": "Sicilian Defense: Moscow Variation, Sokolsky Variation",
+        "eco": "B52",
+        "count": 1
+      },
+      "Sicilian Defense: Moscow Variation": {
+        "name": "Sicilian Defense: Moscow Variation",
+        "eco": "B51",
+        "count": 1
+      },
+      "King's Indian Attack: Double Fianchetto": {
+        "name": "King's Indian Attack: Double Fianchetto",
+        "eco": "A07",
+        "count": 2
+      },
+      "Petrov's Defense: Classical Attack": {
+        "name": "Petrov's Defense: Classical Attack",
+        "eco": "C42",
+        "count": 2
+      },
+      "Queen's Pawn Game: Colle System, Anti-Colle": {
+        "name": "Queen's Pawn Game: Colle System, Anti-Colle",
+        "eco": "D04",
+        "count": 1
+      },
+      "Queen's Pawn Game: Levitsky Attack": {
+        "name": "Queen's Pawn Game: Levitsky Attack",
+        "eco": "D00",
+        "count": 2
+      },
+      "Queen's Pawn Game: Torre Attack, Gossip Variation": {
+        "name": "Queen's Pawn Game: Torre Attack, Gossip Variation",
+        "eco": "D03",
+        "count": 1
+      },
+      "Réti Opening": {
+        "name": "Réti Opening",
+        "eco": "A09",
+        "count": 2
+      },
+      "Queen's Pawn Game: London System, with e6": {
+        "name": "Queen's Pawn Game: London System, with e6",
+        "eco": "D02",
+        "count": 1
+      },
+      "Zukertort Opening: Black Mustang Defense": {
+        "name": "Zukertort Opening: Black Mustang Defense",
+        "eco": "A04",
+        "count": 1
+      },
+      "English Opening: Caro-Kann Defensive System": {
+        "name": "English Opening: Caro-Kann Defensive System",
+        "eco": "A11",
+        "count": 1
+      },
+      "Caro-Kann Defense: Advance Variation, Short Variation": {
+        "name": "Caro-Kann Defense: Advance Variation, Short Variation",
+        "eco": "B12",
+        "count": 1
+      },
+      "Sicilian Defense: Closed, Traditional": {
+        "name": "Sicilian Defense: Closed, Traditional",
+        "eco": "B23",
+        "count": 1
+      },
+      "Caro-Kann Defense: Exchange Variation": {
+        "name": "Caro-Kann Defense: Exchange Variation",
+        "eco": "B13",
+        "count": 3
+      },
+      "Zukertort Opening: Sicilian Invitation": {
+        "name": "Zukertort Opening: Sicilian Invitation",
+        "eco": "A04",
+        "count": 1
+      },
+      "Petrov's Defense: Classical Attack, Chigorin Variation": {
+        "name": "Petrov's Defense: Classical Attack, Chigorin Variation",
+        "eco": "C42",
+        "count": 1
+      },
+      "Sicilian Defense: Najdorf Variation, English Attack": {
+        "name": "Sicilian Defense: Najdorf Variation, English Attack",
+        "eco": "B90",
+        "count": 1
+      },
+      "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line": {
+        "name": "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line",
+        "eco": "C58",
+        "count": 1
+      },
+      "Petrov's Defense: Millennium Attack": {
+        "name": "Petrov's Defense: Millennium Attack",
+        "eco": "C42",
+        "count": 1
+      },
+      "Nimzo-Indian Defense: Classical Variation": {
+        "name": "Nimzo-Indian Defense: Classical Variation",
+        "eco": "E32",
+        "count": 1
+      },
+      "Indian Defense: London System": {
+        "name": "Indian Defense: London System",
+        "eco": "A46",
+        "count": 2
+      },
+      "Caro-Kann Defense: Maróczy Variation": {
+        "name": "Caro-Kann Defense: Maróczy Variation",
+        "eco": "B12",
+        "count": 1
+      },
+      "Nimzo-Indian Defense: Kmoch Variation": {
+        "name": "Nimzo-Indian Defense: Kmoch Variation",
+        "eco": "E20",
+        "count": 2
+      },
+      "Sicilian Defense: Open": {
+        "name": "Sicilian Defense: Open",
+        "eco": "B33",
+        "count": 1
+      },
+      "Sicilian Defense: Old Sicilian": {
+        "name": "Sicilian Defense: Old Sicilian",
+        "eco": "B30",
+        "count": 1
+      },
+      "Caro-Kann Defense: Advance Variation, Bayonet Attack": {
+        "name": "Caro-Kann Defense: Advance Variation, Bayonet Attack",
+        "eco": "B12",
+        "count": 1
+      },
+      "Sicilian Defense: Dragon Variation": {
+        "name": "Sicilian Defense: Dragon Variation",
+        "eco": "B72",
+        "count": 1
+      },
+      "Sicilian Defense: Najdorf Variation, Zagreb Variation": {
+        "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation",
+        "eco": "B91",
+        "count": 1
+      },
+      "Pirc Defense": {
+        "name": "Pirc Defense",
+        "eco": "B00",
+        "count": 1
+      },
+      "Scotch Game": {
+        "name": "Scotch Game",
+        "eco": "C45",
+        "count": 1
+      },
+      "Scotch Game: Potter Variation": {
+        "name": "Scotch Game: Potter Variation",
+        "eco": "C45",
+        "count": 1
+      },
+      "Ruy Lopez: Closed, Delayed Exchange": {
+        "name": "Ruy Lopez: Closed, Delayed Exchange",
+        "eco": "C85",
+        "count": 1
+      },
+      "French Defense: Advance Variation, Euwe Variation": {
+        "name": "French Defense: Advance Variation, Euwe Variation",
+        "eco": "C02",
+        "count": 1
+      },
+      "Sicilian Defense: Modern Variations": {
+        "name": "Sicilian Defense: Modern Variations",
+        "eco": "B50",
+        "count": 1
+      },
+      "Caro-Kann Defense": {
+        "name": "Caro-Kann Defense",
+        "eco": "B10",
+        "count": 1
+      },
+      "King's Indian Defense: Normal Variation": {
+        "name": "King's Indian Defense: Normal Variation",
+        "eco": "E70",
+        "count": 1
+      },
+      "Four Knights Game": {
+        "name": "Four Knights Game",
+        "eco": "C47",
+        "count": 1
+      },
+      "Italian Game: Giuoco Pianissimo, Italian Four Knights Variation": {
+        "name": "Italian Game: Giuoco Pianissimo, Italian Four Knights Variation",
+        "eco": "C50",
+        "count": 1
+      },
+      "Queen's Gambit Declined: Three Knights Variation": {
+        "name": "Queen's Gambit Declined: Three Knights Variation",
+        "eco": "D37",
+        "count": 3
+      },
+      "English Opening: King's English Variation, Nimzowitsch Variation": {
+        "name": "English Opening: King's English Variation, Nimzowitsch Variation",
+        "eco": "A20",
+        "count": 1
+      },
+      "King's Indian Defense: Normal Variation, Standard Development": {
+        "name": "King's Indian Defense: Normal Variation, Standard Development",
+        "eco": "E73",
+        "count": 2
+      },
+      "Ruy Lopez: Exchange Variation, Gligoric Variation": {
+        "name": "Ruy Lopez: Exchange Variation, Gligoric Variation",
+        "eco": "C69",
+        "count": 1
+      }
+    },
+    "byConfidence": {
+      "high": 33,
+      "medium": 75,
+      "low": 107,
+      "none": 3
+    },
+    "mostPopular": [
+      {
+        "eco": "A13",
+        "name": "English Opening: Agincourt Defense",
+        "count": 12
+      },
+      {
+        "eco": "A07",
+        "name": "King's Indian Attack",
+        "count": 10
+      },
+      {
+        "eco": "A05",
+        "name": "Zukertort Opening",
+        "count": 8
+      },
+      {
+        "eco": "C42",
+        "name": "Petrov's Defense: Three Knights Game",
+        "count": 8
+      },
+      {
+        "eco": "A46",
+        "name": "Indian Defense: Knights Variation",
+        "count": 7
+      },
+      {
+        "eco": "B12",
+        "name": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
+        "count": 7
+      },
+      {
+        "eco": "D30",
+        "name": "Queen's Gambit Declined",
+        "count": 7
+      },
+      {
+        "eco": "B90",
+        "name": "Sicilian Defense: Najdorf Variation, Adams Attack",
+        "count": 5
+      },
+      {
+        "eco": "A04",
+        "name": "Zukertort Opening",
+        "count": 5
+      },
+      {
+        "eco": "A40",
+        "name": "Horwitz Defense",
+        "count": 5
+      },
+      {
+        "eco": "C50",
+        "name": "Italian Game: Giuoco Pianissimo, Normal",
+        "count": 5
+      },
+      {
+        "eco": "D37",
+        "name": "Queen's Gambit Declined: Barmen Variation",
+        "count": 5
+      },
+      {
+        "eco": "B50",
+        "name": "Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order",
+        "count": 4
+      },
+      {
+        "eco": "D35",
+        "name": "Queen's Gambit Declined: Normal Defense",
+        "count": 4
+      },
+      {
+        "eco": "B00",
+        "name": "King's Pawn Game",
+        "count": 4
+      },
+      {
+        "eco": "C43",
+        "name": "Petrov's Defense: Modern Attack, Center Variation",
+        "count": 4
+      },
+      {
+        "eco": "E11",
+        "name": "Bogo-Indian Defense: Exchange Variation",
+        "count": 4
+      },
+      {
+        "eco": "C84",
+        "name": "Ruy Lopez: Closed, Martinez Variation",
+        "count": 4
+      },
+      {
+        "eco": "B52",
+        "name": "Sicilian Defense: Moscow Variation, Main Line",
+        "count": 4
+      },
+      {
+        "eco": "B40",
+        "name": "Sicilian Defense: French Variation, Westerinen Attack",
+        "count": 3
+      }
+    ],
+    "byTimeControl": {
+      "CLASSICAL": {
+        "totalGames": 156,
+        "gamesWithOpenings": 153,
+        "gamesUnknown": 3,
+        "openings": {
+          "C01": {
+            "eco": "C01",
+            "name": "French Defense: Exchange Variation",
+            "count": 2
+          },
+          "D70": {
+            "eco": "D70",
+            "name": "Neo-Grünfeld Defense: with g3",
+            "count": 1
+          },
+          "B90": {
+            "eco": "B90",
+            "name": "Sicilian Defense: Najdorf Variation, Adams Attack",
+            "count": 5
+          },
+          "B50": {
+            "eco": "B50",
+            "name": "Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order",
+            "count": 3
+          },
+          "B40": {
+            "eco": "B40",
+            "name": "Sicilian Defense: French Variation, Westerinen Attack",
+            "count": 3
+          },
+          "A07": {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 7
+          },
+          "A16": {
+            "eco": "A16",
+            "name": "English Opening: Anglo-Grünfeld Defense",
+            "count": 2
+          },
+          "B47": {
+            "eco": "B47",
+            "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation",
+            "count": 1
+          },
+          "C55": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+            "count": 3
+          },
+          "C72": {
+            "eco": "C72",
+            "name": "Ruy Lopez: Morphy Defense, Modern Steinitz Defense",
+            "count": 1
+          },
+          "A45": {
+            "eco": "A45",
+            "name": "Indian Defense",
+            "count": 1
+          },
+          "C77": {
+            "eco": "C77",
+            "name": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+            "count": 1
+          },
+          "A08": {
+            "eco": "A08",
+            "name": "Zukertort Opening: Reversed Grünfeld",
+            "count": 1
+          },
+          "B31": {
+            "eco": "B31",
+            "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+            "count": 2
+          },
+          "C00": {
+            "eco": "C00",
+            "name": "French Defense: Schlechter Variation",
+            "count": 1
+          },
+          "C78": {
+            "eco": "C78",
+            "name": "Ruy Lopez: Morphy Defense",
+            "count": 2
+          },
+          "B30": {
+            "eco": "B30",
+            "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack",
+            "count": 2
+          },
+          "A46": {
+            "eco": "A46",
+            "name": "Indian Defense: Knights Variation",
+            "count": 2
+          },
+          "A06": {
+            "eco": "A06",
+            "name": "Zukertort Opening",
+            "count": 2
+          },
+          "D35": {
+            "eco": "D35",
+            "name": "Queen's Gambit Declined: Normal Defense",
+            "count": 3
+          },
+          "B12": {
+            "eco": "B12",
+            "name": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
+            "count": 5
+          },
+          "E38": {
+            "eco": "E38",
+            "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation",
+            "count": 1
+          },
+          "E01": {
+            "eco": "E01",
+            "name": "Catalan Opening: Closed",
+            "count": 1
+          },
+          "B00": {
+            "eco": "B00",
+            "name": "King's Pawn Game",
+            "count": 3
+          },
+          "C44": {
+            "eco": "C44",
+            "name": "Scotch Game: Scotch Gambit, Advance Variation",
+            "count": 1
+          },
+          "B41": {
+            "eco": "B41",
+            "name": "Sicilian Defense: Kan Variation, Maróczy Bind, Hedgehog Variation",
+            "count": 1
+          },
+          "A05": {
+            "eco": "A05",
+            "name": "Zukertort Opening",
+            "count": 7
+          },
+          "A48": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense",
+            "count": 1
+          },
+          "E10": {
+            "eco": "E10",
+            "name": "Indian Defense: Anti-Nimzo-Indian",
+            "count": 3
+          },
+          "C42": {
+            "eco": "C42",
+            "name": "Petrov's Defense: Three Knights Game",
+            "count": 7
+          },
+          "D06": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense",
+            "count": 1
+          },
+          "C80": {
+            "eco": "C80",
+            "name": "Ruy Lopez: Open, Main Line",
+            "count": 1
+          },
+          "C45": {
+            "eco": "C45",
+            "name": "Scotch Game: Schmidt Variation",
+            "count": 2
+          },
+          "A04": {
+            "eco": "A04",
+            "name": "Zukertort Opening",
+            "count": 2
+          },
+          "B33": {
+            "eco": "B33",
+            "name": "Sicilian Defense: Lasker-Pelikan Variation",
+            "count": 3
+          },
+          "C84": {
+            "eco": "C84",
+            "name": "Ruy Lopez: Closed, Martinez Variation",
+            "count": 3
+          },
+          "A29": {
+            "eco": "A29",
+            "name": "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line",
+            "count": 2
+          },
+          "A13": {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 8
+          },
+          "C58": {
+            "eco": "C58",
+            "name": "Italian Game: Two Knights Defense, Blackburne Variation",
+            "count": 2
+          },
+          "A40": {
+            "eco": "A40",
+            "name": "Horwitz Defense",
+            "count": 3
+          },
+          "E12": {
+            "eco": "E12",
+            "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Petrosian Attack",
+            "count": 2
+          },
+          "E62": {
+            "eco": "E62",
+            "name": "King's Indian Defense: Fianchetto Variation, Carlsbad Variation",
+            "count": 1
+          },
+          "A30": {
+            "eco": "A30",
+            "name": "English Opening: Symmetrical Variation",
+            "count": 2
+          },
+          "D30": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined",
+            "count": 5
+          },
+          "C50": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Normal",
+            "count": 4
+          },
+          "E28": {
+            "eco": "E28",
+            "name": "Nimzo-Indian Defense: Sämisch Variation",
+            "count": 1
+          },
+          "E11": {
+            "eco": "E11",
+            "name": "Bogo-Indian Defense: Retreat Variation",
+            "count": 1
+          },
+          "D37": {
+            "eco": "D37",
+            "name": "Queen's Gambit Declined: Barmen Variation",
+            "count": 3
+          },
+          "B27": {
+            "eco": "B27",
+            "name": "Sicilian Defense: Hyperaccelerated Dragon",
+            "count": 2
+          },
+          "C43": {
+            "eco": "C43",
+            "name": "Petrov's Defense: Modern Attack, Center Variation",
+            "count": 2
+          },
+          "B52": {
+            "eco": "B52",
+            "name": "Sicilian Defense: Moscow Variation, Main Line",
+            "count": 4
+          },
+          "C02": {
+            "eco": "C02",
+            "name": "French Defense: Advance Variation, Paulsen Attack",
+            "count": 2
+          },
+          "C79": {
+            "eco": "C79",
+            "name": "Ruy Lopez: Morphy Defense, Steinitz Deferred",
+            "count": 1
+          },
+          "D11": {
+            "eco": "D11",
+            "name": "Slav Defense: Modern Line",
+            "count": 1
+          },
+          "A56": {
+            "eco": "A56",
+            "name": "Benoni Defense",
+            "count": 1
+          },
+          "E21": {
+            "eco": "E21",
+            "name": "Nimzo-Indian Defense: Three Knights Variation",
+            "count": 1
+          },
+          "B95": {
+            "eco": "B95",
+            "name": "Sicilian Defense: Najdorf Variation",
+            "count": 1
+          },
+          "D20": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted: Central Variation, McDonnell Defense",
+            "count": 1
+          },
+          "D02": {
+            "eco": "D02",
+            "name": "Queen's Pawn Game: Symmetrical Variation",
+            "count": 1
+          },
+          "B51": {
+            "eco": "B51",
+            "name": "Sicilian Defense: Moscow Variation",
+            "count": 1
+          },
+          "A20": {
+            "eco": "A20",
+            "name": "English Opening: King's English Variation",
+            "count": 1
+          },
+          "C67": {
+            "eco": "C67",
+            "name": "Ruy Lopez: Berlin Defense, Rio Gambit Accepted",
+            "count": 1
+          },
+          "D04": {
+            "eco": "D04",
+            "name": "Queen's Pawn Game: Colle System, Anti-Colle",
+            "count": 1
+          },
+          "D00": {
+            "eco": "D00",
+            "name": "Queen's Pawn Game: Levitsky Attack",
+            "count": 1
+          },
+          "A11": {
+            "eco": "A11",
+            "name": "English Opening: Caro-Kann Defensive System",
+            "count": 1
+          },
+          "B23": {
+            "eco": "B23",
+            "name": "Sicilian Defense: Closed, Traditional",
+            "count": 1
+          },
+          "E32": {
+            "eco": "E32",
+            "name": "Nimzo-Indian Defense: Classical Variation",
+            "count": 1
+          },
+          "E20": {
+            "eco": "E20",
+            "name": "Nimzo-Indian Defense: Kmoch Variation",
+            "count": 1
+          },
+          "B72": {
+            "eco": "B72",
+            "name": "Sicilian Defense: Dragon Variation",
+            "count": 1
+          },
+          "C85": {
+            "eco": "C85",
+            "name": "Ruy Lopez: Closed, Delayed Exchange",
+            "count": 1
+          },
+          "B10": {
+            "eco": "B10",
+            "name": "Caro-Kann Defense",
+            "count": 1
+          },
+          "C47": {
+            "eco": "C47",
+            "name": "Four Knights Game",
+            "count": 1
+          },
+          "E73": {
+            "eco": "E73",
+            "name": "King's Indian Defense: Normal Variation, Standard Development",
+            "count": 1
+          },
+          "C69": {
+            "eco": "C69",
+            "name": "Ruy Lopez: Exchange Variation, Gligoric Variation",
+            "count": 1
+          }
+        },
+        "mostPopular": [
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 8
+          },
+          {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 7
+          },
+          {
+            "eco": "A05",
+            "name": "Zukertort Opening",
+            "count": 7
+          },
+          {
+            "eco": "C42",
+            "name": "Petrov's Defense: Three Knights Game",
+            "count": 7
+          },
+          {
+            "eco": "B90",
+            "name": "Sicilian Defense: Najdorf Variation, Adams Attack",
+            "count": 5
+          },
+          {
+            "eco": "B12",
+            "name": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
+            "count": 5
+          },
+          {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined",
+            "count": 5
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Normal",
+            "count": 4
+          },
+          {
+            "eco": "B52",
+            "name": "Sicilian Defense: Moscow Variation, Main Line",
+            "count": 4
+          },
+          {
+            "eco": "B50",
+            "name": "Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order",
+            "count": 3
+          }
+        ]
+      },
+      "RAPID": {
+        "totalGames": 52,
+        "gamesWithOpenings": 52,
+        "gamesUnknown": 0,
+        "openings": {
+          "C43": {
+            "eco": "C43",
+            "name": "Petrov's Defense: Modern Attack, Center Variation",
+            "count": 2
+          },
+          "E11": {
+            "eco": "E11",
+            "name": "Bogo-Indian Defense: Exchange Variation",
+            "count": 2
+          },
+          "A13": {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 4
+          },
+          "B10": {
+            "eco": "B10",
+            "name": "Caro-Kann Defense: Endgame Offer",
+            "count": 2
+          },
+          "B50": {
+            "eco": "B50",
+            "name": "Sicilian Defense: Delayed Alapin Variation, with d6",
+            "count": 1
+          },
+          "D30": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined",
+            "count": 2
+          },
+          "C02": {
+            "eco": "C02",
+            "name": "French Defense: Advance Variation, Paulsen Attack",
+            "count": 1
+          },
+          "A46": {
+            "eco": "A46",
+            "name": "Yusupov-Rubinstein System",
+            "count": 5
+          },
+          "C67": {
+            "eco": "C67",
+            "name": "Ruy Lopez: Berlin Defense, Rio Gambit Accepted",
+            "count": 1
+          },
+          "A00": {
+            "eco": "A00",
+            "name": "Hungarian Opening: Indian Defense",
+            "count": 1
+          },
+          "A40": {
+            "eco": "A40",
+            "name": "Queen's Pawn Game: Modern Defense",
+            "count": 1
+          },
+          "E60": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation",
+            "count": 1
+          },
+          "C42": {
+            "eco": "C42",
+            "name": "Petrov's Defense: Classical Attack",
+            "count": 1
+          },
+          "B12": {
+            "eco": "B12",
+            "name": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
+            "count": 2
+          },
+          "A16": {
+            "eco": "A16",
+            "name": "English Opening: Anglo-Indian Defense, Queen's Knight Variation",
+            "count": 1
+          },
+          "A07": {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 2
+          },
+          "D03": {
+            "eco": "D03",
+            "name": "Queen's Pawn Game: Torre Attack, Gossip Variation",
+            "count": 1
+          },
+          "A09": {
+            "eco": "A09",
+            "name": "Réti Opening",
+            "count": 2
+          },
+          "D00": {
+            "eco": "D00",
+            "name": "Queen's Pawn Game: Levitsky Attack",
+            "count": 1
+          },
+          "B13": {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 2
+          },
+          "B30": {
+            "eco": "B30",
+            "name": "Sicilian Defense: Old Sicilian",
+            "count": 1
+          },
+          "E20": {
+            "eco": "E20",
+            "name": "Nimzo-Indian Defense: Kmoch Variation",
+            "count": 1
+          },
+          "B91": {
+            "eco": "B91",
+            "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation",
+            "count": 1
+          },
+          "B00": {
+            "eco": "B00",
+            "name": "Pirc Defense",
+            "count": 1
+          },
+          "A30": {
+            "eco": "A30",
+            "name": "English Opening: Symmetrical Variation",
+            "count": 1
+          },
+          "C45": {
+            "eco": "C45",
+            "name": "Scotch Game: Potter Variation",
+            "count": 1
+          },
+          "E70": {
+            "eco": "E70",
+            "name": "King's Indian Defense: Normal Variation",
+            "count": 1
+          },
+          "A05": {
+            "eco": "A05",
+            "name": "King's Indian Attack",
+            "count": 1
+          },
+          "C50": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Italian Four Knights Variation",
+            "count": 1
+          },
+          "D35": {
+            "eco": "D35",
+            "name": "Queen's Gambit Declined: Normal Defense",
+            "count": 1
+          },
+          "A20": {
+            "eco": "A20",
+            "name": "English Opening: King's English Variation, Nimzowitsch Variation",
+            "count": 1
+          },
+          "E73": {
+            "eco": "E73",
+            "name": "King's Indian Defense: Normal Variation, Standard Development",
+            "count": 1
+          },
+          "A04": {
+            "eco": "A04",
+            "name": "Zukertort Opening: Kingside Fianchetto",
+            "count": 1
+          },
+          "C84": {
+            "eco": "C84",
+            "name": "Ruy Lopez: Closed, Martinez Variation",
+            "count": 1
+          },
+          "D37": {
+            "eco": "D37",
+            "name": "Queen's Gambit Declined: Three Knights Variation",
+            "count": 2
+          },
+          "A08": {
+            "eco": "A08",
+            "name": "Zukertort Opening: Reversed Grünfeld",
+            "count": 1
+          }
+        },
+        "mostPopular": [
+          {
+            "eco": "A46",
+            "name": "Yusupov-Rubinstein System",
+            "count": 5
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 4
+          },
+          {
+            "eco": "C43",
+            "name": "Petrov's Defense: Modern Attack, Center Variation",
+            "count": 2
+          },
+          {
+            "eco": "E11",
+            "name": "Bogo-Indian Defense: Exchange Variation",
+            "count": 2
+          },
+          {
+            "eco": "B10",
+            "name": "Caro-Kann Defense: Endgame Offer",
+            "count": 2
+          },
+          {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined",
+            "count": 2
+          },
+          {
+            "eco": "B12",
+            "name": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
+            "count": 2
+          },
+          {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 2
+          },
+          {
+            "eco": "A09",
+            "name": "Réti Opening",
+            "count": 2
+          },
+          {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 2
+          }
+        ]
+      },
+      "BLITZ": {
+        "totalGames": 10,
+        "gamesWithOpenings": 10,
+        "gamesUnknown": 0,
+        "openings": {
+          "B03": {
+            "eco": "B03",
+            "name": "Alekhine Defense: Four Pawns Attack, Main Line",
+            "count": 1
+          },
+          "A20": {
+            "eco": "A20",
+            "name": "English Opening: King's English Variation",
+            "count": 1
+          },
+          "E11": {
+            "eco": "E11",
+            "name": "Bogo-Indian Defense: Vitolins Variation",
+            "count": 1
+          },
+          "A40": {
+            "eco": "A40",
+            "name": "Queen's Pawn Game: Modern Defense",
+            "count": 1
+          },
+          "D02": {
+            "eco": "D02",
+            "name": "Queen's Pawn Game: London System, with e6",
+            "count": 1
+          },
+          "A04": {
+            "eco": "A04",
+            "name": "Zukertort Opening: Black Mustang Defense",
+            "count": 2
+          },
+          "B13": {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 1
+          },
+          "A07": {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 1
+          },
+          "A08": {
+            "eco": "A08",
+            "name": "Zukertort Opening: Reversed Grünfeld",
+            "count": 1
+          }
+        },
+        "mostPopular": [
+          {
+            "eco": "A04",
+            "name": "Zukertort Opening: Black Mustang Defense",
+            "count": 2
+          },
+          {
+            "eco": "B03",
+            "name": "Alekhine Defense: Four Pawns Attack, Main Line",
+            "count": 1
+          },
+          {
+            "eco": "A20",
+            "name": "English Opening: King's English Variation",
+            "count": 1
+          },
+          {
+            "eco": "E11",
+            "name": "Bogo-Indian Defense: Vitolins Variation",
+            "count": 1
+          },
+          {
+            "eco": "A40",
+            "name": "Queen's Pawn Game: Modern Defense",
+            "count": 1
+          },
+          {
+            "eco": "D02",
+            "name": "Queen's Pawn Game: London System, with e6",
+            "count": 1
+          },
+          {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 1
+          },
+          {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 1
+          },
+          {
+            "eco": "A08",
+            "name": "Zukertort Opening: Reversed Grünfeld",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "enrichedAt": "2025-11-16T20:59:59.668Z",
+  "stage": "enriched"
+}

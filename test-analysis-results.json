@@ -1,0 +1,153 @@
+{
+  "games": [
+    {
+      "gameIndex": 0,
+      "gameId": "Goa, India",
+      "white": "Abugenda, Nagi",
+      "black": "Erdogmus, Yagiz Kaan",
+      "whiteACPL": 36.1,
+      "blackACPL": 22.6,
+      "whiteAccuracy": 80,
+      "blackAccuracy": 90.2,
+      "whiteMoveQuality": {
+        "blunders": 1,
+        "mistakes": 2,
+        "inaccuracies": 1,
+        "good": 3,
+        "excellent": 10
+      },
+      "blackMoveQuality": {
+        "blunders": 1,
+        "mistakes": 0,
+        "inaccuracies": 1,
+        "good": 2,
+        "excellent": 13
+      },
+      "whiteEngineMoves": 10,
+      "blackEngineMoves": 13,
+      "biggestBlunder": {
+        "moveNumber": 10,
+        "player": "white",
+        "cpLoss": 416,
+        "winLoss": 35.89615076469135,
+        "severity": 35.89615076469135,
+        "move": "g3",
+        "evalBefore": 131,
+        "evalAfter": -285
+      },
+      "biggestComeback": null,
+      "luckyEscape": null
+    },
+    {
+      "gameIndex": 1,
+      "gameId": "Goa, India",
+      "white": "Erdogmus, Yagiz Kaan",
+      "black": "Abugenda, Nagi",
+      "whiteACPL": 34.7,
+      "blackACPL": 43.8,
+      "whiteAccuracy": 87.9,
+      "blackAccuracy": 84.5,
+      "whiteMoveQuality": {
+        "blunders": 0,
+        "mistakes": 2,
+        "inaccuracies": 5,
+        "good": 3,
+        "excellent": 17
+      },
+      "blackMoveQuality": {
+        "blunders": 0,
+        "mistakes": 2,
+        "inaccuracies": 7,
+        "good": 4,
+        "excellent": 13
+      },
+      "whiteEngineMoves": 17,
+      "blackEngineMoves": 13,
+      "biggestBlunder": null,
+      "biggestComeback": null,
+      "luckyEscape": null
+    }
+  ],
+  "summary": {
+    "accuracyKing": {
+      "player": "black",
+      "accuracy": 90.2,
+      "acpl": 22.6,
+      "white": "Abugenda, Nagi",
+      "black": "Erdogmus, Yagiz Kaan",
+      "gameIndex": 0,
+      "gameId": "Goa, India"
+    },
+    "biggestBlunder": {
+      "moveNumber": 10,
+      "player": "white",
+      "cpLoss": 416,
+      "winLoss": 35.89615076469135,
+      "severity": 35.89615076469135,
+      "move": "g3",
+      "evalBefore": 131,
+      "evalAfter": -285,
+      "white": "Abugenda, Nagi",
+      "black": "Erdogmus, Yagiz Kaan",
+      "gameIndex": 0,
+      "gameId": "Goa, India"
+    },
+    "comebackKing": null,
+    "luckyEscape": null,
+    "stockfishBuddy": {
+      "player": "white",
+      "engineMoves": 17,
+      "totalMoves": 27,
+      "percentage": 63,
+      "white": "Erdogmus, Yagiz Kaan",
+      "black": "Abugenda, Nagi",
+      "gameIndex": 1,
+      "gameId": "Goa, India"
+    },
+    "inaccuracyKing": {
+      "player": "black",
+      "inaccuracies": 7,
+      "totalMoves": 26,
+      "white": "Erdogmus, Yagiz Kaan",
+      "black": "Abugenda, Nagi",
+      "gameIndex": 1,
+      "gameId": "Goa, India"
+    },
+    "lowestACPL": {
+      "player": "black",
+      "acpl": 22.6,
+      "accuracy": 90.2,
+      "white": "Abugenda, Nagi",
+      "black": "Erdogmus, Yagiz Kaan",
+      "gameIndex": 0,
+      "gameId": "Goa, India"
+    },
+    "highestACPL": {
+      "player": "black",
+      "acpl": 43.8,
+      "accuracy": 84.5,
+      "white": "Erdogmus, Yagiz Kaan",
+      "black": "Abugenda, Nagi",
+      "gameIndex": 1,
+      "gameId": "Goa, India"
+    },
+    "lowestCombinedACPL": {
+      "combinedACPL": 58.7,
+      "whiteACPL": 36.1,
+      "blackACPL": 22.6,
+      "white": "Abugenda, Nagi",
+      "black": "Erdogmus, Yagiz Kaan",
+      "gameIndex": 0,
+      "gameId": "Goa, India"
+    },
+    "highestCombinedACPL": {
+      "combinedACPL": 78.5,
+      "whiteACPL": 34.7,
+      "blackACPL": 43.8,
+      "white": "Erdogmus, Yagiz Kaan",
+      "black": "Abugenda, Nagi",
+      "gameIndex": 1,
+      "gameId": "Goa, India"
+    }
+  }
+}

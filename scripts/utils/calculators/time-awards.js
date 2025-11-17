@@ -34,9 +34,10 @@ function normalizeTimeControl(classification) {
 /**
  * Calculate time-based awards from game analyses
  * @param {Array} games - Array of parsed game objects with time control
+ * @param {Object|null} analysis - Optional Stockfish analysis results
  * @returns {Object} Time awards
  */
-function calculateTimeAwards(games) {
+function calculateTimeAwards(games, analysis = null) {
   // Normalize time controls in games
   const normalizedGames = games.map(game => ({
     ...game,
@@ -98,8 +99,8 @@ function calculateLongestThink(analyses) {
       max = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.longestThink.player,
         color: game.longestThink.color,
         timeSpent: game.longestThink.timeSpent,
@@ -128,8 +129,8 @@ function calculateZeitnotAddict(analyses) {
       max = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.white,
         color: 'white',
         count: whiteCount,
@@ -143,8 +144,8 @@ function calculateZeitnotAddict(analyses) {
       max = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.black,
         color: 'black',
         count: blackCount,
@@ -175,8 +176,8 @@ function calculateTimeScrambleSurvivor(analyses, games) {
       survivors.push({
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         winner: game.white,
         color: 'white',
         minClock: game.minClockTime.white,
@@ -191,8 +192,8 @@ function calculateTimeScrambleSurvivor(analyses, games) {
       survivors.push({
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         winner: game.black,
         color: 'black',
         minClock: game.minClockTime.black,
@@ -331,8 +332,8 @@ function calculatePremoveMaster(analyses) {
       max = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.white,
         color: 'white',
         count: whiteCount,
@@ -345,8 +346,8 @@ function calculatePremoveMaster(analyses) {
       max = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.black,
         color: 'black',
         count: blackCount,
@@ -433,8 +434,8 @@ function calculateClassicalTimeBurner(analyses) {
       burner = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.white,
         color: 'white',
         finalClock: whiteFinal,
@@ -448,8 +449,8 @@ function calculateClassicalTimeBurner(analyses) {
       burner = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.black,
         color: 'black',
         finalClock: blackFinal,
@@ -492,8 +493,8 @@ function calculateIncrementFarmer(analyses) {
       farmer = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.white,
         color: 'white',
         netTime: whiteNet,
@@ -508,8 +509,8 @@ function calculateIncrementFarmer(analyses) {
       farmer = {
         white: game.white,
         black: game.black,
-        whiteElo: game.whiteElo,
-        blackElo: game.blackElo,
+        whiteRating: game.whiteRating,
+        blackRating: game.blackRating,
         player: game.black,
         color: 'black',
         netTime: blackNet,

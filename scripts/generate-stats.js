@@ -41,6 +41,7 @@ const { calculateTimeAwards } = require('./utils/calculators/time-awards');
  */
 function extractGamesFromMatches(matches) {
   const games = [];
+  let gameIndex = 0;
   matches.forEach((match) => {
     const gameDetails = match.gameDetails || [];
     const players = match.players || [];
@@ -54,6 +55,7 @@ function extractGamesFromMatches(matches) {
     gameDetails.forEach((game) => {
       games.push({
         ...game,
+        gameIndex: game.gameIndex !== undefined ? game.gameIndex : gameIndex++,
         whiteRating: ratingLookup[game.white] || null,
         blackRating: ratingLookup[game.black] || null,
       });

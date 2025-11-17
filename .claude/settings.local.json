@@ -17,7 +17,12 @@
       "Bash(do cp \"$f\" /Users/sgis/DEV/pompom/fide-worldcup-stats/scripts/utils/calculators/fun-stats/)",
       "Bash(git add:*)",
       "Bash(xargs ls:*)",
-      "Bash(jq:*)"
+      "Bash(jq:*)",
+      "Bash(do echo \"Round $round:\")",
+      "Bash(find:*)",
+      "Bash(python3:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(pip install:*)"
     ],
     "deny": [],
     "ask": []

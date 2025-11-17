@@ -165,6 +165,9 @@ def analyze_game(game, stockfish, depth=15, sample_rate=1):
     # Track previous move eval to detect missed punishments
     prev_eval = None
 
+    # Track move-level data for Sad Times award
+    move_times = []
+
     for move_num, move in enumerate(moves):
         is_white_move = move_num % 2 == 0
 
@@ -212,6 +215,16 @@ def analyze_game(game, stockfish, depth=15, sample_rate=1):
         # Convert centipawns to win percentages
         win_before = cp_to_win_percentage(cp_before)
         win_after = cp_to_win_percentage(cp_after)
+
+        # Store move-level data for Sad Times award
+        move_times.append({
+            'ply': move_num + 1,
+            'moveNumber': move_num // 2 + 1,
+            'color': 'white' if is_white_move else 'black',
+            'move': move_san,
+            'evalBefore': cp_before / 100.0,  # Convert centipawns to pawns
+            'evalAfter': cp_after / 100.0
+        })
 
         if is_white_move:
             # Calculate actual centipawn loss (only if both evals are non-mate)
@@ -408,7 +421,8 @@ def analyze_game(game, stockfish, depth=15, sample_rate=1):
         'blackEngineMoves': black_engine_moves,
         'biggestBlunder': biggest_blunder,
         'biggestComeback': biggest_comeback,
-        'luckyEscape': lucky_escape
+        'luckyEscape': lucky_escape,
+        'moveTimes': move_times
     }
 
 def find_stockfish_path():

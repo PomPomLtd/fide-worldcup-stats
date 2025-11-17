@@ -507,8 +507,8 @@ export interface FunStats {
     color: string;
     white: string;
     black: string;
-    whiteElo?: number | null;
-    blackElo?: number | null;
+    whiteRating?: number | null;
+    blackRating?: number | null;
   } | null;
   quickDraw: {
     moveNumber: number;
@@ -518,8 +518,8 @@ export interface FunStats {
     color: string;
     white: string;
     black: string;
-    whiteElo?: number | null;
-    blackElo?: number | null;
+    whiteRating?: number | null;
+    blackRating?: number | null;
   } | null;
   homebody: {
     count: number;
@@ -529,8 +529,8 @@ export interface FunStats {
     color: string;
     white: string;
     black: string;
-    whiteElo?: number | null;
-    blackElo?: number | null;
+    whiteRating?: number | null;
+    blackRating?: number | null;
   } | null;
   deepStrike: {
     count: number;
@@ -540,8 +540,8 @@ export interface FunStats {
     color: string;
     white: string;
     black: string;
-    whiteElo?: number | null;
-    blackElo?: number | null;
+    whiteRating?: number | null;
+    blackRating?: number | null;
   } | null;
   crosshairs: {
     square: string;
@@ -554,8 +554,8 @@ export interface FunStats {
     gameId: string | null;
     white: string;
     black: string;
-    whiteElo?: number | null;
-    blackElo?: number | null;
+    whiteRating?: number | null;
+    blackRating?: number | null;
   } | null;
   longestTension: {
     moves: number;
@@ -568,8 +568,8 @@ export interface FunStats {
     gameId: string | null;
     white: string;
     black: string;
-    whiteElo?: number | null;
-    blackElo?: number | null;
+    whiteRating?: number | null;
+    blackRating?: number | null;
   } | null;
 }
 
@@ -581,8 +581,8 @@ export interface TimeAwards {
   longestThink: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     player: string;
     color: 'white' | 'black';
     timeSpent: number;
@@ -595,8 +595,8 @@ export interface TimeAwards {
   zeitnotAddict: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     player: string;
     color: 'white' | 'black';
     count: number;
@@ -608,8 +608,8 @@ export interface TimeAwards {
   timeScrambleSurvivor: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     winner: string;
     color: 'white' | 'black';
     minClock: number;
@@ -622,8 +622,8 @@ export interface TimeAwards {
   bulletSpeed: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     player: string;
     color: 'white' | 'black';
     avgTime: number;
@@ -635,8 +635,8 @@ export interface TimeAwards {
   openingBlitzer: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     player: string;
     color: 'white' | 'black';
     avgTime: number;
@@ -648,8 +648,8 @@ export interface TimeAwards {
   premoveMaster: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     player: string;
     color: 'white' | 'black';
     count: number;
@@ -673,8 +673,8 @@ export interface TimeAwards {
   classicalTimeBurner: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     player: string;
     color: 'white' | 'black';
     finalClock: number;
@@ -686,8 +686,8 @@ export interface TimeAwards {
   incrementFarmer: {
     white: string;
     black: string;
-    whiteElo: number | null;
-    blackElo: number | null;
+    whiteRating: number | null;
+    blackRating: number | null;
     player: string;
     color: 'white' | 'black';
     netTime: number;
