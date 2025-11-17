@@ -437,6 +437,7 @@ def main():
     parser.add_argument('--depth', type=int, default=15, help='Stockfish search depth (default: 15)')
     parser.add_argument('--sample', type=int, default=1, help='Analyze every Nth move (default: 1 = all moves)')
     parser.add_argument('--stockfish-path', type=str, default=None, help='Path to Stockfish binary (auto-detected if not specified)')
+    parser.add_argument('--json-input', action='store_true', help='Read JSON format with game metadata (includes ratings)')
     args = parser.parse_args()
 
     # Auto-detect Stockfish path if not specified
@@ -451,8 +452,25 @@ def main():
         print("Install Stockfish: brew install stockfish (macOS) or apt-get install stockfish (Linux)", file=sys.stderr)
         sys.exit(1)
 
-    # Read PGN from stdin
-    pgn_text = sys.stdin.read()
+    # Read input from stdin
+    input_text = sys.stdin.read()
+
+    # Parse input based on format
+    game_metadata = {}  # Maps game_index to {white, black, whiteRating, blackRating}
+    if args.json_input:
+        input_data = json.loads(input_text)
+        games_list = input_data.get('games', [])
+        pgn_text = '\n\n'.join(g['pgn'] for g in games_list)
+        # Build metadata lookup
+        for g in games_list:
+            game_metadata[g['gameIndex']] = {
+                'white': g['white'],
+                'black': g['black'],
+                'whiteRating': g.get('whiteRating'),
+                'blackRating': g.get('blackRating')
+            }
+    else:
+        pgn_text = input_text
 
     # Parse games
     games_analyzed = []
@@ -524,11 +542,18 @@ def main():
 
         analysis = analyze_game(game, stockfish, args.depth, args.sample)
 
+        # Get ratings from metadata if available
+        metadata = game_metadata.get(game_index, {})
+        white_rating = metadata.get('whiteRating')
+        black_rating = metadata.get('blackRating')
+
         games_analyzed.append({
             'gameIndex': game_index,
             'gameId': game_id,
             'white': white,
             'black': black,
+            'whiteRating': white_rating,
+            'blackRating': black_rating,
             **analysis
         })
 
@@ -727,6 +752,37 @@ def main():
                 'gameId': game_data['gameId']
             }
 
+    # Find worst blunder by a Super GM (2700+ rating)
+    not_so_super_gm = None
+    for game_data in games_analyzed:
+        if game_data['biggestBlunder']:
+            blunder = game_data['biggestBlunder']
+            blunder_player = blunder['player']
+
+            # Check if the blunderer is a 2700+ player
+            player_rating = None
+            if blunder_player == 'white' and game_data.get('whiteRating'):
+                player_rating = game_data['whiteRating']
+                player_name = game_data['white']
+            elif blunder_player == 'black' and game_data.get('blackRating'):
+                player_rating = game_data['blackRating']
+                player_name = game_data['black']
+
+            if player_rating and player_rating >= 2700:
+                # Track worst blunder by a 2700+ player
+                if not_so_super_gm is None or blunder['severity'] > not_so_super_gm.get('severity', 0):
+                    not_so_super_gm = {
+                        **blunder,
+                        'rating': player_rating,
+                        'playerName': player_name,
+                        'white': game_data['white'],
+                        'black': game_data['black'],
+                        'whiteRating': game_data.get('whiteRating'),
+                        'blackRating': game_data.get('blackRating'),
+                        'gameIndex': game_data['gameIndex'],
+                        'gameId': game_data['gameId']
+                    }
+
     # Output JSON
     output = {
         'games': games_analyzed,
@@ -740,7 +796,8 @@ def main():
             'lowestACPL': lowest_acpl,
             'highestACPL': highest_acpl,
             'lowestCombinedACPL': lowest_combined_acpl,
-            'highestCombinedACPL': highest_combined_acpl
+            'highestCombinedACPL': highest_combined_acpl,
+            'notSoSuperGM': not_so_super_gm
         }
     }
 

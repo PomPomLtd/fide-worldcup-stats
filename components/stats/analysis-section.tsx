@@ -64,6 +64,24 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
           />
         )}
 
+        {summary.notSoSuperGM && (
+          <StatBox
+            title="Not-So-Super GM"
+            emoji="😬"
+            player={<PlayerName name={summary.notSoSuperGM.playerName} />}
+            details={
+              <div className="flex flex-col gap-1">
+                <span>Rating: <strong className="text-gray-900 dark:text-white">{summary.notSoSuperGM.rating}</strong></span>
+                <span>Move <strong className="font-mono text-red-900 dark:text-red-200">{summary.notSoSuperGM.moveNumber}. {summary.notSoSuperGM.move}</strong></span>
+                <span><strong className="text-red-900 dark:text-red-200">{summary.notSoSuperGM.cpLoss} cp</strong> blunder</span>
+              </div>
+            }
+            colorScheme="red"
+            featured
+            gameId={summary.notSoSuperGM.gameId}
+          />
+        )}
+
         {summary.comebackKing && (
           <StatBox
             title="Comeback King"

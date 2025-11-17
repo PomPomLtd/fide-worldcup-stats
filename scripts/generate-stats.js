@@ -37,14 +37,26 @@ const { calculateTimeAwards } = require('./utils/calculators/time-awards');
 /**
  * Extract all games from matches
  * @param {Array<Object>} matches - Match objects
- * @returns {Array<Object>} Flat array of all games
+ * @returns {Array<Object>} Flat array of all games with player ratings
  */
 function extractGamesFromMatches(matches) {
   const games = [];
   matches.forEach((match) => {
     const gameDetails = match.gameDetails || [];
+    const players = match.players || [];
+
+    // Create rating lookup by player name
+    const ratingLookup = {};
+    players.forEach((p) => {
+      ratingLookup[p.name] = p.elo || null;
+    });
+
     gameDetails.forEach((game) => {
-      games.push(game);
+      games.push({
+        ...game,
+        whiteRating: ratingLookup[game.white] || null,
+        blackRating: ratingLookup[game.black] || null,
+      });
     });
   });
   return games;
@@ -79,10 +91,19 @@ function runStockfishAnalysis(games, depth = 15, sampleRate = 1) {
   console.log(`    → Depth: ${depth}, Sample rate: every ${sampleRate} move(s)`);
   console.log(`    → Analyzing ${games.length} games...`);
 
-  // Extract PGN data
-  const pgnData = games.map(g => g.pgn).filter(p => p).join('\n\n');
+  // Prepare game metadata with PGN and ratings
+  const gamesWithMetadata = games
+    .filter(g => g.pgn)
+    .map((g, idx) => ({
+      gameIndex: idx,
+      white: g.white,
+      black: g.black,
+      whiteRating: g.whiteRating,
+      blackRating: g.blackRating,
+      pgn: g.pgn
+    }));
 
-  if (!pgnData) {
+  if (gamesWithMetadata.length === 0) {
     console.log('    ⚠️  No PGN data found, skipping analysis');
     return null;
   }
@@ -93,9 +114,9 @@ function runStockfishAnalysis(games, depth = 15, sampleRate = 1) {
   try {
     const startTime = Date.now();
     const output = execSync(
-      `${pythonPath} ${scriptPath} --depth ${depth} --sample ${sampleRate}`,
+      `${pythonPath} ${scriptPath} --depth ${depth} --sample ${sampleRate} --json-input`,
       {
-        input: pgnData,
+        input: JSON.stringify({ games: gamesWithMetadata }),
         encoding: 'utf8',
         maxBuffer: 50 * 1024 * 1024, // 50MB buffer for large outputs
         cwd: process.cwd(),

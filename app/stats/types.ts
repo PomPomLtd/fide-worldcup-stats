@@ -938,6 +938,24 @@ export interface Analysis {
       gameIndex: number;
       gameId: string | null;
     } | null;
+    notSoSuperGM: {
+      player: string;
+      playerName: string;
+      rating: number;
+      moveNumber: number;
+      cpLoss: number;
+      winLoss: number;
+      severity: number;
+      move: string;
+      evalBefore: number;
+      evalAfter: number;
+      white: string;
+      black: string;
+      whiteRating: number | null;
+      blackRating: number | null;
+      gameIndex: number;
+      gameId: string | null;
+    } | null;
   };
 }
 
