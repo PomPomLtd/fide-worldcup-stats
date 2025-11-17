@@ -289,7 +289,7 @@ export default function RoundPage() {
         {/* Awards */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Tournament Awards</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {stats.awards.bloodbath && (
               <div className="border border-red-200 dark:border-red-800 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
                 <div className="text-sm font-semibold text-red-900 dark:text-red-300 mb-2">🔪 Bloodbath</div>
@@ -337,18 +337,6 @@ export default function RoundPage() {
                 <div className="text-sm text-gray-600 dark:text-gray-400">{stats.awards.endgameWizard.endgameMoves} endgame moves</div>
               </div>
             )}
-
-            {stats.awards.openingSprinter && (
-              <div className="border border-cyan-200 dark:border-cyan-800 rounded-lg p-4 bg-cyan-50 dark:bg-cyan-900/20">
-                <div className="text-sm font-semibold text-cyan-900 dark:text-cyan-300 mb-2">🏃 Opening Sprinter</div>
-                <div className="text-gray-900 dark:text-white font-medium text-sm">
-                  {formatPlayerName(stats.awards.openingSprinter.white)}{formatRating(stats.awards.openingSprinter.whiteElo)}
-                  {' vs '}
-                  {formatPlayerName(stats.awards.openingSprinter.black)}{formatRating(stats.awards.openingSprinter.blackElo)}
-                </div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">{stats.awards.openingSprinter.openingMoves} opening moves</div>
-              </div>
-            )}
           </div>
         </div>
 
@@ -358,7 +346,7 @@ export default function RoundPage() {
           <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
             Special awards unique to the knockout format and FIDE World Cup competition
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {stats.fideFunAwards.tiebreakWarrior && (
               <div className="border border-amber-200 dark:border-amber-800 rounded-lg p-4 bg-amber-50 dark:bg-amber-900/20">
                 <div className="text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">⚔️ Tiebreak Warrior</div>
@@ -446,18 +434,6 @@ export default function RoundPage() {
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
                   {stats.fideFunAwards.fortressBuilder.draws} draws in {stats.fideFunAwards.fortressBuilder.totalGames} games
-                </div>
-              </div>
-            )}
-
-            {stats.fideFunAwards.upsetArtist && (
-              <div className="border border-pink-200 dark:border-pink-800 rounded-lg p-4 bg-pink-50 dark:bg-pink-900/20">
-                <div className="text-sm font-semibold text-pink-900 dark:text-pink-300 mb-2">🎭 Upset Artist</div>
-                <div className="text-gray-900 dark:text-white font-medium">
-                  {formatPlayerName(stats.fideFunAwards.upsetArtist.player)}
-                </div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">
-                  {stats.fideFunAwards.upsetArtist.upsets} upset{stats.fideFunAwards.upsetArtist.upsets > 1 ? 's' : ''}
                 </div>
               </div>
             )}
