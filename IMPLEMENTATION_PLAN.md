@@ -1,10 +1,10 @@
 # FIDE World Cup Stats - Implementation Plan
 
-## Current Status: Stage 5 Complete - Frontend Implementation (with Stockfish)
+## Current Status: Stage 6 Complete - Tournament Overview Page
 
 **Started:** 2025-11-16
-**Current Stage:** 5 of 10
-**Overall Progress:** 50%
+**Current Stage:** 6 of 10
+**Overall Progress:** 60%
 **Last Updated:** 2025-11-17
 
 ---
