@@ -21,7 +21,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { classifyByGameNumber, classifyByRoundField, getTimeControlLabel } = require('./utils/time-control-classifier');
+const { classifyByGameNumber, getTimeControlLabel } = require('./utils/time-control-classifier');
 
 // Configuration
 const CONSOLIDATED_DIR = path.join(__dirname, '../data/consolidated');
@@ -98,14 +98,8 @@ function analyzeMatchOutcome(match) {
     [players[1].name]: 0,
   };
 
-  let tiebreakType = null;
-  let lastClassification = null;
-
   // Calculate cumulative scores
   for (const game of gameDetails) {
-    const classification = classifyByRoundField(game.round);
-    lastClassification = classification;
-
     const whiteScore = getScoreForColor(game.result, 'white');
     const blackScore = getScoreForColor(game.result, 'black');
 
@@ -116,6 +110,8 @@ function analyzeMatchOutcome(match) {
       scores[game.black] = (scores[game.black] || 0) + blackScore;
     }
   }
+
+  let tiebreakType = null;
 
   // Determine winner (player with higher score)
   const [player1, player2] = players.map(p => p.name);
@@ -134,6 +130,9 @@ function analyzeMatchOutcome(match) {
   }
 
   // Determine tiebreak type based on when match was decided
+  // NOTE: This function is called BEFORE games are classified, so we need to
+  // classify them here using game position, not PGN round field
+
   // Find at which game the match was actually decided
   let decisiveGameIndex = -1;
   let runningScores = { [player1]: 0, [player2]: 0 };
@@ -167,12 +166,12 @@ function analyzeMatchOutcome(match) {
     decisiveGameIndex = gameDetails.length - 1;
   }
 
-  // Set tiebreak type based on the decisive game
+  // Set tiebreak type based on the decisive game's position in the match
   if (decisiveGameIndex >= 0) {
-    const decisiveGame = gameDetails[decisiveGameIndex];
-    const decisiveClassification = classifyByRoundField(decisiveGame.round);
+    const gameNumberInMatch = decisiveGameIndex + 1;
+    const decisiveClassification = classifyByGameNumber(gameNumberInMatch);
 
-    if (decisiveClassification) {
+    if (decisiveClassification && decisiveClassification.type !== 'UNKNOWN') {
       if (decisiveClassification.type === 'CLASSICAL') {
         tiebreakType = 'CLASSICAL';
       } else if (decisiveClassification.type === 'RAPID') {
