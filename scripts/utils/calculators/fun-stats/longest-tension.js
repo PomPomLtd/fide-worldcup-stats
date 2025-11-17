@@ -112,8 +112,8 @@ function calculateLongestTension(games) {
               longestTension = {
                 white: game.white,
                 black: game.black,
-                whiteElo: game.whiteElo,
-                blackElo: game.blackElo,
+                whiteRating: game.whiteRating,
+                blackRating: game.blackRating,
                 moves: tensionData.moves,
                 squares: tensionData.tension.square1 + '-' + tensionData.tension.square2,
                 piece1: tensionData.tension.piece1,

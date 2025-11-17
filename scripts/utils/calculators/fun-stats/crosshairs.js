@@ -78,8 +78,8 @@ function calculateCrosshairs(games) {
             maxAttacked = {
               white: game.white,
               black: game.black,
-              whiteElo: game.whiteElo,
-              blackElo: game.blackElo,
+              whiteRating: game.whiteRating,
+              blackRating: game.blackRating,
               square,
               attackers: data.attackers,
               whiteAttackers: data.whiteAttackers,
