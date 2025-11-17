@@ -23,6 +23,11 @@ export function CheckmatesSection({ checkmates }: CheckmatesSectionProps) {
   const totalByPiece = pieces.reduce((sum, piece) => sum + (checkmates.byPiece?.[piece] || 0), 0)
   const hasByPieceData = totalByPiece > 0
 
+  // If there's no checkmate data at all, don't render the section
+  if (!hasByPieceData && !checkmates.fastest) {
+    return null
+  }
+
   return (
     <StatCard title="☠️ Checkmates">
       {hasByPieceData && (
@@ -44,7 +49,7 @@ export function CheckmatesSection({ checkmates }: CheckmatesSectionProps) {
 
       {checkmates.fastest && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <AwardCard gameId={checkmates.fastest.gameId} className="bg-red-50 dark:bg-red-900/20">
+          <AwardCard gameId={null} className="bg-red-50 dark:bg-red-900/20">
             <div className="font-semibold text-red-900 dark:text-red-300 mb-1">⚡ Fastest Checkmate</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
               <PlayerVs white={checkmates.fastest.white} black={checkmates.fastest.black} />

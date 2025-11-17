@@ -172,22 +172,24 @@ export default function RoundPage() {
             </h3>
 
             {/* Classical */}
-            <div className="mb-4">
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                  ♟️ Classical (90+30)
-                </span>
-                <span className="text-sm font-bold text-gray-900 dark:text-white">
-                  {stats.matchStats.decidedInClassical} matches ({stats.matchStats.tiebreakAnalysis.classicalDecisiveRate}%)
-                </span>
+            {stats.matchStats.decidedInClassical > 0 && (
+              <div className="mb-4">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    ♟️ Classical (90+30)
+                  </span>
+                  <span className="text-sm font-bold text-gray-900 dark:text-white">
+                    {stats.matchStats.decidedInClassical} matches ({stats.matchStats.tiebreakAnalysis.classicalDecisiveRate}%)
+                  </span>
+                </div>
+                <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
+                  <div
+                    className="bg-green-500 h-3 rounded-full transition-all"
+                    style={{ width: `${stats.matchStats.tiebreakAnalysis.classicalDecisiveRate}%` }}
+                  />
+                </div>
               </div>
-              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                <div
-                  className="bg-green-500 h-3 rounded-full transition-all"
-                  style={{ width: `${stats.matchStats.tiebreakAnalysis.classicalDecisiveRate}%` }}
-                />
-              </div>
-            </div>
+            )}
 
             {/* Rapid Tier 1 */}
             {stats.matchStats.decidedInRapidTier1 > 0 && (
@@ -234,7 +236,7 @@ export default function RoundPage() {
               <div className="mb-4">
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                    💨 Blitz (5+3)
+                    💨 Blitz Tier 1 (5+3)
                   </span>
                   <span className="text-sm font-bold text-gray-900 dark:text-white">
                     {stats.matchStats.decidedInBlitzTier1} matches ({((stats.matchStats.decidedInBlitzTier1 / stats.matchStats.totalMatches) * 100).toFixed(1)}%)
@@ -244,6 +246,46 @@ export default function RoundPage() {
                   <div
                     className="bg-red-500 h-3 rounded-full transition-all"
                     style={{ width: `${(stats.matchStats.decidedInBlitzTier1 / stats.matchStats.totalMatches * 100)}%` }}
+                  />
+                </div>
+              </div>
+            )}
+
+            {/* Blitz Tier 2 */}
+            {stats.matchStats.decidedInBlitzTier2 > 0 && (
+              <div className="mb-4">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    💨 Blitz Tier 2 (3+2)
+                  </span>
+                  <span className="text-sm font-bold text-gray-900 dark:text-white">
+                    {stats.matchStats.decidedInBlitzTier2} matches ({((stats.matchStats.decidedInBlitzTier2 / stats.matchStats.totalMatches) * 100).toFixed(1)}%)
+                  </span>
+                </div>
+                <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
+                  <div
+                    className="bg-red-600 h-3 rounded-full transition-all"
+                    style={{ width: `${(stats.matchStats.decidedInBlitzTier2 / stats.matchStats.totalMatches * 100)}%` }}
+                  />
+                </div>
+              </div>
+            )}
+
+            {/* Armageddon */}
+            {stats.matchStats.decidedInArmageddon > 0 && (
+              <div className="mb-4">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    ⏱️ Armageddon
+                  </span>
+                  <span className="text-sm font-bold text-gray-900 dark:text-white">
+                    {stats.matchStats.decidedInArmageddon} matches ({((stats.matchStats.decidedInArmageddon / stats.matchStats.totalMatches) * 100).toFixed(1)}%)
+                  </span>
+                </div>
+                <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
+                  <div
+                    className="bg-purple-600 h-3 rounded-full transition-all"
+                    style={{ width: `${(stats.matchStats.decidedInArmageddon / stats.matchStats.totalMatches * 100)}%` }}
                   />
                 </div>
               </div>
