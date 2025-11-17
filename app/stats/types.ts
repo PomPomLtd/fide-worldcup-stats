@@ -1016,6 +1016,13 @@ export interface TournamentOverview {
       roundName: string;
     }>;
   }>;
+  topAwards: {
+    awards: Record<string, Record<string, unknown> & { roundNumber: number; roundName: string }>;
+    fideFunAwards: Record<string, Record<string, unknown> & { roundNumber: number; roundName: string }>;
+    funStats: Record<string, Record<string, unknown> & { roundNumber: number; roundName: string }>;
+    timeAwards: Record<string, Record<string, unknown> & { roundNumber: number; roundName: string }>;
+    analysis: Record<string, Record<string, unknown> & { roundNumber: number; roundName: string }>;
+  };
   trends: {
     avgGameLengthByRound: number[];
     whiteWinRateByRound: number[];

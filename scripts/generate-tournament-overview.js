@@ -276,6 +276,130 @@ function analyzeAwardFrequency(rounds) {
 }
 
 /**
+ * Find the top awards across all rounds
+ */
+function findTopAwards(rounds) {
+  const topAwards = {
+    awards: {},
+    fideFunAwards: {},
+    funStats: {},
+    timeAwards: {},
+    analysis: {}
+  };
+
+  // Define comparison functions for each award type
+  const comparators = {
+    // Tournament Awards
+    bloodbath: (a, b) => (a?.captures || 0) > (b?.captures || 0),
+    pacifist: (a, b) => {
+      const aCaptures = a?.captures ?? Infinity;
+      const bCaptures = b?.captures ?? Infinity;
+      return aCaptures < bCaptures && aCaptures > 0;
+    },
+    speedDemon: (a, b) => {
+      const aMoves = a?.moves || Infinity;
+      const bMoves = b?.moves || Infinity;
+      return aMoves < bMoves && aMoves >= 10; // Exclude forfeits
+    },
+    endgameWizard: (a, b) => (a?.endgameMoves || 0) > (b?.endgameMoves || 0),
+    openingSprinter: (a, b) => {
+      const aMoves = a?.openingMoves || Infinity;
+      const bMoves = b?.openingMoves || Infinity;
+      return aMoves < bMoves;
+    },
+
+    // FIDE Fun Awards
+    tiebreakWarrior: (a, b) => (a?.tiebreakGames || 0) > (b?.tiebreakGames || 0),
+    giantSlayer: (a, b) => (a?.ratingDifference || 0) > (b?.ratingDifference || 0),
+    rapidFire: (a, b) => (a?.rapidWins || 0) > (b?.rapidWins || 0),
+    blitzWizard: (a, b) => (a?.blitzWins || 0) > (b?.blitzWins || 0),
+    classicalPurist: (a, b) => (a?.classicalWins || 0) > (b?.classicalWins || 0),
+    marathonMaster: (a, b) => (a?.totalMoves || 0) > (b?.totalMoves || 0),
+    fortressBuilder: (a, b) => (a?.defensiveHolds || 0) > (b?.defensiveHolds || 0),
+    upsetArtist: (a, b) => (a?.upsets || 0) > (b?.upsets || 0),
+
+    // Time Awards
+    longestThink: (a, b) => (a?.thinkTime || 0) > (b?.thinkTime || 0),
+    zeitnotAddict: (a, b) => (a?.timeLeft || 0) < (b?.timeLeft || 0) && (a?.timeLeft || 0) >= 0,
+    timeScrambleSurvivor: (a, b) => (a?.movesInZeitnot || 0) > (b?.movesInZeitnot || 0),
+    bulletSpeed: (a, b) => (a?.averageMoveTime || Infinity) < (b?.averageMoveTime || Infinity),
+    openingBlitzer: (a, b) => (a?.openingSpeed || Infinity) < (b?.openingSpeed || Infinity),
+    classicalTimeBurner: (a, b) => (a?.timeUsed || 0) > (b?.timeUsed || 0),
+
+    // Fun Stats - numeric comparisons
+    longestCheckSequence: (a, b) => (a?.consecutiveChecks || 0) > (b?.consecutiveChecks || 0),
+    longestCaptureSequence: (a, b) => (a?.consecutiveCaptures || 0) > (b?.consecutiveCaptures || 0),
+    fastestQueenTrade: (a, b) => {
+      const aMoves = a?.moveNumber || Infinity;
+      const bMoves = b?.moveNumber || Infinity;
+      return aMoves < bMoves;
+    },
+    slowestQueenTrade: (a, b) => (a?.moveNumber || 0) > (b?.moveNumber || 0),
+    pawnStorm: (a, b) => (a?.pawnAdvances || 0) > (b?.pawnAdvances || 0),
+    castlingRace: (a, b) => {
+      const aMoves = a?.bothCastled || Infinity;
+      const bMoves = b?.bothCastled || Infinity;
+      return aMoves < bMoves;
+    },
+    squareTourist: (a, b) => (a?.uniqueSquares || 0) > (b?.uniqueSquares || 0),
+    openingHipster: (a, b) => (a?.obscurityScore || 0) > (b?.obscurityScore || 0),
+    dadbodShuffler: (a, b) => (a?.kingMoves || 0) > (b?.kingMoves || 0),
+    sportyQueen: (a, b) => (a?.queenMoves || 0) > (b?.queenMoves || 0),
+    edgeLord: (a, b) => (a?.edgeMoves || 0) > (b?.edgeMoves || 0),
+    centerStage: (a, b) => (a?.centerMoves || 0) > (b?.centerMoves || 0),
+    darkLord: (a, b) => (a?.darkSquareMoves || 0) > (b?.darkSquareMoves || 0),
+    lightLord: (a, b) => (a?.lightSquareMoves || 0) > (b?.lightSquareMoves || 0),
+    rookLift: (a, b) => (a?.earlyRookLifts || 0) > (b?.earlyRookLifts || 0),
+    chickenAward: (a, b) => (a?.retreats || 0) > (b?.retreats || 0),
+    homebody: (a, b) => (a?.stayedHome || 0) > (b?.stayedHome || 0),
+    crosshairs: (a, b) => (a?.capturedPieces || 0) > (b?.capturedPieces || 0),
+    lateBloomer: (a, b) => {
+      const aMoves = a?.firstCapture || Infinity;
+      const bMoves = b?.firstCapture || Infinity;
+      return aMoves > bMoves;
+    },
+    quickDraw: (a, b) => {
+      const aMoves = a?.firstCapture || Infinity;
+      const bMoves = b?.firstCapture || Infinity;
+      return aMoves < bMoves;
+    },
+
+    // Default: use value if exists
+    default: (a, b) => {
+      const aVal = a?.value || a?.score || 0;
+      const bVal = b?.value || b?.score || 0;
+      return aVal > bVal;
+    }
+  };
+
+  // Process each category
+  const categories = ['awards', 'fideFunAwards', 'funStats', 'timeAwards', 'analysis'];
+
+  categories.forEach(category => {
+    rounds.forEach(round => {
+      if (!round[category]) return;
+
+      Object.entries(round[category]).forEach(([awardKey, awardData]) => {
+        if (!awardData || awardData === null) return;
+
+        const comparator = comparators[awardKey] || comparators.default;
+        const current = topAwards[category][awardKey];
+
+        if (!current || comparator(awardData, current)) {
+          topAwards[category][awardKey] = {
+            ...awardData,
+            roundNumber: round.roundNumber,
+            roundName: round.roundName
+          };
+        }
+      });
+    });
+  });
+
+  return topAwards;
+}
+
+/**
  * Calculate trends across rounds
  */
 function calculateTrends(rounds) {
@@ -357,6 +481,9 @@ async function main() {
     console.log('  - Calculating player leaderboard...');
     const playerLeaderboard = calculatePlayerAwards(rounds);
 
+    console.log('  - Finding top awards...');
+    const topAwards = findTopAwards(rounds);
+
     console.log('  - Analyzing openings...');
     const openings = analyzeOpenings(rounds);
 
@@ -373,6 +500,7 @@ async function main() {
       hallOfFame,
       awardFrequency,
       playerLeaderboard,
+      topAwards,
       trends,
       openings,
 
