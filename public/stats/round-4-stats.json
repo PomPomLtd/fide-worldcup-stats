@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-17T10:45:04.140Z",
+  "generatedAt": "2025-11-17T12:21:07.246Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 0,
@@ -18,7 +18,13 @@
       "rapidTier2Needed": 0,
       "blitzNeeded": 0
     },
-    "averageMovesToDecision": {}
+    "averageMovesToDecision": {
+      "classical": 56.3,
+      "rapidTier1": 55.7,
+      "rapidTier2": 55.8,
+      "blitzTier1": 61.4,
+      "blitzTier2": 61.5
+    }
   },
   "overview": {
     "totalGames": 67,
@@ -1075,7 +1081,2741 @@
       "gameId": "35.1"
     }
   },
-  "byTimeControl": {},
+  "byTimeControl": {
+    "classical": {
+      "overview": {
+        "totalGames": 32,
+        "totalMoves": 2763,
+        "averageGameLength": 43.2,
+        "longestGame": {
+          "moves": 101,
+          "white": "Liang, Awonder",
+          "black": "Sargissian, Gabriel",
+          "result": "*",
+          "gameId": "31.12"
+        },
+        "shortestGame": {
+          "moves": 20,
+          "white": "Leko, Peter",
+          "black": "Erigaisi, Arjun",
+          "result": "1/2-1/2",
+          "gameId": "31.2"
+        }
+      },
+      "results": {
+        "totalGames": 32,
+        "whiteWins": 4,
+        "blackWins": 2,
+        "draws": 25,
+        "whiteWinPercentage": 12.5,
+        "blackWinPercentage": 6.3,
+        "drawPercentage": 78.1,
+        "decisivePercentage": 18.8
+      },
+      "tactics": {
+        "totalCaptures": 551,
+        "averageCapturesPerGame": 17.2,
+        "enPassantGames": [],
+        "promotions": 1,
+        "castling": {
+          "kingside": 54,
+          "queenside": 5,
+          "total": 59
+        },
+        "bloodiestGame": {
+          "captures": 28,
+          "white": "Maghsoodloo, Parham",
+          "black": "Wei, Yi",
+          "whiteElo": 2697,
+          "blackElo": 2754,
+          "gameId": "32.7"
+        },
+        "quietestGame": {
+          "captures": 6,
+          "white": "Martinez Alcantara, Jose Eduardo",
+          "black": "Sarana, Alexey",
+          "whiteElo": 2644,
+          "blackElo": 2661,
+          "gameId": "32.8"
+        },
+        "longestNonCaptureStreak": {
+          "moves": 66,
+          "white": "Pranav, V",
+          "black": "Yakubboev, Nodirbek",
+          "whiteElo": 2641,
+          "blackElo": 2689,
+          "gameId": "31.5"
+        },
+        "totalUnderpromotions": 1,
+        "underpromotions": [
+          {
+            "moveNumber": 60,
+            "promotedTo": "Knight",
+            "color": "Black",
+            "san": "g1=N+",
+            "white": "Maghsoodloo, Parham",
+            "black": "Wei, Yi"
+          }
+        ]
+      },
+      "pieces": {
+        "activity": {
+          "pawns": 683,
+          "knights": 459,
+          "bishops": 508,
+          "rooks": 496,
+          "queens": 289,
+          "kings": 328
+        },
+        "captured": {
+          "pawns": 258,
+          "knights": 89,
+          "bishops": 90,
+          "rooks": 72,
+          "queens": 42
+        },
+        "survivalRate": {}
+      },
+      "checkmates": {
+        "total": 0,
+        "byPiece": {
+          "queen": 0,
+          "rook": 0,
+          "bishop": 0,
+          "knight": 0,
+          "pawn": 0
+        },
+        "fastest": null
+      },
+      "heatmap": {
+        "bloodiestSquare": {
+          "square": "d4",
+          "captures": 58,
+          "description": "d4 saw 58 captures"
+        },
+        "mostPopularSquare": {
+          "square": "d4",
+          "visits": 127,
+          "description": "d4 was visited 127 times"
+        },
+        "leastPopularSquare": {
+          "square": "h8",
+          "visits": 6,
+          "description": "h8 was only visited 6 times"
+        },
+        "quietestSquares": [],
+        "top5Bloodiest": [
+          {
+            "square": "d4",
+            "captures": 58
+          },
+          {
+            "square": "d5",
+            "captures": 40
+          },
+          {
+            "square": "e4",
+            "captures": 31
+          },
+          {
+            "square": "e5",
+            "captures": 30
+          },
+          {
+            "square": "c4",
+            "captures": 27
+          }
+        ],
+        "top5Popular": [
+          {
+            "square": "d4",
+            "visits": 127
+          },
+          {
+            "square": "d5",
+            "visits": 101
+          },
+          {
+            "square": "f6",
+            "visits": 101
+          },
+          {
+            "square": "e4",
+            "visits": 96
+          },
+          {
+            "square": "e5",
+            "visits": 91
+          }
+        ],
+        "data": {
+          "a1": 7,
+          "b1": 21,
+          "c1": 38,
+          "d1": 39,
+          "e1": 47,
+          "f1": 23,
+          "g1": 40,
+          "h1": 8,
+          "a2": 10,
+          "b2": 22,
+          "c2": 24,
+          "d2": 51,
+          "e2": 45,
+          "f2": 15,
+          "g2": 35,
+          "h2": 18,
+          "a3": 17,
+          "b3": 44,
+          "c3": 74,
+          "d3": 58,
+          "e3": 57,
+          "f3": 75,
+          "g3": 37,
+          "h3": 29,
+          "a4": 45,
+          "b4": 59,
+          "c4": 85,
+          "d4": 127,
+          "e4": 96,
+          "f4": 38,
+          "g4": 33,
+          "h4": 32,
+          "a5": 44,
+          "b5": 71,
+          "c5": 81,
+          "d5": 101,
+          "e5": 91,
+          "f5": 41,
+          "g5": 44,
+          "h5": 30,
+          "a6": 41,
+          "b6": 42,
+          "c6": 84,
+          "d6": 53,
+          "e6": 74,
+          "f6": 101,
+          "g6": 41,
+          "h6": 25,
+          "a7": 7,
+          "b7": 21,
+          "c7": 39,
+          "d7": 60,
+          "e7": 55,
+          "f7": 23,
+          "g7": 24,
+          "h7": 19,
+          "a8": 15,
+          "b8": 17,
+          "c8": 25,
+          "d8": 40,
+          "e8": 45,
+          "f8": 16,
+          "g8": 38,
+          "h8": 6
+        }
+      },
+      "gamePhases": null,
+      "openings": {
+        "totalGames": 32,
+        "totalUnique": 28,
+        "coverage": 100,
+        "firstMoves": {
+          "e4": {
+            "count": 18,
+            "percentage": 56.3,
+            "whiteWinRate": 16.7
+          },
+          "d4": {
+            "count": 9,
+            "percentage": 28.1,
+            "whiteWinRate": 0
+          },
+          "c4": {
+            "count": 3,
+            "percentage": 9.4,
+            "whiteWinRate": 33.3
+          },
+          "Nf3": {
+            "count": 2,
+            "percentage": 6.3,
+            "whiteWinRate": 0
+          }
+        },
+        "byEco": [
+          {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+            "count": 2,
+            "whiteWins": 0,
+            "draws": 2,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E05",
+            "name": "Catalan Opening: Open Defense, Classical Line",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B45",
+            "name": "Sicilian Defense: Taimanov Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E32",
+            "name": "Nimzo-Indian Defense: Classical Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C89",
+            "name": "Ruy Lopez: Marshall Attack",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A46",
+            "name": "Indian Defense: Knights Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "D87",
+            "name": "Grünfeld Defense: Exchange Variation, Spassky Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 3,
+            "whiteWins": 1,
+            "draws": 2,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 33.3,
+            "blackWinRate": 0,
+            "drawRate": 66.7,
+            "decisiveRate": 33.3
+          },
+          {
+            "eco": "B91",
+            "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C45",
+            "name": "Scotch Game: Mieses Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Normal",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C43",
+            "name": "Petrov's Defense: Modern Attack",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "D31",
+            "name": "Semi-Slav Defense: Marshall Gambit, Main Line",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B30",
+            "name": "Sicilian Defense: Old Sicilian",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Anti-Marshall",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A09",
+            "name": "Réti Opening",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C42",
+            "name": "Petrov's Defense: Classical Attack",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B52",
+            "name": "Sicilian Defense: Moscow Variation, Main Line",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C26",
+            "name": "Vienna Game: Mieses Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "D02",
+            "name": "Queen's Pawn Game: Symmetrical Variation",
+            "count": 2,
+            "whiteWins": 0,
+            "draws": 2,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E47",
+            "name": "Nimzo-Indian Defense: Normal Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B31",
+            "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A05",
+            "name": "Zukertort Opening",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C26",
+            "name": "Vienna Game: Mengarini Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "D35",
+            "name": "Queen's Gambit Declined: Normal Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C43",
+            "name": "Petrov's Defense: Modern Attack, Center Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          }
+        ],
+        "mostPopular": [
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 3,
+            "whiteWins": 1,
+            "draws": 2,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 33.3,
+            "blackWinRate": 0,
+            "drawRate": 66.7,
+            "decisiveRate": 33.3
+          },
+          {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+            "count": 2,
+            "whiteWins": 0,
+            "draws": 2,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "D02",
+            "name": "Queen's Pawn Game: Symmetrical Variation",
+            "count": 2,
+            "whiteWins": 0,
+            "draws": 2,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E05",
+            "name": "Catalan Opening: Open Defense, Classical Line",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B45",
+            "name": "Sicilian Defense: Taimanov Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E32",
+            "name": "Nimzo-Indian Defense: Classical Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C89",
+            "name": "Ruy Lopez: Marshall Attack",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A46",
+            "name": "Indian Defense: Knights Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "D87",
+            "name": "Grünfeld Defense: Exchange Variation, Spassky Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B91",
+            "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          }
+        ],
+        "bestForWhite": {
+          "eco": "A13",
+          "name": "English Opening: Agincourt Defense",
+          "count": 3,
+          "whiteWins": 1,
+          "draws": 2,
+          "blackWins": 0,
+          "confidence": "low",
+          "whiteWinRate": 33.3,
+          "blackWinRate": 0,
+          "drawRate": 66.7,
+          "decisiveRate": 33.3
+        },
+        "bestForBlack": {
+          "eco": "A13",
+          "name": "English Opening: Agincourt Defense",
+          "count": 3,
+          "whiteWins": 1,
+          "draws": 2,
+          "blackWins": 0,
+          "confidence": "low",
+          "whiteWinRate": 33.3,
+          "blackWinRate": 0,
+          "drawRate": 66.7,
+          "decisiveRate": 33.3
+        },
+        "mostDecisive": {
+          "eco": "A13",
+          "name": "English Opening: Agincourt Defense",
+          "count": 3,
+          "whiteWins": 1,
+          "draws": 2,
+          "blackWins": 0,
+          "confidence": "low",
+          "whiteWinRate": 33.3,
+          "blackWinRate": 0,
+          "drawRate": 66.7,
+          "decisiveRate": 33.3
+        }
+      },
+      "awards": {
+        "bloodbath": {
+          "captures": 28,
+          "white": "Maghsoodloo, Parham",
+          "black": "Wei, Yi",
+          "whiteElo": 2697,
+          "blackElo": 2754,
+          "gameId": "32.7"
+        },
+        "pacifist": {
+          "captures": 6,
+          "white": "Martinez Alcantara, Jose Eduardo",
+          "black": "Sarana, Alexey",
+          "whiteElo": 2644,
+          "blackElo": 2661,
+          "gameId": "32.8"
+        },
+        "speedDemon": null,
+        "endgameWizard": {
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "endgameMoves": 54,
+          "gameId": "40.1"
+        },
+        "openingSprinter": {
+          "white": "Maghsoodloo, Parham",
+          "black": "Wei, Yi",
+          "whiteElo": 2697,
+          "blackElo": 2754,
+          "openingMoves": 7,
+          "gameId": "32.7"
+        }
+      }
+    },
+    "rapidTier1": {
+      "overview": {
+        "totalGames": 22,
+        "totalMoves": 2177,
+        "averageGameLength": 49.5,
+        "longestGame": {
+          "moves": 125,
+          "white": "Sindarov, Javokhir",
+          "black": "Yu, Yangyi",
+          "result": "1-0",
+          "gameId": "34.11"
+        },
+        "shortestGame": {
+          "moves": 12,
+          "white": "Dubov, Daniil",
+          "black": "Praggnanandhaa, R",
+          "result": "1/2-1/2",
+          "gameId": "33.3"
+        }
+      },
+      "results": {
+        "totalGames": 22,
+        "whiteWins": 7,
+        "blackWins": 4,
+        "draws": 11,
+        "whiteWinPercentage": 31.8,
+        "blackWinPercentage": 18.2,
+        "drawPercentage": 50,
+        "decisivePercentage": 50
+      },
+      "tactics": {
+        "totalCaptures": 400,
+        "averageCapturesPerGame": 18.2,
+        "enPassantGames": [],
+        "promotions": 3,
+        "castling": {
+          "kingside": 33,
+          "queenside": 6,
+          "total": 39
+        },
+        "bloodiestGame": {
+          "captures": 27,
+          "white": "Sindarov, Javokhir",
+          "black": "Yu, Yangyi",
+          "whiteElo": 2721,
+          "blackElo": 2720,
+          "gameId": "34.11"
+        },
+        "quietestGame": {
+          "captures": 6,
+          "white": "Dubov, Daniil",
+          "black": "Praggnanandhaa, R",
+          "whiteElo": 2684,
+          "blackElo": 2771,
+          "gameId": "33.3"
+        },
+        "longestNonCaptureStreak": {
+          "moves": 124,
+          "white": "Sindarov, Javokhir",
+          "black": "Yu, Yangyi",
+          "whiteElo": 2721,
+          "blackElo": 2720,
+          "gameId": "34.11"
+        },
+        "totalUnderpromotions": 0,
+        "underpromotions": []
+      },
+      "pieces": {
+        "activity": {
+          "pawns": 492,
+          "knights": 307,
+          "bishops": 297,
+          "rooks": 443,
+          "queens": 356,
+          "kings": 282
+        },
+        "captured": {
+          "pawns": 191,
+          "knights": 63,
+          "bishops": 72,
+          "rooks": 44,
+          "queens": 30
+        },
+        "survivalRate": {}
+      },
+      "checkmates": {
+        "total": 0,
+        "byPiece": {
+          "queen": 0,
+          "rook": 0,
+          "bishop": 0,
+          "knight": 0,
+          "pawn": 0
+        },
+        "fastest": null
+      },
+      "heatmap": {
+        "bloodiestSquare": {
+          "square": "d5",
+          "captures": 36,
+          "description": "d5 saw 36 captures"
+        },
+        "mostPopularSquare": {
+          "square": "d5",
+          "visits": 76,
+          "description": "d5 was visited 76 times"
+        },
+        "leastPopularSquare": {
+          "square": "h1",
+          "visits": 5,
+          "description": "h1 was only visited 5 times"
+        },
+        "quietestSquares": [],
+        "top5Bloodiest": [
+          {
+            "square": "d5",
+            "captures": 36
+          },
+          {
+            "square": "e5",
+            "captures": 24
+          },
+          {
+            "square": "d6",
+            "captures": 24
+          },
+          {
+            "square": "d4",
+            "captures": 18
+          },
+          {
+            "square": "e4",
+            "captures": 17
+          }
+        ],
+        "top5Popular": [
+          {
+            "square": "d5",
+            "visits": 76
+          },
+          {
+            "square": "e5",
+            "visits": 72
+          },
+          {
+            "square": "d6",
+            "visits": 67
+          },
+          {
+            "square": "f6",
+            "visits": 67
+          },
+          {
+            "square": "e4",
+            "visits": 65
+          }
+        ],
+        "data": {
+          "a1": 10,
+          "b1": 18,
+          "c1": 29,
+          "d1": 31,
+          "e1": 27,
+          "f1": 16,
+          "g1": 30,
+          "h1": 5,
+          "a2": 14,
+          "b2": 19,
+          "c2": 23,
+          "d2": 44,
+          "e2": 41,
+          "f2": 16,
+          "g2": 25,
+          "h2": 9,
+          "a3": 25,
+          "b3": 38,
+          "c3": 50,
+          "d3": 38,
+          "e3": 54,
+          "f3": 59,
+          "g3": 31,
+          "h3": 18,
+          "a4": 35,
+          "b4": 41,
+          "c4": 58,
+          "d4": 57,
+          "e4": 65,
+          "f4": 45,
+          "g4": 41,
+          "h4": 25,
+          "a5": 29,
+          "b5": 42,
+          "c5": 48,
+          "d5": 76,
+          "e5": 72,
+          "f5": 37,
+          "g5": 36,
+          "h5": 20,
+          "a6": 25,
+          "b6": 43,
+          "c6": 46,
+          "d6": 67,
+          "e6": 57,
+          "f6": 67,
+          "g6": 47,
+          "h6": 23,
+          "a7": 13,
+          "b7": 14,
+          "c7": 21,
+          "d7": 50,
+          "e7": 62,
+          "f7": 37,
+          "g7": 23,
+          "h7": 15,
+          "a8": 12,
+          "b8": 25,
+          "c8": 19,
+          "d8": 24,
+          "e8": 32,
+          "f8": 20,
+          "g8": 28,
+          "h8": 10
+        }
+      },
+      "gamePhases": null,
+      "openings": {
+        "totalGames": 22,
+        "totalUnique": 20,
+        "coverage": 100,
+        "firstMoves": {
+          "e4": {
+            "count": 16,
+            "percentage": 72.7,
+            "whiteWinRate": 31.3
+          },
+          "d4": {
+            "count": 4,
+            "percentage": 18.2,
+            "whiteWinRate": 50
+          },
+          "c4": {
+            "count": 2,
+            "percentage": 9.1,
+            "whiteWinRate": 0
+          }
+        },
+        "byEco": [
+          {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+            "count": 3,
+            "whiteWins": 2,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 66.7,
+            "blackWinRate": 0,
+            "drawRate": 33.3,
+            "decisiveRate": 66.7
+          },
+          {
+            "eco": "E10",
+            "name": "Indian Defense: Anti-Nimzo-Indian",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C70",
+            "name": "Ruy Lopez: Morphy Defense, Classical Defense Deferred",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "E35",
+            "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "A46",
+            "name": "Indian Defense: Knights Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C56",
+            "name": "Italian Game: Scotch Invitation Declined",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C78",
+            "name": "Ruy Lopez: Morphy Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Normal",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A16",
+            "name": "English Opening: Anglo-Indian Defense, Queen's Knight Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Anti-Marshall",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C54",
+            "name": "Italian Game: Classical Variation, Giuoco Pianissimo, with d6",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B92",
+            "name": "Sicilian Defense: Najdorf Variation, Opocensky Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C43",
+            "name": "Petrov's Defense: Modern Attack, Murrey Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B12",
+            "name": "Caro-Kann Defense: Advance Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B06",
+            "name": "Modern Defense: Standard Defense",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C43",
+            "name": "Petrov's Defense: Modern Attack, Center Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          }
+        ],
+        "mostPopular": [
+          {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+            "count": 3,
+            "whiteWins": 2,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 66.7,
+            "blackWinRate": 0,
+            "drawRate": 33.3,
+            "decisiveRate": 66.7
+          },
+          {
+            "eco": "E10",
+            "name": "Indian Defense: Anti-Nimzo-Indian",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C70",
+            "name": "Ruy Lopez: Morphy Defense, Classical Defense Deferred",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "E35",
+            "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "A46",
+            "name": "Indian Defense: Knights Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C56",
+            "name": "Italian Game: Scotch Invitation Declined",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C78",
+            "name": "Ruy Lopez: Morphy Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Normal",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A16",
+            "name": "English Opening: Anglo-Indian Defense, Queen's Knight Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          }
+        ],
+        "bestForWhite": {
+          "eco": "C55",
+          "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+          "count": 3,
+          "whiteWins": 2,
+          "draws": 1,
+          "blackWins": 0,
+          "confidence": "medium",
+          "whiteWinRate": 66.7,
+          "blackWinRate": 0,
+          "drawRate": 33.3,
+          "decisiveRate": 66.7
+        },
+        "bestForBlack": {
+          "eco": "C55",
+          "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+          "count": 3,
+          "whiteWins": 2,
+          "draws": 1,
+          "blackWins": 0,
+          "confidence": "medium",
+          "whiteWinRate": 66.7,
+          "blackWinRate": 0,
+          "drawRate": 33.3,
+          "decisiveRate": 66.7
+        },
+        "mostDecisive": {
+          "eco": "C55",
+          "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+          "count": 3,
+          "whiteWins": 2,
+          "draws": 1,
+          "blackWins": 0,
+          "confidence": "medium",
+          "whiteWinRate": 66.7,
+          "blackWinRate": 0,
+          "drawRate": 33.3,
+          "decisiveRate": 66.7
+        }
+      },
+      "awards": {
+        "bloodbath": {
+          "captures": 27,
+          "white": "Sindarov, Javokhir",
+          "black": "Yu, Yangyi",
+          "whiteElo": 2721,
+          "blackElo": 2720,
+          "gameId": "34.11"
+        },
+        "pacifist": {
+          "captures": 6,
+          "white": "Dubov, Daniil",
+          "black": "Praggnanandhaa, R",
+          "whiteElo": 2684,
+          "blackElo": 2771,
+          "gameId": "33.3"
+        },
+        "speedDemon": null,
+        "endgameWizard": {
+          "white": "Sindarov, Javokhir",
+          "black": "Yu, Yangyi",
+          "whiteElo": 2721,
+          "blackElo": 2720,
+          "endgameMoves": 99,
+          "gameId": "34.11"
+        },
+        "openingSprinter": {
+          "white": "Esipenko, Andrey",
+          "black": "Keymer, Vincent",
+          "whiteElo": 2693,
+          "blackElo": 2755,
+          "openingMoves": 7,
+          "gameId": "34.4"
+        }
+      }
+    },
+    "rapidTier2": {
+      "overview": {
+        "totalGames": 6,
+        "totalMoves": 565,
+        "averageGameLength": 47.1,
+        "longestGame": {
+          "moves": 73,
+          "white": "Esipenko, Andrey",
+          "black": "Keymer, Vincent",
+          "result": "1-0",
+          "gameId": "35.1"
+        },
+        "shortestGame": {
+          "moves": 24,
+          "white": "Maghsoodloo, Parham",
+          "black": "Wei, Yi",
+          "result": "1/2-1/2",
+          "gameId": "36.2"
+        }
+      },
+      "results": {
+        "totalGames": 6,
+        "whiteWins": 1,
+        "blackWins": 1,
+        "draws": 4,
+        "whiteWinPercentage": 16.7,
+        "blackWinPercentage": 16.7,
+        "drawPercentage": 66.7,
+        "decisivePercentage": 33.3
+      },
+      "tactics": {
+        "totalCaptures": 112,
+        "averageCapturesPerGame": 18.7,
+        "enPassantGames": [
+          {
+            "white": "Keymer, Vincent",
+            "black": "Esipenko, Andrey",
+            "count": 1
+          }
+        ],
+        "promotions": 0,
+        "castling": {
+          "kingside": 11,
+          "queenside": 1,
+          "total": 12
+        },
+        "bloodiestGame": {
+          "captures": 27,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "gameId": "33.7"
+        },
+        "quietestGame": {
+          "captures": 14,
+          "white": "Wei, Yi",
+          "black": "Maghsoodloo, Parham",
+          "whiteElo": 2754,
+          "blackElo": 2697,
+          "gameId": "35.2"
+        },
+        "longestNonCaptureStreak": {
+          "moves": 29,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "gameId": "33.7"
+        },
+        "totalUnderpromotions": 0,
+        "underpromotions": []
+      },
+      "pieces": {
+        "activity": {
+          "pawns": 138,
+          "knights": 102,
+          "bishops": 58,
+          "rooks": 134,
+          "queens": 66,
+          "kings": 67
+        },
+        "captured": {
+          "pawns": 58,
+          "knights": 15,
+          "bishops": 21,
+          "rooks": 12,
+          "queens": 6
+        },
+        "survivalRate": {}
+      },
+      "checkmates": {
+        "total": 0,
+        "byPiece": {
+          "queen": 0,
+          "rook": 0,
+          "bishop": 0,
+          "knight": 0,
+          "pawn": 0
+        },
+        "fastest": null
+      },
+      "heatmap": {
+        "bloodiestSquare": {
+          "square": "d5",
+          "captures": 15,
+          "description": "d5 saw 15 captures"
+        },
+        "mostPopularSquare": {
+          "square": "d5",
+          "visits": 27,
+          "description": "d5 was visited 27 times"
+        },
+        "leastPopularSquare": {
+          "square": "a8",
+          "visits": 1,
+          "description": "a8 was only visited 1 times"
+        },
+        "quietestSquares": [
+          "a7"
+        ],
+        "top5Bloodiest": [
+          {
+            "square": "d5",
+            "captures": 15
+          },
+          {
+            "square": "d6",
+            "captures": 9
+          },
+          {
+            "square": "e6",
+            "captures": 6
+          },
+          {
+            "square": "d4",
+            "captures": 5
+          },
+          {
+            "square": "f4",
+            "captures": 5
+          }
+        ],
+        "top5Popular": [
+          {
+            "square": "d5",
+            "visits": 27
+          },
+          {
+            "square": "e6",
+            "visits": 19
+          },
+          {
+            "square": "c6",
+            "visits": 17
+          },
+          {
+            "square": "a5",
+            "visits": 16
+          },
+          {
+            "square": "f3",
+            "visits": 15
+          }
+        ],
+        "data": {
+          "a1": 2,
+          "b1": 6,
+          "c1": 9,
+          "d1": 6,
+          "e1": 9,
+          "f1": 8,
+          "g1": 8,
+          "h1": 1,
+          "a2": 6,
+          "b2": 2,
+          "c2": 13,
+          "d2": 14,
+          "e2": 7,
+          "f2": 6,
+          "g2": 7,
+          "h2": 1,
+          "a3": 5,
+          "b3": 7,
+          "c3": 12,
+          "d3": 9,
+          "e3": 10,
+          "f3": 15,
+          "g3": 7,
+          "h3": 4,
+          "a4": 11,
+          "b4": 10,
+          "c4": 15,
+          "d4": 15,
+          "e4": 15,
+          "f4": 12,
+          "g4": 9,
+          "h4": 8,
+          "a5": 16,
+          "b5": 5,
+          "c5": 15,
+          "d5": 27,
+          "e5": 14,
+          "f5": 6,
+          "g5": 6,
+          "h5": 9,
+          "a6": 2,
+          "b6": 12,
+          "c6": 17,
+          "d6": 15,
+          "e6": 19,
+          "f6": 13,
+          "g6": 15,
+          "h6": 6,
+          "a7": 0,
+          "b7": 6,
+          "c7": 6,
+          "d7": 10,
+          "e7": 15,
+          "f7": 7,
+          "g7": 3,
+          "h7": 5,
+          "a8": 1,
+          "b8": 3,
+          "c8": 6,
+          "d8": 8,
+          "e8": 9,
+          "f8": 7,
+          "g8": 9,
+          "h8": 4
+        }
+      },
+      "gamePhases": null,
+      "openings": {
+        "totalGames": 6,
+        "totalUnique": 6,
+        "coverage": 100,
+        "firstMoves": {
+          "e4": {
+            "count": 4,
+            "percentage": 66.7,
+            "whiteWinRate": 25
+          },
+          "Nf3": {
+            "count": 1,
+            "percentage": 16.7,
+            "whiteWinRate": 0
+          },
+          "c4": {
+            "count": 1,
+            "percentage": 16.7,
+            "whiteWinRate": 0
+          }
+        },
+        "byEco": [
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Normal",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          }
+        ],
+        "mostPopular": [
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo, Normal",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "A07",
+            "name": "King's Indian Attack",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B13",
+            "name": "Caro-Kann Defense: Exchange Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          }
+        ],
+        "bestForWhite": null,
+        "bestForBlack": null,
+        "mostDecisive": null
+      },
+      "awards": {
+        "bloodbath": {
+          "captures": 27,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "gameId": "33.7"
+        },
+        "pacifist": {
+          "captures": 14,
+          "white": "Wei, Yi",
+          "black": "Maghsoodloo, Parham",
+          "whiteElo": 2754,
+          "blackElo": 2697,
+          "gameId": "35.2"
+        },
+        "speedDemon": null,
+        "endgameWizard": {
+          "white": "Esipenko, Andrey",
+          "black": "Keymer, Vincent",
+          "whiteElo": 2693,
+          "blackElo": 2755,
+          "endgameMoves": 44,
+          "gameId": "35.1"
+        },
+        "openingSprinter": {
+          "white": "Esipenko, Andrey",
+          "black": "Keymer, Vincent",
+          "whiteElo": 2693,
+          "blackElo": 2755,
+          "openingMoves": 6,
+          "gameId": "35.1"
+        }
+      }
+    },
+    "blitzTier1": {
+      "overview": {
+        "totalGames": 4,
+        "totalMoves": 491,
+        "averageGameLength": 61.4,
+        "longestGame": {
+          "moves": 86,
+          "white": "Sevian, Samuel",
+          "black": "Lodici, Lorenzo",
+          "result": "1-0",
+          "gameId": "35.3"
+        },
+        "shortestGame": {
+          "moves": 34,
+          "white": "Wei, Yi",
+          "black": "Maghsoodloo, Parham",
+          "result": "1-0",
+          "gameId": "38.1"
+        }
+      },
+      "results": {
+        "totalGames": 4,
+        "whiteWins": 3,
+        "blackWins": 1,
+        "draws": 0,
+        "whiteWinPercentage": 75,
+        "blackWinPercentage": 25,
+        "drawPercentage": 0,
+        "decisivePercentage": 100
+      },
+      "tactics": {
+        "totalCaptures": 84,
+        "averageCapturesPerGame": 21,
+        "enPassantGames": [],
+        "promotions": 0,
+        "castling": {
+          "kingside": 6,
+          "queenside": 1,
+          "total": 7
+        },
+        "bloodiestGame": {
+          "captures": 26,
+          "white": "Sevian, Samuel",
+          "black": "Lodici, Lorenzo",
+          "whiteElo": 2698,
+          "blackElo": 2560,
+          "gameId": "35.3"
+        },
+        "quietestGame": {
+          "captures": 17,
+          "white": "Wei, Yi",
+          "black": "Maghsoodloo, Parham",
+          "whiteElo": 2754,
+          "blackElo": 2697,
+          "gameId": "38.1"
+        },
+        "longestNonCaptureStreak": {
+          "moves": 52,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "gameId": "36.3"
+        },
+        "totalUnderpromotions": 0,
+        "underpromotions": []
+      },
+      "pieces": {
+        "activity": {
+          "pawns": 106,
+          "knights": 100,
+          "bishops": 76,
+          "rooks": 56,
+          "queens": 81,
+          "kings": 72
+        },
+        "captured": {
+          "pawns": 42,
+          "knights": 12,
+          "bishops": 13,
+          "rooks": 11,
+          "queens": 6
+        },
+        "survivalRate": {}
+      },
+      "checkmates": {
+        "total": 0,
+        "byPiece": {
+          "queen": 0,
+          "rook": 0,
+          "bishop": 0,
+          "knight": 0,
+          "pawn": 0
+        },
+        "fastest": null
+      },
+      "heatmap": {
+        "bloodiestSquare": {
+          "square": "d5",
+          "captures": 9,
+          "description": "d5 saw 9 captures"
+        },
+        "mostPopularSquare": {
+          "square": "e6",
+          "visits": 25,
+          "description": "e6 was visited 25 times"
+        },
+        "leastPopularSquare": {
+          "square": "b8",
+          "visits": 1,
+          "description": "b8 was only visited 1 times"
+        },
+        "quietestSquares": [
+          "h1",
+          "a2",
+          "b7"
+        ],
+        "top5Bloodiest": [
+          {
+            "square": "d5",
+            "captures": 9
+          },
+          {
+            "square": "e6",
+            "captures": 8
+          },
+          {
+            "square": "d4",
+            "captures": 7
+          },
+          {
+            "square": "c4",
+            "captures": 6
+          },
+          {
+            "square": "e7",
+            "captures": 5
+          }
+        ],
+        "top5Popular": [
+          {
+            "square": "e6",
+            "visits": 25
+          },
+          {
+            "square": "c4",
+            "visits": 20
+          },
+          {
+            "square": "d5",
+            "visits": 19
+          },
+          {
+            "square": "f4",
+            "visits": 18
+          },
+          {
+            "square": "e5",
+            "visits": 18
+          }
+        ],
+        "data": {
+          "a1": 1,
+          "b1": 3,
+          "c1": 6,
+          "d1": 3,
+          "e1": 5,
+          "f1": 2,
+          "g1": 3,
+          "h1": 0,
+          "a2": 0,
+          "b2": 5,
+          "c2": 4,
+          "d2": 6,
+          "e2": 5,
+          "f2": 6,
+          "g2": 4,
+          "h2": 2,
+          "a3": 4,
+          "b3": 7,
+          "c3": 10,
+          "d3": 10,
+          "e3": 7,
+          "f3": 9,
+          "g3": 13,
+          "h3": 7,
+          "a4": 3,
+          "b4": 9,
+          "c4": 20,
+          "d4": 12,
+          "e4": 8,
+          "f4": 18,
+          "g4": 6,
+          "h4": 7,
+          "a5": 5,
+          "b5": 4,
+          "c5": 15,
+          "d5": 19,
+          "e5": 18,
+          "f5": 14,
+          "g5": 9,
+          "h5": 6,
+          "a6": 8,
+          "b6": 7,
+          "c6": 12,
+          "d6": 9,
+          "e6": 25,
+          "f6": 15,
+          "g6": 9,
+          "h6": 7,
+          "a7": 3,
+          "b7": 0,
+          "c7": 7,
+          "d7": 7,
+          "e7": 13,
+          "f7": 9,
+          "g7": 5,
+          "h7": 5,
+          "a8": 4,
+          "b8": 1,
+          "c8": 3,
+          "d8": 10,
+          "e8": 12,
+          "f8": 6,
+          "g8": 12,
+          "h8": 7
+        }
+      },
+      "gamePhases": null,
+      "openings": {
+        "totalGames": 4,
+        "totalUnique": 4,
+        "coverage": 100,
+        "firstMoves": {
+          "d4": {
+            "count": 1,
+            "percentage": 25,
+            "whiteWinRate": 0
+          },
+          "e4": {
+            "count": 3,
+            "percentage": 75,
+            "whiteWinRate": 100
+          }
+        },
+        "byEco": [
+          {
+            "eco": "E49",
+            "name": "Nimzo-Indian Defense: Normal Variation, Botvinnik System",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B91",
+            "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C77",
+            "name": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          }
+        ],
+        "mostPopular": [
+          {
+            "eco": "E49",
+            "name": "Nimzo-Indian Defense: Normal Variation, Botvinnik System",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 0,
+            "blackWins": 1,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 100,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "B91",
+            "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C77",
+            "name": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          }
+        ],
+        "bestForWhite": null,
+        "bestForBlack": null,
+        "mostDecisive": null
+      },
+      "awards": {
+        "bloodbath": {
+          "captures": 26,
+          "white": "Sevian, Samuel",
+          "black": "Lodici, Lorenzo",
+          "whiteElo": 2698,
+          "blackElo": 2560,
+          "gameId": "35.3"
+        },
+        "pacifist": {
+          "captures": 17,
+          "white": "Wei, Yi",
+          "black": "Maghsoodloo, Parham",
+          "whiteElo": 2754,
+          "blackElo": 2697,
+          "gameId": "38.1"
+        },
+        "speedDemon": null,
+        "endgameWizard": {
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "endgameMoves": 48,
+          "gameId": "36.3"
+        },
+        "openingSprinter": {
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "openingMoves": 10,
+          "gameId": "36.3"
+        }
+      }
+    },
+    "blitzTier2": {
+      "overview": {
+        "totalGames": 2,
+        "totalMoves": 246,
+        "averageGameLength": 61.5,
+        "longestGame": {
+          "moves": 80,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "result": "1-0",
+          "gameId": "37.2"
+        },
+        "shortestGame": {
+          "moves": 44,
+          "white": "Sevian, Samuel",
+          "black": "Lodici, Lorenzo",
+          "result": "1-0",
+          "gameId": "38.2"
+        }
+      },
+      "results": {
+        "totalGames": 2,
+        "whiteWins": 2,
+        "blackWins": 0,
+        "draws": 0,
+        "whiteWinPercentage": 100,
+        "blackWinPercentage": 0,
+        "drawPercentage": 0,
+        "decisivePercentage": 100
+      },
+      "tactics": {
+        "totalCaptures": 40,
+        "averageCapturesPerGame": 20,
+        "enPassantGames": [],
+        "promotions": 0,
+        "castling": {
+          "kingside": 3,
+          "queenside": 1,
+          "total": 4
+        },
+        "bloodiestGame": {
+          "captures": 26,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "gameId": "37.2"
+        },
+        "quietestGame": {
+          "captures": 14,
+          "white": "Sevian, Samuel",
+          "black": "Lodici, Lorenzo",
+          "whiteElo": 2698,
+          "blackElo": 2560,
+          "gameId": "38.2"
+        },
+        "longestNonCaptureStreak": {
+          "moves": 29,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "gameId": "37.2"
+        },
+        "totalUnderpromotions": 0,
+        "underpromotions": []
+      },
+      "pieces": {
+        "activity": {
+          "pawns": 51,
+          "knights": 28,
+          "bishops": 32,
+          "rooks": 18,
+          "queens": 71,
+          "kings": 46
+        },
+        "captured": {
+          "pawns": 22,
+          "knights": 6,
+          "bishops": 6,
+          "rooks": 6,
+          "queens": 0
+        },
+        "survivalRate": {}
+      },
+      "checkmates": {
+        "total": 0,
+        "byPiece": {
+          "queen": 0,
+          "rook": 0,
+          "bishop": 0,
+          "knight": 0,
+          "pawn": 0
+        },
+        "fastest": null
+      },
+      "heatmap": {
+        "bloodiestSquare": {
+          "square": "d1",
+          "captures": 4,
+          "description": "d1 saw 4 captures"
+        },
+        "mostPopularSquare": {
+          "square": "b5",
+          "visits": 9,
+          "description": "b5 was visited 9 times"
+        },
+        "leastPopularSquare": {
+          "square": "f7",
+          "visits": 1,
+          "description": "f7 was only visited 1 times"
+        },
+        "quietestSquares": [
+          "h1",
+          "g2",
+          "h8"
+        ],
+        "top5Bloodiest": [
+          {
+            "square": "d1",
+            "captures": 4
+          },
+          {
+            "square": "b5",
+            "captures": 4
+          },
+          {
+            "square": "d5",
+            "captures": 4
+          },
+          {
+            "square": "g3",
+            "captures": 3
+          },
+          {
+            "square": "b4",
+            "captures": 2
+          }
+        ],
+        "top5Popular": [
+          {
+            "square": "b5",
+            "visits": 9
+          },
+          {
+            "square": "d5",
+            "visits": 9
+          },
+          {
+            "square": "c5",
+            "visits": 8
+          },
+          {
+            "square": "a6",
+            "visits": 8
+          },
+          {
+            "square": "f6",
+            "visits": 8
+          }
+        ],
+        "data": {
+          "a1": 3,
+          "b1": 1,
+          "c1": 2,
+          "d1": 6,
+          "e1": 2,
+          "f1": 1,
+          "g1": 1,
+          "h1": 0,
+          "a2": 3,
+          "b2": 3,
+          "c2": 3,
+          "d2": 2,
+          "e2": 3,
+          "f2": 1,
+          "g2": 0,
+          "h2": 2,
+          "a3": 2,
+          "b3": 4,
+          "c3": 6,
+          "d3": 4,
+          "e3": 4,
+          "f3": 4,
+          "g3": 5,
+          "h3": 2,
+          "a4": 7,
+          "b4": 6,
+          "c4": 6,
+          "d4": 6,
+          "e4": 3,
+          "f4": 3,
+          "g4": 3,
+          "h4": 1,
+          "a5": 5,
+          "b5": 9,
+          "c5": 8,
+          "d5": 9,
+          "e5": 6,
+          "f5": 2,
+          "g5": 3,
+          "h5": 2,
+          "a6": 8,
+          "b6": 4,
+          "c6": 7,
+          "d6": 6,
+          "e6": 4,
+          "f6": 8,
+          "g6": 4,
+          "h6": 2,
+          "a7": 5,
+          "b7": 3,
+          "c7": 5,
+          "d7": 5,
+          "e7": 4,
+          "f7": 1,
+          "g7": 3,
+          "h7": 5,
+          "a8": 6,
+          "b8": 3,
+          "c8": 4,
+          "d8": 6,
+          "e8": 2,
+          "f8": 4,
+          "g8": 4,
+          "h8": 0
+        }
+      },
+      "gamePhases": null,
+      "openings": {
+        "totalGames": 2,
+        "totalUnique": 2,
+        "coverage": 100,
+        "firstMoves": {
+          "e4": {
+            "count": 2,
+            "percentage": 100,
+            "whiteWinRate": 100
+          }
+        },
+        "byEco": [
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C77",
+            "name": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          }
+        ],
+        "mostPopular": [
+          {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Pianissimo",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          },
+          {
+            "eco": "C77",
+            "name": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "medium",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          }
+        ],
+        "bestForWhite": null,
+        "bestForBlack": null,
+        "mostDecisive": null
+      },
+      "awards": {
+        "bloodbath": {
+          "captures": 26,
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "gameId": "37.2"
+        },
+        "pacifist": {
+          "captures": 14,
+          "white": "Sevian, Samuel",
+          "black": "Lodici, Lorenzo",
+          "whiteElo": 2698,
+          "blackElo": 2560,
+          "gameId": "38.2"
+        },
+        "speedDemon": null,
+        "endgameWizard": {
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "endgameMoves": 59,
+          "gameId": "37.2"
+        },
+        "openingSprinter": {
+          "white": "Lodici, Lorenzo",
+          "black": "Sevian, Samuel",
+          "whiteElo": 2560,
+          "blackElo": 2698,
+          "openingMoves": 11,
+          "gameId": "37.2"
+        }
+      }
+    }
+  },
   "ratingAnalysis": {
     "hasRatingData": true,
     "totalGames": 67,
@@ -1241,8 +3981,16 @@
       "ratingDifference": 138,
       "result": "1-0"
     },
-    "rapidFire": null,
-    "blitzWizard": null,
+    "rapidFire": {
+      "white": "Shankland, Sam",
+      "black": "Rapport, Richard",
+      "moves": 25,
+      "winner": "Shankland, Sam"
+    },
+    "blitzWizard": {
+      "player": "Wei, Yi",
+      "blitzWins": 2
+    },
     "classicalPurist": null,
     "marathonMaster": {
       "players": "Lodici, Lorenzo vs Sevian, Samuel",
@@ -1512,7 +4260,7 @@
       "timeSpent": 5681,
       "moveNumber": 1,
       "move": "e4",
-      "timeControl": "classical",
+      "timeControl": "rapidTier1",
       "gameIndex": 2
     },
     "zeitnotAddict": {
@@ -1520,11 +4268,11 @@
       "black": "Yu, Yangyi",
       "whiteRating": 2721,
       "blackRating": 2720,
-      "player": "Sindarov, Javokhir",
-      "color": "white",
-      "count": 95,
-      "minClock": 15,
-      "timeControl": "classical",
+      "player": "Yu, Yangyi",
+      "color": "black",
+      "count": 83,
+      "minClock": 0,
+      "timeControl": "rapidTier1",
       "gameIndex": 66
     },
     "timeScrambleSurvivor": {
@@ -1547,7 +4295,7 @@
       "color": "white",
       "avgTime": 2.4545454545454546,
       "moveCount": 22,
-      "timeControl": "classical",
+      "timeControl": "rapidTier2",
       "gameIndex": 27
     },
     "openingBlitzer": {
@@ -1555,26 +4303,63 @@
       "black": "Wei, Yi",
       "player": "Maghsoodloo, Parham",
       "color": "white",
-      "avgTime": 1.25,
-      "moveCount": 8,
-      "timeControl": "classical",
+      "avgTime": 1.1666666666666667,
+      "moveCount": 6,
+      "timeControl": "blitzTier1",
       "gameIndex": 28
     },
     "premoveMaster": null,
-    "tiebreakPressureKing": null,
-    "classicalTimeBurner": {
-      "white": "Sindarov, Javokhir",
-      "black": "Yu, Yangyi",
-      "whiteRating": 2721,
-      "blackRating": 2720,
-      "player": "Yu, Yangyi",
-      "color": "black",
-      "finalClock": 0,
-      "totalMoves": 114,
-      "result": "1-0",
-      "gameIndex": 66
+    "tiebreakPressureKing": {
+      "player": "Svane, Frederik",
+      "tiebreakWins": 1,
+      "criticalWins": 1,
+      "minClock": 22,
+      "games": [
+        {
+          "white": "Svane, Frederik",
+          "black": "Sargsyan, Shant",
+          "timeControl": "rapidTier1",
+          "minClock": 22
+        }
+      ]
     },
-    "timeControlSpecialist": null
+    "classicalTimeBurner": {
+      "white": "Sevian, Samuel",
+      "black": "Lodici, Lorenzo",
+      "whiteRating": 2698,
+      "blackRating": 2560,
+      "player": "Lodici, Lorenzo",
+      "color": "black",
+      "finalClock": 4,
+      "totalMoves": 20,
+      "result": "1-0",
+      "gameIndex": 46
+    },
+    "timeControlSpecialist": {
+      "player": "Erigaisi, Arjun",
+      "specialist": "classical",
+      "stats": {
+        "classical": {
+          "games": 2,
+          "avgFinalClock": 3109,
+          "avgMoves": 28,
+          "ratio": 113.05454545454545
+        },
+        "rapid": {
+          "games": 2,
+          "avgFinalClock": 125,
+          "avgMoves": 48,
+          "ratio": 2.59375
+        },
+        "blitz": {
+          "games": 0,
+          "avgFinalClock": 0,
+          "avgMoves": 0,
+          "ratio": 0
+        }
+      },
+      "variance": 110.46079545454545
+    }
   },
   "analysis": null,
   "dataInfo": {

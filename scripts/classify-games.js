@@ -21,7 +21,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { classifyByRoundField, getTimeControlLabel } = require('./utils/time-control-classifier');
+const { classifyByGameNumber, classifyByRoundField, getTimeControlLabel } = require('./utils/time-control-classifier');
 
 // Configuration
 const CONSOLIDATED_DIR = path.join(__dirname, '../data/consolidated');
@@ -162,11 +162,14 @@ function analyzeMatchOutcome(match) {
  * @returns {Object} Enriched match with classifications and outcome
  */
 function classifyMatch(match) {
-  // Classify each game
-  const classifiedGames = match.gameDetails.map(game => {
-    const classification = classifyByRoundField(game.round);
+  // Classify each game using position in match (1-indexed)
+  const classifiedGames = match.gameDetails.map((game, index) => {
+    // Use game position within match (1, 2, 3...) not PGN Round field
+    const gameNumberInMatch = index + 1;
+    const classification = classifyByGameNumber(gameNumberInMatch);
     return {
       ...game,
+      gameNumberInMatch,
       classification,
       timeControlLabel: getTimeControlLabel(classification),
     };

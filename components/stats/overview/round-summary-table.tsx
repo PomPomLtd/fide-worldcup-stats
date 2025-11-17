@@ -89,7 +89,8 @@ export function RoundSummaryTable({ rounds }: RoundSummaryTableProps) {
                 <td className="text-center py-3 px-4">
                   {(() => {
                     const totalClassified = round.classicalGames + round.rapidGames + round.blitzGames
-                    const hasCompleteData = totalClassified === round.games && totalClassified > 0
+                    // Allow for small differences (armageddon games which we don't display separately)
+                    const hasCompleteData = totalClassified > 0 && (round.games - totalClassified) <= 1
 
                     if (!hasCompleteData) {
                       return (

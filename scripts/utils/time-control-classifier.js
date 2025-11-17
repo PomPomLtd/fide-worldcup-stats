@@ -20,47 +20,33 @@
  */
 
 /**
- * Classify a game's time control based on its Round field
+ * Classify a game's time control based on its game number within a match
  *
- * @param {string} roundField - The Round field from PGN (e.g., "1.1", "3.2", "5.1")
+ * @param {number} gameNum - Game number within the match (1, 2, 3, ...)
  * @returns {Object} Classification object with type, tier, and timeControl
  * @returns {string} return.type - Game type: 'CLASSICAL', 'RAPID', 'BLITZ', or 'ARMAGEDDON'
  * @returns {number|null} return.tier - Tier number for RAPID/BLITZ (1 or 2), null for others
  * @returns {string} return.timeControl - Human-readable time control (e.g., '15+10', '5+3')
- * @returns {number} return.gameNumber - The extracted game number
+ * @returns {number} return.gameNumber - The game number
  *
  * @example
- * classifyByRoundField('1.1')
+ * classifyByGameNumber(1)
  * // Returns: { type: 'CLASSICAL', tier: null, timeControl: '90+30', gameNumber: 1 }
  *
- * classifyByRoundField('3.2')
+ * classifyByGameNumber(3)
  * // Returns: { type: 'RAPID', tier: 1, timeControl: '15+10', gameNumber: 3 }
  *
- * classifyByRoundField('7.1')
+ * classifyByGameNumber(7)
  * // Returns: { type: 'BLITZ', tier: 1, timeControl: '5+3', gameNumber: 7 }
  */
-function classifyByRoundField(roundField) {
-  if (!roundField) {
+function classifyByGameNumber(gameNum) {
+  if (!gameNum || isNaN(gameNum)) {
     return {
       type: 'UNKNOWN',
       tier: null,
       timeControl: 'unknown',
       gameNumber: null,
-      error: 'Round field is missing or empty',
-    };
-  }
-
-  // Extract game number from Round field (first part before the dot)
-  const parts = roundField.split('.');
-  const gameNum = parseInt(parts[0], 10);
-
-  if (isNaN(gameNum)) {
-    return {
-      type: 'UNKNOWN',
-      tier: null,
-      timeControl: 'unknown',
-      gameNumber: null,
-      error: `Invalid Round field format: ${roundField}`,
+      error: 'Game number is missing or invalid',
     };
   }
 
@@ -135,6 +121,55 @@ function classifyByRoundField(roundField) {
 }
 
 /**
+ * Classify a game's time control based on its Round field
+ *
+ * @param {string} roundField - The Round field from PGN (e.g., "1.1", "3.2", "5.1")
+ * @returns {Object} Classification object with type, tier, and timeControl
+ * @returns {string} return.type - Game type: 'CLASSICAL', 'RAPID', 'BLITZ', or 'ARMAGEDDON'
+ * @returns {number|null} return.tier - Tier number for RAPID/BLITZ (1 or 2), null for others
+ * @returns {string} return.timeControl - Human-readable time control (e.g., '15+10', '5+3')
+ * @returns {number} return.gameNumber - The extracted game number
+ *
+ * @example
+ * classifyByRoundField('1.1')
+ * // Returns: { type: 'CLASSICAL', tier: null, timeControl: '90+30', gameNumber: 1 }
+ *
+ * classifyByRoundField('3.2')
+ * // Returns: { type: 'RAPID', tier: 1, timeControl: '15+10', gameNumber: 3 }
+ *
+ * classifyByRoundField('7.1')
+ * // Returns: { type: 'BLITZ', tier: 1, timeControl: '5+3', gameNumber: 7 }
+ */
+function classifyByRoundField(roundField) {
+  if (!roundField) {
+    return {
+      type: 'UNKNOWN',
+      tier: null,
+      timeControl: 'unknown',
+      gameNumber: null,
+      error: 'Round field is missing or empty',
+    };
+  }
+
+  // Extract game number from Round field (first part before the dot)
+  const parts = roundField.split('.');
+  const gameNum = parseInt(parts[0], 10);
+
+  if (isNaN(gameNum)) {
+    return {
+      type: 'UNKNOWN',
+      tier: null,
+      timeControl: 'unknown',
+      gameNumber: null,
+      error: `Invalid Round field format: ${roundField}`,
+    };
+  }
+
+  // Delegate to classifyByGameNumber
+  return classifyByGameNumber(gameNum);
+}
+
+/**
  * Get a human-readable label for a time control classification
  *
  * @param {Object} classification - Classification object from classifyByRoundField
@@ -189,6 +224,7 @@ function classifyGames(games) {
 }
 
 module.exports = {
+  classifyByGameNumber,
   classifyByRoundField,
   getTimeControlLabel,
   classifyGames,
