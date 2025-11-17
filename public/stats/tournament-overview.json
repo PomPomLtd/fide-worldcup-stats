@@ -3,7 +3,7 @@
   "location": "Goa, India",
   "totalRounds": 7,
   "roundsCompleted": 5,
-  "generatedAt": "2025-11-17T10:56:46.344Z",
+  "generatedAt": "2025-11-17T11:39:56.408Z",
   "overall": {
     "totalGames": 635,
     "totalMatches": 198,
@@ -44,8 +44,8 @@
       "tiebreakRate": 0,
       "upsetRate": 11.5,
       "classicalGames": 156,
-      "rapidGames": 0,
-      "blitzGames": 0
+      "rapidGames": 52,
+      "blitzGames": 10
     },
     {
       "roundNumber": 2,
@@ -57,7 +57,7 @@
       "upsetRate": 16.7,
       "classicalGames": 0,
       "rapidGames": 0,
-      "blitzGames": 0
+      "blitzGames": 128
     },
     {
       "roundNumber": 3,
@@ -1963,24 +1963,24 @@
         "roundName": "Round 1"
       },
       "longestCaptureSequence": {
-        "length": 8,
-        "gameIndex": 44,
+        "length": 10,
+        "gameIndex": 127,
         "gameId": null,
-        "startMove": 36,
-        "white": "Orozbaev, Eldiyar",
-        "black": "Ivic, Velimir",
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "startMove": 32,
+        "white": "Svane, Rasmus",
+        "black": "Mamedov, Rauf",
+        "roundNumber": 2,
+        "roundName": "Round 2"
       },
       "longestCheckSequence": {
-        "length": 13,
-        "gameIndex": 32,
+        "length": 19,
+        "gameIndex": 66,
         "gameId": null,
-        "startMove": 10,
-        "white": "Kavin, Mohan",
-        "black": "Hovhannisyan, Robert",
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "startMove": 192,
+        "white": "Sindarov, Javokhir",
+        "black": "Yu, Yangyi",
+        "roundNumber": 4,
+        "roundName": "Round 4 (Quarter-finals)"
       },
       "pawnStorm": {
         "count": 20,
@@ -1992,16 +1992,16 @@
         "roundName": "Round 1"
       },
       "squareTourist": {
-        "squares": 27,
-        "gameIndex": 117,
+        "squares": 32,
+        "gameIndex": 43,
         "gameId": null,
-        "piece": "Rook",
+        "piece": "Queen",
         "color": "White",
-        "startSquare": "f1",
-        "white": "Adly, Ahmed",
-        "black": "Grigoryan, Karen H.",
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "startSquare": "d1",
+        "white": "Narayanan, S",
+        "black": "Yu, Yangyi",
+        "roundNumber": 3,
+        "roundName": "Round 3 (Round of 16)"
       },
       "castlingRace": {
         "moves": 4,
@@ -2026,14 +2026,14 @@
         "roundName": "Round 1"
       },
       "dadbodShuffler": {
-        "moves": 44,
-        "gameIndex": 195,
+        "moves": 45,
+        "gameIndex": 49,
         "gameId": null,
-        "color": "Black",
-        "white": "Bogner, Sebastian",
-        "black": "Stremavicius, Titas",
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "color": "White",
+        "white": "Yu, Yangyi",
+        "black": "Blohberger, Felix",
+        "roundNumber": 2,
+        "roundName": "Round 2"
       },
       "sportyQueen": {
         "distance": 139,
@@ -2046,14 +2046,14 @@
         "roundName": "Round 1"
       },
       "edgeLord": {
-        "moves": 45,
-        "gameIndex": 117,
+        "moves": 52,
+        "gameIndex": 49,
         "gameId": null,
         "color": "Black",
-        "white": "Adly, Ahmed",
-        "black": "Grigoryan, Karen H.",
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "white": "Yu, Yangyi",
+        "black": "Blohberger, Felix",
+        "roundNumber": 2,
+        "roundName": "Round 2"
       },
       "rookLift": {
         "moveNumber": 8,
@@ -2068,26 +2068,26 @@
         "roundName": "Round 1"
       },
       "centerStage": {
-        "moves": 11,
-        "gameIndex": 116,
+        "moves": 17,
+        "gameIndex": 111,
         "gameId": null,
-        "piece": "Black's f4 Rook",
-        "startSquare": "f4",
+        "piece": "Black's c6 King",
+        "startSquare": "c6",
         "color": "Black",
-        "white": "Grigoryan, Karen H.",
-        "black": "Adly, Ahmed",
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "white": "Karthikeyan, Murali",
+        "black": "Idani, Pouya",
+        "roundNumber": 2,
+        "roundName": "Round 2"
       },
       "darkLord": {
-        "captures": 10,
-        "gameIndex": 106,
+        "captures": 11,
+        "gameIndex": 45,
         "gameId": null,
-        "color": "Black",
-        "white": "Harshavardhan, G B",
-        "black": "Yilmaz, Mustafa",
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "color": "White",
+        "white": "Blohberger, Felix",
+        "black": "Yu, Yangyi",
+        "roundNumber": 2,
+        "roundName": "Round 2"
       },
       "lightLord": {
         "captures": 12,
@@ -2153,17 +2153,17 @@
         "roundName": "Round 1"
       },
       "lateBloomer": {
-        "white": "Kourkoulos-Arditis, Stamatis",
-        "black": "Divya, Deshmukh",
-        "whiteRating": 2583,
-        "blackRating": 2498,
-        "player": "Divya, Deshmukh",
-        "opponent": "Kourkoulos-Arditis, Stamatis",
-        "color": "black",
-        "moveNumber": 69,
-        "gameIndex": 79,
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "white": "Motylev, Alexander",
+        "black": "Maghsoodloo, Parham",
+        "whiteRating": 2586,
+        "blackRating": 2697,
+        "player": "Motylev, Alexander",
+        "opponent": "Maghsoodloo, Parham",
+        "color": "white",
+        "moveNumber": 82,
+        "gameIndex": 74,
+        "roundNumber": 2,
+        "roundName": "Round 2"
       },
       "quickDraw": {
         "white": "Thavandiran, Shiyam",
@@ -2252,18 +2252,18 @@
         "roundName": "Round 1"
       },
       "zeitnotAddict": {
-        "white": "Bogner, Sebastian",
-        "black": "Stremavicius, Titas",
-        "whiteRating": 2555,
-        "blackRating": 2531,
-        "player": "Stremavicius, Titas",
-        "color": "black",
-        "count": 81,
-        "minClock": 14,
-        "timeControl": "rapidTier1",
-        "gameIndex": 198,
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "white": "Yu, Yangyi",
+        "black": "Blohberger, Felix",
+        "whiteRating": 2720,
+        "blackRating": 2513,
+        "player": "Yu, Yangyi",
+        "color": "white",
+        "count": 102,
+        "minClock": 5,
+        "timeControl": "classical",
+        "gameIndex": 50,
+        "roundNumber": 2,
+        "roundName": "Round 2"
       },
       "timeScrambleSurvivor": {
         "white": "Nogerbek, Kazybek",
@@ -2281,28 +2281,28 @@
         "roundName": "Round 1"
       },
       "bulletSpeed": {
-        "white": "Adly, Ahmed",
-        "black": "Grigoryan, Karen H.",
-        "player": "Grigoryan, Karen H.",
-        "color": "black",
-        "avgTime": 6.430769230769231,
-        "moveCount": 65,
-        "timeControl": "blitzTier1",
-        "gameIndex": 121,
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "player": "Maghsoodloo, Parham",
+        "color": "white",
+        "avgTime": 2.4545454545454546,
+        "moveCount": 22,
+        "timeControl": "classical",
+        "gameIndex": 27,
+        "roundNumber": 4,
+        "roundName": "Round 4 (Quarter-finals)"
       },
       "openingBlitzer": {
-        "white": "Ansat, Aldiyar",
-        "black": "Cori, Jorge",
-        "player": "Ansat, Aldiyar",
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "player": "Maghsoodloo, Parham",
         "color": "white",
-        "avgTime": 1.3333333333333333,
-        "moveCount": 6,
-        "timeControl": "rapidTier1",
-        "gameIndex": 107,
-        "roundNumber": 1,
-        "roundName": "Round 1"
+        "avgTime": 1.25,
+        "moveCount": 8,
+        "timeControl": "classical",
+        "gameIndex": 28,
+        "roundNumber": 4,
+        "roundName": "Round 4 (Quarter-finals)"
       },
       "tiebreakPressureKing": {
         "player": "Cori, Jorge",

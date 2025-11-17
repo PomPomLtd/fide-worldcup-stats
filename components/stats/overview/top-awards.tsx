@@ -18,13 +18,13 @@ interface AwardData extends Record<string, unknown> {
   endgameMoves?: number
   ratingDifference?: number
   totalMoves?: number
-  uniqueSquares?: number
-  opening?: string
+  squares?: number
+  name?: string
   eco?: string
-  consecutiveChecks?: number
-  capturedPieces?: number
-  timeLeft?: number
-  averageMoveTime?: number
+  length?: number
+  attackers?: number
+  minClock?: number
+  avgTime?: number
 }
 
 interface AwardConfig {
@@ -111,7 +111,7 @@ const awardConfigs: AwardConfig[] = [
     category: 'funStats',
     emoji: '🗺️',
     title: 'Square Tourist',
-    getValue: (a) => `${a.uniqueSquares} unique squares visited`,
+    getValue: (a) => `${a.squares || 0} unique squares visited`,
     getPlayers: (a) => ({ white: a.white, black: a.black }),
     borderColor: 'border-teal-200 dark:border-teal-800',
     bgColor: 'bg-teal-50 dark:bg-teal-900/20',
@@ -122,7 +122,7 @@ const awardConfigs: AwardConfig[] = [
     category: 'funStats',
     emoji: '🎩',
     title: 'Opening Hipster',
-    getValue: (a) => `${a.opening} (ECO ${a.eco})`,
+    getValue: (a) => `${a.name || 'Unknown'} (ECO ${a.eco || '?'})`,
     getPlayers: (a) => ({ white: a.white, black: a.black }),
     borderColor: 'border-pink-200 dark:border-pink-800',
     bgColor: 'bg-pink-50 dark:bg-pink-900/20',
@@ -133,7 +133,7 @@ const awardConfigs: AwardConfig[] = [
     category: 'funStats',
     emoji: '♔',
     title: 'Check Sequence',
-    getValue: (a) => `${a.consecutiveChecks} consecutive checks`,
+    getValue: (a) => `${a.length || 0} consecutive checks`,
     getPlayers: (a) => ({ white: a.white, black: a.black }),
     borderColor: 'border-blue-200 dark:border-blue-800',
     bgColor: 'bg-blue-50 dark:bg-blue-900/20',
@@ -144,7 +144,7 @@ const awardConfigs: AwardConfig[] = [
     category: 'funStats',
     emoji: '🎯',
     title: 'Crosshairs',
-    getValue: (a) => `${a.capturedPieces} pieces captured`,
+    getValue: (a) => `${a.attackers || 0} attackers on hottest square`,
     getPlayers: (a) => ({ white: a.white, black: a.black }),
     borderColor: 'border-rose-200 dark:border-rose-800',
     bgColor: 'bg-rose-50 dark:bg-rose-900/20',
@@ -155,7 +155,7 @@ const awardConfigs: AwardConfig[] = [
     category: 'timeAwards',
     emoji: '⏰',
     title: 'Zeitnot Addict',
-    getValue: (a) => `${a.timeLeft}s left`,
+    getValue: (a) => `${a.minClock || 0}s left`,
     getPlayers: (a) => ({ white: a.white, black: a.black }),
     borderColor: 'border-amber-200 dark:border-amber-800',
     bgColor: 'bg-amber-50 dark:bg-amber-900/20',
@@ -166,7 +166,7 @@ const awardConfigs: AwardConfig[] = [
     category: 'timeAwards',
     emoji: '💨',
     title: 'Bullet Speed',
-    getValue: (a) => `${(a.averageMoveTime || 0).toFixed(1)}s per move`,
+    getValue: (a) => `${(a.avgTime || 0).toFixed(1)}s per move`,
     getPlayers: (a) => ({ white: a.white, black: a.black }),
     borderColor: 'border-cyan-200 dark:border-cyan-800',
     bgColor: 'bg-cyan-50 dark:bg-cyan-900/20',

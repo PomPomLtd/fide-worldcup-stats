@@ -121,18 +121,32 @@ function aggregateTotals(rounds) {
  * Create round-by-round summary
  */
 function createRoundSummary(rounds) {
-  return rounds.map(round => ({
-    roundNumber: round.roundNumber,
-    roundName: round.roundName,
-    matches: round.matchStats?.totalMatches || 0,
-    games: round.overview?.totalGames || 0,
-    avgGameLength: round.overview?.averageGameLength || 0,
-    tiebreakRate: round.matchStats?.tiebreakPercentage || 0,
-    upsetRate: calculateUpsetRate(round),
-    classicalGames: round.byTimeControl?.classical?.overview?.totalGames || 0,
-    rapidGames: round.byTimeControl?.rapid?.overview?.totalGames || 0,
-    blitzGames: round.byTimeControl?.blitz?.overview?.totalGames || 0
-  }));
+  return rounds.map(round => {
+    // Aggregate rapid games from all tiers
+    const rapidGames =
+      (round.byTimeControl?.rapid?.overview?.totalGames || 0) +
+      (round.byTimeControl?.rapidTier1?.overview?.totalGames || 0) +
+      (round.byTimeControl?.rapidTier2?.overview?.totalGames || 0);
+
+    // Aggregate blitz games from all tiers
+    const blitzGames =
+      (round.byTimeControl?.blitz?.overview?.totalGames || 0) +
+      (round.byTimeControl?.blitzTier1?.overview?.totalGames || 0) +
+      (round.byTimeControl?.blitzTier2?.overview?.totalGames || 0);
+
+    return {
+      roundNumber: round.roundNumber,
+      roundName: round.roundName,
+      matches: round.matchStats?.totalMatches || 0,
+      games: round.overview?.totalGames || 0,
+      avgGameLength: round.overview?.averageGameLength || 0,
+      tiebreakRate: round.matchStats?.tiebreakPercentage || 0,
+      upsetRate: calculateUpsetRate(round),
+      classicalGames: round.byTimeControl?.classical?.overview?.totalGames || 0,
+      rapidGames,
+      blitzGames
+    };
+  });
 }
 
 /**
@@ -320,47 +334,51 @@ function findTopAwards(rounds) {
 
     // Time Awards
     longestThink: (a, b) => (a?.thinkTime || 0) > (b?.thinkTime || 0),
-    zeitnotAddict: (a, b) => (a?.timeLeft || 0) < (b?.timeLeft || 0) && (a?.timeLeft || 0) >= 0,
-    timeScrambleSurvivor: (a, b) => (a?.movesInZeitnot || 0) > (b?.movesInZeitnot || 0),
-    bulletSpeed: (a, b) => (a?.averageMoveTime || Infinity) < (b?.averageMoveTime || Infinity),
-    openingBlitzer: (a, b) => (a?.openingSpeed || Infinity) < (b?.openingSpeed || Infinity),
-    classicalTimeBurner: (a, b) => (a?.timeUsed || 0) > (b?.timeUsed || 0),
+    zeitnotAddict: (a, b) => (a?.minClock || Infinity) < (b?.minClock || Infinity) && (a?.minClock || 0) >= 0,
+    timeScrambleSurvivor: (a, b) => (a?.count || 0) > (b?.count || 0),
+    bulletSpeed: (a, b) => (a?.avgTime || Infinity) < (b?.avgTime || Infinity),
+    openingBlitzer: (a, b) => (a?.avgTime || Infinity) < (b?.avgTime || Infinity),
+    classicalTimeBurner: (a, b) => (a?.totalTime || 0) > (b?.totalTime || 0),
 
     // Fun Stats - numeric comparisons
-    longestCheckSequence: (a, b) => (a?.consecutiveChecks || 0) > (b?.consecutiveChecks || 0),
-    longestCaptureSequence: (a, b) => (a?.consecutiveCaptures || 0) > (b?.consecutiveCaptures || 0),
+    longestCheckSequence: (a, b) => (a?.length || 0) > (b?.length || 0),
+    longestCaptureSequence: (a, b) => (a?.length || 0) > (b?.length || 0),
     fastestQueenTrade: (a, b) => {
       const aMoves = a?.moveNumber || Infinity;
       const bMoves = b?.moveNumber || Infinity;
       return aMoves < bMoves;
     },
     slowestQueenTrade: (a, b) => (a?.moveNumber || 0) > (b?.moveNumber || 0),
-    pawnStorm: (a, b) => (a?.pawnAdvances || 0) > (b?.pawnAdvances || 0),
+    pawnStorm: (a, b) => (a?.advancedPawns || 0) > (b?.advancedPawns || 0),
     castlingRace: (a, b) => {
-      const aMoves = a?.bothCastled || Infinity;
-      const bMoves = b?.bothCastled || Infinity;
+      const aMoves = a?.moveNumber || Infinity;
+      const bMoves = b?.moveNumber || Infinity;
       return aMoves < bMoves;
     },
-    squareTourist: (a, b) => (a?.uniqueSquares || 0) > (b?.uniqueSquares || 0),
+    squareTourist: (a, b) => (a?.squares || 0) > (b?.squares || 0),
     openingHipster: (a, b) => (a?.obscurityScore || 0) > (b?.obscurityScore || 0),
-    dadbodShuffler: (a, b) => (a?.kingMoves || 0) > (b?.kingMoves || 0),
-    sportyQueen: (a, b) => (a?.queenMoves || 0) > (b?.queenMoves || 0),
-    edgeLord: (a, b) => (a?.edgeMoves || 0) > (b?.edgeMoves || 0),
-    centerStage: (a, b) => (a?.centerMoves || 0) > (b?.centerMoves || 0),
-    darkLord: (a, b) => (a?.darkSquareMoves || 0) > (b?.darkSquareMoves || 0),
-    lightLord: (a, b) => (a?.lightSquareMoves || 0) > (b?.lightSquareMoves || 0),
-    rookLift: (a, b) => (a?.earlyRookLifts || 0) > (b?.earlyRookLifts || 0),
+    dadbodShuffler: (a, b) => (a?.moves || 0) > (b?.moves || 0),
+    sportyQueen: (a, b) => (a?.moves || 0) > (b?.moves || 0),
+    edgeLord: (a, b) => (a?.moves || 0) > (b?.moves || 0),
+    centerStage: (a, b) => (a?.moves || 0) > (b?.moves || 0),
+    darkLord: (a, b) => (a?.captures || 0) > (b?.captures || 0),
+    lightLord: (a, b) => (a?.captures || 0) > (b?.captures || 0),
+    rookLift: (a, b) => {
+      const aMoves = a?.moveNumber || Infinity;
+      const bMoves = b?.moveNumber || Infinity;
+      return aMoves < bMoves;
+    },
     chickenAward: (a, b) => (a?.retreats || 0) > (b?.retreats || 0),
-    homebody: (a, b) => (a?.stayedHome || 0) > (b?.stayedHome || 0),
-    crosshairs: (a, b) => (a?.capturedPieces || 0) > (b?.capturedPieces || 0),
+    homebody: (a, b) => (a?.piecesStayedHome || 0) > (b?.piecesStayedHome || 0),
+    crosshairs: (a, b) => (a?.attackers || 0) > (b?.attackers || 0),
     lateBloomer: (a, b) => {
-      const aMoves = a?.firstCapture || Infinity;
-      const bMoves = b?.firstCapture || Infinity;
+      const aMoves = a?.moveNumber || Infinity;
+      const bMoves = b?.moveNumber || Infinity;
       return aMoves > bMoves;
     },
     quickDraw: (a, b) => {
-      const aMoves = a?.firstCapture || Infinity;
-      const bMoves = b?.firstCapture || Infinity;
+      const aMoves = a?.moveNumber || Infinity;
+      const bMoves = b?.moveNumber || Infinity;
       return aMoves < bMoves;
     },
 
