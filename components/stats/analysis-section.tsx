@@ -43,7 +43,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             }
             colorScheme="yellow"
             featured
-            gameId={summary.accuracyKing.gameId}
           />
         )}
 
@@ -60,7 +59,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             }
             colorScheme="red"
             featured
-            gameId={summary.biggestBlunder.gameId}
           />
         )}
 
@@ -78,7 +76,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             }
             colorScheme="red"
             featured
-            gameId={summary.notSoSuperGM.gameId}
           />
         )}
 
@@ -95,7 +92,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             }
             colorScheme="green"
             featured
-            gameId={summary.comebackKing.gameId}
           />
         )}
 
@@ -112,7 +108,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             }
             colorScheme="indigo"
             featured
-            gameId={summary.luckyEscape.gameId}
           />
         )}
 
@@ -129,7 +124,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             }
             colorScheme="blue"
             featured
-            gameId={summary.stockfishBuddy.gameId}
           />
         )}
 
@@ -146,7 +140,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             }
             colorScheme="orange"
             featured
-            gameId={summary.inaccuracyKing.gameId}
           />
         )}
       </div>
@@ -160,7 +153,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             player={<PlayerName name={summary.lowestACPL.player === 'white' ? summary.lowestACPL.white : summary.lowestACPL.black} />}
             details={<>ACPL: <strong>{summary.lowestACPL.acpl}</strong> / Accuracy: <strong>{summary.lowestACPL.accuracy}%</strong></>}
             colorScheme="green"
-            gameId={summary.lowestACPL.gameId}
           />
         )}
 
@@ -171,7 +163,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             player={<PlayerName name={summary.highestACPL.player === 'white' ? summary.highestACPL.white : summary.highestACPL.black} />}
             details={<>ACPL: <strong>{summary.highestACPL.acpl}</strong> / Accuracy: <strong>{summary.highestACPL.accuracy}%</strong></>}
             colorScheme="orange"
-            gameId={summary.highestACPL.gameId}
           />
         )}
 
@@ -182,7 +173,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             player={<PlayerVs white={summary.lowestCombinedACPL.white} black={summary.lowestCombinedACPL.black} />}
             details={<>Combined ACPL: <strong>{summary.lowestCombinedACPL.combinedACPL.toFixed(1)}</strong></>}
             colorScheme="blue"
-            gameId={summary.lowestCombinedACPL.gameId}
           />
         )}
 
@@ -193,7 +183,6 @@ export function AnalysisSection({ analysis }: AnalysisSectionProps) {
             player={<PlayerVs white={summary.highestCombinedACPL.white} black={summary.highestCombinedACPL.black} />}
             details={<>Combined ACPL: <strong>{summary.highestCombinedACPL.combinedACPL.toFixed(1)}</strong></>}
             colorScheme="purple"
-            gameId={summary.highestCombinedACPL.gameId}
           />
         )}
       </div>
