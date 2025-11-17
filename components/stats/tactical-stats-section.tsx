@@ -3,10 +3,10 @@ import { StatCard } from './stat-card'
 interface TacticalStatsSectionProps {
   tactics: {
     totalCaptures: number
-    totalPromotions: number
+    totalPromotions: number | null
     castling: {
-      kingsideCastles: number
-      queensideCastles: number
+      kingside: number
+      queenside: number
     }
     enPassantGames: Array<{
       white: string
@@ -34,7 +34,7 @@ export function TacticalStatsSection({ tactics }: TacticalStatsSectionProps) {
 
         <div className="text-center p-4 bg-gray-50 dark:bg-gray-900/20 rounded-lg">
           <div className="text-3xl font-bold text-gray-900 dark:text-white">
-            {tactics.totalPromotions}
+            {tactics.totalPromotions ?? 0}
           </div>
           <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
             Promotions
@@ -43,7 +43,7 @@ export function TacticalStatsSection({ tactics }: TacticalStatsSectionProps) {
 
         <div className="text-center p-4 bg-gray-50 dark:bg-gray-900/20 rounded-lg">
           <div className="text-3xl font-bold text-gray-900 dark:text-white">
-            {tactics.castling.kingsideCastles}
+            {tactics.castling.kingside}
           </div>
           <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
             Kingside Castling
@@ -52,7 +52,7 @@ export function TacticalStatsSection({ tactics }: TacticalStatsSectionProps) {
 
         <div className="text-center p-4 bg-gray-50 dark:bg-gray-900/20 rounded-lg">
           <div className="text-3xl font-bold text-gray-900 dark:text-white">
-            {tactics.castling.queensideCastles}
+            {tactics.castling.queenside}
           </div>
           <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
             Queenside Castling

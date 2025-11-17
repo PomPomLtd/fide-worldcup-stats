@@ -19,22 +19,28 @@ interface CheckmatesSectionProps {
 export function CheckmatesSection({ checkmates }: CheckmatesSectionProps) {
   const pieces = ['queen', 'rook', 'bishop', 'knight', 'pawn'] as const
 
+  // Check if there are any checkmates by piece recorded
+  const totalByPiece = pieces.reduce((sum, piece) => sum + (checkmates.byPiece?.[piece] || 0), 0)
+  const hasByPieceData = totalByPiece > 0
+
   return (
     <StatCard title="☠️ Checkmates">
-      <div>
-        <h4 className="font-semibold text-gray-900 dark:text-white mb-3">By Piece</h4>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
-          {pieces.map((piece) => {
-            const count = checkmates.byPiece?.[piece] || 0
-            return (
-              <div key={piece} className="text-center p-3 bg-gray-50 dark:bg-gray-900/20 rounded-lg">
-                <div className="text-2xl font-bold text-gray-900 dark:text-white">{count}</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400 capitalize">{piece}</div>
-              </div>
-            )
-          })}
+      {hasByPieceData && (
+        <div>
+          <h4 className="font-semibold text-gray-900 dark:text-white mb-3">By Piece</h4>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
+            {pieces.map((piece) => {
+              const count = checkmates.byPiece?.[piece] || 0
+              return (
+                <div key={piece} className="text-center p-3 bg-gray-50 dark:bg-gray-900/20 rounded-lg">
+                  <div className="text-2xl font-bold text-gray-900 dark:text-white">{count}</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400 capitalize">{piece}</div>
+                </div>
+              )
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
       {checkmates.fastest && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

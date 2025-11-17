@@ -803,7 +803,12 @@ export default function RoundPage() {
         <AnalysisSection analysis={stats.analysis} />
 
         {/* Tactical Stats */}
-        <TacticalStatsSection tactics={stats.tactics} />
+        <TacticalStatsSection tactics={stats.tactics as unknown as {
+          totalCaptures: number
+          totalPromotions: number | null
+          castling: { kingside: number; queenside: number }
+          enPassantGames: Array<{ white: string; black: string; count: number }>
+        }} />
 
         {/* Piece Activity */}
         <PieceActivitySection pieces={stats.pieces as unknown as {
