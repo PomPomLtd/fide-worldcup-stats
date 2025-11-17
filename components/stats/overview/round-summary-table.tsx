@@ -87,23 +87,38 @@ export function RoundSummaryTable({ rounds }: RoundSummaryTableProps) {
                   </span>
                 </td>
                 <td className="text-center py-3 px-4">
-                  <div className="flex justify-center gap-2 text-xs">
-                    {round.classicalGames > 0 && (
-                      <span className="bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 px-2 py-1 rounded">
-                        C: {round.classicalGames}
-                      </span>
-                    )}
-                    {round.rapidGames > 0 && (
-                      <span className="bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400 px-2 py-1 rounded">
-                        R: {round.rapidGames}
-                      </span>
-                    )}
-                    {round.blitzGames > 0 && (
-                      <span className="bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400 px-2 py-1 rounded">
-                        B: {round.blitzGames}
-                      </span>
-                    )}
-                  </div>
+                  {(() => {
+                    const totalClassified = round.classicalGames + round.rapidGames + round.blitzGames
+                    const hasCompleteData = totalClassified === round.games && totalClassified > 0
+
+                    if (!hasCompleteData) {
+                      return (
+                        <span className="text-xs text-gray-400 dark:text-gray-500 italic">
+                          N/A
+                        </span>
+                      )
+                    }
+
+                    return (
+                      <div className="flex justify-center gap-2 text-xs">
+                        {round.classicalGames > 0 && (
+                          <span className="bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 px-2 py-1 rounded">
+                            C: {round.classicalGames}
+                          </span>
+                        )}
+                        {round.rapidGames > 0 && (
+                          <span className="bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400 px-2 py-1 rounded">
+                            R: {round.rapidGames}
+                          </span>
+                        )}
+                        {round.blitzGames > 0 && (
+                          <span className="bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400 px-2 py-1 rounded">
+                            B: {round.blitzGames}
+                          </span>
+                        )}
+                      </div>
+                    )
+                  })()}
                 </td>
                 <td className="text-center py-3 px-4">
                   <Link
