@@ -786,9 +786,9 @@ export default function RoundPage() {
                   <div className="text-sm text-gray-600 dark:text-gray-400">
                     {stats.funStats.crosshairs.square.toUpperCase()} under attack by {stats.funStats.crosshairs.attackers} pieces
                   </div>
-                  {stats.funStats.crosshairs.whiteElo && stats.funStats.crosshairs.blackElo && (
+                  {stats.funStats.crosshairs.whiteRating && stats.funStats.crosshairs.blackRating && (
                     <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-                      ({stats.funStats.crosshairs.whiteElo} vs {stats.funStats.crosshairs.blackElo})
+                      ({stats.funStats.crosshairs.whiteRating} vs {stats.funStats.crosshairs.blackRating})
                     </div>
                   )}
                 </div>
@@ -803,9 +803,9 @@ export default function RoundPage() {
                   <div className="text-sm text-gray-600 dark:text-gray-400">
                     {stats.funStats.longestTension.moves} moves of tension between {stats.funStats.longestTension.squares}
                   </div>
-                  {stats.funStats.longestTension.whiteElo && stats.funStats.longestTension.blackElo && (
+                  {stats.funStats.longestTension.whiteRating && stats.funStats.longestTension.blackRating && (
                     <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-                      ({stats.funStats.longestTension.whiteElo} vs {stats.funStats.longestTension.blackElo})
+                      ({stats.funStats.longestTension.whiteRating} vs {stats.funStats.longestTension.blackRating})
                     </div>
                   )}
                 </div>

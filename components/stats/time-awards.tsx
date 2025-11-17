@@ -121,7 +121,7 @@ export function TimeAwardsSection({ timeAwards }: TimeAwardsProps) {
           <AwardCard
             emoji="🏆"
             title="Time Scramble Survivor"
-            player={timeAwards.timeScrambleSurvivor.winner}
+            player={formatPlayerName(timeAwards.timeScrambleSurvivor.winner)}
             description={`Won with ${timeAwards.timeScrambleSurvivor.criticalMoves} critical moves, clock at ${formatTime(timeAwards.timeScrambleSurvivor.minClock)}`}
             game={`${formatPlayerName(timeAwards.timeScrambleSurvivor.white)} vs ${formatPlayerName(timeAwards.timeScrambleSurvivor.black)} (${formatTimeControl(timeAwards.timeScrambleSurvivor.timeControl)})`}
             color="green"
@@ -185,18 +185,6 @@ export function TimeAwardsSection({ timeAwards }: TimeAwardsProps) {
             description={`Finished with ${formatTime(timeAwards.classicalTimeBurner.finalClock)} after ${timeAwards.classicalTimeBurner.totalMoves} moves`}
             game={`${formatPlayerName(timeAwards.classicalTimeBurner.white)} vs ${formatPlayerName(timeAwards.classicalTimeBurner.black)} (Classical)`}
             color="slate"
-          />
-        )}
-
-        {/* Increment Farmer */}
-        {timeAwards.incrementFarmer && (
-          <AwardCard
-            emoji="🌾"
-            title="Increment Farmer"
-            player={formatPlayerName(timeAwards.incrementFarmer.player)}
-            description={`Net ${timeAwards.incrementFarmer.netTime >= 0 ? '+' : ''}${formatTime(Math.abs(timeAwards.incrementFarmer.netTime))} (${formatTime(timeAwards.incrementFarmer.incrementGained)} gained)`}
-            game={`${formatPlayerName(timeAwards.incrementFarmer.white)} vs ${formatPlayerName(timeAwards.incrementFarmer.black)} (Classical)`}
-            color="green"
           />
         )}
 

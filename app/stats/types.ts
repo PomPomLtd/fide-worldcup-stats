@@ -683,20 +683,6 @@ export interface TimeAwards {
     gameIndex?: number;
   } | null;
 
-  incrementFarmer: {
-    white: string;
-    black: string;
-    whiteRating: number | null;
-    blackRating: number | null;
-    player: string;
-    color: 'white' | 'black';
-    netTime: number;
-    finalClock: number;
-    totalMoves: number;
-    incrementGained: number;
-    gameIndex?: number;
-  } | null;
-
   timeControlSpecialist: {
     player: string;
     specialist: 'classical' | 'rapid' | 'blitz';

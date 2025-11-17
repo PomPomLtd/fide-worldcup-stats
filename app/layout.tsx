@@ -5,25 +5,26 @@ import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "Lichess 4545 Stats - Comprehensive Chess League Analytics",
-    template: "%s | Lichess 4545 Stats"
+    default: "FIDE World Cup 2025 Stats - Comprehensive Tournament Analytics",
+    template: "%s | FIDE World Cup 2025 Stats"
   },
-  description: "Deep statistical analysis and insights for the Lichess 4545 Team League. Track game statistics, player performance, tactical patterns, and team awards across all seasons and rounds.",
+  description: "Deep statistical analysis and insights for the FIDE World Cup 2025. Track game statistics, player performance, tactical patterns, Stockfish analysis, and awards across all rounds.",
   keywords: [
-    "lichess",
-    "4545",
+    "FIDE",
+    "World Cup",
     "chess",
     "statistics",
-    "team league",
+    "tournament",
     "chess analytics",
     "game analysis",
     "stockfish",
     "chess tactics",
-    "tournament stats"
+    "knockout tournament",
+    "Goa 2025"
   ],
-  authors: [{ name: "Lichess 4545 Community" }],
-  creator: "Lichess 4545 Stats",
-  publisher: "Lichess 4545 Stats",
+  authors: [{ name: "FIDE World Cup Stats" }],
+  creator: "FIDE World Cup Stats",
+  publisher: "FIDE World Cup Stats",
   robots: {
     index: true,
     follow: true,
@@ -46,15 +47,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://lichess4545-stats.vercel.app',
-    siteName: 'Lichess 4545 Stats',
-    title: 'Lichess 4545 Stats - Chess League Analytics',
-    description: 'Comprehensive statistical analysis for the Lichess 4545 Team League',
+    url: 'https://fide-worldcup-stats.vercel.app',
+    siteName: 'FIDE World Cup 2025 Stats',
+    title: 'FIDE World Cup 2025 Stats - Tournament Analytics',
+    description: 'Comprehensive statistical analysis for the FIDE World Cup 2025 in Goa, India',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Lichess 4545 Stats',
-    description: 'Comprehensive statistical analysis for the Lichess 4545 Team League',
+    title: 'FIDE World Cup 2025 Stats',
+    description: 'Comprehensive statistical analysis for the FIDE World Cup 2025 in Goa, India',
   },
 };
 

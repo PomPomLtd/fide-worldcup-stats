@@ -5,6 +5,8 @@
  * Example: "Boris «Out of Nowhere» G." → Boris <i>«Out of Nowhere»</i> G.
  */
 
+import { formatPlayerName } from '@/lib/utils'
+
 interface PlayerNameProps {
   name: string
   className?: string
@@ -14,11 +16,14 @@ interface PlayerNameProps {
  * Parse player name and return styled JSX with nickname in italics
  */
 export function PlayerName({ name, className = '' }: PlayerNameProps) {
+  // First, format the player name from "Last, First" to "First Last"
+  const formattedName = formatPlayerName(name)
+
   // Regular expression to match text within « »
   const nicknameRegex = /(«[^»]+»)/g
 
   // Split the name by nicknames, keeping the nicknames in the result
-  const parts = name.split(nicknameRegex)
+  const parts = formattedName.split(nicknameRegex)
 
   return (
     <span className={className}>

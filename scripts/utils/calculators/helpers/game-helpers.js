@@ -2,7 +2,7 @@
  * Game Helper Functions
  *
  * Utilities for filtering and extracting data from game objects.
- * Works with both lichess4545-style parsed games and our enriched FIDE data.
+ * Handles different game data formats for backward compatibility.
  */
 
 /**
@@ -12,7 +12,7 @@
  */
 function filterGamesWithMoves(games) {
   return games.filter(g => {
-    // Handle both formats: moveCount (our data) and moves (4545 data)
+    // Handle both formats: moveCount (enriched) and moves (legacy)
     const moveCount = g.moveCount || g.moves || 0;
     return moveCount > 0;
   });
@@ -25,7 +25,7 @@ function filterGamesWithMoves(games) {
  * @returns {string} Player name
  */
 function getPlayerName(game, color) {
-  // Handle both headers format (4545) and direct fields (our data)
+  // Handle both headers format (legacy) and direct fields (enriched)
   if (game.headers) {
     return color === 'white'
       ? (game.headers.White || 'Unknown')

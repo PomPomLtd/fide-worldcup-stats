@@ -2,7 +2,7 @@
  * Results Calculator
  *
  * Calculates win/loss/draw statistics and percentages.
- * Handles both lichess4545-style and FIDE-style game data.
+ * Handles different game data formats for backward compatibility.
  */
 
 const { isWhiteWin, isBlackWin, isDraw } = require('./helpers/game-helpers');

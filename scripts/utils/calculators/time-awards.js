@@ -79,10 +79,7 @@ function calculateTimeAwards(games, analysis = null) {
   // 8. 📉 Classical Time Burner
   awards.classicalTimeBurner = calculateClassicalTimeBurner(analyses);
 
-  // 9. 🎲 Increment Farmer
-  awards.incrementFarmer = calculateIncrementFarmer(analyses);
-
-  // 10. 🎭 Time Control Specialist
+  // 9. 🎭 Time Control Specialist
   awards.timeControlSpecialist = calculateTimeControlSpecialist(analyses);
 
   return awards;
@@ -465,68 +462,7 @@ function calculateClassicalTimeBurner(analyses) {
 }
 
 /**
- * 9. FIDE: Increment Farmer - Most time gained from increment in classical
- */
-function calculateIncrementFarmer(analyses) {
-  let farmer = null;
-
-  for (const game of analyses) {
-    // Only classical games (30 sec increment)
-    if (game.timeControl !== 'classical') continue;
-
-    const baseTime = 5400; // 90:00
-    const increment = 30;
-
-    // Calculate net time for each player
-    const whiteMoves = game.moveTimes.filter(m => m.color === 'white').length;
-    const blackMoves = game.moveTimes.filter(m => m.color === 'black').length;
-
-    const whiteFinal = game.finalClockTime.white;
-    const blackFinal = game.finalClockTime.black;
-
-    // Net time = final - base + (moves * increment) - time_used
-    // Simplified: final - base (since increment is already in final)
-    const whiteNet = whiteFinal - baseTime;
-    const blackNet = blackFinal - baseTime;
-
-    if (whiteNet > (farmer?.netTime || -Infinity)) {
-      farmer = {
-        white: game.white,
-        black: game.black,
-        whiteRating: game.whiteRating,
-        blackRating: game.blackRating,
-        player: game.white,
-        color: 'white',
-        netTime: whiteNet,
-        finalClock: whiteFinal,
-        totalMoves: whiteMoves,
-        incrementGained: whiteMoves * increment,
-        gameIndex: game.gameIndex
-      };
-    }
-
-    if (blackNet > (farmer?.netTime || -Infinity)) {
-      farmer = {
-        white: game.white,
-        black: game.black,
-        whiteRating: game.whiteRating,
-        blackRating: game.blackRating,
-        player: game.black,
-        color: 'black',
-        netTime: blackNet,
-        finalClock: blackFinal,
-        totalMoves: blackMoves,
-        incrementGained: blackMoves * increment,
-        gameIndex: game.gameIndex
-      };
-    }
-  }
-
-  return farmer;
-}
-
-/**
- * 10. FIDE: Time Control Specialist - Best at specific time control
+ * 9. FIDE: Time Control Specialist - Best at specific time control
  */
 function calculateTimeControlSpecialist(analyses) {
   // Group by player and time control

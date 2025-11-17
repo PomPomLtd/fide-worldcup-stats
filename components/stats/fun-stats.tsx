@@ -1,5 +1,5 @@
 import { StatCard } from './stat-card'
-import { PlayerVs } from './player-name'
+import { PlayerName, PlayerVs } from './player-name'
 
 interface FunStatsProps {
   funStats?: {
@@ -566,7 +566,7 @@ export function FunStats({ funStats }: FunStatsProps) {
               <PlayerVs white={funStats.homebody.white} black={funStats.homebody.black} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
-              {funStats.homebody.playerName} only crossed {funStats.homebody.piecesInEnemy} piece(s) into opponent&apos;s half
+              <PlayerName name={funStats.homebody.playerName} /> only crossed {funStats.homebody.piecesInEnemy} piece(s) into opponent&apos;s half
             </div>
           </div>
         )}
@@ -578,7 +578,7 @@ export function FunStats({ funStats }: FunStatsProps) {
               <PlayerVs white={funStats.lateBloomer.white} black={funStats.lateBloomer.black} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
-              {funStats.lateBloomer.playerName} waited until move {Math.floor((funStats.lateBloomer.moveNumber + 1) / 2)} to cross into opponent&apos;s half
+              <PlayerName name={funStats.lateBloomer.playerName} /> waited until move {Math.floor((funStats.lateBloomer.moveNumber + 1) / 2)} to cross into opponent&apos;s half
             </div>
           </div>
         )}
@@ -590,7 +590,7 @@ export function FunStats({ funStats }: FunStatsProps) {
               <PlayerVs white={funStats.quickDraw.white} black={funStats.quickDraw.black} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
-              {funStats.quickDraw.playerName} crossed into opponent&apos;s half on move {Math.floor((funStats.quickDraw.moveNumber + 1) / 2)}
+              <PlayerName name={funStats.quickDraw.playerName} /> crossed into opponent&apos;s half on move {Math.floor((funStats.quickDraw.moveNumber + 1) / 2)}
             </div>
           </div>
         )}
@@ -651,13 +651,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.sniper.gameId} className="bg-purple-50 dark:bg-purple-900/20">
             <div className="font-semibold text-purple-900 dark:text-purple-300 mb-1">🎯 Sniper</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.sniper.player}
+              <PlayerName name={funStats.sniper.player} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Delivered checkmate in {formatTime(funStats.sniper.timeSpent)}
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.sniper.white} vs {funStats.sniper.black}
+              <PlayerVs white={funStats.sniper.white} black={funStats.sniper.black} />
             </div>
           </AwardCard>
         )}
@@ -666,13 +666,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.openingBlitzer.gameId} className="bg-cyan-50 dark:bg-cyan-900/20">
             <div className="font-semibold text-cyan-900 dark:text-cyan-300 mb-1">📚 Opening Blitzer</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.openingBlitzer.player}
+              <PlayerName name={funStats.openingBlitzer.player} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Averaged {formatTime(funStats.openingBlitzer.avgTime)} per move in opening
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.openingBlitzer.white} vs {funStats.openingBlitzer.black}
+              <PlayerVs white={funStats.openingBlitzer.white} black={funStats.openingBlitzer.black} />
             </div>
           </AwardCard>
         )}
@@ -681,13 +681,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.sadTimes.gameId} className="bg-gray-50 dark:bg-gray-800/50">
             <div className="font-semibold text-gray-900 dark:text-gray-300 mb-1">😢 Sad Times Award</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.sadTimes.player}
+              <PlayerName name={funStats.sadTimes.player} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Thought for {formatTime(funStats.sadTimes.timeSpent)} on {Math.floor((funStats.sadTimes.moveNumber + 1) / 2)}{funStats.sadTimes.moveNumber % 2 === 1 ? '.' : '...'} {funStats.sadTimes.move} at eval {funStats.sadTimes.eval.toFixed(2)}
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.sadTimes.white} vs {funStats.sadTimes.black}
+              <PlayerVs white={funStats.sadTimes.white} black={funStats.sadTimes.black} />
             </div>
           </AwardCard>
         )}
@@ -696,13 +696,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.mostPremoves.gameId} className="bg-lime-50 dark:bg-lime-900/20">
             <div className="font-semibold text-lime-900 dark:text-lime-300 mb-1">🎮 Premove Master</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.mostPremoves.player}
+              <PlayerName name={funStats.mostPremoves.player} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Made {funStats.mostPremoves.count} premoves (under 0.5s)
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.mostPremoves.white} vs {funStats.mostPremoves.black}
+              <PlayerVs white={funStats.mostPremoves.white} black={funStats.mostPremoves.black} />
             </div>
           </AwardCard>
         )}
@@ -711,13 +711,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.longestThink.gameId} className="bg-yellow-50 dark:bg-yellow-900/20">
             <div className="font-semibold text-yellow-900 dark:text-yellow-300 mb-1">🤔 Deep Thinker</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.longestThink.player}
+              <PlayerName name={funStats.longestThink.player} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Spent {formatTime(funStats.longestThink.timeSpent)} on {Math.floor((funStats.longestThink.moveNumber + 1) / 2)}{funStats.longestThink.moveNumber % 2 === 1 ? '.' : '...'} {funStats.longestThink.move}
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.longestThink.white} vs {funStats.longestThink.black}
+              <PlayerVs white={funStats.longestThink.white} black={funStats.longestThink.black} />
             </div>
           </AwardCard>
         )}
@@ -726,13 +726,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.zeitnotAddict.gameId} className="bg-rose-50 dark:bg-rose-900/20">
             <div className="font-semibold text-rose-900 dark:text-rose-300 mb-1">⏰ Zeitnot Addict</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.zeitnotAddict.player}
+              <PlayerName name={funStats.zeitnotAddict.player} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Made {funStats.zeitnotAddict.count} moves with under 60 seconds
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.zeitnotAddict.white} vs {funStats.zeitnotAddict.black}
+              <PlayerVs white={funStats.zeitnotAddict.white} black={funStats.zeitnotAddict.black} />
             </div>
           </AwardCard>
         )}
@@ -741,13 +741,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.timeScrambleSurvivor.gameId} className="bg-emerald-50 dark:bg-emerald-900/20">
             <div className="font-semibold text-emerald-900 dark:text-emerald-300 mb-1">🏆 Time Scramble Survivor</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.timeScrambleSurvivor.winner}
+              <PlayerName name={funStats.timeScrambleSurvivor.winner} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Won with {formatTime(funStats.timeScrambleSurvivor.minClock)} remaining
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.timeScrambleSurvivor.white} vs {funStats.timeScrambleSurvivor.black}
+              <PlayerVs white={funStats.timeScrambleSurvivor.white} black={funStats.timeScrambleSurvivor.black} />
             </div>
           </AwardCard>
         )}
@@ -756,13 +756,13 @@ export function FunStats({ funStats }: FunStatsProps) {
           <AwardCard gameId={funStats.bulletSpeed.gameId} className="bg-sky-50 dark:bg-sky-900/20">
             <div className="font-semibold text-sky-900 dark:text-sky-300 mb-1">⚡ Bullet Speed</div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
-              {funStats.bulletSpeed.player}
+              <PlayerName name={funStats.bulletSpeed.player} />
             </div>
             <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
               Averaged {formatTime(funStats.bulletSpeed.avgTime)} per move
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              {funStats.bulletSpeed.white} vs {funStats.bulletSpeed.black}
+              <PlayerVs white={funStats.bulletSpeed.white} black={funStats.bulletSpeed.black} />
             </div>
           </AwardCard>
         )}

@@ -3,7 +3,7 @@
  *
  * Calculates basic game overview stats: total games, total moves,
  * average game length, longest/shortest games.
- * Handles both lichess4545-style and FIDE-style game data.
+ * Handles different game data formats for backward compatibility.
  */
 
 const { filterGamesWithMoves, getPlayerNames, getMoveCount, getGameId, getResult } = require('./helpers/game-helpers');
