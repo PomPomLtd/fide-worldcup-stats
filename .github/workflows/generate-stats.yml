@@ -1,4 +1,4 @@
-name: Generate Tournament Statistics
+name: 📊 Generate Tournament Statistics
 
 on:
   push:

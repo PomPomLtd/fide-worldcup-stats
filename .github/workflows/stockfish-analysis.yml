@@ -1,4 +1,4 @@
-name: Stockfish Analysis (Manual)
+name: 🔬 Stockfish Analysis (Manual)
 
 on:
   workflow_dispatch:
