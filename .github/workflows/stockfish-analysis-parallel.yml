@@ -39,7 +39,7 @@ jobs:
   analyze:
     needs: prepare
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # 1 hour per round maximum
+    timeout-minutes: 120  # 2 hours per round maximum (Round 1/2 are heavy)
 
     strategy:
       fail-fast: false  # Continue other rounds even if one fails

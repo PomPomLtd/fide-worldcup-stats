@@ -126,7 +126,7 @@ gh workflow run "📊 Generate Tournament Statistics"
 
 #### 🔬 Stockfish Analysis (Parallel)
 **Purpose**: Fast parallel engine analysis across all 6 rounds (independent)
-**Time**: ~60 minutes
+**Time**: ~90-120 minutes (Rounds 1-2 have 200+ games each)
 **Architecture**: Writes to `data/analysis/*.json` (persists across stats runs)
 **When to use**: First run, or when updating engine analysis depth
 
@@ -165,10 +165,10 @@ gh workflow run "🏆 Generate Tournament Overview"
 # Step 1: Generate stats (30 min)
 gh workflow run "📊 Generate Tournament Statistics"
 
-# Step 2: After completion, run Stockfish analysis (60 min)
+# Step 2: After completion, run Stockfish analysis (90-120 min)
 gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
 
-# Total: ~90 minutes
+# Total: ~2-2.5 hours
 ```
 Analysis data persists in `data/analysis/*.json` for future stats regenerations.
 
@@ -181,7 +181,7 @@ Stats will automatically include existing Stockfish data from previous runs.
 
 **Updating Stockfish Analysis (Optional):**
 ```bash
-# Run Stockfish independently (60 min)
+# Run Stockfish independently (90-120 min)
 gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
 
 # Then regenerate stats to include new analysis (30 min)

@@ -45,11 +45,11 @@ Deploy FIDE World Cup Stats to Vercel with manual-trigger GitHub Actions workflo
 
 **🔬 Stockfish Analysis (Parallel)** (`.github/workflows/stockfish-analysis-parallel.yml`)
 - **Purpose**: Fast parallel engine analysis (independent of stats generation)
-- **Time**: ~60 minutes
+- **Time**: ~90-120 minutes (Rounds 1-2 are heavy with 200+ games each)
 - **Generates**: Engine analysis files (`data/analysis/round-N-analysis.json`)
 - **Architecture**:
   - Job 1: Download PGNs, upload as artifact
-  - Job 2: Matrix of 6 parallel analysis jobs (one per round)
+  - Job 2: Matrix of 6 parallel analysis jobs (one per round, 2-hour timeout each)
   - Job 3: Collect all results, commit to `data/analysis/`
 - **Note**: Analysis persists across stats regenerations. Run this workflow whenever you want to update engine data.
 
@@ -153,10 +153,10 @@ Ensure intermediate data files are ignored but final stats are committed
 # Step 1: Generate stats (30 min)
 gh workflow run "📊 Generate Tournament Statistics"
 
-# Step 2: After completion, run Stockfish analysis (60 min)
+# Step 2: After completion, run Stockfish analysis (90-120 min)
 gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
 ```
-- **Total time**: ~90 minutes
+- **Total time**: ~2-2.5 hours
 - **Result**: Complete stats with Stockfish analysis
 - **Best for**: Initial setup, first complete dataset
 
