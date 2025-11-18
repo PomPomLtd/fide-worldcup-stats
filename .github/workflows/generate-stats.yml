@@ -56,8 +56,9 @@ jobs:
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           curl -L https://worldcup2025.fide.com/files/cup2025.zip -o /tmp/cup2025.zip
           echo "📦 Extracting PGN files..."
-          unzip -q /tmp/cup2025.zip -d _SRC/
-          echo "✅ PGN files ready"
+          mkdir -p _SRC/cup2025
+          unzip -q /tmp/cup2025.zip -d _SRC/cup2025/
+          echo "✅ PGN files ready ($(find _SRC/cup2025 -name '*.pgn' | wc -l) files)"
           echo ""
 
       - name: Generate Statistics

@@ -52,8 +52,9 @@ jobs:
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           curl -L https://worldcup2025.fide.com/files/cup2025.zip -o /tmp/cup2025.zip
           echo "📦 Extracting PGN files..."
-          unzip -q /tmp/cup2025.zip -d _SRC/
-          echo "✅ PGN files ready"
+          mkdir -p _SRC/cup2025
+          unzip -q /tmp/cup2025.zip -d _SRC/cup2025/
+          echo "✅ PGN files ready ($(find _SRC/cup2025 -name '*.pgn' | wc -l) files)"
           echo ""
 
       - name: Determine analysis scope
@@ -167,13 +168,19 @@ jobs:
           echo "📝 Committing Results"
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
+          # Check if any analysis files were generated
+          if ! ls data/analysis/*.json >/dev/null 2>&1; then
+            echo "⚠️  No analysis files to commit"
+            exit 0
+          fi
+
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
           git add data/analysis/*.json
 
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "ℹ️  No changes to commit (files unchanged)"
           else
             if [ "${{ steps.scope.outputs.scope }}" = "all" ]; then
               git commit -m "$(cat <<'EOF'
