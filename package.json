@@ -17,7 +17,7 @@
     "classify": "node scripts/classify-games.js",
     "enrich": "node scripts/enrich-openings.js",
     "generate:stats": "node scripts/generate-stats.js",
-    "generate:overview": "node scripts/generate-overview.js",
+    "generate:overview": "node scripts/generate-tournament-overview.js",
     "stats:round1": "node scripts/generate-stats.js --round=1",
     "stats:all": "node scripts/generate-stats.js",
     "analyze": "python3 scripts/analyze-pgn.py",
