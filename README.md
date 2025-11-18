@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project creates beautiful, comprehensive statistics for the **FIDE World Cup 2025** held in Goa, India. Inspired by the [lichess4545-stats](https://github.com/lakinwecker/lichess4545-stats) architecture, it adapts a league-based stats system to a knockout tournament format.
+This project creates beautiful, comprehensive statistics for the **FIDE World Cup 2025** held in Goa, India.
 
 ### Features
 
@@ -222,7 +222,6 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
-- **Architecture**: Based on [lichess4545-stats](https://github.com/lakinwecker/lichess4545-stats)
 - **Chess Library**: [chess.js](https://github.com/jhlywa/chess.js)
 - **Opening Database**: Lichess opening database (3,546+ openings)
 - **Engine**: [Stockfish](https://stockfishchess.org/)
