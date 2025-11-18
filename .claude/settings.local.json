@@ -24,7 +24,9 @@
       "Bash(source venv/bin/activate)",
       "Bash(pip install:*)",
       "Bash(do echo \"Processing Round $round...\")",
-      "WebFetch(domain:worldcup2025.fide.com)"
+      "WebFetch(domain:worldcup2025.fide.com)",
+      "Bash(vercel --version:*)",
+      "Bash(unzip:*)"
     ],
     "deny": [],
     "ask": []

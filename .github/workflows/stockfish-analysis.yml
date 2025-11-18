@@ -45,25 +45,44 @@ jobs:
         run: |
           mkdir -p data/analysis
 
+      - name: Download and extract PGN files
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📥 Downloading FIDE World Cup 2025 PGN data"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          curl -L https://worldcup2025.fide.com/files/cup2025.zip -o /tmp/cup2025.zip
+          echo "📦 Extracting PGN files..."
+          unzip -q /tmp/cup2025.zip -d _SRC/
+          echo "✅ PGN files ready"
+          echo ""
+
       - name: Determine analysis scope
         id: scope
         run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🔬 Stockfish Analysis Configuration"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           if [ -z "${{ github.event.inputs.round }}" ]; then
             echo "scope=all" >> $GITHUB_OUTPUT
             echo "rounds=1 2 3 4 5 6" >> $GITHUB_OUTPUT
-            echo "Will analyze ALL rounds (1-6)"
+            echo "📊 Scope: ALL rounds (1-6)"
+            echo "⏱️  Estimated time: 3-5 hours"
           else
             echo "scope=single" >> $GITHUB_OUTPUT
             echo "rounds=${{ github.event.inputs.round }}" >> $GITHUB_OUTPUT
-            echo "Will analyze Round ${{ github.event.inputs.round }}"
+            echo "📊 Scope: Round ${{ github.event.inputs.round }}"
+            echo "⏱️  Estimated time: varies by round size"
           fi
+          echo "🎯 Depth: ${{ github.event.inputs.depth }}"
+          echo ""
 
       - name: Run Stockfish Analysis
         run: |
-          echo "Starting Stockfish analysis"
-          echo "Depth: ${{ github.event.inputs.depth }}"
-          echo "Rounds: ${{ steps.scope.outputs.rounds }}"
-          echo "Start time: $(date)"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🚀 Starting Stockfish Analysis"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "⏰ Start time: $(date)"
+          echo "📋 Processing rounds: ${{ steps.scope.outputs.rounds }}"
           echo ""
 
           for round in ${{ steps.scope.outputs.rounds }}; do
@@ -93,9 +112,12 @@ jobs:
 
             # Run Stockfish analysis
             echo "🚀 Running Stockfish (depth ${{ github.event.inputs.depth }})..."
+            echo "⏱️  This may take a while (15-30 seconds per game)..."
+            echo ""
             cat "/tmp/round-${round}-all.pgn" | \
               python3 scripts/analyze-pgn.py --depth ${{ github.event.inputs.depth }} \
-              > "data/analysis/round-${round}-analysis.json"
+              > "data/analysis/round-${round}-analysis.json" 2>&1 | tee -a /tmp/analysis.log || true
+            echo ""
 
             # Check output
             if [ -f "data/analysis/round-${round}-analysis.json" ]; then
@@ -108,26 +130,43 @@ jobs:
             echo ""
           done
 
-          echo "End time: $(date)"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "⏰ End time: $(date)"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
       - name: Verify output
         run: |
-          echo "📊 Analysis Results:"
-          echo ""
-          ls -lh data/analysis/ || echo "No analysis files generated"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 Analysis Results Summary"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           echo ""
 
-          # Show summary for each round
-          for file in data/analysis/round-*-analysis.json; do
-            if [ -f "$file" ]; then
-              round=$(basename "$file" | grep -oP 'round-\K\d+')
-              games=$(cat "$file" | grep -o '"gameIndex"' | wc -l)
-              echo "Round $round: $games games analyzed"
-            fi
-          done
+          if [ -d "data/analysis" ] && [ "$(ls -A data/analysis 2>/dev/null)" ]; then
+            echo "📂 Generated files:"
+            ls -lh data/analysis/
+            echo ""
+
+            # Show summary for each round
+            echo "🎯 Games analyzed per round:"
+            for file in data/analysis/round-*-analysis.json; do
+              if [ -f "$file" ]; then
+                round=$(basename "$file" | grep -oP 'round-\K\d+')
+                games=$(cat "$file" | grep -o '"gameIndex"' | wc -l)
+                size=$(du -h "$file" | cut -f1)
+                echo "  • Round $round: $games games ($size)"
+              fi
+            done
+          else
+            echo "⚠️  No analysis files generated"
+          fi
+          echo ""
 
       - name: Commit and push results
         run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📝 Committing Results"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 

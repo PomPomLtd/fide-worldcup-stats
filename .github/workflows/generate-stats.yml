@@ -49,6 +49,17 @@ jobs:
         run: |
           pip3 install -r requirements.txt
 
+      - name: Download and extract PGN files
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📥 Downloading FIDE World Cup 2025 PGN data"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          curl -L https://worldcup2025.fide.com/files/cup2025.zip -o /tmp/cup2025.zip
+          echo "📦 Extracting PGN files..."
+          unzip -q /tmp/cup2025.zip -d _SRC/
+          echo "✅ PGN files ready"
+          echo ""
+
       - name: Generate Statistics
         run: |
           echo "Starting statistics generation..."
