@@ -1,7 +1,7 @@
 # Deployment Plan: Vercel + GitHub Actions
 
 ## Overview
-Deploy FIDE World Cup Stats to Vercel with automated stats generation via GitHub Actions.
+Deploy FIDE World Cup Stats to Vercel with manual-trigger GitHub Actions workflows for stats generation.
 
 ## Architecture
 
@@ -18,51 +18,82 @@ Deploy FIDE World Cup Stats to Vercel with automated stats generation via GitHub
 - Node.js version: 20.x (match local development)
 - No environment variables needed (static JSON generation)
 
-### 2. GitHub Actions Workflow
-**Purpose**: Automatically generate statistics when new PGN data is added
+**Deployment**:
+- Automatic deployment on push to `main` branch
+- Vercel monitors repository and redeploys when stats are updated
+- Static site generation ensures fast page loads
 
-**Triggers**:
-- Push to main branch (paths: `_SRC/cup2025/**`)
-- Manual workflow dispatch
-- Schedule: Daily at 2 AM UTC (during tournament)
+### 2. GitHub Actions Workflows
 
-**Jobs**:
+**All workflows are manual-trigger only** (workflow_dispatch). This provides full control over when stats are regenerated.
 
-#### Job 1: Generate Statistics
-**Steps**:
-1. Checkout code
-2. Setup Node.js 20.x
-3. Install Node dependencies
-4. Setup Python 3.11
-5. Install Python dependencies (python-chess, stockfish)
-6. Install Stockfish binary
-7. Run data pipeline:
-   - `npm run consolidate`
-   - `npm run classify`
-   - `npm run enrich`
-   - `npm run generate:stats`
-   - `npm run analyze` (Stockfish - optional, slow)
-   - `npm run generate:overview`
-8. Commit generated JSON files to `public/stats/`
-9. Push changes back to repository
+#### Available Workflows
 
-#### Job 2: Deploy to Vercel (depends on Job 1)
-**Steps**:
-1. Trigger Vercel deployment via webhook
-2. Wait for deployment completion
-3. Report deployment URL
+**📊 Generate Tournament Statistics** (`.github/workflows/generate-stats.yml`)
+- **Purpose**: Complete stats generation pipeline
+- **Time**: 30 min (without Stockfish) or 3-5 hours (with Stockfish)
+- **Generates**: All stats (awards, openings, tactics, etc.) + optional Stockfish analysis
+- **Steps**:
+  1. Download and extract PGN files from FIDE
+  2. Consolidate PGNs by match
+  3. Classify games by time control
+  4. Enrich with opening names
+  5. Generate statistics
+  6. Optional: Run Stockfish analysis (sequential, with progress)
+  7. Generate tournament overview
+  8. Commit all results
+  9. Triggers Vercel deployment
 
-## Data Pipeline Flow
+**🔬 Stockfish Analysis (Parallel)** (`.github/workflows/stockfish-analysis-parallel.yml`)
+- **Purpose**: Fast parallel engine analysis
+- **Time**: ~60 minutes (6x faster than sequential)
+- **Generates**: Engine analysis only (accuracy, blunders, ACPL)
+- **Architecture**:
+  - Job 1: Download PGNs, upload as artifact
+  - Job 2: Matrix of 6 parallel analysis jobs (one per round)
+  - Job 3: Collect all results, commit
+- **Note**: Run "Generate Statistics" first, then this workflow
+
+**🔬 Stockfish Analysis** (`.github/workflows/stockfish-analysis.yml`)
+- **Purpose**: Sequential analysis with detailed progress
+- **Time**: 15-60 min per round, or 3-5 hours for all rounds
+- **Use case**: Single round updates or troubleshooting
+
+**🏆 Generate Tournament Overview** (`.github/workflows/generate-overview.yml`)
+- **Purpose**: Aggregate stats across all rounds
+- **Time**: <5 minutes
+- **Use case**: Quick updates to tournament-wide stats
+
+### 3. Data Pipeline
+
+**Manual Trigger → Stats Generation → Commit → Vercel Deploy**
 
 ```
-_SRC/cup2025/roundNgameM/games.pgn (manual upload)
-  ↓ (GitHub Actions triggered)
-Stage 1-3: Consolidate → Classify → Enrich → Stats → Overview
+Manual workflow trigger via GitHub UI or CLI
   ↓
-public/stats/*.json (committed back to repo)
-  ↓ (Vercel auto-deploy on push)
-Next.js builds and deploys static site
+Download cup2025.zip from FIDE website
+  ↓
+Extract to _SRC/cup2025/
+  ↓
+Stage 1: Consolidate PGNs by match
+Stage 2: Classify by time control
+Stage 3: Enrich with opening names
+Stage 4: Generate statistics
+Stage 5: Optional Stockfish analysis
+Stage 6: Generate tournament overview
+  ↓
+Commit to public/stats/*.json
+  ↓
+Push to main branch
+  ↓
+Vercel auto-deploys updated site
 ```
+
+**Key Points:**
+- PGN files are downloaded fresh from FIDE each run (not committed to git)
+- Generated stats ARE committed to `public/stats/` for Vercel deployment
+- Vercel automatically redeploys when stats are pushed
+- No secrets or tokens required (public repository)
 
 ## Dependencies
 
@@ -119,12 +150,48 @@ Ensure intermediate data files are ignored but final stats are committed
 3. Verify Vercel deployment updates
 4. Check build logs for errors
 
-## Considerations
+## Workflow Execution Strategies
+
+### Strategy 1: One-Shot (Recommended for First Run)
+```bash
+gh workflow run "📊 Generate Tournament Statistics" -f skip_stockfish=false -f depth=15
+```
+- **Time**: 3-5 hours
+- **Result**: Complete stats including Stockfish in one run
+- **Best for**: Initial setup, complete regeneration
+
+### Strategy 2: Two-Step (Fastest for Updates)
+```bash
+# Step 1: Generate stats (30 min)
+gh workflow run "📊 Generate Tournament Statistics"
+
+# Step 2: Wait for completion, then run parallel Stockfish (60 min)
+gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
+```
+- **Total time**: ~90 minutes
+- **Result**: Same as Strategy 1, but 3x faster
+- **Best for**: Regular updates when data changes
+
+### Strategy 3: Stats Only (Fastest)
+```bash
+gh workflow run "📊 Generate Tournament Statistics"
+```
+- **Time**: 30 minutes
+- **Result**: All stats except Stockfish analysis
+- **Best for**: Quick updates, testing
+
+## Important Notes
 
 ### Stockfish Analysis
-- **SLOW**: Can take hours for all rounds
-- **Solution**: Make it optional in workflow (default: skip)
-- **Configuration**: Use workflow input to enable/disable
+- **Performance**: Sequential = 3-5 hours, Parallel = ~60 minutes
+- **Quality**: Both methods produce identical results
+- **Progress**: Sequential shows nice progress bars, parallel output is interleaved
+- **When to use**: Only needed for engine analysis (accuracy, blunders, ACPL)
+
+### Workflow Timing
+- Never run "Generate Statistics" and "Stockfish (Parallel)" simultaneously
+- Always wait for stats generation to complete before running Stockfish
+- Vercel deployment is automatic on push to main (no manual trigger needed)
 - **Alternative**: Run locally when needed, commit results
 
 ### Git Operations in Actions
