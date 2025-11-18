@@ -5,17 +5,12 @@ on:
   workflow_dispatch:
     inputs:
       skip_stockfish:
-        description: 'Skip Stockfish analysis (faster)'
-        required: false
-        default: true
-        type: boolean
-      parallel_stockfish:
-        description: 'Run Stockfish analysis in parallel (6x faster)'
+        description: 'Skip Stockfish analysis (use separate parallel workflow for faster analysis)'
         required: false
         default: true
         type: boolean
       depth:
-        description: 'Stockfish depth (default: 15)'
+        description: 'Stockfish depth (default: 15, only used if skip_stockfish=false)'
         required: false
         default: '15'
         type: number
@@ -25,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    timeout-minutes: ${{ inputs.skip_stockfish && 30 || 240 }}
+    timeout-minutes: ${{ inputs.skip_stockfish && 30 || 300 }}
 
     steps:
       - name: Checkout repository
@@ -94,38 +89,14 @@ jobs:
 
           echo "End time: $(date)"
 
-      - name: Run Stockfish Analysis (Parallel)
-        if: ${{ !inputs.skip_stockfish && inputs.parallel_stockfish }}
+      - name: Run Stockfish Analysis
+        if: ${{ !inputs.skip_stockfish }}
         run: |
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "🔬 Stage 5: Running Stockfish analysis (parallel)"
+          echo "🔬 Stage 5: Running Stockfish analysis"
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          mkdir -p data/analysis
-
-          # Launch all rounds in parallel
-          for round in {1..6}; do
-            (
-              echo "Starting Round $round analysis..."
-              pgn_files=$(find _SRC/cup2025 -name "games.pgn" -path "*round${round}game*" | sort)
-              if [ -n "$pgn_files" ]; then
-                cat $pgn_files | python3 scripts/analyze-pgn.py --depth ${{ inputs.depth }} \
-                  > "data/analysis/round-${round}-analysis.json" 2>&1 | sed "s/^/[R$round] /"
-                echo "[R$round] ✅ Complete"
-              fi
-            ) &
-          done
-
-          # Wait for all background jobs
-          echo "⏳ Analyzing all 6 rounds in parallel..."
-          wait
-          echo "✅ All rounds complete!"
-
-      - name: Run Stockfish Analysis (Sequential)
-        if: ${{ !inputs.skip_stockfish && !inputs.parallel_stockfish }}
-        run: |
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "🔬 Stage 5: Running Stockfish analysis (sequential)"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "ℹ️  For faster parallel analysis, use the 'Stockfish Analysis (Parallel)' workflow"
+          echo ""
           mkdir -p data/analysis
 
           for round in {1..6}; do
@@ -144,7 +115,7 @@ jobs:
             echo "♟️  Total games: $game_count"
             echo ""
 
-            cat $pgn_files | python3 scripts/analyze-pgn.py --depth ${{ inputs.depth }} \
+            cat $pgn_files | python3 -u scripts/analyze-pgn.py --depth ${{ inputs.depth }} \
               > "data/analysis/round-${round}-analysis.json" || true
 
             echo ""
@@ -192,8 +163,7 @@ jobs:
             echo "No changes to commit"
           else
             if [ "${{ inputs.skip_stockfish }}" = "false" ]; then
-              mode="${{ inputs.parallel_stockfish && 'parallel' || 'sequential' }}"
-              msg="Update tournament statistics (with Stockfish depth ${{ inputs.depth }} - $mode)"
+              msg="Update tournament statistics (with Stockfish depth ${{ inputs.depth }})"
             else
               msg="Update tournament statistics"
             fi
