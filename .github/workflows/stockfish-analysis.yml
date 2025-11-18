@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       round:
-        description: 'Round number (1-8, or leave empty for all rounds)'
+        description: 'Round number (1-6, or leave empty for all rounds)'
         required: false
         type: string
       depth:
@@ -24,15 +24,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install Node dependencies
-        run: npm ci
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -49,15 +40,20 @@ jobs:
         run: |
           pip3 install -r requirements.txt
 
+      - name: Create analysis directory
+        run: |
+          mkdir -p data/analysis
+
       - name: Determine analysis scope
         id: scope
         run: |
           if [ -z "${{ github.event.inputs.round }}" ]; then
             echo "scope=all" >> $GITHUB_OUTPUT
-            echo "Will analyze ALL rounds"
+            echo "rounds=1 2 3 4 5 6" >> $GITHUB_OUTPUT
+            echo "Will analyze ALL rounds (1-6)"
           else
             echo "scope=single" >> $GITHUB_OUTPUT
-            echo "round=${{ github.event.inputs.round }}" >> $GITHUB_OUTPUT
+            echo "rounds=${{ github.event.inputs.round }}" >> $GITHUB_OUTPUT
             echo "Will analyze Round ${{ github.event.inputs.round }}"
           fi
 
@@ -65,42 +61,69 @@ jobs:
         run: |
           echo "Starting Stockfish analysis"
           echo "Depth: ${{ github.event.inputs.depth }}"
+          echo "Rounds: ${{ steps.scope.outputs.rounds }}"
           echo "Start time: $(date)"
+          echo ""
 
-          if [ "${{ steps.scope.outputs.scope }}" = "all" ]; then
-            echo "Analyzing all rounds..."
-            # Process all enriched PGN files
-            for file in data/enriched/round-*-enriched.json; do
-              if [ -f "$file" ]; then
-                round=$(echo "$file" | grep -oP 'round-\K\d+')
-                echo "Analyzing Round $round..."
-                python3 scripts/analyze-pgn.py \
-                  --depth ${{ github.event.inputs.depth }} \
-                  --input "$file" \
-                  --output "data/analysis/round-${round}-analysis.json"
-              fi
-            done
-          else
-            echo "Analyzing Round ${{ steps.scope.outputs.round }}..."
-            python3 scripts/analyze-pgn.py \
-              --depth ${{ github.event.inputs.depth }} \
-              --input "data/enriched/round-${{ steps.scope.outputs.round }}-enriched.json" \
-              --output "data/analysis/round-${{ steps.scope.outputs.round }}-analysis.json"
-          fi
+          for round in ${{ steps.scope.outputs.rounds }}; do
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "🔬 Analyzing Round $round"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+            # Find all PGN files for this round
+            pgn_files=$(find _SRC/cup2025 -name "games.pgn" -path "*round${round}game*" | sort)
+
+            if [ -z "$pgn_files" ]; then
+              echo "⚠️  No PGN files found for Round $round"
+              continue
+            fi
+
+            file_count=$(echo "$pgn_files" | wc -l)
+            echo "📂 Found $file_count PGN file(s) for Round $round"
+
+            # Concatenate all PGN files for this round
+            echo "📥 Concatenating PGN files..."
+            cat $pgn_files > "/tmp/round-${round}-all.pgn"
+
+            # Count games
+            game_count=$(grep -c '^\[Event ' "/tmp/round-${round}-all.pgn" || echo "0")
+            echo "♟️  Total games: $game_count"
+            echo ""
+
+            # Run Stockfish analysis
+            echo "🚀 Running Stockfish (depth ${{ github.event.inputs.depth }})..."
+            cat "/tmp/round-${round}-all.pgn" | \
+              python3 scripts/analyze-pgn.py --depth ${{ github.event.inputs.depth }} \
+              > "data/analysis/round-${round}-analysis.json"
+
+            # Check output
+            if [ -f "data/analysis/round-${round}-analysis.json" ]; then
+              size=$(du -h "data/analysis/round-${round}-analysis.json" | cut -f1)
+              echo "✅ Analysis complete: round-${round}-analysis.json ($size)"
+            else
+              echo "❌ Analysis failed for Round $round"
+            fi
+
+            echo ""
+          done
 
           echo "End time: $(date)"
 
-      - name: Regenerate statistics with analysis data
-        run: |
-          echo "Regenerating statistics with Stockfish analysis..."
-          npm run generate:stats
-          npm run generate:overview
-
       - name: Verify output
         run: |
-          echo "Checking analysis results..."
-          ls -lh data/analysis/ || echo "No analysis directory"
-          ls -lh public/stats/
+          echo "📊 Analysis Results:"
+          echo ""
+          ls -lh data/analysis/ || echo "No analysis files generated"
+          echo ""
+
+          # Show summary for each round
+          for file in data/analysis/round-*-analysis.json; do
+            if [ -f "$file" ]; then
+              round=$(basename "$file" | grep -oP 'round-\K\d+')
+              games=$(cat "$file" | grep -o '"gameIndex"' | wc -l)
+              echo "Round $round: $games games analyzed"
+            fi
+          done
 
       - name: Commit and push results
         run: |
@@ -108,14 +131,13 @@ jobs:
           git config user.email "actions@github.com"
 
           git add data/analysis/*.json
-          git add public/stats/*.json
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             SCOPE_NOTE="all rounds"
             if [ "${{ steps.scope.outputs.scope }}" = "single" ]; then
-              SCOPE_NOTE="Round ${{ steps.scope.outputs.round }}"
+              SCOPE_NOTE="Round ${{ github.event.inputs.round }}"
             fi
 
             git commit -m "Add Stockfish analysis for $SCOPE_NOTE
@@ -131,10 +153,23 @@ Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
       - name: Summary
         if: always()
         run: |
-          echo "📊 Analysis Summary:"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 Analysis Summary"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           if [ "${{ steps.scope.outputs.scope }}" = "all" ]; then
-            echo "Analyzed all available rounds"
+            echo "Scope: All available rounds"
           else
-            echo "Analyzed Round ${{ steps.scope.outputs.round }}"
+            echo "Scope: Round ${{ github.event.inputs.round }}"
           fi
           echo "Depth: ${{ github.event.inputs.depth }}"
+          echo ""
+
+          if [ -d "data/analysis" ]; then
+            file_count=$(ls -1 data/analysis/round-*-analysis.json 2>/dev/null | wc -l)
+            echo "Files generated: $file_count"
+
+            total_size=$(du -sh data/analysis 2>/dev/null | cut -f1 || echo "0")
+            echo "Total size: $total_size"
+          else
+            echo "No analysis files generated"
+          fi
