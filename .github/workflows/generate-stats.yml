@@ -1,12 +1,7 @@
 name: 📊 Generate Tournament Statistics
+run-name: 📊 Generate Stats
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - '_SRC/cup2025/**'
-      - 'scripts/**'
   workflow_dispatch:
     inputs:
       skip_stockfish:

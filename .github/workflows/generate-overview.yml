@@ -1,9 +1,7 @@
-name: Generate Tournament Overview
+name: 🏆 Generate Tournament Overview
+run-name: 🏆 Generate Overview
 
 on:
-  schedule:
-    # Run daily at 2 AM UTC during the tournament
-    - cron: '0 2 * * *'
   workflow_dispatch:
 
 jobs:
