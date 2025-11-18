@@ -1,7 +1,7 @@
 {
   "roundNumber": 6,
   "roundName": "Round 6 (Quarterfinals)",
-  "generatedAt": "2025-11-18T22:04:28.440Z",
+  "generatedAt": "2025-11-18T22:12:05.399Z",
   "matchStats": {
     "totalMatches": 4,
     "decidedInClassical": 1,
@@ -1197,8 +1197,9 @@
     "timeControlSpecialist": null
   },
   "analysis": {
-    "games": {
-      "0": {
+    "games": [
+      {
+        "gameIndex": 0,
         "white": "Sindarov, Javokhir",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 96,
@@ -1221,7 +1222,8 @@
         },
         "biggestBlunder": null
       },
-      "1": {
+      {
+        "gameIndex": 1,
         "white": "Wei, Yi",
         "black": "Erigaisi, Arjun",
         "whiteAccuracy": 98.1,
@@ -1244,7 +1246,8 @@
         },
         "biggestBlunder": null
       },
-      "2": {
+      {
+        "gameIndex": 2,
         "white": "Shankland, Sam",
         "black": "Esipenko, Andrey",
         "whiteAccuracy": 95.6,
@@ -1267,7 +1270,8 @@
         },
         "biggestBlunder": null
       },
-      "3": {
+      {
+        "gameIndex": 3,
         "white": "Yakubboev, Nodirbek",
         "black": "Donchenko, Alexander",
         "whiteAccuracy": 94.6,
@@ -1290,7 +1294,7 @@
         },
         "biggestBlunder": null
       }
-    },
+    ],
     "summary": {
       "accuracyKing": {
         "player": "black",

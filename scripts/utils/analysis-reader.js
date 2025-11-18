@@ -81,21 +81,19 @@ function formatAnalysisForStats(analysis) {
   }
 
   return {
-    // Game-level data (indexed by gameIndex for easy lookup)
-    games: analysis.games.reduce((acc, game) => {
-      acc[game.gameIndex] = {
-        white: game.white,
-        black: game.black,
-        whiteAccuracy: game.whiteAccuracy,
-        blackAccuracy: game.blackAccuracy,
-        whiteACPL: game.whiteACPL,
-        blackACPL: game.blackACPL,
-        whiteMoveQuality: game.whiteMoveQuality,
-        blackMoveQuality: game.blackMoveQuality,
-        biggestBlunder: game.biggestBlunder
-      };
-      return acc;
-    }, {}),
+    // Game-level data (keep as array for frontend compatibility)
+    games: analysis.games.map(game => ({
+      gameIndex: game.gameIndex,
+      white: game.white,
+      black: game.black,
+      whiteAccuracy: game.whiteAccuracy,
+      blackAccuracy: game.blackAccuracy,
+      whiteACPL: game.whiteACPL,
+      blackACPL: game.blackACPL,
+      whiteMoveQuality: game.whiteMoveQuality,
+      blackMoveQuality: game.blackMoveQuality,
+      biggestBlunder: game.biggestBlunder
+    })),
 
     // Summary statistics
     summary: analysis.summary || null,

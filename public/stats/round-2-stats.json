@@ -1,7 +1,7 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2 (Round of 128)",
-  "generatedAt": "2025-11-18T22:03:53.950Z",
+  "generatedAt": "2025-11-18T22:11:40.017Z",
   "matchStats": {
     "totalMatches": 64,
     "decidedInClassical": 37,
@@ -7636,8 +7636,9 @@
     }
   },
   "analysis": {
-    "games": {
-      "0": {
+    "games": [
+      {
+        "gameIndex": 0,
         "white": "Gukesh, D",
         "black": "Nogerbek, Kazybek",
         "whiteAccuracy": 95.5,
@@ -7660,7 +7661,8 @@
         },
         "biggestBlunder": null
       },
-      "1": {
+      {
+        "gameIndex": 1,
         "white": "Petrov, Martin",
         "black": "Erigaisi, Arjun",
         "whiteAccuracy": 92.9,
@@ -7683,7 +7685,8 @@
         },
         "biggestBlunder": null
       },
-      "2": {
+      {
+        "gameIndex": 2,
         "white": "Praggnanandhaa, R",
         "black": "Kuybokarov, Temur",
         "whiteAccuracy": 95.5,
@@ -7706,7 +7709,8 @@
         },
         "biggestBlunder": null
       },
-      "3": {
+      {
+        "gameIndex": 3,
         "white": "Maksimovic, Bojan",
         "black": "Giri, Anish",
         "whiteAccuracy": 96.5,
@@ -7729,7 +7733,8 @@
         },
         "biggestBlunder": null
       },
-      "4": {
+      {
+        "gameIndex": 4,
         "white": "So, Wesley",
         "black": "Stremavicius, Titas",
         "whiteAccuracy": 93.4,
@@ -7761,7 +7766,8 @@
           "evalAfter": 33
         }
       },
-      "5": {
+      {
+        "gameIndex": 5,
         "white": "Kovalev, Vladislav",
         "black": "Keymer, Vincent",
         "whiteAccuracy": 91.1,
@@ -7793,7 +7799,8 @@
           "evalAfter": -4042
         }
       },
-      "6": {
+      {
+        "gameIndex": 6,
         "white": "Wei, Yi",
         "black": "Piorun, Kacper",
         "whiteAccuracy": 93.3,
@@ -7816,7 +7823,8 @@
         },
         "biggestBlunder": null
       },
-      "7": {
+      {
+        "gameIndex": 7,
         "white": "Makhnev, Denis",
         "black": "Abdusattorov, Nodirbek",
         "whiteAccuracy": 96.7,
@@ -7839,7 +7847,8 @@
         },
         "biggestBlunder": null
       },
-      "8": {
+      {
+        "gameIndex": 8,
         "white": "Mamedyarov, Shakhriyar",
         "black": "Kantor, Gergely",
         "whiteAccuracy": 94.7,
@@ -7862,7 +7871,8 @@
         },
         "biggestBlunder": null
       },
-      "9": {
+      {
+        "gameIndex": 9,
         "white": "Lodici, Lorenzo",
         "black": "Niemann, Hans Moke",
         "whiteAccuracy": 95.7,
@@ -7885,7 +7895,8 @@
         },
         "biggestBlunder": null
       },
-      "10": {
+      {
+        "gameIndex": 10,
         "white": "Vachier-Lagrave, Maxime",
         "black": "Ganguly, Surya Shekhar",
         "whiteAccuracy": 92.1,
@@ -7917,7 +7928,8 @@
           "evalAfter": 45
         }
       },
-      "11": {
+      {
+        "gameIndex": 11,
         "white": "Ghosh, Diptayan",
         "black": "Nepomniachtchi, Ian",
         "whiteAccuracy": 97.1,
@@ -7940,7 +7952,8 @@
         },
         "biggestBlunder": null
       },
-      "12": {
+      {
+        "gameIndex": 12,
         "white": "Le, Quang Liem",
         "black": "Jobava, Baadur",
         "whiteAccuracy": 96,
@@ -7963,7 +7976,8 @@
         },
         "biggestBlunder": null
       },
-      "13": {
+      {
+        "gameIndex": 13,
         "white": "Supi, Luis Paulo",
         "black": "Rapport, Richard",
         "whiteAccuracy": 93.7,
@@ -7986,7 +8000,8 @@
         },
         "biggestBlunder": null
       },
-      "14": {
+      {
+        "gameIndex": 14,
         "white": "Aronian, Levon",
         "black": "Aronyak, Ghosh",
         "whiteAccuracy": 88.8,
@@ -8018,7 +8033,8 @@
           "evalAfter": 272
         }
       },
-      "15": {
+      {
+        "gameIndex": 15,
         "white": "Petrov, Nikita",
         "black": "Sindarov, Javokhir",
         "whiteAccuracy": 94.5,
@@ -8041,7 +8057,8 @@
         },
         "biggestBlunder": null
       },
-      "16": {
+      {
+        "gameIndex": 16,
         "white": "Yu, Yangyi",
         "black": "Blohberger, Felix",
         "whiteAccuracy": 96.1,
@@ -8064,7 +8081,8 @@
         },
         "biggestBlunder": null
       },
-      "17": {
+      {
+        "gameIndex": 17,
         "white": "Fier, Alexandr",
         "black": "Fedoseev, Vladimir",
         "whiteAccuracy": 92.4,
@@ -8087,7 +8105,8 @@
         },
         "biggestBlunder": null
       },
-      "18": {
+      {
+        "gameIndex": 18,
         "white": "Vidit, Santosh Gujrathi",
         "black": "Oro, Faustino",
         "whiteAccuracy": 92,
@@ -8110,7 +8129,8 @@
         },
         "biggestBlunder": null
       },
-      "19": {
+      {
+        "gameIndex": 19,
         "white": "Karthik, Venkataraman",
         "black": "Aravindh, Chithambaram Vr.",
         "whiteAccuracy": 95.2,
@@ -8133,7 +8153,8 @@
         },
         "biggestBlunder": null
       },
-      "20": {
+      {
+        "gameIndex": 20,
         "white": "Liang, Awonder",
         "black": "Warmerdam, Max",
         "whiteAccuracy": 88.5,
@@ -8165,7 +8186,8 @@
           "evalAfter": 261
         }
       },
-      "21": {
+      {
+        "gameIndex": 21,
         "white": "Kourkoulos-Arditis, Stamatis",
         "black": "Nihal, Sarin",
         "whiteAccuracy": 96.8,
@@ -8188,7 +8210,8 @@
         },
         "biggestBlunder": null
       },
-      "22": {
+      {
+        "gameIndex": 22,
         "white": "Sevian, Samuel",
         "black": "Tin, Jingyao",
         "whiteAccuracy": 96,
@@ -8211,7 +8234,8 @@
         },
         "biggestBlunder": null
       },
-      "23": {
+      {
+        "gameIndex": 23,
         "white": "Nesterov, Arseniy",
         "black": "Harikrishna, Pentala",
         "whiteAccuracy": 96.2,
@@ -8234,7 +8258,8 @@
         },
         "biggestBlunder": null
       },
-      "24": {
+      {
+        "gameIndex": 24,
         "white": "Van Foreest, Jorden",
         "black": "Suleymenov, Alisher",
         "whiteAccuracy": 96.2,
@@ -8257,7 +8282,8 @@
         },
         "biggestBlunder": null
       },
-      "25": {
+      {
+        "gameIndex": 25,
         "white": "Motylev, Alexander",
         "black": "Maghsoodloo, Parham",
         "whiteAccuracy": 95.1,
@@ -8280,7 +8306,8 @@
         },
         "biggestBlunder": null
       },
-      "26": {
+      {
+        "gameIndex": 26,
         "white": "Esipenko, Andrey",
         "black": "Abasov, Nijat",
         "whiteAccuracy": 94,
@@ -8303,7 +8330,8 @@
         },
         "biggestBlunder": null
       },
-      "27": {
+      {
+        "gameIndex": 27,
         "white": "Huschenbeth, Niclas",
         "black": "Yakubboev, Nodirbek",
         "whiteAccuracy": 97.7,
@@ -8326,7 +8354,8 @@
         },
         "biggestBlunder": null
       },
-      "28": {
+      {
+        "gameIndex": 28,
         "white": "Bluebaum, Matthias",
         "black": "Adly, Ahmed",
         "whiteAccuracy": 96.4,
@@ -8349,7 +8378,8 @@
         },
         "biggestBlunder": null
       },
-      "29": {
+      {
+        "gameIndex": 29,
         "white": "Bai, Jinshi",
         "black": "Dubov, Daniil",
         "whiteAccuracy": 96,
@@ -8372,7 +8402,8 @@
         },
         "biggestBlunder": null
       },
-      "30": {
+      {
+        "gameIndex": 30,
         "white": "Alekseenko, Kirill",
         "black": "Woodward, Andy",
         "whiteAccuracy": 94.3,
@@ -8395,7 +8426,8 @@
         },
         "biggestBlunder": null
       },
-      "31": {
+      {
+        "gameIndex": 31,
         "white": "Yilmaz, Mustafa",
         "black": "Bu, Xiangzhi",
         "whiteAccuracy": 96.8,
@@ -8418,7 +8450,8 @@
         },
         "biggestBlunder": null
       },
-      "32": {
+      {
+        "gameIndex": 32,
         "white": "Sargsyan, Shant",
         "black": "Cori, Jorge",
         "whiteAccuracy": 91.7,
@@ -8441,7 +8474,8 @@
         },
         "biggestBlunder": null
       },
-      "33": {
+      {
+        "gameIndex": 33,
         "white": "Cheng, Bobby",
         "black": "Leko, Peter",
         "whiteAccuracy": 96.4,
@@ -8464,7 +8498,8 @@
         },
         "biggestBlunder": null
       },
-      "34": {
+      {
+        "gameIndex": 34,
         "white": "Murzin, Volodar",
         "black": "Meier, Georg",
         "whiteAccuracy": 93,
@@ -8487,7 +8522,8 @@
         },
         "biggestBlunder": null
       },
-      "35": {
+      {
+        "gameIndex": 35,
         "white": "Zemlyanskii, Ivan",
         "black": "Robson, Ray",
         "whiteAccuracy": 84.2,
@@ -8510,7 +8546,8 @@
         },
         "biggestBlunder": null
       },
-      "36": {
+      {
+        "gameIndex": 36,
         "white": "Nguyen, Thai Dai Van",
         "black": "Iniyan, Pa",
         "whiteAccuracy": 96.3,
@@ -8533,7 +8570,8 @@
         },
         "biggestBlunder": null
       },
-      "37": {
+      {
+        "gameIndex": 37,
         "white": "Idani, Pouya",
         "black": "Karthikeyan, Murali",
         "whiteAccuracy": 93.7,
@@ -8556,7 +8594,8 @@
         },
         "biggestBlunder": null
       },
-      "38": {
+      {
+        "gameIndex": 38,
         "white": "Saric, Ivan",
         "black": "Daneshvar, Bardiya",
         "whiteAccuracy": 94.8,
@@ -8579,7 +8618,8 @@
         },
         "biggestBlunder": null
       },
-      "39": {
+      {
+        "gameIndex": 39,
         "white": "Henriquez Villagra, Cristobal",
         "black": "Sarana, Alexey",
         "whiteAccuracy": 91.1,
@@ -8611,7 +8651,8 @@
           "evalAfter": -64
         }
       },
-      "40": {
+      {
+        "gameIndex": 40,
         "white": "Oparin, Grigoriy",
         "black": "Dardha, Daniel",
         "whiteAccuracy": 96.4,
@@ -8634,7 +8675,8 @@
         },
         "biggestBlunder": null
       },
-      "41": {
+      {
+        "gameIndex": 41,
         "white": "Najer, Evgeniy",
         "black": "Christiansen, Johan-Sebastian",
         "whiteAccuracy": 93.3,
@@ -8657,7 +8699,8 @@
         },
         "biggestBlunder": null
       },
-      "42": {
+      {
+        "gameIndex": 42,
         "white": "Navara, David",
         "black": "Grebnev, Aleksey",
         "whiteAccuracy": 97.9,
@@ -8680,7 +8723,8 @@
         },
         "biggestBlunder": null
       },
-      "43": {
+      {
+        "gameIndex": 43,
         "white": "Svane, Rasmus",
         "black": "Mamedov, Rauf",
         "whiteAccuracy": 96.9,
@@ -8703,7 +8747,8 @@
         },
         "biggestBlunder": null
       },
-      "44": {
+      {
+        "gameIndex": 44,
         "white": "Deac, Bogdan-Daniel",
         "black": "Suleymanli, Aydin",
         "whiteAccuracy": 96.3,
@@ -8726,7 +8771,8 @@
         },
         "biggestBlunder": null
       },
-      "45": {
+      {
+        "gameIndex": 45,
         "white": "Ivanchuk, Vasyl",
         "black": "Shankland, Sam",
         "whiteAccuracy": 93.1,
@@ -8749,7 +8795,8 @@
         },
         "biggestBlunder": null
       },
-      "46": {
+      {
+        "gameIndex": 46,
         "white": "Wojtaszek, Radoslaw",
         "black": "Lagarde, Maxime",
         "whiteAccuracy": 79.3,
@@ -8781,7 +8828,8 @@
           "evalAfter": 710
         }
       },
-      "47": {
+      {
+        "gameIndex": 47,
         "white": "Narayanan, S",
         "black": "Vitiugov, Nikita",
         "whiteAccuracy": 98.3,
@@ -8804,7 +8852,8 @@
         },
         "biggestBlunder": null
       },
-      "48": {
+      {
+        "gameIndex": 48,
         "white": "Theodorou, Nikolas",
         "black": "Indjic, Aleksandar",
         "whiteAccuracy": 97.5,
@@ -8827,7 +8876,8 @@
         },
         "biggestBlunder": null
       },
-      "49": {
+      {
+        "gameIndex": 49,
         "white": "Salem, A.R. Saleh",
         "black": "Mishra, Abhimanyu",
         "whiteAccuracy": 96.1,
@@ -8850,7 +8900,8 @@
         },
         "biggestBlunder": null
       },
-      "50": {
+      {
+        "gameIndex": 50,
         "white": "Erdogmus, Yagiz Kaan",
         "black": "Wang, Shixu B",
         "whiteAccuracy": 96.5,
@@ -8873,7 +8924,8 @@
         },
         "biggestBlunder": null
       },
-      "51": {
+      {
+        "gameIndex": 51,
         "white": "Yuffa, Daniil",
         "black": "Xiong, Jeffery",
         "whiteAccuracy": 92.9,
@@ -8896,7 +8948,8 @@
         },
         "biggestBlunder": null
       },
-      "52": {
+      {
+        "gameIndex": 52,
         "white": "Rodshtein, Maxim",
         "black": "Sargissian, Gabriel",
         "whiteAccuracy": 96.8,
@@ -8919,7 +8972,8 @@
         },
         "biggestBlunder": null
       },
-      "53": {
+      {
+        "gameIndex": 53,
         "white": "Martirosyan, Haik M.",
         "black": "Artemiev, Vladislav",
         "whiteAccuracy": 96.6,
@@ -8942,7 +8996,8 @@
         },
         "biggestBlunder": null
       },
-      "54": {
+      {
+        "gameIndex": 54,
         "white": "Adams, Michael",
         "black": "Cheparinov, Ivan",
         "whiteAccuracy": 97.8,
@@ -8965,7 +9020,8 @@
         },
         "biggestBlunder": null
       },
-      "55": {
+      {
+        "gameIndex": 55,
         "white": "Bacrot, Etienne",
         "black": "Grandelius, Nils",
         "whiteAccuracy": 94.3,
@@ -8988,7 +9044,8 @@
         },
         "biggestBlunder": null
       },
-      "56": {
+      {
+        "gameIndex": 56,
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Ivic, Velimir",
         "whiteAccuracy": 95.4,
@@ -9011,7 +9068,8 @@
         },
         "biggestBlunder": null
       },
-      "57": {
+      {
+        "gameIndex": 57,
         "white": "Amin, Bassem",
         "black": "Gledura, Benjamin",
         "whiteAccuracy": 96.9,
@@ -9034,7 +9092,8 @@
         },
         "biggestBlunder": null
       },
-      "58": {
+      {
+        "gameIndex": 58,
         "white": "Kollars, Dmitrij",
         "black": "Pranesh, M",
         "whiteAccuracy": 98.2,
@@ -9057,7 +9116,8 @@
         },
         "biggestBlunder": null
       },
-      "59": {
+      {
+        "gameIndex": 59,
         "white": "Tari, Aryan",
         "black": "Pranav, V",
         "whiteAccuracy": 87.2,
@@ -9089,7 +9149,8 @@
           "evalAfter": -504
         }
       },
-      "60": {
+      {
+        "gameIndex": 60,
         "white": "Donchenko, Alexander",
         "black": "Anton Guijarro, David",
         "whiteAccuracy": 96.5,
@@ -9112,7 +9173,8 @@
         },
         "biggestBlunder": null
       },
-      "61": {
+      {
+        "gameIndex": 61,
         "white": "Hovhannisyan, Robert",
         "black": "Sadhwani, Raunak",
         "whiteAccuracy": 96.5,
@@ -9135,7 +9197,8 @@
         },
         "biggestBlunder": null
       },
-      "62": {
+      {
+        "gameIndex": 62,
         "white": "Vokhidov, Shamsiddin",
         "black": "Chigaev, Maksim",
         "whiteAccuracy": 96.2,
@@ -9158,7 +9221,8 @@
         },
         "biggestBlunder": null
       },
-      "63": {
+      {
+        "gameIndex": 63,
         "white": "Gurel, Ediz",
         "black": "Svane, Frederik",
         "whiteAccuracy": 97.7,
@@ -9181,7 +9245,8 @@
         },
         "biggestBlunder": null
       },
-      "64": {
+      {
+        "gameIndex": 64,
         "white": "Svane, Rasmus",
         "black": "Mamedov, Rauf",
         "whiteAccuracy": 93.7,
@@ -9213,7 +9278,8 @@
           "evalAfter": 16
         }
       },
-      "65": {
+      {
+        "gameIndex": 65,
         "white": "Adams, Michael",
         "black": "Cheparinov, Ivan",
         "whiteAccuracy": 94.5,
@@ -9236,7 +9302,8 @@
         },
         "biggestBlunder": null
       },
-      "66": {
+      {
+        "gameIndex": 66,
         "white": "Svane, Rasmus",
         "black": "Mamedov, Rauf",
         "whiteAccuracy": 90,
@@ -9259,7 +9326,8 @@
         },
         "biggestBlunder": null
       },
-      "67": {
+      {
+        "gameIndex": 67,
         "white": "Nogerbek, Kazybek",
         "black": "Gukesh, D",
         "whiteAccuracy": 93.8,
@@ -9282,7 +9350,8 @@
         },
         "biggestBlunder": null
       },
-      "68": {
+      {
+        "gameIndex": 68,
         "white": "Erigaisi, Arjun",
         "black": "Petrov, Martin",
         "whiteAccuracy": 94.2,
@@ -9305,7 +9374,8 @@
         },
         "biggestBlunder": null
       },
-      "69": {
+      {
+        "gameIndex": 69,
         "white": "Kuybokarov, Temur",
         "black": "Praggnanandhaa, R",
         "whiteAccuracy": 96.2,
@@ -9328,7 +9398,8 @@
         },
         "biggestBlunder": null
       },
-      "70": {
+      {
+        "gameIndex": 70,
         "white": "Giri, Anish",
         "black": "Maksimovic, Bojan",
         "whiteAccuracy": 95.1,
@@ -9351,7 +9422,8 @@
         },
         "biggestBlunder": null
       },
-      "71": {
+      {
+        "gameIndex": 71,
         "white": "Stremavicius, Titas",
         "black": "So, Wesley",
         "whiteAccuracy": 94.4,
@@ -9374,7 +9446,8 @@
         },
         "biggestBlunder": null
       },
-      "72": {
+      {
+        "gameIndex": 72,
         "white": "Keymer, Vincent",
         "black": "Kovalev, Vladislav",
         "whiteAccuracy": 95.7,
@@ -9397,7 +9470,8 @@
         },
         "biggestBlunder": null
       },
-      "73": {
+      {
+        "gameIndex": 73,
         "white": "Piorun, Kacper",
         "black": "Wei, Yi",
         "whiteAccuracy": 93.4,
@@ -9420,7 +9494,8 @@
         },
         "biggestBlunder": null
       },
-      "74": {
+      {
+        "gameIndex": 74,
         "white": "Abdusattorov, Nodirbek",
         "black": "Makhnev, Denis",
         "whiteAccuracy": 96.2,
@@ -9443,7 +9518,8 @@
         },
         "biggestBlunder": null
       },
-      "75": {
+      {
+        "gameIndex": 75,
         "white": "Kantor, Gergely",
         "black": "Mamedyarov, Shakhriyar",
         "whiteAccuracy": 95.1,
@@ -9466,7 +9542,8 @@
         },
         "biggestBlunder": null
       },
-      "76": {
+      {
+        "gameIndex": 76,
         "white": "Niemann, Hans Moke",
         "black": "Lodici, Lorenzo",
         "whiteAccuracy": 93.5,
@@ -9489,7 +9566,8 @@
         },
         "biggestBlunder": null
       },
-      "77": {
+      {
+        "gameIndex": 77,
         "white": "Ganguly, Surya Shekhar",
         "black": "Vachier-Lagrave, Maxime",
         "whiteAccuracy": 92.3,
@@ -9512,7 +9590,8 @@
         },
         "biggestBlunder": null
       },
-      "78": {
+      {
+        "gameIndex": 78,
         "white": "Nepomniachtchi, Ian",
         "black": "Ghosh, Diptayan",
         "whiteAccuracy": 91.5,
@@ -9535,7 +9614,8 @@
         },
         "biggestBlunder": null
       },
-      "79": {
+      {
+        "gameIndex": 79,
         "white": "Jobava, Baadur",
         "black": "Le, Quang Liem",
         "whiteAccuracy": 88.2,
@@ -9558,7 +9638,8 @@
         },
         "biggestBlunder": null
       },
-      "80": {
+      {
+        "gameIndex": 80,
         "white": "Rapport, Richard",
         "black": "Supi, Luis Paulo",
         "whiteAccuracy": 97.5,
@@ -9590,7 +9671,8 @@
           "evalAfter": 552
         }
       },
-      "81": {
+      {
+        "gameIndex": 81,
         "white": "Aronyak, Ghosh",
         "black": "Aronian, Levon",
         "whiteAccuracy": 97.1,
@@ -9613,7 +9695,8 @@
         },
         "biggestBlunder": null
       },
-      "82": {
+      {
+        "gameIndex": 82,
         "white": "Sindarov, Javokhir",
         "black": "Petrov, Nikita",
         "whiteAccuracy": 90.7,
@@ -9636,7 +9719,8 @@
         },
         "biggestBlunder": null
       },
-      "83": {
+      {
+        "gameIndex": 83,
         "white": "Blohberger, Felix",
         "black": "Yu, Yangyi",
         "whiteAccuracy": 96.9,
@@ -9659,7 +9743,8 @@
         },
         "biggestBlunder": null
       },
-      "84": {
+      {
+        "gameIndex": 84,
         "white": "Fedoseev, Vladimir",
         "black": "Fier, Alexandr",
         "whiteAccuracy": 95.3,
@@ -9682,7 +9767,8 @@
         },
         "biggestBlunder": null
       },
-      "85": {
+      {
+        "gameIndex": 85,
         "white": "Oro, Faustino",
         "black": "Vidit, Santosh Gujrathi",
         "whiteAccuracy": 97.9,
@@ -9705,7 +9791,8 @@
         },
         "biggestBlunder": null
       },
-      "86": {
+      {
+        "gameIndex": 86,
         "white": "Aravindh, Chithambaram Vr.",
         "black": "Karthik, Venkataraman",
         "whiteAccuracy": 93.4,
@@ -9728,7 +9815,8 @@
         },
         "biggestBlunder": null
       },
-      "87": {
+      {
+        "gameIndex": 87,
         "white": "Warmerdam, Max",
         "black": "Liang, Awonder",
         "whiteAccuracy": 89.9,
@@ -9751,7 +9839,8 @@
         },
         "biggestBlunder": null
       },
-      "88": {
+      {
+        "gameIndex": 88,
         "white": "Nihal, Sarin",
         "black": "Kourkoulos-Arditis, Stamatis",
         "whiteAccuracy": 95.1,
@@ -9774,7 +9863,8 @@
         },
         "biggestBlunder": null
       },
-      "89": {
+      {
+        "gameIndex": 89,
         "white": "Tin, Jingyao",
         "black": "Sevian, Samuel",
         "whiteAccuracy": 97.5,
@@ -9797,7 +9887,8 @@
         },
         "biggestBlunder": null
       },
-      "90": {
+      {
+        "gameIndex": 90,
         "white": "Harikrishna, Pentala",
         "black": "Nesterov, Arseniy",
         "whiteAccuracy": 90.3,
@@ -9820,7 +9911,8 @@
         },
         "biggestBlunder": null
       },
-      "91": {
+      {
+        "gameIndex": 91,
         "white": "Suleymenov, Alisher",
         "black": "Van Foreest, Jorden",
         "whiteAccuracy": 93.6,
@@ -9843,7 +9935,8 @@
         },
         "biggestBlunder": null
       },
-      "92": {
+      {
+        "gameIndex": 92,
         "white": "Maghsoodloo, Parham",
         "black": "Motylev, Alexander",
         "whiteAccuracy": 96.1,
@@ -9866,7 +9959,8 @@
         },
         "biggestBlunder": null
       },
-      "93": {
+      {
+        "gameIndex": 93,
         "white": "Abasov, Nijat",
         "black": "Esipenko, Andrey",
         "whiteAccuracy": 92.6,
@@ -9889,7 +9983,8 @@
         },
         "biggestBlunder": null
       },
-      "94": {
+      {
+        "gameIndex": 94,
         "white": "Yakubboev, Nodirbek",
         "black": "Huschenbeth, Niclas",
         "whiteAccuracy": 95,
@@ -9912,7 +10007,8 @@
         },
         "biggestBlunder": null
       },
-      "95": {
+      {
+        "gameIndex": 95,
         "white": "Adly, Ahmed",
         "black": "Bluebaum, Matthias",
         "whiteAccuracy": 93.7,
@@ -9935,7 +10031,8 @@
         },
         "biggestBlunder": null
       },
-      "96": {
+      {
+        "gameIndex": 96,
         "white": "Dubov, Daniil",
         "black": "Bai, Jinshi",
         "whiteAccuracy": 97.9,
@@ -9958,7 +10055,8 @@
         },
         "biggestBlunder": null
       },
-      "97": {
+      {
+        "gameIndex": 97,
         "white": "Woodward, Andy",
         "black": "Alekseenko, Kirill",
         "whiteAccuracy": 94.3,
@@ -9981,7 +10079,8 @@
         },
         "biggestBlunder": null
       },
-      "98": {
+      {
+        "gameIndex": 98,
         "white": "Bu, Xiangzhi",
         "black": "Yilmaz, Mustafa",
         "whiteAccuracy": 95.6,
@@ -10004,7 +10103,8 @@
         },
         "biggestBlunder": null
       },
-      "99": {
+      {
+        "gameIndex": 99,
         "white": "Cori, Jorge",
         "black": "Sargsyan, Shant",
         "whiteAccuracy": 96.5,
@@ -10027,7 +10127,8 @@
         },
         "biggestBlunder": null
       },
-      "100": {
+      {
+        "gameIndex": 100,
         "white": "Leko, Peter",
         "black": "Cheng, Bobby",
         "whiteAccuracy": 95,
@@ -10050,7 +10151,8 @@
         },
         "biggestBlunder": null
       },
-      "101": {
+      {
+        "gameIndex": 101,
         "white": "Meier, Georg",
         "black": "Murzin, Volodar",
         "whiteAccuracy": 96.9,
@@ -10073,7 +10175,8 @@
         },
         "biggestBlunder": null
       },
-      "102": {
+      {
+        "gameIndex": 102,
         "white": "Robson, Ray",
         "black": "Zemlyanskii, Ivan",
         "whiteAccuracy": 96.7,
@@ -10096,7 +10199,8 @@
         },
         "biggestBlunder": null
       },
-      "103": {
+      {
+        "gameIndex": 103,
         "white": "Iniyan, Pa",
         "black": "Nguyen, Thai Dai Van",
         "whiteAccuracy": 92.9,
@@ -10119,7 +10223,8 @@
         },
         "biggestBlunder": null
       },
-      "104": {
+      {
+        "gameIndex": 104,
         "white": "Karthikeyan, Murali",
         "black": "Idani, Pouya",
         "whiteAccuracy": 89.8,
@@ -10151,7 +10256,8 @@
           "evalAfter": -67
         }
       },
-      "105": {
+      {
+        "gameIndex": 105,
         "white": "Daneshvar, Bardiya",
         "black": "Saric, Ivan",
         "whiteAccuracy": 95.3,
@@ -10174,7 +10280,8 @@
         },
         "biggestBlunder": null
       },
-      "106": {
+      {
+        "gameIndex": 106,
         "white": "Sarana, Alexey",
         "black": "Henriquez Villagra, Cristobal",
         "whiteAccuracy": 96.2,
@@ -10197,7 +10304,8 @@
         },
         "biggestBlunder": null
       },
-      "107": {
+      {
+        "gameIndex": 107,
         "white": "Dardha, Daniel",
         "black": "Oparin, Grigoriy",
         "whiteAccuracy": 97.6,
@@ -10220,7 +10328,8 @@
         },
         "biggestBlunder": null
       },
-      "108": {
+      {
+        "gameIndex": 108,
         "white": "Christiansen, Johan-Sebastian",
         "black": "Najer, Evgeniy",
         "whiteAccuracy": 95.5,
@@ -10243,7 +10352,8 @@
         },
         "biggestBlunder": null
       },
-      "109": {
+      {
+        "gameIndex": 109,
         "white": "Grebnev, Aleksey",
         "black": "Navara, David",
         "whiteAccuracy": 96.2,
@@ -10266,7 +10376,8 @@
         },
         "biggestBlunder": null
       },
-      "110": {
+      {
+        "gameIndex": 110,
         "white": "Mamedov, Rauf",
         "black": "Svane, Rasmus",
         "whiteAccuracy": 97.9,
@@ -10289,7 +10400,8 @@
         },
         "biggestBlunder": null
       },
-      "111": {
+      {
+        "gameIndex": 111,
         "white": "Suleymanli, Aydin",
         "black": "Deac, Bogdan-Daniel",
         "whiteAccuracy": 98,
@@ -10312,7 +10424,8 @@
         },
         "biggestBlunder": null
       },
-      "112": {
+      {
+        "gameIndex": 112,
         "white": "Shankland, Sam",
         "black": "Ivanchuk, Vasyl",
         "whiteAccuracy": 95.6,
@@ -10335,7 +10448,8 @@
         },
         "biggestBlunder": null
       },
-      "113": {
+      {
+        "gameIndex": 113,
         "white": "Lagarde, Maxime",
         "black": "Wojtaszek, Radoslaw",
         "whiteAccuracy": 97.7,
@@ -10358,7 +10472,8 @@
         },
         "biggestBlunder": null
       },
-      "114": {
+      {
+        "gameIndex": 114,
         "white": "Vitiugov, Nikita",
         "black": "Narayanan, S",
         "whiteAccuracy": 95.9,
@@ -10381,7 +10496,8 @@
         },
         "biggestBlunder": null
       },
-      "115": {
+      {
+        "gameIndex": 115,
         "white": "Indjic, Aleksandar",
         "black": "Theodorou, Nikolas",
         "whiteAccuracy": 96.1,
@@ -10404,7 +10520,8 @@
         },
         "biggestBlunder": null
       },
-      "116": {
+      {
+        "gameIndex": 116,
         "white": "Mishra, Abhimanyu",
         "black": "Salem, A.R. Saleh",
         "whiteAccuracy": 93.3,
@@ -10427,7 +10544,8 @@
         },
         "biggestBlunder": null
       },
-      "117": {
+      {
+        "gameIndex": 117,
         "white": "Wang, Shixu B",
         "black": "Erdogmus, Yagiz Kaan",
         "whiteAccuracy": 91.4,
@@ -10459,7 +10577,8 @@
           "evalAfter": -9970
         }
       },
-      "118": {
+      {
+        "gameIndex": 118,
         "white": "Xiong, Jeffery",
         "black": "Yuffa, Daniil",
         "whiteAccuracy": 92,
@@ -10491,7 +10610,8 @@
           "evalAfter": -239
         }
       },
-      "119": {
+      {
+        "gameIndex": 119,
         "white": "Sargissian, Gabriel",
         "black": "Rodshtein, Maxim",
         "whiteAccuracy": 97.6,
@@ -10514,7 +10634,8 @@
         },
         "biggestBlunder": null
       },
-      "120": {
+      {
+        "gameIndex": 120,
         "white": "Artemiev, Vladislav",
         "black": "Martirosyan, Haik M.",
         "whiteAccuracy": 98,
@@ -10537,7 +10658,8 @@
         },
         "biggestBlunder": null
       },
-      "121": {
+      {
+        "gameIndex": 121,
         "white": "Cheparinov, Ivan",
         "black": "Adams, Michael",
         "whiteAccuracy": 96.7,
@@ -10560,7 +10682,8 @@
         },
         "biggestBlunder": null
       },
-      "122": {
+      {
+        "gameIndex": 122,
         "white": "Grandelius, Nils",
         "black": "Bacrot, Etienne",
         "whiteAccuracy": 94.4,
@@ -10583,7 +10706,8 @@
         },
         "biggestBlunder": null
       },
-      "123": {
+      {
+        "gameIndex": 123,
         "white": "Ivic, Velimir",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 96.6,
@@ -10606,7 +10730,8 @@
         },
         "biggestBlunder": null
       },
-      "124": {
+      {
+        "gameIndex": 124,
         "white": "Gledura, Benjamin",
         "black": "Amin, Bassem",
         "whiteAccuracy": 94.5,
@@ -10629,7 +10754,8 @@
         },
         "biggestBlunder": null
       },
-      "125": {
+      {
+        "gameIndex": 125,
         "white": "Pranesh, M",
         "black": "Kollars, Dmitrij",
         "whiteAccuracy": 90.3,
@@ -10661,7 +10787,8 @@
           "evalAfter": 0
         }
       },
-      "126": {
+      {
+        "gameIndex": 126,
         "white": "Pranav, V",
         "black": "Tari, Aryan",
         "whiteAccuracy": 93,
@@ -10684,7 +10811,8 @@
         },
         "biggestBlunder": null
       },
-      "127": {
+      {
+        "gameIndex": 127,
         "white": "Anton Guijarro, David",
         "black": "Donchenko, Alexander",
         "whiteAccuracy": 94.3,
@@ -10716,7 +10844,8 @@
           "evalAfter": -443
         }
       },
-      "128": {
+      {
+        "gameIndex": 128,
         "white": "Sadhwani, Raunak",
         "black": "Hovhannisyan, Robert",
         "whiteAccuracy": 94.6,
@@ -10739,7 +10868,8 @@
         },
         "biggestBlunder": null
       },
-      "129": {
+      {
+        "gameIndex": 129,
         "white": "Chigaev, Maksim",
         "black": "Vokhidov, Shamsiddin",
         "whiteAccuracy": 96.5,
@@ -10762,7 +10892,8 @@
         },
         "biggestBlunder": null
       },
-      "130": {
+      {
+        "gameIndex": 130,
         "white": "Svane, Frederik",
         "black": "Gurel, Ediz",
         "whiteAccuracy": 94.7,
@@ -10785,7 +10916,8 @@
         },
         "biggestBlunder": null
       },
-      "131": {
+      {
+        "gameIndex": 131,
         "white": "Kuybokarov, Temur",
         "black": "Praggnanandhaa, R",
         "whiteAccuracy": 98.1,
@@ -10808,7 +10940,8 @@
         },
         "biggestBlunder": null
       },
-      "132": {
+      {
+        "gameIndex": 132,
         "white": "Makhnev, Denis",
         "black": "Abdusattorov, Nodirbek",
         "whiteAccuracy": 94.6,
@@ -10831,7 +10964,8 @@
         },
         "biggestBlunder": null
       },
-      "133": {
+      {
+        "gameIndex": 133,
         "white": "Kantor, Gergely",
         "black": "Mamedyarov, Shakhriyar",
         "whiteAccuracy": 91.5,
@@ -10854,7 +10988,8 @@
         },
         "biggestBlunder": null
       },
-      "134": {
+      {
+        "gameIndex": 134,
         "white": "Lodici, Lorenzo",
         "black": "Niemann, Hans Moke",
         "whiteAccuracy": 90.4,
@@ -10886,7 +11021,8 @@
           "evalAfter": 607
         }
       },
-      "135": {
+      {
+        "gameIndex": 135,
         "white": "Blohberger, Felix",
         "black": "Yu, Yangyi",
         "whiteAccuracy": 95,
@@ -10918,7 +11054,8 @@
           "evalAfter": 5
         }
       },
-      "136": {
+      {
+        "gameIndex": 136,
         "white": "Vidit, Santosh Gujrathi",
         "black": "Oro, Faustino",
         "whiteAccuracy": 96.9,
@@ -10941,7 +11078,8 @@
         },
         "biggestBlunder": null
       },
-      "137": {
+      {
+        "gameIndex": 137,
         "white": "Kourkoulos-Arditis, Stamatis",
         "black": "Nihal, Sarin",
         "whiteAccuracy": 94.2,
@@ -10964,7 +11102,8 @@
         },
         "biggestBlunder": null
       },
-      "138": {
+      {
+        "gameIndex": 138,
         "white": "Sevian, Samuel",
         "black": "Tin, Jingyao",
         "whiteAccuracy": 91.6,
@@ -10987,7 +11126,8 @@
         },
         "biggestBlunder": null
       },
-      "139": {
+      {
+        "gameIndex": 139,
         "white": "Bai, Jinshi",
         "black": "Dubov, Daniil",
         "whiteAccuracy": 97.6,
@@ -11010,7 +11150,8 @@
         },
         "biggestBlunder": null
       },
-      "140": {
+      {
+        "gameIndex": 140,
         "white": "Bu, Xiangzhi",
         "black": "Yilmaz, Mustafa",
         "whiteAccuracy": 97.3,
@@ -11033,7 +11174,8 @@
         },
         "biggestBlunder": null
       },
-      "141": {
+      {
+        "gameIndex": 141,
         "white": "Cori, Jorge",
         "black": "Sargsyan, Shant",
         "whiteAccuracy": 95.4,
@@ -11056,7 +11198,8 @@
         },
         "biggestBlunder": null
       },
-      "142": {
+      {
+        "gameIndex": 142,
         "white": "Karthikeyan, Murali",
         "black": "Idani, Pouya",
         "whiteAccuracy": 91.1,
@@ -11079,7 +11222,8 @@
         },
         "biggestBlunder": null
       },
-      "143": {
+      {
+        "gameIndex": 143,
         "white": "Oparin, Grigoriy",
         "black": "Dardha, Daniel",
         "whiteAccuracy": 94.1,
@@ -11111,7 +11255,8 @@
           "evalAfter": -346
         }
       },
-      "144": {
+      {
+        "gameIndex": 144,
         "white": "Svane, Rasmus",
         "black": "Mamedov, Rauf",
         "whiteAccuracy": 96.1,
@@ -11134,7 +11279,8 @@
         },
         "biggestBlunder": null
       },
-      "145": {
+      {
+        "gameIndex": 145,
         "white": "Deac, Bogdan-Daniel",
         "black": "Suleymanli, Aydin",
         "whiteAccuracy": 91.4,
@@ -11166,7 +11312,8 @@
           "evalAfter": 64
         }
       },
-      "146": {
+      {
+        "gameIndex": 146,
         "white": "Lagarde, Maxime",
         "black": "Wojtaszek, Radoslaw",
         "whiteAccuracy": 95.2,
@@ -11189,7 +11336,8 @@
         },
         "biggestBlunder": null
       },
-      "147": {
+      {
+        "gameIndex": 147,
         "white": "Vitiugov, Nikita",
         "black": "Narayanan, S",
         "whiteAccuracy": 95,
@@ -11212,7 +11360,8 @@
         },
         "biggestBlunder": null
       },
-      "148": {
+      {
+        "gameIndex": 148,
         "white": "Indjic, Aleksandar",
         "black": "Theodorou, Nikolas",
         "whiteAccuracy": 95.8,
@@ -11235,7 +11384,8 @@
         },
         "biggestBlunder": null
       },
-      "149": {
+      {
+        "gameIndex": 149,
         "white": "Rodshtein, Maxim",
         "black": "Sargissian, Gabriel",
         "whiteAccuracy": 93.7,
@@ -11258,7 +11408,8 @@
         },
         "biggestBlunder": null
       },
-      "150": {
+      {
+        "gameIndex": 150,
         "white": "Martirosyan, Haik M.",
         "black": "Artemiev, Vladislav",
         "whiteAccuracy": 97,
@@ -11281,7 +11432,8 @@
         },
         "biggestBlunder": null
       },
-      "151": {
+      {
+        "gameIndex": 151,
         "white": "Adams, Michael",
         "black": "Cheparinov, Ivan",
         "whiteAccuracy": 96.4,
@@ -11304,7 +11456,8 @@
         },
         "biggestBlunder": null
       },
-      "152": {
+      {
+        "gameIndex": 152,
         "white": "Bacrot, Etienne",
         "black": "Grandelius, Nils",
         "whiteAccuracy": 94.8,
@@ -11327,7 +11480,8 @@
         },
         "biggestBlunder": null
       },
-      "153": {
+      {
+        "gameIndex": 153,
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Ivic, Velimir",
         "whiteAccuracy": 95.6,
@@ -11359,7 +11513,8 @@
           "evalAfter": 2
         }
       },
-      "154": {
+      {
+        "gameIndex": 154,
         "white": "Pranesh, M",
         "black": "Kollars, Dmitrij",
         "whiteAccuracy": 94.5,
@@ -11382,7 +11537,8 @@
         },
         "biggestBlunder": null
       },
-      "155": {
+      {
+        "gameIndex": 155,
         "white": "Pranav, V",
         "black": "Tari, Aryan",
         "whiteAccuracy": 95.3,
@@ -11405,7 +11561,8 @@
         },
         "biggestBlunder": null
       },
-      "156": {
+      {
+        "gameIndex": 156,
         "white": "Hovhannisyan, Robert",
         "black": "Sadhwani, Raunak",
         "whiteAccuracy": 95.6,
@@ -11428,7 +11585,8 @@
         },
         "biggestBlunder": null
       },
-      "157": {
+      {
+        "gameIndex": 157,
         "white": "Chigaev, Maksim",
         "black": "Vokhidov, Shamsiddin",
         "whiteAccuracy": 92.1,
@@ -11451,7 +11609,8 @@
         },
         "biggestBlunder": null
       },
-      "158": {
+      {
+        "gameIndex": 158,
         "white": "Praggnanandhaa, R",
         "black": "Kuybokarov, Temur",
         "whiteAccuracy": 92.4,
@@ -11474,7 +11633,8 @@
         },
         "biggestBlunder": null
       },
-      "159": {
+      {
+        "gameIndex": 159,
         "white": "Abdusattorov, Nodirbek",
         "black": "Makhnev, Denis",
         "whiteAccuracy": 96.1,
@@ -11497,7 +11657,8 @@
         },
         "biggestBlunder": null
       },
-      "160": {
+      {
+        "gameIndex": 160,
         "white": "Mamedyarov, Shakhriyar",
         "black": "Kantor, Gergely",
         "whiteAccuracy": 94.1,
@@ -11520,7 +11681,8 @@
         },
         "biggestBlunder": null
       },
-      "161": {
+      {
+        "gameIndex": 161,
         "white": "Niemann, Hans Moke",
         "black": "Lodici, Lorenzo",
         "whiteAccuracy": 95,
@@ -11543,7 +11705,8 @@
         },
         "biggestBlunder": null
       },
-      "162": {
+      {
+        "gameIndex": 162,
         "white": "Yu, Yangyi",
         "black": "Blohberger, Felix",
         "whiteAccuracy": 94.6,
@@ -11566,7 +11729,8 @@
         },
         "biggestBlunder": null
       },
-      "163": {
+      {
+        "gameIndex": 163,
         "white": "Oro, Faustino",
         "black": "Vidit, Santosh Gujrathi",
         "whiteAccuracy": 92.7,
@@ -11589,7 +11753,8 @@
         },
         "biggestBlunder": null
       },
-      "164": {
+      {
+        "gameIndex": 164,
         "white": "Nihal, Sarin",
         "black": "Kourkoulos-Arditis, Stamatis",
         "whiteAccuracy": 94.9,
@@ -11612,7 +11777,8 @@
         },
         "biggestBlunder": null
       },
-      "165": {
+      {
+        "gameIndex": 165,
         "white": "Tin, Jingyao",
         "black": "Sevian, Samuel",
         "whiteAccuracy": 90.4,
@@ -11644,7 +11810,8 @@
           "evalAfter": -830
         }
       },
-      "166": {
+      {
+        "gameIndex": 166,
         "white": "Dubov, Daniil",
         "black": "Bai, Jinshi",
         "whiteAccuracy": 97.8,
@@ -11667,7 +11834,8 @@
         },
         "biggestBlunder": null
       },
-      "167": {
+      {
+        "gameIndex": 167,
         "white": "Yilmaz, Mustafa",
         "black": "Bu, Xiangzhi",
         "whiteAccuracy": 95.5,
@@ -11690,7 +11858,8 @@
         },
         "biggestBlunder": null
       },
-      "168": {
+      {
+        "gameIndex": 168,
         "white": "Sargsyan, Shant",
         "black": "Cori, Jorge",
         "whiteAccuracy": 93.4,
@@ -11713,7 +11882,8 @@
         },
         "biggestBlunder": null
       },
-      "169": {
+      {
+        "gameIndex": 169,
         "white": "Idani, Pouya",
         "black": "Karthikeyan, Murali",
         "whiteAccuracy": 90.6,
@@ -11745,7 +11915,8 @@
           "evalAfter": 515
         }
       },
-      "170": {
+      {
+        "gameIndex": 170,
         "white": "Dardha, Daniel",
         "black": "Oparin, Grigoriy",
         "whiteAccuracy": 92.6,
@@ -11768,7 +11939,8 @@
         },
         "biggestBlunder": null
       },
-      "171": {
+      {
+        "gameIndex": 171,
         "white": "Mamedov, Rauf",
         "black": "Svane, Rasmus",
         "whiteAccuracy": 97.3,
@@ -11791,7 +11963,8 @@
         },
         "biggestBlunder": null
       },
-      "172": {
+      {
+        "gameIndex": 172,
         "white": "Suleymanli, Aydin",
         "black": "Deac, Bogdan-Daniel",
         "whiteAccuracy": 97.7,
@@ -11814,7 +11987,8 @@
         },
         "biggestBlunder": null
       },
-      "173": {
+      {
+        "gameIndex": 173,
         "white": "Wojtaszek, Radoslaw",
         "black": "Lagarde, Maxime",
         "whiteAccuracy": 96.6,
@@ -11846,7 +12020,8 @@
           "evalAfter": 386
         }
       },
-      "174": {
+      {
+        "gameIndex": 174,
         "white": "Narayanan, S",
         "black": "Vitiugov, Nikita",
         "whiteAccuracy": 97.2,
@@ -11869,7 +12044,8 @@
         },
         "biggestBlunder": null
       },
-      "175": {
+      {
+        "gameIndex": 175,
         "white": "Theodorou, Nikolas",
         "black": "Indjic, Aleksandar",
         "whiteAccuracy": 93.8,
@@ -11892,7 +12068,8 @@
         },
         "biggestBlunder": null
       },
-      "176": {
+      {
+        "gameIndex": 176,
         "white": "Sargissian, Gabriel",
         "black": "Rodshtein, Maxim",
         "whiteAccuracy": 95.6,
@@ -11915,7 +12092,8 @@
         },
         "biggestBlunder": null
       },
-      "177": {
+      {
+        "gameIndex": 177,
         "white": "Artemiev, Vladislav",
         "black": "Martirosyan, Haik M.",
         "whiteAccuracy": 95.7,
@@ -11938,7 +12116,8 @@
         },
         "biggestBlunder": null
       },
-      "178": {
+      {
+        "gameIndex": 178,
         "white": "Cheparinov, Ivan",
         "black": "Adams, Michael",
         "whiteAccuracy": 97.1,
@@ -11961,7 +12140,8 @@
         },
         "biggestBlunder": null
       },
-      "179": {
+      {
+        "gameIndex": 179,
         "white": "Grandelius, Nils",
         "black": "Bacrot, Etienne",
         "whiteAccuracy": 90.8,
@@ -11993,7 +12173,8 @@
           "evalAfter": 165
         }
       },
-      "180": {
+      {
+        "gameIndex": 180,
         "white": "Ivic, Velimir",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 95.2,
@@ -12016,7 +12197,8 @@
         },
         "biggestBlunder": null
       },
-      "181": {
+      {
+        "gameIndex": 181,
         "white": "Kollars, Dmitrij",
         "black": "Pranesh, M",
         "whiteAccuracy": 88.5,
@@ -12048,7 +12230,8 @@
           "evalAfter": -153
         }
       },
-      "182": {
+      {
+        "gameIndex": 182,
         "white": "Tari, Aryan",
         "black": "Pranav, V",
         "whiteAccuracy": 96.5,
@@ -12071,7 +12254,8 @@
         },
         "biggestBlunder": null
       },
-      "183": {
+      {
+        "gameIndex": 183,
         "white": "Sadhwani, Raunak",
         "black": "Hovhannisyan, Robert",
         "whiteAccuracy": 87.7,
@@ -12094,7 +12278,8 @@
         },
         "biggestBlunder": null
       },
-      "184": {
+      {
+        "gameIndex": 184,
         "white": "Vokhidov, Shamsiddin",
         "black": "Chigaev, Maksim",
         "whiteAccuracy": 94,
@@ -12117,7 +12302,8 @@
         },
         "biggestBlunder": null
       },
-      "185": {
+      {
+        "gameIndex": 185,
         "white": "Praggnanandhaa, R",
         "black": "Kuybokarov, Temur",
         "whiteAccuracy": 90.8,
@@ -12149,7 +12335,8 @@
           "evalAfter": -270
         }
       },
-      "186": {
+      {
+        "gameIndex": 186,
         "white": "Blohberger, Felix",
         "black": "Yu, Yangyi",
         "whiteAccuracy": 96.6,
@@ -12172,7 +12359,8 @@
         },
         "biggestBlunder": null
       },
-      "187": {
+      {
+        "gameIndex": 187,
         "white": "Dubov, Daniil",
         "black": "Bai, Jinshi",
         "whiteAccuracy": 96.4,
@@ -12195,7 +12383,8 @@
         },
         "biggestBlunder": null
       },
-      "188": {
+      {
+        "gameIndex": 188,
         "white": "Sargsyan, Shant",
         "black": "Cori, Jorge",
         "whiteAccuracy": 90.6,
@@ -12227,7 +12416,8 @@
           "evalAfter": 25
         }
       },
-      "189": {
+      {
+        "gameIndex": 189,
         "white": "Karthikeyan, Murali",
         "black": "Idani, Pouya",
         "whiteAccuracy": 97.6,
@@ -12250,7 +12440,8 @@
         },
         "biggestBlunder": null
       },
-      "190": {
+      {
+        "gameIndex": 190,
         "white": "Svane, Rasmus",
         "black": "Mamedov, Rauf",
         "whiteAccuracy": 96.9,
@@ -12273,7 +12464,8 @@
         },
         "biggestBlunder": null
       },
-      "191": {
+      {
+        "gameIndex": 191,
         "white": "Narayanan, S",
         "black": "Vitiugov, Nikita",
         "whiteAccuracy": 97.1,
@@ -12296,7 +12488,8 @@
         },
         "biggestBlunder": null
       },
-      "192": {
+      {
+        "gameIndex": 192,
         "white": "Rodshtein, Maxim",
         "black": "Sargissian, Gabriel",
         "whiteAccuracy": 94.8,
@@ -12319,7 +12512,8 @@
         },
         "biggestBlunder": null
       },
-      "193": {
+      {
+        "gameIndex": 193,
         "white": "Cheparinov, Ivan",
         "black": "Adams, Michael",
         "whiteAccuracy": 94.1,
@@ -12342,7 +12536,8 @@
         },
         "biggestBlunder": null
       },
-      "194": {
+      {
+        "gameIndex": 194,
         "white": "Ivic, Velimir",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 90.9,
@@ -12365,7 +12560,8 @@
         },
         "biggestBlunder": null
       },
-      "195": {
+      {
+        "gameIndex": 195,
         "white": "Kuybokarov, Temur",
         "black": "Praggnanandhaa, R",
         "whiteAccuracy": 88.3,
@@ -12397,7 +12593,8 @@
           "evalAfter": -645
         }
       },
-      "196": {
+      {
+        "gameIndex": 196,
         "white": "Yu, Yangyi",
         "black": "Blohberger, Felix",
         "whiteAccuracy": 94.4,
@@ -12420,7 +12617,8 @@
         },
         "biggestBlunder": null
       },
-      "197": {
+      {
+        "gameIndex": 197,
         "white": "Bai, Jinshi",
         "black": "Dubov, Daniil",
         "whiteAccuracy": 92.6,
@@ -12452,7 +12650,8 @@
           "evalAfter": -475
         }
       },
-      "198": {
+      {
+        "gameIndex": 198,
         "white": "Cori, Jorge",
         "black": "Sargsyan, Shant",
         "whiteAccuracy": 94.5,
@@ -12475,7 +12674,8 @@
         },
         "biggestBlunder": null
       },
-      "199": {
+      {
+        "gameIndex": 199,
         "white": "Idani, Pouya",
         "black": "Karthikeyan, Murali",
         "whiteAccuracy": 98.2,
@@ -12498,7 +12698,8 @@
         },
         "biggestBlunder": null
       },
-      "200": {
+      {
+        "gameIndex": 200,
         "white": "Mamedov, Rauf",
         "black": "Svane, Rasmus",
         "whiteAccuracy": 94.3,
@@ -12521,7 +12722,8 @@
         },
         "biggestBlunder": null
       },
-      "201": {
+      {
+        "gameIndex": 201,
         "white": "Vitiugov, Nikita",
         "black": "Narayanan, S",
         "whiteAccuracy": 97.2,
@@ -12544,7 +12746,8 @@
         },
         "biggestBlunder": null
       },
-      "202": {
+      {
+        "gameIndex": 202,
         "white": "Sargissian, Gabriel",
         "black": "Rodshtein, Maxim",
         "whiteAccuracy": 89.5,
@@ -12567,7 +12770,8 @@
         },
         "biggestBlunder": null
       },
-      "203": {
+      {
+        "gameIndex": 203,
         "white": "Adams, Michael",
         "black": "Cheparinov, Ivan",
         "whiteAccuracy": 94.9,
@@ -12590,7 +12794,8 @@
         },
         "biggestBlunder": null
       },
-      "204": {
+      {
+        "gameIndex": 204,
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Ivic, Velimir",
         "whiteAccuracy": 92.7,
@@ -12613,7 +12818,8 @@
         },
         "biggestBlunder": null
       },
-      "205": {
+      {
+        "gameIndex": 205,
         "white": "Praggnanandhaa, R",
         "black": "Kuybokarov, Temur",
         "whiteAccuracy": 95.8,
@@ -12636,7 +12842,8 @@
         },
         "biggestBlunder": null
       },
-      "206": {
+      {
+        "gameIndex": 206,
         "white": "Yu, Yangyi",
         "black": "Blohberger, Felix",
         "whiteAccuracy": 97.1,
@@ -12659,7 +12866,8 @@
         },
         "biggestBlunder": null
       },
-      "207": {
+      {
+        "gameIndex": 207,
         "white": "Karthikeyan, Murali",
         "black": "Idani, Pouya",
         "whiteAccuracy": 96.9,
@@ -12682,7 +12890,8 @@
         },
         "biggestBlunder": null
       },
-      "208": {
+      {
+        "gameIndex": 208,
         "white": "Svane, Rasmus",
         "black": "Mamedov, Rauf",
         "whiteAccuracy": 96.6,
@@ -12705,7 +12914,8 @@
         },
         "biggestBlunder": null
       },
-      "209": {
+      {
+        "gameIndex": 209,
         "white": "Narayanan, S",
         "black": "Vitiugov, Nikita",
         "whiteAccuracy": 90.8,
@@ -12737,7 +12947,8 @@
           "evalAfter": 25
         }
       },
-      "210": {
+      {
+        "gameIndex": 210,
         "white": "Adams, Michael",
         "black": "Cheparinov, Ivan",
         "whiteAccuracy": 94.8,
@@ -12760,7 +12971,8 @@
         },
         "biggestBlunder": null
       },
-      "211": {
+      {
+        "gameIndex": 211,
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Ivic, Velimir",
         "whiteAccuracy": 93.9,
@@ -12783,7 +12995,8 @@
         },
         "biggestBlunder": null
       },
-      "212": {
+      {
+        "gameIndex": 212,
         "white": "Kuybokarov, Temur",
         "black": "Praggnanandhaa, R",
         "whiteAccuracy": 87.3,
@@ -12815,7 +13028,8 @@
           "evalAfter": 94
         }
       },
-      "213": {
+      {
+        "gameIndex": 213,
         "white": "Blohberger, Felix",
         "black": "Yu, Yangyi",
         "whiteAccuracy": 93.4,
@@ -12838,7 +13052,8 @@
         },
         "biggestBlunder": null
       },
-      "214": {
+      {
+        "gameIndex": 214,
         "white": "Idani, Pouya",
         "black": "Karthikeyan, Murali",
         "whiteAccuracy": 92.7,
@@ -12870,7 +13085,8 @@
           "evalAfter": 575
         }
       },
-      "215": {
+      {
+        "gameIndex": 215,
         "white": "Mamedov, Rauf",
         "black": "Svane, Rasmus",
         "whiteAccuracy": 92.1,
@@ -12893,7 +13109,8 @@
         },
         "biggestBlunder": null
       },
-      "216": {
+      {
+        "gameIndex": 216,
         "white": "Vitiugov, Nikita",
         "black": "Narayanan, S",
         "whiteAccuracy": 90.1,
@@ -12916,7 +13133,8 @@
         },
         "biggestBlunder": null
       },
-      "217": {
+      {
+        "gameIndex": 217,
         "white": "Cheparinov, Ivan",
         "black": "Adams, Michael",
         "whiteAccuracy": 92.7,
@@ -12948,7 +13166,8 @@
           "evalAfter": 0
         }
       },
-      "218": {
+      {
+        "gameIndex": 218,
         "white": "Ivic, Velimir",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 92.7,
@@ -12980,7 +13199,8 @@
           "evalAfter": -90
         }
       },
-      "219": {
+      {
+        "gameIndex": 219,
         "white": "Mamedov, Rauf",
         "black": "Svane, Rasmus",
         "whiteAccuracy": 91.1,
@@ -13012,7 +13232,8 @@
           "evalAfter": 592
         }
       },
-      "220": {
+      {
+        "gameIndex": 220,
         "white": "Cheparinov, Ivan",
         "black": "Adams, Michael",
         "whiteAccuracy": 92.1,
@@ -13035,7 +13256,7 @@
         },
         "biggestBlunder": null
       }
-    },
+    ],
     "summary": {
       "accuracyKing": {
         "player": "black",

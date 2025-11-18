@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Round of 16)",
-  "generatedAt": "2025-11-18T22:04:27.864Z",
+  "generatedAt": "2025-11-18T22:12:04.943Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 4,
@@ -3131,8 +3131,9 @@
     }
   },
   "analysis": {
-    "games": {
-      "0": {
+    "games": [
+      {
+        "gameIndex": 0,
         "white": "Sindarov, Javokhir",
         "black": "Svane, Frederik",
         "whiteAccuracy": 96,
@@ -3155,7 +3156,8 @@
         },
         "biggestBlunder": null
       },
-      "1": {
+      {
+        "gameIndex": 1,
         "white": "Erigaisi, Arjun",
         "black": "Aronian, Levon",
         "whiteAccuracy": 95.3,
@@ -3178,7 +3180,8 @@
         },
         "biggestBlunder": null
       },
-      "2": {
+      {
+        "gameIndex": 2,
         "white": "Shankland, Sam",
         "black": "Dubov, Daniil",
         "whiteAccuracy": 95.6,
@@ -3201,7 +3204,8 @@
         },
         "biggestBlunder": null
       },
-      "3": {
+      {
+        "gameIndex": 3,
         "white": "Donchenko, Alexander",
         "black": "Le, Quang Liem",
         "whiteAccuracy": 95.5,
@@ -3224,7 +3228,8 @@
         },
         "biggestBlunder": null
       },
-      "4": {
+      {
+        "gameIndex": 4,
         "white": "Sargissian, Gabriel",
         "black": "Yakubboev, Nodirbek",
         "whiteAccuracy": 98.1,
@@ -3247,7 +3252,8 @@
         },
         "biggestBlunder": null
       },
-      "5": {
+      {
+        "gameIndex": 5,
         "white": "Esipenko, Andrey",
         "black": "Grebnev, Aleksey",
         "whiteAccuracy": 95.9,
@@ -3270,7 +3276,8 @@
         },
         "biggestBlunder": null
       },
-      "6": {
+      {
+        "gameIndex": 6,
         "white": "Sevian, Samuel",
         "black": "Wei, Yi",
         "whiteAccuracy": 98.1,
@@ -3293,7 +3300,8 @@
         },
         "biggestBlunder": null
       },
-      "7": {
+      {
+        "gameIndex": 7,
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Harikrishna, Pentala",
         "whiteAccuracy": 97.6,
@@ -3316,7 +3324,8 @@
         },
         "biggestBlunder": null
       },
-      "8": {
+      {
+        "gameIndex": 8,
         "white": "Svane, Frederik",
         "black": "Sindarov, Javokhir",
         "whiteAccuracy": 96.3,
@@ -3339,7 +3348,8 @@
         },
         "biggestBlunder": null
       },
-      "9": {
+      {
+        "gameIndex": 9,
         "white": "Aronian, Levon",
         "black": "Erigaisi, Arjun",
         "whiteAccuracy": 92,
@@ -3371,7 +3381,8 @@
           "evalAfter": -483
         }
       },
-      "10": {
+      {
+        "gameIndex": 10,
         "white": "Dubov, Daniil",
         "black": "Shankland, Sam",
         "whiteAccuracy": 98,
@@ -3394,7 +3405,8 @@
         },
         "biggestBlunder": null
       },
-      "11": {
+      {
+        "gameIndex": 11,
         "white": "Le, Quang Liem",
         "black": "Donchenko, Alexander",
         "whiteAccuracy": 94.3,
@@ -3426,7 +3438,8 @@
           "evalAfter": -7
         }
       },
-      "12": {
+      {
+        "gameIndex": 12,
         "white": "Yakubboev, Nodirbek",
         "black": "Sargissian, Gabriel",
         "whiteAccuracy": 94.3,
@@ -3449,7 +3462,8 @@
         },
         "biggestBlunder": null
       },
-      "13": {
+      {
+        "gameIndex": 13,
         "white": "Grebnev, Aleksey",
         "black": "Esipenko, Andrey",
         "whiteAccuracy": 97.9,
@@ -3472,7 +3486,8 @@
         },
         "biggestBlunder": null
       },
-      "14": {
+      {
+        "gameIndex": 14,
         "white": "Wei, Yi",
         "black": "Sevian, Samuel",
         "whiteAccuracy": 94.7,
@@ -3495,7 +3510,8 @@
         },
         "biggestBlunder": null
       },
-      "15": {
+      {
+        "gameIndex": 15,
         "white": "Harikrishna, Pentala",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 96.3,
@@ -3518,7 +3534,8 @@
         },
         "biggestBlunder": null
       },
-      "16": {
+      {
+        "gameIndex": 16,
         "white": "Shankland, Sam",
         "black": "Dubov, Daniil",
         "whiteAccuracy": 94.6,
@@ -3541,7 +3558,8 @@
         },
         "biggestBlunder": null
       },
-      "17": {
+      {
+        "gameIndex": 17,
         "white": "Le, Quang Liem",
         "black": "Donchenko, Alexander",
         "whiteAccuracy": 89.8,
@@ -3564,7 +3582,8 @@
         },
         "biggestBlunder": null
       },
-      "18": {
+      {
+        "gameIndex": 18,
         "white": "Esipenko, Andrey",
         "black": "Grebnev, Aleksey",
         "whiteAccuracy": 96.9,
@@ -3587,7 +3606,8 @@
         },
         "biggestBlunder": null
       },
-      "19": {
+      {
+        "gameIndex": 19,
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Harikrishna, Pentala",
         "whiteAccuracy": 95,
@@ -3610,7 +3630,8 @@
         },
         "biggestBlunder": null
       },
-      "20": {
+      {
+        "gameIndex": 20,
         "white": "Dubov, Daniil",
         "black": "Shankland, Sam",
         "whiteAccuracy": 95.5,
@@ -3642,7 +3663,8 @@
           "evalAfter": -372
         }
       },
-      "21": {
+      {
+        "gameIndex": 21,
         "white": "Donchenko, Alexander",
         "black": "Le, Quang Liem",
         "whiteAccuracy": 86.9,
@@ -3674,7 +3696,8 @@
           "evalAfter": -170
         }
       },
-      "22": {
+      {
+        "gameIndex": 22,
         "white": "Grebnev, Aleksey",
         "black": "Esipenko, Andrey",
         "whiteAccuracy": 95.3,
@@ -3706,7 +3729,8 @@
           "evalAfter": 7
         }
       },
-      "23": {
+      {
+        "gameIndex": 23,
         "white": "Harikrishna, Pentala",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 95.4,
@@ -3729,7 +3753,8 @@
         },
         "biggestBlunder": null
       },
-      "24": {
+      {
+        "gameIndex": 24,
         "white": "Le, Quang Liem",
         "black": "Donchenko, Alexander",
         "whiteAccuracy": 94.7,
@@ -3752,7 +3777,8 @@
         },
         "biggestBlunder": null
       },
-      "25": {
+      {
+        "gameIndex": 25,
         "white": "Harikrishna, Pentala",
         "black": "Martinez Alcantara, Jose Eduardo",
         "whiteAccuracy": 92.9,
@@ -3775,7 +3801,8 @@
         },
         "biggestBlunder": null
       },
-      "26": {
+      {
+        "gameIndex": 26,
         "white": "Donchenko, Alexander",
         "black": "Le, Quang Liem",
         "whiteAccuracy": 92.1,
@@ -3807,7 +3834,8 @@
           "evalAfter": -370
         }
       },
-      "27": {
+      {
+        "gameIndex": 27,
         "white": "Martinez Alcantara, Jose Eduardo",
         "black": "Harikrishna, Pentala",
         "whiteAccuracy": 90.1,
@@ -3839,7 +3867,8 @@
           "evalAfter": 434
         }
       },
-      "28": {
+      {
+        "gameIndex": 28,
         "white": "Le, Quang Liem",
         "black": "Donchenko, Alexander",
         "whiteAccuracy": 96.3,
@@ -3862,7 +3891,8 @@
         },
         "biggestBlunder": null
       },
-      "29": {
+      {
+        "gameIndex": 29,
         "white": "Donchenko, Alexander",
         "black": "Le, Quang Liem",
         "whiteAccuracy": 93.6,
@@ -3894,7 +3924,7 @@
           "evalAfter": 517
         }
       }
-    },
+    ],
     "summary": {
       "accuracyKing": {
         "player": "black",
