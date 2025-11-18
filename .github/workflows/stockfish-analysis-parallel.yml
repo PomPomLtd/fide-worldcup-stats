@@ -1,0 +1,224 @@
+name: 🔬 Stockfish Analysis (Parallel)
+run-name: 🔬 Stockfish Parallel Rounds 1-6 (depth ${{ inputs.depth || 15 }})
+
+on:
+  workflow_dispatch:
+    inputs:
+      depth:
+        description: 'Stockfish depth (default: 15)'
+        required: false
+        default: '15'
+        type: number
+
+jobs:
+  # Job 1: Prepare PGN files (run once)
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Download and extract PGN files
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📥 Downloading FIDE World Cup 2025 PGN data"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          curl -L https://worldcup2025.fide.com/files/cup2025.zip -o /tmp/cup2025.zip
+          echo "📦 Extracting PGN files..."
+          mkdir -p _SRC/cup2025
+          unzip -q /tmp/cup2025.zip -d _SRC/cup2025/
+          echo "✅ PGN files ready ($(find _SRC/cup2025 -name '*.pgn' | wc -l) files)"
+
+      - name: Upload PGN files as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pgn-files
+          path: _SRC/cup2025/
+          retention-days: 1
+
+  # Job 2: Analyze rounds in parallel (matrix strategy)
+  analyze:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 60  # 1 hour per round maximum
+
+    strategy:
+      fail-fast: false  # Continue other rounds even if one fails
+      matrix:
+        round: [1, 2, 3, 4, 5, 6]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Stockfish
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y stockfish >/dev/null
+          stockfish quit 2>&1 | head -1
+
+      - name: Install Python dependencies
+        run: |
+          pip3 install -q -r requirements.txt
+
+      - name: Download PGN files
+        uses: actions/download-artifact@v4
+        with:
+          name: pgn-files
+          path: _SRC/cup2025/
+
+      - name: Create analysis directory
+        run: mkdir -p data/analysis
+
+      - name: Analyze Round ${{ matrix.round }}
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🔬 Analyzing Round ${{ matrix.round }}"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          # Find all PGN files for this round
+          pgn_files=$(find _SRC/cup2025 -name "games.pgn" -path "*round${{ matrix.round }}game*" | sort)
+
+          if [ -z "$pgn_files" ]; then
+            echo "⚠️  No PGN files found for Round ${{ matrix.round }}"
+            exit 1
+          fi
+
+          file_count=$(echo "$pgn_files" | wc -l)
+          echo "📂 Found $file_count PGN file(s)"
+
+          # Concatenate all PGN files for this round
+          echo "📥 Concatenating PGN files..."
+          cat $pgn_files > "/tmp/round-${{ matrix.round }}-all.pgn"
+
+          # Count games
+          game_count=$(grep -c '^\[Event ' "/tmp/round-${{ matrix.round }}-all.pgn" || echo "0")
+          echo "♟️  Total games: $game_count"
+          echo ""
+
+          # Run Stockfish analysis (stderr shows progress, stdout is JSON)
+          cat "/tmp/round-${{ matrix.round }}-all.pgn" | \
+            python3 scripts/analyze-pgn.py --depth ${{ inputs.depth }} \
+            > "data/analysis/round-${{ matrix.round }}-analysis.json" || true
+
+          echo ""
+
+          # Check output
+          if [ -f "data/analysis/round-${{ matrix.round }}-analysis.json" ]; then
+            size=$(du -h "data/analysis/round-${{ matrix.round }}-analysis.json" | cut -f1)
+            echo "✅ Analysis complete: round-${{ matrix.round }}-analysis.json ($size)"
+          else
+            echo "❌ Analysis failed for Round ${{ matrix.round }}"
+            exit 1
+          fi
+
+      - name: Upload analysis results
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-round-${{ matrix.round }}
+          path: data/analysis/round-${{ matrix.round }}-analysis.json
+          retention-days: 1
+
+  # Job 3: Collect results and commit (runs after all analyze jobs)
+  commit:
+    needs: analyze
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create analysis directory
+        run: mkdir -p data/analysis
+
+      - name: Download all analysis results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: analysis-round-*
+          path: data/analysis/
+          merge-multiple: true
+
+      - name: Verify results
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 Analysis Results Summary"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo ""
+
+          if [ -d "data/analysis" ] && [ "$(ls -A data/analysis 2>/dev/null)" ]; then
+            echo "📂 Generated files:"
+            ls -lh data/analysis/
+            echo ""
+
+            # Show summary for each round
+            echo "🎯 Games analyzed per round:"
+            for file in data/analysis/round-*-analysis.json; do
+              if [ -f "$file" ]; then
+                round=$(basename "$file" | grep -oP 'round-\K\d+')
+                games=$(cat "$file" | grep -o '"gameIndex"' | wc -l)
+                size=$(du -h "$file" | cut -f1)
+                echo "  • Round $round: $games games ($size)"
+              fi
+            done
+          else
+            echo "⚠️  No analysis files generated"
+          fi
+          echo ""
+
+      - name: Commit and push results
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📝 Committing Results"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          # Check if any analysis files were generated
+          if ! ls data/analysis/*.json >/dev/null 2>&1; then
+            echo "⚠️  No analysis files to commit"
+            exit 0
+          fi
+
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add data/analysis/*.json
+
+          if git diff --staged --quiet; then
+            echo "ℹ️  No changes to commit (files unchanged)"
+          else
+            git commit -m "Add Stockfish analysis for all rounds
+
+          Analyzed with depth ${{ inputs.depth }} (parallel execution)
+          Generated by GitHub Actions"
+
+            git pull --rebase
+            git push
+            echo "✅ Results committed and pushed"
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 Parallel Analysis Summary"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "Scope: All rounds (parallel execution)"
+          echo "Depth: ${{ inputs.depth }}"
+          echo ""
+
+          if [ -d "data/analysis" ]; then
+            file_count=$(ls -1 data/analysis/round-*-analysis.json 2>/dev/null | wc -l)
+            echo "Files generated: $file_count"
+
+            total_size=$(du -sh data/analysis 2>/dev/null | cut -f1 || echo "0")
+            echo "Total size: $total_size"
+          else
+            echo "No analysis files generated"
+          fi
