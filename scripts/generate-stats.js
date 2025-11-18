@@ -34,6 +34,9 @@ const { calculateFideFunAwards } = require('./utils/calculators/fide-fun-awards'
 const { calculateFunStats } = require('./utils/calculators/fun-stats');
 const { calculateTimeAwards } = require('./utils/calculators/time-awards');
 
+// Analysis reader (for Stockfish data)
+const { readRoundAnalysis, hasAnalysis, formatAnalysisForStats } = require('./utils/analysis-reader');
+
 /**
  * Extract all games from matches
  * @param {Array<Object>} matches - Match objects
@@ -79,64 +82,6 @@ function filterByTimeControl(games, type, tier = null) {
     }
     return classification.type === type;
   });
-}
-
-/**
- * Run Stockfish analysis on all games
- * @param {Array<Object>} games - Games with PGN data
- * @param {number} depth - Stockfish search depth
- * @param {number} sampleRate - Analyze every Nth move (1 = all moves)
- * @returns {Object|null} Analysis results or null if analysis fails
- */
-function runStockfishAnalysis(games, depth = 15, sampleRate = 1) {
-  console.log(`\n  Running Stockfish Analysis...`);
-  console.log(`    → Depth: ${depth}, Sample rate: every ${sampleRate} move(s)`);
-  console.log(`    → Analyzing ${games.length} games...`);
-
-  // Prepare game metadata with PGN and ratings
-  const gamesWithMetadata = games
-    .filter(g => g.pgn)
-    .map((g, idx) => ({
-      gameIndex: idx,
-      white: g.white,
-      black: g.black,
-      whiteRating: g.whiteRating,
-      blackRating: g.blackRating,
-      pgn: g.pgn
-    }));
-
-  if (gamesWithMetadata.length === 0) {
-    console.log('    ⚠️  No PGN data found, skipping analysis');
-    return null;
-  }
-
-  const pythonPath = path.join(process.cwd(), 'venv', 'bin', 'python3');
-  const scriptPath = path.join(process.cwd(), 'scripts', 'analyze-pgn.py');
-
-  try {
-    const startTime = Date.now();
-    const output = execSync(
-      `${pythonPath} ${scriptPath} --depth ${depth} --sample ${sampleRate} --json-input`,
-      {
-        input: JSON.stringify({ games: gamesWithMetadata }),
-        encoding: 'utf8',
-        maxBuffer: 50 * 1024 * 1024, // 50MB buffer for large outputs
-        cwd: process.cwd(),
-        stdio: ['pipe', 'pipe', 'inherit'] // Show progress on stderr
-      }
-    );
-
-    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-    const results = JSON.parse(output);
-
-    console.log(`    ✓ Stockfish analysis complete in ${elapsed}s`);
-    return results;
-
-  } catch (error) {
-    console.error('    ❌ Stockfish analysis failed:', error.message);
-    console.error('    Continuing without analysis data...');
-    return null;
-  }
 }
 
 /**
@@ -270,10 +215,18 @@ function generateStatsForRound(roundNum, options = {}) {
   const timeAwards = calculateTimeAwards(allGames);
   console.log('    ✓ Time Awards complete');
 
-  // Stockfish Analysis (optional, if --analyze flag is set)
+  // Stockfish Analysis (read from pre-generated analysis files if available)
   let analysis = null;
-  if (options.analyze) {
-    analysis = runStockfishAnalysis(allGames, options.depth || 15, options.sample || 1);
+  if (hasAnalysis(roundNum)) {
+    console.log(`\n  Reading Stockfish analysis from data/analysis/round-${roundNum}-analysis.json...`);
+    const rawAnalysis = readRoundAnalysis(roundNum);
+    analysis = formatAnalysisForStats(rawAnalysis);
+    if (analysis) {
+      console.log(`    ✓ Loaded analysis for ${analysis.metadata.gamesAnalyzed} games (depth ${analysis.metadata.depth})`);
+    }
+  } else {
+    console.log(`\n  ℹ️  No Stockfish analysis found for Round ${roundNum}`);
+    console.log(`     Run: gh workflow run "🔬 Stockfish Analysis (Parallel)"  to generate analysis`);
   }
 
   // Compile final output

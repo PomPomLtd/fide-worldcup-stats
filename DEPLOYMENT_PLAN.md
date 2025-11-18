@@ -30,29 +30,28 @@ Deploy FIDE World Cup Stats to Vercel with manual-trigger GitHub Actions workflo
 #### Available Workflows
 
 **📊 Generate Tournament Statistics** (`.github/workflows/generate-stats.yml`)
-- **Purpose**: Complete stats generation pipeline
-- **Time**: 30 min (without Stockfish) or 3-5 hours (with Stockfish)
-- **Generates**: All stats (awards, openings, tactics, etc.) + optional Stockfish analysis
+- **Purpose**: Complete stats generation pipeline (Stockfish-independent)
+- **Time**: ~30 minutes
+- **Generates**: All stats (awards, openings, tactics, etc.) + reads existing Stockfish analysis if available
 - **Steps**:
   1. Download and extract PGN files from FIDE
   2. Consolidate PGNs by match
   3. Classify games by time control
   4. Enrich with opening names
-  5. Generate statistics
-  6. Optional: Run Stockfish analysis (sequential, with progress)
-  7. Generate tournament overview
-  8. Commit all results
-  9. Triggers Vercel deployment
+  5. Generate statistics (reads Stockfish data from `data/analysis/*.json` if present)
+  6. Generate tournament overview
+  7. Commit all results
+  8. Triggers Vercel deployment
 
 **🔬 Stockfish Analysis (Parallel)** (`.github/workflows/stockfish-analysis-parallel.yml`)
-- **Purpose**: Fast parallel engine analysis
-- **Time**: ~60 minutes (6x faster than sequential)
-- **Generates**: Engine analysis only (accuracy, blunders, ACPL)
+- **Purpose**: Fast parallel engine analysis (independent of stats generation)
+- **Time**: ~60 minutes
+- **Generates**: Engine analysis files (`data/analysis/round-N-analysis.json`)
 - **Architecture**:
   - Job 1: Download PGNs, upload as artifact
   - Job 2: Matrix of 6 parallel analysis jobs (one per round)
-  - Job 3: Collect all results, commit
-- **Note**: Run "Generate Statistics" first, then this workflow
+  - Job 3: Collect all results, commit to `data/analysis/`
+- **Note**: Analysis persists across stats regenerations. Run this workflow whenever you want to update engine data.
 
 **🔬 Stockfish Analysis** (`.github/workflows/stockfish-analysis.yml`)
 - **Purpose**: Sequential analysis with detailed progress
@@ -66,34 +65,31 @@ Deploy FIDE World Cup Stats to Vercel with manual-trigger GitHub Actions workflo
 
 ### 3. Data Pipeline
 
-**Manual Trigger → Stats Generation → Commit → Vercel Deploy**
+**Decoupled Architecture: Stats ↔ Stockfish Analysis**
 
 ```
-Manual workflow trigger via GitHub UI or CLI
-  ↓
-Download cup2025.zip from FIDE website
-  ↓
-Extract to _SRC/cup2025/
-  ↓
-Stage 1: Consolidate PGNs by match
-Stage 2: Classify by time control
-Stage 3: Enrich with opening names
-Stage 4: Generate statistics
-Stage 5: Optional Stockfish analysis
-Stage 6: Generate tournament overview
-  ↓
-Commit to public/stats/*.json
-  ↓
-Push to main branch
-  ↓
-Vercel auto-deploys updated site
+📊 Stats Generation (30 min):
+  Manual trigger → Download PGNs → Consolidate → Classify → Enrich
+    → Generate Stats (reads data/analysis/*.json if present)
+    → Generate Overview → Commit → Push → Vercel Deploy
+
+🔬 Stockfish Analysis (60 min, independent):
+  Manual trigger → Download PGNs → Parallel Analysis (6 rounds)
+    → Write data/analysis/round-N-analysis.json → Commit → Push
 ```
 
-**Key Points:**
-- PGN files are downloaded fresh from FIDE each run (not committed to git)
-- Generated stats ARE committed to `public/stats/` for Vercel deployment
-- Vercel automatically redeploys when stats are pushed
-- No secrets or tokens required (public repository)
+**Key Benefits:**
+- **Fast stats regeneration**: 30 min (no Stockfish blocking)
+- **Persistent analysis**: Stockfish data survives stats regenerations
+- **On-demand engine updates**: Run Stockfish whenever needed
+- **Flexible workflow**: Update stats daily, analysis weekly
+
+**Data Flow:**
+1. PGN files downloaded fresh from FIDE (not committed)
+2. Stats committed to `public/stats/` for Vercel
+3. Analysis committed to `data/analysis/` (persistent)
+4. Stats generation reads analysis files if present
+5. Vercel auto-deploys on push to main
 
 ## Dependencies
 
@@ -152,57 +148,68 @@ Ensure intermediate data files are ignored but final stats are committed
 
 ## Workflow Execution Strategies
 
-### Strategy 1: One-Shot (Recommended for First Run)
-```bash
-gh workflow run "📊 Generate Tournament Statistics" -f skip_stockfish=false -f depth=15
-```
-- **Time**: 3-5 hours
-- **Result**: Complete stats including Stockfish in one run
-- **Best for**: Initial setup, complete regeneration
-
-### Strategy 2: Two-Step (Fastest for Updates)
+### Strategy 1: Complete First Run (Stats + Stockfish)
 ```bash
 # Step 1: Generate stats (30 min)
 gh workflow run "📊 Generate Tournament Statistics"
 
-# Step 2: Wait for completion, then run parallel Stockfish (60 min)
+# Step 2: After completion, run Stockfish analysis (60 min)
 gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
 ```
 - **Total time**: ~90 minutes
-- **Result**: Same as Strategy 1, but 3x faster
-- **Best for**: Regular updates when data changes
+- **Result**: Complete stats with Stockfish analysis
+- **Best for**: Initial setup, first complete dataset
 
-### Strategy 3: Stats Only (Fastest)
+### Strategy 2: Stats Only (Fastest, Recommended for Updates)
 ```bash
 gh workflow run "📊 Generate Tournament Statistics"
 ```
-- **Time**: 30 minutes
-- **Result**: All stats except Stockfish analysis
-- **Best for**: Quick updates, testing
+- **Time**: ~30 minutes
+- **Result**: All stats (reads existing Stockfish data if available)
+- **Best for**: Daily updates, new PGN data, quick regeneration
+- **Note**: Uses cached Stockfish analysis from previous runs
+
+### Strategy 3: Stockfish Update Only
+```bash
+gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
+```
+- **Time**: ~60 minutes
+- **Result**: Updates engine analysis only
+- **Best for**: Improving analysis depth, fixing analysis bugs
+- **Note**: Stats won't include new analysis until next stats run
 
 ## Important Notes
+
+### Decoupled Architecture Benefits
+- **Fast iteration**: Stats regenerate in 30 min vs 3-5 hours
+- **Persistent analysis**: Stockfish data survives across stats runs
+- **Flexible updates**: Update stats daily, analysis weekly
+- **Independent workflows**: Run stats and Stockfish in any order
+- **No blocking**: Stats generation never waits for Stockfish
 
 ### Stockfish Analysis
 - **Performance**: Sequential = 3-5 hours, Parallel = ~60 minutes
 - **Quality**: Both methods produce identical results
-- **Progress**: Sequential shows nice progress bars, parallel output is interleaved
-- **When to use**: Only needed for engine analysis (accuracy, blunders, ACPL)
+- **Persistence**: Analysis files (`data/analysis/*.json`) are committed
+- **When to use**: Initial run, depth changes, or analysis improvements
+- **When to skip**: Daily stats updates with unchanged PGN data
 
 ### Workflow Timing
-- Never run "Generate Statistics" and "Stockfish (Parallel)" simultaneously
-- Always wait for stats generation to complete before running Stockfish
-- Vercel deployment is automatic on push to main (no manual trigger needed)
-- **Alternative**: Run locally when needed, commit results
+- Workflows can run independently (no dependencies)
+- Stats generation reads analysis files if present
+- Vercel deployment is automatic on push to main
+- **Recommended flow**: Stats → Stockfish (first run), then Stats only for updates
 
 ### Git Operations in Actions
 - Use GitHub Actions bot for commits
 - Configure git user: `github-actions[bot]`
 - Use PAT or GITHUB_TOKEN for push permissions
+- Both workflows commit to git (stats and analysis separately)
 
 ### Build Optimization
-- Cache Node modules
-- Cache Python packages
-- Skip Stockfish for faster runs (default)
+- Cache Node modules (npm ci)
+- Cache Python packages (for Stockfish workflows only)
+- Stats workflow no longer installs Python/Stockfish (30 min saved)
 
 ### Vercel Integration
 - Auto-deploy on push (built-in)

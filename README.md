@@ -114,27 +114,27 @@ All workflows are **manual-trigger only** (no automatic runs). Choose the workfl
 
 #### 📊 Generate Tournament Statistics
 **Purpose**: Complete stats generation (awards, openings, tactics, etc.)
-**Time**: 30 min (without Stockfish) or 3-5 hours (with Stockfish)
-**When to use**: First run or when you want all stats regenerated
+**Time**: ~30 minutes
+**Architecture**: Reads existing Stockfish analysis if available (decoupled)
+**When to use**: Always - for any stats update
 
 ```bash
-# Stats only (fastest - 30 min)
 gh workflow run "📊 Generate Tournament Statistics"
-
-# Stats + Stockfish analysis (slower - 3-5 hours, nice progress output)
-gh workflow run "📊 Generate Tournament Statistics" -f skip_stockfish=false -f depth=15
 ```
 
+**Note**: This workflow reads `data/analysis/*.json` files if present. Stockfish analysis persists across stats regenerations.
+
 #### 🔬 Stockfish Analysis (Parallel)
-**Purpose**: Fast parallel engine analysis across all 6 rounds
-**Time**: ~60 minutes (6x faster than sequential)
-**When to use**: After generating stats, or to update just the Stockfish data
+**Purpose**: Fast parallel engine analysis across all 6 rounds (independent)
+**Time**: ~60 minutes
+**Architecture**: Writes to `data/analysis/*.json` (persists across stats runs)
+**When to use**: First run, or when updating engine analysis depth
 
 ```bash
 gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
 ```
 
-**⚠️ Important**: Run "Generate Tournament Statistics" first, then run this workflow. Don't run both simultaneously.
+**Benefits**: Analysis files persist - stats can regenerate quickly without re-running Stockfish.
 
 #### 🔬 Stockfish Analysis (Sequential)
 **Purpose**: Single-round or sequential analysis with detailed progress
@@ -162,19 +162,30 @@ gh workflow run "🏆 Generate Tournament Overview"
 
 **First Run (Complete Setup):**
 ```bash
-gh workflow run "📊 Generate Tournament Statistics" -f skip_stockfish=false -f depth=15
-```
-Everything in one workflow. Takes 3-5 hours but generates all stats including Stockfish.
-
-**Fast Updates (When Data Changes):**
-```bash
 # Step 1: Generate stats (30 min)
 gh workflow run "📊 Generate Tournament Statistics"
 
-# Step 2: Wait for step 1 to complete, then add Stockfish (60 min)
+# Step 2: After completion, run Stockfish analysis (60 min)
 gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
 
-# Total: ~90 minutes vs 3-5 hours sequential
+# Total: ~90 minutes
+```
+Analysis data persists in `data/analysis/*.json` for future stats regenerations.
+
+**Daily Updates (When PGN Data Changes):**
+```bash
+# Just regenerate stats (30 min) - uses cached Stockfish analysis
+gh workflow run "📊 Generate Tournament Statistics"
+```
+Stats will automatically include existing Stockfish data from previous runs.
+
+**Updating Stockfish Analysis (Optional):**
+```bash
+# Run Stockfish independently (60 min)
+gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
+
+# Then regenerate stats to include new analysis (30 min)
+gh workflow run "📊 Generate Tournament Statistics"
 ```
 
 ## Installation

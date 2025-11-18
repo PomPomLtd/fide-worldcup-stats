@@ -1,0 +1,2644 @@
+{
+  "games": [
+    {
+      "gameIndex": 0,
+      "gameId": "Goa, India",
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "whiteRating": null,
+      "blackRating": null,
+      "whiteACPL": 20.9,
+      "blackACPL": 18.4,
+      "whiteAccuracy": 90.7,
+      "blackAccuracy": 91.7,
+      "whiteMoveQuality": {
+        "blunders": 1,
+        "mistakes": 0,
+        "inaccuracies": 2,
+        "good": 10,
+        "excellent": 26
+      },
+      "blackMoveQuality": {
+        "blunders": 1,
+        "mistakes": 0,
+        "inaccuracies": 1,
+        "good": 7,
+        "excellent": 29
+      },
+      "whiteEngineMoves": 26,
+      "blackEngineMoves": 29,
+      "biggestBlunder": {
+        "moveNumber": 22,
+        "player": "white",
+        "cpLoss": 275,
+        "winLoss": 24.295112410416003,
+        "severity": 24.295112410416003,
+        "move": "Nc2",
+        "evalBefore": 58,
+        "evalAfter": -217
+      },
+      "biggestComeback": null,
+      "luckyEscape": {
+        "player": "white",
+        "escapeAmount": 175,
+        "evalBefore": -217,
+        "evalAfter": 42,
+        "moveNumber": 22
+      },
+      "moveTimes": [
+        {
+          "ply": 1,
+          "moveNumber": 1,
+          "color": "white",
+          "move": "d4",
+          "evalBefore": 0.4,
+          "evalAfter": 0.31
+        },
+        {
+          "ply": 2,
+          "moveNumber": 1,
+          "color": "black",
+          "move": "d5",
+          "evalBefore": 0.31,
+          "evalAfter": 0.26
+        },
+        {
+          "ply": 3,
+          "moveNumber": 2,
+          "color": "white",
+          "move": "c4",
+          "evalBefore": 0.26,
+          "evalAfter": 0.31
+        },
+        {
+          "ply": 4,
+          "moveNumber": 2,
+          "color": "black",
+          "move": "dxc4",
+          "evalBefore": 0.31,
+          "evalAfter": 0.72
+        },
+        {
+          "ply": 5,
+          "moveNumber": 3,
+          "color": "white",
+          "move": "Nf3",
+          "evalBefore": 0.72,
+          "evalAfter": 0.35
+        },
+        {
+          "ply": 6,
+          "moveNumber": 3,
+          "color": "black",
+          "move": "Nf6",
+          "evalBefore": 0.35,
+          "evalAfter": 0.3
+        },
+        {
+          "ply": 7,
+          "moveNumber": 4,
+          "color": "white",
+          "move": "e3",
+          "evalBefore": 0.3,
+          "evalAfter": 0.49
+        },
+        {
+          "ply": 8,
+          "moveNumber": 4,
+          "color": "black",
+          "move": "e6",
+          "evalBefore": 0.49,
+          "evalAfter": 0.49
+        },
+        {
+          "ply": 9,
+          "moveNumber": 5,
+          "color": "white",
+          "move": "Bxc4",
+          "evalBefore": 0.49,
+          "evalAfter": 0.41
+        },
+        {
+          "ply": 10,
+          "moveNumber": 5,
+          "color": "black",
+          "move": "c5",
+          "evalBefore": 0.41,
+          "evalAfter": 0.31
+        },
+        {
+          "ply": 11,
+          "moveNumber": 6,
+          "color": "white",
+          "move": "O-O",
+          "evalBefore": 0.31,
+          "evalAfter": 0.31
+        },
+        {
+          "ply": 12,
+          "moveNumber": 6,
+          "color": "black",
+          "move": "Be7",
+          "evalBefore": 0.31,
+          "evalAfter": 0.43
+        },
+        {
+          "ply": 13,
+          "moveNumber": 7,
+          "color": "white",
+          "move": "dxc5",
+          "evalBefore": 0.43,
+          "evalAfter": 0.38
+        },
+        {
+          "ply": 14,
+          "moveNumber": 7,
+          "color": "black",
+          "move": "Qxd1",
+          "evalBefore": 0.38,
+          "evalAfter": 0.36
+        },
+        {
+          "ply": 15,
+          "moveNumber": 8,
+          "color": "white",
+          "move": "Rxd1",
+          "evalBefore": 0.36,
+          "evalAfter": 0.42
+        },
+        {
+          "ply": 16,
+          "moveNumber": 8,
+          "color": "black",
+          "move": "Bxc5",
+          "evalBefore": 0.42,
+          "evalAfter": 0.55
+        },
+        {
+          "ply": 17,
+          "moveNumber": 9,
+          "color": "white",
+          "move": "Nc3",
+          "evalBefore": 0.55,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 18,
+          "moveNumber": 9,
+          "color": "black",
+          "move": "O-O",
+          "evalBefore": 0.39,
+          "evalAfter": 0.54
+        },
+        {
+          "ply": 19,
+          "moveNumber": 10,
+          "color": "white",
+          "move": "Be2",
+          "evalBefore": 0.54,
+          "evalAfter": 0.3
+        },
+        {
+          "ply": 20,
+          "moveNumber": 10,
+          "color": "black",
+          "move": "Nc6",
+          "evalBefore": 0.3,
+          "evalAfter": 0.37
+        },
+        {
+          "ply": 21,
+          "moveNumber": 11,
+          "color": "white",
+          "move": "a3",
+          "evalBefore": 0.37,
+          "evalAfter": 0.2
+        },
+        {
+          "ply": 22,
+          "moveNumber": 11,
+          "color": "black",
+          "move": "b6",
+          "evalBefore": 0.2,
+          "evalAfter": 0.42
+        },
+        {
+          "ply": 23,
+          "moveNumber": 12,
+          "color": "white",
+          "move": "b4",
+          "evalBefore": 0.42,
+          "evalAfter": 0.41
+        },
+        {
+          "ply": 24,
+          "moveNumber": 12,
+          "color": "black",
+          "move": "Be7",
+          "evalBefore": 0.41,
+          "evalAfter": 0.54
+        },
+        {
+          "ply": 25,
+          "moveNumber": 13,
+          "color": "white",
+          "move": "e4",
+          "evalBefore": 0.54,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 26,
+          "moveNumber": 13,
+          "color": "black",
+          "move": "Rd8",
+          "evalBefore": 0.39,
+          "evalAfter": 0.56
+        },
+        {
+          "ply": 27,
+          "moveNumber": 14,
+          "color": "white",
+          "move": "Rxd8+",
+          "evalBefore": 0.56,
+          "evalAfter": 0.34
+        },
+        {
+          "ply": 28,
+          "moveNumber": 14,
+          "color": "black",
+          "move": "Nxd8",
+          "evalBefore": 0.34,
+          "evalAfter": 0.34
+        },
+        {
+          "ply": 29,
+          "moveNumber": 15,
+          "color": "white",
+          "move": "e5",
+          "evalBefore": 0.34,
+          "evalAfter": 0.15
+        },
+        {
+          "ply": 30,
+          "moveNumber": 15,
+          "color": "black",
+          "move": "Ne8",
+          "evalBefore": 0.15,
+          "evalAfter": 0.69
+        },
+        {
+          "ply": 31,
+          "moveNumber": 16,
+          "color": "white",
+          "move": "Bg5",
+          "evalBefore": 0.69,
+          "evalAfter": 0.44
+        },
+        {
+          "ply": 32,
+          "moveNumber": 16,
+          "color": "black",
+          "move": "Kf8",
+          "evalBefore": 0.44,
+          "evalAfter": 0.32
+        },
+        {
+          "ply": 33,
+          "moveNumber": 17,
+          "color": "white",
+          "move": "Rd1",
+          "evalBefore": 0.32,
+          "evalAfter": 0.36
+        },
+        {
+          "ply": 34,
+          "moveNumber": 17,
+          "color": "black",
+          "move": "h6",
+          "evalBefore": 0.36,
+          "evalAfter": 0.58
+        },
+        {
+          "ply": 35,
+          "moveNumber": 18,
+          "color": "white",
+          "move": "Be3",
+          "evalBefore": 0.58,
+          "evalAfter": 0.54
+        },
+        {
+          "ply": 36,
+          "moveNumber": 18,
+          "color": "black",
+          "move": "Bb7",
+          "evalBefore": 0.54,
+          "evalAfter": 0.91
+        },
+        {
+          "ply": 37,
+          "moveNumber": 19,
+          "color": "white",
+          "move": "Nd4",
+          "evalBefore": 0.91,
+          "evalAfter": 0.7
+        },
+        {
+          "ply": 38,
+          "moveNumber": 19,
+          "color": "black",
+          "move": "Nc7",
+          "evalBefore": 0.7,
+          "evalAfter": 0.85
+        },
+        {
+          "ply": 39,
+          "moveNumber": 20,
+          "color": "white",
+          "move": "f4",
+          "evalBefore": 0.85,
+          "evalAfter": 0.38
+        },
+        {
+          "ply": 40,
+          "moveNumber": 20,
+          "color": "black",
+          "move": "a5",
+          "evalBefore": 0.38,
+          "evalAfter": 0.52
+        },
+        {
+          "ply": 41,
+          "moveNumber": 21,
+          "color": "white",
+          "move": "bxa5",
+          "evalBefore": 0.52,
+          "evalAfter": 0.19
+        },
+        {
+          "ply": 42,
+          "moveNumber": 21,
+          "color": "black",
+          "move": "Rxa5",
+          "evalBefore": 0.19,
+          "evalAfter": 0.58
+        },
+        {
+          "ply": 43,
+          "moveNumber": 22,
+          "color": "white",
+          "move": "Nc2",
+          "evalBefore": 0.58,
+          "evalAfter": -2.17
+        },
+        {
+          "ply": 44,
+          "moveNumber": 22,
+          "color": "black",
+          "move": "Ke8",
+          "evalBefore": -2.17,
+          "evalAfter": 0.42
+        },
+        {
+          "ply": 45,
+          "moveNumber": 23,
+          "color": "white",
+          "move": "a4",
+          "evalBefore": 0.42,
+          "evalAfter": 0.3
+        },
+        {
+          "ply": 46,
+          "moveNumber": 23,
+          "color": "black",
+          "move": "Bc5",
+          "evalBefore": 0.3,
+          "evalAfter": 0.66
+        },
+        {
+          "ply": 47,
+          "moveNumber": 24,
+          "color": "white",
+          "move": "Bb5+",
+          "evalBefore": 0.66,
+          "evalAfter": 0.35
+        },
+        {
+          "ply": 48,
+          "moveNumber": 24,
+          "color": "black",
+          "move": "Nxb5",
+          "evalBefore": 0.35,
+          "evalAfter": 0.41
+        },
+        {
+          "ply": 49,
+          "moveNumber": 25,
+          "color": "white",
+          "move": "axb5",
+          "evalBefore": 0.41,
+          "evalAfter": 0.55
+        },
+        {
+          "ply": 50,
+          "moveNumber": 25,
+          "color": "black",
+          "move": "f6",
+          "evalBefore": 0.55,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 51,
+          "moveNumber": 26,
+          "color": "white",
+          "move": "exf6",
+          "evalBefore": 0.39,
+          "evalAfter": 0.57
+        },
+        {
+          "ply": 52,
+          "moveNumber": 26,
+          "color": "black",
+          "move": "gxf6",
+          "evalBefore": 0.57,
+          "evalAfter": 0.49
+        },
+        {
+          "ply": 53,
+          "moveNumber": 27,
+          "color": "white",
+          "move": "Bxc5",
+          "evalBefore": 0.49,
+          "evalAfter": 0.46
+        },
+        {
+          "ply": 54,
+          "moveNumber": 27,
+          "color": "black",
+          "move": "bxc5",
+          "evalBefore": 0.46,
+          "evalAfter": 0.38
+        },
+        {
+          "ply": 55,
+          "moveNumber": 28,
+          "color": "white",
+          "move": "Kf2",
+          "evalBefore": 0.38,
+          "evalAfter": 0.09
+        },
+        {
+          "ply": 56,
+          "moveNumber": 28,
+          "color": "black",
+          "move": "Nf7",
+          "evalBefore": 0.09,
+          "evalAfter": 0.16
+        },
+        {
+          "ply": 57,
+          "moveNumber": 29,
+          "color": "white",
+          "move": "Ra1",
+          "evalBefore": 0.16,
+          "evalAfter": 0.11
+        },
+        {
+          "ply": 58,
+          "moveNumber": 29,
+          "color": "black",
+          "move": "Rxa1",
+          "evalBefore": 0.11,
+          "evalAfter": 0.2
+        },
+        {
+          "ply": 59,
+          "moveNumber": 30,
+          "color": "white",
+          "move": "Nxa1",
+          "evalBefore": 0.2,
+          "evalAfter": 0.1
+        },
+        {
+          "ply": 60,
+          "moveNumber": 30,
+          "color": "black",
+          "move": "Bd5",
+          "evalBefore": 0.1,
+          "evalAfter": 0.19
+        },
+        {
+          "ply": 61,
+          "moveNumber": 31,
+          "color": "white",
+          "move": "Nc2",
+          "evalBefore": 0.19,
+          "evalAfter": 0.3
+        },
+        {
+          "ply": 62,
+          "moveNumber": 31,
+          "color": "black",
+          "move": "Nd6",
+          "evalBefore": 0.3,
+          "evalAfter": 0.48
+        },
+        {
+          "ply": 63,
+          "moveNumber": 32,
+          "color": "white",
+          "move": "Ne3",
+          "evalBefore": 0.48,
+          "evalAfter": 0.34
+        },
+        {
+          "ply": 64,
+          "moveNumber": 32,
+          "color": "black",
+          "move": "Bb7",
+          "evalBefore": 0.34,
+          "evalAfter": 0.52
+        },
+        {
+          "ply": 65,
+          "moveNumber": 33,
+          "color": "white",
+          "move": "Ng4",
+          "evalBefore": 0.52,
+          "evalAfter": 1.51
+        },
+        {
+          "ply": 66,
+          "moveNumber": 33,
+          "color": "black",
+          "move": "f5",
+          "evalBefore": 1.51,
+          "evalAfter": 0.73
+        },
+        {
+          "ply": 67,
+          "moveNumber": 34,
+          "color": "white",
+          "move": "Ne5",
+          "evalBefore": 0.73,
+          "evalAfter": 0.67
+        },
+        {
+          "ply": 68,
+          "moveNumber": 34,
+          "color": "black",
+          "move": "Kd8",
+          "evalBefore": 0.67,
+          "evalAfter": 0.76
+        },
+        {
+          "ply": 69,
+          "moveNumber": 35,
+          "color": "white",
+          "move": "Nd3",
+          "evalBefore": 0.76,
+          "evalAfter": 0.36
+        },
+        {
+          "ply": 70,
+          "moveNumber": 35,
+          "color": "black",
+          "move": "c4",
+          "evalBefore": 0.36,
+          "evalAfter": 0.38
+        },
+        {
+          "ply": 71,
+          "moveNumber": 36,
+          "color": "white",
+          "move": "Ne5",
+          "evalBefore": 0.38,
+          "evalAfter": 0.2
+        },
+        {
+          "ply": 72,
+          "moveNumber": 36,
+          "color": "black",
+          "move": "Kc7",
+          "evalBefore": 0.2,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 73,
+          "moveNumber": 37,
+          "color": "white",
+          "move": "Ke3",
+          "evalBefore": 0.39,
+          "evalAfter": 0.0
+        },
+        {
+          "ply": 74,
+          "moveNumber": 37,
+          "color": "black",
+          "move": "Bxg2",
+          "evalBefore": 0.0,
+          "evalAfter": 0.79
+        },
+        {
+          "ply": 75,
+          "moveNumber": 38,
+          "color": "white",
+          "move": "Kd4",
+          "evalBefore": 0.79,
+          "evalAfter": 0.21
+        },
+        {
+          "ply": 76,
+          "moveNumber": 38,
+          "color": "black",
+          "move": "Bf1",
+          "evalBefore": 0.21,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 77,
+          "moveNumber": 39,
+          "color": "white",
+          "move": "Kc5",
+          "evalBefore": 0.39,
+          "evalAfter": -0.58
+        }
+      ]
+    },
+    {
+      "gameIndex": 1,
+      "gameId": "Goa, India",
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "whiteRating": null,
+      "blackRating": null,
+      "whiteACPL": 7.8,
+      "blackACPL": 6.4,
+      "whiteAccuracy": 96.8,
+      "blackAccuracy": 97.4,
+      "whiteMoveQuality": {
+        "blunders": 0,
+        "mistakes": 0,
+        "inaccuracies": 1,
+        "good": 3,
+        "excellent": 27
+      },
+      "blackMoveQuality": {
+        "blunders": 0,
+        "mistakes": 0,
+        "inaccuracies": 1,
+        "good": 0,
+        "excellent": 29
+      },
+      "whiteEngineMoves": 27,
+      "blackEngineMoves": 29,
+      "biggestBlunder": null,
+      "biggestComeback": null,
+      "luckyEscape": null,
+      "moveTimes": [
+        {
+          "ply": 1,
+          "moveNumber": 1,
+          "color": "white",
+          "move": "e4",
+          "evalBefore": 0.4,
+          "evalAfter": 0.52
+        },
+        {
+          "ply": 2,
+          "moveNumber": 1,
+          "color": "black",
+          "move": "e5",
+          "evalBefore": 0.52,
+          "evalAfter": 0.51
+        },
+        {
+          "ply": 3,
+          "moveNumber": 2,
+          "color": "white",
+          "move": "Nf3",
+          "evalBefore": 0.51,
+          "evalAfter": 0.43
+        },
+        {
+          "ply": 4,
+          "moveNumber": 2,
+          "color": "black",
+          "move": "Nc6",
+          "evalBefore": 0.43,
+          "evalAfter": 0.52
+        },
+        {
+          "ply": 5,
+          "moveNumber": 3,
+          "color": "white",
+          "move": "Bb5",
+          "evalBefore": 0.52,
+          "evalAfter": 0.51
+        },
+        {
+          "ply": 6,
+          "moveNumber": 3,
+          "color": "black",
+          "move": "a6",
+          "evalBefore": 0.51,
+          "evalAfter": 0.41
+        },
+        {
+          "ply": 7,
+          "moveNumber": 4,
+          "color": "white",
+          "move": "Ba4",
+          "evalBefore": 0.41,
+          "evalAfter": 0.31
+        },
+        {
+          "ply": 8,
+          "moveNumber": 4,
+          "color": "black",
+          "move": "Nf6",
+          "evalBefore": 0.31,
+          "evalAfter": 0.34
+        },
+        {
+          "ply": 9,
+          "moveNumber": 5,
+          "color": "white",
+          "move": "O-O",
+          "evalBefore": 0.34,
+          "evalAfter": 0.34
+        },
+        {
+          "ply": 10,
+          "moveNumber": 5,
+          "color": "black",
+          "move": "Be7",
+          "evalBefore": 0.34,
+          "evalAfter": 0.32
+        },
+        {
+          "ply": 11,
+          "moveNumber": 6,
+          "color": "white",
+          "move": "Re1",
+          "evalBefore": 0.32,
+          "evalAfter": 0.5
+        },
+        {
+          "ply": 12,
+          "moveNumber": 6,
+          "color": "black",
+          "move": "b5",
+          "evalBefore": 0.5,
+          "evalAfter": 0.54
+        },
+        {
+          "ply": 13,
+          "moveNumber": 7,
+          "color": "white",
+          "move": "Bb3",
+          "evalBefore": 0.54,
+          "evalAfter": 0.5
+        },
+        {
+          "ply": 14,
+          "moveNumber": 7,
+          "color": "black",
+          "move": "d6",
+          "evalBefore": 0.5,
+          "evalAfter": 0.5
+        },
+        {
+          "ply": 15,
+          "moveNumber": 8,
+          "color": "white",
+          "move": "c3",
+          "evalBefore": 0.5,
+          "evalAfter": 0.51
+        },
+        {
+          "ply": 16,
+          "moveNumber": 8,
+          "color": "black",
+          "move": "O-O",
+          "evalBefore": 0.51,
+          "evalAfter": 0.49
+        },
+        {
+          "ply": 17,
+          "moveNumber": 9,
+          "color": "white",
+          "move": "h3",
+          "evalBefore": 0.49,
+          "evalAfter": 0.23
+        },
+        {
+          "ply": 18,
+          "moveNumber": 9,
+          "color": "black",
+          "move": "Be6",
+          "evalBefore": 0.23,
+          "evalAfter": 0.42
+        },
+        {
+          "ply": 19,
+          "moveNumber": 10,
+          "color": "white",
+          "move": "d4",
+          "evalBefore": 0.42,
+          "evalAfter": 0.59
+        },
+        {
+          "ply": 20,
+          "moveNumber": 10,
+          "color": "black",
+          "move": "Bxb3",
+          "evalBefore": 0.59,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 21,
+          "moveNumber": 11,
+          "color": "white",
+          "move": "Qxb3",
+          "evalBefore": 0.39,
+          "evalAfter": 0.41
+        },
+        {
+          "ply": 22,
+          "moveNumber": 11,
+          "color": "black",
+          "move": "h6",
+          "evalBefore": 0.41,
+          "evalAfter": 0.46
+        },
+        {
+          "ply": 23,
+          "moveNumber": 12,
+          "color": "white",
+          "move": "a4",
+          "evalBefore": 0.46,
+          "evalAfter": 0.57
+        },
+        {
+          "ply": 24,
+          "moveNumber": 12,
+          "color": "black",
+          "move": "Qd7",
+          "evalBefore": 0.57,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 25,
+          "moveNumber": 13,
+          "color": "white",
+          "move": "axb5",
+          "evalBefore": 0.39,
+          "evalAfter": 0.79
+        },
+        {
+          "ply": 26,
+          "moveNumber": 13,
+          "color": "black",
+          "move": "axb5",
+          "evalBefore": 0.79,
+          "evalAfter": 0.48
+        },
+        {
+          "ply": 27,
+          "moveNumber": 14,
+          "color": "white",
+          "move": "Rxa8",
+          "evalBefore": 0.48,
+          "evalAfter": -0.06
+        },
+        {
+          "ply": 28,
+          "moveNumber": 14,
+          "color": "black",
+          "move": "Rxa8",
+          "evalBefore": -0.06,
+          "evalAfter": 0.75
+        },
+        {
+          "ply": 29,
+          "moveNumber": 15,
+          "color": "white",
+          "move": "Qxb5",
+          "evalBefore": 0.75,
+          "evalAfter": 0.14
+        },
+        {
+          "ply": 30,
+          "moveNumber": 15,
+          "color": "black",
+          "move": "Nxd4",
+          "evalBefore": 0.14,
+          "evalAfter": 0.11
+        },
+        {
+          "ply": 31,
+          "moveNumber": 16,
+          "color": "white",
+          "move": "Nxd4",
+          "evalBefore": 0.11,
+          "evalAfter": 0.05
+        },
+        {
+          "ply": 32,
+          "moveNumber": 16,
+          "color": "black",
+          "move": "exd4",
+          "evalBefore": 0.05,
+          "evalAfter": 0.25
+        },
+        {
+          "ply": 33,
+          "moveNumber": 17,
+          "color": "white",
+          "move": "Qxd7",
+          "evalBefore": 0.25,
+          "evalAfter": 0.18
+        },
+        {
+          "ply": 34,
+          "moveNumber": 17,
+          "color": "black",
+          "move": "Nxd7",
+          "evalBefore": 0.18,
+          "evalAfter": 0.22
+        },
+        {
+          "ply": 35,
+          "moveNumber": 18,
+          "color": "white",
+          "move": "cxd4",
+          "evalBefore": 0.22,
+          "evalAfter": 0.35
+        },
+        {
+          "ply": 36,
+          "moveNumber": 18,
+          "color": "black",
+          "move": "Bf6",
+          "evalBefore": 0.35,
+          "evalAfter": 0.21
+        },
+        {
+          "ply": 37,
+          "moveNumber": 19,
+          "color": "white",
+          "move": "Be3",
+          "evalBefore": 0.21,
+          "evalAfter": 0.29
+        },
+        {
+          "ply": 38,
+          "moveNumber": 19,
+          "color": "black",
+          "move": "Rb8",
+          "evalBefore": 0.29,
+          "evalAfter": 0.36
+        },
+        {
+          "ply": 39,
+          "moveNumber": 20,
+          "color": "white",
+          "move": "Nd2",
+          "evalBefore": 0.36,
+          "evalAfter": 0.1
+        },
+        {
+          "ply": 40,
+          "moveNumber": 20,
+          "color": "black",
+          "move": "Rxb2",
+          "evalBefore": 0.1,
+          "evalAfter": 0.08
+        },
+        {
+          "ply": 41,
+          "moveNumber": 21,
+          "color": "white",
+          "move": "Rc1",
+          "evalBefore": 0.08,
+          "evalAfter": 0.08
+        },
+        {
+          "ply": 42,
+          "moveNumber": 21,
+          "color": "black",
+          "move": "Bxd4",
+          "evalBefore": 0.08,
+          "evalAfter": 0.02
+        },
+        {
+          "ply": 43,
+          "moveNumber": 22,
+          "color": "white",
+          "move": "Bxd4",
+          "evalBefore": 0.02,
+          "evalAfter": 0.04
+        },
+        {
+          "ply": 44,
+          "moveNumber": 22,
+          "color": "black",
+          "move": "Rxd2",
+          "evalBefore": 0.04,
+          "evalAfter": 0.07
+        },
+        {
+          "ply": 45,
+          "moveNumber": 23,
+          "color": "white",
+          "move": "Rxc7",
+          "evalBefore": 0.07,
+          "evalAfter": 0.04
+        },
+        {
+          "ply": 46,
+          "moveNumber": 23,
+          "color": "black",
+          "move": "Rd1+",
+          "evalBefore": 0.04,
+          "evalAfter": 0.05
+        },
+        {
+          "ply": 47,
+          "moveNumber": 24,
+          "color": "white",
+          "move": "Kh2",
+          "evalBefore": 0.05,
+          "evalAfter": -0.1
+        },
+        {
+          "ply": 48,
+          "moveNumber": 24,
+          "color": "black",
+          "move": "Rxd4",
+          "evalBefore": -0.1,
+          "evalAfter": -0.07
+        },
+        {
+          "ply": 49,
+          "moveNumber": 25,
+          "color": "white",
+          "move": "Rxd7",
+          "evalBefore": -0.07,
+          "evalAfter": -0.11
+        },
+        {
+          "ply": 50,
+          "moveNumber": 25,
+          "color": "black",
+          "move": "Rxe4",
+          "evalBefore": -0.11,
+          "evalAfter": 0.02
+        },
+        {
+          "ply": 51,
+          "moveNumber": 26,
+          "color": "white",
+          "move": "Rd8+",
+          "evalBefore": 0.02,
+          "evalAfter": -0.01
+        },
+        {
+          "ply": 52,
+          "moveNumber": 26,
+          "color": "black",
+          "move": "Kh7",
+          "evalBefore": -0.01,
+          "evalAfter": 0.01
+        },
+        {
+          "ply": 53,
+          "moveNumber": 27,
+          "color": "white",
+          "move": "Rxd6",
+          "evalBefore": 0.01,
+          "evalAfter": -0.01
+        },
+        {
+          "ply": 54,
+          "moveNumber": 27,
+          "color": "black",
+          "move": "Re2",
+          "evalBefore": -0.01,
+          "evalAfter": 0.01
+        },
+        {
+          "ply": 55,
+          "moveNumber": 28,
+          "color": "white",
+          "move": "Kg1",
+          "evalBefore": 0.01,
+          "evalAfter": -0.06
+        },
+        {
+          "ply": 56,
+          "moveNumber": 28,
+          "color": "black",
+          "move": "Re1+",
+          "evalBefore": -0.06,
+          "evalAfter": 0.04
+        },
+        {
+          "ply": 57,
+          "moveNumber": 29,
+          "color": "white",
+          "move": "Kh2",
+          "evalBefore": 0.04,
+          "evalAfter": 0.0
+        },
+        {
+          "ply": 58,
+          "moveNumber": 29,
+          "color": "black",
+          "move": "Re2",
+          "evalBefore": 0.0,
+          "evalAfter": -0.06
+        },
+        {
+          "ply": 59,
+          "moveNumber": 30,
+          "color": "white",
+          "move": "Kg1",
+          "evalBefore": -0.06,
+          "evalAfter": -0.07
+        },
+        {
+          "ply": 60,
+          "moveNumber": 30,
+          "color": "black",
+          "move": "Re1+",
+          "evalBefore": -0.07,
+          "evalAfter": -0.02
+        },
+        {
+          "ply": 61,
+          "moveNumber": 31,
+          "color": "white",
+          "move": "Kh2",
+          "evalBefore": -0.02,
+          "evalAfter": 0.02
+        }
+      ]
+    },
+    {
+      "gameIndex": 2,
+      "gameId": "Goa, India",
+      "white": "Shankland, Sam",
+      "black": "Esipenko, Andrey",
+      "whiteRating": null,
+      "blackRating": null,
+      "whiteACPL": 15.1,
+      "blackACPL": 13.2,
+      "whiteAccuracy": 93.9,
+      "blackAccuracy": 94.7,
+      "whiteMoveQuality": {
+        "blunders": 0,
+        "mistakes": 0,
+        "inaccuracies": 3,
+        "good": 7,
+        "excellent": 28
+      },
+      "blackMoveQuality": {
+        "blunders": 0,
+        "mistakes": 0,
+        "inaccuracies": 1,
+        "good": 8,
+        "excellent": 28
+      },
+      "whiteEngineMoves": 28,
+      "blackEngineMoves": 28,
+      "biggestBlunder": null,
+      "biggestComeback": null,
+      "luckyEscape": null,
+      "moveTimes": [
+        {
+          "ply": 1,
+          "moveNumber": 1,
+          "color": "white",
+          "move": "c4",
+          "evalBefore": 0.4,
+          "evalAfter": 0.1
+        },
+        {
+          "ply": 2,
+          "moveNumber": 1,
+          "color": "black",
+          "move": "e6",
+          "evalBefore": 0.1,
+          "evalAfter": 0.27
+        },
+        {
+          "ply": 3,
+          "moveNumber": 2,
+          "color": "white",
+          "move": "Nc3",
+          "evalBefore": 0.27,
+          "evalAfter": 0.28
+        },
+        {
+          "ply": 4,
+          "moveNumber": 2,
+          "color": "black",
+          "move": "d5",
+          "evalBefore": 0.28,
+          "evalAfter": 0.06
+        },
+        {
+          "ply": 5,
+          "moveNumber": 3,
+          "color": "white",
+          "move": "d4",
+          "evalBefore": 0.06,
+          "evalAfter": 0.28
+        },
+        {
+          "ply": 6,
+          "moveNumber": 3,
+          "color": "black",
+          "move": "Nf6",
+          "evalBefore": 0.28,
+          "evalAfter": 0.23
+        },
+        {
+          "ply": 7,
+          "moveNumber": 4,
+          "color": "white",
+          "move": "cxd5",
+          "evalBefore": 0.23,
+          "evalAfter": 0.21
+        },
+        {
+          "ply": 8,
+          "moveNumber": 4,
+          "color": "black",
+          "move": "exd5",
+          "evalBefore": 0.21,
+          "evalAfter": 0.14
+        },
+        {
+          "ply": 9,
+          "moveNumber": 5,
+          "color": "white",
+          "move": "Bg5",
+          "evalBefore": 0.14,
+          "evalAfter": 0.32
+        },
+        {
+          "ply": 10,
+          "moveNumber": 5,
+          "color": "black",
+          "move": "Bb4",
+          "evalBefore": 0.32,
+          "evalAfter": 0.32
+        },
+        {
+          "ply": 11,
+          "moveNumber": 6,
+          "color": "white",
+          "move": "e3",
+          "evalBefore": 0.32,
+          "evalAfter": 0.43
+        },
+        {
+          "ply": 12,
+          "moveNumber": 6,
+          "color": "black",
+          "move": "h6",
+          "evalBefore": 0.43,
+          "evalAfter": 0.33
+        },
+        {
+          "ply": 13,
+          "moveNumber": 7,
+          "color": "white",
+          "move": "Bxf6",
+          "evalBefore": 0.33,
+          "evalAfter": 0.22
+        },
+        {
+          "ply": 14,
+          "moveNumber": 7,
+          "color": "black",
+          "move": "Qxf6",
+          "evalBefore": 0.22,
+          "evalAfter": 0.23
+        },
+        {
+          "ply": 15,
+          "moveNumber": 8,
+          "color": "white",
+          "move": "Qa4+",
+          "evalBefore": 0.23,
+          "evalAfter": 0.21
+        },
+        {
+          "ply": 16,
+          "moveNumber": 8,
+          "color": "black",
+          "move": "Nc6",
+          "evalBefore": 0.21,
+          "evalAfter": 0.29
+        },
+        {
+          "ply": 17,
+          "moveNumber": 9,
+          "color": "white",
+          "move": "Ne2",
+          "evalBefore": 0.29,
+          "evalAfter": -0.13
+        },
+        {
+          "ply": 18,
+          "moveNumber": 9,
+          "color": "black",
+          "move": "O-O",
+          "evalBefore": -0.13,
+          "evalAfter": 0.29
+        },
+        {
+          "ply": 19,
+          "moveNumber": 10,
+          "color": "white",
+          "move": "Rc1",
+          "evalBefore": 0.29,
+          "evalAfter": 0.13
+        },
+        {
+          "ply": 20,
+          "moveNumber": 10,
+          "color": "black",
+          "move": "Rd8",
+          "evalBefore": 0.13,
+          "evalAfter": 0.35
+        },
+        {
+          "ply": 21,
+          "moveNumber": 11,
+          "color": "white",
+          "move": "Nf4",
+          "evalBefore": 0.35,
+          "evalAfter": 0.19
+        },
+        {
+          "ply": 22,
+          "moveNumber": 11,
+          "color": "black",
+          "move": "Bxc3+",
+          "evalBefore": 0.19,
+          "evalAfter": 0.58
+        },
+        {
+          "ply": 23,
+          "moveNumber": 12,
+          "color": "white",
+          "move": "Rxc3",
+          "evalBefore": 0.58,
+          "evalAfter": 0.45
+        },
+        {
+          "ply": 24,
+          "moveNumber": 12,
+          "color": "black",
+          "move": "Ne7",
+          "evalBefore": 0.45,
+          "evalAfter": 0.39
+        },
+        {
+          "ply": 25,
+          "moveNumber": 13,
+          "color": "white",
+          "move": "Bd3",
+          "evalBefore": 0.39,
+          "evalAfter": 0.31
+        },
+        {
+          "ply": 26,
+          "moveNumber": 13,
+          "color": "black",
+          "move": "c6",
+          "evalBefore": 0.31,
+          "evalAfter": 0.27
+        },
+        {
+          "ply": 27,
+          "moveNumber": 14,
+          "color": "white",
+          "move": "O-O",
+          "evalBefore": 0.27,
+          "evalAfter": 0.28
+        },
+        {
+          "ply": 28,
+          "moveNumber": 14,
+          "color": "black",
+          "move": "Nf5",
+          "evalBefore": 0.28,
+          "evalAfter": 0.16
+        },
+        {
+          "ply": 29,
+          "moveNumber": 15,
+          "color": "white",
+          "move": "Rfc1",
+          "evalBefore": 0.16,
+          "evalAfter": 0.13
+        },
+        {
+          "ply": 30,
+          "moveNumber": 15,
+          "color": "black",
+          "move": "Nd6",
+          "evalBefore": 0.13,
+          "evalAfter": -0.02
+        },
+        {
+          "ply": 31,
+          "moveNumber": 16,
+          "color": "white",
+          "move": "Qd1",
+          "evalBefore": -0.02,
+          "evalAfter": -0.1
+        },
+        {
+          "ply": 32,
+          "moveNumber": 16,
+          "color": "black",
+          "move": "Bf5",
+          "evalBefore": -0.1,
+          "evalAfter": -0.02
+        },
+        {
+          "ply": 33,
+          "moveNumber": 17,
+          "color": "white",
+          "move": "Bf1",
+          "evalBefore": -0.02,
+          "evalAfter": -0.11
+        },
+        {
+          "ply": 34,
+          "moveNumber": 17,
+          "color": "black",
+          "move": "g5",
+          "evalBefore": -0.11,
+          "evalAfter": -0.23
+        },
+        {
+          "ply": 35,
+          "moveNumber": 18,
+          "color": "white",
+          "move": "Nd3",
+          "evalBefore": -0.23,
+          "evalAfter": -0.12
+        },
+        {
+          "ply": 36,
+          "moveNumber": 18,
+          "color": "black",
+          "move": "Kg7",
+          "evalBefore": -0.12,
+          "evalAfter": -0.22
+        },
+        {
+          "ply": 37,
+          "moveNumber": 19,
+          "color": "white",
+          "move": "Nc5",
+          "evalBefore": -0.22,
+          "evalAfter": -0.11
+        },
+        {
+          "ply": 38,
+          "moveNumber": 19,
+          "color": "black",
+          "move": "h5",
+          "evalBefore": -0.11,
+          "evalAfter": 0.34
+        },
+        {
+          "ply": 39,
+          "moveNumber": 20,
+          "color": "white",
+          "move": "a4",
+          "evalBefore": 0.34,
+          "evalAfter": -0.21
+        },
+        {
+          "ply": 40,
+          "moveNumber": 20,
+          "color": "black",
+          "move": "h4",
+          "evalBefore": -0.21,
+          "evalAfter": 0.15
+        },
+        {
+          "ply": 41,
+          "moveNumber": 21,
+          "color": "white",
+          "move": "h3",
+          "evalBefore": 0.15,
+          "evalAfter": -0.08
+        },
+        {
+          "ply": 42,
+          "moveNumber": 21,
+          "color": "black",
+          "move": "a5",
+          "evalBefore": -0.08,
+          "evalAfter": 0.12
+        },
+        {
+          "ply": 43,
+          "moveNumber": 22,
+          "color": "white",
+          "move": "b4",
+          "evalBefore": 0.12,
+          "evalAfter": -0.85
+        },
+        {
+          "ply": 44,
+          "moveNumber": 22,
+          "color": "black",
+          "move": "axb4",
+          "evalBefore": -0.85,
+          "evalAfter": -0.36
+        },
+        {
+          "ply": 45,
+          "moveNumber": 23,
+          "color": "white",
+          "move": "Rb3",
+          "evalBefore": -0.36,
+          "evalAfter": -0.74
+        },
+        {
+          "ply": 46,
+          "moveNumber": 23,
+          "color": "black",
+          "move": "b6",
+          "evalBefore": -0.74,
+          "evalAfter": -0.57
+        },
+        {
+          "ply": 47,
+          "moveNumber": 24,
+          "color": "white",
+          "move": "Nd3",
+          "evalBefore": -0.57,
+          "evalAfter": -0.41
+        },
+        {
+          "ply": 48,
+          "moveNumber": 24,
+          "color": "black",
+          "move": "Bxd3",
+          "evalBefore": -0.41,
+          "evalAfter": -0.42
+        },
+        {
+          "ply": 49,
+          "moveNumber": 25,
+          "color": "white",
+          "move": "Bxd3",
+          "evalBefore": -0.42,
+          "evalAfter": -0.01
+        },
+        {
+          "ply": 50,
+          "moveNumber": 25,
+          "color": "black",
+          "move": "Ne4",
+          "evalBefore": -0.01,
+          "evalAfter": -0.14
+        },
+        {
+          "ply": 51,
+          "moveNumber": 26,
+          "color": "white",
+          "move": "Bxe4",
+          "evalBefore": -0.14,
+          "evalAfter": 0.05
+        },
+        {
+          "ply": 52,
+          "moveNumber": 26,
+          "color": "black",
+          "move": "dxe4",
+          "evalBefore": 0.05,
+          "evalAfter": 0.15
+        },
+        {
+          "ply": 53,
+          "moveNumber": 27,
+          "color": "white",
+          "move": "Rxb4",
+          "evalBefore": 0.15,
+          "evalAfter": -0.14
+        },
+        {
+          "ply": 54,
+          "moveNumber": 27,
+          "color": "black",
+          "move": "c5",
+          "evalBefore": -0.14,
+          "evalAfter": 0.32
+        },
+        {
+          "ply": 55,
+          "moveNumber": 28,
+          "color": "white",
+          "move": "Rb5",
+          "evalBefore": 0.32,
+          "evalAfter": -0.36
+        },
+        {
+          "ply": 56,
+          "moveNumber": 28,
+          "color": "black",
+          "move": "cxd4",
+          "evalBefore": -0.36,
+          "evalAfter": 0.38
+        },
+        {
+          "ply": 57,
+          "moveNumber": 29,
+          "color": "white",
+          "move": "exd4",
+          "evalBefore": 0.38,
+          "evalAfter": -0.03
+        },
+        {
+          "ply": 58,
+          "moveNumber": 29,
+          "color": "black",
+          "move": "Qf4",
+          "evalBefore": -0.03,
+          "evalAfter": -0.11
+        },
+        {
+          "ply": 59,
+          "moveNumber": 30,
+          "color": "white",
+          "move": "Rc3",
+          "evalBefore": -0.11,
+          "evalAfter": -0.38
+        },
+        {
+          "ply": 60,
+          "moveNumber": 30,
+          "color": "black",
+          "move": "Rd6",
+          "evalBefore": -0.38,
+          "evalAfter": -0.09
+        },
+        {
+          "ply": 61,
+          "moveNumber": 31,
+          "color": "white",
+          "move": "g3",
+          "evalBefore": -0.09,
+          "evalAfter": 0.14
+        },
+        {
+          "ply": 62,
+          "moveNumber": 31,
+          "color": "black",
+          "move": "hxg3",
+          "evalBefore": 0.14,
+          "evalAfter": -0.14
+        },
+        {
+          "ply": 63,
+          "moveNumber": 32,
+          "color": "white",
+          "move": "Rxg3",
+          "evalBefore": -0.14,
+          "evalAfter": 0.01
+        },
+        {
+          "ply": 64,
+          "moveNumber": 32,
+          "color": "black",
+          "move": "f6",
+          "evalBefore": 0.01,
+          "evalAfter": 0.05
+        },
+        {
+          "ply": 65,
+          "moveNumber": 33,
+          "color": "white",
+          "move": "Rg4",
+          "evalBefore": 0.05,
+          "evalAfter": -0.02
+        },
+        {
+          "ply": 66,
+          "moveNumber": 33,
+          "color": "black",
+          "move": "Qf3",
+          "evalBefore": -0.02,
+          "evalAfter": -0.13
+        },
+        {
+          "ply": 67,
+          "moveNumber": 34,
+          "color": "white",
+          "move": "Qc1",
+          "evalBefore": -0.13,
+          "evalAfter": -0.02
+        },
+        {
+          "ply": 68,
+          "moveNumber": 34,
+          "color": "black",
+          "move": "e3",
+          "evalBefore": -0.02,
+          "evalAfter": 0.03
+        },
+        {
+          "ply": 69,
+          "moveNumber": 35,
+          "color": "white",
+          "move": "Qxe3",
+          "evalBefore": 0.03,
+          "evalAfter": 0.14
+        },
+        {
+          "ply": 70,
+          "moveNumber": 35,
+          "color": "black",
+          "move": "Qxe3",
+          "evalBefore": 0.14,
+          "evalAfter": 0.05
+        },
+        {
+          "ply": 71,
+          "moveNumber": 36,
+          "color": "white",
+          "move": "fxe3",
+          "evalBefore": 0.05,
+          "evalAfter": 0.14
+        },
+        {
+          "ply": 72,
+          "moveNumber": 36,
+          "color": "black",
+          "move": "Rxa4",
+          "evalBefore": 0.14,
+          "evalAfter": 0.21
+        },
+        {
+          "ply": 73,
+          "moveNumber": 37,
+          "color": "white",
+          "move": "h4",
+          "evalBefore": 0.21,
+          "evalAfter": 0.11
+        },
+        {
+          "ply": 74,
+          "moveNumber": 37,
+          "color": "black",
+          "move": "Ra5",
+          "evalBefore": 0.11,
+          "evalAfter": 0.2
+        },
+        {
+          "ply": 75,
+          "moveNumber": 38,
+          "color": "white",
+          "move": "Rb3",
+          "evalBefore": 0.2,
+          "evalAfter": 0.0
+        }
+      ]
+    },
+    {
+      "gameIndex": 3,
+      "gameId": "Goa, India",
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "whiteRating": null,
+      "blackRating": null,
+      "whiteACPL": 25.3,
+      "blackACPL": 32.6,
+      "whiteAccuracy": 91.4,
+      "blackAccuracy": 89.0,
+      "whiteMoveQuality": {
+        "blunders": 0,
+        "mistakes": 0,
+        "inaccuracies": 6,
+        "good": 11,
+        "excellent": 27
+      },
+      "blackMoveQuality": {
+        "blunders": 0,
+        "mistakes": 0,
+        "inaccuracies": 9,
+        "good": 12,
+        "excellent": 22
+      },
+      "whiteEngineMoves": 27,
+      "blackEngineMoves": 22,
+      "biggestBlunder": null,
+      "biggestComeback": null,
+      "luckyEscape": null,
+      "moveTimes": [
+        {
+          "ply": 1,
+          "moveNumber": 1,
+          "color": "white",
+          "move": "d4",
+          "evalBefore": 0.4,
+          "evalAfter": 0.31
+        },
+        {
+          "ply": 2,
+          "moveNumber": 1,
+          "color": "black",
+          "move": "Nf6",
+          "evalBefore": 0.31,
+          "evalAfter": 0.15
+        },
+        {
+          "ply": 3,
+          "moveNumber": 2,
+          "color": "white",
+          "move": "c4",
+          "evalBefore": 0.15,
+          "evalAfter": 0.18
+        },
+        {
+          "ply": 4,
+          "moveNumber": 2,
+          "color": "black",
+          "move": "g6",
+          "evalBefore": 0.18,
+          "evalAfter": 0.6
+        },
+        {
+          "ply": 5,
+          "moveNumber": 3,
+          "color": "white",
+          "move": "f3",
+          "evalBefore": 0.6,
+          "evalAfter": 0.08
+        },
+        {
+          "ply": 6,
+          "moveNumber": 3,
+          "color": "black",
+          "move": "c5",
+          "evalBefore": 0.08,
+          "evalAfter": 0.28
+        },
+        {
+          "ply": 7,
+          "moveNumber": 4,
+          "color": "white",
+          "move": "d5",
+          "evalBefore": 0.28,
+          "evalAfter": 0.15
+        },
+        {
+          "ply": 8,
+          "moveNumber": 4,
+          "color": "black",
+          "move": "d6",
+          "evalBefore": 0.15,
+          "evalAfter": 0.08
+        },
+        {
+          "ply": 9,
+          "moveNumber": 5,
+          "color": "white",
+          "move": "e4",
+          "evalBefore": 0.08,
+          "evalAfter": 0.08
+        },
+        {
+          "ply": 10,
+          "moveNumber": 5,
+          "color": "black",
+          "move": "Bg7",
+          "evalBefore": 0.08,
+          "evalAfter": 0.32
+        },
+        {
+          "ply": 11,
+          "moveNumber": 6,
+          "color": "white",
+          "move": "Ne2",
+          "evalBefore": 0.32,
+          "evalAfter": 0.3
+        },
+        {
+          "ply": 12,
+          "moveNumber": 6,
+          "color": "black",
+          "move": "e6",
+          "evalBefore": 0.3,
+          "evalAfter": 0.2
+        },
+        {
+          "ply": 13,
+          "moveNumber": 7,
+          "color": "white",
+          "move": "Nec3",
+          "evalBefore": 0.2,
+          "evalAfter": -0.09
+        },
+        {
+          "ply": 14,
+          "moveNumber": 7,
+          "color": "black",
+          "move": "exd5",
+          "evalBefore": -0.09,
+          "evalAfter": 0.0
+        },
+        {
+          "ply": 15,
+          "moveNumber": 8,
+          "color": "white",
+          "move": "cxd5",
+          "evalBefore": 0.0,
+          "evalAfter": -0.14
+        },
+        {
+          "ply": 16,
+          "moveNumber": 8,
+          "color": "black",
+          "move": "a6",
+          "evalBefore": -0.14,
+          "evalAfter": 0.34
+        },
+        {
+          "ply": 17,
+          "moveNumber": 9,
+          "color": "white",
+          "move": "a4",
+          "evalBefore": 0.34,
+          "evalAfter": 0.22
+        },
+        {
+          "ply": 18,
+          "moveNumber": 9,
+          "color": "black",
+          "move": "Nh5",
+          "evalBefore": 0.22,
+          "evalAfter": 0.7
+        },
+        {
+          "ply": 19,
+          "moveNumber": 10,
+          "color": "white",
+          "move": "Qe2",
+          "evalBefore": 0.7,
+          "evalAfter": 0.29
+        },
+        {
+          "ply": 20,
+          "moveNumber": 10,
+          "color": "black",
+          "move": "Bd4",
+          "evalBefore": 0.29,
+          "evalAfter": 0.32
+        },
+        {
+          "ply": 21,
+          "moveNumber": 11,
+          "color": "white",
+          "move": "g4",
+          "evalBefore": 0.32,
+          "evalAfter": 0.04
+        },
+        {
+          "ply": 22,
+          "moveNumber": 11,
+          "color": "black",
+          "move": "Qh4+",
+          "evalBefore": 0.04,
+          "evalAfter": 0.91
+        },
+        {
+          "ply": 23,
+          "moveNumber": 12,
+          "color": "white",
+          "move": "Kd1",
+          "evalBefore": 0.91,
+          "evalAfter": 0.53
+        },
+        {
+          "ply": 24,
+          "moveNumber": 12,
+          "color": "black",
+          "move": "Nf6",
+          "evalBefore": 0.53,
+          "evalAfter": 1.33
+        },
+        {
+          "ply": 25,
+          "moveNumber": 13,
+          "color": "white",
+          "move": "Kc2",
+          "evalBefore": 1.33,
+          "evalAfter": 0.6
+        },
+        {
+          "ply": 26,
+          "moveNumber": 13,
+          "color": "black",
+          "move": "Nfd7",
+          "evalBefore": 0.6,
+          "evalAfter": 1.36
+        },
+        {
+          "ply": 27,
+          "moveNumber": 14,
+          "color": "white",
+          "move": "Bf4",
+          "evalBefore": 1.36,
+          "evalAfter": 0.91
+        },
+        {
+          "ply": 28,
+          "moveNumber": 14,
+          "color": "black",
+          "move": "Qf6",
+          "evalBefore": 0.91,
+          "evalAfter": 1.37
+        },
+        {
+          "ply": 29,
+          "moveNumber": 15,
+          "color": "white",
+          "move": "Be3",
+          "evalBefore": 1.37,
+          "evalAfter": 1.43
+        },
+        {
+          "ply": 30,
+          "moveNumber": 15,
+          "color": "black",
+          "move": "Ne5",
+          "evalBefore": 1.43,
+          "evalAfter": 1.35
+        },
+        {
+          "ply": 31,
+          "moveNumber": 16,
+          "color": "white",
+          "move": "Nd2",
+          "evalBefore": 1.35,
+          "evalAfter": 1.15
+        },
+        {
+          "ply": 32,
+          "moveNumber": 16,
+          "color": "black",
+          "move": "Qh4",
+          "evalBefore": 1.15,
+          "evalAfter": 1.64
+        },
+        {
+          "ply": 33,
+          "moveNumber": 17,
+          "color": "white",
+          "move": "Bf4",
+          "evalBefore": 1.64,
+          "evalAfter": 1.27
+        },
+        {
+          "ply": 34,
+          "moveNumber": 17,
+          "color": "black",
+          "move": "h5",
+          "evalBefore": 1.27,
+          "evalAfter": 0.94
+        },
+        {
+          "ply": 35,
+          "moveNumber": 18,
+          "color": "white",
+          "move": "Bg3",
+          "evalBefore": 0.94,
+          "evalAfter": 1.28
+        },
+        {
+          "ply": 36,
+          "moveNumber": 18,
+          "color": "black",
+          "move": "Qe7",
+          "evalBefore": 1.28,
+          "evalAfter": 1.27
+        },
+        {
+          "ply": 37,
+          "moveNumber": 19,
+          "color": "white",
+          "move": "gxh5",
+          "evalBefore": 1.27,
+          "evalAfter": 1.34
+        },
+        {
+          "ply": 38,
+          "moveNumber": 19,
+          "color": "black",
+          "move": "Rxh5",
+          "evalBefore": 1.34,
+          "evalAfter": 1.55
+        },
+        {
+          "ply": 39,
+          "moveNumber": 20,
+          "color": "white",
+          "move": "h4",
+          "evalBefore": 1.55,
+          "evalAfter": 1.78
+        },
+        {
+          "ply": 40,
+          "moveNumber": 20,
+          "color": "black",
+          "move": "Ra7",
+          "evalBefore": 1.78,
+          "evalAfter": 2.5
+        },
+        {
+          "ply": 41,
+          "moveNumber": 21,
+          "color": "white",
+          "move": "a5",
+          "evalBefore": 2.5,
+          "evalAfter": 1.83
+        },
+        {
+          "ply": 42,
+          "moveNumber": 21,
+          "color": "black",
+          "move": "b5",
+          "evalBefore": 1.83,
+          "evalAfter": 2.11
+        },
+        {
+          "ply": 43,
+          "moveNumber": 22,
+          "color": "white",
+          "move": "axb6",
+          "evalBefore": 2.11,
+          "evalAfter": 1.97
+        },
+        {
+          "ply": 44,
+          "moveNumber": 22,
+          "color": "black",
+          "move": "Rb7",
+          "evalBefore": 1.97,
+          "evalAfter": 2.02
+        },
+        {
+          "ply": 45,
+          "moveNumber": 23,
+          "color": "white",
+          "move": "Bxe5",
+          "evalBefore": 2.02,
+          "evalAfter": 1.83
+        },
+        {
+          "ply": 46,
+          "moveNumber": 23,
+          "color": "black",
+          "move": "Bxe5",
+          "evalBefore": 1.83,
+          "evalAfter": 1.88
+        },
+        {
+          "ply": 47,
+          "moveNumber": 24,
+          "color": "white",
+          "move": "Nc4",
+          "evalBefore": 1.88,
+          "evalAfter": 1.74
+        },
+        {
+          "ply": 48,
+          "moveNumber": 24,
+          "color": "black",
+          "move": "Rxh4",
+          "evalBefore": 1.74,
+          "evalAfter": 2.11
+        },
+        {
+          "ply": 49,
+          "moveNumber": 25,
+          "color": "white",
+          "move": "Rxh4",
+          "evalBefore": 2.11,
+          "evalAfter": 1.36
+        },
+        {
+          "ply": 50,
+          "moveNumber": 25,
+          "color": "black",
+          "move": "Qxh4",
+          "evalBefore": 1.36,
+          "evalAfter": 2.47
+        },
+        {
+          "ply": 51,
+          "moveNumber": 26,
+          "color": "white",
+          "move": "Nxe5",
+          "evalBefore": 2.47,
+          "evalAfter": 1.59
+        },
+        {
+          "ply": 52,
+          "moveNumber": 26,
+          "color": "black",
+          "move": "dxe5",
+          "evalBefore": 1.59,
+          "evalAfter": 2.49
+        },
+        {
+          "ply": 53,
+          "moveNumber": 27,
+          "color": "white",
+          "move": "Qe3",
+          "evalBefore": 2.49,
+          "evalAfter": 2.66
+        },
+        {
+          "ply": 54,
+          "moveNumber": 27,
+          "color": "black",
+          "move": "Rxb6",
+          "evalBefore": 2.66,
+          "evalAfter": 1.71
+        },
+        {
+          "ply": 55,
+          "moveNumber": 28,
+          "color": "white",
+          "move": "b4",
+          "evalBefore": 1.71,
+          "evalAfter": 2.54
+        },
+        {
+          "ply": 56,
+          "moveNumber": 28,
+          "color": "black",
+          "move": "Nd7",
+          "evalBefore": 2.54,
+          "evalAfter": 2.96
+        },
+        {
+          "ply": 57,
+          "moveNumber": 29,
+          "color": "white",
+          "move": "bxc5",
+          "evalBefore": 2.96,
+          "evalAfter": 2.59
+        },
+        {
+          "ply": 58,
+          "moveNumber": 29,
+          "color": "black",
+          "move": "Rb4",
+          "evalBefore": 2.59,
+          "evalAfter": 2.78
+        },
+        {
+          "ply": 59,
+          "moveNumber": 30,
+          "color": "white",
+          "move": "c6",
+          "evalBefore": 2.78,
+          "evalAfter": 2.49
+        },
+        {
+          "ply": 60,
+          "moveNumber": 30,
+          "color": "black",
+          "move": "Nb6",
+          "evalBefore": 2.49,
+          "evalAfter": 3.02
+        },
+        {
+          "ply": 61,
+          "moveNumber": 31,
+          "color": "white",
+          "move": "Be2",
+          "evalBefore": 3.02,
+          "evalAfter": 3.38
+        },
+        {
+          "ply": 62,
+          "moveNumber": 31,
+          "color": "black",
+          "move": "Qh2",
+          "evalBefore": 3.38,
+          "evalAfter": 2.9
+        },
+        {
+          "ply": 63,
+          "moveNumber": 32,
+          "color": "white",
+          "move": "d6",
+          "evalBefore": 2.9,
+          "evalAfter": 1.86
+        },
+        {
+          "ply": 64,
+          "moveNumber": 32,
+          "color": "black",
+          "move": "Be6",
+          "evalBefore": 1.86,
+          "evalAfter": 2.51
+        },
+        {
+          "ply": 65,
+          "moveNumber": 33,
+          "color": "white",
+          "move": "d7+",
+          "evalBefore": 2.51,
+          "evalAfter": 2.85
+        },
+        {
+          "ply": 66,
+          "moveNumber": 33,
+          "color": "black",
+          "move": "Bxd7",
+          "evalBefore": 2.85,
+          "evalAfter": 3.63
+        },
+        {
+          "ply": 67,
+          "moveNumber": 34,
+          "color": "white",
+          "move": "cxd7+",
+          "evalBefore": 3.63,
+          "evalAfter": 3.63
+        },
+        {
+          "ply": 68,
+          "moveNumber": 34,
+          "color": "black",
+          "move": "Nxd7",
+          "evalBefore": 3.63,
+          "evalAfter": 3.97
+        },
+        {
+          "ply": 69,
+          "moveNumber": 35,
+          "color": "white",
+          "move": "Rxa6",
+          "evalBefore": 3.97,
+          "evalAfter": 2.99
+        },
+        {
+          "ply": 70,
+          "moveNumber": 35,
+          "color": "black",
+          "move": "Kf8",
+          "evalBefore": 2.99,
+          "evalAfter": 4.15
+        },
+        {
+          "ply": 71,
+          "moveNumber": 36,
+          "color": "white",
+          "move": "Rd6",
+          "evalBefore": 4.15,
+          "evalAfter": 3.4
+        },
+        {
+          "ply": 72,
+          "moveNumber": 36,
+          "color": "black",
+          "move": "Rb7",
+          "evalBefore": 3.4,
+          "evalAfter": 3.05
+        },
+        {
+          "ply": 73,
+          "moveNumber": 37,
+          "color": "white",
+          "move": "Qd2",
+          "evalBefore": 3.05,
+          "evalAfter": 3.06
+        },
+        {
+          "ply": 74,
+          "moveNumber": 37,
+          "color": "black",
+          "move": "Nc5",
+          "evalBefore": 3.06,
+          "evalAfter": 2.55
+        },
+        {
+          "ply": 75,
+          "moveNumber": 38,
+          "color": "white",
+          "move": "Qd5",
+          "evalBefore": 2.55,
+          "evalAfter": 3.33
+        },
+        {
+          "ply": 76,
+          "moveNumber": 38,
+          "color": "black",
+          "move": "Rc7",
+          "evalBefore": 3.33,
+          "evalAfter": 3.03
+        },
+        {
+          "ply": 77,
+          "moveNumber": 39,
+          "color": "white",
+          "move": "Rxg6",
+          "evalBefore": 3.03,
+          "evalAfter": 3.01
+        },
+        {
+          "ply": 78,
+          "moveNumber": 39,
+          "color": "black",
+          "move": "Ne6",
+          "evalBefore": 3.01,
+          "evalAfter": 3.55
+        },
+        {
+          "ply": 79,
+          "moveNumber": 40,
+          "color": "white",
+          "move": "Qd6+",
+          "evalBefore": 3.55,
+          "evalAfter": 3.02
+        },
+        {
+          "ply": 80,
+          "moveNumber": 40,
+          "color": "black",
+          "move": "Re7",
+          "evalBefore": 3.02,
+          "evalAfter": 3.38
+        },
+        {
+          "ply": 81,
+          "moveNumber": 41,
+          "color": "white",
+          "move": "Rg4",
+          "evalBefore": 3.38,
+          "evalAfter": 3.14
+        },
+        {
+          "ply": 82,
+          "moveNumber": 41,
+          "color": "black",
+          "move": "f6",
+          "evalBefore": 3.14,
+          "evalAfter": 3.19
+        },
+        {
+          "ply": 83,
+          "moveNumber": 42,
+          "color": "white",
+          "move": "Qb8+",
+          "evalBefore": 3.19,
+          "evalAfter": 4.49
+        },
+        {
+          "ply": 84,
+          "moveNumber": 42,
+          "color": "black",
+          "move": "Re8",
+          "evalBefore": 4.49,
+          "evalAfter": 3.34
+        },
+        {
+          "ply": 85,
+          "moveNumber": 43,
+          "color": "white",
+          "move": "Rg8+",
+          "evalBefore": 3.34,
+          "evalAfter": 4.6
+        },
+        {
+          "ply": 86,
+          "moveNumber": 43,
+          "color": "black",
+          "move": "Kxg8",
+          "evalBefore": 4.6,
+          "evalAfter": 3.94
+        },
+        {
+          "ply": 87,
+          "moveNumber": 44,
+          "color": "white",
+          "move": "Qxe8+",
+          "evalBefore": 3.94,
+          "evalAfter": 4.77
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "accuracyKing": {
+      "player": "black",
+      "accuracy": 97.4,
+      "acpl": 6.4,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "gameIndex": 1,
+      "gameId": "Goa, India"
+    },
+    "biggestBlunder": {
+      "moveNumber": 22,
+      "player": "white",
+      "cpLoss": 275,
+      "winLoss": 24.295112410416003,
+      "severity": 24.295112410416003,
+      "move": "Nc2",
+      "evalBefore": 58,
+      "evalAfter": -217,
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "gameIndex": 0,
+      "gameId": "Goa, India"
+    },
+    "comebackKing": null,
+    "luckyEscape": {
+      "player": "white",
+      "escapeAmount": 175,
+      "evalBefore": -217,
+      "evalAfter": 42,
+      "moveNumber": 22,
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "gameIndex": 0,
+      "gameId": "Goa, India"
+    },
+    "stockfishBuddy": {
+      "player": "black",
+      "engineMoves": 29,
+      "totalMoves": 38,
+      "percentage": 76.3,
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "gameIndex": 0,
+      "gameId": "Goa, India"
+    },
+    "inaccuracyKing": {
+      "player": "black",
+      "inaccuracies": 9,
+      "totalMoves": 43,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "gameIndex": 3,
+      "gameId": "Goa, India"
+    },
+    "lowestACPL": {
+      "player": "black",
+      "acpl": 6.4,
+      "accuracy": 97.4,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "gameIndex": 1,
+      "gameId": "Goa, India"
+    },
+    "highestACPL": {
+      "player": "black",
+      "acpl": 32.6,
+      "accuracy": 89.0,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "gameIndex": 3,
+      "gameId": "Goa, India"
+    },
+    "lowestCombinedACPL": {
+      "combinedACPL": 14.2,
+      "whiteACPL": 7.8,
+      "blackACPL": 6.4,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "gameIndex": 1,
+      "gameId": "Goa, India"
+    },
+    "highestCombinedACPL": {
+      "combinedACPL": 57.900000000000006,
+      "whiteACPL": 25.3,
+      "blackACPL": 32.6,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "gameIndex": 3,
+      "gameId": "Goa, India"
+    },
+    "notSoSuperGM": null
+  }
+}
