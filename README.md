@@ -108,18 +108,74 @@ Knockout format requires tracking:
 ### Live Site
 **Production URL**: [https://fide-worldcup-stats-aykqc3m10-pompom-projects.vercel.app](https://fide-worldcup-stats-aykqc3m10-pompom-projects.vercel.app)
 
-### Automated Pipeline
-GitHub Actions automatically:
-1. Processes new PGN data when added to `_SRC/cup2025/`
-2. Generates statistics for all rounds
-3. Creates tournament overview
-4. Commits results back to repository
-5. Triggers Vercel deployment
+### GitHub Actions Workflows
 
-### Manual Workflows
-- **Generate Statistics**: Run `.github/workflows/generate-stats.yml` manually
-- **Generate Overview**: Run `.github/workflows/generate-overview.yml` manually
-- **Stockfish Analysis**: Run `.github/workflows/stockfish-analysis.yml` (slow, optional)
+All workflows are **manual-trigger only** (no automatic runs). Choose the workflow that fits your needs:
+
+#### 📊 Generate Tournament Statistics
+**Purpose**: Complete stats generation (awards, openings, tactics, etc.)
+**Time**: 30 min (without Stockfish) or 3-5 hours (with Stockfish)
+**When to use**: First run or when you want all stats regenerated
+
+```bash
+# Stats only (fastest - 30 min)
+gh workflow run "📊 Generate Tournament Statistics"
+
+# Stats + Stockfish analysis (slower - 3-5 hours, nice progress output)
+gh workflow run "📊 Generate Tournament Statistics" -f skip_stockfish=false -f depth=15
+```
+
+#### 🔬 Stockfish Analysis (Parallel)
+**Purpose**: Fast parallel engine analysis across all 6 rounds
+**Time**: ~60 minutes (6x faster than sequential)
+**When to use**: After generating stats, or to update just the Stockfish data
+
+```bash
+gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
+```
+
+**⚠️ Important**: Run "Generate Tournament Statistics" first, then run this workflow. Don't run both simultaneously.
+
+#### 🔬 Stockfish Analysis (Sequential)
+**Purpose**: Single-round or sequential analysis with detailed progress
+**Time**: Varies by round (15-60 min per round)
+**When to use**: Testing, single round updates, or troubleshooting
+
+```bash
+# Analyze specific round
+gh workflow run "🔬 Stockfish Analysis" -f round=6 -f depth=15
+
+# Analyze all rounds (slow - 3-5 hours)
+gh workflow run "🔬 Stockfish Analysis" -f depth=15
+```
+
+#### 🏆 Generate Tournament Overview
+**Purpose**: Aggregate stats across all rounds
+**Time**: <5 minutes
+**When to use**: After updating individual round stats
+
+```bash
+gh workflow run "🏆 Generate Tournament Overview"
+```
+
+### Recommended Workflow
+
+**First Run (Complete Setup):**
+```bash
+gh workflow run "📊 Generate Tournament Statistics" -f skip_stockfish=false -f depth=15
+```
+Everything in one workflow. Takes 3-5 hours but generates all stats including Stockfish.
+
+**Fast Updates (When Data Changes):**
+```bash
+# Step 1: Generate stats (30 min)
+gh workflow run "📊 Generate Tournament Statistics"
+
+# Step 2: Wait for step 1 to complete, then add Stockfish (60 min)
+gh workflow run "🔬 Stockfish Analysis (Parallel)" -f depth=15
+
+# Total: ~90 minutes vs 3-5 hours sequential
+```
 
 ## Installation
 
