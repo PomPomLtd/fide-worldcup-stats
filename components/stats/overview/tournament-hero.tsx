@@ -57,25 +57,25 @@ export function TournamentHero({ overview }: TournamentHeroProps) {
         {/* Tournament Bracket Progress */}
         <div className="bg-white/10 backdrop-blur rounded-lg p-4">
           <h3 className="text-lg font-semibold mb-3">Knockout Bracket Progress</h3>
-          <div className="flex items-center justify-center gap-2 text-sm">
-            <span className="px-3 py-1 bg-gray-500 rounded">128</span>
+          <div className="flex items-center justify-center gap-2 text-sm flex-wrap">
+            <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 2 ? 'bg-green-500' : 'bg-gray-600'}`}>128</span>
             <span>→</span>
-            <span className="px-3 py-1 bg-gray-500 rounded">64</span>
+            <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 3 ? 'bg-green-500' : 'bg-gray-600'}`}>64</span>
             <span>→</span>
-            <span className="px-3 py-1 bg-gray-500 rounded">32</span>
+            <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 4 ? 'bg-green-500' : 'bg-gray-600'}`}>32</span>
             <span>→</span>
-            <span className="px-3 py-1 bg-gray-500 rounded">16</span>
+            <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 5 ? 'bg-green-500' : 'bg-gray-600'}`}>16</span>
             <span>→</span>
-            <span className="px-3 py-1 bg-gray-500 rounded">8</span>
+            <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 5 ? 'bg-yellow-500' : 'bg-gray-600'}`}>8</span>
             <span>→</span>
             <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 6 ? 'bg-green-500' : 'bg-gray-600'}`}>4</span>
             <span>→</span>
             <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 7 ? 'bg-green-500' : 'bg-gray-600'}`}>2</span>
             <span>→</span>
-            <span className="px-3 py-1 bg-yellow-500 rounded">🏆</span>
+            <span className={`px-3 py-1 rounded ${overview.roundsCompleted >= 8 ? 'bg-green-500' : 'bg-yellow-500'}`}>🏆</span>
           </div>
           <p className="text-center text-sm text-blue-100 mt-2">
-            {overview.players.remainingPlayers} players remaining • {overview.players.eliminatedPlayers} eliminated
+            Round {overview.roundsCompleted + 1} in progress • 8 players remaining in quarterfinals
           </p>
         </div>
       </div>

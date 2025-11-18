@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-FIDE World Cup 2025 Statistics Platform - A Next.js-based static site generator that processes chess tournament PGN files to create comprehensive statistics with beautiful visualizations. Adapted from lichess4545-stats architecture for knockout tournament format.
+FIDE World Cup 2025 Stats - A Next.js-based static site generator that processes chess tournament PGN files to create comprehensive statistics with beautiful visualizations. Adapted from lichess4545-stats architecture for knockout tournament format.
 
 **Source Project:** Based on `/Users/sgis/DEV/pompom/lichess4545-stats` - a team-based chess league statistics platform. This project adapts that architecture for a single-elimination knockout tournament.
 

@@ -1,6 +1,6 @@
 {
   "roundNumber": 4,
-  "roundName": "Round 4 (Quarter-finals)",
+  "roundName": "Round 4 (Round of 32)",
   "totalMatches": 16,
   "totalGames": 67,
   "matches": [
@@ -5720,7 +5720,7 @@
       "outcome": {
         "winner": "Svane, Frederik",
         "advancingPlayer": "Svane, Frederik",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Sargsyan, Shant": 1.5,
           "Svane, Frederik": 2.5
@@ -10979,7 +10979,7 @@
       "outcome": {
         "winner": "Erigaisi, Arjun",
         "advancingPlayer": "Erigaisi, Arjun",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Erigaisi, Arjun": 3,
           "Leko, Peter": 1
@@ -15656,7 +15656,7 @@
       "outcome": {
         "winner": "Dubov, Daniil",
         "advancingPlayer": "Dubov, Daniil",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Dubov, Daniil": 2.5,
           "Praggnanandhaa, R": 1.5
@@ -18292,7 +18292,7 @@
       "outcome": {
         "winner": "Donchenko, Alexander",
         "advancingPlayer": "Donchenko, Alexander",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Bluebaum, Matthias": 0.5,
           "Donchenko, Alexander": 1.5
@@ -22348,7 +22348,7 @@
       "outcome": {
         "winner": "Yakubboev, Nodirbek",
         "advancingPlayer": "Yakubboev, Nodirbek",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Pranav, V": 0.5,
           "Yakubboev, Nodirbek": 1.5
@@ -31247,7 +31247,7 @@
       "outcome": {
         "winner": "Esipenko, Andrey",
         "advancingPlayer": "Esipenko, Andrey",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_2",
         "scores": {
           "Esipenko, Andrey": 4,
           "Keymer, Vincent": 2
@@ -44564,7 +44564,7 @@
       "outcome": {
         "winner": "Wei, Yi",
         "advancingPlayer": "Wei, Yi",
-        "tiebreakType": null,
+        "tiebreakType": "BLITZ_TIER_1",
         "scores": {
           "Maghsoodloo, Parham": 3,
           "Wei, Yi": 5
@@ -46644,7 +46644,7 @@
       "outcome": {
         "winner": "Martinez Alcantara, Jose Eduardo",
         "advancingPlayer": "Martinez Alcantara, Jose Eduardo",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Martinez Alcantara, Jose Eduardo": 1.5,
           "Sarana, Alexey": 0.5
@@ -51485,7 +51485,7 @@
       "outcome": {
         "winner": "Harikrishna, Pentala",
         "advancingPlayer": "Harikrishna, Pentala",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Grandelius, Nils": 1.5,
           "Harikrishna, Pentala": 2.5
@@ -71823,7 +71823,7 @@
       "outcome": {
         "winner": "Sevian, Samuel",
         "advancingPlayer": "Sevian, Samuel",
-        "tiebreakType": null,
+        "tiebreakType": "ARMAGEDDON",
         "scores": {
           "Lodici, Lorenzo": 5,
           "Sevian, Samuel": 6
@@ -76924,7 +76924,7 @@
       "outcome": {
         "winner": "Grebnev, Aleksey",
         "advancingPlayer": "Grebnev, Aleksey",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Grebnev, Aleksey": 2.5,
           "Vachier-Lagrave, Maxime": 1.5
@@ -86347,7 +86347,7 @@
       "outcome": {
         "winner": "Sargissian, Gabriel",
         "advancingPlayer": "Sargissian, Gabriel",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Liang, Awonder": 1,
           "Sargissian, Gabriel": 2
@@ -89905,7 +89905,7 @@
       "outcome": {
         "winner": "Le, Quang Liem",
         "advancingPlayer": "Le, Quang Liem",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Karthik, Venkataraman": 0.5,
           "Le, Quang Liem": 1.5
@@ -95248,7 +95248,7 @@
       "outcome": {
         "winner": "Shankland, Sam",
         "advancingPlayer": "Shankland, Sam",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Rapport, Richard": 1,
           "Shankland, Sam": 3
@@ -97740,7 +97740,7 @@
       "outcome": {
         "winner": "Aronian, Levon",
         "advancingPlayer": "Aronian, Levon",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Aronian, Levon": 1.5,
           "Wojtaszek, Radoslaw": 0.5
@@ -107473,7 +107473,7 @@
       "outcome": {
         "winner": "Sindarov, Javokhir",
         "advancingPlayer": "Sindarov, Javokhir",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Sindarov, Javokhir": 2.5,
           "Yu, Yangyi": 1.5
@@ -107491,15 +107491,15 @@
       }
     }
   ],
-  "generatedAt": "2025-11-16T20:59:48.290Z",
+  "generatedAt": "2025-11-18T08:52:32.412Z",
   "sourceDirectory": "_SRC/cup2025/",
   "summary": {
     "totalMatches": 16,
     "totalGames": 67,
-    "decidedInClassical": 0,
-    "decidedInRapid": 0,
-    "decidedInBlitz": 0,
-    "decidedInArmageddon": 0,
+    "decidedInClassical": 5,
+    "decidedInRapid": 9,
+    "decidedInBlitz": 1,
+    "decidedInArmageddon": 1,
     "timeControlDistribution": {
       "classical": 32,
       "rapidTier1": 22,
@@ -107509,7 +107509,7 @@
       "armageddon": 1
     }
   },
-  "classifiedAt": "2025-11-17T12:12:39.012Z",
+  "classifiedAt": "2025-11-18T08:52:32.951Z",
   "openingStats": {
     "totalGames": 67,
     "gamesWithOpenings": 67,
@@ -108859,6 +108859,6 @@
       }
     }
   },
-  "enrichedAt": "2025-11-17T12:19:33.152Z",
+  "enrichedAt": "2025-11-18T08:52:34.092Z",
   "stage": "enriched"
 }

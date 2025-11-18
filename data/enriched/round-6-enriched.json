@@ -1,6 +1,6 @@
 {
   "roundNumber": 6,
-  "roundName": "Round 6 (Final)",
+  "roundName": "Round 6 (Quarterfinals)",
   "totalMatches": 4,
   "totalGames": 4,
   "matches": [
@@ -5361,7 +5361,7 @@
       }
     }
   ],
-  "generatedAt": "2025-11-17T20:16:17.236Z",
+  "generatedAt": "2025-11-18T08:52:32.806Z",
   "sourceDirectory": "_SRC/cup2025/",
   "summary": {
     "totalMatches": 4,
@@ -5379,7 +5379,7 @@
       "armageddon": 0
     }
   },
-  "classifiedAt": "2025-11-17T20:16:17.277Z",
+  "classifiedAt": "2025-11-18T08:52:32.964Z",
   "openingStats": {
     "totalGames": 4,
     "gamesWithOpenings": 4,
@@ -5537,6 +5537,6 @@
       }
     }
   },
-  "enrichedAt": "2025-11-17T20:18:40.624Z",
+  "enrichedAt": "2025-11-18T08:52:34.139Z",
   "stage": "enriched"
 }

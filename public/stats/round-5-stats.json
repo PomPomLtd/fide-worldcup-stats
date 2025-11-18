@@ -1,22 +1,22 @@
 {
   "roundNumber": 5,
-  "roundName": "Round 5 (Semi-finals)",
-  "generatedAt": "2025-11-17T20:21:26.955Z",
+  "roundName": "Round 5 (Round of 16)",
+  "generatedAt": "2025-11-18T08:56:15.665Z",
   "matchStats": {
     "totalMatches": 8,
-    "decidedInClassical": 0,
-    "decidedInRapidTier1": 0,
-    "decidedInRapidTier2": 0,
-    "decidedInBlitzTier1": 0,
+    "decidedInClassical": 4,
+    "decidedInRapidTier1": 2,
+    "decidedInRapidTier2": 1,
+    "decidedInBlitzTier1": 1,
     "decidedInBlitzTier2": 0,
     "decidedInArmageddon": 0,
     "tiebreakAnalysis": {
-      "classicalDecisiveRate": 0,
-      "wentToTiebreak": 8,
-      "tiebreakRate": 100,
-      "rapidTier1NeededRate": 0,
-      "rapidTier2Needed": 0,
-      "blitzNeeded": 0
+      "classicalDecisiveRate": 50,
+      "wentToTiebreak": 4,
+      "tiebreakRate": 50,
+      "rapidTier1NeededRate": 50,
+      "rapidTier2Needed": 2,
+      "blitzNeeded": 1
     },
     "averageMovesToDecision": {
       "classical": 53.1,
@@ -2733,7 +2733,11 @@
     }
   },
   "fideFunAwards": {
-    "tiebreakWarrior": null,
+    "tiebreakWarrior": {
+      "player": "Shankland, Sam",
+      "tiebreakWins": 1,
+      "deepestTiebreak": "RAPID_TIER_1"
+    },
     "giantSlayer": {
       "player": "Donchenko, Alexander",
       "defeated": "Le, Quang Liem",

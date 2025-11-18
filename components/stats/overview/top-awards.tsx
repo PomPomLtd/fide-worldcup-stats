@@ -12,19 +12,26 @@ interface AwardData extends Record<string, unknown> {
   white?: string
   black?: string
   winner?: string
+  player?: string
   players?: string
   captures?: number
   moves?: number
   endgameMoves?: number
+  openingMoves?: number
   ratingDifference?: number
   totalMoves?: number
+  tiebreakWins?: number
+  blitzWins?: number
   squares?: number
   name?: string
   eco?: string
   length?: number
+  count?: number
+  distance?: number
   attackers?: number
   minClock?: number
   avgTime?: number
+  timeSpent?: number
 }
 
 interface AwardConfig {
@@ -171,6 +178,127 @@ const awardConfigs: AwardConfig[] = [
     borderColor: 'border-cyan-200 dark:border-cyan-800',
     bgColor: 'bg-cyan-50 dark:bg-cyan-900/20',
     textColor: 'text-cyan-900 dark:text-cyan-300'
+  },
+  {
+    key: 'openingSprinter',
+    category: 'awards',
+    emoji: '🏃‍♂️',
+    title: 'Opening Sprinter',
+    getValue: (a) => `${a.openingMoves || 0} opening moves`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-lime-200 dark:border-lime-800',
+    bgColor: 'bg-lime-50 dark:bg-lime-900/20',
+    textColor: 'text-lime-900 dark:text-lime-300'
+  },
+  {
+    key: 'tiebreakWarrior',
+    category: 'fideFunAwards',
+    emoji: '⚔️',
+    title: 'Tiebreak Warrior',
+    getValue: (a) => `${a.tiebreakWins || 0} tiebreak wins`,
+    getPlayers: (a) => ({ name: a.player }),
+    borderColor: 'border-red-200 dark:border-red-800',
+    bgColor: 'bg-red-50 dark:bg-red-900/20',
+    textColor: 'text-red-900 dark:text-red-300'
+  },
+  {
+    key: 'rapidFire',
+    category: 'fideFunAwards',
+    emoji: '🔥',
+    title: 'Rapid Fire Win',
+    getValue: (a) => `Won in ${a.moves || 0} moves`,
+    getPlayers: (a) => ({ name: a.winner }),
+    borderColor: 'border-orange-200 dark:border-orange-800',
+    bgColor: 'bg-orange-50 dark:bg-orange-900/20',
+    textColor: 'text-orange-900 dark:text-orange-300'
+  },
+  {
+    key: 'blitzWizard',
+    category: 'fideFunAwards',
+    emoji: '⚡',
+    title: 'Blitz Wizard',
+    getValue: (a) => `${a.blitzWins || 0} blitz wins`,
+    getPlayers: (a) => ({ name: a.player }),
+    borderColor: 'border-yellow-200 dark:border-yellow-800',
+    bgColor: 'bg-yellow-50 dark:bg-yellow-900/20',
+    textColor: 'text-yellow-900 dark:text-yellow-300'
+  },
+  {
+    key: 'longestCaptureSequence',
+    category: 'funStats',
+    emoji: '🎣',
+    title: 'Capture Streak',
+    getValue: (a) => `${a.length || 0} consecutive captures`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-violet-200 dark:border-violet-800',
+    bgColor: 'bg-violet-50 dark:bg-violet-900/20',
+    textColor: 'text-violet-900 dark:text-violet-300'
+  },
+  {
+    key: 'fastestQueenTrade',
+    category: 'funStats',
+    emoji: '👑',
+    title: 'Early Queen Trade',
+    getValue: (a) => `Move ${a.moves || 0}`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-fuchsia-200 dark:border-fuchsia-800',
+    bgColor: 'bg-fuchsia-50 dark:bg-fuchsia-900/20',
+    textColor: 'text-fuchsia-900 dark:text-fuchsia-300'
+  },
+  {
+    key: 'pawnStorm',
+    category: 'funStats',
+    emoji: '🌪️',
+    title: 'Pawn Storm',
+    getValue: (a) => `${a.count || 0} advanced pawns`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-emerald-200 dark:border-emerald-800',
+    bgColor: 'bg-emerald-50 dark:bg-emerald-900/20',
+    textColor: 'text-emerald-900 dark:text-emerald-300'
+  },
+  {
+    key: 'dadbodShuffler',
+    category: 'funStats',
+    emoji: '👴',
+    title: 'King Wanderer',
+    getValue: (a) => `${a.moves || 0} king moves`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-stone-200 dark:border-stone-800',
+    bgColor: 'bg-stone-50 dark:bg-stone-900/20',
+    textColor: 'text-stone-900 dark:text-stone-300'
+  },
+  {
+    key: 'sportyQueen',
+    category: 'funStats',
+    emoji: '♕',
+    title: 'Sporty Queen',
+    getValue: (a) => `${a.distance || 0} squares traveled`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-purple-200 dark:border-purple-800',
+    bgColor: 'bg-purple-50 dark:bg-purple-900/20',
+    textColor: 'text-purple-900 dark:text-purple-300'
+  },
+  {
+    key: 'castlingRace',
+    category: 'funStats',
+    emoji: '🏰',
+    title: 'Castling Race',
+    getValue: (a) => `Move ${a.moves || 0}`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-slate-200 dark:border-slate-800',
+    bgColor: 'bg-slate-50 dark:bg-slate-900/20',
+    textColor: 'text-slate-900 dark:text-slate-300'
+  },
+  {
+    key: 'longestThink',
+    category: 'timeAwards',
+    emoji: '🤔',
+    title: 'Longest Think',
+    getValue: (a) => `${Math.floor((a.timeSpent || 0) / 60)}m ${Math.floor((a.timeSpent || 0) % 60)}s`,
+    getPlayers: (a) => ({ name: a.player }),
+    borderColor: 'border-gray-200 dark:border-gray-800',
+    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    textColor: 'text-gray-900 dark:text-gray-300'
   }
 ]
 

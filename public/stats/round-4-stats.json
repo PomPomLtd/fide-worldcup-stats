@@ -1,22 +1,22 @@
 {
   "roundNumber": 4,
-  "roundName": "Round 4 (Quarter-finals)",
-  "generatedAt": "2025-11-17T20:21:23.328Z",
+  "roundName": "Round 4 (Round of 32)",
+  "generatedAt": "2025-11-18T08:56:12.108Z",
   "matchStats": {
     "totalMatches": 16,
-    "decidedInClassical": 0,
-    "decidedInRapidTier1": 0,
-    "decidedInRapidTier2": 0,
-    "decidedInBlitzTier1": 0,
+    "decidedInClassical": 5,
+    "decidedInRapidTier1": 8,
+    "decidedInRapidTier2": 1,
+    "decidedInBlitzTier1": 1,
     "decidedInBlitzTier2": 0,
-    "decidedInArmageddon": 0,
+    "decidedInArmageddon": 1,
     "tiebreakAnalysis": {
-      "classicalDecisiveRate": 0,
-      "wentToTiebreak": 16,
-      "tiebreakRate": 100,
-      "rapidTier1NeededRate": 0,
-      "rapidTier2Needed": 0,
-      "blitzNeeded": 0
+      "classicalDecisiveRate": 31.3,
+      "wentToTiebreak": 11,
+      "tiebreakRate": 68.8,
+      "rapidTier1NeededRate": 68.8,
+      "rapidTier2Needed": 3,
+      "blitzNeeded": 2
     },
     "averageMovesToDecision": {
       "classical": 56.3,
@@ -3974,7 +3974,11 @@
     }
   },
   "fideFunAwards": {
-    "tiebreakWarrior": null,
+    "tiebreakWarrior": {
+      "player": "Svane, Frederik",
+      "tiebreakWins": 1,
+      "deepestTiebreak": "RAPID_TIER_1"
+    },
     "giantSlayer": {
       "player": "Lodici, Lorenzo",
       "defeated": "Sevian, Samuel",

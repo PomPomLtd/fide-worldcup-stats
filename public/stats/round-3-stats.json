@@ -1,21 +1,21 @@
 {
   "roundNumber": 3,
-  "roundName": "Round 3 (Round of 16)",
-  "generatedAt": "2025-11-17T20:21:14.029Z",
+  "roundName": "Round 3 (Round of 64)",
+  "generatedAt": "2025-11-18T08:56:03.618Z",
   "matchStats": {
     "totalMatches": 32,
-    "decidedInClassical": 0,
-    "decidedInRapidTier1": 0,
-    "decidedInRapidTier2": 0,
+    "decidedInClassical": 21,
+    "decidedInRapidTier1": 7,
+    "decidedInRapidTier2": 3,
     "decidedInBlitzTier1": 0,
     "decidedInBlitzTier2": 0,
     "decidedInArmageddon": 0,
     "tiebreakAnalysis": {
-      "classicalDecisiveRate": 0,
-      "wentToTiebreak": 32,
-      "tiebreakRate": 100,
-      "rapidTier1NeededRate": 0,
-      "rapidTier2Needed": 0,
+      "classicalDecisiveRate": 65.6,
+      "wentToTiebreak": 11,
+      "tiebreakRate": 34.4,
+      "rapidTier1NeededRate": 31.3,
+      "rapidTier2Needed": 3,
       "blitzNeeded": 0
     },
     "averageMovesToDecision": {
@@ -4722,7 +4722,11 @@
     }
   },
   "fideFunAwards": {
-    "tiebreakWarrior": null,
+    "tiebreakWarrior": {
+      "player": "Wei, Yi",
+      "tiebreakWins": 1,
+      "deepestTiebreak": "RAPID_TIER_1"
+    },
     "giantSlayer": {
       "player": "Donchenko, Alexander",
       "defeated": "Giri, Anish",

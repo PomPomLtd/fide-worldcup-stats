@@ -1,4 +1,4 @@
-# FIDE World Cup 2025 Statistics
+# FIDE World Cup 2025 Stats
 
 > Comprehensive statistics platform for the FIDE World Cup 2025 - Beautiful visualizations of games, openings, tactics, and player awards
 
@@ -21,14 +21,16 @@ This project creates beautiful, comprehensive statistics for the **FIDE World Cu
 
 ## Tournament Structure
 
-The FIDE World Cup is a single-elimination knockout tournament:
+The FIDE World Cup is a 206-player single-elimination knockout tournament with 8 rounds:
 
-- **Round 1**: 64 players → 32 advance
-- **Round 2**: 32 players → 16 advance
-- **Round 3** (Round of 16): 16 players → 8 advance
-- **Round 4** (Quarter-finals): 8 players → 4 advance
-- **Round 5** (Semi-finals): 4 players → 2 advance
-- **Round 6** (Final): 2 players → 1 champion
+- **Round 1**: First elimination
+- **Round 2** (Round of 128): Top 50 seeds enter here
+- **Round 3** (Round of 64)
+- **Round 4** (Round of 32)
+- **Round 5** (Round of 16)
+- **Round 6** (Quarterfinals)
+- **Round 7** (Semifinals)
+- **Round 8** (Final + 3rd/4th place playoff)
 
 Each match consists of:
 - 2 classical games (90+30 time control)

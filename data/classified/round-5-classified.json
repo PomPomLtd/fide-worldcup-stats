@@ -1,6 +1,6 @@
 {
   "roundNumber": 5,
-  "roundName": "Round 5 (Semi-finals)",
+  "roundName": "Round 5 (Round of 16)",
   "totalMatches": 8,
   "totalGames": 30,
   "matches": [
@@ -3865,7 +3865,7 @@
       "outcome": {
         "winner": "Sindarov, Javokhir",
         "advancingPlayer": "Sindarov, Javokhir",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Sindarov, Javokhir": 1.5,
           "Svane, Frederik": 0.5
@@ -6587,7 +6587,7 @@
       "outcome": {
         "winner": "Erigaisi, Arjun",
         "advancingPlayer": "Erigaisi, Arjun",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Aronian, Levon": 0.5,
           "Erigaisi, Arjun": 1.5
@@ -14006,7 +14006,7 @@
       "outcome": {
         "winner": "Shankland, Sam",
         "advancingPlayer": "Shankland, Sam",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Dubov, Daniil": 1,
           "Shankland, Sam": 3
@@ -24521,7 +24521,7 @@
       "outcome": {
         "winner": "Donchenko, Alexander",
         "advancingPlayer": "Donchenko, Alexander",
-        "tiebreakType": null,
+        "tiebreakType": "BLITZ_TIER_1",
         "scores": {
           "Donchenko, Alexander": 4.5,
           "Le, Quang Liem": 3.5
@@ -26841,7 +26841,7 @@
       "outcome": {
         "winner": "Yakubboev, Nodirbek",
         "advancingPlayer": "Yakubboev, Nodirbek",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Sargissian, Gabriel": 0.5,
           "Yakubboev, Nodirbek": 1.5
@@ -34876,7 +34876,7 @@
       "outcome": {
         "winner": "Esipenko, Andrey",
         "advancingPlayer": "Esipenko, Andrey",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_1",
         "scores": {
           "Esipenko, Andrey": 2.5,
           "Grebnev, Aleksey": 1.5
@@ -39358,7 +39358,7 @@
       "outcome": {
         "winner": "Wei, Yi",
         "advancingPlayer": "Wei, Yi",
-        "tiebreakType": null,
+        "tiebreakType": "CLASSICAL",
         "scores": {
           "Sevian, Samuel": 0.5,
           "Wei, Yi": 1.5
@@ -47289,7 +47289,7 @@
       "outcome": {
         "winner": "Martinez Alcantara, Jose Eduardo",
         "advancingPlayer": "Martinez Alcantara, Jose Eduardo",
-        "tiebreakType": null,
+        "tiebreakType": "RAPID_TIER_2",
         "scores": {
           "Harikrishna, Pentala": 2.5,
           "Martinez Alcantara, Jose Eduardo": 3.5
@@ -47307,14 +47307,14 @@
       }
     }
   ],
-  "generatedAt": "2025-11-16T20:59:48.702Z",
+  "generatedAt": "2025-11-18T08:52:32.764Z",
   "sourceDirectory": "_SRC/cup2025/",
   "summary": {
     "totalMatches": 8,
     "totalGames": 30,
-    "decidedInClassical": 0,
-    "decidedInRapid": 0,
-    "decidedInBlitz": 0,
+    "decidedInClassical": 4,
+    "decidedInRapid": 3,
+    "decidedInBlitz": 1,
     "decidedInArmageddon": 0,
     "timeControlDistribution": {
       "classical": 16,
@@ -47325,5 +47325,5 @@
       "armageddon": 0
     }
   },
-  "classifiedAt": "2025-11-17T14:07:36.167Z"
+  "classifiedAt": "2025-11-18T08:52:32.960Z"
 }

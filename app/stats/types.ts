@@ -1039,6 +1039,95 @@ export interface TournamentOverview {
       draws: number;
       losses: number;
     }>;
+    generalOpenings?: Array<{
+      name: string;
+      count: number;
+    }>;
+    firstMoveStats?: Array<{
+      move: string;
+      count: number;
+      wins: number;
+      draws: number;
+      losses: number;
+      whiteWinRate: number;
+      popularity: number;
+    }>;
+  };
+  tactics?: {
+    totalCaptures: number;
+    totalPromotions: number;
+    castling: {
+      kingside: number;
+      queenside: number;
+    };
+    enPassantGames: Array<{
+      white: string;
+      black: string;
+      count: number;
+    }>;
+  };
+  pieces?: {
+    activity: {
+      pawns: number;
+      knights: number;
+      bishops: number;
+      rooks: number;
+      queens: number;
+      kings: number;
+    };
+    captured: {
+      pawns: number;
+      knights: number;
+      bishops: number;
+      rooks: number;
+      queens: number;
+    };
+  };
+  checkmates?: {
+    byPiece: {
+      queen: number;
+      rook: number;
+      bishop: number;
+      knight: number;
+      pawn: number;
+    };
+    fastest: (GameReference & {
+      moves: number;
+      roundNumber: number;
+      winner: string;
+    }) | null;
+  };
+  timeControlComparison?: {
+    classical: {
+      games: number;
+      avgLength: number;
+      whiteWins: number;
+      draws: number;
+      blackWins: number;
+      whiteWinRate: number;
+      drawRate: number;
+      blackWinRate: number;
+    };
+    rapid: {
+      games: number;
+      avgLength: number;
+      whiteWins: number;
+      draws: number;
+      blackWins: number;
+      whiteWinRate: number;
+      drawRate: number;
+      blackWinRate: number;
+    };
+    blitz: {
+      games: number;
+      avgLength: number;
+      whiteWins: number;
+      draws: number;
+      blackWins: number;
+      whiteWinRate: number;
+      drawRate: number;
+      blackWinRate: number;
+    };
   };
   players: {
     startingPlayers: number;

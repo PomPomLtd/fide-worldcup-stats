@@ -17,6 +17,10 @@ interface OpeningsSectionProps {
       eco: string | null
       name: string | null
     }>
+    generalOpenings?: Array<{
+      name: string
+      count: number
+    }>
   }
 }
 
@@ -78,11 +82,31 @@ export function OpeningsSection({ openings }: OpeningsSectionProps) {
           </div>
         </div>
 
+        {/* General Opening Families */}
+        {openings.generalOpenings && openings.generalOpenings.length > 0 && (
+          <div>
+            <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">General Opening Families</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {openings.generalOpenings.map((opening, idx) => (
+                <div key={idx} className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
+                  <div className="flex justify-between items-start">
+                    <span className="text-sm font-semibold text-gray-900 dark:text-white">{opening.name}</span>
+                    <span className="text-sm font-semibold text-blue-600 dark:text-blue-400">{opening.count}</span>
+                  </div>
+                  <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+                    {opening.count === 1 ? 'game' : 'games'}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Popular Opening Sequences */}
         {openings.popularSequences.length > 0 && (
           <div>
             <div className="flex items-center justify-between mb-3">
-              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300">Opening Variations</h4>
+              <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300">Specific Opening Variations</h4>
               {openings.popularSequences.length > 5 && (
                 <button
                   onClick={() => setShowAll(!showAll)}

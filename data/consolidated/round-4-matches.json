@@ -1,6 +1,6 @@
 {
   "roundNumber": 4,
-  "roundName": "Round 4 (Quarter-finals)",
+  "roundName": "Round 4 (Round of 32)",
   "totalMatches": 16,
   "totalGames": 67,
   "matches": [
@@ -52985,6 +52985,6 @@
       "site": "Goa, India"
     }
   ],
-  "generatedAt": "2025-11-16T20:59:48.290Z",
+  "generatedAt": "2025-11-18T08:52:32.412Z",
   "sourceDirectory": "_SRC/cup2025/"
 }

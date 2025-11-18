@@ -22,7 +22,9 @@
       "Bash(find:*)",
       "Bash(python3:*)",
       "Bash(source venv/bin/activate)",
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "Bash(do echo \"Processing Round $round...\")",
+      "WebFetch(domain:worldcup2025.fide.com)"
     ],
     "deny": [],
     "ask": []

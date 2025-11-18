@@ -7,6 +7,11 @@ import { RoundSummaryTable } from '@/components/stats/overview/round-summary-tab
 import { HallOfFame } from '@/components/stats/overview/hall-of-fame'
 import { PlayerLeaderboard } from '@/components/stats/overview/player-leaderboard'
 import { TopAwards } from '@/components/stats/overview/top-awards'
+import { TimeControlComparison } from '@/components/stats/overview/time-control-comparison'
+import { TacticalStatsSection } from '@/components/stats/tactical-stats-section'
+import { PieceActivitySection } from '@/components/stats/piece-activity-section'
+import { CheckmatesSection } from '@/components/stats/checkmates-section'
+import { OpeningsSection } from '@/components/stats/openings-section'
 
 export default function TournamentOverviewPage() {
   const [overview, setOverview] = useState<TournamentOverview | null>(null)
@@ -64,6 +69,87 @@ export default function TournamentOverviewPage() {
         <TopAwards topAwards={overview.topAwards} />
         <PlayerLeaderboard players={overview.playerLeaderboard} />
         <RoundSummaryTable rounds={overview.byRound} />
+
+        {/* Time Control Comparison */}
+        {overview.timeControlComparison && (
+          <TimeControlComparison timeControlComparison={overview.timeControlComparison} />
+        )}
+
+        {/* Tactical Stats */}
+        {overview.tactics && (
+          <TacticalStatsSection
+            tactics={overview.tactics as unknown as {
+              totalCaptures: number
+              totalPromotions: number | null
+              castling: { kingside: number; queenside: number }
+              enPassantGames: Array<{ white: string; black: string; count: number }>
+            }}
+          />
+        )}
+
+        {/* Piece Activity */}
+        {overview.pieces && (
+          <PieceActivitySection
+            pieces={overview.pieces as unknown as {
+              activity: {
+                pawns: number
+                knights: number
+                bishops: number
+                rooks: number
+                queens: number
+                kings: number
+              }
+              captured: {
+                pawns: number
+                knights: number
+                bishops: number
+                rooks: number
+                queens: number
+              }
+            }}
+          />
+        )}
+
+        {/* Checkmates */}
+        {overview.checkmates && (
+          <CheckmatesSection checkmates={overview.checkmates as unknown as {
+            byPiece: {
+              queen: number
+              rook: number
+              bishop: number
+              knight: number
+              pawn: number
+            }
+            fastest: {
+              moves: number
+              white: string
+              black: string
+              winner: string
+              gameId: string | null
+            } | null
+          }} />
+        )}
+
+        {/* Opening Moves */}
+        {overview.openings?.firstMoveStats && (
+          <OpeningsSection openings={{
+            firstMoves: overview.openings.firstMoveStats.reduce((acc, stat) => {
+              acc[stat.move] = {
+                count: stat.count,
+                percentage: Math.round((stat.count / overview.overall.totalGames) * 100),
+                whiteWinRate: stat.whiteWinRate
+              };
+              return acc;
+            }, {} as Record<string, { count: number; percentage: number; whiteWinRate: number }>),
+            generalOpenings: overview.openings.generalOpenings,
+            popularSequences: overview.openings.mostPopular.slice(0, 10).map(opening => ({
+              moves: opening.name,
+              count: opening.count,
+              eco: null,
+              name: opening.name
+            }))
+          }} />
+        )}
       </div>
     </div>
   )

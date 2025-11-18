@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react'
 const navigation = [
   { name: 'Home', href: '/', current: false },
   { name: 'Overview', href: '/stats/overview', current: false },
+  { name: 'About', href: '/about', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -59,7 +60,7 @@ export function Navigation() {
                   height={32}
                   className="w-8 h-8"
                 />
-                <span>FIDE World Cup 2025</span>
+                <span>FIDE World Cup 2025 Stats</span>
               </Link>
             </div>
             <div className="hidden lg:block">

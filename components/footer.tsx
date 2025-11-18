@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 
 interface BuildInfo {
   commit: string
@@ -38,16 +39,25 @@ export function Footer() {
               Build {buildInfo.commit} • {buildInfo.timestampFormatted}
             </span>
           </div>
-          <div>
-            Created by{' '}
-            <a
-              href="https://www.pom-pom.ch"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-600 dark:text-indigo-400 hover:underline font-medium"
+          <div className="flex items-center gap-4">
+            <Link
+              href="/about"
+              className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 hover:underline"
             >
-              Pom Pom
-            </a>
+              About
+            </Link>
+            <span>•</span>
+            <span>
+              Created by{' '}
+              <a
+                href="https://www.pom-pom.ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-600 dark:text-indigo-400 hover:underline font-medium"
+              >
+                Pom Pom
+              </a>
+            </span>
           </div>
         </div>
       </div>

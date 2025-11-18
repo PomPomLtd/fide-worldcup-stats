@@ -2,7 +2,7 @@
   "name": "fide-worldcup-stats",
   "version": "0.1.0",
   "private": true,
-  "description": "Comprehensive statistics platform for the FIDE World Cup 2025",
+  "description": "FIDE World Cup 2025 Stats - Comprehensive statistics platform for the FIDE World Cup 2025",
   "repository": {
     "type": "git",
     "url": "git@github.com:PomPomLtd/fide-worldcup-stats.git"

@@ -1,6 +1,6 @@
 {
   "roundNumber": 6,
-  "roundName": "Round 6 (Final)",
+  "roundName": "Round 6 (Quarterfinals)",
   "totalMatches": 4,
   "totalGames": 4,
   "matches": [
@@ -2639,6 +2639,6 @@
       "site": "Goa, India"
     }
   ],
-  "generatedAt": "2025-11-17T20:16:17.236Z",
+  "generatedAt": "2025-11-18T08:52:32.806Z",
   "sourceDirectory": "_SRC/cup2025/"
 }

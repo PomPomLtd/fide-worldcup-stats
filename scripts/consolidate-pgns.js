@@ -425,11 +425,13 @@ function processRound(roundNum) {
 function getRoundName(roundNum) {
   const names = {
     1: 'Round 1',
-    2: 'Round 2',
-    3: 'Round 3 (Round of 16)',
-    4: 'Round 4 (Quarter-finals)',
-    5: 'Round 5 (Semi-finals)',
-    6: 'Round 6 (Final)',
+    2: 'Round 2 (Round of 128)',
+    3: 'Round 3 (Round of 64)',
+    4: 'Round 4 (Round of 32)',
+    5: 'Round 5 (Round of 16)',
+    6: 'Round 6 (Quarterfinals)',
+    7: 'Round 7 (Semifinals)',
+    8: 'Round 8 (Final)',
   };
   return names[roundNum] || `Round ${roundNum}`;
 }

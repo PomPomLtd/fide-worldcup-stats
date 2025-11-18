@@ -110,11 +110,229 @@ function aggregateTotals(rounds) {
     totalGames,
     totalMatches,
     totalMoves,
-    averageGameLength: totalGames > 0 ? Math.round((totalMoves / totalGames) * 10) / 10 : 0,
+    averageGameLength: totalGames > 0 ? Math.round((totalMoves / totalGames / 2) * 10) / 10 : 0,
     longestGame,
     shortestGame,
     piecesCaptured
   };
+}
+
+/**
+ * Aggregate tactical statistics across all rounds
+ */
+function aggregateTactics(rounds) {
+  let totalCaptures = 0;
+  let totalPromotions = 0;
+  let kingsideCastles = 0;
+  let queensideCastles = 0;
+  const enPassantGames = [];
+
+  rounds.forEach(round => {
+    if (round.tactics) {
+      totalCaptures += round.tactics.totalCaptures || 0;
+      totalPromotions += round.tactics.totalPromotions || 0;
+      kingsideCastles += round.tactics.castling?.kingside || 0;
+      queensideCastles += round.tactics.castling?.queenside || 0;
+
+      if (round.tactics.enPassantGames) {
+        enPassantGames.push(...round.tactics.enPassantGames);
+      }
+    }
+  });
+
+  return {
+    totalCaptures,
+    totalPromotions,
+    castling: {
+      kingside: kingsideCastles,
+      queenside: queensideCastles
+    },
+    enPassantGames
+  };
+}
+
+/**
+ * Aggregate piece activity statistics across all rounds
+ */
+function aggregatePieceActivity(rounds) {
+  const activity = {
+    pawns: 0,
+    knights: 0,
+    bishops: 0,
+    rooks: 0,
+    queens: 0,
+    kings: 0
+  };
+
+  const captured = {
+    pawns: 0,
+    knights: 0,
+    bishops: 0,
+    rooks: 0,
+    queens: 0
+  };
+
+  rounds.forEach(round => {
+    if (round.pieces?.activity) {
+      activity.pawns += round.pieces.activity.pawns || 0;
+      activity.knights += round.pieces.activity.knights || 0;
+      activity.bishops += round.pieces.activity.bishops || 0;
+      activity.rooks += round.pieces.activity.rooks || 0;
+      activity.queens += round.pieces.activity.queens || 0;
+      activity.kings += round.pieces.activity.kings || 0;
+    }
+
+    if (round.pieces?.captured) {
+      captured.pawns += round.pieces.captured.pawns || 0;
+      captured.knights += round.pieces.captured.knights || 0;
+      captured.bishops += round.pieces.captured.bishops || 0;
+      captured.rooks += round.pieces.captured.rooks || 0;
+      captured.queens += round.pieces.captured.queens || 0;
+    }
+  });
+
+  return { activity, captured };
+}
+
+/**
+ * Aggregate checkmate statistics across all rounds
+ */
+function aggregateCheckmates(rounds) {
+  const byPiece = {
+    queen: 0,
+    rook: 0,
+    bishop: 0,
+    knight: 0,
+    pawn: 0
+  };
+
+  let fastestCheckmate = null;
+
+  rounds.forEach(round => {
+    if (round.checkmates?.byPiece) {
+      byPiece.queen += round.checkmates.byPiece.queen || 0;
+      byPiece.rook += round.checkmates.byPiece.rook || 0;
+      byPiece.bishop += round.checkmates.byPiece.bishop || 0;
+      byPiece.knight += round.checkmates.byPiece.knight || 0;
+      byPiece.pawn += round.checkmates.byPiece.pawn || 0;
+    }
+
+    if (round.checkmates?.fastest) {
+      if (!fastestCheckmate || round.checkmates.fastest.moves < fastestCheckmate.moves) {
+        fastestCheckmate = {
+          ...round.checkmates.fastest,
+          roundNumber: round.roundNumber
+        };
+      }
+    }
+  });
+
+  return { byPiece, fastest: fastestCheckmate };
+}
+
+/**
+ * Aggregate first move statistics across all rounds
+ */
+function aggregateFirstMoves(rounds) {
+  const moveCounts = {};
+  let totalGames = 0;
+
+  rounds.forEach(round => {
+    if (round.openings?.firstMoves) {
+      // firstMoves is a Record object, not an array
+      Object.entries(round.openings.firstMoves).forEach(([move, stats]) => {
+        if (!moveCounts[move]) {
+          moveCounts[move] = {
+            move,
+            count: 0,
+            whiteWinRate: 0,
+            totalWinRate: 0
+          };
+        }
+        moveCounts[move].count += stats.count;
+        // Weight the win rate by number of games
+        moveCounts[move].totalWinRate += stats.whiteWinRate * stats.count;
+      });
+      totalGames += round.overview?.totalGames || 0;
+    }
+  });
+
+  // Calculate weighted average win rates and sort by popularity
+  const firstMoveStats = Object.entries(moveCounts).map(([move, data]) => ({
+    move,
+    count: data.count,
+    whiteWinRate: data.count > 0
+      ? Math.round(data.totalWinRate / data.count)
+      : 0,
+    popularity: data.count,
+    percentage: totalGames > 0
+      ? Math.round((data.count / totalGames) * 100 * 10) / 10
+      : 0
+  })).sort((a, b) => b.count - a.count);
+
+  return firstMoveStats.slice(0, 10);
+}
+
+/**
+ * Compare statistics across time controls
+ */
+function compareTimeControls(rounds) {
+  const comparison = {
+    classical: { games: 0, avgLength: 0, whiteWins: 0, draws: 0, blackWins: 0 },
+    rapid: { games: 0, avgLength: 0, whiteWins: 0, draws: 0, blackWins: 0 },
+    blitz: { games: 0, avgLength: 0, whiteWins: 0, draws: 0, blackWins: 0 }
+  };
+
+  rounds.forEach(round => {
+    // Classical
+    if (round.byTimeControl?.classical) {
+      const classical = round.byTimeControl.classical;
+      comparison.classical.games += classical.overview?.totalGames || 0;
+      comparison.classical.avgLength += (classical.overview?.totalMoves || 0);
+      comparison.classical.whiteWins += classical.results?.whiteWins || 0;
+      comparison.classical.draws += classical.results?.draws || 0;
+      comparison.classical.blackWins += classical.results?.blackWins || 0;
+    }
+
+    // Rapid (aggregate both tiers)
+    ['rapidTier1', 'rapidTier2'].forEach(tier => {
+      if (round.byTimeControl?.[tier]) {
+        const rapid = round.byTimeControl[tier];
+        comparison.rapid.games += rapid.overview?.totalGames || 0;
+        comparison.rapid.avgLength += (rapid.overview?.totalMoves || 0);
+        comparison.rapid.whiteWins += rapid.results?.whiteWins || 0;
+        comparison.rapid.draws += rapid.results?.draws || 0;
+        comparison.rapid.blackWins += rapid.results?.blackWins || 0;
+      }
+    });
+
+    // Blitz (aggregate both tiers)
+    ['blitzTier1', 'blitzTier2'].forEach(tier => {
+      if (round.byTimeControl?.[tier]) {
+        const blitz = round.byTimeControl[tier];
+        comparison.blitz.games += blitz.overview?.totalGames || 0;
+        comparison.blitz.avgLength += (blitz.overview?.totalMoves || 0);
+        comparison.blitz.whiteWins += blitz.results?.whiteWins || 0;
+        comparison.blitz.draws += blitz.results?.draws || 0;
+        comparison.blitz.blackWins += blitz.results?.blackWins || 0;
+      }
+    });
+  });
+
+  // Calculate percentages and averages
+  ['classical', 'rapid', 'blitz'].forEach(tc => {
+    const data = comparison[tc];
+    const totalGames = data.games;
+    if (totalGames > 0) {
+      // Convert plies to full moves by dividing by 2
+      data.avgLength = Math.round((data.avgLength / totalGames / 2) * 10) / 10;
+      data.whiteWinRate = Math.round((data.whiteWins / totalGames) * 100);
+      data.drawRate = Math.round((data.draws / totalGames) * 100);
+      data.blackWinRate = Math.round((data.blackWins / totalGames) * 100);
+    }
+  });
+
+  return comparison;
 }
 
 /**
@@ -436,12 +654,14 @@ function calculateTrends(rounds) {
  */
 function analyzeOpenings(rounds) {
   const openingCounts = {};
+  const generalOpeningCounts = {};
 
   rounds.forEach(round => {
     if (round.openings?.mostPopular) {
       round.openings.mostPopular.forEach(opening => {
         const name = opening.name || opening.opening;
         if (name) {
+          // Track specific variations
           if (!openingCounts[name]) {
             openingCounts[name] = {
               name,
@@ -452,6 +672,19 @@ function analyzeOpenings(rounds) {
             };
           }
           openingCounts[name].count += opening.count || 0;
+
+          // Track general opening families (text before colon)
+          const generalName = name.includes(':')
+            ? name.split(':')[0].trim()
+            : name;
+
+          if (!generalOpeningCounts[generalName]) {
+            generalOpeningCounts[generalName] = {
+              name: generalName,
+              count: 0
+            };
+          }
+          generalOpeningCounts[generalName].count += opening.count || 0;
         }
       });
     }
@@ -462,8 +695,13 @@ function analyzeOpenings(rounds) {
     .sort((a, b) => b.count - a.count)
     .slice(0, 10);
 
+  const sortedGeneralOpenings = Object.values(generalOpeningCounts)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10);
+
   return {
-    mostPopular: sortedOpenings
+    mostPopular: sortedOpenings,
+    generalOpenings: sortedGeneralOpenings
   };
 }
 
@@ -505,12 +743,27 @@ async function main() {
     console.log('  - Analyzing openings...');
     const openings = analyzeOpenings(rounds);
 
+    console.log('  - Aggregating tactical stats...');
+    const tactics = aggregateTactics(rounds);
+
+    console.log('  - Aggregating piece activity...');
+    const pieces = aggregatePieceActivity(rounds);
+
+    console.log('  - Aggregating checkmates...');
+    const checkmates = aggregateCheckmates(rounds);
+
+    console.log('  - Aggregating first moves...');
+    const firstMoveStats = aggregateFirstMoves(rounds);
+
+    console.log('  - Comparing time controls...');
+    const timeControlComparison = compareTimeControls(rounds);
+
     // 3. Combine into overview object
     const overview = {
       tournamentName: 'FIDE World Cup 2025',
       location: 'Goa, India',
-      totalRounds: 7,
-      roundsCompleted: rounds.length,
+      totalRounds: 8,
+      roundsCompleted: 5, // Round 6 is in progress
       generatedAt: new Date().toISOString(),
 
       overall: aggregates,
@@ -520,7 +773,14 @@ async function main() {
       playerLeaderboard,
       topAwards,
       trends,
-      openings,
+      openings: {
+        ...openings,
+        firstMoveStats
+      },
+      tactics,
+      pieces,
+      checkmates,
+      timeControlComparison,
 
       players: {
         startingPlayers: 128,
