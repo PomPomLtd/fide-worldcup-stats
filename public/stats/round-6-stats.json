@@ -1,0 +1,1205 @@
+{
+  "roundNumber": 6,
+  "roundName": "Round 6 (Final)",
+  "generatedAt": "2025-11-17T20:21:27.371Z",
+  "matchStats": {
+    "totalMatches": 4,
+    "decidedInClassical": 1,
+    "decidedInRapidTier1": 0,
+    "decidedInRapidTier2": 0,
+    "decidedInBlitzTier1": 0,
+    "decidedInBlitzTier2": 0,
+    "decidedInArmageddon": 0,
+    "tiebreakAnalysis": {
+      "classicalDecisiveRate": 25,
+      "wentToTiebreak": 3,
+      "tiebreakRate": 75,
+      "rapidTier1NeededRate": 0,
+      "rapidTier2Needed": 0,
+      "blitzNeeded": 0
+    },
+    "averageMovesToDecision": {
+      "classical": 43.5
+    }
+  },
+  "overview": {
+    "totalGames": 4,
+    "totalMoves": 300,
+    "averageGameLength": 37.5,
+    "longestGame": {
+      "moves": 44,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "result": "1-0",
+      "gameId": "50.4"
+    },
+    "shortestGame": {
+      "moves": 31,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "result": "1/2-1/2",
+      "gameId": "50.2"
+    }
+  },
+  "results": {
+    "totalGames": 4,
+    "whiteWins": 1,
+    "blackWins": 0,
+    "draws": 3,
+    "whiteWinPercentage": 25,
+    "blackWinPercentage": 0,
+    "drawPercentage": 75,
+    "decisivePercentage": 25
+  },
+  "tactics": {
+    "totalCaptures": 82,
+    "averageCapturesPerGame": 20.5,
+    "enPassantGames": [
+      {
+        "white": "Yakubboev, Nodirbek",
+        "black": "Donchenko, Alexander",
+        "count": 1
+      }
+    ],
+    "promotions": 0,
+    "castling": {
+      "kingside": 6,
+      "queenside": 0,
+      "total": 6
+    },
+    "bloodiestGame": {
+      "captures": 22,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "whiteElo": 2754,
+      "blackElo": 2773,
+      "gameId": "50.2"
+    },
+    "quietestGame": {
+      "captures": 19,
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "whiteElo": 2721,
+      "blackElo": 2644,
+      "gameId": "50.1"
+    },
+    "longestNonCaptureStreak": {
+      "moves": 21,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "whiteElo": 2689,
+      "blackElo": 2641,
+      "gameId": "50.4"
+    },
+    "totalUnderpromotions": 0,
+    "underpromotions": []
+  },
+  "pieces": {
+    "activity": {
+      "pawns": 95,
+      "knights": 53,
+      "bishops": 46,
+      "rooks": 55,
+      "queens": 26,
+      "kings": 25
+    },
+    "captured": {
+      "pawns": 41,
+      "knights": 11,
+      "bishops": 14,
+      "rooks": 10,
+      "queens": 6
+    },
+    "survivalRate": {}
+  },
+  "checkmates": {
+    "total": 0,
+    "byPiece": {
+      "queen": 0,
+      "rook": 0,
+      "bishop": 0,
+      "knight": 0,
+      "pawn": 0
+    },
+    "fastest": null
+  },
+  "heatmap": {
+    "bloodiestSquare": {
+      "square": "d4",
+      "captures": 9,
+      "description": "d4 saw 9 captures"
+    },
+    "mostPopularSquare": {
+      "square": "d4",
+      "visits": 16,
+      "description": "d4 was visited 16 times"
+    },
+    "leastPopularSquare": {
+      "square": "h7",
+      "visits": 1,
+      "description": "h7 was only visited 1 times"
+    },
+    "quietestSquares": [
+      "b1",
+      "h1",
+      "a2",
+      "c8",
+      "h8"
+    ],
+    "top5Bloodiest": [
+      {
+        "square": "d4",
+        "captures": 9
+      },
+      {
+        "square": "d7",
+        "captures": 6
+      },
+      {
+        "square": "b5",
+        "captures": 5
+      },
+      {
+        "square": "c5",
+        "captures": 5
+      },
+      {
+        "square": "d5",
+        "captures": 4
+      }
+    ],
+    "top5Popular": [
+      {
+        "square": "d4",
+        "visits": 16
+      },
+      {
+        "square": "f6",
+        "visits": 14
+      },
+      {
+        "square": "e3",
+        "visits": 12
+      },
+      {
+        "square": "c5",
+        "visits": 12
+      },
+      {
+        "square": "b5",
+        "visits": 10
+      }
+    ],
+    "data": {
+      "a1": 3,
+      "b1": 0,
+      "c1": 4,
+      "d1": 6,
+      "e1": 3,
+      "f1": 2,
+      "g1": 5,
+      "h1": 0,
+      "a2": 0,
+      "b2": 1,
+      "c2": 3,
+      "d2": 4,
+      "e2": 7,
+      "f2": 1,
+      "g2": 1,
+      "h2": 4,
+      "a3": 1,
+      "b3": 5,
+      "c3": 7,
+      "d3": 6,
+      "e3": 12,
+      "f3": 4,
+      "g3": 4,
+      "h3": 2,
+      "a4": 7,
+      "b4": 7,
+      "c4": 7,
+      "d4": 16,
+      "e4": 7,
+      "f4": 5,
+      "g4": 4,
+      "h4": 8,
+      "a5": 6,
+      "b5": 10,
+      "c5": 12,
+      "d5": 9,
+      "e5": 9,
+      "f5": 3,
+      "g5": 3,
+      "h5": 5,
+      "a6": 3,
+      "b6": 5,
+      "c6": 5,
+      "d6": 9,
+      "e6": 6,
+      "f6": 14,
+      "g6": 2,
+      "h6": 3,
+      "a7": 1,
+      "b7": 4,
+      "c7": 4,
+      "d7": 10,
+      "e7": 6,
+      "f7": 1,
+      "g7": 2,
+      "h7": 1,
+      "a8": 2,
+      "b8": 2,
+      "c8": 0,
+      "d8": 6,
+      "e8": 4,
+      "f8": 2,
+      "g8": 5,
+      "h8": 0
+    }
+  },
+  "gamePhases": {
+    "averageOpening": 12.6,
+    "averageMiddlegame": 15.1,
+    "averageEndgame": 9.8,
+    "longestWaitTillCapture": {
+      "moves": 10,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "gameId": "50.2"
+    },
+    "longestMiddlegame": {
+      "moves": 28,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "gameId": "50.4"
+    },
+    "longestEndgame": {
+      "moves": 14,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "gameId": "50.2"
+    }
+  },
+  "openings": {
+    "totalGames": 4,
+    "totalUnique": 4,
+    "coverage": 100,
+    "firstMoves": {
+      "d4": {
+        "count": 2,
+        "percentage": 50,
+        "whiteWinRate": 50
+      },
+      "e4": {
+        "count": 1,
+        "percentage": 25,
+        "whiteWinRate": 0
+      },
+      "c4": {
+        "count": 1,
+        "percentage": 25,
+        "whiteWinRate": 0
+      }
+    },
+    "byEco": [
+      {
+        "eco": "D26",
+        "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "C92",
+        "name": "Ruy Lopez: Closed, Kholmov Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "A13",
+        "name": "English Opening: Agincourt Defense",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "E60",
+        "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+        "count": 1,
+        "whiteWins": 1,
+        "draws": 0,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 100,
+        "blackWinRate": 0,
+        "drawRate": 0,
+        "decisiveRate": 100
+      }
+    ],
+    "mostPopular": [
+      {
+        "eco": "D26",
+        "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "C92",
+        "name": "Ruy Lopez: Closed, Kholmov Variation",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "high",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "A13",
+        "name": "English Opening: Agincourt Defense",
+        "count": 1,
+        "whiteWins": 0,
+        "draws": 1,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 0,
+        "blackWinRate": 0,
+        "drawRate": 100,
+        "decisiveRate": 0
+      },
+      {
+        "eco": "E60",
+        "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+        "count": 1,
+        "whiteWins": 1,
+        "draws": 0,
+        "blackWins": 0,
+        "confidence": "low",
+        "whiteWinRate": 100,
+        "blackWinRate": 0,
+        "drawRate": 0,
+        "decisiveRate": 100
+      }
+    ],
+    "bestForWhite": null,
+    "bestForBlack": null,
+    "mostDecisive": null
+  },
+  "awards": {
+    "bloodbath": {
+      "captures": 22,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "whiteElo": 2754,
+      "blackElo": 2773,
+      "gameId": "50.2"
+    },
+    "pacifist": {
+      "captures": 19,
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "whiteElo": 2721,
+      "blackElo": 2644,
+      "gameId": "50.1"
+    },
+    "speedDemon": null,
+    "endgameWizard": {
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "whiteElo": 2754,
+      "blackElo": 2773,
+      "endgameMoves": 14,
+      "gameId": "50.2"
+    },
+    "openingSprinter": {
+      "white": "Shankland, Sam",
+      "black": "Esipenko, Andrey",
+      "whiteElo": 2654,
+      "blackElo": 2693,
+      "openingMoves": 11,
+      "gameId": "50.3"
+    }
+  },
+  "byTimeControl": {
+    "classical": {
+      "overview": {
+        "totalGames": 4,
+        "totalMoves": 300,
+        "averageGameLength": 37.5,
+        "longestGame": {
+          "moves": 44,
+          "white": "Yakubboev, Nodirbek",
+          "black": "Donchenko, Alexander",
+          "result": "1-0",
+          "gameId": "50.4"
+        },
+        "shortestGame": {
+          "moves": 31,
+          "white": "Wei, Yi",
+          "black": "Erigaisi, Arjun",
+          "result": "1/2-1/2",
+          "gameId": "50.2"
+        }
+      },
+      "results": {
+        "totalGames": 4,
+        "whiteWins": 1,
+        "blackWins": 0,
+        "draws": 3,
+        "whiteWinPercentage": 25,
+        "blackWinPercentage": 0,
+        "drawPercentage": 75,
+        "decisivePercentage": 25
+      },
+      "tactics": {
+        "totalCaptures": 82,
+        "averageCapturesPerGame": 20.5,
+        "enPassantGames": [
+          {
+            "white": "Yakubboev, Nodirbek",
+            "black": "Donchenko, Alexander",
+            "count": 1
+          }
+        ],
+        "promotions": 0,
+        "castling": {
+          "kingside": 6,
+          "queenside": 0,
+          "total": 6
+        },
+        "bloodiestGame": {
+          "captures": 22,
+          "white": "Wei, Yi",
+          "black": "Erigaisi, Arjun",
+          "whiteElo": 2754,
+          "blackElo": 2773,
+          "gameId": "50.2"
+        },
+        "quietestGame": {
+          "captures": 19,
+          "white": "Sindarov, Javokhir",
+          "black": "Martinez Alcantara, Jose Eduardo",
+          "whiteElo": 2721,
+          "blackElo": 2644,
+          "gameId": "50.1"
+        },
+        "longestNonCaptureStreak": {
+          "moves": 21,
+          "white": "Yakubboev, Nodirbek",
+          "black": "Donchenko, Alexander",
+          "whiteElo": 2689,
+          "blackElo": 2641,
+          "gameId": "50.4"
+        },
+        "totalUnderpromotions": 0,
+        "underpromotions": []
+      },
+      "pieces": {
+        "activity": {
+          "pawns": 95,
+          "knights": 53,
+          "bishops": 46,
+          "rooks": 55,
+          "queens": 26,
+          "kings": 25
+        },
+        "captured": {
+          "pawns": 41,
+          "knights": 11,
+          "bishops": 14,
+          "rooks": 10,
+          "queens": 6
+        },
+        "survivalRate": {}
+      },
+      "checkmates": {
+        "total": 0,
+        "byPiece": {
+          "queen": 0,
+          "rook": 0,
+          "bishop": 0,
+          "knight": 0,
+          "pawn": 0
+        },
+        "fastest": null
+      },
+      "heatmap": {
+        "bloodiestSquare": {
+          "square": "d4",
+          "captures": 9,
+          "description": "d4 saw 9 captures"
+        },
+        "mostPopularSquare": {
+          "square": "d4",
+          "visits": 16,
+          "description": "d4 was visited 16 times"
+        },
+        "leastPopularSquare": {
+          "square": "h7",
+          "visits": 1,
+          "description": "h7 was only visited 1 times"
+        },
+        "quietestSquares": [
+          "b1",
+          "h1",
+          "a2",
+          "c8",
+          "h8"
+        ],
+        "top5Bloodiest": [
+          {
+            "square": "d4",
+            "captures": 9
+          },
+          {
+            "square": "d7",
+            "captures": 6
+          },
+          {
+            "square": "b5",
+            "captures": 5
+          },
+          {
+            "square": "c5",
+            "captures": 5
+          },
+          {
+            "square": "d5",
+            "captures": 4
+          }
+        ],
+        "top5Popular": [
+          {
+            "square": "d4",
+            "visits": 16
+          },
+          {
+            "square": "f6",
+            "visits": 14
+          },
+          {
+            "square": "e3",
+            "visits": 12
+          },
+          {
+            "square": "c5",
+            "visits": 12
+          },
+          {
+            "square": "b5",
+            "visits": 10
+          }
+        ],
+        "data": {
+          "a1": 3,
+          "b1": 0,
+          "c1": 4,
+          "d1": 6,
+          "e1": 3,
+          "f1": 2,
+          "g1": 5,
+          "h1": 0,
+          "a2": 0,
+          "b2": 1,
+          "c2": 3,
+          "d2": 4,
+          "e2": 7,
+          "f2": 1,
+          "g2": 1,
+          "h2": 4,
+          "a3": 1,
+          "b3": 5,
+          "c3": 7,
+          "d3": 6,
+          "e3": 12,
+          "f3": 4,
+          "g3": 4,
+          "h3": 2,
+          "a4": 7,
+          "b4": 7,
+          "c4": 7,
+          "d4": 16,
+          "e4": 7,
+          "f4": 5,
+          "g4": 4,
+          "h4": 8,
+          "a5": 6,
+          "b5": 10,
+          "c5": 12,
+          "d5": 9,
+          "e5": 9,
+          "f5": 3,
+          "g5": 3,
+          "h5": 5,
+          "a6": 3,
+          "b6": 5,
+          "c6": 5,
+          "d6": 9,
+          "e6": 6,
+          "f6": 14,
+          "g6": 2,
+          "h6": 3,
+          "a7": 1,
+          "b7": 4,
+          "c7": 4,
+          "d7": 10,
+          "e7": 6,
+          "f7": 1,
+          "g7": 2,
+          "h7": 1,
+          "a8": 2,
+          "b8": 2,
+          "c8": 0,
+          "d8": 6,
+          "e8": 4,
+          "f8": 2,
+          "g8": 5,
+          "h8": 0
+        }
+      },
+      "gamePhases": null,
+      "openings": {
+        "totalGames": 4,
+        "totalUnique": 4,
+        "coverage": 100,
+        "firstMoves": {
+          "d4": {
+            "count": 2,
+            "percentage": 50,
+            "whiteWinRate": 50
+          },
+          "e4": {
+            "count": 1,
+            "percentage": 25,
+            "whiteWinRate": 0
+          },
+          "c4": {
+            "count": 1,
+            "percentage": 25,
+            "whiteWinRate": 0
+          }
+        },
+        "byEco": [
+          {
+            "eco": "D26",
+            "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C92",
+            "name": "Ruy Lopez: Closed, Kholmov Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E60",
+            "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          }
+        ],
+        "mostPopular": [
+          {
+            "eco": "D26",
+            "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "C92",
+            "name": "Ruy Lopez: Closed, Kholmov Variation",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "high",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 1,
+            "whiteWins": 0,
+            "draws": 1,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 0,
+            "blackWinRate": 0,
+            "drawRate": 100,
+            "decisiveRate": 0
+          },
+          {
+            "eco": "E60",
+            "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+            "count": 1,
+            "whiteWins": 1,
+            "draws": 0,
+            "blackWins": 0,
+            "confidence": "low",
+            "whiteWinRate": 100,
+            "blackWinRate": 0,
+            "drawRate": 0,
+            "decisiveRate": 100
+          }
+        ],
+        "bestForWhite": null,
+        "bestForBlack": null,
+        "mostDecisive": null
+      },
+      "awards": {
+        "bloodbath": {
+          "captures": 22,
+          "white": "Wei, Yi",
+          "black": "Erigaisi, Arjun",
+          "whiteElo": 2754,
+          "blackElo": 2773,
+          "gameId": "50.2"
+        },
+        "pacifist": {
+          "captures": 19,
+          "white": "Sindarov, Javokhir",
+          "black": "Martinez Alcantara, Jose Eduardo",
+          "whiteElo": 2721,
+          "blackElo": 2644,
+          "gameId": "50.1"
+        },
+        "speedDemon": null,
+        "endgameWizard": {
+          "white": "Wei, Yi",
+          "black": "Erigaisi, Arjun",
+          "whiteElo": 2754,
+          "blackElo": 2773,
+          "endgameMoves": 14,
+          "gameId": "50.2"
+        },
+        "openingSprinter": {
+          "white": "Shankland, Sam",
+          "black": "Esipenko, Andrey",
+          "whiteElo": 2654,
+          "blackElo": 2693,
+          "openingMoves": 11,
+          "gameId": "50.3"
+        }
+      }
+    }
+  },
+  "ratingAnalysis": {
+    "hasRatingData": true,
+    "totalGames": 4,
+    "gamesWithRatings": 4,
+    "coverage": 100,
+    "averageEloDifference": 45.8,
+    "upsets": [],
+    "upsetCount": 0,
+    "upsetRate": 0,
+    "biggestUpset": null,
+    "favoritePerformance": {
+      "wins": 1,
+      "draws": 3,
+      "losses": 0,
+      "winRate": 25
+    }
+  },
+  "fideFunAwards": {
+    "tiebreakWarrior": null,
+    "giantSlayer": null,
+    "rapidFire": null,
+    "blitzWizard": null,
+    "classicalPurist": null,
+    "marathonMaster": {
+      "players": "Donchenko, Alexander vs Yakubboev, Nodirbek",
+      "totalGames": 1,
+      "totalMoves": 44,
+      "winner": "Yakubboev, Nodirbek"
+    },
+    "fortressBuilder": {
+      "players": "Martinez Alcantara, Jose Eduardo vs Sindarov, Javokhir",
+      "draws": 1,
+      "totalGames": 1
+    },
+    "upsetArtist": null
+  },
+  "funStats": {
+    "fastestQueenTrade": {
+      "moves": 8,
+      "gameIndex": 0,
+      "gameId": null,
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo"
+    },
+    "slowestQueenTrade": {
+      "moves": 36,
+      "gameIndex": 2,
+      "gameId": null,
+      "white": "Shankland, Sam",
+      "black": "Esipenko, Andrey"
+    },
+    "longestCaptureSequence": {
+      "length": 11,
+      "gameIndex": 1,
+      "gameId": null,
+      "startMove": 25,
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun"
+    },
+    "longestCheckSequence": {
+      "length": 6,
+      "gameIndex": 3,
+      "gameId": null,
+      "startMove": 65,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander"
+    },
+    "pawnStorm": {
+      "count": 14,
+      "gameIndex": 3,
+      "gameId": null,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander"
+    },
+    "pieceLoyalty": null,
+    "squareTourist": {
+      "squares": 10,
+      "gameIndex": 1,
+      "gameId": null,
+      "piece": "Rook",
+      "color": "Black",
+      "startSquare": "f8",
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun"
+    },
+    "castlingRace": {
+      "moves": 5,
+      "gameIndex": 1,
+      "gameId": null,
+      "winner": "white",
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun"
+    },
+    "openingHipster": {
+      "gameIndex": 3,
+      "gameId": null,
+      "eco": "E60",
+      "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+      "moves": "d4 Nf6 c4 g6 f3 c5",
+      "obscurityScore": 68.7,
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander"
+    },
+    "dadbodShuffler": {
+      "moves": 6,
+      "gameIndex": 1,
+      "gameId": null,
+      "color": "White",
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun"
+    },
+    "sportyQueen": {
+      "distance": 30,
+      "gameIndex": 3,
+      "gameId": null,
+      "color": "Black",
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander"
+    },
+    "edgeLord": {
+      "moves": 14,
+      "gameIndex": 3,
+      "gameId": null,
+      "color": "Black",
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander"
+    },
+    "rookLift": {
+      "moveNumber": 12,
+      "gameIndex": 2,
+      "gameId": null,
+      "color": "White",
+      "rook": "White's c1 Rook",
+      "square": "c1",
+      "white": "Shankland, Sam",
+      "black": "Esipenko, Andrey"
+    },
+    "centerStage": {
+      "moves": 3,
+      "gameIndex": 0,
+      "gameId": null,
+      "piece": "White's f3 Knight",
+      "startSquare": "f3",
+      "color": "White",
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo"
+    },
+    "darkLord": {
+      "captures": 7,
+      "gameIndex": 2,
+      "gameId": null,
+      "color": "White",
+      "white": "Shankland, Sam",
+      "black": "Esipenko, Andrey"
+    },
+    "lightLord": {
+      "captures": 6,
+      "gameIndex": 1,
+      "gameId": null,
+      "color": "White",
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun"
+    },
+    "chickenAward": {
+      "retreats": 10,
+      "gameIndex": 3,
+      "gameId": null,
+      "color": "Black",
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander"
+    },
+    "slowestCastling": {
+      "moves": 14,
+      "gameIndex": 2,
+      "gameId": null,
+      "color": "white",
+      "white": "Shankland, Sam",
+      "black": "Esipenko, Andrey"
+    },
+    "pawnCaptures": {
+      "captures": 5,
+      "gameIndex": 2,
+      "gameId": null,
+      "color": "black",
+      "white": "Shankland, Sam",
+      "black": "Esipenko, Andrey"
+    },
+    "antiOrthogonal": {
+      "moves": 10,
+      "gameIndex": 3,
+      "gameId": null,
+      "color": "black",
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander"
+    },
+    "comfortZone": {
+      "percentage": 48,
+      "pieceType": "rooks",
+      "moves": 11,
+      "totalNonPawnMoves": 23,
+      "gameIndex": 1,
+      "gameId": null,
+      "color": "black",
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun"
+    },
+    "lateBloomer": {
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "whiteRating": 2754,
+      "blackRating": 2773,
+      "player": "Erigaisi, Arjun",
+      "opponent": "Wei, Yi",
+      "color": "black",
+      "moveNumber": 19,
+      "gameIndex": 1
+    },
+    "quickDraw": {
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "whiteRating": 2721,
+      "blackRating": 2644,
+      "player": "Martinez Alcantara, Jose Eduardo",
+      "opponent": "Sindarov, Javokhir",
+      "color": "black",
+      "moveNumber": 3,
+      "gameIndex": 0
+    },
+    "homebody": {
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "whiteRating": 2754,
+      "blackRating": 2773,
+      "player": "Wei, Yi",
+      "opponent": "Erigaisi, Arjun",
+      "color": "white",
+      "count": 1,
+      "gameIndex": 1
+    },
+    "deepStrike": {
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "whiteRating": 2721,
+      "blackRating": 2644,
+      "player": "Sindarov, Javokhir",
+      "opponent": "Martinez Alcantara, Jose Eduardo",
+      "color": "white",
+      "count": 3,
+      "gameIndex": 0
+    },
+    "crosshairs": {
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "whiteRating": 2721,
+      "blackRating": 2644,
+      "square": "d7",
+      "attackers": 6,
+      "whiteAttackers": 1,
+      "blackAttackers": 5,
+      "moveNumber": 13,
+      "move": "dxc5",
+      "gameIndex": 0
+    },
+    "longestTension": {
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "whiteRating": 2754,
+      "blackRating": 2773,
+      "moves": 11,
+      "squares": "d4-e5",
+      "piece1": "wp",
+      "piece2": "bp",
+      "startMove": 19,
+      "endMove": 29,
+      "gameIndex": 1
+    }
+  },
+  "timeAwards": {
+    "longestThink": {
+      "white": "Sindarov, Javokhir",
+      "black": "Martinez Alcantara, Jose Eduardo",
+      "whiteRating": 2721,
+      "blackRating": 2644,
+      "player": "Martinez Alcantara, Jose Eduardo",
+      "color": "black",
+      "timeSpent": 1443,
+      "moveNumber": 38,
+      "move": "Nc7",
+      "timeControl": "classical",
+      "gameIndex": 0
+    },
+    "zeitnotAddict": {
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "whiteRating": 2689,
+      "blackRating": 2641,
+      "player": "Donchenko, Alexander",
+      "color": "black",
+      "count": 13,
+      "minClock": 38,
+      "timeControl": "classical",
+      "gameIndex": 3
+    },
+    "timeScrambleSurvivor": null,
+    "bulletSpeed": {
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "player": "Erigaisi, Arjun",
+      "color": "black",
+      "avgTime": 20.517241379310345,
+      "moveCount": 29,
+      "timeControl": "classical",
+      "gameIndex": 1
+    },
+    "openingBlitzer": {
+      "white": "Wei, Yi",
+      "black": "Erigaisi, Arjun",
+      "player": "Erigaisi, Arjun",
+      "color": "black",
+      "avgTime": 12.666666666666666,
+      "moveCount": 9,
+      "timeControl": "classical",
+      "gameIndex": 1
+    },
+    "premoveMaster": null,
+    "tiebreakPressureKing": null,
+    "classicalTimeBurner": {
+      "white": "Yakubboev, Nodirbek",
+      "black": "Donchenko, Alexander",
+      "whiteRating": 2689,
+      "blackRating": 2641,
+      "player": "Yakubboev, Nodirbek",
+      "color": "white",
+      "finalClock": 1645,
+      "totalMoves": 42,
+      "result": "1-0",
+      "gameIndex": 3
+    },
+    "timeControlSpecialist": null
+  },
+  "analysis": null,
+  "dataInfo": {
+    "totalMatches": 4,
+    "totalGames": 4,
+    "openingCoverage": "100.0"
+  }
+}

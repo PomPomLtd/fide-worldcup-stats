@@ -1,22 +1,22 @@
 {
   "roundNumber": 2,
   "roundName": "Round 2",
-  "generatedAt": "2025-11-17T12:20:45.550Z",
+  "generatedAt": "2025-11-17T20:21:01.776Z",
   "matchStats": {
     "totalMatches": 64,
-    "decidedInClassical": 0,
-    "decidedInRapidTier1": 0,
-    "decidedInRapidTier2": 0,
-    "decidedInBlitzTier1": 0,
-    "decidedInBlitzTier2": 37,
+    "decidedInClassical": 37,
+    "decidedInRapidTier1": 17,
+    "decidedInRapidTier2": 3,
+    "decidedInBlitzTier1": 5,
+    "decidedInBlitzTier2": 2,
     "decidedInArmageddon": 0,
     "tiebreakAnalysis": {
-      "classicalDecisiveRate": 0,
-      "wentToTiebreak": 64,
-      "tiebreakRate": 100,
-      "rapidTier1NeededRate": 57.8,
-      "rapidTier2Needed": 37,
-      "blitzNeeded": 37
+      "classicalDecisiveRate": 57.8,
+      "wentToTiebreak": 27,
+      "tiebreakRate": 42.2,
+      "rapidTier1NeededRate": 42.2,
+      "rapidTier2Needed": 10,
+      "blitzNeeded": 7
     },
     "averageMovesToDecision": {
       "classical": 46.9,
@@ -7239,9 +7239,9 @@
   },
   "fideFunAwards": {
     "tiebreakWarrior": {
-      "player": "Gukesh, D",
+      "player": "Praggnanandhaa, R",
       "tiebreakWins": 1,
-      "deepestTiebreak": "BLITZ_TIER_2"
+      "deepestTiebreak": "BLITZ_TIER_1"
     },
     "giantSlayer": {
       "player": "Kuybokarov, Temur",

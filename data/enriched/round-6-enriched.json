@@ -1,0 +1,5542 @@
+{
+  "roundNumber": 6,
+  "roundName": "Round 6 (Final)",
+  "totalMatches": 4,
+  "totalGames": 4,
+  "matches": [
+    {
+      "matchId": "round-6-match-1",
+      "matchNumber": 1,
+      "pairingKey": "Martinez Alcantara, Jose Eduardo vs Sindarov, Javokhir",
+      "players": [
+        {
+          "name": "Martinez Alcantara, Jose Eduardo",
+          "fideId": "3805662",
+          "elo": 2644
+        },
+        {
+          "name": "Sindarov, Javokhir",
+          "fideId": "14205483",
+          "elo": 2721
+        }
+      ],
+      "totalGames": 1,
+      "gameDetails": [
+        {
+          "white": "Sindarov, Javokhir",
+          "black": "Martinez Alcantara, Jose Eduardo",
+          "result": "1/2-1/2",
+          "date": "2025.11.17",
+          "round": "50.1",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "moves": "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O Be7 dxc5 Qxd1 Rxd1 Bxc5 Nc3 O-O Be2 Nc6 a3 b6 b4 Be7 e4 Rd8 Rxd8+ Nxd8 e5 Ne8 Bg5 Kf8 Rd1 h6 Be3 Bb7 Nd4 Nc7 f4 a5 bxa5 Rxa5 Nc2 Ke8 a4 Bc5 Bb5+ Nxb5 axb5 f6 exf6 gxf6 Bxc5 bxc5 Kf2 Nf7 Ra1 Rxa1 Nxa1 Bd5 Nc2 Nd6 Ne3 Bb7 Ng4 f5 Ne5 Kd8 Nd3 c4 Ne5 Kc7 Ke3 Bxg2 Kd4 Bf1 Kc5",
+          "moveCount": 77,
+          "moveList": [
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d4",
+              "from": "d2",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d5",
+              "from": "d7",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "c4",
+              "from": "c2",
+              "to": "c4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "dxc4",
+              "from": "d5",
+              "to": "c4",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf3",
+              "from": "g1",
+              "to": "f3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf6",
+              "from": "g8",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e3",
+              "from": "e2",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e6",
+              "from": "e7",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "p",
+              "flags": "c",
+              "san": "Bxc4",
+              "from": "f1",
+              "to": "c4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "c5",
+              "from": "c7",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e1",
+              "to": "g1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be7",
+              "from": "f8",
+              "to": "e7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "dxc5",
+              "from": "d4",
+              "to": "c5",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "captured": "q",
+              "flags": "c",
+              "san": "Qxd1",
+              "from": "d8",
+              "to": "d1",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "q",
+              "flags": "c",
+              "san": "Rxd1",
+              "from": "f1",
+              "to": "d1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "p",
+              "flags": "c",
+              "san": "Bxc5",
+              "from": "e7",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc3",
+              "from": "b1",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e8",
+              "to": "g8",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be2",
+              "from": "c4",
+              "to": "e2",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc6",
+              "from": "b8",
+              "to": "c6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "a3",
+              "from": "a2",
+              "to": "a3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "b6",
+              "from": "b7",
+              "to": "b6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "b4",
+              "from": "b2",
+              "to": "b4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be7",
+              "from": "c5",
+              "to": "e7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e4",
+              "from": "e3",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd8",
+              "from": "f8",
+              "to": "d8",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "r",
+              "flags": "c",
+              "san": "Rxd8+",
+              "from": "d1",
+              "to": "d8",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "captured": "r",
+              "flags": "c",
+              "san": "Nxd8",
+              "from": "c6",
+              "to": "d8",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e5",
+              "from": "e4",
+              "to": "e5",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne8",
+              "from": "f6",
+              "to": "e8",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg5",
+              "from": "c1",
+              "to": "g5",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kf8",
+              "from": "g8",
+              "to": "f8",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd1",
+              "from": "a1",
+              "to": "d1",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h6",
+              "from": "h7",
+              "to": "h6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be3",
+              "from": "g5",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bb7",
+              "from": "c8",
+              "to": "b7",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd4",
+              "from": "f3",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc7",
+              "from": "e8",
+              "to": "c7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "f4",
+              "from": "f2",
+              "to": "f4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "a5",
+              "from": "a7",
+              "to": "a5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "bxa5",
+              "from": "b4",
+              "to": "a5",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxa5",
+              "from": "a8",
+              "to": "a5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc2",
+              "from": "d4",
+              "to": "c2",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Ke8",
+              "from": "f8",
+              "to": "e8",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "a4",
+              "from": "a3",
+              "to": "a4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bc5",
+              "from": "e7",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bb5+",
+              "from": "e2",
+              "to": "b5",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "captured": "b",
+              "flags": "c",
+              "san": "Nxb5",
+              "from": "c7",
+              "to": "b5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "n",
+              "flags": "c",
+              "san": "axb5",
+              "from": "a4",
+              "to": "b5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "f6",
+              "from": "f7",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "exf6",
+              "from": "e5",
+              "to": "f6",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "gxf6",
+              "from": "g7",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "b",
+              "flags": "c",
+              "san": "Bxc5",
+              "from": "e3",
+              "to": "c5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "b",
+              "flags": "c",
+              "san": "bxc5",
+              "from": "b6",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kf2",
+              "from": "g1",
+              "to": "f2",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf7",
+              "from": "d8",
+              "to": "f7",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Ra1",
+              "from": "d1",
+              "to": "a1",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "r",
+              "flags": "c",
+              "san": "Rxa1",
+              "from": "a5",
+              "to": "a1",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "captured": "r",
+              "flags": "c",
+              "san": "Nxa1",
+              "from": "c2",
+              "to": "a1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bd5",
+              "from": "b7",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc2",
+              "from": "a1",
+              "to": "c2",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd6",
+              "from": "f7",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne3",
+              "from": "c2",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bb7",
+              "from": "d5",
+              "to": "b7",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ng4",
+              "from": "e3",
+              "to": "g4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "f5",
+              "from": "f6",
+              "to": "f5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne5",
+              "from": "g4",
+              "to": "e5",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kd8",
+              "from": "e8",
+              "to": "d8",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd3",
+              "from": "e5",
+              "to": "d3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "c4",
+              "from": "c5",
+              "to": "c4",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne5",
+              "from": "d3",
+              "to": "e5",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kc7",
+              "from": "d8",
+              "to": "c7",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Ke3",
+              "from": "f2",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "p",
+              "flags": "c",
+              "san": "Bxg2",
+              "from": "b7",
+              "to": "g2",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kd4",
+              "from": "e3",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf1",
+              "from": "g2",
+              "to": "f1",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kc5",
+              "from": "d4",
+              "to": "c5",
+              "color": "w"
+            }
+          ],
+          "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.1\"]\n[White \"Sindarov, Javokhir\"]\n[Black \"Martinez Alcantara, Jose Eduardo\"]\n[Result \"1/2-1/2\"]\n[WhiteElo \"2721\"]\n[BlackElo \"2644\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"14205483\"]\n[BlackFideId \"3805662\"]\n\n1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O Be7 7. dxc5 Qxd1 8. Rxd1 Bxc5 9. Nc3 O-O 10. Be2 Nc6 11. a3 b6 12. b4 Be7 13. e4 Rd8 14. Rxd8+ Nxd8 15. e5 Ne8 16. Bg5 Kf8 17. Rd1 h6 18. Be3 Bb7 19. Nd4 Nc7 20. f4 a5 21. bxa5 Rxa5 22. Nc2 Ke8 23. a4 Bc5 24. Bb5+ Nxb5 25. axb5 f6 26. exf6 gxf6 27. Bxc5 bxc5 28. Kf2 Nf7 29. Ra1 Rxa1 30. Nxa1 Bd5 31. Nc2 Nd6 32. Ne3 Bb7 33. Ng4 f5 34. Ne5 Kd8 35. Nd3 c4 36. Ne5 Kc7 37. Ke3 Bxg2 38. Kd4 Bf1 39. Kc5 1/2-1/2",
+          "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.1\"]\r\n[White \"Sindarov, Javokhir\"]\r\n[Black \"Martinez Alcantara, Jose Eduardo\"]\r\n[Result \"1/2-1/2\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"14205483\"]\r\n[BlackFideId \"3805662\"]\r\n[WhiteElo \"2721\"]\r\n[BlackElo \"2644\"]\r\n\r\n1. d4 {[%clk 01:30:53]} {[%emt 00:00:06]} d5 {[%clk 01:30:51]} {[%emt\r\n00:00:09]} 2. c4 {[%clk 01:31:12]} {[%emt 00:00:11]} dxc4 {[%clk 01:31:13]}\r\n{[%emt 00:00:09]} 3. Nf3 {[%clk 01:31:29]} {[%emt 00:00:13]} Nf6 {[%clk\r\n01:31:36]} {[%emt 00:00:07]} 4. e3 {[%clk 01:31:46]} {[%emt 00:00:13]} e6\r\n{[%clk 01:31:59]} {[%emt 00:00:07]} 5. Bxc4 {[%clk 01:32:07]} {[%emt 00:00:09]}\r\nc5 {[%clk 01:32:21]} {[%emt 00:00:07]} 6. O-O {[%clk 01:32:15]} {[%emt\r\n00:00:22]} Be7 {[%clk 01:32:45]} {[%emt 00:00:07]} 7. dxc5 {[%clk 01:31:18]}\r\n{[%emt 00:01:27]} Qxd1 {[%clk 01:23:05]} 8. Rxd1 {[%clk 01:31:07]} {[%emt\r\n00:10:51]} Bxc5 {[%clk 01:22:46]} {[%emt 00:00:49]} 9. Nc3 {[%clk 01:30:58]}\r\n{[%emt 00:00:38]} O-O {[%clk 01:18:29]} {[%emt 00:04:48]} 10. Be2 {[%clk\r\n01:30:47]} {[%emt 00:00:42]} Nc6 {[%clk 01:15:48]} {[%emt 00:03:11]} 11. a3\r\n{[%clk 01:28:47]} {[%emt 00:02:30]} b6 {[%clk 01:12:29]} {[%emt 00:03:49]} 12.\r\nb4 {[%clk 01:19:28]} {[%emt 00:09:49]} Be7 {[%clk 01:12:56]} {[%emt 00:00:02]}\r\n13. e4 {[%clk 01:18:49]} {[%emt 00:01:09]} Rd8 {[%clk 01:07:31]} {[%emt\r\n00:05:56]} 14. Rxd8+ {[%clk 01:18:04]} {[%emt 00:01:15]} Nxd8 {[%clk 01:02:48]}\r\n{[%emt 00:05:13]} 15. e5 {[%clk 00:56:41]} {[%emt 00:21:54]} Ne8 {[%clk\r\n01:03:06]} {[%emt 00:00:11]} 16. Bg5 {[%clk 00:53:02]} {[%emt 00:04:07]} Kf8\r\n{[%clk 00:48:04]} {[%emt 00:15:33]} 17. Rd1 {[%clk 00:46:03]} {[%emt 00:07:30]}\r\nh6 {[%clk 00:46:22]} {[%emt 00:02:12]} 18. Be3 {[%clk 00:40:41]} {[%emt\r\n00:05:52]} Bb7 {[%clk 00:46:43]} {[%emt 00:00:09]} 19. Nd4 {[%clk 00:40:08]}\r\n{[%emt 00:01:02]} Nc7 {[%clk 00:23:09]} {[%emt 00:24:03]} 20. f4 {[%clk\r\n00:29:12]} {[%emt 00:11:27]} a5 {[%clk 00:20:28]} {[%emt 00:03:11]} 21. bxa5\r\n{[%clk 00:27:16]} {[%emt 00:02:26]} Rxa5 {[%clk 00:18:37]} {[%emt 00:02:21]} 22.\r\nNc2 {[%clk 00:14:15]} {[%emt 00:13:30]} Ke8 {[%clk 00:18:11]} {[%emt 00:00:57]}\r\n23. a4 {[%clk 00:14:21]} {[%emt 00:00:24]} Bc5 {[%clk 00:15:14]} {[%emt\r\n00:03:27]} 24. Bb5+ {[%clk 00:13:22]} {[%emt 00:01:29]} Nxb5 {[%clk 00:15:02]}\r\n{[%emt 00:00:42]} 25. axb5 {[%clk 00:13:46]} {[%emt 00:00:06]} f6 {[%clk\r\n00:09:03]} {[%emt 00:06:29]} 26. exf6 {[%clk 00:07:53]} {[%emt 00:06:23]} gxf6\r\n{[%clk 00:09:28]} {[%emt 00:00:05]} 27. Bxc5 {[%clk 00:07:59]} {[%emt\r\n00:00:23]} bxc5 {[%clk 00:09:53]} {[%emt 00:00:05]} 28. Kf2 {[%clk 00:08:17]}\r\n{[%emt 00:00:11]} Nf7 {[%clk 00:08:47]} {[%emt 00:01:37]} 29. Ra1 {[%clk\r\n00:07:12]} {[%emt 00:01:36]} Rxa1 {[%clk 00:09:11]} {[%emt 00:00:06]} 30. Nxa1\r\n{[%clk 00:07:37]} {[%emt 00:00:04]} Bd5 {[%clk 00:04:26]} {[%emt 00:05:16]} 31.\r\nNc2 {[%clk 00:08:00]} {[%emt 00:00:07]} Nd6 {[%clk 00:03:46]} {[%emt 00:01:11]}\r\n32. Ne3 {[%clk 00:07:50]} {[%emt 00:00:39]} Bb7 {[%clk 00:02:14]} {[%emt\r\n00:02:02]} 33. Ng4 {[%clk 00:07:31]} {[%emt 00:00:48]} f5 {[%clk 00:02:43]}\r\n{[%emt 00:00:01]} 34. Ne5 {[%clk 00:06:18]} {[%emt 00:01:42]} Kd8 {[%clk\r\n00:01:58]} {[%emt 00:01:15]} 35. Nd3 {[%clk 00:05:50]} {[%emt 00:00:58]} c4\r\n{[%clk 00:02:08]} {[%emt 00:00:20]} 36. Ne5 {[%clk 00:02:25]} {[%emt 00:03:55]}\r\nKc7 {[%clk 00:02:29]} {[%emt 00:00:09]} 37. Ke3 {[%clk 00:01:07]} {[%emt\r\n00:01:47]} Bxg2 {[%clk 00:02:22]} {[%emt 00:00:38]} 38. Kd4 {[%clk 00:01:31]}\r\n{[%emt 00:00:06]} Bf1 {[%clk 00:02:41]} {[%emt 00:00:11]} 39. Kc5 {[%clk\r\n00:01:55]} {[%emt 00:00:06]} 1/2-1/2",
+          "gameNumberInMatch": 1,
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)",
+          "opening": {
+            "eco": "D26",
+            "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+            "matchedMoves": "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O",
+            "confidence": "high",
+            "matchDepth": 11
+          }
+        }
+      ],
+      "dates": [
+        "2025.11.17"
+      ],
+      "site": "Goa, India",
+      "gamesByTimeControl": {
+        "CLASSICAL": [
+          {
+            "white": "Sindarov, Javokhir",
+            "black": "Martinez Alcantara, Jose Eduardo",
+            "result": "1/2-1/2",
+            "date": "2025.11.17",
+            "round": "50.1",
+            "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+            "moves": "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O Be7 dxc5 Qxd1 Rxd1 Bxc5 Nc3 O-O Be2 Nc6 a3 b6 b4 Be7 e4 Rd8 Rxd8+ Nxd8 e5 Ne8 Bg5 Kf8 Rd1 h6 Be3 Bb7 Nd4 Nc7 f4 a5 bxa5 Rxa5 Nc2 Ke8 a4 Bc5 Bb5+ Nxb5 axb5 f6 exf6 gxf6 Bxc5 bxc5 Kf2 Nf7 Ra1 Rxa1 Nxa1 Bd5 Nc2 Nd6 Ne3 Bb7 Ng4 f5 Ne5 Kd8 Nd3 c4 Ne5 Kc7 Ke3 Bxg2 Kd4 Bf1 Kc5",
+            "moveCount": 77,
+            "moveList": [
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d4",
+                "from": "d2",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d5",
+                "from": "d7",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "c4",
+                "from": "c2",
+                "to": "c4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "dxc4",
+                "from": "d5",
+                "to": "c4",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf3",
+                "from": "g1",
+                "to": "f3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf6",
+                "from": "g8",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e3",
+                "from": "e2",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e6",
+                "from": "e7",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "p",
+                "flags": "c",
+                "san": "Bxc4",
+                "from": "f1",
+                "to": "c4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "c5",
+                "from": "c7",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e1",
+                "to": "g1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be7",
+                "from": "f8",
+                "to": "e7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "dxc5",
+                "from": "d4",
+                "to": "c5",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "captured": "q",
+                "flags": "c",
+                "san": "Qxd1",
+                "from": "d8",
+                "to": "d1",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "q",
+                "flags": "c",
+                "san": "Rxd1",
+                "from": "f1",
+                "to": "d1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "p",
+                "flags": "c",
+                "san": "Bxc5",
+                "from": "e7",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc3",
+                "from": "b1",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e8",
+                "to": "g8",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be2",
+                "from": "c4",
+                "to": "e2",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc6",
+                "from": "b8",
+                "to": "c6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "a3",
+                "from": "a2",
+                "to": "a3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "b6",
+                "from": "b7",
+                "to": "b6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "b4",
+                "from": "b2",
+                "to": "b4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be7",
+                "from": "c5",
+                "to": "e7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e4",
+                "from": "e3",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd8",
+                "from": "f8",
+                "to": "d8",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "r",
+                "flags": "c",
+                "san": "Rxd8+",
+                "from": "d1",
+                "to": "d8",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "captured": "r",
+                "flags": "c",
+                "san": "Nxd8",
+                "from": "c6",
+                "to": "d8",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e5",
+                "from": "e4",
+                "to": "e5",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne8",
+                "from": "f6",
+                "to": "e8",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg5",
+                "from": "c1",
+                "to": "g5",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kf8",
+                "from": "g8",
+                "to": "f8",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd1",
+                "from": "a1",
+                "to": "d1",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h6",
+                "from": "h7",
+                "to": "h6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be3",
+                "from": "g5",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bb7",
+                "from": "c8",
+                "to": "b7",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd4",
+                "from": "f3",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc7",
+                "from": "e8",
+                "to": "c7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "f4",
+                "from": "f2",
+                "to": "f4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "a5",
+                "from": "a7",
+                "to": "a5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "bxa5",
+                "from": "b4",
+                "to": "a5",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxa5",
+                "from": "a8",
+                "to": "a5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc2",
+                "from": "d4",
+                "to": "c2",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Ke8",
+                "from": "f8",
+                "to": "e8",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "a4",
+                "from": "a3",
+                "to": "a4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bc5",
+                "from": "e7",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bb5+",
+                "from": "e2",
+                "to": "b5",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "captured": "b",
+                "flags": "c",
+                "san": "Nxb5",
+                "from": "c7",
+                "to": "b5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "n",
+                "flags": "c",
+                "san": "axb5",
+                "from": "a4",
+                "to": "b5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "f6",
+                "from": "f7",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "exf6",
+                "from": "e5",
+                "to": "f6",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "gxf6",
+                "from": "g7",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "b",
+                "flags": "c",
+                "san": "Bxc5",
+                "from": "e3",
+                "to": "c5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "b",
+                "flags": "c",
+                "san": "bxc5",
+                "from": "b6",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kf2",
+                "from": "g1",
+                "to": "f2",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf7",
+                "from": "d8",
+                "to": "f7",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Ra1",
+                "from": "d1",
+                "to": "a1",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "r",
+                "flags": "c",
+                "san": "Rxa1",
+                "from": "a5",
+                "to": "a1",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "captured": "r",
+                "flags": "c",
+                "san": "Nxa1",
+                "from": "c2",
+                "to": "a1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bd5",
+                "from": "b7",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc2",
+                "from": "a1",
+                "to": "c2",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd6",
+                "from": "f7",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne3",
+                "from": "c2",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bb7",
+                "from": "d5",
+                "to": "b7",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ng4",
+                "from": "e3",
+                "to": "g4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "f5",
+                "from": "f6",
+                "to": "f5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne5",
+                "from": "g4",
+                "to": "e5",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kd8",
+                "from": "e8",
+                "to": "d8",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd3",
+                "from": "e5",
+                "to": "d3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "c4",
+                "from": "c5",
+                "to": "c4",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne5",
+                "from": "d3",
+                "to": "e5",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kc7",
+                "from": "d8",
+                "to": "c7",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Ke3",
+                "from": "f2",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "p",
+                "flags": "c",
+                "san": "Bxg2",
+                "from": "b7",
+                "to": "g2",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kd4",
+                "from": "e3",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf1",
+                "from": "g2",
+                "to": "f1",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kc5",
+                "from": "d4",
+                "to": "c5",
+                "color": "w"
+              }
+            ],
+            "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.1\"]\n[White \"Sindarov, Javokhir\"]\n[Black \"Martinez Alcantara, Jose Eduardo\"]\n[Result \"1/2-1/2\"]\n[WhiteElo \"2721\"]\n[BlackElo \"2644\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"14205483\"]\n[BlackFideId \"3805662\"]\n\n1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O Be7 7. dxc5 Qxd1 8. Rxd1 Bxc5 9. Nc3 O-O 10. Be2 Nc6 11. a3 b6 12. b4 Be7 13. e4 Rd8 14. Rxd8+ Nxd8 15. e5 Ne8 16. Bg5 Kf8 17. Rd1 h6 18. Be3 Bb7 19. Nd4 Nc7 20. f4 a5 21. bxa5 Rxa5 22. Nc2 Ke8 23. a4 Bc5 24. Bb5+ Nxb5 25. axb5 f6 26. exf6 gxf6 27. Bxc5 bxc5 28. Kf2 Nf7 29. Ra1 Rxa1 30. Nxa1 Bd5 31. Nc2 Nd6 32. Ne3 Bb7 33. Ng4 f5 34. Ne5 Kd8 35. Nd3 c4 36. Ne5 Kc7 37. Ke3 Bxg2 38. Kd4 Bf1 39. Kc5 1/2-1/2",
+            "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.1\"]\r\n[White \"Sindarov, Javokhir\"]\r\n[Black \"Martinez Alcantara, Jose Eduardo\"]\r\n[Result \"1/2-1/2\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"14205483\"]\r\n[BlackFideId \"3805662\"]\r\n[WhiteElo \"2721\"]\r\n[BlackElo \"2644\"]\r\n\r\n1. d4 {[%clk 01:30:53]} {[%emt 00:00:06]} d5 {[%clk 01:30:51]} {[%emt\r\n00:00:09]} 2. c4 {[%clk 01:31:12]} {[%emt 00:00:11]} dxc4 {[%clk 01:31:13]}\r\n{[%emt 00:00:09]} 3. Nf3 {[%clk 01:31:29]} {[%emt 00:00:13]} Nf6 {[%clk\r\n01:31:36]} {[%emt 00:00:07]} 4. e3 {[%clk 01:31:46]} {[%emt 00:00:13]} e6\r\n{[%clk 01:31:59]} {[%emt 00:00:07]} 5. Bxc4 {[%clk 01:32:07]} {[%emt 00:00:09]}\r\nc5 {[%clk 01:32:21]} {[%emt 00:00:07]} 6. O-O {[%clk 01:32:15]} {[%emt\r\n00:00:22]} Be7 {[%clk 01:32:45]} {[%emt 00:00:07]} 7. dxc5 {[%clk 01:31:18]}\r\n{[%emt 00:01:27]} Qxd1 {[%clk 01:23:05]} 8. Rxd1 {[%clk 01:31:07]} {[%emt\r\n00:10:51]} Bxc5 {[%clk 01:22:46]} {[%emt 00:00:49]} 9. Nc3 {[%clk 01:30:58]}\r\n{[%emt 00:00:38]} O-O {[%clk 01:18:29]} {[%emt 00:04:48]} 10. Be2 {[%clk\r\n01:30:47]} {[%emt 00:00:42]} Nc6 {[%clk 01:15:48]} {[%emt 00:03:11]} 11. a3\r\n{[%clk 01:28:47]} {[%emt 00:02:30]} b6 {[%clk 01:12:29]} {[%emt 00:03:49]} 12.\r\nb4 {[%clk 01:19:28]} {[%emt 00:09:49]} Be7 {[%clk 01:12:56]} {[%emt 00:00:02]}\r\n13. e4 {[%clk 01:18:49]} {[%emt 00:01:09]} Rd8 {[%clk 01:07:31]} {[%emt\r\n00:05:56]} 14. Rxd8+ {[%clk 01:18:04]} {[%emt 00:01:15]} Nxd8 {[%clk 01:02:48]}\r\n{[%emt 00:05:13]} 15. e5 {[%clk 00:56:41]} {[%emt 00:21:54]} Ne8 {[%clk\r\n01:03:06]} {[%emt 00:00:11]} 16. Bg5 {[%clk 00:53:02]} {[%emt 00:04:07]} Kf8\r\n{[%clk 00:48:04]} {[%emt 00:15:33]} 17. Rd1 {[%clk 00:46:03]} {[%emt 00:07:30]}\r\nh6 {[%clk 00:46:22]} {[%emt 00:02:12]} 18. Be3 {[%clk 00:40:41]} {[%emt\r\n00:05:52]} Bb7 {[%clk 00:46:43]} {[%emt 00:00:09]} 19. Nd4 {[%clk 00:40:08]}\r\n{[%emt 00:01:02]} Nc7 {[%clk 00:23:09]} {[%emt 00:24:03]} 20. f4 {[%clk\r\n00:29:12]} {[%emt 00:11:27]} a5 {[%clk 00:20:28]} {[%emt 00:03:11]} 21. bxa5\r\n{[%clk 00:27:16]} {[%emt 00:02:26]} Rxa5 {[%clk 00:18:37]} {[%emt 00:02:21]} 22.\r\nNc2 {[%clk 00:14:15]} {[%emt 00:13:30]} Ke8 {[%clk 00:18:11]} {[%emt 00:00:57]}\r\n23. a4 {[%clk 00:14:21]} {[%emt 00:00:24]} Bc5 {[%clk 00:15:14]} {[%emt\r\n00:03:27]} 24. Bb5+ {[%clk 00:13:22]} {[%emt 00:01:29]} Nxb5 {[%clk 00:15:02]}\r\n{[%emt 00:00:42]} 25. axb5 {[%clk 00:13:46]} {[%emt 00:00:06]} f6 {[%clk\r\n00:09:03]} {[%emt 00:06:29]} 26. exf6 {[%clk 00:07:53]} {[%emt 00:06:23]} gxf6\r\n{[%clk 00:09:28]} {[%emt 00:00:05]} 27. Bxc5 {[%clk 00:07:59]} {[%emt\r\n00:00:23]} bxc5 {[%clk 00:09:53]} {[%emt 00:00:05]} 28. Kf2 {[%clk 00:08:17]}\r\n{[%emt 00:00:11]} Nf7 {[%clk 00:08:47]} {[%emt 00:01:37]} 29. Ra1 {[%clk\r\n00:07:12]} {[%emt 00:01:36]} Rxa1 {[%clk 00:09:11]} {[%emt 00:00:06]} 30. Nxa1\r\n{[%clk 00:07:37]} {[%emt 00:00:04]} Bd5 {[%clk 00:04:26]} {[%emt 00:05:16]} 31.\r\nNc2 {[%clk 00:08:00]} {[%emt 00:00:07]} Nd6 {[%clk 00:03:46]} {[%emt 00:01:11]}\r\n32. Ne3 {[%clk 00:07:50]} {[%emt 00:00:39]} Bb7 {[%clk 00:02:14]} {[%emt\r\n00:02:02]} 33. Ng4 {[%clk 00:07:31]} {[%emt 00:00:48]} f5 {[%clk 00:02:43]}\r\n{[%emt 00:00:01]} 34. Ne5 {[%clk 00:06:18]} {[%emt 00:01:42]} Kd8 {[%clk\r\n00:01:58]} {[%emt 00:01:15]} 35. Nd3 {[%clk 00:05:50]} {[%emt 00:00:58]} c4\r\n{[%clk 00:02:08]} {[%emt 00:00:20]} 36. Ne5 {[%clk 00:02:25]} {[%emt 00:03:55]}\r\nKc7 {[%clk 00:02:29]} {[%emt 00:00:09]} 37. Ke3 {[%clk 00:01:07]} {[%emt\r\n00:01:47]} Bxg2 {[%clk 00:02:22]} {[%emt 00:00:38]} 38. Kd4 {[%clk 00:01:31]}\r\n{[%emt 00:00:06]} Bf1 {[%clk 00:02:41]} {[%emt 00:00:11]} 39. Kc5 {[%clk\r\n00:01:55]} {[%emt 00:00:06]} 1/2-1/2",
+            "gameNumberInMatch": 1,
+            "classification": {
+              "type": "CLASSICAL",
+              "tier": null,
+              "timeControl": "90+30",
+              "gameNumber": 1
+            },
+            "timeControlLabel": "Classical (90+30)"
+          }
+        ]
+      },
+      "outcome": {
+        "winner": null,
+        "advancingPlayer": null,
+        "tiebreakType": null,
+        "scores": {
+          "Martinez Alcantara, Jose Eduardo": 0.5,
+          "Sindarov, Javokhir": 0.5
+        },
+        "totalGames": 1,
+        "finalScore": "Tied"
+      },
+      "timeControlSummary": {
+        "classical": 1,
+        "rapidTier1": 0,
+        "rapidTier2": 0,
+        "blitzTier1": 0,
+        "blitzTier2": 0,
+        "armageddon": 0
+      }
+    },
+    {
+      "matchId": "round-6-match-2",
+      "matchNumber": 2,
+      "pairingKey": "Erigaisi, Arjun vs Wei, Yi",
+      "players": [
+        {
+          "name": "Erigaisi, Arjun",
+          "fideId": "35009192",
+          "elo": 2773
+        },
+        {
+          "name": "Wei, Yi",
+          "fideId": "8603405",
+          "elo": 2754
+        }
+      ],
+      "totalGames": 1,
+      "gameDetails": [
+        {
+          "white": "Wei, Yi",
+          "black": "Erigaisi, Arjun",
+          "result": "1/2-1/2",
+          "date": "2025.11.17",
+          "round": "50.2",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "moves": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Be6 d4 Bxb3 Qxb3 h6 a4 Qd7 axb5 axb5 Rxa8 Rxa8 Qxb5 Nxd4 Nxd4 exd4 Qxd7 Nxd7 cxd4 Bf6 Be3 Rb8 Nd2 Rxb2 Rc1 Bxd4 Bxd4 Rxd2 Rxc7 Rd1+ Kh2 Rxd4 Rxd7 Rxe4 Rd8+ Kh7 Rxd6 Re2 Kg1 Re1+ Kh2 Re2 Kg1 Re1+ Kh2",
+          "moveCount": 61,
+          "moveList": [
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "e4",
+              "from": "e2",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "e5",
+              "from": "e7",
+              "to": "e5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf3",
+              "from": "g1",
+              "to": "f3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc6",
+              "from": "b8",
+              "to": "c6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bb5",
+              "from": "f1",
+              "to": "b5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "a6",
+              "from": "a7",
+              "to": "a6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Ba4",
+              "from": "b5",
+              "to": "a4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf6",
+              "from": "g8",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e1",
+              "to": "g1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be7",
+              "from": "f8",
+              "to": "e7",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re1",
+              "from": "f1",
+              "to": "e1",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "b5",
+              "from": "b7",
+              "to": "b5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bb3",
+              "from": "a4",
+              "to": "b3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "d6",
+              "from": "d7",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "c3",
+              "from": "c2",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e8",
+              "to": "g8",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h3",
+              "from": "h2",
+              "to": "h3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be6",
+              "from": "c8",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d4",
+              "from": "d2",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "b",
+              "flags": "c",
+              "san": "Bxb3",
+              "from": "e6",
+              "to": "b3",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "captured": "b",
+              "flags": "c",
+              "san": "Qxb3",
+              "from": "d1",
+              "to": "b3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h6",
+              "from": "h7",
+              "to": "h6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "a4",
+              "from": "a2",
+              "to": "a4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd7",
+              "from": "d8",
+              "to": "d7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "axb5",
+              "from": "a4",
+              "to": "b5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "axb5",
+              "from": "a6",
+              "to": "b5",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "r",
+              "flags": "c",
+              "san": "Rxa8",
+              "from": "a1",
+              "to": "a8",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "r",
+              "flags": "c",
+              "san": "Rxa8",
+              "from": "f8",
+              "to": "a8",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "captured": "p",
+              "flags": "c",
+              "san": "Qxb5",
+              "from": "b3",
+              "to": "b5",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "captured": "p",
+              "flags": "c",
+              "san": "Nxd4",
+              "from": "c6",
+              "to": "d4",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "captured": "n",
+              "flags": "c",
+              "san": "Nxd4",
+              "from": "f3",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "n",
+              "flags": "c",
+              "san": "exd4",
+              "from": "e5",
+              "to": "d4",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "captured": "q",
+              "flags": "c",
+              "san": "Qxd7",
+              "from": "b5",
+              "to": "d7",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "captured": "q",
+              "flags": "c",
+              "san": "Nxd7",
+              "from": "f6",
+              "to": "d7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "cxd4",
+              "from": "c3",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf6",
+              "from": "e7",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be3",
+              "from": "c1",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb8",
+              "from": "a8",
+              "to": "b8",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd2",
+              "from": "b1",
+              "to": "d2",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxb2",
+              "from": "b8",
+              "to": "b2",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rc1",
+              "from": "e1",
+              "to": "c1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "p",
+              "flags": "c",
+              "san": "Bxd4",
+              "from": "f6",
+              "to": "d4",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "b",
+              "flags": "c",
+              "san": "Bxd4",
+              "from": "e3",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "n",
+              "flags": "c",
+              "san": "Rxd2",
+              "from": "b2",
+              "to": "d2",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxc7",
+              "from": "c1",
+              "to": "c7",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd1+",
+              "from": "d2",
+              "to": "d1",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kh2",
+              "from": "g1",
+              "to": "h2",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "b",
+              "flags": "c",
+              "san": "Rxd4",
+              "from": "d1",
+              "to": "d4",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "n",
+              "flags": "c",
+              "san": "Rxd7",
+              "from": "c7",
+              "to": "d7",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxe4",
+              "from": "d4",
+              "to": "e4",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd8+",
+              "from": "d7",
+              "to": "d8",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kh7",
+              "from": "g8",
+              "to": "h7",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxd6",
+              "from": "d8",
+              "to": "d6",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re2",
+              "from": "e4",
+              "to": "e2",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kg1",
+              "from": "h2",
+              "to": "g1",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re1+",
+              "from": "e2",
+              "to": "e1",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kh2",
+              "from": "g1",
+              "to": "h2",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re2",
+              "from": "e1",
+              "to": "e2",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kg1",
+              "from": "h2",
+              "to": "g1",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re1+",
+              "from": "e2",
+              "to": "e1",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kh2",
+              "from": "g1",
+              "to": "h2",
+              "color": "w"
+            }
+          ],
+          "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.2\"]\n[White \"Wei, Yi\"]\n[Black \"Erigaisi, Arjun\"]\n[Result \"1/2-1/2\"]\n[WhiteElo \"2754\"]\n[BlackElo \"2773\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"8603405\"]\n[BlackFideId \"35009192\"]\n\n1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Be6 10. d4 Bxb3 11. Qxb3 h6 12. a4 Qd7 13. axb5 axb5 14. Rxa8 Rxa8 15. Qxb5 Nxd4 16. Nxd4 exd4 17. Qxd7 Nxd7 18. cxd4 Bf6 19. Be3 Rb8 20. Nd2 Rxb2 21. Rc1 Bxd4 22. Bxd4 Rxd2 23. Rxc7 Rd1+ 24. Kh2 Rxd4 25. Rxd7 Rxe4 26. Rd8+ Kh7 27. Rxd6 Re2 28. Kg1 Re1+ 29. Kh2 Re2 30. Kg1 Re1+ 31. Kh2 1/2-1/2",
+          "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.2\"]\r\n[White \"Wei, Yi\"]\r\n[Black \"Erigaisi, Arjun\"]\r\n[Result \"1/2-1/2\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"8603405\"]\r\n[BlackFideId \"35009192\"]\r\n[WhiteElo \"2754\"]\r\n[BlackElo \"2773\"]\r\n\r\n1. e4 {[%clk 01:30:54]} {[%emt 00:00:05]} e5 {[%clk 01:30:49]} {[%emt\r\n00:00:12]} 2. Nf3 {[%clk 01:31:12]} {[%emt 00:00:12]} Nc6 {[%clk 01:31:14]}\r\n{[%emt 00:00:05]} 3. Bb5 {[%clk 01:31:29]} {[%emt 00:00:12]} a6 {[%clk\r\n01:31:35]} {[%emt 00:00:10]} 4. Ba4 {[%clk 01:31:51]} {[%emt 00:00:08]} Nf6\r\n{[%clk 01:31:46]} {[%emt 00:00:18]} 5. O-O {[%clk 01:32:08]} {[%emt 00:00:13]}\r\nBe7 {[%clk 01:32:03]} {[%emt 00:00:13]} 6. Re1 {[%clk 01:32:04]} {[%emt\r\n00:00:33]} b5 {[%clk 01:32:28]} {[%emt 00:00:06]} 7. Bb3 {[%clk 01:32:29]}\r\n{[%emt 00:00:05]} d6 {[%clk 01:32:30]} {[%emt 00:00:28]} 8. c3 {[%clk\r\n01:32:03]} {[%emt 00:00:56]} O-O {[%clk 01:32:45]} {[%emt 00:00:15]} 9. h3\r\n{[%clk 01:31:48]} {[%emt 00:00:45]} Be6 {[%clk 01:33:08]} {[%emt 00:00:07]} 10.\r\nd4 {[%clk 01:11:29]} {[%emt 00:20:49]} Bxb3 {[%clk 01:33:04]} 11. Qxb3 {[%clk\r\n01:10:33]} {[%emt 00:02:01]} h6 {[%clk 01:31:34]} {[%emt 00:01:59]} 12. a4\r\n{[%clk 01:05:46]} {[%emt 00:05:17]} Qd7 {[%clk 01:30:56]} {[%emt 00:01:08]} 13.\r\naxb5 {[%clk 01:00:44]} {[%emt 00:05:32]} axb5 {[%clk 01:31:18]} {[%emt\r\n00:00:08]} 14. Rxa8 {[%clk 01:01:09]} {[%emt 00:00:05]} Rxa8 {[%clk 01:31:43]}\r\n{[%emt 00:00:05]} 15. Qxb5 {[%clk 01:00:34]} {[%emt 00:01:04]} Nxd4 {[%clk\r\n01:31:57]} {[%emt 00:00:16]} 16. Nxd4 {[%clk 01:00:59]} {[%emt 00:00:06]} exd4\r\n{[%clk 01:32:23]} {[%emt 00:00:04]} 17. Qxd7 {[%clk 01:00:32]} {[%emt\r\n00:00:56]} Nxd7 {[%clk 01:32:47]} {[%emt 00:00:06]} 18. cxd4 {[%clk 01:00:56]}\r\n{[%emt 00:00:07]} Bf6 {[%clk 01:33:04]} {[%emt 00:00:12]} 19. Be3 {[%clk\r\n01:00:12]} {[%emt 00:01:14]} Rb8 {[%clk 01:33:15]} {[%emt 00:00:20]} 20. Nd2\r\n{[%clk 00:54:06]} {[%emt 00:06:35]} Rxb2 {[%clk 01:32:12]} {[%emt 00:01:33]} 21.\r\nRc1 {[%clk 00:54:32]} {[%emt 00:00:04]} Bxd4 {[%clk 01:31:20]} {[%emt\r\n00:01:23]} 22. Bxd4 {[%clk 00:54:18]} {[%emt 00:00:44]} Rxd2 {[%clk 01:31:46]}\r\n{[%emt 00:00:04]} 23. Rxc7 {[%clk 00:54:32]} {[%emt 00:00:16]} Rd1+ {[%clk\r\n01:32:10]} {[%emt 00:00:06]} 24. Kh2 {[%clk 00:54:58]} {[%emt 00:00:03]} Rxd4\r\n{[%clk 01:32:35]} {[%emt 00:00:05]} 25. Rxd7 {[%clk 00:55:24]} {[%emt\r\n00:00:04]} Rxe4 {[%clk 01:32:58]} {[%emt 00:00:07]} 26. Rd8+ {[%clk 00:55:51]}\r\n{[%emt 00:00:03]} Kh7 {[%clk 01:33:22]} {[%emt 00:00:06]} 27. Rxd6 {[%clk\r\n00:56:18]} {[%emt 00:00:04]} Re2 {[%clk 01:33:46]} {[%emt 00:00:05]} 28. Kg1\r\n{[%clk 00:56:44]} {[%emt 00:00:04]} Re1+ {[%clk 01:34:12]} {[%emt 00:00:04]} 29.\r\nKh2 {[%clk 00:57:12]} {[%emt 00:00:02]} Re2 {[%clk 01:34:37]} {[%emt 00:00:05]}\r\n30. Kg1 {[%clk 00:57:40]} {[%emt 00:00:02]} Re1+ {[%clk 01:35:03]} {[%emt\r\n00:00:05]} 31. Kh2 {[%clk 00:58:06]} {[%emt 00:00:04]} 1/2-1/2",
+          "gameNumberInMatch": 1,
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)",
+          "opening": {
+            "eco": "C92",
+            "name": "Ruy Lopez: Closed, Kholmov Variation",
+            "matchedMoves": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Be6",
+            "confidence": "high",
+            "matchDepth": 18
+          }
+        }
+      ],
+      "dates": [
+        "2025.11.17"
+      ],
+      "site": "Goa, India",
+      "gamesByTimeControl": {
+        "CLASSICAL": [
+          {
+            "white": "Wei, Yi",
+            "black": "Erigaisi, Arjun",
+            "result": "1/2-1/2",
+            "date": "2025.11.17",
+            "round": "50.2",
+            "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+            "moves": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Be6 d4 Bxb3 Qxb3 h6 a4 Qd7 axb5 axb5 Rxa8 Rxa8 Qxb5 Nxd4 Nxd4 exd4 Qxd7 Nxd7 cxd4 Bf6 Be3 Rb8 Nd2 Rxb2 Rc1 Bxd4 Bxd4 Rxd2 Rxc7 Rd1+ Kh2 Rxd4 Rxd7 Rxe4 Rd8+ Kh7 Rxd6 Re2 Kg1 Re1+ Kh2 Re2 Kg1 Re1+ Kh2",
+            "moveCount": 61,
+            "moveList": [
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "e4",
+                "from": "e2",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "e5",
+                "from": "e7",
+                "to": "e5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf3",
+                "from": "g1",
+                "to": "f3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc6",
+                "from": "b8",
+                "to": "c6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bb5",
+                "from": "f1",
+                "to": "b5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "a6",
+                "from": "a7",
+                "to": "a6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Ba4",
+                "from": "b5",
+                "to": "a4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf6",
+                "from": "g8",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e1",
+                "to": "g1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be7",
+                "from": "f8",
+                "to": "e7",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re1",
+                "from": "f1",
+                "to": "e1",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "b5",
+                "from": "b7",
+                "to": "b5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bb3",
+                "from": "a4",
+                "to": "b3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "d6",
+                "from": "d7",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "c3",
+                "from": "c2",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e8",
+                "to": "g8",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h3",
+                "from": "h2",
+                "to": "h3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be6",
+                "from": "c8",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d4",
+                "from": "d2",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "b",
+                "flags": "c",
+                "san": "Bxb3",
+                "from": "e6",
+                "to": "b3",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "captured": "b",
+                "flags": "c",
+                "san": "Qxb3",
+                "from": "d1",
+                "to": "b3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h6",
+                "from": "h7",
+                "to": "h6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "a4",
+                "from": "a2",
+                "to": "a4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd7",
+                "from": "d8",
+                "to": "d7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "axb5",
+                "from": "a4",
+                "to": "b5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "axb5",
+                "from": "a6",
+                "to": "b5",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "r",
+                "flags": "c",
+                "san": "Rxa8",
+                "from": "a1",
+                "to": "a8",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "r",
+                "flags": "c",
+                "san": "Rxa8",
+                "from": "f8",
+                "to": "a8",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "captured": "p",
+                "flags": "c",
+                "san": "Qxb5",
+                "from": "b3",
+                "to": "b5",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "captured": "p",
+                "flags": "c",
+                "san": "Nxd4",
+                "from": "c6",
+                "to": "d4",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "captured": "n",
+                "flags": "c",
+                "san": "Nxd4",
+                "from": "f3",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "n",
+                "flags": "c",
+                "san": "exd4",
+                "from": "e5",
+                "to": "d4",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "captured": "q",
+                "flags": "c",
+                "san": "Qxd7",
+                "from": "b5",
+                "to": "d7",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "captured": "q",
+                "flags": "c",
+                "san": "Nxd7",
+                "from": "f6",
+                "to": "d7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "cxd4",
+                "from": "c3",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf6",
+                "from": "e7",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be3",
+                "from": "c1",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb8",
+                "from": "a8",
+                "to": "b8",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd2",
+                "from": "b1",
+                "to": "d2",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxb2",
+                "from": "b8",
+                "to": "b2",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rc1",
+                "from": "e1",
+                "to": "c1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "p",
+                "flags": "c",
+                "san": "Bxd4",
+                "from": "f6",
+                "to": "d4",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "b",
+                "flags": "c",
+                "san": "Bxd4",
+                "from": "e3",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "n",
+                "flags": "c",
+                "san": "Rxd2",
+                "from": "b2",
+                "to": "d2",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxc7",
+                "from": "c1",
+                "to": "c7",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd1+",
+                "from": "d2",
+                "to": "d1",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kh2",
+                "from": "g1",
+                "to": "h2",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "b",
+                "flags": "c",
+                "san": "Rxd4",
+                "from": "d1",
+                "to": "d4",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "n",
+                "flags": "c",
+                "san": "Rxd7",
+                "from": "c7",
+                "to": "d7",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxe4",
+                "from": "d4",
+                "to": "e4",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd8+",
+                "from": "d7",
+                "to": "d8",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kh7",
+                "from": "g8",
+                "to": "h7",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxd6",
+                "from": "d8",
+                "to": "d6",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re2",
+                "from": "e4",
+                "to": "e2",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kg1",
+                "from": "h2",
+                "to": "g1",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re1+",
+                "from": "e2",
+                "to": "e1",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kh2",
+                "from": "g1",
+                "to": "h2",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re2",
+                "from": "e1",
+                "to": "e2",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kg1",
+                "from": "h2",
+                "to": "g1",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re1+",
+                "from": "e2",
+                "to": "e1",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kh2",
+                "from": "g1",
+                "to": "h2",
+                "color": "w"
+              }
+            ],
+            "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.2\"]\n[White \"Wei, Yi\"]\n[Black \"Erigaisi, Arjun\"]\n[Result \"1/2-1/2\"]\n[WhiteElo \"2754\"]\n[BlackElo \"2773\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"8603405\"]\n[BlackFideId \"35009192\"]\n\n1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Be6 10. d4 Bxb3 11. Qxb3 h6 12. a4 Qd7 13. axb5 axb5 14. Rxa8 Rxa8 15. Qxb5 Nxd4 16. Nxd4 exd4 17. Qxd7 Nxd7 18. cxd4 Bf6 19. Be3 Rb8 20. Nd2 Rxb2 21. Rc1 Bxd4 22. Bxd4 Rxd2 23. Rxc7 Rd1+ 24. Kh2 Rxd4 25. Rxd7 Rxe4 26. Rd8+ Kh7 27. Rxd6 Re2 28. Kg1 Re1+ 29. Kh2 Re2 30. Kg1 Re1+ 31. Kh2 1/2-1/2",
+            "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.2\"]\r\n[White \"Wei, Yi\"]\r\n[Black \"Erigaisi, Arjun\"]\r\n[Result \"1/2-1/2\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"8603405\"]\r\n[BlackFideId \"35009192\"]\r\n[WhiteElo \"2754\"]\r\n[BlackElo \"2773\"]\r\n\r\n1. e4 {[%clk 01:30:54]} {[%emt 00:00:05]} e5 {[%clk 01:30:49]} {[%emt\r\n00:00:12]} 2. Nf3 {[%clk 01:31:12]} {[%emt 00:00:12]} Nc6 {[%clk 01:31:14]}\r\n{[%emt 00:00:05]} 3. Bb5 {[%clk 01:31:29]} {[%emt 00:00:12]} a6 {[%clk\r\n01:31:35]} {[%emt 00:00:10]} 4. Ba4 {[%clk 01:31:51]} {[%emt 00:00:08]} Nf6\r\n{[%clk 01:31:46]} {[%emt 00:00:18]} 5. O-O {[%clk 01:32:08]} {[%emt 00:00:13]}\r\nBe7 {[%clk 01:32:03]} {[%emt 00:00:13]} 6. Re1 {[%clk 01:32:04]} {[%emt\r\n00:00:33]} b5 {[%clk 01:32:28]} {[%emt 00:00:06]} 7. Bb3 {[%clk 01:32:29]}\r\n{[%emt 00:00:05]} d6 {[%clk 01:32:30]} {[%emt 00:00:28]} 8. c3 {[%clk\r\n01:32:03]} {[%emt 00:00:56]} O-O {[%clk 01:32:45]} {[%emt 00:00:15]} 9. h3\r\n{[%clk 01:31:48]} {[%emt 00:00:45]} Be6 {[%clk 01:33:08]} {[%emt 00:00:07]} 10.\r\nd4 {[%clk 01:11:29]} {[%emt 00:20:49]} Bxb3 {[%clk 01:33:04]} 11. Qxb3 {[%clk\r\n01:10:33]} {[%emt 00:02:01]} h6 {[%clk 01:31:34]} {[%emt 00:01:59]} 12. a4\r\n{[%clk 01:05:46]} {[%emt 00:05:17]} Qd7 {[%clk 01:30:56]} {[%emt 00:01:08]} 13.\r\naxb5 {[%clk 01:00:44]} {[%emt 00:05:32]} axb5 {[%clk 01:31:18]} {[%emt\r\n00:00:08]} 14. Rxa8 {[%clk 01:01:09]} {[%emt 00:00:05]} Rxa8 {[%clk 01:31:43]}\r\n{[%emt 00:00:05]} 15. Qxb5 {[%clk 01:00:34]} {[%emt 00:01:04]} Nxd4 {[%clk\r\n01:31:57]} {[%emt 00:00:16]} 16. Nxd4 {[%clk 01:00:59]} {[%emt 00:00:06]} exd4\r\n{[%clk 01:32:23]} {[%emt 00:00:04]} 17. Qxd7 {[%clk 01:00:32]} {[%emt\r\n00:00:56]} Nxd7 {[%clk 01:32:47]} {[%emt 00:00:06]} 18. cxd4 {[%clk 01:00:56]}\r\n{[%emt 00:00:07]} Bf6 {[%clk 01:33:04]} {[%emt 00:00:12]} 19. Be3 {[%clk\r\n01:00:12]} {[%emt 00:01:14]} Rb8 {[%clk 01:33:15]} {[%emt 00:00:20]} 20. Nd2\r\n{[%clk 00:54:06]} {[%emt 00:06:35]} Rxb2 {[%clk 01:32:12]} {[%emt 00:01:33]} 21.\r\nRc1 {[%clk 00:54:32]} {[%emt 00:00:04]} Bxd4 {[%clk 01:31:20]} {[%emt\r\n00:01:23]} 22. Bxd4 {[%clk 00:54:18]} {[%emt 00:00:44]} Rxd2 {[%clk 01:31:46]}\r\n{[%emt 00:00:04]} 23. Rxc7 {[%clk 00:54:32]} {[%emt 00:00:16]} Rd1+ {[%clk\r\n01:32:10]} {[%emt 00:00:06]} 24. Kh2 {[%clk 00:54:58]} {[%emt 00:00:03]} Rxd4\r\n{[%clk 01:32:35]} {[%emt 00:00:05]} 25. Rxd7 {[%clk 00:55:24]} {[%emt\r\n00:00:04]} Rxe4 {[%clk 01:32:58]} {[%emt 00:00:07]} 26. Rd8+ {[%clk 00:55:51]}\r\n{[%emt 00:00:03]} Kh7 {[%clk 01:33:22]} {[%emt 00:00:06]} 27. Rxd6 {[%clk\r\n00:56:18]} {[%emt 00:00:04]} Re2 {[%clk 01:33:46]} {[%emt 00:00:05]} 28. Kg1\r\n{[%clk 00:56:44]} {[%emt 00:00:04]} Re1+ {[%clk 01:34:12]} {[%emt 00:00:04]} 29.\r\nKh2 {[%clk 00:57:12]} {[%emt 00:00:02]} Re2 {[%clk 01:34:37]} {[%emt 00:00:05]}\r\n30. Kg1 {[%clk 00:57:40]} {[%emt 00:00:02]} Re1+ {[%clk 01:35:03]} {[%emt\r\n00:00:05]} 31. Kh2 {[%clk 00:58:06]} {[%emt 00:00:04]} 1/2-1/2",
+            "gameNumberInMatch": 1,
+            "classification": {
+              "type": "CLASSICAL",
+              "tier": null,
+              "timeControl": "90+30",
+              "gameNumber": 1
+            },
+            "timeControlLabel": "Classical (90+30)"
+          }
+        ]
+      },
+      "outcome": {
+        "winner": null,
+        "advancingPlayer": null,
+        "tiebreakType": null,
+        "scores": {
+          "Erigaisi, Arjun": 0.5,
+          "Wei, Yi": 0.5
+        },
+        "totalGames": 1,
+        "finalScore": "Tied"
+      },
+      "timeControlSummary": {
+        "classical": 1,
+        "rapidTier1": 0,
+        "rapidTier2": 0,
+        "blitzTier1": 0,
+        "blitzTier2": 0,
+        "armageddon": 0
+      }
+    },
+    {
+      "matchId": "round-6-match-3",
+      "matchNumber": 3,
+      "pairingKey": "Esipenko, Andrey vs Shankland, Sam",
+      "players": [
+        {
+          "name": "Esipenko, Andrey",
+          "fideId": "24175439",
+          "elo": 2693
+        },
+        {
+          "name": "Shankland, Sam",
+          "fideId": "2004887",
+          "elo": 2654
+        }
+      ],
+      "totalGames": 1,
+      "gameDetails": [
+        {
+          "white": "Shankland, Sam",
+          "black": "Esipenko, Andrey",
+          "result": "1/2-1/2",
+          "date": "2025.11.17",
+          "round": "50.3",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "moves": "c4 e6 Nc3 d5 d4 Nf6 cxd5 exd5 Bg5 Bb4 e3 h6 Bxf6 Qxf6 Qa4+ Nc6 Ne2 O-O Rc1 Rd8 Nf4 Bxc3+ Rxc3 Ne7 Bd3 c6 O-O Nf5 Rfc1 Nd6 Qd1 Bf5 Bf1 g5 Nd3 Kg7 Nc5 h5 a4 h4 h3 a5 b4 axb4 Rb3 b6 Nd3 Bxd3 Bxd3 Ne4 Bxe4 dxe4 Rxb4 c5 Rb5 cxd4 exd4 Qf4 Rc3 Rd6 g3 hxg3 Rxg3 f6 Rg4 Qf3 Qc1 e3 Qxe3 Qxe3 fxe3 Rxa4 h4 Ra5 Rb3",
+          "moveCount": 75,
+          "moveList": [
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "c4",
+              "from": "c2",
+              "to": "c4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e6",
+              "from": "e7",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc3",
+              "from": "b1",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d5",
+              "from": "d7",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d4",
+              "from": "d2",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf6",
+              "from": "g8",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "cxd5",
+              "from": "c4",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "exd5",
+              "from": "e6",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg5",
+              "from": "c1",
+              "to": "g5",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bb4",
+              "from": "f8",
+              "to": "b4",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e3",
+              "from": "e2",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h6",
+              "from": "h7",
+              "to": "h6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "n",
+              "flags": "c",
+              "san": "Bxf6",
+              "from": "g5",
+              "to": "f6",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "captured": "b",
+              "flags": "c",
+              "san": "Qxf6",
+              "from": "d8",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qa4+",
+              "from": "d1",
+              "to": "a4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc6",
+              "from": "b8",
+              "to": "c6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne2",
+              "from": "g1",
+              "to": "e2",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e8",
+              "to": "g8",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rc1",
+              "from": "a1",
+              "to": "c1",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd8",
+              "from": "f8",
+              "to": "d8",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf4",
+              "from": "e2",
+              "to": "f4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "n",
+              "flags": "c",
+              "san": "Bxc3+",
+              "from": "b4",
+              "to": "c3",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "b",
+              "flags": "c",
+              "san": "Rxc3",
+              "from": "c1",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne7",
+              "from": "c6",
+              "to": "e7",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bd3",
+              "from": "f1",
+              "to": "d3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "c6",
+              "from": "c7",
+              "to": "c6",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "k",
+              "san": "O-O",
+              "from": "e1",
+              "to": "g1",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf5",
+              "from": "e7",
+              "to": "f5",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rfc1",
+              "from": "f1",
+              "to": "c1",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd6",
+              "from": "f5",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd1",
+              "from": "a4",
+              "to": "d1",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf5",
+              "from": "c8",
+              "to": "f5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf1",
+              "from": "d3",
+              "to": "f1",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "g5",
+              "from": "g7",
+              "to": "g5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd3",
+              "from": "f4",
+              "to": "d3",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kg7",
+              "from": "g8",
+              "to": "g7",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc5",
+              "from": "d3",
+              "to": "c5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h5",
+              "from": "h6",
+              "to": "h5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "a4",
+              "from": "a2",
+              "to": "a4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h4",
+              "from": "h5",
+              "to": "h4",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h3",
+              "from": "h2",
+              "to": "h3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "a5",
+              "from": "a7",
+              "to": "a5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "b4",
+              "from": "b2",
+              "to": "b4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "axb4",
+              "from": "a5",
+              "to": "b4",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb3",
+              "from": "c3",
+              "to": "b3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "b6",
+              "from": "b7",
+              "to": "b6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd3",
+              "from": "c5",
+              "to": "d3",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "n",
+              "flags": "c",
+              "san": "Bxd3",
+              "from": "f5",
+              "to": "d3",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "b",
+              "flags": "c",
+              "san": "Bxd3",
+              "from": "f1",
+              "to": "d3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne4",
+              "from": "d6",
+              "to": "e4",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "n",
+              "flags": "c",
+              "san": "Bxe4",
+              "from": "d3",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "b",
+              "flags": "c",
+              "san": "dxe4",
+              "from": "d5",
+              "to": "e4",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxb4",
+              "from": "b3",
+              "to": "b4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "c5",
+              "from": "c6",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb5",
+              "from": "b4",
+              "to": "b5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "cxd4",
+              "from": "c5",
+              "to": "d4",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "exd4",
+              "from": "e3",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qf4",
+              "from": "f6",
+              "to": "f4",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rc3",
+              "from": "c1",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd6",
+              "from": "d8",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "g3",
+              "from": "g2",
+              "to": "g3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "hxg3",
+              "from": "h4",
+              "to": "g3",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxg3",
+              "from": "c3",
+              "to": "g3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "f6",
+              "from": "f7",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rg4",
+              "from": "g3",
+              "to": "g4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qf3",
+              "from": "f4",
+              "to": "f3",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qc1",
+              "from": "d1",
+              "to": "c1",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e3",
+              "from": "e4",
+              "to": "e3",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "captured": "p",
+              "flags": "c",
+              "san": "Qxe3",
+              "from": "c1",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "captured": "q",
+              "flags": "c",
+              "san": "Qxe3",
+              "from": "f3",
+              "to": "e3",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "q",
+              "flags": "c",
+              "san": "fxe3",
+              "from": "f2",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxa4",
+              "from": "a8",
+              "to": "a4",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "h4",
+              "from": "h3",
+              "to": "h4",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Ra5",
+              "from": "a4",
+              "to": "a5",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb3",
+              "from": "b5",
+              "to": "b3",
+              "color": "w"
+            }
+          ],
+          "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.3\"]\n[White \"Shankland, Sam\"]\n[Black \"Esipenko, Andrey\"]\n[Result \"1/2-1/2\"]\n[WhiteElo \"2654\"]\n[BlackElo \"2693\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"2004887\"]\n[BlackFideId \"24175439\"]\n\n1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. cxd5 exd5 5. Bg5 Bb4 6. e3 h6 7. Bxf6 Qxf6 8. Qa4+ Nc6 9. Ne2 O-O 10. Rc1 Rd8 11. Nf4 Bxc3+ 12. Rxc3 Ne7 13. Bd3 c6 14. O-O Nf5 15. Rfc1 Nd6 16. Qd1 Bf5 17. Bf1 g5 18. Nd3 Kg7 19. Nc5 h5 20. a4 h4 21. h3 a5 22. b4 axb4 23. Rb3 b6 24. Nd3 Bxd3 25. Bxd3 Ne4 26. Bxe4 dxe4 27. Rxb4 c5 28. Rb5 cxd4 29. exd4 Qf4 30. Rc3 Rd6 31. g3 hxg3 32. Rxg3 f6 33. Rg4 Qf3 34. Qc1 e3 35. Qxe3 Qxe3 36. fxe3 Rxa4 37. h4 Ra5 38. Rb3 1/2-1/2",
+          "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.3\"]\r\n[White \"Shankland, Sam\"]\r\n[Black \"Esipenko, Andrey\"]\r\n[Result \"1/2-1/2\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"2004887\"]\r\n[BlackFideId \"24175439\"]\r\n[WhiteElo \"2654\"]\r\n[BlackElo \"2693\"]\r\n\r\n1. c4 {[%clk 01:30:49]} {[%emt 00:00:10]} e6 {[%clk 01:30:42]} {[%emt\r\n00:00:19]} 2. Nc3 {[%clk 01:31:13]} {[%emt 00:00:06]} d5 {[%clk 01:31:04]}\r\n{[%emt 00:00:08]} 3. d4 {[%clk 01:31:38]} {[%emt 00:00:05]} Nf6 {[%clk\r\n01:31:29]} {[%emt 00:00:05]} 4. cxd5 {[%clk 01:32:01]} {[%emt 00:00:07]} exd5\r\n{[%clk 01:31:54]} {[%emt 00:00:06]} 5. Bg5 {[%clk 01:32:27]} {[%emt 00:00:04]}\r\nBb4 {[%clk 01:32:17]} {[%emt 00:00:07]} 6. e3 {[%clk 01:27:10]} {[%emt\r\n00:05:47]} h6 {[%clk 01:32:17]} {[%emt 00:00:29]} 7. Bxf6 {[%clk 01:27:34]}\r\n{[%emt 00:00:06]} Qxf6 {[%clk 01:32:40]} {[%emt 00:00:06]} 8. Qa4+ {[%clk\r\n01:27:18]} {[%emt 00:00:47]} Nc6 {[%clk 01:33:03]} {[%emt 00:00:07]} 9. Nge2\r\n{[%clk 01:26:02]} {[%emt 00:01:46]} O-O {[%clk 01:27:11]} {[%emt 00:06:21]} 10.\r\nRc1 {[%clk 01:21:47]} {[%emt 00:04:46]} Rd8 {[%clk 01:18:30]} {[%emt 00:09:11]}\r\n11. Nf4 {[%clk 01:17:11]} {[%emt 00:05:05]} Bxc3+ {[%clk 01:11:31]} {[%emt\r\n00:07:29]} 12. Rxc3 {[%clk 01:12:13]} {[%emt 00:05:29]} Ne7 {[%clk 01:10:51]}\r\n{[%emt 00:01:09]} 13. Bd3 {[%clk 01:03:35]} {[%emt 00:09:08]} c6 {[%clk\r\n01:10:37]} {[%emt 00:00:43]} 14. O-O {[%clk 01:03:17]} {[%emt 00:00:49]} Nf5\r\n{[%clk 01:10:34]} {[%emt 00:00:32]} 15. Rfc1 {[%clk 01:01:30]} {[%emt\r\n00:02:19]} Nd6 {[%clk 01:10:14]} {[%emt 00:00:50]} 16. Qd1 {[%clk 00:59:25]}\r\n{[%emt 00:02:35]} Bf5 {[%clk 01:05:48]} {[%emt 00:04:55]} 17. Bf1 {[%clk\r\n00:59:02]} {[%emt 00:00:53]} g5 {[%clk 01:01:49]} {[%emt 00:04:29]} 18. Nd3\r\n{[%clk 00:55:04]} {[%emt 00:04:28]} Kg7 {[%clk 01:00:59]} {[%emt 00:01:20]} 19.\r\nNc5 {[%clk 00:53:25]} {[%emt 00:02:10]} h5 {[%clk 00:57:43]} {[%emt 00:03:46]}\r\n20. a4 {[%clk 00:44:41]} {[%emt 00:09:14]} h4 {[%clk 00:48:55]} {[%emt\r\n00:09:18]} 21. h3 {[%clk 00:43:09]} {[%emt 00:02:01]} a5 {[%clk 00:41:22]}\r\n{[%emt 00:08:03]} 22. b4 {[%clk 00:41:04]} {[%emt 00:02:35]} axb4 {[%clk\r\n00:31:48]} {[%emt 00:10:04]} 23. Rb3 {[%clk 00:41:31]} {[%emt 00:00:03]} b6\r\n{[%clk 00:30:59]} {[%emt 00:01:19]} 24. Nd3 {[%clk 00:41:03]} {[%emt 00:00:58]}\r\nBxd3 {[%clk 00:30:43]} {[%emt 00:00:46]} 25. Bxd3 {[%clk 00:41:26]} {[%emt\r\n00:00:07]} Ne4 {[%clk 00:31:08]} {[%emt 00:00:05]} 26. Bxe4 {[%clk 00:40:39]}\r\n{[%emt 00:01:17]} dxe4 {[%clk 00:31:31]} {[%emt 00:00:07]} 27. Rxb4 {[%clk\r\n00:40:01]} {[%emt 00:01:08]} c5 {[%clk 00:31:17]} {[%emt 00:00:43]} 28. Rb5\r\n{[%clk 00:38:06]} {[%emt 00:02:25]} cxd4 {[%clk 00:27:17]} {[%emt 00:04:30]} 29.\r\nexd4 {[%clk 00:34:43]} {[%emt 00:03:53]} Qf4 {[%clk 00:26:51]} {[%emt\r\n00:00:55]} 30. Rc3 {[%clk 00:33:22]} {[%emt 00:01:52]} Rd6 {[%clk 00:15:55]}\r\n{[%emt 00:11:24]} 31. g3 {[%clk 00:27:04]} {[%emt 00:06:50]} hxg3 {[%clk\r\n00:15:57]} {[%emt 00:00:28]} 32. Rxg3 {[%clk 00:26:59]} {[%emt 00:00:34]} f6\r\n{[%clk 00:16:00]} {[%emt 00:00:24]} 33. Rg4 {[%clk 00:22:29]} {[%emt 00:05:03]}\r\nQf3 {[%clk 00:16:15]} {[%emt 00:00:14]} 34. Qc1 {[%clk 00:20:47]} {[%emt\r\n00:02:14]} e3 {[%clk 00:15:32]} {[%emt 00:01:13]} 35. Qxe3 {[%clk 00:15:37]}\r\n{[%emt 00:05:40]} Qxe3 {[%clk 00:15:52]} {[%emt 00:00:10]} 36. fxe3 {[%clk\r\n00:16:04]} {[%emt 00:00:02]} Rxa4 {[%clk 00:16:12]} {[%emt 00:00:11]} 37. h4\r\n{[%clk 00:16:07]} {[%emt 00:00:28]} Ra5 {[%clk 00:08:46]} {[%emt 00:07:56]} 38.\r\nRb3 {[%clk 00:16:08]} {[%emt 00:00:29]} 1/2-1/2",
+          "gameNumberInMatch": 1,
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)",
+          "opening": {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "matchedMoves": "c4 e6",
+            "confidence": "low",
+            "matchDepth": 2
+          }
+        }
+      ],
+      "dates": [
+        "2025.11.17"
+      ],
+      "site": "Goa, India",
+      "gamesByTimeControl": {
+        "CLASSICAL": [
+          {
+            "white": "Shankland, Sam",
+            "black": "Esipenko, Andrey",
+            "result": "1/2-1/2",
+            "date": "2025.11.17",
+            "round": "50.3",
+            "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+            "moves": "c4 e6 Nc3 d5 d4 Nf6 cxd5 exd5 Bg5 Bb4 e3 h6 Bxf6 Qxf6 Qa4+ Nc6 Ne2 O-O Rc1 Rd8 Nf4 Bxc3+ Rxc3 Ne7 Bd3 c6 O-O Nf5 Rfc1 Nd6 Qd1 Bf5 Bf1 g5 Nd3 Kg7 Nc5 h5 a4 h4 h3 a5 b4 axb4 Rb3 b6 Nd3 Bxd3 Bxd3 Ne4 Bxe4 dxe4 Rxb4 c5 Rb5 cxd4 exd4 Qf4 Rc3 Rd6 g3 hxg3 Rxg3 f6 Rg4 Qf3 Qc1 e3 Qxe3 Qxe3 fxe3 Rxa4 h4 Ra5 Rb3",
+            "moveCount": 75,
+            "moveList": [
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "c4",
+                "from": "c2",
+                "to": "c4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e6",
+                "from": "e7",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc3",
+                "from": "b1",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d5",
+                "from": "d7",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d4",
+                "from": "d2",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf6",
+                "from": "g8",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "cxd5",
+                "from": "c4",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "exd5",
+                "from": "e6",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg5",
+                "from": "c1",
+                "to": "g5",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bb4",
+                "from": "f8",
+                "to": "b4",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e3",
+                "from": "e2",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h6",
+                "from": "h7",
+                "to": "h6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "n",
+                "flags": "c",
+                "san": "Bxf6",
+                "from": "g5",
+                "to": "f6",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "captured": "b",
+                "flags": "c",
+                "san": "Qxf6",
+                "from": "d8",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qa4+",
+                "from": "d1",
+                "to": "a4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc6",
+                "from": "b8",
+                "to": "c6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne2",
+                "from": "g1",
+                "to": "e2",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e8",
+                "to": "g8",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rc1",
+                "from": "a1",
+                "to": "c1",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd8",
+                "from": "f8",
+                "to": "d8",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf4",
+                "from": "e2",
+                "to": "f4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "n",
+                "flags": "c",
+                "san": "Bxc3+",
+                "from": "b4",
+                "to": "c3",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "b",
+                "flags": "c",
+                "san": "Rxc3",
+                "from": "c1",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne7",
+                "from": "c6",
+                "to": "e7",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bd3",
+                "from": "f1",
+                "to": "d3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "c6",
+                "from": "c7",
+                "to": "c6",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "k",
+                "san": "O-O",
+                "from": "e1",
+                "to": "g1",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf5",
+                "from": "e7",
+                "to": "f5",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rfc1",
+                "from": "f1",
+                "to": "c1",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd6",
+                "from": "f5",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd1",
+                "from": "a4",
+                "to": "d1",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf5",
+                "from": "c8",
+                "to": "f5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf1",
+                "from": "d3",
+                "to": "f1",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "g5",
+                "from": "g7",
+                "to": "g5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd3",
+                "from": "f4",
+                "to": "d3",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kg7",
+                "from": "g8",
+                "to": "g7",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc5",
+                "from": "d3",
+                "to": "c5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h5",
+                "from": "h6",
+                "to": "h5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "a4",
+                "from": "a2",
+                "to": "a4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h4",
+                "from": "h5",
+                "to": "h4",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h3",
+                "from": "h2",
+                "to": "h3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "a5",
+                "from": "a7",
+                "to": "a5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "b4",
+                "from": "b2",
+                "to": "b4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "axb4",
+                "from": "a5",
+                "to": "b4",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb3",
+                "from": "c3",
+                "to": "b3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "b6",
+                "from": "b7",
+                "to": "b6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd3",
+                "from": "c5",
+                "to": "d3",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "n",
+                "flags": "c",
+                "san": "Bxd3",
+                "from": "f5",
+                "to": "d3",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "b",
+                "flags": "c",
+                "san": "Bxd3",
+                "from": "f1",
+                "to": "d3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne4",
+                "from": "d6",
+                "to": "e4",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "n",
+                "flags": "c",
+                "san": "Bxe4",
+                "from": "d3",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "b",
+                "flags": "c",
+                "san": "dxe4",
+                "from": "d5",
+                "to": "e4",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxb4",
+                "from": "b3",
+                "to": "b4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "c5",
+                "from": "c6",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb5",
+                "from": "b4",
+                "to": "b5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "cxd4",
+                "from": "c5",
+                "to": "d4",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "exd4",
+                "from": "e3",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qf4",
+                "from": "f6",
+                "to": "f4",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rc3",
+                "from": "c1",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd6",
+                "from": "d8",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "g3",
+                "from": "g2",
+                "to": "g3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "hxg3",
+                "from": "h4",
+                "to": "g3",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxg3",
+                "from": "c3",
+                "to": "g3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "f6",
+                "from": "f7",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rg4",
+                "from": "g3",
+                "to": "g4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qf3",
+                "from": "f4",
+                "to": "f3",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qc1",
+                "from": "d1",
+                "to": "c1",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e3",
+                "from": "e4",
+                "to": "e3",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "captured": "p",
+                "flags": "c",
+                "san": "Qxe3",
+                "from": "c1",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "captured": "q",
+                "flags": "c",
+                "san": "Qxe3",
+                "from": "f3",
+                "to": "e3",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "q",
+                "flags": "c",
+                "san": "fxe3",
+                "from": "f2",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxa4",
+                "from": "a8",
+                "to": "a4",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "h4",
+                "from": "h3",
+                "to": "h4",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Ra5",
+                "from": "a4",
+                "to": "a5",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb3",
+                "from": "b5",
+                "to": "b3",
+                "color": "w"
+              }
+            ],
+            "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.3\"]\n[White \"Shankland, Sam\"]\n[Black \"Esipenko, Andrey\"]\n[Result \"1/2-1/2\"]\n[WhiteElo \"2654\"]\n[BlackElo \"2693\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"2004887\"]\n[BlackFideId \"24175439\"]\n\n1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. cxd5 exd5 5. Bg5 Bb4 6. e3 h6 7. Bxf6 Qxf6 8. Qa4+ Nc6 9. Ne2 O-O 10. Rc1 Rd8 11. Nf4 Bxc3+ 12. Rxc3 Ne7 13. Bd3 c6 14. O-O Nf5 15. Rfc1 Nd6 16. Qd1 Bf5 17. Bf1 g5 18. Nd3 Kg7 19. Nc5 h5 20. a4 h4 21. h3 a5 22. b4 axb4 23. Rb3 b6 24. Nd3 Bxd3 25. Bxd3 Ne4 26. Bxe4 dxe4 27. Rxb4 c5 28. Rb5 cxd4 29. exd4 Qf4 30. Rc3 Rd6 31. g3 hxg3 32. Rxg3 f6 33. Rg4 Qf3 34. Qc1 e3 35. Qxe3 Qxe3 36. fxe3 Rxa4 37. h4 Ra5 38. Rb3 1/2-1/2",
+            "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.3\"]\r\n[White \"Shankland, Sam\"]\r\n[Black \"Esipenko, Andrey\"]\r\n[Result \"1/2-1/2\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"2004887\"]\r\n[BlackFideId \"24175439\"]\r\n[WhiteElo \"2654\"]\r\n[BlackElo \"2693\"]\r\n\r\n1. c4 {[%clk 01:30:49]} {[%emt 00:00:10]} e6 {[%clk 01:30:42]} {[%emt\r\n00:00:19]} 2. Nc3 {[%clk 01:31:13]} {[%emt 00:00:06]} d5 {[%clk 01:31:04]}\r\n{[%emt 00:00:08]} 3. d4 {[%clk 01:31:38]} {[%emt 00:00:05]} Nf6 {[%clk\r\n01:31:29]} {[%emt 00:00:05]} 4. cxd5 {[%clk 01:32:01]} {[%emt 00:00:07]} exd5\r\n{[%clk 01:31:54]} {[%emt 00:00:06]} 5. Bg5 {[%clk 01:32:27]} {[%emt 00:00:04]}\r\nBb4 {[%clk 01:32:17]} {[%emt 00:00:07]} 6. e3 {[%clk 01:27:10]} {[%emt\r\n00:05:47]} h6 {[%clk 01:32:17]} {[%emt 00:00:29]} 7. Bxf6 {[%clk 01:27:34]}\r\n{[%emt 00:00:06]} Qxf6 {[%clk 01:32:40]} {[%emt 00:00:06]} 8. Qa4+ {[%clk\r\n01:27:18]} {[%emt 00:00:47]} Nc6 {[%clk 01:33:03]} {[%emt 00:00:07]} 9. Nge2\r\n{[%clk 01:26:02]} {[%emt 00:01:46]} O-O {[%clk 01:27:11]} {[%emt 00:06:21]} 10.\r\nRc1 {[%clk 01:21:47]} {[%emt 00:04:46]} Rd8 {[%clk 01:18:30]} {[%emt 00:09:11]}\r\n11. Nf4 {[%clk 01:17:11]} {[%emt 00:05:05]} Bxc3+ {[%clk 01:11:31]} {[%emt\r\n00:07:29]} 12. Rxc3 {[%clk 01:12:13]} {[%emt 00:05:29]} Ne7 {[%clk 01:10:51]}\r\n{[%emt 00:01:09]} 13. Bd3 {[%clk 01:03:35]} {[%emt 00:09:08]} c6 {[%clk\r\n01:10:37]} {[%emt 00:00:43]} 14. O-O {[%clk 01:03:17]} {[%emt 00:00:49]} Nf5\r\n{[%clk 01:10:34]} {[%emt 00:00:32]} 15. Rfc1 {[%clk 01:01:30]} {[%emt\r\n00:02:19]} Nd6 {[%clk 01:10:14]} {[%emt 00:00:50]} 16. Qd1 {[%clk 00:59:25]}\r\n{[%emt 00:02:35]} Bf5 {[%clk 01:05:48]} {[%emt 00:04:55]} 17. Bf1 {[%clk\r\n00:59:02]} {[%emt 00:00:53]} g5 {[%clk 01:01:49]} {[%emt 00:04:29]} 18. Nd3\r\n{[%clk 00:55:04]} {[%emt 00:04:28]} Kg7 {[%clk 01:00:59]} {[%emt 00:01:20]} 19.\r\nNc5 {[%clk 00:53:25]} {[%emt 00:02:10]} h5 {[%clk 00:57:43]} {[%emt 00:03:46]}\r\n20. a4 {[%clk 00:44:41]} {[%emt 00:09:14]} h4 {[%clk 00:48:55]} {[%emt\r\n00:09:18]} 21. h3 {[%clk 00:43:09]} {[%emt 00:02:01]} a5 {[%clk 00:41:22]}\r\n{[%emt 00:08:03]} 22. b4 {[%clk 00:41:04]} {[%emt 00:02:35]} axb4 {[%clk\r\n00:31:48]} {[%emt 00:10:04]} 23. Rb3 {[%clk 00:41:31]} {[%emt 00:00:03]} b6\r\n{[%clk 00:30:59]} {[%emt 00:01:19]} 24. Nd3 {[%clk 00:41:03]} {[%emt 00:00:58]}\r\nBxd3 {[%clk 00:30:43]} {[%emt 00:00:46]} 25. Bxd3 {[%clk 00:41:26]} {[%emt\r\n00:00:07]} Ne4 {[%clk 00:31:08]} {[%emt 00:00:05]} 26. Bxe4 {[%clk 00:40:39]}\r\n{[%emt 00:01:17]} dxe4 {[%clk 00:31:31]} {[%emt 00:00:07]} 27. Rxb4 {[%clk\r\n00:40:01]} {[%emt 00:01:08]} c5 {[%clk 00:31:17]} {[%emt 00:00:43]} 28. Rb5\r\n{[%clk 00:38:06]} {[%emt 00:02:25]} cxd4 {[%clk 00:27:17]} {[%emt 00:04:30]} 29.\r\nexd4 {[%clk 00:34:43]} {[%emt 00:03:53]} Qf4 {[%clk 00:26:51]} {[%emt\r\n00:00:55]} 30. Rc3 {[%clk 00:33:22]} {[%emt 00:01:52]} Rd6 {[%clk 00:15:55]}\r\n{[%emt 00:11:24]} 31. g3 {[%clk 00:27:04]} {[%emt 00:06:50]} hxg3 {[%clk\r\n00:15:57]} {[%emt 00:00:28]} 32. Rxg3 {[%clk 00:26:59]} {[%emt 00:00:34]} f6\r\n{[%clk 00:16:00]} {[%emt 00:00:24]} 33. Rg4 {[%clk 00:22:29]} {[%emt 00:05:03]}\r\nQf3 {[%clk 00:16:15]} {[%emt 00:00:14]} 34. Qc1 {[%clk 00:20:47]} {[%emt\r\n00:02:14]} e3 {[%clk 00:15:32]} {[%emt 00:01:13]} 35. Qxe3 {[%clk 00:15:37]}\r\n{[%emt 00:05:40]} Qxe3 {[%clk 00:15:52]} {[%emt 00:00:10]} 36. fxe3 {[%clk\r\n00:16:04]} {[%emt 00:00:02]} Rxa4 {[%clk 00:16:12]} {[%emt 00:00:11]} 37. h4\r\n{[%clk 00:16:07]} {[%emt 00:00:28]} Ra5 {[%clk 00:08:46]} {[%emt 00:07:56]} 38.\r\nRb3 {[%clk 00:16:08]} {[%emt 00:00:29]} 1/2-1/2",
+            "gameNumberInMatch": 1,
+            "classification": {
+              "type": "CLASSICAL",
+              "tier": null,
+              "timeControl": "90+30",
+              "gameNumber": 1
+            },
+            "timeControlLabel": "Classical (90+30)"
+          }
+        ]
+      },
+      "outcome": {
+        "winner": null,
+        "advancingPlayer": null,
+        "tiebreakType": null,
+        "scores": {
+          "Esipenko, Andrey": 0.5,
+          "Shankland, Sam": 0.5
+        },
+        "totalGames": 1,
+        "finalScore": "Tied"
+      },
+      "timeControlSummary": {
+        "classical": 1,
+        "rapidTier1": 0,
+        "rapidTier2": 0,
+        "blitzTier1": 0,
+        "blitzTier2": 0,
+        "armageddon": 0
+      }
+    },
+    {
+      "matchId": "round-6-match-4",
+      "matchNumber": 4,
+      "pairingKey": "Donchenko, Alexander vs Yakubboev, Nodirbek",
+      "players": [
+        {
+          "name": "Donchenko, Alexander",
+          "fideId": "24603295",
+          "elo": 2641
+        },
+        {
+          "name": "Yakubboev, Nodirbek",
+          "fideId": "14203987",
+          "elo": 2689
+        }
+      ],
+      "totalGames": 1,
+      "gameDetails": [
+        {
+          "white": "Yakubboev, Nodirbek",
+          "black": "Donchenko, Alexander",
+          "result": "1-0",
+          "date": "2025.11.17",
+          "round": "50.4",
+          "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+          "moves": "d4 Nf6 c4 g6 f3 c5 d5 d6 e4 Bg7 Ne2 e6 Nec3 exd5 cxd5 a6 a4 Nh5 Qe2 Bd4 g4 Qh4+ Kd1 Nf6 Kc2 Nfd7 Bf4 Qf6 Be3 Ne5 Nd2 Qh4 Bf4 h5 Bg3 Qe7 gxh5 Rxh5 h4 Ra7 a5 b5 axb6 Rb7 Bxe5 Bxe5 Nc4 Rxh4 Rxh4 Qxh4 Nxe5 dxe5 Qe3 Rxb6 b4 Nd7 bxc5 Rb4 c6 Nb6 Be2 Qh2 d6 Be6 d7+ Bxd7 cxd7+ Nxd7 Rxa6 Kf8 Rd6 Rb7 Qd2 Nc5 Qd5 Rc7 Rxg6 Ne6 Qd6+ Re7 Rg4 f6 Qb8+ Re8 Rg8+ Kxg8 Qxe8+",
+          "moveCount": 87,
+          "moveList": [
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "d4",
+              "from": "d2",
+              "to": "d4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf6",
+              "from": "g8",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "c4",
+              "from": "c2",
+              "to": "c4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "g6",
+              "from": "g7",
+              "to": "g6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "f3",
+              "from": "f2",
+              "to": "f3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "c5",
+              "from": "c7",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "d5",
+              "from": "d4",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "d6",
+              "from": "d7",
+              "to": "d6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "e4",
+              "from": "e2",
+              "to": "e4",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg7",
+              "from": "f8",
+              "to": "g7",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne2",
+              "from": "g1",
+              "to": "e2",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "e6",
+              "from": "e7",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nec3",
+              "from": "e2",
+              "to": "c3",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "exd5",
+              "from": "e6",
+              "to": "d5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "cxd5",
+              "from": "c4",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "a6",
+              "from": "a7",
+              "to": "a6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "a4",
+              "from": "a2",
+              "to": "a4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nh5",
+              "from": "f6",
+              "to": "h5",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qe2",
+              "from": "d1",
+              "to": "e2",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bd4",
+              "from": "g7",
+              "to": "d4",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "g4",
+              "from": "g2",
+              "to": "g4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qh4+",
+              "from": "d8",
+              "to": "h4",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kd1",
+              "from": "e1",
+              "to": "d1",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nf6",
+              "from": "h5",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kc2",
+              "from": "d1",
+              "to": "c2",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nfd7",
+              "from": "f6",
+              "to": "d7",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf4",
+              "from": "c1",
+              "to": "f4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qf6",
+              "from": "h4",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be3",
+              "from": "f4",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne5",
+              "from": "d7",
+              "to": "e5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd2",
+              "from": "b1",
+              "to": "d2",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qh4",
+              "from": "f6",
+              "to": "h4",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bf4",
+              "from": "e3",
+              "to": "f4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "h5",
+              "from": "h7",
+              "to": "h5",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Bg3",
+              "from": "f4",
+              "to": "g3",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qe7",
+              "from": "h4",
+              "to": "e7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "gxh5",
+              "from": "g4",
+              "to": "h5",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxh5",
+              "from": "h8",
+              "to": "h5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "h4",
+              "from": "h2",
+              "to": "h4",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Ra7",
+              "from": "a8",
+              "to": "a7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "a5",
+              "from": "a4",
+              "to": "a5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "b5",
+              "from": "b7",
+              "to": "b5",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "e",
+              "san": "axb6",
+              "from": "a5",
+              "to": "b6",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb7",
+              "from": "a7",
+              "to": "b7",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "captured": "n",
+              "flags": "c",
+              "san": "Bxe5",
+              "from": "g3",
+              "to": "e5",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "b",
+              "flags": "c",
+              "san": "Bxe5",
+              "from": "d4",
+              "to": "e5",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc4",
+              "from": "d2",
+              "to": "c4",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxh4",
+              "from": "h5",
+              "to": "h4",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "r",
+              "flags": "c",
+              "san": "Rxh4",
+              "from": "h1",
+              "to": "h4",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "captured": "r",
+              "flags": "c",
+              "san": "Qxh4",
+              "from": "e7",
+              "to": "h4",
+              "color": "b"
+            },
+            {
+              "piece": "n",
+              "captured": "b",
+              "flags": "c",
+              "san": "Nxe5",
+              "from": "c4",
+              "to": "e5",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "captured": "n",
+              "flags": "c",
+              "san": "dxe5",
+              "from": "d6",
+              "to": "e5",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qe3",
+              "from": "e2",
+              "to": "e3",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxb6",
+              "from": "b7",
+              "to": "b6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "b",
+              "san": "b4",
+              "from": "b2",
+              "to": "b4",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nd7",
+              "from": "b8",
+              "to": "d7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "p",
+              "flags": "c",
+              "san": "bxc5",
+              "from": "b4",
+              "to": "c5",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb4",
+              "from": "b6",
+              "to": "b4",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "c6",
+              "from": "c5",
+              "to": "c6",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nb6",
+              "from": "d7",
+              "to": "b6",
+              "color": "b"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be2",
+              "from": "f1",
+              "to": "e2",
+              "color": "w"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qh2",
+              "from": "h4",
+              "to": "h2",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "d6",
+              "from": "d5",
+              "to": "d6",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "flags": "n",
+              "san": "Be6",
+              "from": "c8",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "d7+",
+              "from": "d6",
+              "to": "d7",
+              "color": "w"
+            },
+            {
+              "piece": "b",
+              "captured": "p",
+              "flags": "c",
+              "san": "Bxd7",
+              "from": "e6",
+              "to": "d7",
+              "color": "b"
+            },
+            {
+              "piece": "p",
+              "captured": "b",
+              "flags": "c",
+              "san": "cxd7+",
+              "from": "c6",
+              "to": "d7",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "captured": "p",
+              "flags": "c",
+              "san": "Nxd7",
+              "from": "b6",
+              "to": "d7",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxa6",
+              "from": "a1",
+              "to": "a6",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "flags": "n",
+              "san": "Kf8",
+              "from": "e8",
+              "to": "f8",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rd6",
+              "from": "a6",
+              "to": "d6",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rb7",
+              "from": "b4",
+              "to": "b7",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd2",
+              "from": "e3",
+              "to": "d2",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Nc5",
+              "from": "d7",
+              "to": "c5",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd5",
+              "from": "d2",
+              "to": "d5",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rc7",
+              "from": "b7",
+              "to": "c7",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "captured": "p",
+              "flags": "c",
+              "san": "Rxg6",
+              "from": "d6",
+              "to": "g6",
+              "color": "w"
+            },
+            {
+              "piece": "n",
+              "flags": "n",
+              "san": "Ne6",
+              "from": "c5",
+              "to": "e6",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qd6+",
+              "from": "d5",
+              "to": "d6",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re7",
+              "from": "c7",
+              "to": "e7",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rg4",
+              "from": "g6",
+              "to": "g4",
+              "color": "w"
+            },
+            {
+              "piece": "p",
+              "flags": "n",
+              "san": "f6",
+              "from": "f7",
+              "to": "f6",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "flags": "n",
+              "san": "Qb8+",
+              "from": "d6",
+              "to": "b8",
+              "color": "w"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Re8",
+              "from": "e7",
+              "to": "e8",
+              "color": "b"
+            },
+            {
+              "piece": "r",
+              "flags": "n",
+              "san": "Rg8+",
+              "from": "g4",
+              "to": "g8",
+              "color": "w"
+            },
+            {
+              "piece": "k",
+              "captured": "r",
+              "flags": "c",
+              "san": "Kxg8",
+              "from": "f8",
+              "to": "g8",
+              "color": "b"
+            },
+            {
+              "piece": "q",
+              "captured": "r",
+              "flags": "c",
+              "san": "Qxe8+",
+              "from": "b8",
+              "to": "e8",
+              "color": "w"
+            }
+          ],
+          "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.4\"]\n[White \"Yakubboev, Nodirbek\"]\n[Black \"Donchenko, Alexander\"]\n[Result \"1-0\"]\n[WhiteElo \"2689\"]\n[BlackElo \"2641\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"14203987\"]\n[BlackFideId \"24603295\"]\n\n1. d4 Nf6 2. c4 g6 3. f3 c5 4. d5 d6 5. e4 Bg7 6. Ne2 e6 7. Nec3 exd5 8. cxd5 a6 9. a4 Nh5 10. Qe2 Bd4 11. g4 Qh4+ 12. Kd1 Nf6 13. Kc2 Nfd7 14. Bf4 Qf6 15. Be3 Ne5 16. Nd2 Qh4 17. Bf4 h5 18. Bg3 Qe7 19. gxh5 Rxh5 20. h4 Ra7 21. a5 b5 22. axb6 Rb7 23. Bxe5 Bxe5 24. Nc4 Rxh4 25. Rxh4 Qxh4 26. Nxe5 dxe5 27. Qe3 Rxb6 28. b4 Nd7 29. bxc5 Rb4 30. c6 Nb6 31. Be2 Qh2 32. d6 Be6 33. d7+ Bxd7 34. cxd7+ Nxd7 35. Rxa6 Kf8 36. Rd6 Rb7 37. Qd2 Nc5 38. Qd5 Rc7 39. Rxg6 Ne6 40. Qd6+ Re7 41. Rg4 f6 42. Qb8+ Re8 43. Rg8+ Kxg8 44. Qxe8+ 1-0",
+          "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.4\"]\r\n[White \"Yakubboev, Nodirbek\"]\r\n[Black \"Donchenko, Alexander\"]\r\n[Result \"1-0\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"14203987\"]\r\n[BlackFideId \"24603295\"]\r\n[WhiteElo \"2689\"]\r\n[BlackElo \"2641\"]\r\n\r\n1. d4 {[%clk 01:30:49]} {[%emt 00:00:10]} Nf6 {[%clk 01:30:53]} {[%emt\r\n00:00:07]} 2. c4 {[%clk 01:31:14]} {[%emt 00:00:05]} g6 {[%clk 01:31:17]}\r\n{[%emt 00:00:06]} 3. f3 {[%clk 01:31:08]} {[%emt 00:00:36]} c5 {[%clk\r\n01:30:53]} {[%emt 00:00:53]} 4. d5 {[%clk 01:31:29]} {[%emt 00:00:10]} d6\r\n{[%clk 01:31:14]} {[%emt 00:00:09]} 5. e4 {[%clk 01:31:52]} {[%emt 00:00:07]}\r\nBg7 {[%clk 01:31:37]} {[%emt 00:00:07]} 6. Ne2 {[%clk 01:31:32]} {[%emt\r\n00:00:51]} e6 {[%clk 01:28:18]} {[%emt 00:03:49]} 7. Nec3 {[%clk 01:22:42]}\r\n{[%emt 00:09:20]} exd5 {[%clk 01:22:56]} {[%emt 00:05:51]} 8. cxd5 {[%clk\r\n01:22:58]} {[%emt 00:00:15]} a6 {[%clk 01:23:01]} {[%emt 00:00:26]} 9. a4\r\n{[%clk 01:22:40]} {[%emt 00:00:47]} Nh5 {[%clk 01:18:42]} {[%emt 00:04:49]} 10.\r\nQe2 {[%clk 01:21:03]} {[%emt 00:02:06]} Bd4 {[%clk 01:09:16]} {[%emt 00:09:56]}\r\n11. g4 {[%clk 01:00:44]} {[%emt 00:20:49]} Qh4+ {[%clk 01:04:40]} {[%emt\r\n00:05:06]} 12. Kd1 {[%clk 01:01:03]} {[%emt 00:00:12]} Nf6 {[%clk 01:03:31]}\r\n{[%emt 00:01:40]} 13. Kc2 {[%clk 00:59:31]} {[%emt 00:02:02]} Nfd7 {[%clk\r\n00:57:17]} {[%emt 00:06:43]} 14. Bf4 {[%clk 00:37:31]} {[%emt 00:22:30]} Qf6\r\n{[%clk 00:49:30]} {[%emt 00:08:18]} 15. Be3 {[%clk 00:36:38]} {[%emt 00:01:22]}\r\nNe5 {[%clk 00:38:01]} {[%emt 00:11:59]} 16. Nd2 {[%clk 00:35:52]} {[%emt\r\n00:01:15]} Qh4 {[%clk 00:34:07]} {[%emt 00:04:25]} 17. Bf4 {[%clk 00:26:46]}\r\n{[%emt 00:09:36]} h5 {[%clk 00:26:24]} {[%emt 00:08:13]} 18. Bg3 {[%clk\r\n00:26:35]} {[%emt 00:00:40]} Qe7 {[%clk 00:26:49]} {[%emt 00:00:05]} 19. gxh5\r\n{[%clk 00:24:45]} {[%emt 00:02:20]} Rxh5 {[%clk 00:26:59]} {[%emt 00:00:20]} 20.\r\nh4 {[%clk 00:22:20]} {[%emt 00:02:54]} Ra7 {[%clk 00:18:30]} {[%emt 00:09:01]}\r\n21. a5 {[%emt 00:07:20]} b5 {[%clk 00:17:18]} 22. axb6 {[%clk 00:17:19]} {[%emt\r\n00:00:23]} Rb7 {[%clk 00:17:47]} {[%emt 00:00:01]} 23. Bxe5 {[%clk 00:09:53]}\r\n{[%emt 00:07:57]} Bxe5 {[%emt 00:01:03]} 24. Nc4 {[%clk 00:10:13]} Rxh4 {[%clk\r\n00:07:33]} {[%emt 00:10:20]} 25. Rxh4 {[%clk 00:10:35]} {[%emt 00:00:08]} Qxh4\r\n{[%clk 00:08:00]} {[%emt 00:00:02]} 26. Nxe5 {[%clk 00:10:51]} {[%emt\r\n00:00:15]} dxe5 {[%clk 00:08:28]} {[%emt 00:00:02]} 27. Qe3 {[%clk 00:11:15]}\r\n{[%emt 00:00:06]} Rxb6 {[%clk 00:07:18]} {[%emt 00:01:41]} 28. b4 {[%clk\r\n00:11:39]} {[%emt 00:00:06]} Nd7 {[%clk 00:02:02]} {[%emt 00:05:46]} 29. bxc5\r\n{[%clk 00:11:50]} {[%emt 00:00:18]} Rb4 {[%clk 00:02:31]} {[%emt 00:00:01]} 30.\r\nc6 {[%clk 00:09:15]} {[%emt 00:03:04]} Nb6 {[%clk 00:03:00]} {[%emt 00:00:01]}\r\n31. Be2 {[%clk 00:07:15]} {[%emt 00:02:30]} Qh2 {[%clk 00:03:04]} {[%emt\r\n00:00:26]} 32. d6 {[%clk 00:03:41]} {[%emt 00:04:05]} Be6 {[%clk 00:01:21]}\r\n{[%emt 00:02:14]} 33. d7+ {[%clk 00:03:05]} {[%emt 00:01:05]} Bxd7 {[%clk\r\n00:01:30]} {[%emt 00:00:21]} 34. cxd7+ {[%clk 00:03:11]} {[%emt 00:00:24]} Nxd7\r\n{[%clk 00:01:59]} {[%emt 00:00:02]} 35. Rxa6 {[%clk 00:03:05]} {[%emt\r\n00:00:35]} Kf8 {[%clk 00:01:50]} {[%emt 00:00:39]} 36. Rd6 {[%clk 00:03:01]}\r\n{[%emt 00:00:34]} Rb7 {[%clk 00:02:01]} {[%emt 00:00:21]} 37. Qd2 {[%clk\r\n00:02:07]} {[%emt 00:01:23]} Nc5 {[%clk 00:00:41]} {[%emt 00:01:50]} 38. Qd5\r\n{[%clk 00:01:52]} {[%emt 00:00:44]} Rc7 {[%clk 00:01:00]} {[%emt 00:00:12]} 39.\r\nRxg6 {[%clk 00:01:36]} {[%emt 00:00:46]} Ne6 {[%clk 00:00:38]} {[%emt\r\n00:00:52]} 40. Qd6+ {[%clk 00:01:04]} {[%emt 00:01:02]} Re7 {[%clk 00:01:07]}\r\n{[%emt 00:00:01]} 41. Rg4 {[%clk 00:28:02]} {[%emt 00:03:31]} f6 {[%clk\r\n00:29:21]} {[%emt 00:02:16]} 42. Qb8+ {[%clk 00:26:38]} {[%emt 00:01:54]} Re8\r\n{[%clk 00:29:31]} {[%emt 00:00:20]} 43. Rg8+ {[%clk 00:27:01]} {[%emt\r\n00:00:07]} Kxg8 {[%clk 00:29:56]} {[%emt 00:00:05]} 44. Qxe8+ {[%clk 00:27:25]}\r\n{[%emt 00:00:06]} 1-0",
+          "gameNumberInMatch": 1,
+          "classification": {
+            "type": "CLASSICAL",
+            "tier": null,
+            "timeControl": "90+30",
+            "gameNumber": 1
+          },
+          "timeControlLabel": "Classical (90+30)",
+          "opening": {
+            "eco": "E60",
+            "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+            "matchedMoves": "d4 Nf6 c4 g6 f3",
+            "confidence": "low",
+            "matchDepth": 5
+          }
+        }
+      ],
+      "dates": [
+        "2025.11.17"
+      ],
+      "site": "Goa, India",
+      "gamesByTimeControl": {
+        "CLASSICAL": [
+          {
+            "white": "Yakubboev, Nodirbek",
+            "black": "Donchenko, Alexander",
+            "result": "1-0",
+            "date": "2025.11.17",
+            "round": "50.4",
+            "timeControl": ": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1",
+            "moves": "d4 Nf6 c4 g6 f3 c5 d5 d6 e4 Bg7 Ne2 e6 Nec3 exd5 cxd5 a6 a4 Nh5 Qe2 Bd4 g4 Qh4+ Kd1 Nf6 Kc2 Nfd7 Bf4 Qf6 Be3 Ne5 Nd2 Qh4 Bf4 h5 Bg3 Qe7 gxh5 Rxh5 h4 Ra7 a5 b5 axb6 Rb7 Bxe5 Bxe5 Nc4 Rxh4 Rxh4 Qxh4 Nxe5 dxe5 Qe3 Rxb6 b4 Nd7 bxc5 Rb4 c6 Nb6 Be2 Qh2 d6 Be6 d7+ Bxd7 cxd7+ Nxd7 Rxa6 Kf8 Rd6 Rb7 Qd2 Nc5 Qd5 Rc7 Rxg6 Ne6 Qd6+ Re7 Rg4 f6 Qb8+ Re8 Rg8+ Kxg8 Qxe8+",
+            "moveCount": 87,
+            "moveList": [
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "d4",
+                "from": "d2",
+                "to": "d4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf6",
+                "from": "g8",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "c4",
+                "from": "c2",
+                "to": "c4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "g6",
+                "from": "g7",
+                "to": "g6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "f3",
+                "from": "f2",
+                "to": "f3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "c5",
+                "from": "c7",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "d5",
+                "from": "d4",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "d6",
+                "from": "d7",
+                "to": "d6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "e4",
+                "from": "e2",
+                "to": "e4",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg7",
+                "from": "f8",
+                "to": "g7",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne2",
+                "from": "g1",
+                "to": "e2",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "e6",
+                "from": "e7",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nec3",
+                "from": "e2",
+                "to": "c3",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "exd5",
+                "from": "e6",
+                "to": "d5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "cxd5",
+                "from": "c4",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "a6",
+                "from": "a7",
+                "to": "a6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "a4",
+                "from": "a2",
+                "to": "a4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nh5",
+                "from": "f6",
+                "to": "h5",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qe2",
+                "from": "d1",
+                "to": "e2",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bd4",
+                "from": "g7",
+                "to": "d4",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "g4",
+                "from": "g2",
+                "to": "g4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qh4+",
+                "from": "d8",
+                "to": "h4",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kd1",
+                "from": "e1",
+                "to": "d1",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nf6",
+                "from": "h5",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kc2",
+                "from": "d1",
+                "to": "c2",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nfd7",
+                "from": "f6",
+                "to": "d7",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf4",
+                "from": "c1",
+                "to": "f4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qf6",
+                "from": "h4",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be3",
+                "from": "f4",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne5",
+                "from": "d7",
+                "to": "e5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd2",
+                "from": "b1",
+                "to": "d2",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qh4",
+                "from": "f6",
+                "to": "h4",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bf4",
+                "from": "e3",
+                "to": "f4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "h5",
+                "from": "h7",
+                "to": "h5",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Bg3",
+                "from": "f4",
+                "to": "g3",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qe7",
+                "from": "h4",
+                "to": "e7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "gxh5",
+                "from": "g4",
+                "to": "h5",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxh5",
+                "from": "h8",
+                "to": "h5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "h4",
+                "from": "h2",
+                "to": "h4",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Ra7",
+                "from": "a8",
+                "to": "a7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "a5",
+                "from": "a4",
+                "to": "a5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "b5",
+                "from": "b7",
+                "to": "b5",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "e",
+                "san": "axb6",
+                "from": "a5",
+                "to": "b6",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb7",
+                "from": "a7",
+                "to": "b7",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "captured": "n",
+                "flags": "c",
+                "san": "Bxe5",
+                "from": "g3",
+                "to": "e5",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "b",
+                "flags": "c",
+                "san": "Bxe5",
+                "from": "d4",
+                "to": "e5",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc4",
+                "from": "d2",
+                "to": "c4",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxh4",
+                "from": "h5",
+                "to": "h4",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "r",
+                "flags": "c",
+                "san": "Rxh4",
+                "from": "h1",
+                "to": "h4",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "captured": "r",
+                "flags": "c",
+                "san": "Qxh4",
+                "from": "e7",
+                "to": "h4",
+                "color": "b"
+              },
+              {
+                "piece": "n",
+                "captured": "b",
+                "flags": "c",
+                "san": "Nxe5",
+                "from": "c4",
+                "to": "e5",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "captured": "n",
+                "flags": "c",
+                "san": "dxe5",
+                "from": "d6",
+                "to": "e5",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qe3",
+                "from": "e2",
+                "to": "e3",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxb6",
+                "from": "b7",
+                "to": "b6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "b",
+                "san": "b4",
+                "from": "b2",
+                "to": "b4",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nd7",
+                "from": "b8",
+                "to": "d7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "p",
+                "flags": "c",
+                "san": "bxc5",
+                "from": "b4",
+                "to": "c5",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb4",
+                "from": "b6",
+                "to": "b4",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "c6",
+                "from": "c5",
+                "to": "c6",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nb6",
+                "from": "d7",
+                "to": "b6",
+                "color": "b"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be2",
+                "from": "f1",
+                "to": "e2",
+                "color": "w"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qh2",
+                "from": "h4",
+                "to": "h2",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "d6",
+                "from": "d5",
+                "to": "d6",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "flags": "n",
+                "san": "Be6",
+                "from": "c8",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "d7+",
+                "from": "d6",
+                "to": "d7",
+                "color": "w"
+              },
+              {
+                "piece": "b",
+                "captured": "p",
+                "flags": "c",
+                "san": "Bxd7",
+                "from": "e6",
+                "to": "d7",
+                "color": "b"
+              },
+              {
+                "piece": "p",
+                "captured": "b",
+                "flags": "c",
+                "san": "cxd7+",
+                "from": "c6",
+                "to": "d7",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "captured": "p",
+                "flags": "c",
+                "san": "Nxd7",
+                "from": "b6",
+                "to": "d7",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxa6",
+                "from": "a1",
+                "to": "a6",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "flags": "n",
+                "san": "Kf8",
+                "from": "e8",
+                "to": "f8",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rd6",
+                "from": "a6",
+                "to": "d6",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rb7",
+                "from": "b4",
+                "to": "b7",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd2",
+                "from": "e3",
+                "to": "d2",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Nc5",
+                "from": "d7",
+                "to": "c5",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd5",
+                "from": "d2",
+                "to": "d5",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rc7",
+                "from": "b7",
+                "to": "c7",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "captured": "p",
+                "flags": "c",
+                "san": "Rxg6",
+                "from": "d6",
+                "to": "g6",
+                "color": "w"
+              },
+              {
+                "piece": "n",
+                "flags": "n",
+                "san": "Ne6",
+                "from": "c5",
+                "to": "e6",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qd6+",
+                "from": "d5",
+                "to": "d6",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re7",
+                "from": "c7",
+                "to": "e7",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rg4",
+                "from": "g6",
+                "to": "g4",
+                "color": "w"
+              },
+              {
+                "piece": "p",
+                "flags": "n",
+                "san": "f6",
+                "from": "f7",
+                "to": "f6",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "flags": "n",
+                "san": "Qb8+",
+                "from": "d6",
+                "to": "b8",
+                "color": "w"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Re8",
+                "from": "e7",
+                "to": "e8",
+                "color": "b"
+              },
+              {
+                "piece": "r",
+                "flags": "n",
+                "san": "Rg8+",
+                "from": "g4",
+                "to": "g8",
+                "color": "w"
+              },
+              {
+                "piece": "k",
+                "captured": "r",
+                "flags": "c",
+                "san": "Kxg8",
+                "from": "f8",
+                "to": "g8",
+                "color": "b"
+              },
+              {
+                "piece": "q",
+                "captured": "r",
+                "flags": "c",
+                "san": "Qxe8+",
+                "from": "b8",
+                "to": "e8",
+                "color": "w"
+              }
+            ],
+            "pgn": "[Event \"FIDE World Cup 2025\"]\n[Site \"Goa, India\"]\n[Date \"2025.11.17\"]\n[Round \"50.4\"]\n[White \"Yakubboev, Nodirbek\"]\n[Black \"Donchenko, Alexander\"]\n[Result \"1-0\"]\n[WhiteElo \"2689\"]\n[BlackElo \"2641\"]\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\n[WhiteFideId \"14203987\"]\n[BlackFideId \"24603295\"]\n\n1. d4 Nf6 2. c4 g6 3. f3 c5 4. d5 d6 5. e4 Bg7 6. Ne2 e6 7. Nec3 exd5 8. cxd5 a6 9. a4 Nh5 10. Qe2 Bd4 11. g4 Qh4+ 12. Kd1 Nf6 13. Kc2 Nfd7 14. Bf4 Qf6 15. Be3 Ne5 16. Nd2 Qh4 17. Bf4 h5 18. Bg3 Qe7 19. gxh5 Rxh5 20. h4 Ra7 21. a5 b5 22. axb6 Rb7 23. Bxe5 Bxe5 24. Nc4 Rxh4 25. Rxh4 Qxh4 26. Nxe5 dxe5 27. Qe3 Rxb6 28. b4 Nd7 29. bxc5 Rb4 30. c6 Nb6 31. Be2 Qh2 32. d6 Be6 33. d7+ Bxd7 34. cxd7+ Nxd7 35. Rxa6 Kf8 36. Rd6 Rb7 37. Qd2 Nc5 38. Qd5 Rc7 39. Rxg6 Ne6 40. Qd6+ Re7 41. Rg4 f6 42. Qb8+ Re8 43. Rg8+ Kxg8 44. Qxe8+ 1-0",
+            "rawPgn": "[Event \"FIDE World Cup 2025\"]\r\n[Site \"Goa, India\"]\r\n[Date \"2025.11.17\"]\r\n[Round \"50.4\"]\r\n[White \"Yakubboev, Nodirbek\"]\r\n[Black \"Donchenko, Alexander\"]\r\n[Result \"1-0\"]\r\n[TimeControl \": 90 minutes for the first 40 moves, followed by 30 minutes for the rest of the gamewith an increment of 30 seconds per move starting from move 1\"]\r\n[WhiteFideId \"14203987\"]\r\n[BlackFideId \"24603295\"]\r\n[WhiteElo \"2689\"]\r\n[BlackElo \"2641\"]\r\n\r\n1. d4 {[%clk 01:30:49]} {[%emt 00:00:10]} Nf6 {[%clk 01:30:53]} {[%emt\r\n00:00:07]} 2. c4 {[%clk 01:31:14]} {[%emt 00:00:05]} g6 {[%clk 01:31:17]}\r\n{[%emt 00:00:06]} 3. f3 {[%clk 01:31:08]} {[%emt 00:00:36]} c5 {[%clk\r\n01:30:53]} {[%emt 00:00:53]} 4. d5 {[%clk 01:31:29]} {[%emt 00:00:10]} d6\r\n{[%clk 01:31:14]} {[%emt 00:00:09]} 5. e4 {[%clk 01:31:52]} {[%emt 00:00:07]}\r\nBg7 {[%clk 01:31:37]} {[%emt 00:00:07]} 6. Ne2 {[%clk 01:31:32]} {[%emt\r\n00:00:51]} e6 {[%clk 01:28:18]} {[%emt 00:03:49]} 7. Nec3 {[%clk 01:22:42]}\r\n{[%emt 00:09:20]} exd5 {[%clk 01:22:56]} {[%emt 00:05:51]} 8. cxd5 {[%clk\r\n01:22:58]} {[%emt 00:00:15]} a6 {[%clk 01:23:01]} {[%emt 00:00:26]} 9. a4\r\n{[%clk 01:22:40]} {[%emt 00:00:47]} Nh5 {[%clk 01:18:42]} {[%emt 00:04:49]} 10.\r\nQe2 {[%clk 01:21:03]} {[%emt 00:02:06]} Bd4 {[%clk 01:09:16]} {[%emt 00:09:56]}\r\n11. g4 {[%clk 01:00:44]} {[%emt 00:20:49]} Qh4+ {[%clk 01:04:40]} {[%emt\r\n00:05:06]} 12. Kd1 {[%clk 01:01:03]} {[%emt 00:00:12]} Nf6 {[%clk 01:03:31]}\r\n{[%emt 00:01:40]} 13. Kc2 {[%clk 00:59:31]} {[%emt 00:02:02]} Nfd7 {[%clk\r\n00:57:17]} {[%emt 00:06:43]} 14. Bf4 {[%clk 00:37:31]} {[%emt 00:22:30]} Qf6\r\n{[%clk 00:49:30]} {[%emt 00:08:18]} 15. Be3 {[%clk 00:36:38]} {[%emt 00:01:22]}\r\nNe5 {[%clk 00:38:01]} {[%emt 00:11:59]} 16. Nd2 {[%clk 00:35:52]} {[%emt\r\n00:01:15]} Qh4 {[%clk 00:34:07]} {[%emt 00:04:25]} 17. Bf4 {[%clk 00:26:46]}\r\n{[%emt 00:09:36]} h5 {[%clk 00:26:24]} {[%emt 00:08:13]} 18. Bg3 {[%clk\r\n00:26:35]} {[%emt 00:00:40]} Qe7 {[%clk 00:26:49]} {[%emt 00:00:05]} 19. gxh5\r\n{[%clk 00:24:45]} {[%emt 00:02:20]} Rxh5 {[%clk 00:26:59]} {[%emt 00:00:20]} 20.\r\nh4 {[%clk 00:22:20]} {[%emt 00:02:54]} Ra7 {[%clk 00:18:30]} {[%emt 00:09:01]}\r\n21. a5 {[%emt 00:07:20]} b5 {[%clk 00:17:18]} 22. axb6 {[%clk 00:17:19]} {[%emt\r\n00:00:23]} Rb7 {[%clk 00:17:47]} {[%emt 00:00:01]} 23. Bxe5 {[%clk 00:09:53]}\r\n{[%emt 00:07:57]} Bxe5 {[%emt 00:01:03]} 24. Nc4 {[%clk 00:10:13]} Rxh4 {[%clk\r\n00:07:33]} {[%emt 00:10:20]} 25. Rxh4 {[%clk 00:10:35]} {[%emt 00:00:08]} Qxh4\r\n{[%clk 00:08:00]} {[%emt 00:00:02]} 26. Nxe5 {[%clk 00:10:51]} {[%emt\r\n00:00:15]} dxe5 {[%clk 00:08:28]} {[%emt 00:00:02]} 27. Qe3 {[%clk 00:11:15]}\r\n{[%emt 00:00:06]} Rxb6 {[%clk 00:07:18]} {[%emt 00:01:41]} 28. b4 {[%clk\r\n00:11:39]} {[%emt 00:00:06]} Nd7 {[%clk 00:02:02]} {[%emt 00:05:46]} 29. bxc5\r\n{[%clk 00:11:50]} {[%emt 00:00:18]} Rb4 {[%clk 00:02:31]} {[%emt 00:00:01]} 30.\r\nc6 {[%clk 00:09:15]} {[%emt 00:03:04]} Nb6 {[%clk 00:03:00]} {[%emt 00:00:01]}\r\n31. Be2 {[%clk 00:07:15]} {[%emt 00:02:30]} Qh2 {[%clk 00:03:04]} {[%emt\r\n00:00:26]} 32. d6 {[%clk 00:03:41]} {[%emt 00:04:05]} Be6 {[%clk 00:01:21]}\r\n{[%emt 00:02:14]} 33. d7+ {[%clk 00:03:05]} {[%emt 00:01:05]} Bxd7 {[%clk\r\n00:01:30]} {[%emt 00:00:21]} 34. cxd7+ {[%clk 00:03:11]} {[%emt 00:00:24]} Nxd7\r\n{[%clk 00:01:59]} {[%emt 00:00:02]} 35. Rxa6 {[%clk 00:03:05]} {[%emt\r\n00:00:35]} Kf8 {[%clk 00:01:50]} {[%emt 00:00:39]} 36. Rd6 {[%clk 00:03:01]}\r\n{[%emt 00:00:34]} Rb7 {[%clk 00:02:01]} {[%emt 00:00:21]} 37. Qd2 {[%clk\r\n00:02:07]} {[%emt 00:01:23]} Nc5 {[%clk 00:00:41]} {[%emt 00:01:50]} 38. Qd5\r\n{[%clk 00:01:52]} {[%emt 00:00:44]} Rc7 {[%clk 00:01:00]} {[%emt 00:00:12]} 39.\r\nRxg6 {[%clk 00:01:36]} {[%emt 00:00:46]} Ne6 {[%clk 00:00:38]} {[%emt\r\n00:00:52]} 40. Qd6+ {[%clk 00:01:04]} {[%emt 00:01:02]} Re7 {[%clk 00:01:07]}\r\n{[%emt 00:00:01]} 41. Rg4 {[%clk 00:28:02]} {[%emt 00:03:31]} f6 {[%clk\r\n00:29:21]} {[%emt 00:02:16]} 42. Qb8+ {[%clk 00:26:38]} {[%emt 00:01:54]} Re8\r\n{[%clk 00:29:31]} {[%emt 00:00:20]} 43. Rg8+ {[%clk 00:27:01]} {[%emt\r\n00:00:07]} Kxg8 {[%clk 00:29:56]} {[%emt 00:00:05]} 44. Qxe8+ {[%clk 00:27:25]}\r\n{[%emt 00:00:06]} 1-0",
+            "gameNumberInMatch": 1,
+            "classification": {
+              "type": "CLASSICAL",
+              "tier": null,
+              "timeControl": "90+30",
+              "gameNumber": 1
+            },
+            "timeControlLabel": "Classical (90+30)"
+          }
+        ]
+      },
+      "outcome": {
+        "winner": "Yakubboev, Nodirbek",
+        "advancingPlayer": "Yakubboev, Nodirbek",
+        "tiebreakType": "CLASSICAL",
+        "scores": {
+          "Donchenko, Alexander": 0,
+          "Yakubboev, Nodirbek": 1
+        },
+        "totalGames": 1,
+        "finalScore": "1-0"
+      },
+      "timeControlSummary": {
+        "classical": 1,
+        "rapidTier1": 0,
+        "rapidTier2": 0,
+        "blitzTier1": 0,
+        "blitzTier2": 0,
+        "armageddon": 0
+      }
+    }
+  ],
+  "generatedAt": "2025-11-17T20:16:17.236Z",
+  "sourceDirectory": "_SRC/cup2025/",
+  "summary": {
+    "totalMatches": 4,
+    "totalGames": 4,
+    "decidedInClassical": 1,
+    "decidedInRapid": 0,
+    "decidedInBlitz": 0,
+    "decidedInArmageddon": 0,
+    "timeControlDistribution": {
+      "classical": 4,
+      "rapidTier1": 0,
+      "rapidTier2": 0,
+      "blitzTier1": 0,
+      "blitzTier2": 0,
+      "armageddon": 0
+    }
+  },
+  "classifiedAt": "2025-11-17T20:16:17.277Z",
+  "openingStats": {
+    "totalGames": 4,
+    "gamesWithOpenings": 4,
+    "gamesUnknown": 0,
+    "coverageRate": "100.0",
+    "byEco": {
+      "D26": {
+        "eco": "D26",
+        "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+        "count": 1,
+        "games": [
+          {
+            "white": "Sindarov, Javokhir",
+            "black": "Martinez Alcantara, Jose Eduardo",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "C92": {
+        "eco": "C92",
+        "name": "Ruy Lopez: Closed, Kholmov Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Wei, Yi",
+            "black": "Erigaisi, Arjun",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "A13": {
+        "eco": "A13",
+        "name": "English Opening: Agincourt Defense",
+        "count": 1,
+        "games": [
+          {
+            "white": "Shankland, Sam",
+            "black": "Esipenko, Andrey",
+            "result": "1/2-1/2"
+          }
+        ]
+      },
+      "E60": {
+        "eco": "E60",
+        "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+        "count": 1,
+        "games": [
+          {
+            "white": "Yakubboev, Nodirbek",
+            "black": "Donchenko, Alexander",
+            "result": "1-0"
+          }
+        ]
+      }
+    },
+    "byName": {
+      "Queen's Gambit Accepted: Classical Defense, Normal Line": {
+        "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+        "eco": "D26",
+        "count": 1
+      },
+      "Ruy Lopez: Closed, Kholmov Variation": {
+        "name": "Ruy Lopez: Closed, Kholmov Variation",
+        "eco": "C92",
+        "count": 1
+      },
+      "English Opening: Agincourt Defense": {
+        "name": "English Opening: Agincourt Defense",
+        "eco": "A13",
+        "count": 1
+      },
+      "Indian Defense: Anti-Grünfeld, Alekhine Variation": {
+        "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+        "eco": "E60",
+        "count": 1
+      }
+    },
+    "byConfidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 2,
+      "none": 0
+    },
+    "mostPopular": [
+      {
+        "eco": "D26",
+        "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+        "count": 1
+      },
+      {
+        "eco": "C92",
+        "name": "Ruy Lopez: Closed, Kholmov Variation",
+        "count": 1
+      },
+      {
+        "eco": "A13",
+        "name": "English Opening: Agincourt Defense",
+        "count": 1
+      },
+      {
+        "eco": "E60",
+        "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+        "count": 1
+      }
+    ],
+    "byTimeControl": {
+      "CLASSICAL": {
+        "totalGames": 4,
+        "gamesWithOpenings": 4,
+        "gamesUnknown": 0,
+        "openings": {
+          "D26": {
+            "eco": "D26",
+            "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+            "count": 1
+          },
+          "C92": {
+            "eco": "C92",
+            "name": "Ruy Lopez: Closed, Kholmov Variation",
+            "count": 1
+          },
+          "A13": {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 1
+          },
+          "E60": {
+            "eco": "E60",
+            "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+            "count": 1
+          }
+        },
+        "mostPopular": [
+          {
+            "eco": "D26",
+            "name": "Queen's Gambit Accepted: Classical Defense, Normal Line",
+            "count": 1
+          },
+          {
+            "eco": "C92",
+            "name": "Ruy Lopez: Closed, Kholmov Variation",
+            "count": 1
+          },
+          {
+            "eco": "A13",
+            "name": "English Opening: Agincourt Defense",
+            "count": 1
+          },
+          {
+            "eco": "E60",
+            "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "enrichedAt": "2025-11-17T20:18:40.624Z",
+  "stage": "enriched"
+}
