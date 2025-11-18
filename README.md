@@ -2,8 +2,9 @@
 
 > Comprehensive statistics platform for the FIDE World Cup 2025 - Beautiful visualizations of games, openings, tactics, and player awards
 
-[![Live Site](https://img.shields.io/badge/Live-Coming%20Soon-blue)](https://fide-worldcup-stats.vercel.app)
+[![Live Site](https://img.shields.io/badge/Live-Production-brightgreen)](https://fide-worldcup-stats-aykqc3m10-pompom-projects.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-black)](https://vercel.com)
 
 ## Overview
 
@@ -49,22 +50,24 @@ Each match consists of:
 
 ## Project Status
 
-🚧 **In Development** - Migration plan complete, starting implementation
+✅ **Live in Production** - Deployed to Vercel with automated stats generation
 
-See [migration.md](./migration.md) for the comprehensive migration plan.
+🔴 **Live Site**: [https://fide-worldcup-stats-aykqc3m10-pompom-projects.vercel.app](https://fide-worldcup-stats-aykqc3m10-pompom-projects.vercel.app)
+
+See [DEPLOYMENT_PLAN.md](./DEPLOYMENT_PLAN.md) for deployment details.
 
 ### Implementation Stages
 
-- [ ] **Stage 1**: Foundation - PGN processing and project structure
-- [ ] **Stage 2**: Time control classification
-- [ ] **Stage 3**: Opening enrichment (generate ECO codes)
-- [ ] **Stage 4**: Core statistics generation
-- [ ] **Stage 5**: Frontend - Round view
-- [ ] **Stage 6**: Process all rounds
-- [ ] **Stage 7**: Tournament overview and aggregation
-- [ ] **Stage 8**: Stockfish analysis integration
-- [ ] **Stage 9**: Polish and deploy
-- [ ] **Stage 10**: Future enhancements
+- [x] **Stage 1**: Foundation - PGN processing and project structure ✅
+- [x] **Stage 2**: Time control classification ✅
+- [x] **Stage 3**: Opening enrichment (generate ECO codes) ✅
+- [x] **Stage 4**: Core statistics generation ✅
+- [x] **Stage 5**: Frontend - Round view ✅
+- [x] **Stage 6**: Process all rounds (1-6 complete) ✅
+- [x] **Stage 7**: Tournament overview and aggregation ✅
+- [x] **Stage 8**: Deployment and automation ✅
+- [ ] **Stage 9**: Stockfish analysis integration (optional, manual)
+- [ ] **Stage 10**: Future enhancements (Round 7-8 when available)
 
 ## Data Pipeline
 
@@ -100,6 +103,24 @@ Knockout format requires tracking:
 - Who advances to next round
 - Bracket progression
 
+## Deployment
+
+### Live Site
+**Production URL**: [https://fide-worldcup-stats-aykqc3m10-pompom-projects.vercel.app](https://fide-worldcup-stats-aykqc3m10-pompom-projects.vercel.app)
+
+### Automated Pipeline
+GitHub Actions automatically:
+1. Processes new PGN data when added to `_SRC/cup2025/`
+2. Generates statistics for all rounds
+3. Creates tournament overview
+4. Commits results back to repository
+5. Triggers Vercel deployment
+
+### Manual Workflows
+- **Generate Statistics**: Run `.github/workflows/generate-stats.yml` manually
+- **Generate Overview**: Run `.github/workflows/generate-overview.yml` manually
+- **Stockfish Analysis**: Run `.github/workflows/stockfish-analysis.yml` (slow, optional)
+
 ## Installation
 
 ```bash
@@ -109,6 +130,9 @@ cd fide-worldcup-stats
 
 # Install dependencies
 npm install
+
+# Install Python dependencies (for Stockfish analysis)
+pip install -r requirements.txt
 
 # Run development server
 npm run dev
@@ -210,4 +234,4 @@ For questions or feedback, please [open an issue](https://github.com/PomPomLtd/f
 
 ---
 
-**Status**: 🚧 In Development | **Target**: Production by end of 2025 World Cup
+**Status**: ✅ Live in Production | **Last Updated**: November 18, 2025 | **Rounds**: 6/8
