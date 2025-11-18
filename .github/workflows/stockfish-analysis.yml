@@ -111,13 +111,11 @@ jobs:
             echo "♟️  Total games: $game_count"
             echo ""
 
-            # Run Stockfish analysis
-            echo "🚀 Running Stockfish (depth ${{ github.event.inputs.depth }})..."
-            echo "⏱️  This may take a while (15-30 seconds per game)..."
+            # Run Stockfish analysis (stderr shows progress, stdout is JSON)
             echo ""
             cat "/tmp/round-${round}-all.pgn" | \
               python3 scripts/analyze-pgn.py --depth ${{ github.event.inputs.depth }} \
-              > "data/analysis/round-${round}-analysis.json" 2>&1 | tee -a /tmp/analysis.log || true
+              > "data/analysis/round-${round}-analysis.json" || true
             echo ""
 
             # Check output
