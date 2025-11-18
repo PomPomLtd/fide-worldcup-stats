@@ -2,6 +2,14 @@ import "./globals.css";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import type { Metadata, Viewport } from "next";
+import { Syne } from 'next/font/google';
+
+const syne = Syne({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  display: 'swap',
+  variable: '--font-syne',
+});
 
 export const metadata: Metadata = {
   title: {
@@ -70,8 +78,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
-      <body className="h-full font-syne antialiased bg-background text-foreground">
+    <html lang="en" className={`h-full ${syne.variable}`}>
+      <body className={`h-full antialiased bg-background text-foreground ${syne.className}`}>
         <div className="min-h-full flex flex-col">
           <Navigation />
           <main className="flex-grow pb-10">
