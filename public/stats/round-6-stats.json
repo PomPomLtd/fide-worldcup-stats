@@ -1,7 +1,7 @@
 {
   "roundNumber": 6,
   "roundName": "Round 6 (Quarterfinals)",
-  "generatedAt": "2025-11-18T14:03:39.159Z",
+  "generatedAt": "2025-11-18T21:49:49.266Z",
   "matchStats": {
     "totalMatches": 4,
     "decidedInClassical": 1,
@@ -1196,7 +1196,177 @@
     },
     "timeControlSpecialist": null
   },
-  "analysis": null,
+  "analysis": {
+    "games": {
+      "0": {
+        "white": "Sindarov, Javokhir",
+        "black": "Martinez Alcantara, Jose Eduardo",
+        "whiteAccuracy": 96,
+        "blackAccuracy": 96,
+        "whiteACPL": 10.1,
+        "blackACPL": 10,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 3,
+          "excellent": 33
+        },
+        "biggestBlunder": null
+      },
+      "1": {
+        "white": "Wei, Yi",
+        "black": "Erigaisi, Arjun",
+        "whiteAccuracy": 98.1,
+        "blackAccuracy": 98.6,
+        "whiteACPL": 4.6,
+        "blackACPL": 3.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      },
+      "2": {
+        "white": "Shankland, Sam",
+        "black": "Esipenko, Andrey",
+        "whiteAccuracy": 95.6,
+        "blackAccuracy": 96.4,
+        "whiteACPL": 11,
+        "blackACPL": 8.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 32
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 32
+        },
+        "biggestBlunder": null
+      },
+      "3": {
+        "white": "Yakubboev, Nodirbek",
+        "black": "Donchenko, Alexander",
+        "whiteAccuracy": 94.6,
+        "blackAccuracy": 92.4,
+        "whiteACPL": 16.1,
+        "blackACPL": 23.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 6,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 8,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      }
+    },
+    "summary": {
+      "accuracyKing": {
+        "player": "black",
+        "accuracy": 98.6,
+        "acpl": 3.5,
+        "white": "Wei, Yi",
+        "black": "Erigaisi, Arjun",
+        "gameIndex": 1,
+        "gameId": "Goa, India"
+      },
+      "biggestBlunder": null,
+      "comebackKing": null,
+      "luckyEscape": null,
+      "stockfishBuddy": {
+        "player": "white",
+        "engineMoves": 35,
+        "totalMoves": 39,
+        "percentage": 89.7,
+        "white": "Sindarov, Javokhir",
+        "black": "Martinez Alcantara, Jose Eduardo",
+        "gameIndex": 0,
+        "gameId": "Goa, India"
+      },
+      "inaccuracyKing": {
+        "player": "black",
+        "inaccuracies": 4,
+        "totalMoves": 43,
+        "white": "Yakubboev, Nodirbek",
+        "black": "Donchenko, Alexander",
+        "gameIndex": 3,
+        "gameId": "Goa, India"
+      },
+      "lowestACPL": {
+        "player": "black",
+        "acpl": 3.5,
+        "accuracy": 98.6,
+        "white": "Wei, Yi",
+        "black": "Erigaisi, Arjun",
+        "gameIndex": 1,
+        "gameId": "Goa, India"
+      },
+      "highestACPL": {
+        "player": "black",
+        "acpl": 23.8,
+        "accuracy": 92.4,
+        "white": "Yakubboev, Nodirbek",
+        "black": "Donchenko, Alexander",
+        "gameIndex": 3,
+        "gameId": "Goa, India"
+      },
+      "lowestCombinedACPL": {
+        "combinedACPL": 8.1,
+        "whiteACPL": 4.6,
+        "blackACPL": 3.5,
+        "white": "Wei, Yi",
+        "black": "Erigaisi, Arjun",
+        "gameIndex": 1,
+        "gameId": "Goa, India"
+      },
+      "highestCombinedACPL": {
+        "combinedACPL": 39.900000000000006,
+        "whiteACPL": 16.1,
+        "blackACPL": 23.8,
+        "white": "Yakubboev, Nodirbek",
+        "black": "Donchenko, Alexander",
+        "gameIndex": 3,
+        "gameId": "Goa, India"
+      },
+      "notSoSuperGM": null
+    },
+    "metadata": {
+      "gamesAnalyzed": 4,
+      "depth": 15,
+      "analyzedAt": null
+    }
+  },
   "dataInfo": {
     "totalMatches": 4,
     "totalGames": 4,

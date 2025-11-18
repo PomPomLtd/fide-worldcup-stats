@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Round of 16)",
-  "generatedAt": "2025-11-18T14:03:38.581Z",
+  "generatedAt": "2025-11-18T21:49:48.687Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 4,
@@ -3130,7 +3130,870 @@
       "variance": 114.20693641618496
     }
   },
-  "analysis": null,
+  "analysis": {
+    "games": {
+      "0": {
+        "white": "Sindarov, Javokhir",
+        "black": "Svane, Frederik",
+        "whiteAccuracy": 96,
+        "blackAccuracy": 94.4,
+        "whiteACPL": 11.4,
+        "blackACPL": 15.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 12,
+          "excellent": 56
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 11,
+          "excellent": 54
+        },
+        "biggestBlunder": null
+      },
+      "1": {
+        "white": "Erigaisi, Arjun",
+        "black": "Aronian, Levon",
+        "whiteAccuracy": 95.3,
+        "blackAccuracy": 96,
+        "whiteACPL": 11.8,
+        "blackACPL": 9.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 4,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 7,
+          "excellent": 33
+        },
+        "biggestBlunder": null
+      },
+      "2": {
+        "white": "Shankland, Sam",
+        "black": "Dubov, Daniil",
+        "whiteAccuracy": 95.6,
+        "blackAccuracy": 95.7,
+        "whiteACPL": 11.1,
+        "blackACPL": 10.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 8,
+          "excellent": 47
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 0,
+          "good": 8,
+          "excellent": 47
+        },
+        "biggestBlunder": null
+      },
+      "3": {
+        "white": "Donchenko, Alexander",
+        "black": "Le, Quang Liem",
+        "whiteAccuracy": 95.5,
+        "blackAccuracy": 96.7,
+        "whiteACPL": 11.3,
+        "blackACPL": 8.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 8,
+          "excellent": 22
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 26
+        },
+        "biggestBlunder": null
+      },
+      "4": {
+        "white": "Sargissian, Gabriel",
+        "black": "Yakubboev, Nodirbek",
+        "whiteAccuracy": 98.1,
+        "blackAccuracy": 98.8,
+        "whiteACPL": 4.7,
+        "blackACPL": 2.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 32
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 31
+        },
+        "biggestBlunder": null
+      },
+      "5": {
+        "white": "Esipenko, Andrey",
+        "black": "Grebnev, Aleksey",
+        "whiteAccuracy": 95.9,
+        "blackAccuracy": 95.9,
+        "whiteACPL": 10.1,
+        "blackACPL": 10.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 4,
+          "excellent": 26
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 24
+        },
+        "biggestBlunder": null
+      },
+      "6": {
+        "white": "Sevian, Samuel",
+        "black": "Wei, Yi",
+        "whiteAccuracy": 98.1,
+        "blackAccuracy": 98.1,
+        "whiteACPL": 4.5,
+        "blackACPL": 4.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 58
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 56
+        },
+        "biggestBlunder": null
+      },
+      "7": {
+        "white": "Martinez Alcantara, Jose Eduardo",
+        "black": "Harikrishna, Pentala",
+        "whiteAccuracy": 97.6,
+        "blackAccuracy": 97.3,
+        "whiteACPL": 5.9,
+        "blackACPL": 6.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 39
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 34
+        },
+        "biggestBlunder": null
+      },
+      "8": {
+        "white": "Svane, Frederik",
+        "black": "Sindarov, Javokhir",
+        "whiteAccuracy": 96.3,
+        "blackAccuracy": 96.8,
+        "whiteACPL": 9.3,
+        "blackACPL": 8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 40
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 39
+        },
+        "biggestBlunder": null
+      },
+      "9": {
+        "white": "Aronian, Levon",
+        "black": "Erigaisi, Arjun",
+        "whiteAccuracy": 92,
+        "blackAccuracy": 95.7,
+        "whiteACPL": 15.8,
+        "blackACPL": 10.6,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 9,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 31
+        },
+        "biggestBlunder": {
+          "moveNumber": 38,
+          "player": "white",
+          "cpLoss": 411,
+          "winLoss": 28.961273764970613,
+          "severity": 28.961273764970613,
+          "move": "Re1",
+          "evalBefore": -72,
+          "evalAfter": -483
+        }
+      },
+      "10": {
+        "white": "Dubov, Daniil",
+        "black": "Shankland, Sam",
+        "whiteAccuracy": 98,
+        "blackAccuracy": 98.5,
+        "whiteACPL": 4.9,
+        "blackACPL": 3.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 43
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 43
+        },
+        "biggestBlunder": null
+      },
+      "11": {
+        "white": "Le, Quang Liem",
+        "black": "Donchenko, Alexander",
+        "whiteAccuracy": 94.3,
+        "blackAccuracy": 93.2,
+        "whiteACPL": 15.3,
+        "blackACPL": 15.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 17,
+          "excellent": 55
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 6,
+          "good": 9,
+          "excellent": 58
+        },
+        "biggestBlunder": {
+          "moveNumber": 69,
+          "player": "black",
+          "cpLoss": 460,
+          "winLoss": 34.16251794044728,
+          "severity": 56.96599866569584,
+          "move": "Ke2",
+          "evalBefore": -467,
+          "evalAfter": -7
+        }
+      },
+      "12": {
+        "white": "Yakubboev, Nodirbek",
+        "black": "Sargissian, Gabriel",
+        "whiteAccuracy": 94.3,
+        "blackAccuracy": 91.6,
+        "whiteACPL": 14.7,
+        "blackACPL": 21.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 0,
+          "good": 6,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 0,
+          "good": 12,
+          "excellent": 21
+        },
+        "biggestBlunder": null
+      },
+      "13": {
+        "white": "Grebnev, Aleksey",
+        "black": "Esipenko, Andrey",
+        "whiteAccuracy": 97.9,
+        "blackAccuracy": 98.3,
+        "whiteACPL": 5.2,
+        "blackACPL": 4.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      },
+      "14": {
+        "white": "Wei, Yi",
+        "black": "Sevian, Samuel",
+        "whiteAccuracy": 94.7,
+        "blackAccuracy": 93.2,
+        "whiteACPL": 16.3,
+        "blackACPL": 19.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 11,
+          "excellent": 59
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 5,
+          "good": 12,
+          "excellent": 54
+        },
+        "biggestBlunder": null
+      },
+      "15": {
+        "white": "Harikrishna, Pentala",
+        "black": "Martinez Alcantara, Jose Eduardo",
+        "whiteAccuracy": 96.3,
+        "blackAccuracy": 96.8,
+        "whiteACPL": 9.1,
+        "blackACPL": 7.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 34
+        },
+        "biggestBlunder": null
+      },
+      "16": {
+        "white": "Shankland, Sam",
+        "black": "Dubov, Daniil",
+        "whiteAccuracy": 94.6,
+        "blackAccuracy": 92.8,
+        "whiteACPL": 14.9,
+        "blackACPL": 20.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 7,
+          "excellent": 36
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 8,
+          "excellent": 32
+        },
+        "biggestBlunder": null
+      },
+      "17": {
+        "white": "Le, Quang Liem",
+        "black": "Donchenko, Alexander",
+        "whiteAccuracy": 89.8,
+        "blackAccuracy": 93.3,
+        "whiteACPL": 30.1,
+        "blackACPL": 19.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 7,
+          "good": 5,
+          "excellent": 26
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 4,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      },
+      "18": {
+        "white": "Esipenko, Andrey",
+        "black": "Grebnev, Aleksey",
+        "whiteAccuracy": 96.9,
+        "blackAccuracy": 94.4,
+        "whiteACPL": 8.9,
+        "blackACPL": 17.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 32
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 27
+        },
+        "biggestBlunder": null
+      },
+      "19": {
+        "white": "Martinez Alcantara, Jose Eduardo",
+        "black": "Harikrishna, Pentala",
+        "whiteAccuracy": 95,
+        "blackAccuracy": 94.7,
+        "whiteACPL": 12.6,
+        "blackACPL": 13.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 7,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 3,
+          "excellent": 35
+        },
+        "biggestBlunder": null
+      },
+      "20": {
+        "white": "Dubov, Daniil",
+        "black": "Shankland, Sam",
+        "whiteAccuracy": 95.5,
+        "blackAccuracy": 97.6,
+        "whiteACPL": 9.2,
+        "blackACPL": 6.4,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 67
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 68
+        },
+        "biggestBlunder": {
+          "moveNumber": 70,
+          "player": "white",
+          "cpLoss": 370,
+          "winLoss": 29.549610340582458,
+          "severity": 29.549610340582458,
+          "move": "Kd3",
+          "evalBefore": -2,
+          "evalAfter": -372
+        }
+      },
+      "21": {
+        "white": "Donchenko, Alexander",
+        "black": "Le, Quang Liem",
+        "whiteAccuracy": 86.9,
+        "blackAccuracy": 89.4,
+        "whiteACPL": 34.7,
+        "blackACPL": 30.1,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 2,
+          "inaccuracies": 4,
+          "good": 12,
+          "excellent": 19
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 3,
+          "good": 12,
+          "excellent": 21
+        },
+        "biggestBlunder": {
+          "moveNumber": 23,
+          "player": "white",
+          "cpLoss": 272,
+          "winLoss": 24.437610748099743,
+          "severity": 24.437610748099743,
+          "move": "Bh7",
+          "evalBefore": 102,
+          "evalAfter": -170
+        }
+      },
+      "22": {
+        "white": "Grebnev, Aleksey",
+        "black": "Esipenko, Andrey",
+        "whiteAccuracy": 95.3,
+        "blackAccuracy": 95.2,
+        "whiteACPL": 10.7,
+        "blackACPL": 10.9,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 7,
+          "good": 15,
+          "excellent": 122
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 2,
+          "inaccuracies": 4,
+          "good": 15,
+          "excellent": 122
+        },
+        "biggestBlunder": {
+          "moveNumber": 140,
+          "player": "white",
+          "cpLoss": 358,
+          "winLoss": 28.669699317788435,
+          "severity": 40.495950286376164,
+          "move": "Kd5",
+          "evalBefore": 365,
+          "evalAfter": 7
+        }
+      },
+      "23": {
+        "white": "Harikrishna, Pentala",
+        "black": "Martinez Alcantara, Jose Eduardo",
+        "whiteAccuracy": 95.4,
+        "blackAccuracy": 96.2,
+        "whiteACPL": 11.4,
+        "blackACPL": 9.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 24
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 23
+        },
+        "biggestBlunder": null
+      },
+      "24": {
+        "white": "Le, Quang Liem",
+        "black": "Donchenko, Alexander",
+        "whiteAccuracy": 94.7,
+        "blackAccuracy": 94.8,
+        "whiteACPL": 17.3,
+        "blackACPL": 16.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 17,
+          "excellent": 66
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 6,
+          "good": 10,
+          "excellent": 72
+        },
+        "biggestBlunder": null
+      },
+      "25": {
+        "white": "Harikrishna, Pentala",
+        "black": "Martinez Alcantara, Jose Eduardo",
+        "whiteAccuracy": 92.9,
+        "blackAccuracy": 95.2,
+        "whiteACPL": 20.2,
+        "blackACPL": 12.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 5,
+          "good": 13,
+          "excellent": 40
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 4,
+          "excellent": 52
+        },
+        "biggestBlunder": null
+      },
+      "26": {
+        "white": "Donchenko, Alexander",
+        "black": "Le, Quang Liem",
+        "whiteAccuracy": 92.1,
+        "blackAccuracy": 94.9,
+        "whiteACPL": 21.3,
+        "blackACPL": 15,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 9,
+          "excellent": 34
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 8,
+          "excellent": 37
+        },
+        "biggestBlunder": {
+          "moveNumber": 30,
+          "player": "white",
+          "cpLoss": 289,
+          "winLoss": 22.21302624421451,
+          "severity": 22.21302624421451,
+          "move": "Rh4",
+          "evalBefore": -81,
+          "evalAfter": -370
+        }
+      },
+      "27": {
+        "white": "Martinez Alcantara, Jose Eduardo",
+        "black": "Harikrishna, Pentala",
+        "whiteAccuracy": 90.1,
+        "blackAccuracy": 85.2,
+        "whiteACPL": 30.4,
+        "blackACPL": 41.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 11,
+          "excellent": 16
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 2,
+          "inaccuracies": 5,
+          "good": 4,
+          "excellent": 17
+        },
+        "biggestBlunder": {
+          "moveNumber": 23,
+          "player": "black",
+          "cpLoss": 331,
+          "winLoss": 23.804862942541348,
+          "severity": 23.804862942541348,
+          "move": "Qc2",
+          "evalBefore": 103,
+          "evalAfter": 434
+        }
+      },
+      "28": {
+        "white": "Le, Quang Liem",
+        "black": "Donchenko, Alexander",
+        "whiteAccuracy": 96.3,
+        "blackAccuracy": 96.7,
+        "whiteACPL": 9.2,
+        "blackACPL": 8.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 29
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 27
+        },
+        "biggestBlunder": null
+      },
+      "29": {
+        "white": "Donchenko, Alexander",
+        "black": "Le, Quang Liem",
+        "whiteAccuracy": 93.6,
+        "blackAccuracy": 91.7,
+        "whiteACPL": 21.6,
+        "blackACPL": 23,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 1,
+          "good": 7,
+          "excellent": 38
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 2,
+          "inaccuracies": 1,
+          "good": 4,
+          "excellent": 39
+        },
+        "biggestBlunder": {
+          "moveNumber": 30,
+          "player": "black",
+          "cpLoss": 330,
+          "winLoss": 20.465836566115613,
+          "severity": 20.465836566115613,
+          "move": "Qxd5",
+          "evalBefore": 187,
+          "evalAfter": 517
+        }
+      }
+    },
+    "summary": {
+      "accuracyKing": {
+        "player": "black",
+        "accuracy": 98.8,
+        "acpl": 2.9,
+        "white": "Sargissian, Gabriel",
+        "black": "Yakubboev, Nodirbek",
+        "gameIndex": 4,
+        "gameId": "Goa, India"
+      },
+      "biggestBlunder": {
+        "moveNumber": 69,
+        "player": "black",
+        "cpLoss": 460,
+        "winLoss": 34.16251794044728,
+        "severity": 56.96599866569584,
+        "move": "Ke2",
+        "evalBefore": -467,
+        "evalAfter": -7,
+        "white": "Le, Quang Liem",
+        "black": "Donchenko, Alexander",
+        "gameIndex": 11,
+        "gameId": "Goa, India"
+      },
+      "comebackKing": null,
+      "luckyEscape": {
+        "player": "white",
+        "escapeAmount": 460,
+        "evalBefore": -467,
+        "evalAfter": -7,
+        "moveNumber": 69,
+        "white": "Le, Quang Liem",
+        "black": "Donchenko, Alexander",
+        "gameIndex": 11,
+        "gameId": "Goa, India"
+      },
+      "stockfishBuddy": {
+        "player": "white",
+        "engineMoves": 122,
+        "totalMoves": 145,
+        "percentage": 84.1,
+        "white": "Grebnev, Aleksey",
+        "black": "Esipenko, Andrey",
+        "gameIndex": 22,
+        "gameId": "Goa, India"
+      },
+      "inaccuracyKing": {
+        "player": "white",
+        "inaccuracies": 7,
+        "totalMoves": 39,
+        "white": "Le, Quang Liem",
+        "black": "Donchenko, Alexander",
+        "gameIndex": 17,
+        "gameId": "Goa, India"
+      },
+      "lowestACPL": {
+        "player": "black",
+        "acpl": 2.9,
+        "accuracy": 98.8,
+        "white": "Sargissian, Gabriel",
+        "black": "Yakubboev, Nodirbek",
+        "gameIndex": 4,
+        "gameId": "Goa, India"
+      },
+      "highestACPL": {
+        "player": "black",
+        "acpl": 41.6,
+        "accuracy": 85.2,
+        "white": "Martinez Alcantara, Jose Eduardo",
+        "black": "Harikrishna, Pentala",
+        "gameIndex": 27,
+        "gameId": "Goa, India"
+      },
+      "lowestCombinedACPL": {
+        "combinedACPL": 7.6,
+        "whiteACPL": 4.7,
+        "blackACPL": 2.9,
+        "white": "Sargissian, Gabriel",
+        "black": "Yakubboev, Nodirbek",
+        "gameIndex": 4,
+        "gameId": "Goa, India"
+      },
+      "highestCombinedACPL": {
+        "combinedACPL": 72,
+        "whiteACPL": 30.4,
+        "blackACPL": 41.6,
+        "white": "Martinez Alcantara, Jose Eduardo",
+        "black": "Harikrishna, Pentala",
+        "gameIndex": 27,
+        "gameId": "Goa, India"
+      },
+      "notSoSuperGM": null
+    },
+    "metadata": {
+      "gamesAnalyzed": 30,
+      "depth": 15,
+      "analyzedAt": null
+    }
+  },
   "dataInfo": {
     "totalMatches": 8,
     "totalGames": 30,

@@ -5361,7 +5361,7 @@
       }
     }
   ],
-  "generatedAt": "2025-11-18T14:01:46.040Z",
+  "generatedAt": "2025-11-18T21:47:56.337Z",
   "sourceDirectory": "_SRC/cup2025/",
   "summary": {
     "totalMatches": 4,
@@ -5379,7 +5379,7 @@
       "armageddon": 0
     }
   },
-  "classifiedAt": "2025-11-18T14:01:46.454Z",
+  "classifiedAt": "2025-11-18T21:47:56.745Z",
   "openingStats": {
     "totalGames": 4,
     "gamesWithOpenings": 4,
@@ -5537,6 +5537,6 @@
       }
     }
   },
-  "enrichedAt": "2025-11-18T14:01:47.664Z",
+  "enrichedAt": "2025-11-18T21:47:57.943Z",
   "stage": "enriched"
 }

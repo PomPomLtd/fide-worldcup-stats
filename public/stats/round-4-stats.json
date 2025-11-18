@@ -1,7 +1,7 @@
 {
   "roundNumber": 4,
   "roundName": "Round 4 (Round of 32)",
-  "generatedAt": "2025-11-18T14:03:33.556Z",
+  "generatedAt": "2025-11-18T21:49:43.683Z",
   "matchStats": {
     "totalMatches": 16,
     "decidedInClassical": 5,
@@ -4365,7 +4365,1739 @@
       "variance": 110.46079545454545
     }
   },
-  "analysis": null,
+  "analysis": {
+    "games": {
+      "0": {
+        "white": "Svane, Frederik",
+        "black": "Sargsyan, Shant",
+        "whiteAccuracy": 96.9,
+        "blackAccuracy": 97.1,
+        "whiteACPL": 7.7,
+        "blackACPL": 7.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 37
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 1,
+          "excellent": 38
+        },
+        "biggestBlunder": null
+      },
+      "1": {
+        "white": "Leko, Peter",
+        "black": "Erigaisi, Arjun",
+        "whiteAccuracy": 98.1,
+        "blackAccuracy": 97.4,
+        "whiteACPL": 4.8,
+        "blackACPL": 6.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 20
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 18
+        },
+        "biggestBlunder": null
+      },
+      "2": {
+        "white": "Praggnanandhaa, R",
+        "black": "Dubov, Daniil",
+        "whiteAccuracy": 92.4,
+        "blackAccuracy": 93.2,
+        "whiteACPL": 19.4,
+        "blackACPL": 17.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 7,
+          "good": 6,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 9,
+          "excellent": 28
+        },
+        "biggestBlunder": null
+      },
+      "3": {
+        "white": "Bluebaum, Matthias",
+        "black": "Donchenko, Alexander",
+        "whiteAccuracy": 95.1,
+        "blackAccuracy": 95.8,
+        "whiteACPL": 12.1,
+        "blackACPL": 10.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 26
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 28
+        },
+        "biggestBlunder": null
+      },
+      "4": {
+        "white": "Pranav, V",
+        "black": "Yakubboev, Nodirbek",
+        "whiteAccuracy": 95.9,
+        "blackAccuracy": 95.9,
+        "whiteACPL": 10.1,
+        "blackACPL": 10.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 15,
+          "excellent": 66
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 14,
+          "excellent": 67
+        },
+        "biggestBlunder": null
+      },
+      "5": {
+        "white": "Esipenko, Andrey",
+        "black": "Keymer, Vincent",
+        "whiteAccuracy": 97.4,
+        "blackAccuracy": 96.8,
+        "whiteACPL": 6.5,
+        "blackACPL": 7.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 27
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 26
+        },
+        "biggestBlunder": null
+      },
+      "6": {
+        "white": "Wei, Yi",
+        "black": "Maghsoodloo, Parham",
+        "whiteAccuracy": 97.6,
+        "blackAccuracy": 98,
+        "whiteACPL": 5.9,
+        "blackACPL": 4.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 27
+        },
+        "biggestBlunder": null
+      },
+      "7": {
+        "white": "Sarana, Alexey",
+        "black": "Martinez Alcantara, Jose Eduardo",
+        "whiteAccuracy": 93.6,
+        "blackAccuracy": 95.6,
+        "whiteACPL": 18.2,
+        "blackACPL": 12.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 8,
+          "excellent": 29
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 5,
+          "excellent": 32
+        },
+        "biggestBlunder": null
+      },
+      "8": {
+        "white": "Grandelius, Nils",
+        "black": "Harikrishna, Pentala",
+        "whiteAccuracy": 97.3,
+        "blackAccuracy": 97.6,
+        "whiteACPL": 6.6,
+        "blackACPL": 5.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      },
+      "9": {
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteAccuracy": 96.2,
+        "blackAccuracy": 96.9,
+        "whiteACPL": 9.4,
+        "blackACPL": 7.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 6,
+          "excellent": 24
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 27
+        },
+        "biggestBlunder": null
+      },
+      "10": {
+        "white": "Vachier-Lagrave, Maxime",
+        "black": "Grebnev, Aleksey",
+        "whiteAccuracy": 97.2,
+        "blackAccuracy": 97.3,
+        "whiteACPL": 7,
+        "blackACPL": 6.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 26
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 24
+        },
+        "biggestBlunder": null
+      },
+      "11": {
+        "white": "Liang, Awonder",
+        "black": "Sargissian, Gabriel",
+        "whiteAccuracy": 94.7,
+        "blackAccuracy": 94.4,
+        "whiteACPL": 13.6,
+        "blackACPL": 14.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 7,
+          "good": 14,
+          "excellent": 80
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 7,
+          "good": 17,
+          "excellent": 76
+        },
+        "biggestBlunder": null
+      },
+      "12": {
+        "white": "Le, Quang Liem",
+        "black": "Karthik, Venkataraman",
+        "whiteAccuracy": 98.1,
+        "blackAccuracy": 98.2,
+        "whiteACPL": 4.6,
+        "blackACPL": 4.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 34
+        },
+        "biggestBlunder": null
+      },
+      "13": {
+        "white": "Shankland, Sam",
+        "black": "Rapport, Richard",
+        "whiteAccuracy": 96.9,
+        "blackAccuracy": 97.7,
+        "whiteACPL": 7.6,
+        "blackACPL": 5.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 36
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 39
+        },
+        "biggestBlunder": null
+      },
+      "14": {
+        "white": "Aronian, Levon",
+        "black": "Wojtaszek, Radoslaw",
+        "whiteAccuracy": 96,
+        "blackAccuracy": 94.1,
+        "whiteACPL": 10.3,
+        "blackACPL": 15.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 33
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 8,
+          "excellent": 26
+        },
+        "biggestBlunder": null
+      },
+      "15": {
+        "white": "Yu, Yangyi",
+        "black": "Sindarov, Javokhir",
+        "whiteAccuracy": 97.8,
+        "blackAccuracy": 97.8,
+        "whiteACPL": 5.5,
+        "blackACPL": 5.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 68
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 4,
+          "excellent": 68
+        },
+        "biggestBlunder": null
+      },
+      "16": {
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteAccuracy": 94.3,
+        "blackAccuracy": 91.9,
+        "whiteACPL": 15.8,
+        "blackACPL": 20.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 2,
+          "good": 10,
+          "excellent": 55
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 2,
+          "inaccuracies": 5,
+          "good": 8,
+          "excellent": 52
+        },
+        "biggestBlunder": {
+          "moveNumber": 44,
+          "player": "black",
+          "cpLoss": 281,
+          "winLoss": 23.697626962959006,
+          "severity": 23.697626962959006,
+          "move": "Rh2",
+          "evalBefore": 4,
+          "evalAfter": 285
+        }
+      },
+      "17": {
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteAccuracy": 89.4,
+        "blackAccuracy": 92,
+        "whiteACPL": 33.2,
+        "blackACPL": 27.8,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 15,
+          "excellent": 22
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 10,
+          "excellent": 27
+        },
+        "biggestBlunder": {
+          "moveNumber": 21,
+          "player": "white",
+          "cpLoss": 283,
+          "winLoss": 22.39714499805632,
+          "severity": 22.39714499805632,
+          "move": "g5",
+          "evalBefore": -62,
+          "evalAfter": -345
+        }
+      },
+      "18": {
+        "white": "Sargsyan, Shant",
+        "black": "Svane, Frederik",
+        "whiteAccuracy": 96.4,
+        "blackAccuracy": 96.8,
+        "whiteACPL": 9,
+        "blackACPL": 8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 28
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 2,
+          "excellent": 28
+        },
+        "biggestBlunder": null
+      },
+      "19": {
+        "white": "Erigaisi, Arjun",
+        "black": "Leko, Peter",
+        "whiteAccuracy": 96.3,
+        "blackAccuracy": 96.2,
+        "whiteACPL": 9.2,
+        "blackACPL": 9.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 33
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 29
+        },
+        "biggestBlunder": null
+      },
+      "20": {
+        "white": "Dubov, Daniil",
+        "black": "Praggnanandhaa, R",
+        "whiteAccuracy": 94.8,
+        "blackAccuracy": 95.3,
+        "whiteACPL": 13,
+        "blackACPL": 11.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 2,
+          "excellent": 25
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 4,
+          "excellent": 24
+        },
+        "biggestBlunder": null
+      },
+      "21": {
+        "white": "Donchenko, Alexander",
+        "black": "Bluebaum, Matthias",
+        "whiteAccuracy": 95.7,
+        "blackAccuracy": 93.6,
+        "whiteACPL": 10.5,
+        "blackACPL": 19.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 39
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 34
+        },
+        "biggestBlunder": null
+      },
+      "22": {
+        "white": "Yakubboev, Nodirbek",
+        "black": "Pranav, V",
+        "whiteAccuracy": 95.3,
+        "blackAccuracy": 91.9,
+        "whiteACPL": 12.9,
+        "blackACPL": 19.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 4,
+          "excellent": 29
+        },
+        "biggestBlunder": {
+          "moveNumber": 30,
+          "player": "black",
+          "cpLoss": 279,
+          "winLoss": 21.1655105300795,
+          "severity": 21.1655105300795,
+          "move": "Qxb4",
+          "evalBefore": 96,
+          "evalAfter": 375
+        }
+      },
+      "23": {
+        "white": "Keymer, Vincent",
+        "black": "Esipenko, Andrey",
+        "whiteAccuracy": 96.4,
+        "blackAccuracy": 96.8,
+        "whiteACPL": 8.9,
+        "blackACPL": 7.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 53
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 2,
+          "excellent": 53
+        },
+        "biggestBlunder": null
+      },
+      "24": {
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "whiteAccuracy": 95.5,
+        "blackAccuracy": 94.7,
+        "whiteACPL": 11.4,
+        "blackACPL": 13.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 10,
+          "excellent": 48
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 8,
+          "excellent": 47
+        },
+        "biggestBlunder": null
+      },
+      "25": {
+        "white": "Martinez Alcantara, Jose Eduardo",
+        "black": "Sarana, Alexey",
+        "whiteAccuracy": 92.8,
+        "blackAccuracy": 88.6,
+        "whiteACPL": 21.4,
+        "blackACPL": 33.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 4,
+          "excellent": 14
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 5,
+          "excellent": 11
+        },
+        "biggestBlunder": null
+      },
+      "26": {
+        "white": "Harikrishna, Pentala",
+        "black": "Grandelius, Nils",
+        "whiteAccuracy": 96.5,
+        "blackAccuracy": 96.9,
+        "whiteACPL": 8.9,
+        "blackACPL": 7.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 33
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 34
+        },
+        "biggestBlunder": null
+      },
+      "27": {
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteAccuracy": 97.8,
+        "blackAccuracy": 98,
+        "whiteACPL": 5.4,
+        "blackACPL": 4.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 29
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      },
+      "28": {
+        "white": "Grebnev, Aleksey",
+        "black": "Vachier-Lagrave, Maxime",
+        "whiteAccuracy": 95.6,
+        "blackAccuracy": 96.4,
+        "whiteACPL": 10.9,
+        "blackACPL": 8.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 25
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 27
+        },
+        "biggestBlunder": null
+      },
+      "29": {
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "whiteAccuracy": 98.5,
+        "blackAccuracy": 98.8,
+        "whiteACPL": 3.6,
+        "blackACPL": 3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      },
+      "30": {
+        "white": "Karthik, Venkataraman",
+        "black": "Le, Quang Liem",
+        "whiteAccuracy": 92.4,
+        "blackAccuracy": 94.1,
+        "whiteACPL": 23.2,
+        "blackACPL": 17.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 7,
+          "good": 16,
+          "excellent": 45
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 14,
+          "excellent": 51
+        },
+        "biggestBlunder": null
+      },
+      "31": {
+        "white": "Rapport, Richard",
+        "black": "Shankland, Sam",
+        "whiteAccuracy": 97.4,
+        "blackAccuracy": 97.9,
+        "whiteACPL": 6.4,
+        "blackACPL": 5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 5,
+          "excellent": 41
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 42
+        },
+        "biggestBlunder": null
+      },
+      "32": {
+        "white": "Wojtaszek, Radoslaw",
+        "black": "Aronian, Levon",
+        "whiteAccuracy": 90.6,
+        "blackAccuracy": 91.2,
+        "whiteACPL": 24.1,
+        "blackACPL": 21.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 4,
+          "good": 4,
+          "excellent": 25
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 2,
+          "good": 6,
+          "excellent": 24
+        },
+        "biggestBlunder": null
+      },
+      "33": {
+        "white": "Sindarov, Javokhir",
+        "black": "Yu, Yangyi",
+        "whiteAccuracy": 96.7,
+        "blackAccuracy": 97,
+        "whiteACPL": 8.1,
+        "blackACPL": 7.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 2,
+          "excellent": 57
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 6,
+          "excellent": 54
+        },
+        "biggestBlunder": null
+      },
+      "34": {
+        "white": "Svane, Frederik",
+        "black": "Sargsyan, Shant",
+        "whiteAccuracy": 96.5,
+        "blackAccuracy": 94.5,
+        "whiteACPL": 11.1,
+        "blackACPL": 17.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 8,
+          "excellent": 48
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 8,
+          "excellent": 44
+        },
+        "biggestBlunder": null
+      },
+      "35": {
+        "white": "Leko, Peter",
+        "black": "Erigaisi, Arjun",
+        "whiteAccuracy": 91.9,
+        "blackAccuracy": 95.3,
+        "whiteACPL": 23.2,
+        "blackACPL": 13.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 6,
+          "good": 4,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 33
+        },
+        "biggestBlunder": null
+      },
+      "36": {
+        "white": "Dubov, Daniil",
+        "black": "Praggnanandhaa, R",
+        "whiteAccuracy": 97,
+        "blackAccuracy": 97.6,
+        "whiteACPL": 7.5,
+        "blackACPL": 5.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 11
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 11
+        },
+        "biggestBlunder": null
+      },
+      "37": {
+        "white": "Keymer, Vincent",
+        "black": "Esipenko, Andrey",
+        "whiteAccuracy": 95.1,
+        "blackAccuracy": 95.7,
+        "whiteACPL": 12.3,
+        "blackACPL": 10.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 4,
+          "excellent": 32
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 7,
+          "excellent": 31
+        },
+        "biggestBlunder": null
+      },
+      "38": {
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "whiteAccuracy": 97.2,
+        "blackAccuracy": 97.5,
+        "whiteACPL": 6.8,
+        "blackACPL": 6.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 4,
+          "excellent": 98
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 97
+        },
+        "biggestBlunder": null
+      },
+      "39": {
+        "white": "Grandelius, Nils",
+        "black": "Harikrishna, Pentala",
+        "whiteAccuracy": 94.5,
+        "blackAccuracy": 94.6,
+        "whiteACPL": 14.1,
+        "blackACPL": 14.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 30
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 4,
+          "excellent": 29
+        },
+        "biggestBlunder": null
+      },
+      "40": {
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteAccuracy": 95.1,
+        "blackAccuracy": 94.8,
+        "whiteACPL": 13.1,
+        "blackACPL": 13.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 13,
+          "excellent": 58
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 10,
+          "excellent": 58
+        },
+        "biggestBlunder": null
+      },
+      "41": {
+        "white": "Grebnev, Aleksey",
+        "black": "Vachier-Lagrave, Maxime",
+        "whiteAccuracy": 94.9,
+        "blackAccuracy": 94.1,
+        "whiteACPL": 14,
+        "blackACPL": 16.7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 2,
+          "good": 9,
+          "excellent": 57
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 9,
+          "excellent": 55
+        },
+        "biggestBlunder": null
+      },
+      "42": {
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "whiteAccuracy": 93.3,
+        "blackAccuracy": 90.3,
+        "whiteACPL": 17.8,
+        "blackACPL": 26.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 5,
+          "good": 8,
+          "excellent": 56
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 2,
+          "inaccuracies": 8,
+          "good": 10,
+          "excellent": 49
+        },
+        "biggestBlunder": {
+          "moveNumber": 62,
+          "player": "black",
+          "cpLoss": 233,
+          "winLoss": 20.130287339729065,
+          "severity": 20.130287339729065,
+          "move": "Rh1",
+          "evalBefore": 6,
+          "evalAfter": 239
+        }
+      },
+      "43": {
+        "white": "Rapport, Richard",
+        "black": "Shankland, Sam",
+        "whiteAccuracy": 93.3,
+        "blackAccuracy": 95.5,
+        "whiteACPL": 17.6,
+        "blackACPL": 11.5,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 9,
+          "excellent": 33
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 38
+        },
+        "biggestBlunder": null
+      },
+      "44": {
+        "white": "Yu, Yangyi",
+        "black": "Sindarov, Javokhir",
+        "whiteAccuracy": 96.3,
+        "blackAccuracy": 97.1,
+        "whiteACPL": 9,
+        "blackACPL": 7,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 6,
+          "excellent": 27
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 28
+        },
+        "biggestBlunder": null
+      },
+      "45": {
+        "white": "Sargsyan, Shant",
+        "black": "Svane, Frederik",
+        "whiteAccuracy": 94.3,
+        "blackAccuracy": 95.4,
+        "whiteACPL": 15.6,
+        "blackACPL": 8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 5,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 37
+        },
+        "biggestBlunder": {
+          "moveNumber": 34,
+          "player": "black",
+          "cpLoss": 351,
+          "winLoss": 26.122740876953465,
+          "severity": 40.49024835927787,
+          "move": "a1=Q",
+          "evalBefore": -420,
+          "evalAfter": -69
+        }
+      },
+      "46": {
+        "white": "Erigaisi, Arjun",
+        "black": "Leko, Peter",
+        "whiteAccuracy": 94.6,
+        "blackAccuracy": 93.3,
+        "whiteACPL": 12.9,
+        "blackACPL": 18.4,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 3,
+          "excellent": 49
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 6,
+          "good": 6,
+          "excellent": 45
+        },
+        "biggestBlunder": null
+      },
+      "47": {
+        "white": "Praggnanandhaa, R",
+        "black": "Dubov, Daniil",
+        "whiteAccuracy": 90.9,
+        "blackAccuracy": 93.4,
+        "whiteACPL": 28.2,
+        "blackACPL": 18.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 5,
+          "good": 17,
+          "excellent": 31
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 9,
+          "excellent": 39
+        },
+        "biggestBlunder": null
+      },
+      "48": {
+        "white": "Esipenko, Andrey",
+        "black": "Keymer, Vincent",
+        "whiteAccuracy": 97,
+        "blackAccuracy": 97.6,
+        "whiteACPL": 7.4,
+        "blackACPL": 5.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 2,
+          "excellent": 22
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 1,
+          "excellent": 22
+        },
+        "biggestBlunder": null
+      },
+      "49": {
+        "white": "Wei, Yi",
+        "black": "Maghsoodloo, Parham",
+        "whiteAccuracy": 97.9,
+        "blackAccuracy": 98.1,
+        "whiteACPL": 5.2,
+        "blackACPL": 4.6,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 2,
+          "excellent": 56
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 3,
+          "excellent": 56
+        },
+        "biggestBlunder": null
+      },
+      "50": {
+        "white": "Harikrishna, Pentala",
+        "black": "Grandelius, Nils",
+        "whiteAccuracy": 94.6,
+        "blackAccuracy": 90.8,
+        "whiteACPL": 14.6,
+        "blackACPL": 23.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 10,
+          "excellent": 23
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 7,
+          "excellent": 23
+        },
+        "biggestBlunder": null
+      },
+      "51": {
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteAccuracy": 92.8,
+        "blackAccuracy": 93.5,
+        "whiteACPL": 18,
+        "blackACPL": 16.2,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 2,
+          "good": 5,
+          "excellent": 32
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 10,
+          "excellent": 27
+        },
+        "biggestBlunder": null
+      },
+      "52": {
+        "white": "Vachier-Lagrave, Maxime",
+        "black": "Grebnev, Aleksey",
+        "whiteAccuracy": 96.5,
+        "blackAccuracy": 95.2,
+        "whiteACPL": 8.7,
+        "blackACPL": 11.9,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 2,
+          "excellent": 18
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 3,
+          "excellent": 16
+        },
+        "biggestBlunder": null
+      },
+      "53": {
+        "white": "Liang, Awonder",
+        "black": "Sargissian, Gabriel",
+        "whiteAccuracy": 94,
+        "blackAccuracy": 94.4,
+        "whiteACPL": 15.2,
+        "blackACPL": 14.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 16,
+          "excellent": 59
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 6,
+          "good": 12,
+          "excellent": 62
+        },
+        "biggestBlunder": null
+      },
+      "54": {
+        "white": "Shankland, Sam",
+        "black": "Rapport, Richard",
+        "whiteAccuracy": 97.8,
+        "blackAccuracy": 92.4,
+        "whiteACPL": 6.8,
+        "blackACPL": 25,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 25
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 2,
+          "good": 6,
+          "excellent": 16
+        },
+        "biggestBlunder": null
+      },
+      "55": {
+        "white": "Sindarov, Javokhir",
+        "black": "Yu, Yangyi",
+        "whiteAccuracy": 95.1,
+        "blackAccuracy": 94.3,
+        "whiteACPL": 12.5,
+        "blackACPL": 14.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 7,
+          "good": 9,
+          "excellent": 107
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 3,
+          "inaccuracies": 8,
+          "good": 10,
+          "excellent": 104
+        },
+        "biggestBlunder": null
+      },
+      "56": {
+        "white": "Esipenko, Andrey",
+        "black": "Keymer, Vincent",
+        "whiteAccuracy": 94.7,
+        "blackAccuracy": 93,
+        "whiteACPL": 14,
+        "blackACPL": 19,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 10,
+          "excellent": 59
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 3,
+          "inaccuracies": 2,
+          "good": 12,
+          "excellent": 55
+        },
+        "biggestBlunder": null
+      },
+      "57": {
+        "white": "Wei, Yi",
+        "black": "Maghsoodloo, Parham",
+        "whiteAccuracy": 95.3,
+        "blackAccuracy": 95.4,
+        "whiteACPL": 11.6,
+        "blackACPL": 11.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 6,
+          "excellent": 29
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 2,
+          "excellent": 30
+        },
+        "biggestBlunder": null
+      },
+      "58": {
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteAccuracy": 92.3,
+        "blackAccuracy": 90.7,
+        "whiteACPL": 21.1,
+        "blackACPL": 27.2,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 3,
+          "inaccuracies": 6,
+          "good": 9,
+          "excellent": 67
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 7,
+          "inaccuracies": 3,
+          "good": 14,
+          "excellent": 61
+        },
+        "biggestBlunder": {
+          "moveNumber": 34,
+          "player": "white",
+          "cpLoss": 316,
+          "winLoss": 27.76452083232757,
+          "severity": 30.263327707237053,
+          "move": "Rxe6",
+          "evalBefore": 236,
+          "evalAfter": -80
+        }
+      },
+      "59": {
+        "white": "Keymer, Vincent",
+        "black": "Esipenko, Andrey",
+        "whiteAccuracy": 90.8,
+        "blackAccuracy": 95.4,
+        "whiteACPL": 22.9,
+        "blackACPL": 13.6,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 9,
+          "excellent": 26
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 7,
+          "excellent": 31
+        },
+        "biggestBlunder": {
+          "moveNumber": 37,
+          "player": "white",
+          "cpLoss": 317,
+          "winLoss": 23.664787093332222,
+          "severity": 23.664787093332222,
+          "move": "Qg4",
+          "evalBefore": -86,
+          "evalAfter": -403
+        }
+      },
+      "60": {
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "whiteAccuracy": 96.7,
+        "blackAccuracy": 98.4,
+        "whiteACPL": 8,
+        "blackACPL": 3.8,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 4,
+          "excellent": 20
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 0,
+          "good": 0,
+          "excellent": 23
+        },
+        "biggestBlunder": null
+      },
+      "61": {
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteAccuracy": 94.3,
+        "blackAccuracy": 92.9,
+        "whiteACPL": 17.7,
+        "blackACPL": 22.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 2,
+          "inaccuracies": 2,
+          "good": 10,
+          "excellent": 67
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 4,
+          "good": 19,
+          "excellent": 56
+        },
+        "biggestBlunder": null
+      },
+      "62": {
+        "white": "Maghsoodloo, Parham",
+        "black": "Wei, Yi",
+        "whiteAccuracy": 90.4,
+        "blackAccuracy": 93.7,
+        "whiteACPL": 24.4,
+        "blackACPL": 17.5,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 6,
+          "excellent": 35
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 3,
+          "good": 4,
+          "excellent": 38
+        },
+        "biggestBlunder": {
+          "moveNumber": 41,
+          "player": "white",
+          "cpLoss": 329,
+          "winLoss": 24.884611385513214,
+          "severity": 24.884611385513214,
+          "move": "g4",
+          "evalBefore": -70,
+          "evalAfter": -399
+        }
+      },
+      "63": {
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "whiteAccuracy": 85.3,
+        "blackAccuracy": 83.3,
+        "whiteACPL": 36.6,
+        "blackACPL": 44.5,
+        "whiteMoveQuality": {
+          "blunders": 3,
+          "mistakes": 4,
+          "inaccuracies": 9,
+          "good": 21,
+          "excellent": 43
+        },
+        "blackMoveQuality": {
+          "blunders": 2,
+          "mistakes": 9,
+          "inaccuracies": 11,
+          "good": 14,
+          "excellent": 43
+        },
+        "biggestBlunder": {
+          "moveNumber": 71,
+          "player": "white",
+          "cpLoss": 474,
+          "winLoss": 34.251429692056426,
+          "severity": 59.340601941487755,
+          "move": "c7",
+          "evalBefore": 493,
+          "evalAfter": 19
+        }
+      },
+      "64": {
+        "white": "Wei, Yi",
+        "black": "Maghsoodloo, Parham",
+        "whiteAccuracy": 93.8,
+        "blackAccuracy": 90,
+        "whiteACPL": 19.5,
+        "blackACPL": 32.3,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 3,
+          "good": 5,
+          "excellent": 26
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 7,
+          "good": 5,
+          "excellent": 21
+        },
+        "biggestBlunder": null
+      },
+      "65": {
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteAccuracy": 92.8,
+        "blackAccuracy": 89,
+        "whiteACPL": 16,
+        "blackACPL": 25.7,
+        "whiteMoveQuality": {
+          "blunders": 1,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 5,
+          "excellent": 37
+        },
+        "blackMoveQuality": {
+          "blunders": 1,
+          "mistakes": 3,
+          "inaccuracies": 2,
+          "good": 8,
+          "excellent": 29
+        },
+        "biggestBlunder": {
+          "moveNumber": 39,
+          "player": "white",
+          "cpLoss": 346,
+          "winLoss": 25.854634286440074,
+          "severity": 39.75150021540161,
+          "move": "Qc6",
+          "evalBefore": 415,
+          "evalAfter": 69
+        }
+      },
+      "66": {
+        "white": "Sevian, Samuel",
+        "black": "Lodici, Lorenzo",
+        "whiteAccuracy": 95.1,
+        "blackAccuracy": 92.2,
+        "whiteACPL": 16.3,
+        "blackACPL": 25.1,
+        "whiteMoveQuality": {
+          "blunders": 0,
+          "mistakes": 0,
+          "inaccuracies": 1,
+          "good": 8,
+          "excellent": 22
+        },
+        "blackMoveQuality": {
+          "blunders": 0,
+          "mistakes": 1,
+          "inaccuracies": 1,
+          "good": 8,
+          "excellent": 20
+        },
+        "biggestBlunder": null
+      }
+    },
+    "summary": {
+      "accuracyKing": {
+        "player": "black",
+        "accuracy": 98.8,
+        "acpl": 3,
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "gameIndex": 29,
+        "gameId": "Goa, India"
+      },
+      "biggestBlunder": {
+        "moveNumber": 71,
+        "player": "white",
+        "cpLoss": 474,
+        "winLoss": 34.251429692056426,
+        "severity": 59.340601941487755,
+        "move": "c7",
+        "evalBefore": 493,
+        "evalAfter": 19,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "gameIndex": 63,
+        "gameId": "Goa, India"
+      },
+      "comebackKing": null,
+      "luckyEscape": {
+        "player": "black",
+        "escapeAmount": 474,
+        "evalBefore": 493,
+        "evalAfter": 19,
+        "moveNumber": 71,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "gameIndex": 63,
+        "gameId": "Goa, India"
+      },
+      "stockfishBuddy": {
+        "player": "white",
+        "engineMoves": 107,
+        "totalMoves": 125,
+        "percentage": 85.6,
+        "white": "Sindarov, Javokhir",
+        "black": "Yu, Yangyi",
+        "gameIndex": 55,
+        "gameId": "Goa, India"
+      },
+      "inaccuracyKing": {
+        "player": "black",
+        "inaccuracies": 11,
+        "totalMoves": 79,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "gameIndex": 63,
+        "gameId": "Goa, India"
+      },
+      "lowestACPL": {
+        "player": "black",
+        "acpl": 3,
+        "accuracy": 98.8,
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "gameIndex": 29,
+        "gameId": "Goa, India"
+      },
+      "highestACPL": {
+        "player": "black",
+        "acpl": 44.5,
+        "accuracy": 83.3,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "gameIndex": 63,
+        "gameId": "Goa, India"
+      },
+      "lowestCombinedACPL": {
+        "combinedACPL": 6.6,
+        "whiteACPL": 3.6,
+        "blackACPL": 3,
+        "white": "Sargissian, Gabriel",
+        "black": "Liang, Awonder",
+        "gameIndex": 29,
+        "gameId": "Goa, India"
+      },
+      "highestCombinedACPL": {
+        "combinedACPL": 81.1,
+        "whiteACPL": 36.6,
+        "blackACPL": 44.5,
+        "white": "Lodici, Lorenzo",
+        "black": "Sevian, Samuel",
+        "gameIndex": 63,
+        "gameId": "Goa, India"
+      },
+      "notSoSuperGM": null
+    },
+    "metadata": {
+      "gamesAnalyzed": 67,
+      "depth": 15,
+      "analyzedAt": null
+    }
+  },
   "dataInfo": {
     "totalMatches": 16,
     "totalGames": 67,
