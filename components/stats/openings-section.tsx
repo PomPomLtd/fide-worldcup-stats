@@ -86,15 +86,18 @@ export function OpeningsSection({ openings }: OpeningsSectionProps) {
         {openings.generalOpenings && openings.generalOpenings.length > 0 && (
           <div>
             <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">General Opening Families</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div className="space-y-3">
               {openings.generalOpenings.map((opening, idx) => (
-                <div key={idx} className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
-                  <div className="flex justify-between items-start">
-                    <span className="text-sm font-semibold text-gray-900 dark:text-white">{opening.name}</span>
-                    <span className="text-sm font-semibold text-blue-600 dark:text-blue-400">{opening.count}</span>
-                  </div>
-                  <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
-                    {opening.count === 1 ? 'game' : 'games'}
+                <div key={idx} className="border-l-2 border-indigo-500 dark:border-indigo-400 pl-3 py-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <div className="flex-1">
+                      <div className="text-sm font-semibold text-gray-900 dark:text-white">
+                        {opening.name}
+                      </div>
+                    </div>
+                    <div className="text-xs font-semibold text-gray-500 dark:text-gray-500">
+                      {opening.count} {opening.count === 1 ? 'game' : 'games'}
+                    </div>
                   </div>
                 </div>
               ))}

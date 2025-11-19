@@ -868,7 +868,8 @@ export default function RoundPage() {
             count: opening.count,
             eco: opening.eco,
             name: opening.name
-          })) || []
+          })) || [],
+          generalOpenings: stats.openings.generalOpenings || []
         }} />
 
         {/* Game Phases */}
