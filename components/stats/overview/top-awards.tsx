@@ -32,11 +32,18 @@ interface AwardData extends Record<string, unknown> {
   minClock?: number
   avgTime?: number
   timeSpent?: number
+  // Analysis awards
+  accuracy?: number
+  acpl?: number
+  cpLoss?: number
+  percentage?: number
+  rating?: number
+  swing?: number
 }
 
 interface AwardConfig {
   key: string
-  category: 'awards' | 'fideFunAwards' | 'funStats' | 'timeAwards'
+  category: 'awards' | 'fideFunAwards' | 'funStats' | 'timeAwards' | 'analysis'
   emoji: string
   title: string
   getValue: (award: AwardData) => string
