@@ -1,7 +1,7 @@
 {
   "roundNumber": 5,
   "roundName": "Round 5 (Round of 16)",
-  "generatedAt": "2025-11-18T22:12:04.943Z",
+  "generatedAt": "2025-11-19T08:04:07.303Z",
   "matchStats": {
     "totalMatches": 8,
     "decidedInClassical": 4,
@@ -754,6 +754,48 @@
         "decisiveRate": 100
       }
     ],
+    "generalOpenings": [
+      {
+        "name": "Italian Game",
+        "count": 3
+      },
+      {
+        "name": "Ruy Lopez",
+        "count": 3
+      },
+      {
+        "name": "Queen's Gambit Declined",
+        "count": 3
+      },
+      {
+        "name": "Grünfeld Defense",
+        "count": 3
+      },
+      {
+        "name": "English Opening",
+        "count": 3
+      },
+      {
+        "name": "Petrov's Defense",
+        "count": 3
+      },
+      {
+        "name": "Sicilian Defense",
+        "count": 2
+      },
+      {
+        "name": "Zukertort Opening",
+        "count": 1
+      },
+      {
+        "name": "King's Indian Defense",
+        "count": 1
+      },
+      {
+        "name": "Nimzo-Indian Defense",
+        "count": 1
+      }
+    ],
     "bestForWhite": null,
     "bestForBlack": null,
     "mostDecisive": null
@@ -1382,6 +1424,48 @@
             "decisiveRate": 0
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "Italian Game",
+            "count": 3
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 2
+          },
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 2
+          },
+          {
+            "name": "Petrov's Defense",
+            "count": 2
+          },
+          {
+            "name": "Grünfeld Defense",
+            "count": 1
+          },
+          {
+            "name": "English Opening",
+            "count": 1
+          },
+          {
+            "name": "King's Indian Defense",
+            "count": 1
+          },
+          {
+            "name": "Indian Defense",
+            "count": 1
+          },
+          {
+            "name": "Queen's Gambit Accepted",
+            "count": 1
+          },
+          {
+            "name": "Four Knights Game",
+            "count": 1
+          }
+        ],
         "bestForWhite": null,
         "bestForBlack": null,
         "mostDecisive": null
@@ -1893,6 +1977,40 @@
             "decisiveRate": 0
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 1
+          },
+          {
+            "name": "Zukertort Opening",
+            "count": 1
+          },
+          {
+            "name": "Grünfeld Defense",
+            "count": 1
+          },
+          {
+            "name": "English Opening",
+            "count": 1
+          },
+          {
+            "name": "Petrov's Defense",
+            "count": 1
+          },
+          {
+            "name": "Nimzo-Larsen Attack",
+            "count": 1
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 1
+          },
+          {
+            "name": "Sicilian Defense",
+            "count": 1
+          }
+        ],
         "bestForWhite": null,
         "bestForBlack": null,
         "mostDecisive": null
@@ -2260,6 +2378,20 @@
             "decisiveRate": 0
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "English Opening",
+            "count": 1
+          },
+          {
+            "name": "Sicilian Defense",
+            "count": 1
+          },
+          {
+            "name": "Caro-Kann Defense",
+            "count": 1
+          }
+        ],
         "bestForWhite": null,
         "bestForBlack": null,
         "mostDecisive": null
@@ -2602,6 +2734,16 @@
             "blackWinRate": 0,
             "drawRate": 0,
             "decisiveRate": 100
+          }
+        ],
+        "generalOpenings": [
+          {
+            "name": "Grünfeld Defense",
+            "count": 1
+          },
+          {
+            "name": "Nimzo-Indian Defense",
+            "count": 1
           }
         ],
         "bestForWhite": null,

@@ -1,7 +1,7 @@
 {
   "roundNumber": 3,
   "roundName": "Round 3 (Round of 64)",
-  "generatedAt": "2025-11-18T22:11:52.501Z",
+  "generatedAt": "2025-11-19T08:03:54.936Z",
   "matchStats": {
     "totalMatches": 32,
     "decidedInClassical": 21,
@@ -1406,6 +1406,48 @@
         "decisiveRate": 100
       }
     ],
+    "generalOpenings": [
+      {
+        "name": "Sicilian Defense",
+        "count": 16
+      },
+      {
+        "name": "Ruy Lopez",
+        "count": 13
+      },
+      {
+        "name": "English Opening",
+        "count": 10
+      },
+      {
+        "name": "Queen's Gambit Declined",
+        "count": 9
+      },
+      {
+        "name": "Italian Game",
+        "count": 8
+      },
+      {
+        "name": "King's Indian Attack",
+        "count": 4
+      },
+      {
+        "name": "Zukertort Opening",
+        "count": 4
+      },
+      {
+        "name": "Queen's Pawn Game",
+        "count": 4
+      },
+      {
+        "name": "Four Knights Game",
+        "count": 3
+      },
+      {
+        "name": "Nimzo-Indian Defense",
+        "count": 3
+      }
+    ],
     "bestForWhite": {
       "eco": "C55",
       "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
@@ -2577,6 +2619,48 @@
             "decisiveRate": 100
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "Sicilian Defense",
+            "count": 10
+          },
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 7
+          },
+          {
+            "name": "English Opening",
+            "count": 7
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 7
+          },
+          {
+            "name": "Italian Game",
+            "count": 6
+          },
+          {
+            "name": "Nimzo-Indian Defense",
+            "count": 3
+          },
+          {
+            "name": "King's Indian Attack",
+            "count": 3
+          },
+          {
+            "name": "Four Knights Game",
+            "count": 2
+          },
+          {
+            "name": "Petrov's Defense",
+            "count": 2
+          },
+          {
+            "name": "French Defense",
+            "count": 2
+          }
+        ],
         "bestForWhite": {
           "eco": "C55",
           "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
@@ -3286,6 +3370,48 @@
             "decisiveRate": 100
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "Sicilian Defense",
+            "count": 5
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 4
+          },
+          {
+            "name": "Queen's Pawn Game",
+            "count": 3
+          },
+          {
+            "name": "English Opening",
+            "count": 2
+          },
+          {
+            "name": "Slav Defense",
+            "count": 2
+          },
+          {
+            "name": "Vienna Game",
+            "count": 1
+          },
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 1
+          },
+          {
+            "name": "Four Knights Game",
+            "count": 1
+          },
+          {
+            "name": "Catalan Opening",
+            "count": 1
+          },
+          {
+            "name": "Caro-Kann Defense",
+            "count": 1
+          }
+        ],
         "bestForWhite": null,
         "bestForBlack": null,
         "mostDecisive": null
@@ -3763,6 +3889,36 @@
             "decisiveRate": 0
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "Italian Game",
+            "count": 1
+          },
+          {
+            "name": "Zukertort Opening",
+            "count": 1
+          },
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 1
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 1
+          },
+          {
+            "name": "Sicilian Defense",
+            "count": 1
+          },
+          {
+            "name": "Vienna Game",
+            "count": 1
+          },
+          {
+            "name": "English Opening",
+            "count": 1
+          }
+        ],
         "bestForWhite": null,
         "bestForBlack": null,
         "mostDecisive": null
@@ -4111,6 +4267,16 @@
             "decisiveRate": 0
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "King's Indian Attack",
+            "count": 1
+          },
+          {
+            "name": "Italian Game",
+            "count": 1
+          }
+        ],
         "bestForWhite": null,
         "bestForBlack": null,
         "mostDecisive": null
@@ -4451,6 +4617,16 @@
             "blackWinRate": 0,
             "drawRate": 0,
             "decisiveRate": 0
+          }
+        ],
+        "generalOpenings": [
+          {
+            "name": "Ruy Lopez",
+            "count": 1
+          },
+          {
+            "name": "Indian Defense",
+            "count": 1
           }
         ],
         "bestForWhite": null,

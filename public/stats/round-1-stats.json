@@ -1,7 +1,7 @@
 {
   "roundNumber": 1,
   "roundName": "Round 1",
-  "generatedAt": "2025-11-18T22:11:11.793Z",
+  "generatedAt": "2025-11-19T08:03:14.506Z",
   "matchStats": {
     "totalMatches": 78,
     "decidedInClassical": 58,
@@ -2191,6 +2191,48 @@
         "decisiveRate": 100
       }
     ],
+    "generalOpenings": [
+      {
+        "name": "Sicilian Defense",
+        "count": 33
+      },
+      {
+        "name": "English Opening",
+        "count": 24
+      },
+      {
+        "name": "Queen's Gambit Declined",
+        "count": 17
+      },
+      {
+        "name": "King's Indian Attack",
+        "count": 14
+      },
+      {
+        "name": "Ruy Lopez",
+        "count": 14
+      },
+      {
+        "name": "Zukertort Opening",
+        "count": 14
+      },
+      {
+        "name": "Caro-Kann Defense",
+        "count": 13
+      },
+      {
+        "name": "Petrov's Defense",
+        "count": 12
+      },
+      {
+        "name": "Italian Game",
+        "count": 10
+      },
+      {
+        "name": "Indian Defense",
+        "count": 10
+      }
+    ],
     "bestForWhite": {
       "eco": "B00",
       "name": "King's Pawn Game",
@@ -4061,6 +4103,48 @@
             "decisiveRate": 33.3
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "Sicilian Defense",
+            "count": 30
+          },
+          {
+            "name": "English Opening",
+            "count": 16
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 12
+          },
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 12
+          },
+          {
+            "name": "King's Indian Attack",
+            "count": 10
+          },
+          {
+            "name": "Italian Game",
+            "count": 9
+          },
+          {
+            "name": "Zukertort Opening",
+            "count": 9
+          },
+          {
+            "name": "Petrov's Defense",
+            "count": 9
+          },
+          {
+            "name": "Indian Defense",
+            "count": 6
+          },
+          {
+            "name": "Caro-Kann Defense",
+            "count": 6
+          }
+        ],
         "bestForWhite": {
           "eco": "B00",
           "name": "King's Pawn Game",
@@ -5009,6 +5093,48 @@
             "decisiveRate": 100
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "English Opening",
+            "count": 6
+          },
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 4
+          },
+          {
+            "name": "Petrov's Defense",
+            "count": 3
+          },
+          {
+            "name": "Caro-Kann Defense",
+            "count": 3
+          },
+          {
+            "name": "Sicilian Defense",
+            "count": 3
+          },
+          {
+            "name": "King's Indian Attack",
+            "count": 3
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 2
+          },
+          {
+            "name": "Queen's Pawn Game",
+            "count": 2
+          },
+          {
+            "name": "Indian Defense",
+            "count": 2
+          },
+          {
+            "name": "King's Indian Defense",
+            "count": 2
+          }
+        ],
         "bestForWhite": {
           "eco": "A13",
           "name": "English Opening: Agincourt Defense",
@@ -5649,6 +5775,44 @@
             "decisiveRate": 100
           }
         ],
+        "generalOpenings": [
+          {
+            "name": "Caro-Kann Defense",
+            "count": 3
+          },
+          {
+            "name": "Indian Defense",
+            "count": 2
+          },
+          {
+            "name": "English Opening",
+            "count": 1
+          },
+          {
+            "name": "Bogo-Indian Defense",
+            "count": 1
+          },
+          {
+            "name": "King's Indian Defense",
+            "count": 1
+          },
+          {
+            "name": "Réti Opening",
+            "count": 1
+          },
+          {
+            "name": "Queen's Pawn Game",
+            "count": 1
+          },
+          {
+            "name": "Zukertort Opening",
+            "count": 1
+          },
+          {
+            "name": "Queen's Gambit Declined",
+            "count": 1
+          }
+        ],
         "bestForWhite": null,
         "bestForBlack": null,
         "mostDecisive": null
@@ -6208,6 +6372,36 @@
             "blackWinRate": 100,
             "drawRate": 0,
             "decisiveRate": 100
+          }
+        ],
+        "generalOpenings": [
+          {
+            "name": "Zukertort Opening",
+            "count": 3
+          },
+          {
+            "name": "Queen's Pawn Game",
+            "count": 2
+          },
+          {
+            "name": "Alekhine Defense",
+            "count": 1
+          },
+          {
+            "name": "English Opening",
+            "count": 1
+          },
+          {
+            "name": "Bogo-Indian Defense",
+            "count": 1
+          },
+          {
+            "name": "Caro-Kann Defense",
+            "count": 1
+          },
+          {
+            "name": "King's Indian Attack",
+            "count": 1
           }
         ],
         "bestForWhite": null,

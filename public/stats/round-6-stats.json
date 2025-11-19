@@ -1,7 +1,7 @@
 {
   "roundNumber": 6,
   "roundName": "Round 6 (Quarterfinals)",
-  "generatedAt": "2025-11-18T22:12:05.399Z",
+  "generatedAt": "2025-11-19T08:04:07.749Z",
   "matchStats": {
     "totalMatches": 4,
     "decidedInClassical": 1,
@@ -409,6 +409,24 @@
         "decisiveRate": 100
       }
     ],
+    "generalOpenings": [
+      {
+        "name": "Queen's Gambit Accepted",
+        "count": 1
+      },
+      {
+        "name": "Ruy Lopez",
+        "count": 1
+      },
+      {
+        "name": "English Opening",
+        "count": 1
+      },
+      {
+        "name": "Indian Defense",
+        "count": 1
+      }
+    ],
     "bestForWhite": null,
     "bestForBlack": null,
     "mostDecisive": null
@@ -813,6 +831,24 @@
             "blackWinRate": 0,
             "drawRate": 0,
             "decisiveRate": 100
+          }
+        ],
+        "generalOpenings": [
+          {
+            "name": "Queen's Gambit Accepted",
+            "count": 1
+          },
+          {
+            "name": "Ruy Lopez",
+            "count": 1
+          },
+          {
+            "name": "English Opening",
+            "count": 1
+          },
+          {
+            "name": "Indian Defense",
+            "count": 1
           }
         ],
         "bestForWhite": null,

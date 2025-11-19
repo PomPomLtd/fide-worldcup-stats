@@ -24,6 +24,7 @@ function calculateOpenings(games) {
       firstMoves: {},
       byEco: {},
       mostPopular: [],
+      generalOpenings: [],
       bestForWhite: null,
       bestForBlack: null,
       mostDecisive: null,
@@ -32,6 +33,7 @@ function calculateOpenings(games) {
 
   const firstMoves = {};
   const byEco = {};
+  const generalOpenings = {};
   let gamesWithOpenings = 0;
 
   gamesWithMoves.forEach((game) => {
@@ -71,6 +73,19 @@ function calculateOpenings(games) {
       if (isWhiteWin(game)) byEco[key].whiteWins++;
       else if (isDraw(game)) byEco[key].draws++;
       else if (isBlackWin(game)) byEco[key].blackWins++;
+
+      // Track general opening families (text before colon)
+      const generalName = opening.name.includes(':')
+        ? opening.name.split(':')[0].trim()
+        : opening.name;
+
+      if (!generalOpenings[generalName]) {
+        generalOpenings[generalName] = {
+          name: generalName,
+          count: 0,
+        };
+      }
+      generalOpenings[generalName].count++;
     }
   });
 
@@ -115,6 +130,11 @@ function calculateOpenings(games) {
     .filter((o) => o.count >= 3)
     .sort((a, b) => b.decisiveRate - a.decisiveRate)[0] || null;
 
+  // Sort general opening families by count
+  const sortedGeneralOpenings = Object.values(generalOpenings)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10);
+
   return {
     totalGames: total,
     totalUnique: Object.keys(byEco).length,
@@ -122,6 +142,7 @@ function calculateOpenings(games) {
     firstMoves: formattedFirstMoves,
     byEco: openingsWithStats,
     mostPopular,
+    generalOpenings: sortedGeneralOpenings,
     bestForWhite,
     bestForBlack,
     mostDecisive,
