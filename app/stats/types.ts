@@ -185,6 +185,10 @@ export interface OpeningStats {
     count: number;
     percentage: number;
   }>;
+  generalOpenings?: Array<{
+    name: string;
+    count: number;
+  }>;
   byColor: {
     white: { count: number; percentage: number };
     black: { count: number; percentage: number };
