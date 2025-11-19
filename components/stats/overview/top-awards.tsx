@@ -97,7 +97,7 @@ const awardConfigs: AwardConfig[] = [
     emoji: '🎯',
     title: 'Giant Slayer',
     getValue: (a) => `+${a.ratingDifference} rating upset`,
-    getPlayers: (a) => ({ name: a.winner }),
+    getPlayers: (a) => ({ name: a.player }),
     borderColor: 'border-orange-200 dark:border-orange-800',
     bgColor: 'bg-orange-50 dark:bg-orange-900/20',
     textColor: 'text-orange-900 dark:text-orange-300'
@@ -299,6 +299,61 @@ const awardConfigs: AwardConfig[] = [
     borderColor: 'border-gray-200 dark:border-gray-800',
     bgColor: 'bg-gray-50 dark:bg-gray-900/20',
     textColor: 'text-gray-900 dark:text-gray-300'
+  },
+  {
+    key: 'accuracyKing',
+    category: 'analysis',
+    emoji: '🎯',
+    title: 'Accuracy King',
+    getValue: (a) => `${a.accuracy || 0}% accuracy`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-green-200 dark:border-green-800',
+    bgColor: 'bg-green-50 dark:bg-green-900/20',
+    textColor: 'text-green-900 dark:text-green-300'
+  },
+  {
+    key: 'biggestBlunder',
+    category: 'analysis',
+    emoji: '🤦',
+    title: 'Biggest Blunder',
+    getValue: (a) => `${a.cpLoss || 0} centipawn loss`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-red-200 dark:border-red-800',
+    bgColor: 'bg-red-50 dark:bg-red-900/20',
+    textColor: 'text-red-900 dark:text-red-300'
+  },
+  {
+    key: 'stockfishBuddy',
+    category: 'analysis',
+    emoji: '🤖',
+    title: 'Stockfish Buddy',
+    getValue: (a) => `${a.percentage || 0}% engine moves`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-blue-200 dark:border-blue-800',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
+    textColor: 'text-blue-900 dark:text-blue-300'
+  },
+  {
+    key: 'notSoSuperGM',
+    category: 'analysis',
+    emoji: '😬',
+    title: 'Not-So-Super GM',
+    getValue: (a) => `${a.rating || 0} rated, ${a.cpLoss || 0}cp blunder`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-amber-200 dark:border-amber-800',
+    bgColor: 'bg-amber-50 dark:bg-amber-900/20',
+    textColor: 'text-amber-900 dark:text-amber-300'
+  },
+  {
+    key: 'comebackKing',
+    category: 'analysis',
+    emoji: '👑',
+    title: 'Comeback King',
+    getValue: (a) => `${a.swing || 0}cp swing`,
+    getPlayers: (a) => ({ white: a.white, black: a.black }),
+    borderColor: 'border-purple-200 dark:border-purple-800',
+    bgColor: 'bg-purple-50 dark:bg-purple-900/20',
+    textColor: 'text-purple-900 dark:text-purple-300'
   }
 ]
 

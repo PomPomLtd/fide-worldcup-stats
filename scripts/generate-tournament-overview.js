@@ -600,6 +600,27 @@ function findTopAwards(rounds) {
       return aMoves < bMoves;
     },
 
+    // Analysis Awards
+    accuracyKing: (a, b) => (a?.accuracy || 0) > (b?.accuracy || 0),
+    biggestBlunder: (a, b) => (a?.cpLoss || 0) > (b?.cpLoss || 0),
+    lowestACPL: (a, b) => {
+      const aACPL = a?.acpl ?? Infinity;
+      const bACPL = b?.acpl ?? Infinity;
+      return aACPL < bACPL;
+    },
+    highestACPL: (a, b) => (a?.acpl || 0) > (b?.acpl || 0),
+    lowestCombinedACPL: (a, b) => {
+      const aACPL = a?.combinedACPL ?? Infinity;
+      const bACPL = b?.combinedACPL ?? Infinity;
+      return aACPL < bACPL;
+    },
+    highestCombinedACPL: (a, b) => (a?.combinedACPL || 0) > (b?.combinedACPL || 0),
+    comebackKing: (a, b) => (a?.swing || 0) > (b?.swing || 0),
+    luckyEscape: (a, b) => (a?.escapeAmount || 0) > (b?.escapeAmount || 0),
+    stockfishBuddy: (a, b) => (a?.percentage || 0) > (b?.percentage || 0),
+    inaccuracyKing: (a, b) => (a?.inaccuracies || 0) > (b?.inaccuracies || 0),
+    notSoSuperGM: (a, b) => (a?.severity || 0) > (b?.severity || 0),
+
     // Default: use value if exists
     default: (a, b) => {
       const aVal = a?.value || a?.score || 0;
@@ -615,20 +636,42 @@ function findTopAwards(rounds) {
     rounds.forEach(round => {
       if (!round[category]) return;
 
-      Object.entries(round[category]).forEach(([awardKey, awardData]) => {
-        if (!awardData || awardData === null) return;
+      // Special handling for analysis category - extract from summary
+      if (category === 'analysis') {
+        if (!round.analysis || !round.analysis.summary) return;
 
-        const comparator = comparators[awardKey] || comparators.default;
-        const current = topAwards[category][awardKey];
+        Object.entries(round.analysis.summary).forEach(([awardKey, awardData]) => {
+          if (!awardData || awardData === null) return;
+          if (awardKey === 'roundNumber' || awardKey === 'roundName') return;
 
-        if (!current || comparator(awardData, current)) {
-          topAwards[category][awardKey] = {
-            ...awardData,
-            roundNumber: round.roundNumber,
-            roundName: round.roundName
-          };
-        }
-      });
+          const comparator = comparators[awardKey] || comparators.default;
+          const current = topAwards[category][awardKey];
+
+          if (!current || comparator(awardData, current)) {
+            topAwards[category][awardKey] = {
+              ...awardData,
+              roundNumber: round.roundNumber,
+              roundName: round.roundName
+            };
+          }
+        });
+      } else {
+        // Regular category processing
+        Object.entries(round[category]).forEach(([awardKey, awardData]) => {
+          if (!awardData || awardData === null) return;
+
+          const comparator = comparators[awardKey] || comparators.default;
+          const current = topAwards[category][awardKey];
+
+          if (!current || comparator(awardData, current)) {
+            topAwards[category][awardKey] = {
+              ...awardData,
+              roundNumber: round.roundNumber,
+              roundName: round.roundName
+            };
+          }
+        });
+      }
     });
   });
 
