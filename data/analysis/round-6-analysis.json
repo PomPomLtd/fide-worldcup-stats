@@ -1,3 +1,13 @@
+
+🔬 Stockfish Analysis Starting...
+📊 Total games to analyze: 4
+⚙️  Depth: 15 | Sample rate: every 1 move(s)
+⏱️  Estimated time: 1:00-2:00 minutes
+
+[█████░░░░░░░░░░░░░░░]  25% | 1/4 | Sindarov, Javokhir vs Martinez Alcantara, ...                   [██████████░░░░░░░░░░]  50% | 2/4 | Wei, Yi vs Erigaisi, Arjun                                      [███████████████░░░░░]  75% | 3/4 | Shankland, Sam vs Esipenko, Andrey                              [████████████████████] 100% | 4/4 | Yakubboev, Nodirbek vs Donchenko, Alexander                     
+
+✅ Analysis complete! Processed 4 games
+
 {
   "games": [
     {
@@ -5,28 +15,28 @@
       "gameId": "Goa, India",
       "white": "Sindarov, Javokhir",
       "black": "Martinez Alcantara, Jose Eduardo",
-      "whiteRating": null,
-      "blackRating": null,
-      "whiteACPL": 10.1,
-      "blackACPL": 10.0,
-      "whiteAccuracy": 96.0,
-      "blackAccuracy": 96.0,
+      "whiteRating": 2721,
+      "blackRating": 2644,
+      "whiteACPL": 7.7,
+      "blackACPL": 7.3,
+      "whiteAccuracy": 96.9,
+      "blackAccuracy": 97.1,
       "whiteMoveQuality": {
         "blunders": 0,
         "mistakes": 0,
-        "inaccuracies": 1,
+        "inaccuracies": 0,
         "good": 3,
-        "excellent": 35
+        "excellent": 36
       },
       "blackMoveQuality": {
         "blunders": 0,
         "mistakes": 0,
-        "inaccuracies": 2,
+        "inaccuracies": 0,
         "good": 3,
-        "excellent": 33
+        "excellent": 35
       },
-      "whiteEngineMoves": 35,
-      "blackEngineMoves": 33,
+      "whiteEngineMoves": 36,
+      "blackEngineMoves": 35,
       "biggestBlunder": null,
       "biggestComeback": null,
       "luckyEscape": null,
@@ -36,616 +46,616 @@
           "moveNumber": 1,
           "color": "white",
           "move": "d4",
-          "evalBefore": 0.43,
-          "evalAfter": 0.26
+          "evalBefore": 0.39,
+          "evalAfter": 0.23
         },
         {
           "ply": 2,
           "moveNumber": 1,
           "color": "black",
           "move": "d5",
-          "evalBefore": 0.26,
-          "evalAfter": 0.21
+          "evalBefore": 0.23,
+          "evalAfter": 0.24
         },
         {
           "ply": 3,
           "moveNumber": 2,
           "color": "white",
           "move": "c4",
-          "evalBefore": 0.21,
-          "evalAfter": 0.27
+          "evalBefore": 0.24,
+          "evalAfter": 0.26
         },
         {
           "ply": 4,
           "moveNumber": 2,
           "color": "black",
           "move": "dxc4",
-          "evalBefore": 0.27,
-          "evalAfter": 0.43
+          "evalBefore": 0.26,
+          "evalAfter": 0.35
         },
         {
           "ply": 5,
           "moveNumber": 3,
           "color": "white",
           "move": "Nf3",
-          "evalBefore": 0.43,
-          "evalAfter": 0.28
+          "evalBefore": 0.35,
+          "evalAfter": 0.26
         },
         {
           "ply": 6,
           "moveNumber": 3,
           "color": "black",
           "move": "Nf6",
-          "evalBefore": 0.28,
-          "evalAfter": 0.45
+          "evalBefore": 0.26,
+          "evalAfter": 0.42
         },
         {
           "ply": 7,
           "moveNumber": 4,
           "color": "white",
           "move": "e3",
-          "evalBefore": 0.45,
-          "evalAfter": 0.42
+          "evalBefore": 0.42,
+          "evalAfter": 0.32
         },
         {
           "ply": 8,
           "moveNumber": 4,
           "color": "black",
           "move": "e6",
-          "evalBefore": 0.42,
-          "evalAfter": 0.5
+          "evalBefore": 0.32,
+          "evalAfter": 0.26
         },
         {
           "ply": 9,
           "moveNumber": 5,
           "color": "white",
           "move": "Bxc4",
-          "evalBefore": 0.5,
-          "evalAfter": 0.33
+          "evalBefore": 0.26,
+          "evalAfter": 0.39
         },
         {
           "ply": 10,
           "moveNumber": 5,
           "color": "black",
           "move": "c5",
-          "evalBefore": 0.33,
-          "evalAfter": 0.28
+          "evalBefore": 0.39,
+          "evalAfter": 0.3
         },
         {
           "ply": 11,
           "moveNumber": 6,
           "color": "white",
           "move": "O-O",
-          "evalBefore": 0.28,
-          "evalAfter": 0.37
+          "evalBefore": 0.3,
+          "evalAfter": 0.29
         },
         {
           "ply": 12,
           "moveNumber": 6,
           "color": "black",
           "move": "Be7",
-          "evalBefore": 0.37,
-          "evalAfter": 0.48
+          "evalBefore": 0.29,
+          "evalAfter": 0.44
         },
         {
           "ply": 13,
           "moveNumber": 7,
           "color": "white",
           "move": "dxc5",
-          "evalBefore": 0.48,
-          "evalAfter": 0.37
+          "evalBefore": 0.44,
+          "evalAfter": 0.35
         },
         {
           "ply": 14,
           "moveNumber": 7,
           "color": "black",
           "move": "Qxd1",
-          "evalBefore": 0.37,
-          "evalAfter": 0.45
+          "evalBefore": 0.35,
+          "evalAfter": 0.38
         },
         {
           "ply": 15,
           "moveNumber": 8,
           "color": "white",
           "move": "Rxd1",
-          "evalBefore": 0.45,
-          "evalAfter": 0.36
+          "evalBefore": 0.38,
+          "evalAfter": 0.35
         },
         {
           "ply": 16,
           "moveNumber": 8,
           "color": "black",
           "move": "Bxc5",
-          "evalBefore": 0.36,
-          "evalAfter": 0.3
+          "evalBefore": 0.35,
+          "evalAfter": 0.29
         },
         {
           "ply": 17,
           "moveNumber": 9,
           "color": "white",
           "move": "Nc3",
-          "evalBefore": 0.3,
-          "evalAfter": 0.39
+          "evalBefore": 0.29,
+          "evalAfter": 0.33
         },
         {
           "ply": 18,
           "moveNumber": 9,
           "color": "black",
           "move": "O-O",
-          "evalBefore": 0.39,
-          "evalAfter": 0.42
+          "evalBefore": 0.33,
+          "evalAfter": 0.3
         },
         {
           "ply": 19,
           "moveNumber": 10,
           "color": "white",
           "move": "Be2",
-          "evalBefore": 0.42,
-          "evalAfter": 0.25
+          "evalBefore": 0.3,
+          "evalAfter": 0.32
         },
         {
           "ply": 20,
           "moveNumber": 10,
           "color": "black",
           "move": "Nc6",
-          "evalBefore": 0.25,
-          "evalAfter": 0.21
+          "evalBefore": 0.32,
+          "evalAfter": 0.39
         },
         {
           "ply": 21,
           "moveNumber": 11,
           "color": "white",
           "move": "a3",
-          "evalBefore": 0.21,
-          "evalAfter": 0.34
+          "evalBefore": 0.39,
+          "evalAfter": 0.29
         },
         {
           "ply": 22,
           "moveNumber": 11,
           "color": "black",
           "move": "b6",
-          "evalBefore": 0.34,
-          "evalAfter": 0.38
+          "evalBefore": 0.29,
+          "evalAfter": 0.5
         },
         {
           "ply": 23,
           "moveNumber": 12,
           "color": "white",
           "move": "b4",
-          "evalBefore": 0.38,
-          "evalAfter": 0.34
+          "evalBefore": 0.5,
+          "evalAfter": 0.37
         },
         {
           "ply": 24,
           "moveNumber": 12,
           "color": "black",
           "move": "Be7",
-          "evalBefore": 0.34,
-          "evalAfter": 0.44
+          "evalBefore": 0.37,
+          "evalAfter": 0.35
         },
         {
           "ply": 25,
           "moveNumber": 13,
           "color": "white",
           "move": "e4",
-          "evalBefore": 0.44,
-          "evalAfter": 0.36
+          "evalBefore": 0.35,
+          "evalAfter": 0.39
         },
         {
           "ply": 26,
           "moveNumber": 13,
           "color": "black",
           "move": "Rd8",
-          "evalBefore": 0.36,
-          "evalAfter": 0.42
+          "evalBefore": 0.39,
+          "evalAfter": 0.28
         },
         {
           "ply": 27,
           "moveNumber": 14,
           "color": "white",
           "move": "Rxd8+",
-          "evalBefore": 0.42,
-          "evalAfter": 0.38
+          "evalBefore": 0.28,
+          "evalAfter": 0.36
         },
         {
           "ply": 28,
           "moveNumber": 14,
           "color": "black",
           "move": "Nxd8",
-          "evalBefore": 0.38,
-          "evalAfter": 0.3
+          "evalBefore": 0.36,
+          "evalAfter": 0.41
         },
         {
           "ply": 29,
           "moveNumber": 15,
           "color": "white",
           "move": "e5",
-          "evalBefore": 0.3,
-          "evalAfter": 0.17
+          "evalBefore": 0.41,
+          "evalAfter": 0.29
         },
         {
           "ply": 30,
           "moveNumber": 15,
           "color": "black",
           "move": "Ne8",
-          "evalBefore": 0.17,
-          "evalAfter": 0.44
+          "evalBefore": 0.29,
+          "evalAfter": 0.4
         },
         {
           "ply": 31,
           "moveNumber": 16,
           "color": "white",
           "move": "Bg5",
-          "evalBefore": 0.44,
-          "evalAfter": 0.39
+          "evalBefore": 0.4,
+          "evalAfter": 0.34
         },
         {
           "ply": 32,
           "moveNumber": 16,
           "color": "black",
           "move": "Kf8",
-          "evalBefore": 0.39,
-          "evalAfter": 0.5
+          "evalBefore": 0.34,
+          "evalAfter": 0.44
         },
         {
           "ply": 33,
           "moveNumber": 17,
           "color": "white",
           "move": "Rd1",
-          "evalBefore": 0.5,
-          "evalAfter": 0.31
+          "evalBefore": 0.44,
+          "evalAfter": 0.39
         },
         {
           "ply": 34,
           "moveNumber": 17,
           "color": "black",
           "move": "h6",
-          "evalBefore": 0.31,
-          "evalAfter": 0.46
+          "evalBefore": 0.39,
+          "evalAfter": 0.39
         },
         {
           "ply": 35,
           "moveNumber": 18,
           "color": "white",
           "move": "Be3",
-          "evalBefore": 0.46,
-          "evalAfter": 0.51
+          "evalBefore": 0.39,
+          "evalAfter": 0.53
         },
         {
           "ply": 36,
           "moveNumber": 18,
           "color": "black",
           "move": "Bb7",
-          "evalBefore": 0.51,
-          "evalAfter": 0.42
+          "evalBefore": 0.53,
+          "evalAfter": 0.48
         },
         {
           "ply": 37,
           "moveNumber": 19,
           "color": "white",
           "move": "Nd4",
-          "evalBefore": 0.42,
-          "evalAfter": 0.46
+          "evalBefore": 0.48,
+          "evalAfter": 0.38
         },
         {
           "ply": 38,
           "moveNumber": 19,
           "color": "black",
           "move": "Nc7",
-          "evalBefore": 0.46,
-          "evalAfter": 1.07
+          "evalBefore": 0.38,
+          "evalAfter": 0.67
         },
         {
           "ply": 39,
           "moveNumber": 20,
           "color": "white",
           "move": "f4",
-          "evalBefore": 1.07,
-          "evalAfter": 0.38
+          "evalBefore": 0.67,
+          "evalAfter": 0.32
         },
         {
           "ply": 40,
           "moveNumber": 20,
           "color": "black",
           "move": "a5",
-          "evalBefore": 0.38,
-          "evalAfter": 0.39
+          "evalBefore": 0.32,
+          "evalAfter": 0.31
         },
         {
           "ply": 41,
           "moveNumber": 21,
           "color": "white",
           "move": "bxa5",
-          "evalBefore": 0.39,
-          "evalAfter": 0.47
+          "evalBefore": 0.31,
+          "evalAfter": 0.19
         },
         {
           "ply": 42,
           "moveNumber": 21,
           "color": "black",
           "move": "Rxa5",
-          "evalBefore": 0.47,
-          "evalAfter": 0.21
+          "evalBefore": 0.19,
+          "evalAfter": 0.4
         },
         {
           "ply": 43,
           "moveNumber": 22,
           "color": "white",
           "move": "Nc2",
-          "evalBefore": 0.21,
-          "evalAfter": 0.21
+          "evalBefore": 0.4,
+          "evalAfter": 0.19
         },
         {
           "ply": 44,
           "moveNumber": 22,
           "color": "black",
           "move": "Ke8",
-          "evalBefore": 0.21,
-          "evalAfter": 0.1
+          "evalBefore": 0.19,
+          "evalAfter": 0.14
         },
         {
           "ply": 45,
           "moveNumber": 23,
           "color": "white",
           "move": "a4",
-          "evalBefore": 0.1,
-          "evalAfter": 0.21
+          "evalBefore": 0.14,
+          "evalAfter": 0.12
         },
         {
           "ply": 46,
           "moveNumber": 23,
           "color": "black",
           "move": "Bc5",
-          "evalBefore": 0.21,
-          "evalAfter": 0.67
+          "evalBefore": 0.12,
+          "evalAfter": 0.46
         },
         {
           "ply": 47,
           "moveNumber": 24,
           "color": "white",
           "move": "Bb5+",
-          "evalBefore": 0.67,
-          "evalAfter": 0.38
+          "evalBefore": 0.46,
+          "evalAfter": 0.44
         },
         {
           "ply": 48,
           "moveNumber": 24,
           "color": "black",
           "move": "Nxb5",
-          "evalBefore": 0.38,
-          "evalAfter": 0.42
+          "evalBefore": 0.44,
+          "evalAfter": 0.49
         },
         {
           "ply": 49,
           "moveNumber": 25,
           "color": "white",
           "move": "axb5",
-          "evalBefore": 0.42,
-          "evalAfter": 0.24
+          "evalBefore": 0.49,
+          "evalAfter": 0.58
         },
         {
           "ply": 50,
           "moveNumber": 25,
           "color": "black",
           "move": "f6",
-          "evalBefore": 0.24,
-          "evalAfter": 0.24
+          "evalBefore": 0.58,
+          "evalAfter": 0.55
         },
         {
           "ply": 51,
           "moveNumber": 26,
           "color": "white",
           "move": "exf6",
-          "evalBefore": 0.24,
-          "evalAfter": 0.19
+          "evalBefore": 0.55,
+          "evalAfter": 0.17
         },
         {
           "ply": 52,
           "moveNumber": 26,
           "color": "black",
           "move": "gxf6",
-          "evalBefore": 0.19,
-          "evalAfter": 0.21
+          "evalBefore": 0.17,
+          "evalAfter": 0.19
         },
         {
           "ply": 53,
           "moveNumber": 27,
           "color": "white",
           "move": "Bxc5",
-          "evalBefore": 0.21,
-          "evalAfter": 0.25
+          "evalBefore": 0.19,
+          "evalAfter": 0.22
         },
         {
           "ply": 54,
           "moveNumber": 27,
           "color": "black",
           "move": "bxc5",
-          "evalBefore": 0.25,
-          "evalAfter": 0.1
+          "evalBefore": 0.22,
+          "evalAfter": 0.16
         },
         {
           "ply": 55,
           "moveNumber": 28,
           "color": "white",
           "move": "Kf2",
-          "evalBefore": 0.1,
-          "evalAfter": 0.13
+          "evalBefore": 0.16,
+          "evalAfter": 0.3
         },
         {
           "ply": 56,
           "moveNumber": 28,
           "color": "black",
           "move": "Nf7",
-          "evalBefore": 0.13,
-          "evalAfter": 0.13
+          "evalBefore": 0.3,
+          "evalAfter": 0.18
         },
         {
           "ply": 57,
           "moveNumber": 29,
           "color": "white",
           "move": "Ra1",
-          "evalBefore": 0.13,
-          "evalAfter": 0.41
+          "evalBefore": 0.18,
+          "evalAfter": 0.27
         },
         {
           "ply": 58,
           "moveNumber": 29,
           "color": "black",
           "move": "Rxa1",
-          "evalBefore": 0.41,
-          "evalAfter": 0.28
+          "evalBefore": 0.27,
+          "evalAfter": 0.23
         },
         {
           "ply": 59,
           "moveNumber": 30,
           "color": "white",
           "move": "Nxa1",
-          "evalBefore": 0.28,
-          "evalAfter": 0.4
+          "evalBefore": 0.23,
+          "evalAfter": 0.26
         },
         {
           "ply": 60,
           "moveNumber": 30,
           "color": "black",
           "move": "Bd5",
-          "evalBefore": 0.4,
-          "evalAfter": 0.12
+          "evalBefore": 0.26,
+          "evalAfter": 0.41
         },
         {
           "ply": 61,
           "moveNumber": 31,
           "color": "white",
           "move": "Nc2",
-          "evalBefore": 0.12,
-          "evalAfter": 0.46
+          "evalBefore": 0.41,
+          "evalAfter": 0.49
         },
         {
           "ply": 62,
           "moveNumber": 31,
           "color": "black",
           "move": "Nd6",
-          "evalBefore": 0.46,
-          "evalAfter": 0.46
+          "evalBefore": 0.49,
+          "evalAfter": 0.37
         },
         {
           "ply": 63,
           "moveNumber": 32,
           "color": "white",
           "move": "Ne3",
-          "evalBefore": 0.46,
-          "evalAfter": 0.55
+          "evalBefore": 0.37,
+          "evalAfter": 0.49
         },
         {
           "ply": 64,
           "moveNumber": 32,
           "color": "black",
           "move": "Bb7",
-          "evalBefore": 0.55,
-          "evalAfter": 1.46
+          "evalBefore": 0.49,
+          "evalAfter": 0.95
         },
         {
           "ply": 65,
           "moveNumber": 33,
           "color": "white",
           "move": "Ng4",
-          "evalBefore": 1.46,
-          "evalAfter": 1.31
+          "evalBefore": 0.95,
+          "evalAfter": 0.82
         },
         {
           "ply": 66,
           "moveNumber": 33,
           "color": "black",
           "move": "f5",
-          "evalBefore": 1.31,
-          "evalAfter": 1.03
+          "evalBefore": 0.82,
+          "evalAfter": 1.01
         },
         {
           "ply": 67,
           "moveNumber": 34,
           "color": "white",
           "move": "Ne5",
-          "evalBefore": 1.03,
-          "evalAfter": 0.5
+          "evalBefore": 1.01,
+          "evalAfter": 0.59
         },
         {
           "ply": 68,
           "moveNumber": 34,
           "color": "black",
           "move": "Kd8",
-          "evalBefore": 0.5,
-          "evalAfter": 0.66
+          "evalBefore": 0.59,
+          "evalAfter": 0.56
         },
         {
           "ply": 69,
           "moveNumber": 35,
           "color": "white",
           "move": "Nd3",
-          "evalBefore": 0.66,
-          "evalAfter": 0.31
+          "evalBefore": 0.56,
+          "evalAfter": 0.37
         },
         {
           "ply": 70,
           "moveNumber": 35,
           "color": "black",
           "move": "c4",
-          "evalBefore": 0.31,
-          "evalAfter": 0.31
+          "evalBefore": 0.37,
+          "evalAfter": 0.3
         },
         {
           "ply": 71,
           "moveNumber": 36,
           "color": "white",
           "move": "Ne5",
-          "evalBefore": 0.31,
-          "evalAfter": 0.48
+          "evalBefore": 0.3,
+          "evalAfter": 0.31
         },
         {
           "ply": 72,
           "moveNumber": 36,
           "color": "black",
           "move": "Kc7",
-          "evalBefore": 0.48,
-          "evalAfter": 0.38
+          "evalBefore": 0.31,
+          "evalAfter": 0.32
         },
         {
           "ply": 73,
           "moveNumber": 37,
           "color": "white",
           "move": "Ke3",
-          "evalBefore": 0.38,
-          "evalAfter": 0.49
+          "evalBefore": 0.32,
+          "evalAfter": 0.31
         },
         {
           "ply": 74,
           "moveNumber": 37,
           "color": "black",
           "move": "Bxg2",
-          "evalBefore": 0.49,
-          "evalAfter": 0.32
+          "evalBefore": 0.31,
+          "evalAfter": 0.33
         },
         {
           "ply": 75,
           "moveNumber": 38,
           "color": "white",
           "move": "Kd4",
-          "evalBefore": 0.32,
-          "evalAfter": 0.17
+          "evalBefore": 0.33,
+          "evalAfter": 0.22
         },
         {
           "ply": 76,
           "moveNumber": 38,
           "color": "black",
           "move": "Bf1",
-          "evalBefore": 0.17,
-          "evalAfter": 0.4
+          "evalBefore": 0.22,
+          "evalAfter": 0.26
         },
         {
           "ply": 77,
           "moveNumber": 39,
           "color": "white",
           "move": "Kc5",
-          "evalBefore": 0.4,
-          "evalAfter": 0.28
+          "evalBefore": 0.26,
+          "evalAfter": 0.25
         }
       ]
     },
@@ -654,28 +664,28 @@
       "gameId": "Goa, India",
       "white": "Wei, Yi",
       "black": "Erigaisi, Arjun",
-      "whiteRating": null,
-      "blackRating": null,
-      "whiteACPL": 4.6,
-      "blackACPL": 3.5,
-      "whiteAccuracy": 98.1,
-      "blackAccuracy": 98.6,
+      "whiteRating": 2754,
+      "blackRating": 2773,
+      "whiteACPL": 6.0,
+      "blackACPL": 3.8,
+      "whiteAccuracy": 97.6,
+      "blackAccuracy": 98.4,
       "whiteMoveQuality": {
         "blunders": 0,
         "mistakes": 0,
         "inaccuracies": 0,
-        "good": 1,
-        "excellent": 30
+        "good": 0,
+        "excellent": 31
       },
       "blackMoveQuality": {
         "blunders": 0,
         "mistakes": 0,
         "inaccuracies": 0,
-        "good": 0,
-        "excellent": 30
+        "good": 1,
+        "excellent": 29
       },
-      "whiteEngineMoves": 30,
-      "blackEngineMoves": 30,
+      "whiteEngineMoves": 31,
+      "blackEngineMoves": 29,
       "biggestBlunder": null,
       "biggestComeback": null,
       "luckyEscape": null,
@@ -685,479 +695,479 @@
           "moveNumber": 1,
           "color": "white",
           "move": "e4",
-          "evalBefore": 0.43,
-          "evalAfter": 0.34
+          "evalBefore": 0.39,
+          "evalAfter": 0.35
         },
         {
           "ply": 2,
           "moveNumber": 1,
           "color": "black",
           "move": "e5",
-          "evalBefore": 0.34,
-          "evalAfter": 0.38
+          "evalBefore": 0.35,
+          "evalAfter": 0.36
         },
         {
           "ply": 3,
           "moveNumber": 2,
           "color": "white",
           "move": "Nf3",
-          "evalBefore": 0.38,
-          "evalAfter": 0.36
+          "evalBefore": 0.36,
+          "evalAfter": 0.43
         },
         {
           "ply": 4,
           "moveNumber": 2,
           "color": "black",
           "move": "Nc6",
-          "evalBefore": 0.36,
-          "evalAfter": 0.47
+          "evalBefore": 0.43,
+          "evalAfter": 0.38
         },
         {
           "ply": 5,
           "moveNumber": 3,
           "color": "white",
           "move": "Bb5",
-          "evalBefore": 0.47,
-          "evalAfter": 0.43
+          "evalBefore": 0.38,
+          "evalAfter": 0.46
         },
         {
           "ply": 6,
           "moveNumber": 3,
           "color": "black",
           "move": "a6",
-          "evalBefore": 0.43,
-          "evalAfter": 0.42
+          "evalBefore": 0.46,
+          "evalAfter": 0.41
         },
         {
           "ply": 7,
           "moveNumber": 4,
           "color": "white",
           "move": "Ba4",
-          "evalBefore": 0.42,
-          "evalAfter": 0.38
+          "evalBefore": 0.41,
+          "evalAfter": 0.32
         },
         {
           "ply": 8,
           "moveNumber": 4,
           "color": "black",
           "move": "Nf6",
-          "evalBefore": 0.38,
-          "evalAfter": 0.34
+          "evalBefore": 0.32,
+          "evalAfter": 0.31
         },
         {
           "ply": 9,
           "moveNumber": 5,
           "color": "white",
           "move": "O-O",
-          "evalBefore": 0.34,
-          "evalAfter": 0.39
+          "evalBefore": 0.31,
+          "evalAfter": 0.38
         },
         {
           "ply": 10,
           "moveNumber": 5,
           "color": "black",
           "move": "Be7",
-          "evalBefore": 0.39,
-          "evalAfter": 0.53
+          "evalBefore": 0.38,
+          "evalAfter": 0.36
         },
         {
           "ply": 11,
           "moveNumber": 6,
           "color": "white",
           "move": "Re1",
-          "evalBefore": 0.53,
-          "evalAfter": 0.38
+          "evalBefore": 0.36,
+          "evalAfter": 0.56
         },
         {
           "ply": 12,
           "moveNumber": 6,
           "color": "black",
           "move": "b5",
-          "evalBefore": 0.38,
-          "evalAfter": 0.47
+          "evalBefore": 0.56,
+          "evalAfter": 0.46
         },
         {
           "ply": 13,
           "moveNumber": 7,
           "color": "white",
           "move": "Bb3",
-          "evalBefore": 0.47,
-          "evalAfter": 0.53
+          "evalBefore": 0.46,
+          "evalAfter": 0.41
         },
         {
           "ply": 14,
           "moveNumber": 7,
           "color": "black",
           "move": "d6",
-          "evalBefore": 0.53,
-          "evalAfter": 0.6
+          "evalBefore": 0.41,
+          "evalAfter": 0.4
         },
         {
           "ply": 15,
           "moveNumber": 8,
           "color": "white",
           "move": "c3",
-          "evalBefore": 0.6,
-          "evalAfter": 0.45
+          "evalBefore": 0.4,
+          "evalAfter": 0.46
         },
         {
           "ply": 16,
           "moveNumber": 8,
           "color": "black",
           "move": "O-O",
-          "evalBefore": 0.45,
-          "evalAfter": 0.46
+          "evalBefore": 0.46,
+          "evalAfter": 0.43
         },
         {
           "ply": 17,
           "moveNumber": 9,
           "color": "white",
           "move": "h3",
-          "evalBefore": 0.46,
-          "evalAfter": 0.52
+          "evalBefore": 0.43,
+          "evalAfter": 0.53
         },
         {
           "ply": 18,
           "moveNumber": 9,
           "color": "black",
           "move": "Be6",
-          "evalBefore": 0.52,
-          "evalAfter": 0.46
+          "evalBefore": 0.53,
+          "evalAfter": 0.48
         },
         {
           "ply": 19,
           "moveNumber": 10,
           "color": "white",
           "move": "d4",
-          "evalBefore": 0.46,
-          "evalAfter": 0.43
+          "evalBefore": 0.48,
+          "evalAfter": 0.51
         },
         {
           "ply": 20,
           "moveNumber": 10,
           "color": "black",
           "move": "Bxb3",
-          "evalBefore": 0.43,
-          "evalAfter": 0.51
+          "evalBefore": 0.51,
+          "evalAfter": 0.48
         },
         {
           "ply": 21,
           "moveNumber": 11,
           "color": "white",
           "move": "Qxb3",
-          "evalBefore": 0.51,
-          "evalAfter": 0.32
+          "evalBefore": 0.48,
+          "evalAfter": 0.39
         },
         {
           "ply": 22,
           "moveNumber": 11,
           "color": "black",
           "move": "h6",
-          "evalBefore": 0.32,
-          "evalAfter": 0.49
+          "evalBefore": 0.39,
+          "evalAfter": 0.56
         },
         {
           "ply": 23,
           "moveNumber": 12,
           "color": "white",
           "move": "a4",
-          "evalBefore": 0.49,
-          "evalAfter": 0.33
+          "evalBefore": 0.56,
+          "evalAfter": 0.48
         },
         {
           "ply": 24,
           "moveNumber": 12,
           "color": "black",
           "move": "Qd7",
-          "evalBefore": 0.33,
-          "evalAfter": 0.25
+          "evalBefore": 0.48,
+          "evalAfter": 0.32
         },
         {
           "ply": 25,
           "moveNumber": 13,
           "color": "white",
           "move": "axb5",
-          "evalBefore": 0.25,
-          "evalAfter": 0.57
+          "evalBefore": 0.32,
+          "evalAfter": 0.11
         },
         {
           "ply": 26,
           "moveNumber": 13,
           "color": "black",
           "move": "axb5",
-          "evalBefore": 0.57,
-          "evalAfter": 0.17
+          "evalBefore": 0.11,
+          "evalAfter": 0.26
         },
         {
           "ply": 27,
           "moveNumber": 14,
           "color": "white",
           "move": "Rxa8",
-          "evalBefore": 0.17,
-          "evalAfter": 0.13
+          "evalBefore": 0.26,
+          "evalAfter": 0.2
         },
         {
           "ply": 28,
           "moveNumber": 14,
           "color": "black",
           "move": "Rxa8",
-          "evalBefore": 0.13,
-          "evalAfter": 0.17
+          "evalBefore": 0.2,
+          "evalAfter": 0.26
         },
         {
           "ply": 29,
           "moveNumber": 15,
           "color": "white",
           "move": "Qxb5",
-          "evalBefore": 0.17,
-          "evalAfter": 0.28
+          "evalBefore": 0.26,
+          "evalAfter": 0.26
         },
         {
           "ply": 30,
           "moveNumber": 15,
           "color": "black",
           "move": "Nxd4",
-          "evalBefore": 0.28,
-          "evalAfter": 0.12
+          "evalBefore": 0.26,
+          "evalAfter": 0.32
         },
         {
           "ply": 31,
           "moveNumber": 16,
           "color": "white",
           "move": "Nxd4",
-          "evalBefore": 0.12,
-          "evalAfter": 0.24
+          "evalBefore": 0.32,
+          "evalAfter": 0.17
         },
         {
           "ply": 32,
           "moveNumber": 16,
           "color": "black",
           "move": "exd4",
-          "evalBefore": 0.24,
-          "evalAfter": 0.33
+          "evalBefore": 0.17,
+          "evalAfter": 0.27
         },
         {
           "ply": 33,
           "moveNumber": 17,
           "color": "white",
           "move": "Qxd7",
-          "evalBefore": 0.33,
-          "evalAfter": 0.11
+          "evalBefore": 0.27,
+          "evalAfter": 0.19
         },
         {
           "ply": 34,
           "moveNumber": 17,
           "color": "black",
           "move": "Nxd7",
-          "evalBefore": 0.11,
-          "evalAfter": 0.14
+          "evalBefore": 0.19,
+          "evalAfter": 0.23
         },
         {
           "ply": 35,
           "moveNumber": 18,
           "color": "white",
           "move": "cxd4",
-          "evalBefore": 0.14,
-          "evalAfter": 0.11
+          "evalBefore": 0.23,
+          "evalAfter": 0.16
         },
         {
           "ply": 36,
           "moveNumber": 18,
           "color": "black",
           "move": "Bf6",
-          "evalBefore": 0.11,
-          "evalAfter": 0.12
+          "evalBefore": 0.16,
+          "evalAfter": 0.18
         },
         {
           "ply": 37,
           "moveNumber": 19,
           "color": "white",
           "move": "Be3",
-          "evalBefore": 0.12,
-          "evalAfter": 0.14
+          "evalBefore": 0.18,
+          "evalAfter": 0.27
         },
         {
           "ply": 38,
           "moveNumber": 19,
           "color": "black",
           "move": "Rb8",
-          "evalBefore": 0.14,
-          "evalAfter": 0.27
+          "evalBefore": 0.27,
+          "evalAfter": 0.31
         },
         {
           "ply": 39,
           "moveNumber": 20,
           "color": "white",
           "move": "Nd2",
-          "evalBefore": 0.27,
-          "evalAfter": 0.06
+          "evalBefore": 0.31,
+          "evalAfter": 0.11
         },
         {
           "ply": 40,
           "moveNumber": 20,
           "color": "black",
           "move": "Rxb2",
-          "evalBefore": 0.06,
-          "evalAfter": 0.05
+          "evalBefore": 0.11,
+          "evalAfter": 0.11
         },
         {
           "ply": 41,
           "moveNumber": 21,
           "color": "white",
           "move": "Rc1",
-          "evalBefore": 0.05,
-          "evalAfter": 0.01
+          "evalBefore": 0.11,
+          "evalAfter": -0.03
         },
         {
           "ply": 42,
           "moveNumber": 21,
           "color": "black",
           "move": "Bxd4",
-          "evalBefore": 0.01,
-          "evalAfter": -0.01
+          "evalBefore": -0.03,
+          "evalAfter": -0.07
         },
         {
           "ply": 43,
           "moveNumber": 22,
           "color": "white",
           "move": "Bxd4",
-          "evalBefore": -0.01,
-          "evalAfter": -0.02
+          "evalBefore": -0.07,
+          "evalAfter": -0.01
         },
         {
           "ply": 44,
           "moveNumber": 22,
           "color": "black",
           "move": "Rxd2",
-          "evalBefore": -0.02,
-          "evalAfter": 0.0
+          "evalBefore": -0.01,
+          "evalAfter": -0.02
         },
         {
           "ply": 45,
           "moveNumber": 23,
           "color": "white",
           "move": "Rxc7",
-          "evalBefore": 0.0,
-          "evalAfter": -0.01
+          "evalBefore": -0.02,
+          "evalAfter": -0.12
         },
         {
           "ply": 46,
           "moveNumber": 23,
           "color": "black",
           "move": "Rd1+",
-          "evalBefore": -0.01,
-          "evalAfter": 0.0
+          "evalBefore": -0.12,
+          "evalAfter": -0.05
         },
         {
           "ply": 47,
           "moveNumber": 24,
           "color": "white",
           "move": "Kh2",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.05,
+          "evalAfter": -0.01
         },
         {
           "ply": 48,
           "moveNumber": 24,
           "color": "black",
           "move": "Rxd4",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.01,
+          "evalAfter": -0.04
         },
         {
           "ply": 49,
           "moveNumber": 25,
           "color": "white",
           "move": "Rxd7",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.04,
+          "evalAfter": 0.05
         },
         {
           "ply": 50,
           "moveNumber": 25,
           "color": "black",
           "move": "Rxe4",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": 0.05,
+          "evalAfter": 0.05
         },
         {
           "ply": 51,
           "moveNumber": 26,
           "color": "white",
           "move": "Rd8+",
-          "evalBefore": 0.0,
-          "evalAfter": -0.01
+          "evalBefore": 0.05,
+          "evalAfter": 0.01
         },
         {
           "ply": 52,
           "moveNumber": 26,
           "color": "black",
           "move": "Kh7",
-          "evalBefore": -0.01,
-          "evalAfter": 0.0
+          "evalBefore": 0.01,
+          "evalAfter": 0.02
         },
         {
           "ply": 53,
           "moveNumber": 27,
           "color": "white",
           "move": "Rxd6",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": 0.02,
+          "evalAfter": -0.07
         },
         {
           "ply": 54,
           "moveNumber": 27,
           "color": "black",
           "move": "Re2",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.07,
+          "evalAfter": -0.12
         },
         {
           "ply": 55,
           "moveNumber": 28,
           "color": "white",
           "move": "Kg1",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.12,
+          "evalAfter": -0.22
         },
         {
           "ply": 56,
           "moveNumber": 28,
           "color": "black",
           "move": "Re1+",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.22,
+          "evalAfter": 0.04
         },
         {
           "ply": 57,
           "moveNumber": 29,
           "color": "white",
           "move": "Kh2",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": 0.04,
+          "evalAfter": -0.11
         },
         {
           "ply": 58,
           "moveNumber": 29,
           "color": "black",
           "move": "Re2",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.11,
+          "evalAfter": -0.03
         },
         {
           "ply": 59,
           "moveNumber": 30,
           "color": "white",
           "move": "Kg1",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": -0.03,
+          "evalAfter": -0.07
         },
         {
           "ply": 60,
           "moveNumber": 30,
           "color": "black",
           "move": "Re1+",
-          "evalBefore": 0.0,
+          "evalBefore": -0.07,
           "evalAfter": 0.0
         },
         {
@@ -1166,7 +1176,7 @@
           "color": "white",
           "move": "Kh2",
           "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalAfter": -0.08
         }
       ]
     },
@@ -1175,28 +1185,28 @@
       "gameId": "Goa, India",
       "white": "Shankland, Sam",
       "black": "Esipenko, Andrey",
-      "whiteRating": null,
-      "blackRating": null,
-      "whiteACPL": 11.0,
-      "blackACPL": 8.9,
-      "whiteAccuracy": 95.6,
-      "blackAccuracy": 96.4,
+      "whiteRating": 2654,
+      "blackRating": 2693,
+      "whiteACPL": 8.2,
+      "blackACPL": 8.2,
+      "whiteAccuracy": 96.7,
+      "blackAccuracy": 96.7,
       "whiteMoveQuality": {
         "blunders": 0,
         "mistakes": 0,
-        "inaccuracies": 1,
+        "inaccuracies": 0,
         "good": 5,
-        "excellent": 32
+        "excellent": 33
       },
       "blackMoveQuality": {
         "blunders": 0,
         "mistakes": 0,
         "inaccuracies": 0,
-        "good": 5,
-        "excellent": 32
+        "good": 6,
+        "excellent": 31
       },
-      "whiteEngineMoves": 32,
-      "blackEngineMoves": 32,
+      "whiteEngineMoves": 33,
+      "blackEngineMoves": 31,
       "biggestBlunder": null,
       "biggestComeback": null,
       "luckyEscape": null,
@@ -1206,207 +1216,207 @@
           "moveNumber": 1,
           "color": "white",
           "move": "c4",
-          "evalBefore": 0.43,
-          "evalAfter": 0.05
+          "evalBefore": 0.39,
+          "evalAfter": 0.11
         },
         {
           "ply": 2,
           "moveNumber": 1,
           "color": "black",
           "move": "e6",
-          "evalBefore": 0.05,
-          "evalAfter": 0.12
+          "evalBefore": 0.11,
+          "evalAfter": 0.31
         },
         {
           "ply": 3,
           "moveNumber": 2,
           "color": "white",
           "move": "Nc3",
-          "evalBefore": 0.12,
-          "evalAfter": 0.31
+          "evalBefore": 0.31,
+          "evalAfter": 0.27
         },
         {
           "ply": 4,
           "moveNumber": 2,
           "color": "black",
           "move": "d5",
-          "evalBefore": 0.31,
-          "evalAfter": 0.28
+          "evalBefore": 0.27,
+          "evalAfter": 0.25
         },
         {
           "ply": 5,
           "moveNumber": 3,
           "color": "white",
           "move": "d4",
-          "evalBefore": 0.28,
-          "evalAfter": 0.29
+          "evalBefore": 0.25,
+          "evalAfter": 0.27
         },
         {
           "ply": 6,
           "moveNumber": 3,
           "color": "black",
           "move": "Nf6",
-          "evalBefore": 0.29,
-          "evalAfter": 0.27
+          "evalBefore": 0.27,
+          "evalAfter": 0.26
         },
         {
           "ply": 7,
           "moveNumber": 4,
           "color": "white",
           "move": "cxd5",
-          "evalBefore": 0.27,
-          "evalAfter": 0.37
+          "evalBefore": 0.26,
+          "evalAfter": 0.28
         },
         {
           "ply": 8,
           "moveNumber": 4,
           "color": "black",
           "move": "exd5",
-          "evalBefore": 0.37,
-          "evalAfter": 0.46
+          "evalBefore": 0.28,
+          "evalAfter": 0.35
         },
         {
           "ply": 9,
           "moveNumber": 5,
           "color": "white",
           "move": "Bg5",
-          "evalBefore": 0.46,
-          "evalAfter": 0.35
+          "evalBefore": 0.35,
+          "evalAfter": 0.34
         },
         {
           "ply": 10,
           "moveNumber": 5,
           "color": "black",
           "move": "Bb4",
-          "evalBefore": 0.35,
-          "evalAfter": 0.42
+          "evalBefore": 0.34,
+          "evalAfter": 0.47
         },
         {
           "ply": 11,
           "moveNumber": 6,
           "color": "white",
           "move": "e3",
-          "evalBefore": 0.42,
-          "evalAfter": 0.45
+          "evalBefore": 0.47,
+          "evalAfter": 0.39
         },
         {
           "ply": 12,
           "moveNumber": 6,
           "color": "black",
           "move": "h6",
-          "evalBefore": 0.45,
-          "evalAfter": 0.68
+          "evalBefore": 0.39,
+          "evalAfter": 0.44
         },
         {
           "ply": 13,
           "moveNumber": 7,
           "color": "white",
           "move": "Bxf6",
-          "evalBefore": 0.68,
-          "evalAfter": 0.17
+          "evalBefore": 0.44,
+          "evalAfter": 0.19
         },
         {
           "ply": 14,
           "moveNumber": 7,
           "color": "black",
           "move": "Qxf6",
-          "evalBefore": 0.17,
-          "evalAfter": 0.25
+          "evalBefore": 0.19,
+          "evalAfter": 0.17
         },
         {
           "ply": 15,
           "moveNumber": 8,
           "color": "white",
           "move": "Qa4+",
-          "evalBefore": 0.25,
-          "evalAfter": 0.29
+          "evalBefore": 0.17,
+          "evalAfter": 0.25
         },
         {
           "ply": 16,
           "moveNumber": 8,
           "color": "black",
           "move": "Nc6",
-          "evalBefore": 0.29,
-          "evalAfter": 0.21
+          "evalBefore": 0.25,
+          "evalAfter": 0.19
         },
         {
           "ply": 17,
           "moveNumber": 9,
           "color": "white",
           "move": "Ne2",
-          "evalBefore": 0.21,
-          "evalAfter": -0.22
+          "evalBefore": 0.19,
+          "evalAfter": 0.0
         },
         {
           "ply": 18,
           "moveNumber": 9,
           "color": "black",
           "move": "O-O",
-          "evalBefore": -0.22,
-          "evalAfter": 0.28
+          "evalBefore": 0.0,
+          "evalAfter": 0.25
         },
         {
           "ply": 19,
           "moveNumber": 10,
           "color": "white",
           "move": "Rc1",
-          "evalBefore": 0.28,
-          "evalAfter": 0.15
+          "evalBefore": 0.25,
+          "evalAfter": 0.16
         },
         {
           "ply": 20,
           "moveNumber": 10,
           "color": "black",
           "move": "Rd8",
-          "evalBefore": 0.15,
-          "evalAfter": 0.55
+          "evalBefore": 0.16,
+          "evalAfter": 0.31
         },
         {
           "ply": 21,
           "moveNumber": 11,
           "color": "white",
           "move": "Nf4",
-          "evalBefore": 0.55,
-          "evalAfter": 0.4
+          "evalBefore": 0.31,
+          "evalAfter": 0.29
         },
         {
           "ply": 22,
           "moveNumber": 11,
           "color": "black",
           "move": "Bxc3+",
-          "evalBefore": 0.4,
-          "evalAfter": 0.42
+          "evalBefore": 0.29,
+          "evalAfter": 0.5
         },
         {
           "ply": 23,
           "moveNumber": 12,
           "color": "white",
           "move": "Rxc3",
-          "evalBefore": 0.42,
-          "evalAfter": 0.44
+          "evalBefore": 0.5,
+          "evalAfter": 0.55
         },
         {
           "ply": 24,
           "moveNumber": 12,
           "color": "black",
           "move": "Ne7",
-          "evalBefore": 0.44,
-          "evalAfter": 0.44
+          "evalBefore": 0.55,
+          "evalAfter": 0.3
         },
         {
           "ply": 25,
           "moveNumber": 13,
           "color": "white",
           "move": "Bd3",
-          "evalBefore": 0.44,
-          "evalAfter": 0.14
+          "evalBefore": 0.3,
+          "evalAfter": 0.27
         },
         {
           "ply": 26,
           "moveNumber": 13,
           "color": "black",
           "move": "c6",
-          "evalBefore": 0.14,
+          "evalBefore": 0.27,
           "evalAfter": 0.24
         },
         {
@@ -1415,391 +1425,391 @@
           "color": "white",
           "move": "O-O",
           "evalBefore": 0.24,
-          "evalAfter": 0.1
+          "evalAfter": -0.04
         },
         {
           "ply": 28,
           "moveNumber": 14,
           "color": "black",
           "move": "Nf5",
-          "evalBefore": 0.1,
-          "evalAfter": 0.03
+          "evalBefore": -0.04,
+          "evalAfter": 0.06
         },
         {
           "ply": 29,
           "moveNumber": 15,
           "color": "white",
           "move": "Rfc1",
-          "evalBefore": 0.03,
-          "evalAfter": -0.02
+          "evalBefore": 0.06,
+          "evalAfter": -0.24
         },
         {
           "ply": 30,
           "moveNumber": 15,
           "color": "black",
           "move": "Nd6",
-          "evalBefore": -0.02,
-          "evalAfter": -0.02
+          "evalBefore": -0.24,
+          "evalAfter": -0.1
         },
         {
           "ply": 31,
           "moveNumber": 16,
           "color": "white",
           "move": "Qd1",
-          "evalBefore": -0.02,
-          "evalAfter": -0.03
+          "evalBefore": -0.1,
+          "evalAfter": 0.0
         },
         {
           "ply": 32,
           "moveNumber": 16,
           "color": "black",
           "move": "Bf5",
-          "evalBefore": -0.03,
-          "evalAfter": 0.0
+          "evalBefore": 0.0,
+          "evalAfter": -0.12
         },
         {
           "ply": 33,
           "moveNumber": 17,
           "color": "white",
           "move": "Bf1",
-          "evalBefore": 0.0,
-          "evalAfter": -0.17
+          "evalBefore": -0.12,
+          "evalAfter": -0.19
         },
         {
           "ply": 34,
           "moveNumber": 17,
           "color": "black",
           "move": "g5",
-          "evalBefore": -0.17,
-          "evalAfter": -0.04
+          "evalBefore": -0.19,
+          "evalAfter": -0.13
         },
         {
           "ply": 35,
           "moveNumber": 18,
           "color": "white",
           "move": "Nd3",
-          "evalBefore": -0.04,
-          "evalAfter": -0.07
+          "evalBefore": -0.13,
+          "evalAfter": -0.03
         },
         {
           "ply": 36,
           "moveNumber": 18,
           "color": "black",
           "move": "Kg7",
-          "evalBefore": -0.07,
-          "evalAfter": -0.05
+          "evalBefore": -0.03,
+          "evalAfter": -0.03
         },
         {
           "ply": 37,
           "moveNumber": 19,
           "color": "white",
           "move": "Nc5",
-          "evalBefore": -0.05,
-          "evalAfter": -0.25
+          "evalBefore": -0.03,
+          "evalAfter": -0.23
         },
         {
           "ply": 38,
           "moveNumber": 19,
           "color": "black",
           "move": "h5",
-          "evalBefore": -0.25,
-          "evalAfter": -0.1
+          "evalBefore": -0.23,
+          "evalAfter": -0.31
         },
         {
           "ply": 39,
           "moveNumber": 20,
           "color": "white",
           "move": "a4",
-          "evalBefore": -0.1,
-          "evalAfter": -0.2
+          "evalBefore": -0.31,
+          "evalAfter": -0.35
         },
         {
           "ply": 40,
           "moveNumber": 20,
           "color": "black",
           "move": "h4",
-          "evalBefore": -0.2,
-          "evalAfter": 0.07
+          "evalBefore": -0.35,
+          "evalAfter": -0.13
         },
         {
           "ply": 41,
           "moveNumber": 21,
           "color": "white",
           "move": "h3",
-          "evalBefore": 0.07,
-          "evalAfter": -0.03
+          "evalBefore": -0.13,
+          "evalAfter": -0.19
         },
         {
           "ply": 42,
           "moveNumber": 21,
           "color": "black",
           "move": "a5",
-          "evalBefore": -0.03,
-          "evalAfter": 0.1
+          "evalBefore": -0.19,
+          "evalAfter": 0.03
         },
         {
           "ply": 43,
           "moveNumber": 22,
           "color": "white",
           "move": "b4",
-          "evalBefore": 0.1,
-          "evalAfter": -0.46
+          "evalBefore": 0.03,
+          "evalAfter": -0.31
         },
         {
           "ply": 44,
           "moveNumber": 22,
           "color": "black",
           "move": "axb4",
-          "evalBefore": -0.46,
-          "evalAfter": -0.39
+          "evalBefore": -0.31,
+          "evalAfter": -0.27
         },
         {
           "ply": 45,
           "moveNumber": 23,
           "color": "white",
           "move": "Rb3",
-          "evalBefore": -0.39,
-          "evalAfter": -0.61
+          "evalBefore": -0.27,
+          "evalAfter": -0.46
         },
         {
           "ply": 46,
           "moveNumber": 23,
           "color": "black",
           "move": "b6",
-          "evalBefore": -0.61,
-          "evalAfter": -0.34
+          "evalBefore": -0.46,
+          "evalAfter": -0.18
         },
         {
           "ply": 47,
           "moveNumber": 24,
           "color": "white",
           "move": "Nd3",
-          "evalBefore": -0.34,
-          "evalAfter": -0.27
+          "evalBefore": -0.18,
+          "evalAfter": -0.17
         },
         {
           "ply": 48,
           "moveNumber": 24,
           "color": "black",
           "move": "Bxd3",
-          "evalBefore": -0.27,
-          "evalAfter": -0.42
+          "evalBefore": -0.17,
+          "evalAfter": -0.02
         },
         {
           "ply": 49,
           "moveNumber": 25,
           "color": "white",
           "move": "Bxd3",
-          "evalBefore": -0.42,
-          "evalAfter": -0.07
+          "evalBefore": -0.02,
+          "evalAfter": -0.12
         },
         {
           "ply": 50,
           "moveNumber": 25,
           "color": "black",
           "move": "Ne4",
-          "evalBefore": -0.07,
-          "evalAfter": 0.01
+          "evalBefore": -0.12,
+          "evalAfter": 0.14
         },
         {
           "ply": 51,
           "moveNumber": 26,
           "color": "white",
           "move": "Bxe4",
-          "evalBefore": 0.01,
-          "evalAfter": -0.03
+          "evalBefore": 0.14,
+          "evalAfter": 0.16
         },
         {
           "ply": 52,
           "moveNumber": 26,
           "color": "black",
           "move": "dxe4",
-          "evalBefore": -0.03,
-          "evalAfter": -0.03
+          "evalBefore": 0.16,
+          "evalAfter": 0.07
         },
         {
           "ply": 53,
           "moveNumber": 27,
           "color": "white",
           "move": "Rxb4",
-          "evalBefore": -0.03,
-          "evalAfter": -0.03
+          "evalBefore": 0.07,
+          "evalAfter": 0.19
         },
         {
           "ply": 54,
           "moveNumber": 27,
           "color": "black",
           "move": "c5",
-          "evalBefore": -0.03,
-          "evalAfter": 0.0
+          "evalBefore": 0.19,
+          "evalAfter": 0.12
         },
         {
           "ply": 55,
           "moveNumber": 28,
           "color": "white",
           "move": "Rb5",
-          "evalBefore": 0.0,
-          "evalAfter": 0.12
+          "evalBefore": 0.12,
+          "evalAfter": 0.19
         },
         {
           "ply": 56,
           "moveNumber": 28,
           "color": "black",
           "move": "cxd4",
-          "evalBefore": 0.12,
-          "evalAfter": 0.17
+          "evalBefore": 0.19,
+          "evalAfter": 0.1
         },
         {
           "ply": 57,
           "moveNumber": 29,
           "color": "white",
           "move": "exd4",
-          "evalBefore": 0.17,
-          "evalAfter": 0.07
+          "evalBefore": 0.1,
+          "evalAfter": 0.0
         },
         {
           "ply": 58,
           "moveNumber": 29,
           "color": "black",
           "move": "Qf4",
-          "evalBefore": 0.07,
-          "evalAfter": -0.03
+          "evalBefore": 0.0,
+          "evalAfter": -0.05
         },
         {
           "ply": 59,
           "moveNumber": 30,
           "color": "white",
           "move": "Rc3",
-          "evalBefore": -0.03,
-          "evalAfter": -0.18
+          "evalBefore": -0.05,
+          "evalAfter": -0.02
         },
         {
           "ply": 60,
           "moveNumber": 30,
           "color": "black",
           "move": "Rd6",
-          "evalBefore": -0.18,
-          "evalAfter": -0.05
+          "evalBefore": -0.02,
+          "evalAfter": 0.2
         },
         {
           "ply": 61,
           "moveNumber": 31,
           "color": "white",
           "move": "g3",
-          "evalBefore": -0.05,
-          "evalAfter": -0.02
+          "evalBefore": 0.2,
+          "evalAfter": 0.08
         },
         {
           "ply": 62,
           "moveNumber": 31,
           "color": "black",
           "move": "hxg3",
-          "evalBefore": -0.02,
-          "evalAfter": 0.06
+          "evalBefore": 0.08,
+          "evalAfter": 0.04
         },
         {
           "ply": 63,
           "moveNumber": 32,
           "color": "white",
           "move": "Rxg3",
-          "evalBefore": 0.06,
-          "evalAfter": -0.03
+          "evalBefore": 0.04,
+          "evalAfter": 0.11
         },
         {
           "ply": 64,
           "moveNumber": 32,
           "color": "black",
           "move": "f6",
-          "evalBefore": -0.03,
-          "evalAfter": 0.0
+          "evalBefore": 0.11,
+          "evalAfter": 0.11
         },
         {
           "ply": 65,
           "moveNumber": 33,
           "color": "white",
           "move": "Rg4",
-          "evalBefore": 0.0,
-          "evalAfter": 0.0
+          "evalBefore": 0.11,
+          "evalAfter": 0.11
         },
         {
           "ply": 66,
           "moveNumber": 33,
           "color": "black",
           "move": "Qf3",
-          "evalBefore": 0.0,
-          "evalAfter": 0.07
+          "evalBefore": 0.11,
+          "evalAfter": 0.15
         },
         {
           "ply": 67,
           "moveNumber": 34,
           "color": "white",
           "move": "Qc1",
-          "evalBefore": 0.07,
-          "evalAfter": 0.04
+          "evalBefore": 0.15,
+          "evalAfter": 0.13
         },
         {
           "ply": 68,
           "moveNumber": 34,
           "color": "black",
           "move": "e3",
-          "evalBefore": 0.04,
-          "evalAfter": 0.12
+          "evalBefore": 0.13,
+          "evalAfter": 0.21
         },
         {
           "ply": 69,
           "moveNumber": 35,
           "color": "white",
           "move": "Qxe3",
-          "evalBefore": 0.12,
-          "evalAfter": 0.08
+          "evalBefore": 0.21,
+          "evalAfter": 0.0
         },
         {
           "ply": 70,
           "moveNumber": 35,
           "color": "black",
           "move": "Qxe3",
-          "evalBefore": 0.08,
-          "evalAfter": 0.06
+          "evalBefore": 0.0,
+          "evalAfter": 0.15
         },
         {
           "ply": 71,
           "moveNumber": 36,
           "color": "white",
           "move": "fxe3",
-          "evalBefore": 0.06,
-          "evalAfter": 0.09
+          "evalBefore": 0.15,
+          "evalAfter": 0.05
         },
         {
           "ply": 72,
           "moveNumber": 36,
           "color": "black",
           "move": "Rxa4",
-          "evalBefore": 0.09,
-          "evalAfter": 0.03
+          "evalBefore": 0.05,
+          "evalAfter": 0.02
         },
         {
           "ply": 73,
           "moveNumber": 37,
           "color": "white",
           "move": "h4",
-          "evalBefore": 0.03,
-          "evalAfter": 0.0
+          "evalBefore": 0.02,
+          "evalAfter": 0.15
         },
         {
           "ply": 74,
           "moveNumber": 37,
           "color": "black",
           "move": "Ra5",
-          "evalBefore": 0.0,
-          "evalAfter": 0.13
+          "evalBefore": 0.15,
+          "evalAfter": 0.11
         },
         {
           "ply": 75,
           "moveNumber": 38,
           "color": "white",
           "move": "Rb3",
-          "evalBefore": 0.13,
-          "evalAfter": 0.03
+          "evalBefore": 0.11,
+          "evalAfter": 0.19
         }
       ]
     },
@@ -1808,28 +1818,28 @@
       "gameId": "Goa, India",
       "white": "Yakubboev, Nodirbek",
       "black": "Donchenko, Alexander",
-      "whiteRating": null,
-      "blackRating": null,
-      "whiteACPL": 16.1,
-      "blackACPL": 23.8,
-      "whiteAccuracy": 94.6,
-      "blackAccuracy": 92.4,
+      "whiteRating": 2689,
+      "blackRating": 2641,
+      "whiteACPL": 10.9,
+      "blackACPL": 15.5,
+      "whiteAccuracy": 96.5,
+      "blackAccuracy": 95.1,
       "whiteMoveQuality": {
         "blunders": 0,
         "mistakes": 0,
-        "inaccuracies": 3,
-        "good": 6,
-        "excellent": 35
+        "inaccuracies": 1,
+        "good": 7,
+        "excellent": 36
       },
       "blackMoveQuality": {
         "blunders": 0,
-        "mistakes": 1,
-        "inaccuracies": 4,
-        "good": 8,
-        "excellent": 30
+        "mistakes": 0,
+        "inaccuracies": 2,
+        "good": 6,
+        "excellent": 35
       },
-      "whiteEngineMoves": 35,
-      "blackEngineMoves": 30,
+      "whiteEngineMoves": 36,
+      "blackEngineMoves": 35,
       "biggestBlunder": null,
       "biggestComeback": null,
       "luckyEscape": null,
@@ -1839,367 +1849,367 @@
           "moveNumber": 1,
           "color": "white",
           "move": "d4",
-          "evalBefore": 0.43,
-          "evalAfter": 0.26
+          "evalBefore": 0.39,
+          "evalAfter": 0.23
         },
         {
           "ply": 2,
           "moveNumber": 1,
           "color": "black",
           "move": "Nf6",
-          "evalBefore": 0.26,
-          "evalAfter": 0.26
+          "evalBefore": 0.23,
+          "evalAfter": 0.25
         },
         {
           "ply": 3,
           "moveNumber": 2,
           "color": "white",
           "move": "c4",
-          "evalBefore": 0.26,
-          "evalAfter": 0.33
+          "evalBefore": 0.25,
+          "evalAfter": 0.31
         },
         {
           "ply": 4,
           "moveNumber": 2,
           "color": "black",
           "move": "g6",
-          "evalBefore": 0.33,
-          "evalAfter": 0.26
+          "evalBefore": 0.31,
+          "evalAfter": 0.32
         },
         {
           "ply": 5,
           "moveNumber": 3,
           "color": "white",
           "move": "f3",
-          "evalBefore": 0.26,
-          "evalAfter": 0.07
+          "evalBefore": 0.32,
+          "evalAfter": 0.29
         },
         {
           "ply": 6,
           "moveNumber": 3,
           "color": "black",
           "move": "c5",
-          "evalBefore": 0.07,
-          "evalAfter": 0.17
+          "evalBefore": 0.29,
+          "evalAfter": 0.16
         },
         {
           "ply": 7,
           "moveNumber": 4,
           "color": "white",
           "move": "d5",
-          "evalBefore": 0.17,
-          "evalAfter": 0.33
+          "evalBefore": 0.16,
+          "evalAfter": 0.16
         },
         {
           "ply": 8,
           "moveNumber": 4,
           "color": "black",
           "move": "d6",
-          "evalBefore": 0.33,
-          "evalAfter": 0.28
+          "evalBefore": 0.16,
+          "evalAfter": 0.09
         },
         {
           "ply": 9,
           "moveNumber": 5,
           "color": "white",
           "move": "e4",
-          "evalBefore": 0.28,
-          "evalAfter": 0.35
+          "evalBefore": 0.09,
+          "evalAfter": 0.13
         },
         {
           "ply": 10,
           "moveNumber": 5,
           "color": "black",
           "move": "Bg7",
-          "evalBefore": 0.35,
-          "evalAfter": 0.28
+          "evalBefore": 0.13,
+          "evalAfter": 0.26
         },
         {
           "ply": 11,
           "moveNumber": 6,
           "color": "white",
           "move": "Ne2",
-          "evalBefore": 0.28,
-          "evalAfter": 0.35
+          "evalBefore": 0.26,
+          "evalAfter": 0.25
         },
         {
           "ply": 12,
           "moveNumber": 6,
           "color": "black",
           "move": "e6",
-          "evalBefore": 0.35,
-          "evalAfter": 0.24
+          "evalBefore": 0.25,
+          "evalAfter": 0.22
         },
         {
           "ply": 13,
           "moveNumber": 7,
           "color": "white",
           "move": "Nec3",
-          "evalBefore": 0.24,
-          "evalAfter": 0.11
+          "evalBefore": 0.22,
+          "evalAfter": 0.29
         },
         {
           "ply": 14,
           "moveNumber": 7,
           "color": "black",
           "move": "exd5",
-          "evalBefore": 0.11,
-          "evalAfter": 0.31
+          "evalBefore": 0.29,
+          "evalAfter": 0.46
         },
         {
           "ply": 15,
           "moveNumber": 8,
           "color": "white",
           "move": "cxd5",
-          "evalBefore": 0.31,
-          "evalAfter": 0.29
+          "evalBefore": 0.46,
+          "evalAfter": 0.5
         },
         {
           "ply": 16,
           "moveNumber": 8,
           "color": "black",
           "move": "a6",
-          "evalBefore": 0.29,
-          "evalAfter": 0.51
+          "evalBefore": 0.5,
+          "evalAfter": 0.58
         },
         {
           "ply": 17,
           "moveNumber": 9,
           "color": "white",
           "move": "a4",
-          "evalBefore": 0.51,
-          "evalAfter": 0.4
+          "evalBefore": 0.58,
+          "evalAfter": 0.54
         },
         {
           "ply": 18,
           "moveNumber": 9,
           "color": "black",
           "move": "Nh5",
-          "evalBefore": 0.4,
-          "evalAfter": 0.67
+          "evalBefore": 0.54,
+          "evalAfter": 0.94
         },
         {
           "ply": 19,
           "moveNumber": 10,
           "color": "white",
           "move": "Qe2",
-          "evalBefore": 0.67,
-          "evalAfter": 0.27
+          "evalBefore": 0.94,
+          "evalAfter": 0.44
         },
         {
           "ply": 20,
           "moveNumber": 10,
           "color": "black",
           "move": "Bd4",
-          "evalBefore": 0.27,
-          "evalAfter": 0.42
+          "evalBefore": 0.44,
+          "evalAfter": 0.36
         },
         {
           "ply": 21,
           "moveNumber": 11,
           "color": "white",
           "move": "g4",
-          "evalBefore": 0.42,
-          "evalAfter": 0.12
+          "evalBefore": 0.36,
+          "evalAfter": 0.01
         },
         {
           "ply": 22,
           "moveNumber": 11,
           "color": "black",
           "move": "Qh4+",
-          "evalBefore": 0.12,
-          "evalAfter": 0.8
+          "evalBefore": 0.01,
+          "evalAfter": 0.79
         },
         {
           "ply": 23,
           "moveNumber": 12,
           "color": "white",
           "move": "Kd1",
-          "evalBefore": 0.8,
-          "evalAfter": 0.58
+          "evalBefore": 0.79,
+          "evalAfter": 1.04
         },
         {
           "ply": 24,
           "moveNumber": 12,
           "color": "black",
           "move": "Nf6",
-          "evalBefore": 0.58,
-          "evalAfter": 1.15
+          "evalBefore": 1.04,
+          "evalAfter": 1.2
         },
         {
           "ply": 25,
           "moveNumber": 13,
           "color": "white",
           "move": "Kc2",
-          "evalBefore": 1.15,
-          "evalAfter": 1.07
+          "evalBefore": 1.2,
+          "evalAfter": 1.4
         },
         {
           "ply": 26,
           "moveNumber": 13,
           "color": "black",
           "move": "Nfd7",
-          "evalBefore": 1.07,
-          "evalAfter": 0.91
+          "evalBefore": 1.4,
+          "evalAfter": 1.27
         },
         {
           "ply": 27,
           "moveNumber": 14,
           "color": "white",
           "move": "Bf4",
-          "evalBefore": 0.91,
-          "evalAfter": 1.19
+          "evalBefore": 1.27,
+          "evalAfter": 1.5
         },
         {
           "ply": 28,
           "moveNumber": 14,
           "color": "black",
           "move": "Qf6",
-          "evalBefore": 1.19,
-          "evalAfter": 1.21
+          "evalBefore": 1.5,
+          "evalAfter": 1.33
         },
         {
           "ply": 29,
           "moveNumber": 15,
           "color": "white",
           "move": "Be3",
-          "evalBefore": 1.21,
-          "evalAfter": 1.21
+          "evalBefore": 1.33,
+          "evalAfter": 1.34
         },
         {
           "ply": 30,
           "moveNumber": 15,
           "color": "black",
           "move": "Ne5",
-          "evalBefore": 1.21,
-          "evalAfter": 1.16
+          "evalBefore": 1.34,
+          "evalAfter": 1.21
         },
         {
           "ply": 31,
           "moveNumber": 16,
           "color": "white",
           "move": "Nd2",
-          "evalBefore": 1.16,
-          "evalAfter": 1.27
+          "evalBefore": 1.21,
+          "evalAfter": 1.36
         },
         {
           "ply": 32,
           "moveNumber": 16,
           "color": "black",
           "move": "Qh4",
-          "evalBefore": 1.27,
-          "evalAfter": 1.0
+          "evalBefore": 1.36,
+          "evalAfter": 1.35
         },
         {
           "ply": 33,
           "moveNumber": 17,
           "color": "white",
           "move": "Bf4",
-          "evalBefore": 1.0,
-          "evalAfter": 1.01
+          "evalBefore": 1.35,
+          "evalAfter": 1.66
         },
         {
           "ply": 34,
           "moveNumber": 17,
           "color": "black",
           "move": "h5",
-          "evalBefore": 1.01,
-          "evalAfter": 1.13
+          "evalBefore": 1.66,
+          "evalAfter": 1.53
         },
         {
           "ply": 35,
           "moveNumber": 18,
           "color": "white",
           "move": "Bg3",
-          "evalBefore": 1.13,
-          "evalAfter": 1.28
+          "evalBefore": 1.53,
+          "evalAfter": 1.65
         },
         {
           "ply": 36,
           "moveNumber": 18,
           "color": "black",
           "move": "Qe7",
-          "evalBefore": 1.28,
-          "evalAfter": 1.42
+          "evalBefore": 1.65,
+          "evalAfter": 1.66
         },
         {
           "ply": 37,
           "moveNumber": 19,
           "color": "white",
           "move": "gxh5",
-          "evalBefore": 1.42,
-          "evalAfter": 1.48
+          "evalBefore": 1.66,
+          "evalAfter": 1.86
         },
         {
           "ply": 38,
           "moveNumber": 19,
           "color": "black",
           "move": "Rxh5",
-          "evalBefore": 1.48,
-          "evalAfter": 1.91
+          "evalBefore": 1.86,
+          "evalAfter": 1.85
         },
         {
           "ply": 39,
           "moveNumber": 20,
           "color": "white",
           "move": "h4",
-          "evalBefore": 1.91,
-          "evalAfter": 1.47
+          "evalBefore": 1.85,
+          "evalAfter": 2.19
         },
         {
           "ply": 40,
           "moveNumber": 20,
           "color": "black",
           "move": "Ra7",
-          "evalBefore": 1.47,
-          "evalAfter": 2.99
+          "evalBefore": 2.19,
+          "evalAfter": 2.42
         },
         {
           "ply": 41,
           "moveNumber": 21,
           "color": "white",
           "move": "a5",
-          "evalBefore": 2.99,
-          "evalAfter": 2.02
+          "evalBefore": 2.42,
+          "evalAfter": 2.11
         },
         {
           "ply": 42,
           "moveNumber": 21,
           "color": "black",
           "move": "b5",
-          "evalBefore": 2.02,
-          "evalAfter": 1.96
+          "evalBefore": 2.11,
+          "evalAfter": 2.16
         },
         {
           "ply": 43,
           "moveNumber": 22,
           "color": "white",
           "move": "axb6",
-          "evalBefore": 1.96,
-          "evalAfter": 2.11
+          "evalBefore": 2.16,
+          "evalAfter": 2.32
         },
         {
           "ply": 44,
           "moveNumber": 22,
           "color": "black",
           "move": "Rb7",
-          "evalBefore": 2.11,
-          "evalAfter": 2.29
+          "evalBefore": 2.32,
+          "evalAfter": 2.04
         },
         {
           "ply": 45,
           "moveNumber": 23,
           "color": "white",
           "move": "Bxe5",
-          "evalBefore": 2.29,
-          "evalAfter": 1.66
+          "evalBefore": 2.04,
+          "evalAfter": 1.78
         },
         {
           "ply": 46,
           "moveNumber": 23,
           "color": "black",
           "move": "Bxe5",
-          "evalBefore": 1.66,
+          "evalBefore": 1.78,
           "evalAfter": 1.75
         },
         {
@@ -2208,327 +2218,327 @@
           "color": "white",
           "move": "Nc4",
           "evalBefore": 1.75,
-          "evalAfter": 1.71
+          "evalAfter": 1.73
         },
         {
           "ply": 48,
           "moveNumber": 24,
           "color": "black",
           "move": "Rxh4",
-          "evalBefore": 1.71,
-          "evalAfter": 1.73
+          "evalBefore": 1.73,
+          "evalAfter": 2.17
         },
         {
           "ply": 49,
           "moveNumber": 25,
           "color": "white",
           "move": "Rxh4",
-          "evalBefore": 1.73,
-          "evalAfter": 1.56
+          "evalBefore": 2.17,
+          "evalAfter": 2.27
         },
         {
           "ply": 50,
           "moveNumber": 25,
           "color": "black",
           "move": "Qxh4",
-          "evalBefore": 1.56,
-          "evalAfter": 1.94
+          "evalBefore": 2.27,
+          "evalAfter": 2.36
         },
         {
           "ply": 51,
           "moveNumber": 26,
           "color": "white",
           "move": "Nxe5",
-          "evalBefore": 1.94,
-          "evalAfter": 1.47
+          "evalBefore": 2.36,
+          "evalAfter": 2.26
         },
         {
           "ply": 52,
           "moveNumber": 26,
           "color": "black",
           "move": "dxe5",
-          "evalBefore": 1.47,
-          "evalAfter": 1.59
+          "evalBefore": 2.26,
+          "evalAfter": 2.56
         },
         {
           "ply": 53,
           "moveNumber": 27,
           "color": "white",
           "move": "Qe3",
-          "evalBefore": 1.59,
-          "evalAfter": 1.4
+          "evalBefore": 2.56,
+          "evalAfter": 2.43
         },
         {
           "ply": 54,
           "moveNumber": 27,
           "color": "black",
           "move": "Rxb6",
-          "evalBefore": 1.4,
-          "evalAfter": 1.64
+          "evalBefore": 2.43,
+          "evalAfter": 1.85
         },
         {
           "ply": 55,
           "moveNumber": 28,
           "color": "white",
           "move": "b4",
-          "evalBefore": 1.64,
-          "evalAfter": 2.64
+          "evalBefore": 1.85,
+          "evalAfter": 2.68
         },
         {
           "ply": 56,
           "moveNumber": 28,
           "color": "black",
           "move": "Nd7",
-          "evalBefore": 2.64,
-          "evalAfter": 2.72
+          "evalBefore": 2.68,
+          "evalAfter": 2.74
         },
         {
           "ply": 57,
           "moveNumber": 29,
           "color": "white",
           "move": "bxc5",
-          "evalBefore": 2.72,
-          "evalAfter": 2.66
+          "evalBefore": 2.74,
+          "evalAfter": 2.59
         },
         {
           "ply": 58,
           "moveNumber": 29,
           "color": "black",
           "move": "Rb4",
-          "evalBefore": 2.66,
-          "evalAfter": 2.53
+          "evalBefore": 2.59,
+          "evalAfter": 2.71
         },
         {
           "ply": 59,
           "moveNumber": 30,
           "color": "white",
           "move": "c6",
-          "evalBefore": 2.53,
-          "evalAfter": 2.78
+          "evalBefore": 2.71,
+          "evalAfter": 2.92
         },
         {
           "ply": 60,
           "moveNumber": 30,
           "color": "black",
           "move": "Nb6",
-          "evalBefore": 2.78,
-          "evalAfter": 2.62
+          "evalBefore": 2.92,
+          "evalAfter": 2.65
         },
         {
           "ply": 61,
           "moveNumber": 31,
           "color": "white",
           "move": "Be2",
-          "evalBefore": 2.62,
-          "evalAfter": 2.57
+          "evalBefore": 2.65,
+          "evalAfter": 2.82
         },
         {
           "ply": 62,
           "moveNumber": 31,
           "color": "black",
           "move": "Qh2",
-          "evalBefore": 2.57,
-          "evalAfter": 2.64
+          "evalBefore": 2.82,
+          "evalAfter": 2.98
         },
         {
           "ply": 63,
           "moveNumber": 32,
           "color": "white",
           "move": "d6",
-          "evalBefore": 2.64,
-          "evalAfter": 2.76
+          "evalBefore": 2.98,
+          "evalAfter": 2.54
         },
         {
           "ply": 64,
           "moveNumber": 32,
           "color": "black",
           "move": "Be6",
-          "evalBefore": 2.76,
-          "evalAfter": 3.09
+          "evalBefore": 2.54,
+          "evalAfter": 3.17
         },
         {
           "ply": 65,
           "moveNumber": 33,
           "color": "white",
           "move": "d7+",
-          "evalBefore": 3.09,
-          "evalAfter": 3.09
+          "evalBefore": 3.17,
+          "evalAfter": 3.46
         },
         {
           "ply": 66,
           "moveNumber": 33,
           "color": "black",
           "move": "Bxd7",
-          "evalBefore": 3.09,
-          "evalAfter": 3.76
+          "evalBefore": 3.46,
+          "evalAfter": 4.61
         },
         {
           "ply": 67,
           "moveNumber": 34,
           "color": "white",
           "move": "cxd7+",
-          "evalBefore": 3.76,
-          "evalAfter": 3.17
+          "evalBefore": 4.61,
+          "evalAfter": 3.55
         },
         {
           "ply": 68,
           "moveNumber": 34,
           "color": "black",
           "move": "Nxd7",
-          "evalBefore": 3.17,
-          "evalAfter": 3.21
+          "evalBefore": 3.55,
+          "evalAfter": 3.56
         },
         {
           "ply": 69,
           "moveNumber": 35,
           "color": "white",
           "move": "Rxa6",
-          "evalBefore": 3.21,
-          "evalAfter": 3.09
+          "evalBefore": 3.56,
+          "evalAfter": 2.91
         },
         {
           "ply": 70,
           "moveNumber": 35,
           "color": "black",
           "move": "Kf8",
-          "evalBefore": 3.09,
-          "evalAfter": 4.0
+          "evalBefore": 2.91,
+          "evalAfter": 3.16
         },
         {
           "ply": 71,
           "moveNumber": 36,
           "color": "white",
           "move": "Rd6",
-          "evalBefore": 4.0,
-          "evalAfter": 2.91
+          "evalBefore": 3.16,
+          "evalAfter": 3.22
         },
         {
           "ply": 72,
           "moveNumber": 36,
           "color": "black",
           "move": "Rb7",
-          "evalBefore": 2.91,
-          "evalAfter": 3.11
+          "evalBefore": 3.22,
+          "evalAfter": 3.2
         },
         {
           "ply": 73,
           "moveNumber": 37,
           "color": "white",
           "move": "Qd2",
-          "evalBefore": 3.11,
-          "evalAfter": 2.75
+          "evalBefore": 3.2,
+          "evalAfter": 3.0
         },
         {
           "ply": 74,
           "moveNumber": 37,
           "color": "black",
           "move": "Nc5",
-          "evalBefore": 2.75,
-          "evalAfter": 3.39
+          "evalBefore": 3.0,
+          "evalAfter": 3.18
         },
         {
           "ply": 75,
           "moveNumber": 38,
           "color": "white",
           "move": "Qd5",
-          "evalBefore": 3.39,
-          "evalAfter": 3.51
+          "evalBefore": 3.18,
+          "evalAfter": 3.73
         },
         {
           "ply": 76,
           "moveNumber": 38,
           "color": "black",
           "move": "Rc7",
-          "evalBefore": 3.51,
-          "evalAfter": 3.41
+          "evalBefore": 3.73,
+          "evalAfter": 3.51
         },
         {
           "ply": 77,
           "moveNumber": 39,
           "color": "white",
           "move": "Rxg6",
-          "evalBefore": 3.41,
-          "evalAfter": 3.69
+          "evalBefore": 3.51,
+          "evalAfter": 3.79
         },
         {
           "ply": 78,
           "moveNumber": 39,
           "color": "black",
           "move": "Ne6",
-          "evalBefore": 3.69,
-          "evalAfter": 3.17
+          "evalBefore": 3.79,
+          "evalAfter": 3.8
         },
         {
           "ply": 79,
           "moveNumber": 40,
           "color": "white",
           "move": "Qd6+",
-          "evalBefore": 3.17,
-          "evalAfter": 3.41
+          "evalBefore": 3.8,
+          "evalAfter": 3.42
         },
         {
           "ply": 80,
           "moveNumber": 40,
           "color": "black",
           "move": "Re7",
-          "evalBefore": 3.41,
-          "evalAfter": 3.34
+          "evalBefore": 3.42,
+          "evalAfter": 3.76
         },
         {
           "ply": 81,
           "moveNumber": 41,
           "color": "white",
           "move": "Rg4",
-          "evalBefore": 3.34,
-          "evalAfter": 3.47
+          "evalBefore": 3.76,
+          "evalAfter": 3.82
         },
         {
           "ply": 82,
           "moveNumber": 41,
           "color": "black",
           "move": "f6",
-          "evalBefore": 3.47,
-          "evalAfter": 4.89
+          "evalBefore": 3.82,
+          "evalAfter": 4.71
         },
         {
           "ply": 83,
           "moveNumber": 42,
           "color": "white",
           "move": "Qb8+",
-          "evalBefore": 4.89,
-          "evalAfter": 4.67
+          "evalBefore": 4.71,
+          "evalAfter": 4.94
         },
         {
           "ply": 84,
           "moveNumber": 42,
           "color": "black",
           "move": "Re8",
-          "evalBefore": 4.67,
-          "evalAfter": 4.85
+          "evalBefore": 4.94,
+          "evalAfter": 3.91
         },
         {
           "ply": 85,
           "moveNumber": 43,
           "color": "white",
           "move": "Rg8+",
-          "evalBefore": 4.85,
-          "evalAfter": 4.81
+          "evalBefore": 3.91,
+          "evalAfter": 4.51
         },
         {
           "ply": 86,
           "moveNumber": 43,
           "color": "black",
           "move": "Kxg8",
-          "evalBefore": 4.81,
-          "evalAfter": 5.08
+          "evalBefore": 4.51,
+          "evalAfter": 4.47
         },
         {
           "ply": 87,
           "moveNumber": 44,
           "color": "white",
           "move": "Qxe8+",
-          "evalBefore": 5.08,
-          "evalAfter": 5.07
+          "evalBefore": 4.47,
+          "evalAfter": 4.54
         }
       ]
     }
@@ -2536,8 +2546,8 @@
   "summary": {
     "accuracyKing": {
       "player": "black",
-      "accuracy": 98.6,
-      "acpl": 3.5,
+      "accuracy": 98.4,
+      "acpl": 3.8,
       "white": "Wei, Yi",
       "black": "Erigaisi, Arjun",
       "gameIndex": 1,
@@ -2548,9 +2558,9 @@
     "luckyEscape": null,
     "stockfishBuddy": {
       "player": "white",
-      "engineMoves": 35,
+      "engineMoves": 36,
       "totalMoves": 39,
-      "percentage": 89.7,
+      "percentage": 92.3,
       "white": "Sindarov, Javokhir",
       "black": "Martinez Alcantara, Jose Eduardo",
       "gameIndex": 0,
@@ -2558,7 +2568,7 @@
     },
     "inaccuracyKing": {
       "player": "black",
-      "inaccuracies": 4,
+      "inaccuracies": 2,
       "totalMoves": 43,
       "white": "Yakubboev, Nodirbek",
       "black": "Donchenko, Alexander",
@@ -2567,8 +2577,8 @@
     },
     "lowestACPL": {
       "player": "black",
-      "acpl": 3.5,
-      "accuracy": 98.6,
+      "acpl": 3.8,
+      "accuracy": 98.4,
       "white": "Wei, Yi",
       "black": "Erigaisi, Arjun",
       "gameIndex": 1,
@@ -2576,26 +2586,26 @@
     },
     "highestACPL": {
       "player": "black",
-      "acpl": 23.8,
-      "accuracy": 92.4,
+      "acpl": 15.5,
+      "accuracy": 95.1,
       "white": "Yakubboev, Nodirbek",
       "black": "Donchenko, Alexander",
       "gameIndex": 3,
       "gameId": "Goa, India"
     },
     "lowestCombinedACPL": {
-      "combinedACPL": 8.1,
-      "whiteACPL": 4.6,
-      "blackACPL": 3.5,
+      "combinedACPL": 9.8,
+      "whiteACPL": 6.0,
+      "blackACPL": 3.8,
       "white": "Wei, Yi",
       "black": "Erigaisi, Arjun",
       "gameIndex": 1,
       "gameId": "Goa, India"
     },
     "highestCombinedACPL": {
-      "combinedACPL": 39.900000000000006,
-      "whiteACPL": 16.1,
-      "blackACPL": 23.8,
+      "combinedACPL": 26.4,
+      "whiteACPL": 10.9,
+      "blackACPL": 15.5,
       "white": "Yakubboev, Nodirbek",
       "black": "Donchenko, Alexander",
       "gameIndex": 3,

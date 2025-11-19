@@ -557,6 +557,20 @@ def main():
         white = game.headers.get('White', 'Unknown')
         black = game.headers.get('Black', 'Unknown')
 
+        # Extract ratings from PGN headers (WhiteElo/BlackElo)
+        # Try to convert to int, fallback to None if invalid/missing
+        try:
+            white_elo = int(game.headers.get('WhiteElo', 0))
+            white_rating = white_elo if white_elo > 0 else None
+        except (ValueError, TypeError):
+            white_rating = None
+
+        try:
+            black_elo = int(game.headers.get('BlackElo', 0))
+            black_rating = black_elo if black_elo > 0 else None
+        except (ValueError, TypeError):
+            black_rating = None
+
         # Extract gameId from headers (GameId or Site URL)
         game_id = game.headers.get('GameId')
         if not game_id:
@@ -591,18 +605,18 @@ def main():
 
         analysis = analyze_game(game, stockfish, args.depth, args.sample)
 
-        # Get ratings from metadata if available
+        # Get ratings from metadata if available (JSON input), otherwise use extracted ratings
         metadata = game_metadata.get(game_index, {})
-        white_rating = metadata.get('whiteRating')
-        black_rating = metadata.get('blackRating')
+        final_white_rating = metadata.get('whiteRating') or white_rating
+        final_black_rating = metadata.get('blackRating') or black_rating
 
         games_analyzed.append({
             'gameIndex': game_index,
             'gameId': game_id,
             'white': white,
             'black': black,
-            'whiteRating': white_rating,
-            'blackRating': black_rating,
+            'whiteRating': final_white_rating,
+            'blackRating': final_black_rating,
             **analysis
         })
 
@@ -801,14 +815,14 @@ def main():
                 'gameId': game_data['gameId']
             }
 
-    # Find worst blunder by a Super GM (2700+ rating)
+    # Find worst blunder by a strong GM (2600+ rating)
     not_so_super_gm = None
     for game_data in games_analyzed:
         if game_data['biggestBlunder']:
             blunder = game_data['biggestBlunder']
             blunder_player = blunder['player']
 
-            # Check if the blunderer is a 2700+ player
+            # Check if the blunderer is a 2600+ player (strong GM level)
             player_rating = None
             if blunder_player == 'white' and game_data.get('whiteRating'):
                 player_rating = game_data['whiteRating']
@@ -817,7 +831,7 @@ def main():
                 player_rating = game_data['blackRating']
                 player_name = game_data['black']
 
-            if player_rating and player_rating >= 2700:
+            if player_rating and player_rating >= 2600:
                 # Track worst blunder by a 2700+ player
                 if not_so_super_gm is None or blunder['severity'] > not_so_super_gm.get('severity', 0):
                     not_so_super_gm = {
