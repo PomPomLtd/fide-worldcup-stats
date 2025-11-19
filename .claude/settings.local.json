@@ -26,7 +26,8 @@
       "Bash(do echo \"Processing Round $round...\")",
       "WebFetch(domain:worldcup2025.fide.com)",
       "Bash(vercel --version:*)",
-      "Bash(unzip:*)"
+      "Bash(unzip:*)",
+      "Bash(npm install:*)"
     ],
     "deny": [],
     "ask": []
